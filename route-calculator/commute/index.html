@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Commute Calculator — Path2Anywhere</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:       #0f1117;
+      --surface:  #1a1d27;
+      --border:   #2a2d3a;
+      --accent:   #4f8ef7;
+      --accent2:  #34d399;
+      --amber:    #f59e0b;
+      --text:     #e2e8f0;
+      --muted:    #64748b;
+      --danger:   #f87171;
+      --sidebar-w: 300px;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    /* ── Header ── */
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 20px;
+      height: 52px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-shrink: 0;
+      z-index: 10;
+    }
+    header .logo { height: 32px; width: 32px; flex-shrink: 0; }
+    header h1 {
+      font-size: 15px; font-weight: 600;
+      letter-spacing: 0.05em; text-transform: uppercase; color: var(--text);
+    }
+    header .breadcrumb {
+      font-size: 13px; color: var(--muted);
+      display: flex; align-items: center; gap: 6px; margin-left: 4px;
+    }
+    header .breadcrumb a { color: var(--muted); text-decoration: none; }
+    header .breadcrumb a:hover { color: var(--text); }
+    header .breadcrumb .sep { color: var(--border); }
+
+    /* ── Layout ── */
+    .main { flex: 1; display: flex; overflow: hidden; }
+
+    /* ── Sidebar ── */
+    .sidebar {
+      width: var(--sidebar-w);
+      background: var(--surface);
+      border-right: 1px solid var(--border);
+      padding: 20px 16px;
+      display: flex; flex-direction: column; gap: 16px;
+      overflow-y: auto; flex-shrink: 0;
+    }
+
+    .field-group label {
+      display: block; font-size: 10px; font-weight: 700;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      color: var(--muted); margin-bottom: 6px;
+    }
+    .field-group .dot {
+      display: inline-block; width: 8px; height: 8px;
+      border-radius: 50%; margin-right: 6px; vertical-align: middle;
+    }
+    .dot-home { background: var(--accent); }
+    .dot-work { background: var(--accent2); }
+
+    .field-group input, .field-group select {
+      width: 100%; background: var(--bg);
+      border: 1px solid var(--border); border-radius: 6px;
+      color: var(--text); font-size: 13px; padding: 9px 10px;
+      outline: none; transition: border-color 0.15s;
+    }
+    .field-group input:focus, .field-group select:focus { border-color: var(--accent); }
+    .field-group input::placeholder { color: var(--muted); }
+    .field-group select {
+      cursor: pointer; appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%2364748b' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+      background-repeat: no-repeat; background-position: right 10px center;
+    }
+    .field-group select option { background: var(--surface); }
+
+    .days-row {
+      display: flex; align-items: center; gap: 10px;
+    }
+    .days-row input[type=number] {
+      width: 70px; flex-shrink: 0; text-align: center;
+    }
+    .days-row span { font-size: 12px; color: var(--muted); }
+
+    .divider { height: 1px; background: var(--border); }
+
+    button#calcBtn {
+      width: 100%; background: var(--accent); color: #fff;
+      border: none; border-radius: 6px; padding: 11px;
+      font-size: 13px; font-weight: 600; cursor: pointer;
+      letter-spacing: 0.04em; display: flex;
+      align-items: center; justify-content: center; gap: 8px;
+      transition: background 0.15s, opacity 0.15s;
+    }
+    button#calcBtn:hover:not(:disabled) { background: #3b7de8; }
+    button#calcBtn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+    .spinner {
+      width: 14px; height: 14px;
+      border: 2px solid rgba(255,255,255,0.3);
+      border-top-color: #fff; border-radius: 50%;
+      animation: spin 0.7s linear infinite; display: none;
+    }
+    button#calcBtn.loading .spinner { display: block; }
+    button#calcBtn.loading .btn-text { display: none; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .privacy-note {
+      font-size: 11px; color: var(--muted);
+      line-height: 1.5; text-align: center; opacity: 0.7;
+    }
+
+    #errorMsg {
+      font-size: 12px; color: var(--danger);
+      background: rgba(248,113,113,0.1);
+      border: 1px solid rgba(248,113,113,0.25);
+      border-radius: 6px; padding: 8px 10px; display: none;
+    }
+
+    /* ── Map ── */
+    #map { flex: 1; background: #1c1f2b; }
+
+    /* ── Stats bars ── */
+    .stats-bar {
+      height: 72px; background: var(--surface);
+      border-top: 1px solid var(--border);
+      display: flex; align-items: center; flex-shrink: 0;
+    }
+    .stats-bar.hidden { display: none; }
+
+    .stat-item {
+      flex: 1; display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      border-right: 1px solid var(--border); padding: 0 16px;
+    }
+    .stat-item:last-child { border-right: none; }
+
+    .stat-label {
+      font-size: 10px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.1em; color: var(--muted); margin-bottom: 4px;
+    }
+    .stat-value { font-size: 18px; font-weight: 700; color: var(--text); }
+    .stat-sub { font-size: 13px; color: var(--muted); margin-top: 2px; }
+
+    .stat-item.outbound .stat-value { color: var(--accent); }
+    .stat-item.ret      .stat-value { color: var(--accent2); }
+    .stat-item.daily    .stat-value { color: var(--amber); }
+
+    /* ── Fuel bar ── */
+    .fuel-bar {
+      background: var(--bg); border-top: 1px solid var(--border);
+      display: flex; align-items: center; flex-shrink: 0;
+    }
+    .fuel-bar.hidden { display: none; }
+
+    .fuel-item {
+      flex: 1; display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      border-right: 1px solid var(--border); padding: 10px 16px;
+    }
+    .fuel-item:last-child { border-right: none; }
+
+    .fuel-label {
+      font-size: 10px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.1em; color: var(--muted); margin-bottom: 3px;
+    }
+    .fuel-value { font-size: 14px; font-weight: 700; }
+    .fuel-co2   { font-size: 11px; color: var(--accent2); margin-top: 1px; }
+
+    .fuel-item.daily-f  .fuel-value { color: var(--amber); }
+    .fuel-item.weekly-f .fuel-value { color: var(--accent); }
+    .fuel-item.monthly-f .fuel-value { color: var(--accent2); }
+
+    /* ── Export bar ── */
+    .export-bar {
+      background: var(--surface); border-top: 1px solid var(--border);
+      padding: 10px 20px; display: flex; justify-content: flex-end; flex-shrink: 0;
+    }
+    .export-bar.hidden { display: none; }
+
+    button#exportBtn {
+      background: transparent; color: var(--accent);
+      border: 1px solid var(--accent); border-radius: 6px;
+      padding: 6px 14px; font-size: 12px; font-weight: 600;
+      cursor: pointer; letter-spacing: 0.04em;
+      display: flex; align-items: center; gap: 6px;
+      transition: background 0.15s, color 0.15s;
+    }
+    button#exportBtn:hover { background: var(--accent); color: #fff; }
+
+    /* ── Autocomplete dark override ── */
+    .pac-container {
+      background: var(--surface) !important;
+      border: 1px solid var(--border) !important;
+      border-radius: 6px !important;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.4) !important;
+      font-family: inherit !important;
+    }
+    .pac-item {
+      background: var(--surface) !important; color: var(--text) !important;
+      border-top: 1px solid var(--border) !important;
+      font-size: 13px !important; padding: 6px 10px !important;
+    }
+    .pac-item:hover, .pac-item-selected { background: var(--border) !important; }
+    .pac-item-query { color: var(--text) !important; }
+    .pac-matched { font-weight: 700; color: var(--accent) !important; }
+
+    /* ── Mobile ── */
+    @media (max-width: 768px) {
+      body { height: auto; overflow: auto; }
+      header { padding: 0 16px; }
+      header h1 { font-size: 13px; }
+      header .breadcrumb { font-size: 11px; gap: 4px; }
+
+      .main { flex-direction: column; overflow: visible; }
+
+      .sidebar {
+        width: 100%; border-right: none;
+        border-bottom: 1px solid var(--border);
+        padding: 16px; gap: 12px; overflow-y: visible;
+      }
+
+      #map { height: 55vw; min-height: 260px; max-height: 420px; flex: none; }
+
+      .stats-bar { height: auto; flex-wrap: wrap; padding: 12px 0; }
+      .stat-item {
+        flex: 1 1 45%; border-right: none;
+        border-bottom: 1px solid var(--border); padding: 10px 16px;
+      }
+      .stat-item:last-child { flex: 1 1 100%; border-bottom: none; }
+      .stat-value { font-size: 20px; }
+
+      .fuel-bar { flex-wrap: wrap; padding: 4px 0; }
+      .fuel-item {
+        flex: 1 1 45%; border-right: none;
+        border-bottom: 1px solid var(--border); padding: 10px 16px;
+      }
+      .fuel-item:last-child { flex: 1 1 100%; border-bottom: none; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img class="logo" src="../../logo.svg" alt="Path2Anywhere" />
+  <h1>Path2Anywhere</h1>
+  <div class="breadcrumb">
+    <span class="sep">/</span>
+    <a href="../../">Home</a>
+    <span class="sep">/</span>
+    <a href="../">Route Calculator</a>
+    <span class="sep">/</span>
+    <span>Commute</span>
+  </div>
+</header>
+
+<div class="main">
+  <aside class="sidebar">
+
+    <div class="field-group">
+      <label><span class="dot dot-home"></span>Home</label>
+      <input id="homeInput" type="text" placeholder="e.g. London, UK" autocomplete="off" />
+    </div>
+
+    <div class="field-group">
+      <label><span class="dot dot-work"></span>Work</label>
+      <input id="workInput" type="text" placeholder="e.g. Canary Wharf, London" autocomplete="off" />
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="field-group">
+      <label>Vehicle Type</label>
+      <select id="vehicleSelect" onchange="recalcFuel()">
+        <option value="">— Select vehicle —</option>
+        <optgroup label="Petrol">
+          <option value="small_petrol">Small Car (6 L/100km)</option>
+          <option value="medium_petrol" selected>Medium Car (8 L/100km)</option>
+          <option value="suv_petrol">SUV (11 L/100km)</option>
+        </optgroup>
+        <optgroup label="Diesel">
+          <option value="small_diesel">Small Car (5 L/100km)</option>
+          <option value="medium_diesel">Medium Car (6.5 L/100km)</option>
+          <option value="small_van_diesel">Small Van (9 L/100km)</option>
+          <option value="large_van_diesel">Large Van (13 L/100km)</option>
+        </optgroup>
+        <optgroup label="Electric">
+          <option value="electric_car">Electric Car (18 kWh/100km)</option>
+          <option value="electric_van">Electric Van (28 kWh/100km)</option>
+        </optgroup>
+      </select>
+    </div>
+
+    <div class="field-group">
+      <label>Working Days per Week</label>
+      <div class="days-row">
+        <input id="daysInput" type="number" min="1" max="7" value="5" onchange="recalcFuel()" />
+        <span>days/week (×4.33 for monthly)</span>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <button id="calcBtn" onclick="calculate()">
+      <div class="spinner"></div>
+      <span class="btn-text">Calculate Commute</span>
+    </button>
+
+    <div id="errorMsg"></div>
+
+    <p class="privacy-note">
+      🔒 Your privacy is respected.<br>
+      Addresses are processed in real time and never stored or shared.
+    </p>
+  </aside>
+
+  <div id="map"></div>
+</div>
+
+<div class="stats-bar hidden" id="statsBar">
+  <div class="stat-item outbound">
+    <div class="stat-label">Outbound — Home → Work</div>
+    <div class="stat-value" id="outKm">—</div>
+    <div class="stat-sub" id="outDur">—</div>
+  </div>
+  <div class="stat-item ret">
+    <div class="stat-label">Return — Work → Home</div>
+    <div class="stat-value" id="retKm">—</div>
+    <div class="stat-sub" id="retDur">—</div>
+  </div>
+  <div class="stat-item daily">
+    <div class="stat-label">Daily Round Trip</div>
+    <div class="stat-value" id="totalKm">—</div>
+    <div class="stat-sub" id="totalDur">—</div>
+  </div>
+</div>
+
+<div class="fuel-bar hidden" id="fuelBar">
+  <div class="fuel-item daily-f">
+    <div class="fuel-label">Daily</div>
+    <div class="fuel-value" id="dailyFuel">—</div>
+    <div class="fuel-co2"   id="dailyCo2">—</div>
+  </div>
+  <div class="fuel-item weekly-f">
+    <div class="fuel-label">Weekly</div>
+    <div class="fuel-value" id="weeklyFuel">—</div>
+    <div class="fuel-co2"   id="weeklyCo2">—</div>
+  </div>
+  <div class="fuel-item monthly-f">
+    <div class="fuel-label">Monthly</div>
+    <div class="fuel-value" id="monthlyFuel">—</div>
+    <div class="fuel-co2"   id="monthlyCo2">—</div>
+  </div>
+</div>
+
+<div class="export-bar hidden" id="exportBar">
+  <button id="exportBtn" onclick="exportCSV()">⬇ Export CSV</button>
+</div>
+
+<script>
+  const WEBHOOK_URL  = '__WEBHOOK_URL__';
+  const MAPS_API_KEY = '__MAPS_API_KEY__';
+
+  const VEHICLES = {
+    small_petrol:     { fuel: 'petrol',   rate: 6.0  },
+    medium_petrol:    { fuel: 'petrol',   rate: 8.0  },
+    suv_petrol:       { fuel: 'petrol',   rate: 11.0 },
+    small_diesel:     { fuel: 'diesel',   rate: 5.0  },
+    medium_diesel:    { fuel: 'diesel',   rate: 6.5  },
+    small_van_diesel: { fuel: 'diesel',   rate: 9.0  },
+    large_van_diesel: { fuel: 'diesel',   rate: 13.0 },
+    electric_car:     { fuel: 'electric', rate: 18.0 },
+    electric_van:     { fuel: 'electric', rate: 28.0 },
+  };
+  const CO2_FACTOR = { petrol: 2.31, diesel: 2.68, electric: 0.22 };
+
+  let map, directionsRenderer, lastResult;
+
+  function initMap() {
+    map = new google.maps.Map(document.getElementById('map'), {
+      center: { lat: 51.5, lng: 10.0 },
+      zoom: 5,
+      styles: [
+        { elementType: 'geometry',          stylers: [{ color: '#1c1f2b' }] },
+        { elementType: 'labels.text.fill',  stylers: [{ color: '#8a93a8' }] },
+        { elementType: 'labels.text.stroke',stylers: [{ color: '#1c1f2b' }] },
+        { featureType: 'road',              elementType: 'geometry', stylers: [{ color: '#2a2d3a' }] },
+        { featureType: 'road.highway',      elementType: 'geometry', stylers: [{ color: '#3a3f52' }] },
+        { featureType: 'water',             elementType: 'geometry', stylers: [{ color: '#0f1117' }] },
+        { featureType: 'administrative',    elementType: 'geometry.stroke', stylers: [{ color: '#2a2d3a' }] },
+        { featureType: 'poi',               stylers: [{ visibility: 'off' }] },
+        { featureType: 'transit',           stylers: [{ visibility: 'off' }] },
+      ],
+      disableDefaultUI: true,
+      zoomControl: true,
+      zoomControlOptions: { position: google.maps.ControlPosition.RIGHT_BOTTOM },
+    });
+
+    directionsRenderer = new google.maps.DirectionsRenderer({
+      suppressMarkers: true,
+      polylineOptions: { strokeColor: '#4f8ef7', strokeWeight: 3, strokeOpacity: 0.9 },
+    });
+    directionsRenderer.setMap(map);
+
+    ['homeInput', 'workInput'].forEach(id => {
+      new google.maps.places.Autocomplete(document.getElementById(id), { types: ['geocode'] });
+    });
+  }
+
+  async function calculate() {
+    const home = document.getElementById('homeInput').value.trim();
+    const work = document.getElementById('workInput').value.trim();
+    const errorEl = document.getElementById('errorMsg');
+    const btn = document.getElementById('calcBtn');
+
+    errorEl.style.display = 'none';
+
+    if (!home || !work) {
+      showError('Please fill in both Home and Work addresses.');
+      return;
+    }
+    if (!WEBHOOK_URL.startsWith('http')) {
+      showError('Webhook URL not configured.');
+      return;
+    }
+
+    btn.disabled = true;
+    btn.classList.add('loading');
+
+    try {
+      // Send home → work → home for a true round trip
+      const res = await fetch(WEBHOOK_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          supplier_address:     home,
+          manufacturer_address: work,
+          customer_address:     home,
+        }),
+      });
+
+      if (!res.ok) throw new Error(`Webhook returned ${res.status}`);
+      const data = await res.json();
+      displayResults(data, home, work);
+    } catch (err) {
+      showError('Could not calculate route. (' + err.message + ')');
+    } finally {
+      btn.disabled = false;
+      btn.classList.remove('loading');
+    }
+  }
+
+  function parseDurationToMins(str) {
+    const h = (str.match(/(\d+)\s*hour/) || [0, 0])[1];
+    const m = (str.match(/(\d+)\s*min/)  || [0, 0])[1];
+    return parseInt(h) * 60 + parseInt(m);
+  }
+
+  function formatMins(total) {
+    const h = Math.floor(total / 60);
+    const m = total % 60;
+    if (h === 0) return `${m} mins`;
+    return `${h} hr${h > 1 ? 's' : ''} ${m} mins`;
+  }
+
+  function displayResults(data, homeAddr, workAddr) {
+    const outKm  = data.supplier_to_manufacturer_km;
+    const retKm  = data.manufacturer_to_customer_km;
+    const totKm  = data.total_route_km;
+    const outDur = data.supplier_to_manufacturer_duration;
+    const retDur = data.manufacturer_to_customer_duration;
+    const totalMins = parseDurationToMins(outDur) + parseDurationToMins(retDur);
+    const totalDurText = formatMins(totalMins);
+
+    document.getElementById('outKm').textContent   = outKm + ' km';
+    document.getElementById('outDur').textContent  = outDur;
+    document.getElementById('retKm').textContent   = retKm + ' km';
+    document.getElementById('retDur').textContent  = retDur;
+    document.getElementById('totalKm').textContent = totKm + ' km';
+    document.getElementById('totalDur').textContent = totalDurText;
+    document.getElementById('statsBar').classList.remove('hidden');
+    document.getElementById('exportBar').classList.remove('hidden');
+
+    lastResult = { data, homeAddr, workAddr, totalDurText, totKm };
+    recalcFuel();
+
+    // Draw outbound route on map
+    const directionsService = new google.maps.DirectionsService();
+    directionsService.route({
+      origin:      { lat: data.supplier_lat, lng: data.supplier_lng },
+      destination: { lat: data.manufacturer_lat, lng: data.manufacturer_lng },
+      travelMode: google.maps.TravelMode.DRIVING,
+    }, (result, status) => {
+      if (status === 'OK') directionsRenderer.setDirections(result);
+      placeMarkers(data, homeAddr, workAddr);
+    });
+  }
+
+  function placeMarkers(data, homeAddr, workAddr) {
+    [
+      { lat: data.supplier_lat,     lng: data.supplier_lng,     label: 'H', color: '#4f8ef7', title: homeAddr },
+      { lat: data.manufacturer_lat, lng: data.manufacturer_lng, label: 'W', color: '#34d399', title: workAddr },
+    ].forEach(({ lat, lng, label, color, title }) => {
+      new google.maps.Marker({
+        position: { lat, lng }, map, title,
+        icon: {
+          path: google.maps.SymbolPath.CIRCLE,
+          scale: 10, fillColor: color, fillOpacity: 1,
+          strokeColor: '#0f1117', strokeWeight: 2,
+        },
+        label: { text: label, color: '#0f1117', fontSize: '11px', fontWeight: '700' },
+      });
+    });
+  }
+
+  function recalcFuel() {
+    if (!lastResult) return;
+    const vehicleKey = document.getElementById('vehicleSelect').value;
+    const days = parseFloat(document.getElementById('daysInput').value) || 5;
+    if (!vehicleKey) { document.getElementById('fuelBar').classList.add('hidden'); return; }
+
+    const vehicle = VEHICLES[vehicleKey];
+    const isElectric = vehicle.fuel === 'electric';
+    const unit = isElectric ? 'kWh' : 'L';
+    const factor = CO2_FACTOR[vehicle.fuel];
+
+    const dailyFuel = parseFloat((lastResult.totKm * vehicle.rate / 100).toFixed(1));
+    const dailyCo2  = parseFloat((dailyFuel * factor).toFixed(1));
+    const weeklyFuel  = parseFloat((dailyFuel * days).toFixed(1));
+    const weeklyCo2   = parseFloat((dailyCo2  * days).toFixed(1));
+    const monthlyFuel = parseFloat((weeklyFuel * 4.33).toFixed(1));
+    const monthlyCo2  = parseFloat((weeklyCo2  * 4.33).toFixed(1));
+
+    document.getElementById('dailyFuel').textContent   = `${dailyFuel} ${unit}`;
+    document.getElementById('dailyCo2').textContent    = `${dailyCo2} kg CO₂`;
+    document.getElementById('weeklyFuel').textContent  = `${weeklyFuel} ${unit}`;
+    document.getElementById('weeklyCo2').textContent   = `${weeklyCo2} kg CO₂`;
+    document.getElementById('monthlyFuel').textContent = `${monthlyFuel} ${unit}`;
+    document.getElementById('monthlyCo2').textContent  = `${monthlyCo2} kg CO₂`;
+    document.getElementById('fuelBar').classList.remove('hidden');
+
+    lastResult.fuelData = { unit, dailyFuel, dailyCo2, weeklyFuel, weeklyCo2, monthlyFuel, monthlyCo2, days, vehicleKey };
+  }
+
+  function showError(msg) {
+    const el = document.getElementById('errorMsg');
+    el.textContent = msg;
+    el.style.display = 'block';
+  }
+
+  function exportCSV() {
+    if (!lastResult) return;
+    const { data, homeAddr, workAddr, totalDurText, totKm } = lastResult;
+    const rows = [
+      ['Field', 'Value'],
+      ['Home', homeAddr],
+      ['Work', workAddr],
+      ['Outbound Distance (km)', data.supplier_to_manufacturer_km],
+      ['Outbound Duration', data.supplier_to_manufacturer_duration],
+      ['Return Distance (km)', data.manufacturer_to_customer_km],
+      ['Return Duration', data.manufacturer_to_customer_duration],
+      ['Daily Round Trip (km)', totKm],
+      ['Daily Total Duration', totalDurText],
+    ];
+    if (lastResult.fuelData) {
+      const { unit, dailyFuel, dailyCo2, weeklyFuel, weeklyCo2, monthlyFuel, monthlyCo2, days, vehicleKey } = lastResult.fuelData;
+      rows.push(
+        ['Vehicle Type', vehicleKey.replace(/_/g, ' ')],
+        ['Working Days/Week', days],
+        [`Daily Fuel (${unit})`, dailyFuel],
+        ['Daily CO₂ (kg)', dailyCo2],
+        [`Weekly Fuel (${unit})`, weeklyFuel],
+        ['Weekly CO₂ (kg)', weeklyCo2],
+        [`Monthly Fuel (${unit})`, monthlyFuel],
+        ['Monthly CO₂ (kg)', monthlyCo2],
+      );
+    }
+    const csv = rows.map(r => r.map(v => `"${String(v).replace(/"/g, '""')}"`).join(',')).join('\n');
+    const blob = new Blob([csv], { type: 'text/csv' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'commute-result.csv';
+    a.click();
+  }
+
+  document.addEventListener('keydown', e => { if (e.key === 'Enter') calculate(); });
+</script>
+
+<script
+  src="https://maps.googleapis.com/maps/api/js?key=__MAPS_API_KEY__&libraries=places&callback=initMap"
+  async defer>
+</script>
+
+</body>
+</html>
