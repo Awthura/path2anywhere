@@ -189,6 +189,31 @@
     .fuel-item.there-f .fuel-value { color: var(--accent); }
     .fuel-item.back-f  .fuel-value { color: var(--accent2); }
     .fuel-item.total-f .fuel-value { color: var(--amber); }
+    .fuel-cost { font-size: 12px; color: #f59e0b; margin-top: 3px; font-weight: 600; }
+
+    /* ── Fuel cost estimation ── */
+    #estimateCostBtn {
+      display: none; background: transparent; color: var(--accent2);
+      border: 1px solid var(--accent2); border-radius: 8px;
+      padding: 9px 16px; font-size: 12px; font-weight: 600;
+      cursor: pointer; letter-spacing: 0.04em; width: 100%;
+      transition: background 0.15s, color 0.15s;
+    }
+    #estimateCostBtn:hover { background: var(--accent2); color: #0f1117; }
+    #estimateCostBtn:disabled { opacity: 0.6; cursor: default; }
+    .cost-section { display: none; flex-direction: column; gap: 10px; }
+    .cost-section.visible { display: flex; }
+    .price-row { display: flex; align-items: center; gap: 6px; }
+    .price-row input[type=number] {
+      flex: 1; background: var(--bg); border: 1px solid var(--border);
+      border-radius: 6px; padding: 7px 10px; color: var(--text);
+      font-size: 14px; font-weight: 700; min-width: 0;
+    }
+    .price-row input[type=number]:focus { outline: none; border-color: var(--accent); }
+    .price-currency { font-size: 12px; color: var(--muted); white-space: nowrap; }
+    .price-hint { font-size: 11px; color: var(--muted); margin-top: 3px; }
+    .price-warn { font-size: 11px; color: #f59e0b; margin-top: 3px; }
+    .price-warn.danger { color: var(--danger); }
 
     /* ── Export bar ── */
     .export-bar {
@@ -357,6 +382,21 @@
     <div id="errorMsg"></div>
 
     <p class="privacy-note">🔒 No data stored. Addresses are processed in real time and never retained.</p>
+
+    <button id="estimateCostBtn" onclick="startCostEstimation()">⛽ Estimate Fuel Cost</button>
+
+    <div class="cost-section" id="costSection">
+      <div class="field-group">
+        <label id="priceLabel">Fuel Price</label>
+        <div class="price-row">
+          <input type="number" id="fuelPriceInput" min="0" step="0.001" oninput="onFuelPriceInput()" />
+          <span class="price-currency" id="priceCurrency">€/L</span>
+        </div>
+        <div class="price-hint" id="priceHint"></div>
+        <div class="price-warn" id="priceWarn"></div>
+      </div>
+    </div>
+
   </aside>
 
   <div id="map"></div>
@@ -385,16 +425,19 @@
     <div class="fuel-label">There</div>
     <div class="fuel-value" id="thereFuel">—</div>
     <div class="fuel-co2"   id="thereCo2">—</div>
+    <div class="fuel-cost"  id="thereCost"></div>
   </div>
   <div class="fuel-item back-f">
     <div class="fuel-label">Back</div>
     <div class="fuel-value" id="backFuel">—</div>
     <div class="fuel-co2"   id="backCo2">—</div>
+    <div class="fuel-cost"  id="backCost"></div>
   </div>
   <div class="fuel-item total-f">
     <div class="fuel-label">Total Away Day</div>
     <div class="fuel-value" id="totalFuel">—</div>
     <div class="fuel-co2"   id="totalCo2">—</div>
+    <div class="fuel-cost"  id="totalCostEl"></div>
   </div>
 </div>
 
@@ -421,6 +464,83 @@
 
   let teams = [];
   let map, directionsRenderer, lastResult;
+  let fuelPrices = null, detectedCountryCode = null, costEnabled = false;
+
+  async function loadFuelPrices() {
+    if (fuelPrices) return fuelPrices;
+    try {
+      const r = await fetch('../../fuel-prices.json');
+      fuelPrices = await r.json();
+    } catch (e) { console.warn('Could not load fuel-prices.json:', e); }
+    return fuelPrices;
+  }
+
+  function detectCountry(lat, lng) {
+    return new Promise(resolve => {
+      new google.maps.Geocoder().geocode({ location: { lat, lng } }, (results, status) => {
+        if (status !== 'OK' || !results.length) { resolve(null); return; }
+        for (const comp of results[0].address_components) {
+          if (comp.types.includes('country')) { resolve(comp.short_name); return; }
+        }
+        resolve(null);
+      });
+    });
+  }
+
+  async function startCostEstimation() {
+    const btn = document.getElementById('estimateCostBtn');
+    btn.disabled = true;
+    btn.textContent = '⛽ Detecting…';
+    const prices = await loadFuelPrices();
+    const { supplier_lat: lat, supplier_lng: lng } = lastResult.data;
+    const code = await detectCountry(lat, lng);
+    detectedCountryCode = code;
+    btn.textContent = '⛽ Estimate Fuel Cost';
+    btn.disabled = false;
+
+    const vehicleKey = document.getElementById('vehicleSelect').value;
+    const fuelType = vehicleKey ? VEHICLES[vehicleKey].fuel : 'petrol';
+    const isElectric = fuelType === 'electric';
+    const entry = prices && code && prices.countries[code];
+    const fuelKey = isElectric ? 'electric_kwh' : fuelType;
+    const displayMult = (!isElectric && entry && entry.display_multiplier) || 1;
+    const rawPrice = entry ? entry[fuelKey] : null;
+    const displayPrice = rawPrice !== null ? parseFloat((rawPrice * displayMult).toFixed(4)) : null;
+    const sym = entry ? entry.symbol : '';
+    const displayUnit = isElectric ? 'kWh' : (entry && entry.display_unit ? entry.display_unit : 'L');
+
+    document.getElementById('priceLabel').textContent = isElectric ? 'Electricity Price' : (fuelType === 'diesel' ? 'Diesel Price' : 'Petrol Price');
+    document.getElementById('priceCurrency').textContent = `${sym}/${displayUnit}`;
+    document.getElementById('priceHint').textContent = code ? `Auto-detected: ${code}` : 'Country not detected — enter price manually';
+    if (displayPrice !== null) document.getElementById('fuelPriceInput').value = displayPrice;
+
+    document.getElementById('costSection').classList.add('visible');
+    costEnabled = true;
+    validateFuelPrice();
+    recalcFuel();
+  }
+
+  function validateFuelPrice() {
+    if (!fuelPrices) return;
+    const price = parseFloat(document.getElementById('fuelPriceInput').value);
+    const warnEl = document.getElementById('priceWarn');
+    warnEl.textContent = '';
+    warnEl.className = 'price-warn';
+    if (isNaN(price) || price <= 0) return;
+    const entry = detectedCountryCode && fuelPrices.countries[detectedCountryCode];
+    const displayMult = (entry && entry.display_multiplier) || 1;
+    const pricePerLitre = price / displayMult;
+    if (pricePerLitre > 15) return;
+    const v = fuelPrices.validation;
+    if (pricePerLitre < v.floor_per_litre || pricePerLitre > v.ceiling_per_litre) {
+      warnEl.textContent = `Price outside expected range (${v.floor_per_litre}–${v.ceiling_per_litre} per unit).`;
+      warnEl.classList.add('danger');
+    } else if (pricePerLitre < v.warn_below_per_litre || pricePerLitre > v.warn_above_per_litre) {
+      warnEl.textContent = 'Unusual price — please verify.';
+    }
+  }
+
+  function onFuelPriceInput() { validateFuelPrice(); recalcFuel(); }
 
   // Load teams data and populate home-team dropdown
   fetch('../../teams.json')
@@ -578,6 +698,7 @@
     document.getElementById('statsBar').classList.remove('hidden');
     document.getElementById('exportBar').classList.remove('hidden');
 
+    document.getElementById('estimateCostBtn').style.display = 'block';
     lastResult = { data, homeAddr, team, totalDurText, totKm };
     recalcFuel();
 
@@ -639,8 +760,23 @@
     document.getElementById('backCo2').textContent   = `${back.co2} kg CO₂`;
     document.getElementById('totalFuel').textContent = `${total.consumed} ${unit}`;
     document.getElementById('totalCo2').textContent  = `${total.co2} kg CO₂`;
-    document.getElementById('fuelBar').classList.remove('hidden');
 
+    ['thereCost', 'backCost', 'totalCostEl'].forEach(id => { document.getElementById(id).textContent = ''; });
+    if (costEnabled) {
+      const priceInput = parseFloat(document.getElementById('fuelPriceInput').value);
+      const entry = fuelPrices && detectedCountryCode && fuelPrices.countries[detectedCountryCode];
+      const displayMult = (!isElectric && entry && entry.display_multiplier) || 1;
+      const sym = entry ? entry.symbol : '';
+      if (!isNaN(priceInput) && priceInput > 0) {
+        const ppl = priceInput / displayMult;
+        const fmt = n => sym + n.toFixed(2);
+        document.getElementById('thereCost').textContent    = fmt(there.consumed * ppl);
+        document.getElementById('backCost').textContent     = fmt(back.consumed * ppl);
+        document.getElementById('totalCostEl').textContent  = fmt(total.consumed * ppl);
+      }
+    }
+
+    document.getElementById('fuelBar').classList.remove('hidden');
     lastResult.fuelData = { unit, there, back, total, vehicleKey };
   }
 
@@ -678,6 +814,22 @@
         [`Total Fuel (${unit})`, total.consumed],
         ['Total CO₂ (kg)', total.co2],
       );
+      if (costEnabled) {
+        const priceInput = parseFloat(document.getElementById('fuelPriceInput').value);
+        const entry = fuelPrices && detectedCountryCode && fuelPrices.countries[detectedCountryCode];
+        const displayMult = (entry && entry.display_multiplier) || 1;
+        const ppl = priceInput / displayMult;
+        const sym = entry ? entry.symbol : '';
+        const curr = document.getElementById('priceCurrency').textContent;
+        if (!isNaN(priceInput) && priceInput > 0) {
+          rows.push(
+            [`Fuel Price (${curr})`, priceInput],
+            ['There Fuel Cost', sym + (there.consumed * ppl).toFixed(2)],
+            ['Back Fuel Cost', sym + (back.consumed * ppl).toFixed(2)],
+            ['Total Fuel Cost', sym + (total.consumed * ppl).toFixed(2)],
+          );
+        }
+      }
     }
     const csv = rows.map(r => r.map(v => `"${String(v).replace(/"/g, '""')}"`).join(',')).join('\n');
     const blob = new Blob([csv], { type: 'text/csv' });
