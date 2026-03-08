@@ -250,6 +250,58 @@
     }
     .pac-item-query { color: var(--text) !important; }
     .pac-matched { font-weight: 700; color: var(--accent) !important; }
+
+    @media (max-width: 768px) {
+      body {
+        height: auto;
+        overflow: auto;
+      }
+
+      header { padding: 0 16px; }
+      header h1 { font-size: 13px; }
+      header .breadcrumb { font-size: 11px; gap: 4px; }
+
+      .main {
+        flex-direction: column;
+        overflow: visible;
+      }
+
+      .sidebar {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid var(--border);
+        padding: 16px;
+        gap: 12px;
+        overflow-y: visible;
+      }
+
+      #map {
+        height: 55vw;
+        min-height: 260px;
+        max-height: 420px;
+        flex: none;
+      }
+
+      .stats-bar {
+        height: auto;
+        flex-wrap: wrap;
+        padding: 12px 0;
+      }
+
+      .stat-item {
+        flex: 1 1 45%;
+        border-right: none;
+        border-bottom: 1px solid var(--border);
+        padding: 10px 16px;
+      }
+
+      .stat-item:last-child {
+        flex: 1 1 100%;
+        border-bottom: none;
+      }
+
+      .stat-value { font-size: 20px; }
+    }
   </style>
 </head>
 <body>
