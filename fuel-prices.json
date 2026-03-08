@@ -1,0 +1,92 @@
+{
+  "_meta": {
+    "updated": "2026-03-08",
+    "sources": {
+      "US": "EIA.gov (Weekly Retail Gasoline Prices)",
+      "EU": "EU Oil Bulletin (European Commission)",
+      "Other": "GlobalPetrolPrices.com estimates"
+    },
+    "note": "National average retail prices including taxes. Per litre in local currency (US: per litre equivalent converted from gallon). Updated weekly by GitHub Actions. For cost estimation only."
+  },
+  "validation": {
+    "floor_per_litre": 0.02,
+    "ceiling_per_litre": 3.50,
+    "warn_below_per_litre": 0.50,
+    "warn_above_per_litre": 2.80
+  },
+  "countries": {
+    "AT": { "petrol": 1.62, "diesel": 1.55, "electric_kwh": 0.22, "currency": "EUR", "symbol": "€", "unit": "litre" },
+    "BE": { "petrol": 1.78, "diesel": 1.68, "electric_kwh": 0.33, "currency": "EUR", "symbol": "€", "unit": "litre" },
+    "BG": { "petrol": 2.50, "diesel": 2.45, "electric_kwh": 0.22, "currency": "BGN", "symbol": "лв", "unit": "litre" },
+    "CY": { "petrol": 1.55, "diesel": 1.42, "electric_kwh": 0.21, "currency": "EUR", "symbol": "€", "unit": "litre" },
+    "CZ": { "petrol": 38.0, "diesel": 36.5, "electric_kwh": 6.50, "currency": "CZK", "symbol": "Kč", "unit": "litre" },
+    "DE": { "petrol": 1.75, "diesel": 1.68, "electric_kwh": 0.31, "currency": "EUR", "symbol": "€", "unit": "litre" },
+    "DK": { "petrol": 15.2, "diesel": 14.8, "electric_kwh": 2.80, "currency": "DKK", "symbol": "kr", "unit": "litre" },
+    "EE": { "petrol": 1.62, "diesel": 1.55, "electric_kwh": 0.19, "currency": "EUR", "symbol": "€", "unit": "litre" },
+    "ES": { "petrol": 1.58, "diesel": 1.48, "electric_kwh": 0.18, "currency": "EUR", "symbol": "€", "unit": "litre" },
+    "FI": { "petrol": 1.85, "diesel": 1.68, "electric_kwh": 0.15, "currency": "EUR", "symbol": "€", "unit": "litre" },
+    "FR": { "petrol": 1.72, "diesel": 1.67, "electric_kwh": 0.24, "currency": "EUR", "symbol": "€", "unit": "litre" },
+    "GR": { "petrol": 1.85, "diesel": 1.70, "electric_kwh": 0.18, "currency": "EUR", "symbol": "€", "unit": "litre" },
+    "HR": { "petrol": 1.68, "diesel": 1.58, "electric_kwh": 0.14, "currency": "EUR", "symbol": "€", "unit": "litre" },
+    "HU": { "petrol": 570,  "diesel": 580,  "electric_kwh": 100,  "currency": "HUF", "symbol": "Ft", "unit": "litre" },
+    "IE": { "petrol": 1.80, "diesel": 1.68, "electric_kwh": 0.28, "currency": "EUR", "symbol": "€", "unit": "litre" },
+    "IT": { "petrol": 1.82, "diesel": 1.73, "electric_kwh": 0.28, "currency": "EUR", "symbol": "€", "unit": "litre" },
+    "LT": { "petrol": 1.55, "diesel": 1.48, "electric_kwh": 0.16, "currency": "EUR", "symbol": "€", "unit": "litre" },
+    "LU": { "petrol": 1.52, "diesel": 1.45, "electric_kwh": 0.25, "currency": "EUR", "symbol": "€", "unit": "litre" },
+    "LV": { "petrol": 1.58, "diesel": 1.52, "electric_kwh": 0.19, "currency": "EUR", "symbol": "€", "unit": "litre" },
+    "MT": { "petrol": 1.55, "diesel": 1.45, "electric_kwh": 0.18, "currency": "EUR", "symbol": "€", "unit": "litre" },
+    "NL": { "petrol": 2.05, "diesel": 1.72, "electric_kwh": 0.32, "currency": "EUR", "symbol": "€", "unit": "litre" },
+    "PL": { "petrol": 6.50, "diesel": 6.80, "electric_kwh": 0.85, "currency": "PLN", "symbol": "zł", "unit": "litre" },
+    "PT": { "petrol": 1.72, "diesel": 1.60, "electric_kwh": 0.22, "currency": "EUR", "symbol": "€", "unit": "litre" },
+    "RO": { "petrol": 7.20, "diesel": 7.40, "electric_kwh": 1.10, "currency": "RON", "symbol": "lei", "unit": "litre" },
+    "SE": { "petrol": 17.5, "diesel": 19.5, "electric_kwh": 1.60, "currency": "SEK", "symbol": "kr", "unit": "litre" },
+    "SI": { "petrol": 1.62, "diesel": 1.52, "electric_kwh": 0.18, "currency": "EUR", "symbol": "€", "unit": "litre" },
+    "SK": { "petrol": 1.68, "diesel": 1.58, "electric_kwh": 0.18, "currency": "EUR", "symbol": "€", "unit": "litre" },
+
+    "GB": { "petrol": 1.45, "diesel": 1.52, "electric_kwh": 0.29, "currency": "GBP", "symbol": "£", "unit": "litre" },
+    "NO": { "petrol": 21.5, "diesel": 19.8, "electric_kwh": 1.60, "currency": "NOK", "symbol": "kr", "unit": "litre" },
+    "CH": { "petrol": 1.82, "diesel": 1.70, "electric_kwh": 0.26, "currency": "CHF", "symbol": "Fr", "unit": "litre" },
+    "IS": { "petrol": 290,  "diesel": 310,  "electric_kwh": 25,   "currency": "ISK", "symbol": "kr", "unit": "litre" },
+    "RS": { "petrol": 185,  "diesel": 175,  "electric_kwh": 12,   "currency": "RSD", "symbol": "дин", "unit": "litre" },
+    "TR": { "petrol": 45.0, "diesel": 43.0, "electric_kwh": 6.00, "currency": "TRY", "symbol": "₺", "unit": "litre" },
+
+    "US": { "petrol": 0.87, "diesel": 1.00, "electric_kwh": 0.16, "currency": "USD", "symbol": "$", "unit": "litre", "display_unit": "gallon", "display_multiplier": 3.78541 },
+    "CA": { "petrol": 1.42, "diesel": 1.52, "electric_kwh": 0.18, "currency": "CAD", "symbol": "C$", "unit": "litre" },
+    "MX": { "petrol": 24.5, "diesel": 24.8, "electric_kwh": 2.50, "currency": "MXN", "symbol": "MX$", "unit": "litre" },
+
+    "AU": { "petrol": 1.90, "diesel": 1.95, "electric_kwh": 0.32, "currency": "AUD", "symbol": "A$", "unit": "litre" },
+    "NZ": { "petrol": 2.45, "diesel": 2.15, "electric_kwh": 0.28, "currency": "NZD", "symbol": "NZ$", "unit": "litre" },
+    "JP": { "petrol": 175,  "diesel": 155,  "electric_kwh": 31,   "currency": "JPY", "symbol": "¥", "unit": "litre" },
+    "KR": { "petrol": 1680, "diesel": 1580, "electric_kwh": 140,  "currency": "KRW", "symbol": "₩", "unit": "litre" },
+    "SG": { "petrol": 2.80, "diesel": 2.20, "electric_kwh": 0.28, "currency": "SGD", "symbol": "S$", "unit": "litre" },
+    "HK": { "petrol": 22.0, "diesel": 21.0, "electric_kwh": 1.50, "currency": "HKD", "symbol": "HK$", "unit": "litre" },
+    "IN": { "petrol": 96.0, "diesel": 90.0, "electric_kwh": 8.00, "currency": "INR", "symbol": "₹", "unit": "litre" },
+    "CN": { "petrol": 7.80, "diesel": 7.50, "electric_kwh": 0.85, "currency": "CNY", "symbol": "¥", "unit": "litre" },
+    "TH": { "petrol": 42.0, "diesel": 33.0, "electric_kwh": 5.00, "currency": "THB", "symbol": "฿", "unit": "litre" },
+    "MY": { "petrol": 2.05, "diesel": 2.15, "electric_kwh": 0.57, "currency": "MYR", "symbol": "RM", "unit": "litre" },
+    "PH": { "petrol": 58.0, "diesel": 54.0, "electric_kwh": 12.0, "currency": "PHP", "symbol": "₱", "unit": "litre" },
+    "ID": { "petrol": 10000,"diesel": 6800, "electric_kwh": 1600, "currency": "IDR", "symbol": "Rp", "unit": "litre" },
+    "TW": { "petrol": 32.0, "diesel": 28.0, "electric_kwh": 2.80, "currency": "TWD", "symbol": "NT$", "unit": "litre" },
+    "VN": { "petrol": 24000,"diesel": 22000,"electric_kwh": 3000, "currency": "VND", "symbol": "₫", "unit": "litre" },
+
+    "AE": { "petrol": 3.09, "diesel": 3.09, "electric_kwh": 0.08, "currency": "AED", "symbol": "د.إ", "unit": "litre" },
+    "SA": { "petrol": 1.36, "diesel": 0.25, "electric_kwh": 0.05, "currency": "SAR", "symbol": "﷼", "unit": "litre" },
+    "QA": { "petrol": 1.85, "diesel": 1.85, "electric_kwh": 0.04, "currency": "QAR", "symbol": "ر.ق", "unit": "litre" },
+    "KW": { "petrol": 0.105,"diesel": 0.095,"electric_kwh": 0.005,"currency": "KWD", "symbol": "د.ك", "unit": "litre" },
+    "OM": { "petrol": 0.235,"diesel": 0.195,"electric_kwh": 0.03, "currency": "OMR", "symbol": "ر.ع.", "unit": "litre" },
+
+    "ZA": { "petrol": 22.5, "diesel": 22.0, "electric_kwh": 3.50, "currency": "ZAR", "symbol": "R", "unit": "litre" },
+    "NG": { "petrol": 800,  "diesel": 750,  "electric_kwh": 80,   "currency": "NGN", "symbol": "₦", "unit": "litre" },
+    "EG": { "petrol": 15.5, "diesel": 13.5, "electric_kwh": 1.50, "currency": "EGP", "symbol": "£", "unit": "litre" },
+    "KE": { "petrol": 195,  "diesel": 182,  "electric_kwh": 22,   "currency": "KES", "symbol": "KSh", "unit": "litre" },
+    "MA": { "petrol": 14.0, "diesel": 12.0, "electric_kwh": 1.50, "currency": "MAD", "symbol": "MAD", "unit": "litre" },
+    "GH": { "petrol": 15.0, "diesel": 14.5, "electric_kwh": 2.00, "currency": "GHS", "symbol": "₵", "unit": "litre" },
+    "TZ": { "petrol": 3200, "diesel": 2900, "electric_kwh": 250,  "currency": "TZS", "symbol": "TSh", "unit": "litre" },
+
+    "BR": { "petrol": 6.20, "diesel": 6.10, "electric_kwh": 0.85, "currency": "BRL", "symbol": "R$", "unit": "litre" },
+    "AR": { "petrol": 1200, "diesel": 1150, "electric_kwh": 150,  "currency": "ARS", "symbol": "$", "unit": "litre" },
+    "CL": { "petrol": 1050, "diesel": 970,  "electric_kwh": 130,  "currency": "CLP", "symbol": "$", "unit": "litre" },
+    "CO": { "petrol": 14000,"diesel": 13000,"electric_kwh": 800,  "currency": "COP", "symbol": "$", "unit": "litre" },
+    "PE": { "petrol": 6.80, "diesel": 6.50, "electric_kwh": 0.65, "currency": "PEN", "symbol": "S/", "unit": "litre" }
+  }
+}
