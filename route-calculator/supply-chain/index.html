@@ -421,7 +421,7 @@
       return;
     }
 
-    if (WEBHOOK_URL === '__WEBHOOK_URL__') {
+    if (!WEBHOOK_URL.startsWith('http')) {
       showError('Webhook URL not configured. Update WEBHOOK_URL in the source code.');
       return;
     }
