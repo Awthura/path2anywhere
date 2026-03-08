@@ -3,43 +3,34 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Route Calculator</title>
+  <title>Route Calculator — LogiPath</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --bg:       #0f1117;
-      --surface:  #1a1d27;
-      --border:   #2a2d3a;
-      --accent:   #4f8ef7;
-      --accent2:  #34d399;
-      --text:     #e2e8f0;
-      --muted:    #64748b;
-      --danger:   #f87171;
-      --sidebar-w: 300px;
+      --bg:      #0f1117;
+      --surface: #1a1d27;
+      --border:  #2a2d3a;
+      --accent:  #4f8ef7;
+      --text:    #e2e8f0;
+      --muted:   #64748b;
     }
 
     body {
       font-family: 'Inter', system-ui, sans-serif;
       background: var(--bg);
       color: var(--text);
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      overflow: hidden;
+      min-height: 100vh;
     }
 
-    /* ── Header ── */
     header {
       background: var(--surface);
       border-bottom: 1px solid var(--border);
-      padding: 0 20px;
+      padding: 0 32px;
       height: 52px;
       display: flex;
       align-items: center;
       gap: 10px;
-      flex-shrink: 0;
-      z-index: 10;
     }
     header .logo {
       width: 28px; height: 28px;
@@ -53,409 +44,170 @@
       font-weight: 600;
       letter-spacing: 0.05em;
       text-transform: uppercase;
-      color: var(--text);
     }
-    header span.tag {
-      margin-left: auto;
-      font-size: 11px;
+    header .breadcrumb {
+      font-size: 13px;
       color: var(--muted);
-      background: var(--border);
-      padding: 2px 8px;
-      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-left: 4px;
+    }
+    header .breadcrumb a {
+      color: var(--muted);
+      text-decoration: none;
+    }
+    header .breadcrumb a:hover { color: var(--text); }
+    header .breadcrumb .sep { color: var(--border); }
+
+    .hero {
+      padding: 64px 32px 32px;
+      max-width: 860px;
+      margin: 0 auto;
+    }
+    .hero p.eyebrow {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--accent);
+      margin-bottom: 12px;
+    }
+    .hero h2 {
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 12px;
+    }
+    .hero p.sub {
+      font-size: 15px;
+      color: var(--muted);
+      max-width: 480px;
+      line-height: 1.6;
     }
 
-    /* ── Main layout ── */
-    .main {
-      flex: 1;
-      display: flex;
-      overflow: hidden;
+    .section {
+      padding: 8px 32px 48px;
+      max-width: 860px;
+      margin: 0 auto;
+    }
+    .section-label {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--muted);
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
     }
 
-    /* ── Sidebar ── */
-    .sidebar {
-      width: var(--sidebar-w);
-      background: var(--surface);
-      border-right: 1px solid var(--border);
-      padding: 20px 16px;
-      display: flex;
-      flex-direction: column;
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
       gap: 16px;
-      overflow-y: auto;
-      flex-shrink: 0;
+      margin-top: 16px;
     }
 
-    .field-group label {
-      display: block;
-      font-size: 10px;
-      font-weight: 700;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      color: var(--muted);
-      margin-bottom: 6px;
-    }
-
-    .field-group .dot {
-      display: inline-block;
-      width: 8px; height: 8px;
-      border-radius: 50%;
-      margin-right: 6px;
-      vertical-align: middle;
-    }
-    .dot-s  { background: #f59e0b; }
-    .dot-m  { background: var(--accent); }
-    .dot-c  { background: var(--accent2); }
-
-    .field-group input {
-      width: 100%;
-      background: var(--bg);
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      color: var(--text);
-      font-size: 13px;
-      padding: 9px 10px;
-      outline: none;
-      transition: border-color 0.15s;
-    }
-    .field-group input:focus {
-      border-color: var(--accent);
-    }
-    .field-group input::placeholder {
-      color: var(--muted);
-    }
-
-    .divider {
-      height: 1px;
-      background: var(--border);
-    }
-
-    button#calcBtn {
-      width: 100%;
-      background: var(--accent);
-      color: #fff;
-      border: none;
-      border-radius: 6px;
-      padding: 11px;
-      font-size: 13px;
-      font-weight: 600;
-      cursor: pointer;
-      letter-spacing: 0.04em;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 8px;
-      transition: background 0.15s, opacity 0.15s;
-    }
-    button#calcBtn:hover:not(:disabled) { background: #3b7de8; }
-    button#calcBtn:disabled { opacity: 0.5; cursor: not-allowed; }
-
-    .spinner {
-      width: 14px; height: 14px;
-      border: 2px solid rgba(255,255,255,0.3);
-      border-top-color: #fff;
-      border-radius: 50%;
-      animation: spin 0.7s linear infinite;
-      display: none;
-    }
-    button#calcBtn.loading .spinner { display: block; }
-    button#calcBtn.loading .btn-text { display: none; }
-
-    @keyframes spin { to { transform: rotate(360deg); } }
-
-    #errorMsg {
-      font-size: 12px;
-      color: var(--danger);
-      background: rgba(248,113,113,0.1);
-      border: 1px solid rgba(248,113,113,0.25);
-      border-radius: 6px;
-      padding: 8px 10px;
-      display: none;
-    }
-
-    /* ── Map ── */
-    #map {
-      flex: 1;
-      background: #1c1f2b;
-    }
-
-    /* ── Stats bar ── */
-    .stats-bar {
-      height: 72px;
+    .card {
       background: var(--surface);
-      border-top: 1px solid var(--border);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 0;
-      flex-shrink: 0;
-    }
-
-    .stat-item {
-      flex: 1;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 20px;
+      text-decoration: none;
+      color: var(--text);
       display: flex;
       flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      border-right: 1px solid var(--border);
-      padding: 0 16px;
+      gap: 10px;
+      transition: border-color 0.15s, transform 0.15s;
     }
-    .stat-item:last-child { border-right: none; }
+    .card:hover {
+      border-color: var(--accent);
+      transform: translateY(-2px);
+    }
 
-    .stat-label {
+    .card-icon {
+      width: 36px; height: 36px;
+      border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 18px;
+    }
+    .card-icon.blue  { background: rgba(79,142,247,0.15); }
+    .card-icon.green { background: rgba(52,211,153,0.15); }
+    .card-icon.amber { background: rgba(245,158,11,0.15);  }
+
+    .card h3 {
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .card p {
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+    .card .tag {
+      margin-top: auto;
       font-size: 10px;
       font-weight: 700;
       text-transform: uppercase;
-      letter-spacing: 0.1em;
-      color: var(--muted);
-      margin-bottom: 4px;
+      letter-spacing: 0.08em;
+      color: var(--accent);
     }
-    .stat-value {
-      font-size: 18px;
-      font-weight: 700;
-      color: var(--text);
-    }
-    .stat-sub {
-      font-size: 11px;
-      color: var(--muted);
-      margin-top: 1px;
-    }
-    .stat-item.total .stat-value { color: var(--accent); }
-    .stat-item.leg1  .stat-value { color: #f59e0b; }
-    .stat-item.leg2  .stat-value { color: var(--accent2); }
 
-    .stats-bar.hidden { display: none; }
-
-    /* ── Autocomplete dropdown dark override ── */
-    .pac-container {
-      background: var(--surface) !important;
-      border: 1px solid var(--border) !important;
-      border-radius: 6px !important;
-      box-shadow: 0 8px 24px rgba(0,0,0,0.4) !important;
-      font-family: inherit !important;
+    .card.soon {
+      opacity: 0.45;
+      cursor: default;
+      pointer-events: none;
     }
-    .pac-item {
-      background: var(--surface) !important;
-      color: var(--text) !important;
-      border-top: 1px solid var(--border) !important;
-      font-size: 13px !important;
-      padding: 6px 10px !important;
-    }
-    .pac-item:hover, .pac-item-selected {
-      background: var(--border) !important;
-    }
-    .pac-item-query { color: var(--text) !important; }
-    .pac-matched { font-weight: 700; color: var(--accent) !important; }
+    .card.soon .tag { color: var(--muted); }
   </style>
 </head>
 <body>
 
 <header>
-  <div class="logo">R</div>
-  <h1>Route Calculator</h1>
-  <span class="tag">European Delivery</span>
+  <div class="logo">L</div>
+  <h1>LogiPath</h1>
+  <div class="breadcrumb">
+    <span class="sep">/</span>
+    <a href="../">Home</a>
+    <span class="sep">/</span>
+    <span>Route Calculator</span>
+  </div>
 </header>
 
-<div class="main">
-  <aside class="sidebar">
-    <div class="field-group">
-      <label><span class="dot dot-s"></span>Supplier</label>
-      <input id="supplierInput" type="text" placeholder="e.g. Hamburg, Germany" autocomplete="off" />
-    </div>
-
-    <div class="field-group">
-      <label><span class="dot dot-m"></span>Manufacturer / Plant</label>
-      <input id="manufacturerInput" type="text" placeholder="e.g. Bielefeld, Germany" autocomplete="off" />
-    </div>
-
-    <div class="field-group">
-      <label><span class="dot dot-c"></span>Customer</label>
-      <input id="customerInput" type="text" placeholder="e.g. Warsaw, Poland" autocomplete="off" />
-    </div>
-
-    <div class="divider"></div>
-
-    <button id="calcBtn" onclick="calculate()">
-      <div class="spinner"></div>
-      <span class="btn-text">Calculate Route</span>
-    </button>
-
-    <div id="errorMsg"></div>
-  </aside>
-
-  <div id="map"></div>
+<div class="hero">
+  <p class="eyebrow">Route Calculator</p>
+  <h2>Choose your<br>use case</h2>
+  <p class="sub">Select the calculator that fits your scenario. Each tool is optimised for a specific routing context.</p>
 </div>
 
-<div class="stats-bar hidden" id="statsBar">
-  <div class="stat-item leg1">
-    <div class="stat-label">Leg 1 — Supplier → Plant</div>
-    <div class="stat-value" id="leg1km">—</div>
-    <div class="stat-sub" id="leg1dur">—</div>
-  </div>
-  <div class="stat-item leg2">
-    <div class="stat-label">Leg 2 — Plant → Customer</div>
-    <div class="stat-value" id="leg2km">—</div>
-    <div class="stat-sub" id="leg2dur">—</div>
-  </div>
-  <div class="stat-item total">
-    <div class="stat-label">Total Route</div>
-    <div class="stat-value" id="totalKm">—</div>
-    <div class="stat-sub">driving distance</div>
+<div class="section">
+  <div class="section-label">Available Calculators</div>
+  <div class="grid">
+
+    <a class="card" href="./supply-chain/">
+      <div class="card-icon blue">🏭</div>
+      <h3>Supply Chain Calculator</h3>
+      <p>Calculate driving distances and durations across a 3-stop route: Supplier → Plant → Customer.</p>
+      <span class="tag">Supplier · Plant · Customer</span>
+    </a>
+
+    <div class="card soon">
+      <div class="card-icon green">🚚</div>
+      <h3>Last-Mile Delivery</h3>
+      <p>Optimise final-leg delivery routing from distribution centre to end recipients.</p>
+      <span class="tag">Coming Soon</span>
+    </div>
+
+    <div class="card soon">
+      <div class="card-icon amber">🔁</div>
+      <h3>Return Logistics</h3>
+      <p>Plan reverse logistics routes for returns, repairs, and recalls.</p>
+      <span class="tag">Coming Soon</span>
+    </div>
+
   </div>
 </div>
-
-<script>
-  // ── Config ──────────────────────────────────────────────────────────────
-  const WEBHOOK_URL = '__WEBHOOK_URL__';
-  const MAPS_API_KEY = '__MAPS_API_KEY__';
-  // ────────────────────────────────────────────────────────────────────────
-
-  let map, directionsRenderer;
-
-  function initMap() {
-    map = new google.maps.Map(document.getElementById('map'), {
-      center: { lat: 51.5, lng: 10.0 },
-      zoom: 5,
-      styles: [
-        { elementType: 'geometry',        stylers: [{ color: '#1c1f2b' }] },
-        { elementType: 'labels.text.fill', stylers: [{ color: '#8a93a8' }] },
-        { elementType: 'labels.text.stroke', stylers: [{ color: '#1c1f2b' }] },
-        { featureType: 'road',             elementType: 'geometry', stylers: [{ color: '#2a2d3a' }] },
-        { featureType: 'road.highway',     elementType: 'geometry', stylers: [{ color: '#3a3f52' }] },
-        { featureType: 'water',            elementType: 'geometry', stylers: [{ color: '#0f1117' }] },
-        { featureType: 'administrative',   elementType: 'geometry.stroke', stylers: [{ color: '#2a2d3a' }] },
-        { featureType: 'poi',              stylers: [{ visibility: 'off' }] },
-        { featureType: 'transit',          stylers: [{ visibility: 'off' }] },
-      ],
-      disableDefaultUI: true,
-      zoomControl: true,
-      zoomControlOptions: { position: google.maps.ControlPosition.RIGHT_BOTTOM },
-    });
-
-    directionsRenderer = new google.maps.DirectionsRenderer({
-      suppressMarkers: true,
-      polylineOptions: { strokeColor: '#4f8ef7', strokeWeight: 3, strokeOpacity: 0.9 },
-    });
-    directionsRenderer.setMap(map);
-
-    // Autocomplete on each input
-    ['supplierInput', 'manufacturerInput', 'customerInput'].forEach(id => {
-      new google.maps.places.Autocomplete(document.getElementById(id), {
-        types: ['geocode'],
-        componentRestrictions: {},
-      });
-    });
-  }
-
-  async function calculate() {
-    const supplier     = document.getElementById('supplierInput').value.trim();
-    const manufacturer = document.getElementById('manufacturerInput').value.trim();
-    const customer     = document.getElementById('customerInput').value.trim();
-    const errorEl      = document.getElementById('errorMsg');
-    const btn          = document.getElementById('calcBtn');
-
-    errorEl.style.display = 'none';
-
-    if (!supplier || !manufacturer || !customer) {
-      showError('Please fill in all three address fields.');
-      return;
-    }
-
-    if (WEBHOOK_URL === 'REPLACE_WITH_YOUR_N8N_WEBHOOK_URL') {
-      showError('Webhook URL not configured. Update WEBHOOK_URL in the source code.');
-      return;
-    }
-
-    btn.disabled = true;
-    btn.classList.add('loading');
-
-    try {
-      const res = await fetch(WEBHOOK_URL, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          supplier_address:     supplier,
-          manufacturer_address: manufacturer,
-          customer_address:     customer,
-        }),
-      });
-
-      if (!res.ok) throw new Error(`Webhook returned ${res.status}`);
-      const data = await res.json();
-
-      displayResults(data, supplier, manufacturer, customer);
-    } catch (err) {
-      showError('Could not calculate route. Check that the n8n webhook is active and CORS is enabled. (' + err.message + ')');
-    } finally {
-      btn.disabled = false;
-      btn.classList.remove('loading');
-    }
-  }
-
-  function displayResults(data, supplierAddr, manufacturerAddr, customerAddr) {
-    // Stats bar
-    document.getElementById('leg1km').textContent  = data.supplier_to_manufacturer_km + ' km';
-    document.getElementById('leg1dur').textContent = data.supplier_to_manufacturer_duration;
-    document.getElementById('leg2km').textContent  = data.manufacturer_to_customer_km + ' km';
-    document.getElementById('leg2dur').textContent = data.manufacturer_to_customer_duration;
-    document.getElementById('totalKm').textContent = data.total_route_km + ' km';
-    document.getElementById('statsBar').classList.remove('hidden');
-
-    // Draw route via Directions Service (gives real road path)
-    const directionsService = new google.maps.DirectionsService();
-    directionsService.route({
-      origin:      { lat: data.supplier_lat,     lng: data.supplier_lng },
-      destination: { lat: data.customer_lat,     lng: data.customer_lng },
-      waypoints: [{ location: { lat: data.manufacturer_lat, lng: data.manufacturer_lng }, stopover: true }],
-      travelMode: google.maps.TravelMode.DRIVING,
-    }, (result, status) => {
-      if (status === 'OK') {
-        directionsRenderer.setDirections(result);
-      }
-      // Always place custom markers regardless of directions result
-      placeMarkers(data, supplierAddr, manufacturerAddr, customerAddr);
-    });
-  }
-
-  function placeMarkers(data, supplierAddr, manufacturerAddr, customerAddr) {
-    const markerDefs = [
-      { lat: data.supplier_lat,     lng: data.supplier_lng,     label: 'S', color: '#f59e0b', title: supplierAddr },
-      { lat: data.manufacturer_lat, lng: data.manufacturer_lng, label: 'M', color: '#4f8ef7', title: manufacturerAddr },
-      { lat: data.customer_lat,     lng: data.customer_lng,     label: 'C', color: '#34d399', title: customerAddr },
-    ];
-
-    markerDefs.forEach(({ lat, lng, label, color, title }) => {
-      new google.maps.Marker({
-        position: { lat, lng },
-        map,
-        title,
-        icon: {
-          path: google.maps.SymbolPath.CIRCLE,
-          scale: 10,
-          fillColor: color,
-          fillOpacity: 1,
-          strokeColor: '#0f1117',
-          strokeWeight: 2,
-        },
-        label: { text: label, color: '#0f1117', fontSize: '11px', fontWeight: '700' },
-      });
-    });
-  }
-
-  function showError(msg) {
-    const el = document.getElementById('errorMsg');
-    el.textContent = msg;
-    el.style.display = 'block';
-  }
-
-  // Enter key triggers calculate
-  document.addEventListener('keydown', e => {
-    if (e.key === 'Enter') calculate();
-  });
-</script>
-
-<script
-  src="https://maps.googleapis.com/maps/api/js?key=__MAPS_API_KEY__&libraries=places&callback=initMap"
-  async defer>
-</script>
 
 </body>
 </html>

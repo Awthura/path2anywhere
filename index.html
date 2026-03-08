@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tools — awthura</title>
+  <title>LogiPath — Logistics Intelligence Tools</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -72,13 +72,27 @@
       line-height: 1.6;
     }
 
-    .grid {
-      padding: 8px 32px 64px;
+    .section {
+      padding: 8px 32px 48px;
       max-width: 860px;
       margin: 0 auto;
+    }
+    .section-label {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--muted);
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
       gap: 16px;
+      margin-top: 16px;
     }
 
     .card {
@@ -108,6 +122,11 @@
     .card-icon.green { background: rgba(52,211,153,0.15); }
     .card-icon.amber { background: rgba(245,158,11,0.15);  }
 
+    .card-meta {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
     .card h3 {
       font-size: 14px;
       font-weight: 600;
@@ -125,8 +144,13 @@
       letter-spacing: 0.08em;
       color: var(--accent);
     }
+    .card .arrow {
+      margin-left: auto;
+      color: var(--muted);
+      font-size: 16px;
+      align-self: center;
+    }
 
-    /* Placeholder card (coming soon) */
     .card.soon {
       opacity: 0.45;
       cursor: default;
@@ -138,35 +162,38 @@
 <body>
 
 <header>
-  <div class="logo">A</div>
-  <h1>awthura / tools</h1>
+  <div class="logo">L</div>
+  <h1>LogiPath</h1>
 </header>
 
 <div class="hero">
-  <p class="eyebrow">Automation Tools</p>
-  <h2>n8n-powered calculators<br>& utilities</h2>
-  <p class="sub">A collection of tools built on n8n workflows. Enter your data, get instant results — no spreadsheets required.</p>
+  <p class="eyebrow">Logistics Intelligence</p>
+  <h2>Precision tools for<br>modern supply chains</h2>
+  <p class="sub">Workflow-powered calculators that turn addresses and routes into actionable data — no spreadsheets required.</p>
 </div>
 
-<div class="grid">
+<div class="section">
+  <div class="section-label">Route Intelligence</div>
+  <div class="grid">
 
-  <a class="card" href="./route-calculator/">
-    <div class="card-icon blue">🗺️</div>
-    <h3>Route Calculator</h3>
-    <p>Calculate real driving distances and durations across a 3-stop European supply chain route.</p>
-    <span class="tag">Supply Chain · Maps</span>
-  </a>
+    <a class="card" href="./route-calculator/">
+      <div class="card-meta">
+        <div class="card-icon blue">🗺️</div>
+        <span class="arrow">›</span>
+      </div>
+      <h3>Route Calculator</h3>
+      <p>Multi-stop driving distance and duration analysis across supply chain routes.</p>
+      <span class="tag">2 tools available</span>
+    </a>
 
-  <!-- Add future tools here, e.g.: -->
-  <!--
-  <a class="card soon" href="#">
-    <div class="card-icon green">📦</div>
-    <h3>Freight Cost Estimator</h3>
-    <p>Coming soon.</p>
-    <span class="tag">Coming Soon</span>
-  </a>
-  -->
+    <div class="card soon">
+      <div class="card-icon amber">⚡</div>
+      <h3>Freight Cost Estimator</h3>
+      <p>Calculate freight costs per leg based on distance, weight, and carrier rates.</p>
+      <span class="tag">Coming Soon</span>
+    </div>
 
+  </div>
 </div>
 
 </body>
