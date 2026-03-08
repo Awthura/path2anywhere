@@ -24,11 +24,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Inject API key
+      - name: Inject secrets
         run: |
           find . -name "*.html" \
             -not -path "./.git/*" \
-            -exec sed -i "s|__MAPS_API_KEY__|${{ secrets.MAPS_API_KEY }}|g" {} +
+            -exec sed -i "s|__MAPS_API_KEY__|${{ secrets.MAPS_API_KEY }}|g" {} + && \
+          find . -name "*.html" \
+            -not -path "./.git/*" \
+            -exec sed -i "s|__WEBHOOK_URL__|${{ secrets.WEBHOOK_URL }}|g" {} +
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
