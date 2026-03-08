@@ -1,0 +1,34 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1d27"/>
+      <stop offset="100%" style="stop-color:#0f1117"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4f8ef7"/>
+      <stop offset="100%" style="stop-color:#34d399"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="200" height="200" rx="36" fill="url(#bg)"/>
+
+  <!-- Route path decoration -->
+  <circle cx="38" cy="162" r="5" fill="none" stroke="#f59e0b" stroke-width="2"/>
+  <circle cx="38" cy="162" r="2" fill="#f59e0b"/>
+  <path d="M38 157 Q38 110 100 100 Q162 90 162 43" fill="none" stroke="url(#accent)" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.5"/>
+  <circle cx="162" cy="38" r="5" fill="none" stroke="#34d399" stroke-width="2"/>
+  <circle cx="162" cy="38" r="2" fill="#34d399"/>
+
+  <!-- P -->
+  <text x="28" y="128" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="72" font-weight="800" fill="#e2e8f0" letter-spacing="-2">P</text>
+
+  <!-- 2 (smaller, accent coloured, raised) -->
+  <text x="87" y="100" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="url(#accent)">2</text>
+
+  <!-- A -->
+  <text x="104" y="128" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="72" font-weight="800" fill="#e2e8f0" letter-spacing="-2">A</text>
+
+  <!-- Bottom label -->
+  <text x="100" y="170" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="600" fill="#4f8ef7" text-anchor="middle" letter-spacing="3">ANYWHERE</text>
+</svg>
