@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tools — awthura</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:      #0f1117;
+      --surface: #1a1d27;
+      --border:  #2a2d3a;
+      --accent:  #4f8ef7;
+      --text:    #e2e8f0;
+      --muted:   #64748b;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      height: 52px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    header .logo {
+      width: 28px; height: 28px;
+      background: var(--accent);
+      border-radius: 6px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 14px; font-weight: 700; color: #fff;
+    }
+    header h1 {
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    .hero {
+      padding: 64px 32px 32px;
+      max-width: 860px;
+      margin: 0 auto;
+    }
+    .hero p.eyebrow {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--accent);
+      margin-bottom: 12px;
+    }
+    .hero h2 {
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 12px;
+    }
+    .hero p.sub {
+      font-size: 15px;
+      color: var(--muted);
+      max-width: 480px;
+      line-height: 1.6;
+    }
+
+    .grid {
+      padding: 8px 32px 64px;
+      max-width: 860px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 16px;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 20px;
+      text-decoration: none;
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      transition: border-color 0.15s, transform 0.15s;
+    }
+    .card:hover {
+      border-color: var(--accent);
+      transform: translateY(-2px);
+    }
+
+    .card-icon {
+      width: 36px; height: 36px;
+      border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 18px;
+    }
+    .card-icon.blue  { background: rgba(79,142,247,0.15); }
+    .card-icon.green { background: rgba(52,211,153,0.15); }
+    .card-icon.amber { background: rgba(245,158,11,0.15);  }
+
+    .card h3 {
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .card p {
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+    .card .tag {
+      margin-top: auto;
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent);
+    }
+
+    /* Placeholder card (coming soon) */
+    .card.soon {
+      opacity: 0.45;
+      cursor: default;
+      pointer-events: none;
+    }
+    .card.soon .tag { color: var(--muted); }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">A</div>
+  <h1>awthura / tools</h1>
+</header>
+
+<div class="hero">
+  <p class="eyebrow">Automation Tools</p>
+  <h2>n8n-powered calculators<br>& utilities</h2>
+  <p class="sub">A collection of tools built on n8n workflows. Enter your data, get instant results — no spreadsheets required.</p>
+</div>
+
+<div class="grid">
+
+  <a class="card" href="./route-calculator/">
+    <div class="card-icon blue">🗺️</div>
+    <h3>Route Calculator</h3>
+    <p>Calculate real driving distances and durations across a 3-stop European supply chain route.</p>
+    <span class="tag">Supply Chain · Maps</span>
+  </a>
+
+  <!-- Add future tools here, e.g.: -->
+  <!--
+  <a class="card soon" href="#">
+    <div class="card-icon green">📦</div>
+    <h3>Freight Cost Estimator</h3>
+    <p>Coming soon.</p>
+    <span class="tag">Coming Soon</span>
+  </a>
+  -->
+
+</div>
+
+</body>
+</html>
