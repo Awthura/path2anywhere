@@ -165,6 +165,18 @@
 
     @keyframes spin { to { transform: rotate(360deg); } }
 
+    .privacy-note {
+      font-size: 11px;
+      color: var(--muted);
+      line-height: 1.5;
+      text-align: center;
+      opacity: 0.7;
+    }
+    .privacy-note span {
+      display: inline-block;
+      margin-bottom: 2px;
+    }
+
     #errorMsg {
       font-size: 12px;
       color: var(--danger);
@@ -342,6 +354,11 @@
     </button>
 
     <div id="errorMsg"></div>
+
+    <p class="privacy-note">
+      <span>🔒 Your privacy is respected.</span><br>
+      Addresses are processed in real time and never stored or shared.
+    </p>
   </aside>
 
   <div id="map"></div>
