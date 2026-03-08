@@ -484,10 +484,9 @@
   function onLeagueChange() {
     const league = document.getElementById('leagueSelect').value;
     const teamSel = document.getElementById('teamSelect');
-    const preview = document.getElementById('stadiumPreview');
 
     teamSel.innerHTML = '<option value="">— Select team —</option>';
-    preview.textContent = '';
+    document.getElementById('stadiumInput').value = '';
 
     if (!league) { teamSel.disabled = true; return; }
 
