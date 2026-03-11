@@ -521,16 +521,10 @@
     });
   }
 
-  async function startCostEstimation() {
-    const btn = document.getElementById('estimateCostBtn');
-    btn.disabled = true;
-    btn.textContent = '⛽ Detecting…';
+  async function applyCostCountry(lat, lng) {
     const prices = await loadFuelPrices();
-    const { supplier_lat: lat, supplier_lng: lng } = lastResult.data;
     const code = await detectCountry(lat, lng);
     detectedCountryCode = code;
-    btn.textContent = '⛽ Estimate Fuel Cost';
-    btn.disabled = false;
 
     const vehicleKey = document.getElementById('vehicleSelect').value;
     const fuelType = vehicleKey ? VEHICLES[vehicleKey].fuel : 'petrol';
@@ -548,9 +542,20 @@
     document.getElementById('priceHint').textContent = code ? `Auto-detected: ${code}` : 'Country not detected — enter price manually';
     if (displayPrice !== null) document.getElementById('fuelPriceInput').value = displayPrice;
 
+    validateFuelPrice();
+    recalcFuel();
+  }
+
+  async function startCostEstimation() {
+    const btn = document.getElementById('estimateCostBtn');
+    btn.disabled = true;
+    btn.textContent = '⛽ Detecting…';
+    const { supplier_lat: lat, supplier_lng: lng } = lastResult.data;
+    await applyCostCountry(lat, lng);
+    btn.textContent = '⛽ Estimate Fuel Cost';
+    btn.disabled = false;
     document.getElementById('costSection').classList.add('visible');
     costEnabled = true;
-    validateFuelPrice();
     recalcFuel();
   }
 
@@ -684,6 +689,7 @@
     document.getElementById('estimateCostBtn').style.display = 'block';
     lastResult = { data, homeAddr, workAddr, totalDurText, totKm, totalMins };
     recalcFuel();
+    if (costEnabled) applyCostCountry(data.supplier_lat, data.supplier_lng);
 
     // Draw outbound route on map
     const directionsService = new google.maps.DirectionsService();
