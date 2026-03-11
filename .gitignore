@@ -1,5 +1,4 @@
-n8n_workflow.json
-n8n_workflow_multi_stop.json
+n8n_workflow*.json
 project_knowledge.md
 *.xlsx
 *.pdf
