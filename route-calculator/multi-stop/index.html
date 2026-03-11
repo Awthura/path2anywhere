@@ -512,6 +512,14 @@
     <div class="savings-label">Saved</div>
     <div class="savings-value" id="savedAmount" style="color:#a78bfa">—</div>
   </div>
+  <div class="savings-item" id="savedCo2Item" style="display:none">
+    <div class="savings-label">CO₂ Saved</div>
+    <div class="savings-value" id="savedCo2" style="color:#34d399">—</div>
+  </div>
+  <div class="savings-item" id="savedCostItem" style="display:none">
+    <div class="savings-label">Cost Saved</div>
+    <div class="savings-value" id="savedCost" style="color:#34d399">—</div>
+  </div>
   <div class="savings-seq" id="savingsSeq"></div>
 </div>
 
@@ -1088,8 +1096,9 @@
   }
 
   function displayOptimisedResults(data, originalStops) {
-    const originalKm   = lastResult.totalKm;
-    const originalMins = lastResult.totalMins;
+    const originalKm      = lastResult.totalKm;
+    const originalMins    = lastResult.totalMins;
+    const originalFuelData = lastResult.fuelData ? { ...lastResult.fuelData } : null;
 
     // Build optimised stop label sequence using waypoint_order
     const waypointOrder = data.waypoint_order || [];
@@ -1142,6 +1151,35 @@
     // Recalc fuel/EV with new distance
     recalcFuel();
     recalcEV();
+
+    // CO₂ and cost savings (only if vehicle was selected before optimise)
+    const co2Item  = document.getElementById('savedCo2Item');
+    const costItem = document.getElementById('savedCostItem');
+    co2Item.style.display  = 'none';
+    costItem.style.display = 'none';
+
+    if (originalFuelData && lastResult.fuelData && (savedKm > 0 || savedMins > 0)) {
+      const savedCo2 = parseFloat((originalFuelData.co2 - lastResult.fuelData.co2).toFixed(1));
+      if (savedCo2 > 0) {
+        document.getElementById('savedCo2').textContent = savedCo2 + ' kg CO₂';
+        co2Item.style.display = '';
+      }
+
+      if (costEnabled) {
+        const priceInput  = parseFloat(document.getElementById('fuelPriceInput').value);
+        const entry       = fuelPrices && detectedCountryCode && fuelPrices.countries[detectedCountryCode];
+        const displayMult = (!originalFuelData.isElectric && entry && entry.display_multiplier) || 1;
+        const sym         = entry ? entry.symbol : '';
+        if (!isNaN(priceInput) && priceInput > 0) {
+          const savedFuel = parseFloat((originalFuelData.fuelUsed - lastResult.fuelData.fuelUsed).toFixed(2));
+          const savedCost = parseFloat((savedFuel * (priceInput / displayMult)).toFixed(2));
+          if (savedCost > 0) {
+            document.getElementById('savedCost').textContent = sym + savedCost.toFixed(2) + ' fuel';
+            costItem.style.display = '';
+          }
+        }
+      }
+    }
 
     // Redraw map with optimised order
     const origin      = optimisedStops[0];
