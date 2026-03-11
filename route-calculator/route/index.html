@@ -659,8 +659,11 @@
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ stops: [from, to] }),
       });
-      if (!res.ok) throw new Error(`Webhook returned ${res.status}`);
-      const data = await res.json();
+      const text = await res.text();
+      if (!text) throw new Error('Webhook returned an empty response — check the n8n execution log.');
+      if (!res.ok) throw new Error(`Webhook returned ${res.status}: ${text}`);
+      const data = JSON.parse(text);
+      if (data.message) throw new Error(`Workflow error: ${data.message}`);
       displayResults(data, from, to);
     } catch (err) {
       showError('Could not calculate route. (' + err.message + ')');
