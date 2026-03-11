@@ -299,6 +299,66 @@
     .fuel-item.totalf .fuel-value { color: var(--accent); }
     .fuel-cost { font-size: 12px; color: #f59e0b; margin-top: 3px; font-weight: 600; }
 
+    /* ── Freight cost bar ── */
+    .freight-bar {
+      background: var(--surface); border-top: 1px solid var(--border);
+      display: flex; align-items: stretch; flex-shrink: 0;
+      position: relative;
+    }
+    .freight-bar.hidden { display: none; }
+
+    .freight-item {
+      flex: 1; display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      border-right: 1px solid var(--border); padding: 10px 16px;
+    }
+    .freight-item:last-child { border-right: none; }
+
+    .freight-label {
+      font-size: 10px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.1em; color: var(--muted); margin-bottom: 3px;
+    }
+    .freight-value { font-size: 14px; font-weight: 700; color: #e879f9; }
+    .freight-sub   { font-size: 11px; color: var(--muted); margin-top: 1px; }
+    .freight-item.total-f .freight-value { color: var(--accent); }
+    .freight-item.pertonne-f .freight-value { color: #f59e0b; }
+
+    /* Lock overlay */
+    .freight-lock {
+      position: absolute; inset: 0;
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      background: rgba(15, 17, 23, 0.65);
+      display: flex; align-items: center; justify-content: center;
+      gap: 12px; z-index: 2;
+    }
+    .freight-lock.hidden { display: none; }
+    .freight-lock-icon { font-size: 16px; }
+    .freight-lock-text { font-size: 12px; font-weight: 600; color: var(--muted); letter-spacing: 0.04em; }
+    .freight-lock-badge {
+      font-size: 10px; font-weight: 700; letter-spacing: 0.08em;
+      text-transform: uppercase; color: #e879f9;
+      border: 1px solid #e879f9; border-radius: 4px;
+      padding: 2px 7px;
+    }
+
+    /* Premium badge on label */
+    .premium-badge {
+      font-size: 9px; font-weight: 700; letter-spacing: 0.08em;
+      text-transform: uppercase; color: #e879f9;
+      border: 1px solid #e879f9; border-radius: 3px;
+      padding: 1px 5px; margin-left: 6px; vertical-align: middle;
+    }
+
+    @media (max-width: 768px) {
+      .freight-bar { flex-wrap: wrap; padding: 4px 0; }
+      .freight-item {
+        flex: 1 1 45%; border-right: none;
+        border-bottom: 1px solid var(--border); padding: 10px 16px;
+      }
+      .freight-item:last-child { flex: 1 1 100%; border-bottom: none; }
+    }
+
     /* ── Fuel cost estimation ── */
     #estimateCostBtn {
       display: none;
@@ -484,6 +544,19 @@
     <div class="divider"></div>
 
     <div class="field-group">
+      <label>
+        Cargo Weight
+        <span class="premium-badge">Premium</span>
+      </label>
+      <div class="days-row" style="display:flex;align-items:center;gap:10px;">
+        <input id="cargoInput" type="number" min="0" max="1000" step="0.5" placeholder="e.g. 24"
+          style="width:90px;flex-shrink:0;background:var(--bg);border:1px solid var(--border);border-radius:6px;color:var(--text);font-size:13px;padding:9px 10px;outline:none;"
+          oninput="recalcFreight()" />
+        <span style="font-size:12px;color:var(--muted);">tonnes (optional)</span>
+      </div>
+    </div>
+
+    <div class="field-group">
       <label>Vehicle Type</label>
       <select id="vehicleSelect" onchange="recalcFuel()">
         <option value="">— Select vehicle —</option>
@@ -573,15 +646,52 @@
   </div>
 </div>
 
+<div class="freight-bar hidden" id="freightBar">
+  <div class="freight-item">
+    <div class="freight-label">Leg 1 — Freight Est.</div>
+    <div class="freight-value" id="freightLeg1">—</div>
+    <div class="freight-sub"  id="freightLeg1Sub">Supplier → Plant</div>
+  </div>
+  <div class="freight-item">
+    <div class="freight-label">Leg 2 — Freight Est.</div>
+    <div class="freight-value" id="freightLeg2">—</div>
+    <div class="freight-sub"  id="freightLeg2Sub">Plant → Customer</div>
+  </div>
+  <div class="freight-item total-f">
+    <div class="freight-label">Total Freight Est.</div>
+    <div class="freight-value" id="freightTotal">—</div>
+    <div class="freight-sub">indicative range</div>
+  </div>
+  <div class="freight-item pertonne-f">
+    <div class="freight-label">Cost per Tonne</div>
+    <div class="freight-value" id="freightPerTonne">—</div>
+    <div class="freight-sub"  id="freightPerTonneSub">enter cargo weight</div>
+  </div>
+  <!-- Lock overlay — remove this div to fully unlock -->
+  <div class="freight-lock" id="freightLock">
+    <span class="freight-lock-icon">🔒</span>
+    <span class="freight-lock-text">Freight estimates</span>
+    <span class="freight-lock-badge">Premium</span>
+  </div>
+</div>
+
 <div class="export-bar hidden" id="exportBar">
   <button id="exportBtn" onclick="exportCSV()">⬇ Export CSV</button>
 </div>
 
 <script>
   // ── Config ──────────────────────────────────────────────────────────────
-  const WEBHOOK_URL = '__WEBHOOK_URL__';
+  const WEBHOOK_URL  = '__WEBHOOK_URL__';
   const MAPS_API_KEY = '__MAPS_API_KEY__';
-  // ────────────────────────────────────────────────────────────────────────
+
+  // ── Premium flag ─────────────────────────────────────────────────────────
+  // Set to true (or replace with a server-side token check) to unlock freight.
+  const FREIGHT_PREMIUM_UNLOCKED = false;
+
+  // ── Freight rates (€/km, European FTL averages) ──────────────────────────
+  const FREIGHT_RATE_LOW  = 1.50;  // €/km
+  const FREIGHT_RATE_HIGH = 2.00;  // €/km
+  // ─────────────────────────────────────────────────────────────────────────
 
   const VEHICLES = {
     small_petrol:     { fuel: 'petrol',   rate: 6.0  },
@@ -783,6 +893,7 @@
     document.getElementById('estimateCostBtn').style.display = 'block';
     lastResult = { data, supplierAddr, manufacturerAddr, customerAddr, totalDurText };
     recalcFuel();
+    recalcFreight();
 
     const directionsService = new google.maps.DirectionsService();
     directionsService.route({
@@ -872,6 +983,48 @@
 
     document.getElementById('fuelBar').classList.remove('hidden');
     lastResult.fuelData = { unit, leg1, leg2, total, vehicleKey };
+    recalcFreight();
+  }
+
+  function recalcFreight() {
+    if (!lastResult) return;
+    const { supplier_to_manufacturer_km: km1, manufacturer_to_customer_km: km2 } = lastResult.data;
+
+    const fmtRange = (km) => {
+      const lo = Math.round(km * FREIGHT_RATE_LOW);
+      const hi = Math.round(km * FREIGHT_RATE_HIGH);
+      return `€${lo.toLocaleString()} – €${hi.toLocaleString()}`;
+    };
+
+    document.getElementById('freightLeg1').textContent    = fmtRange(km1);
+    document.getElementById('freightLeg1Sub').textContent = `${km1} km`;
+    document.getElementById('freightLeg2').textContent    = fmtRange(km2);
+    document.getElementById('freightLeg2Sub').textContent = `${km2} km`;
+
+    const totalLo = Math.round((km1 + km2) * FREIGHT_RATE_LOW);
+    const totalHi = Math.round((km1 + km2) * FREIGHT_RATE_HIGH);
+    document.getElementById('freightTotal').textContent = `€${totalLo.toLocaleString()} – €${totalHi.toLocaleString()}`;
+
+    const cargo = parseFloat(document.getElementById('cargoInput').value);
+    if (!isNaN(cargo) && cargo > 0) {
+      const ptLo = ((km1 + km2) * FREIGHT_RATE_LOW  / cargo).toFixed(2);
+      const ptHi = ((km1 + km2) * FREIGHT_RATE_HIGH / cargo).toFixed(2);
+      document.getElementById('freightPerTonne').textContent    = `€${ptLo} – €${ptHi}`;
+      document.getElementById('freightPerTonneSub').textContent = `per tonne (${cargo}t)`;
+    } else {
+      document.getElementById('freightPerTonne').textContent    = '—';
+      document.getElementById('freightPerTonneSub').textContent = 'enter cargo weight';
+    }
+
+    // Show/hide lock overlay
+    const lock = document.getElementById('freightLock');
+    if (FREIGHT_PREMIUM_UNLOCKED) {
+      lock.classList.add('hidden');
+    } else {
+      lock.classList.remove('hidden');
+    }
+
+    document.getElementById('freightBar').classList.remove('hidden');
   }
 
   function showError(msg) {
