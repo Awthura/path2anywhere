@@ -603,6 +603,8 @@
   const CO2_FACTOR = { petrol: 2.31, diesel: 2.68, electric: 0.22 };
 
   let map, directionsRenderer, directionsService, lastResult;
+  let activeMarkers = [];
+  let activePolyline = null;
   let fuelPrices = null, detectedCountryCode = null, costEnabled = false;
   let stopIdCounter = 0;
   const stopAutocompletes = {};
@@ -871,7 +873,12 @@
       origin, destination, waypoints,
       travelMode: google.maps.TravelMode.DRIVING,
     }, (result, status) => {
-      if (status === 'OK') directionsRenderer.setDirections(result);
+      if (status === 'OK') {
+        if (activePolyline) { activePolyline.setMap(null); activePolyline = null; }
+        directionsRenderer.setDirections(result);
+      } else {
+        drawPolylineFromLegs(data.legs);
+      }
       placeMarkers(data.legs, stopValues);
     });
   }
@@ -900,7 +907,21 @@
     bar.classList.remove('hidden');
   }
 
+  function drawPolylineFromLegs(legs) {
+    if (activePolyline) activePolyline.setMap(null);
+    const path = legs.map(l => ({ lat: l.from_lat, lng: l.from_lng }));
+    const last = legs[legs.length - 1];
+    path.push({ lat: last.to_lat, lng: last.to_lng });
+    activePolyline = new google.maps.Polyline({
+      path, map,
+      strokeColor: '#4f8ef7', strokeWeight: 3, strokeOpacity: 0.9,
+      geodesic: true,
+    });
+  }
+
   function placeMarkers(legs, stopValues) {
+    activeMarkers.forEach(m => m.setMap(null));
+    activeMarkers = [];
     const points = legs.map((leg, i) => ({
       lat: leg.from_lat, lng: leg.from_lng,
       label: STOP_LABELS[i], color: STOP_COLORS[i],
@@ -914,7 +935,7 @@
     });
 
     points.forEach(({ lat, lng, label, color, title }) => {
-      new google.maps.Marker({
+      const marker = new google.maps.Marker({
         position: { lat, lng }, map, title,
         icon: {
           path: google.maps.SymbolPath.CIRCLE,
@@ -923,6 +944,7 @@
         },
         label: { text: label, color: '#0f1117', fontSize: '11px', fontWeight: '700' },
       });
+      activeMarkers.push(marker);
     });
   }
 
@@ -1072,17 +1094,18 @@
     // Build optimised stop label sequence using waypoint_order
     const waypointOrder = data.waypoint_order || [];
     const n = originalStops.length;
-    const labelSeq = [STOP_LABELS[0]];
-    for (const wi of waypointOrder) labelSeq.push(STOP_LABELS[wi + 1]);
-    labelSeq.push(STOP_LABELS[n - 1]);
-
-    // Build optimised stop addresses in new order (for map redraw)
     const intermediates = originalStops.slice(1, -1);
-    const optimisedStops = [
-      originalStops[0],
-      ...waypointOrder.map(i => intermediates[i]),
-      originalStops[n - 1],
-    ];
+
+    // If waypoint_order covers all intermediates, use it; otherwise keep original order
+    const hasReordering = waypointOrder.length === intermediates.length && intermediates.length > 0;
+
+    const optimisedStops = hasReordering
+      ? [originalStops[0], ...waypointOrder.map(i => intermediates[i]), originalStops[n - 1]]
+      : [...originalStops];
+
+    const labelSeq = hasReordering
+      ? [STOP_LABELS[0], ...waypointOrder.map(i => STOP_LABELS[i + 1]), STOP_LABELS[n - 1]]
+      : STOP_LABELS.slice(0, n);
 
     // Update lastResult
     lastResult.totalKm   = data.total_km;
@@ -1128,7 +1151,12 @@
       origin, destination, waypoints,
       travelMode: google.maps.TravelMode.DRIVING,
     }, (result, status) => {
-      if (status === 'OK') directionsRenderer.setDirections(result);
+      if (status === 'OK') {
+        if (activePolyline) { activePolyline.setMap(null); activePolyline = null; }
+        directionsRenderer.setDirections(result);
+      } else {
+        drawPolylineFromLegs(data.legs);
+      }
       placeMarkers(data.legs, optimisedStops);
     });
 
