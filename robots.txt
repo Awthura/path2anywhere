@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://path2anywhere.com/sitemap.xml
