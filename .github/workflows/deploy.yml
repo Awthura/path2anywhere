@@ -31,7 +31,10 @@ jobs:
             -exec sed -i "s|__MAPS_API_KEY__|${{ secrets.MAPS_API_KEY }}|g" {} + && \
           find . -name "*.html" \
             -not -path "./.git/*" \
-            -exec sed -i "s|__WEBHOOK_URL__|${{ secrets.WEBHOOK_URL }}|g" {} +
+            -exec sed -i "s|__WEBHOOK_URL__|${{ secrets.WEBHOOK_URL }}|g" {} + && \
+          find . -name "*.html" \
+            -not -path "./.git/*" \
+            -exec sed -i "s|__WEBHOOK_URL_MULTI__|${{ secrets.WEBHOOK_URL_MULTI }}|g" {} +
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
