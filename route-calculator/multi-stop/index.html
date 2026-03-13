@@ -1072,11 +1072,11 @@
       });
       const photos = await resp.json();
 
-      const mobile = window.innerWidth < 768;
-      const imgW  = mobile ? 20 : 28;
-      const imgH  = mobile ? 14 : 18;
-      const nameFz = mobile ? '7px' : '8px';
-      const attrFz = '0px';
+      const mapW  = document.getElementById('map').offsetWidth;
+      const imgW  = Math.round(Math.max(48, Math.min(100, mapW * 0.08)));
+      const imgH  = Math.round(imgW * 0.65);
+      const nameFz = Math.max(9, Math.round(imgW * 0.12)) + 'px';
+      const attrFz = imgW >= 70 ? '8px' : '0px';
 
       activeMarkers.forEach((marker, i) => {
         const query = stopValues[i];
