@@ -1073,10 +1073,10 @@
       const photos = await resp.json();
 
       const mobile = window.innerWidth < 768;
-      const imgW  = mobile ? 82 : 110;
-      const imgH  = mobile ? 54 : 72;
-      const nameFz = mobile ? '10px' : '11px';
-      const attrFz = mobile ? '8px' : '9px';
+      const imgW  = mobile ? 20 : 28;
+      const imgH  = mobile ? 14 : 18;
+      const nameFz = mobile ? '7px' : '8px';
+      const attrFz = '0px';
 
       activeMarkers.forEach((marker, i) => {
         const query = stopValues[i];
