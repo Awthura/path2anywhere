@@ -837,9 +837,20 @@
     directionsRenderer.setMap(map);
     directionsService = new google.maps.DirectionsService();
 
-    // Add 2 default stops and attach autocomplete
-    addStop();
-    addStop();
+    // Add stops — prefill from ?stops=A|B|C URL param if present
+    const preStops = new URLSearchParams(location.search).get('stops');
+    if (preStops) {
+      const values = preStops.split('|').map(s => decodeURIComponent(s).trim()).filter(Boolean);
+      if (values.length >= 2) {
+        values.forEach(v => addStop(v));
+      } else {
+        addStop();
+        addStop();
+      }
+    } else {
+      addStop();
+      addStop();
+    }
 
     if (IS_OPTIMISER) {
       document.title = 'Route Optimiser — Path2Anywhere';

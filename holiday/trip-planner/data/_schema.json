@@ -1,0 +1,21 @@
+{
+  "_instructions": "Generate a new country JSON by following this schema exactly. Use ~100 trips per country for comprehensive coverage. stops[].name must be Google Places searchable (add country suffix when ambiguous, e.g. 'Toledo, Spain'). cover_search_query must be specific enough to return a great photo (e.g. 'Amalfi Coast cliffs Italy' not 'Italy'). duration_days and distance_km should be realistic driving estimates. Group trips by region for a good filter UX. Each trip should have 4-8 stops.",
+  "country": "Country Name",
+  "country_code": "xx",
+  "emoji": "🇮🇹",
+  "trips": [
+    {
+      "id": "kebab-case-unique-id",
+      "name": "Human Readable Trip Name",
+      "region": "Geographic Region Name",
+      "duration_days": 5,
+      "distance_km": 350,
+      "description": "2-3 sentence evocative description of the road trip.",
+      "stops": [
+        { "name": "City Name, Country", "label": "City Name" }
+      ],
+      "highlights": ["3 to 4 short strings"],
+      "cover_search_query": "Landmark or region + country, specific enough for a great photo"
+    }
+  ]
+}

@@ -1,0 +1,1559 @@
+{
+  "country": "Italy",
+  "country_code": "it",
+  "emoji": "🇮🇹",
+  "trips": [
+    {
+      "id": "amalfi-coast-classic",
+      "name": "Amalfi Coast Classic",
+      "region": "Campania",
+      "duration_days": 4,
+      "distance_km": 180,
+      "description": "The most celebrated coastal drive in Europe winds between cliff-hanging villages and turquoise sea. From Naples, hug the dramatic SS163 through Positano and Amalfi to the garden city of Ravello.",
+      "stops": [
+        {"name": "Naples, Italy", "label": "Naples"},
+        {"name": "Positano, Italy", "label": "Positano"},
+        {"name": "Amalfi, Italy", "label": "Amalfi"},
+        {"name": "Ravello, Italy", "label": "Ravello"},
+        {"name": "Salerno, Italy", "label": "Salerno"}
+      ],
+      "highlights": ["SS163 cliff road", "Pastel fishing villages", "Ravello gardens", "Fresh seafood"],
+      "cover_search_query": "Amalfi Coast cliffs Positano Italy"
+    },
+    {
+      "id": "campania-hidden-gems",
+      "name": "Campania Hidden Gems",
+      "region": "Campania",
+      "duration_days": 5,
+      "distance_km": 260,
+      "description": "Beyond the famous coast lies a Campania of ancient ruins, baroque hilltowns, and wild Cilento shores. Pompeii anchors history while Paestum's Greek temples stun with their completeness.",
+      "stops": [
+        {"name": "Naples, Italy", "label": "Naples"},
+        {"name": "Pompeii, Italy", "label": "Pompeii"},
+        {"name": "Paestum, Italy", "label": "Paestum"},
+        {"name": "Agropoli, Italy", "label": "Agropoli"},
+        {"name": "Velia, Italy", "label": "Velia"},
+        {"name": "Maratea, Italy", "label": "Maratea"}
+      ],
+      "highlights": ["Pompeii ruins", "Greek temples at Paestum", "Cilento coast", "Maratea clifftop"],
+      "cover_search_query": "Paestum Greek temples Campania Italy"
+    },
+    {
+      "id": "sorrento-peninsula",
+      "name": "Sorrento Peninsula Loop",
+      "region": "Campania",
+      "duration_days": 3,
+      "distance_km": 120,
+      "description": "The Sorrento Peninsula juts between two bays with lemon groves, cliff hotels, and views of Vesuvius. Ferry to Capri or simply loop the headland's serpentine roads.",
+      "stops": [
+        {"name": "Naples, Italy", "label": "Naples"},
+        {"name": "Herculaneum, Italy", "label": "Herculaneum"},
+        {"name": "Sorrento, Italy", "label": "Sorrento"},
+        {"name": "Sant'Agata sui Due Golfi, Italy", "label": "Sant'Agata"},
+        {"name": "Massa Lubrense, Italy", "label": "Massa Lubrense"}
+      ],
+      "highlights": ["Herculaneum ruins", "Lemon groves", "Views of Vesuvius", "Two-bay panorama"],
+      "cover_search_query": "Sorrento cliffs Bay of Naples Italy"
+    },
+    {
+      "id": "cilento-national-park",
+      "name": "Cilento Wild Coast",
+      "region": "Campania",
+      "duration_days": 4,
+      "distance_km": 200,
+      "description": "Cilento is southern Italy's best-kept secret — a wild national park of unspoilt beaches, medieval villages perched on rocky spurs, and crystal-clear coves accessible only by boat.",
+      "stops": [
+        {"name": "Paestum, Italy", "label": "Paestum"},
+        {"name": "Castellabate, Italy", "label": "Castellabate"},
+        {"name": "Acciaroli, Italy", "label": "Acciaroli"},
+        {"name": "Pisciotta, Italy", "label": "Pisciotta"},
+        {"name": "Palinuro, Italy", "label": "Palinuro"}
+      ],
+      "highlights": ["Unspoilt beaches", "Medieval hillside villages", "UNESCO biosphere", "Ancient Greek sites"],
+      "cover_search_query": "Palinuro sea caves Cilento Italy"
+    },
+    {
+      "id": "tuscany-classic",
+      "name": "Tuscany Classic",
+      "region": "Tuscany",
+      "duration_days": 6,
+      "distance_km": 320,
+      "description": "Rolling cypress-lined hills, Renaissance cities, and Chianti wine cellars define the essential Tuscan experience. Drive the famous strade bianche between Florence, Siena, and the medieval hilltowns.",
+      "stops": [
+        {"name": "Florence, Italy", "label": "Florence"},
+        {"name": "Greve in Chianti, Italy", "label": "Greve in Chianti"},
+        {"name": "Siena, Italy", "label": "Siena"},
+        {"name": "San Gimignano, Italy", "label": "San Gimignano"},
+        {"name": "Volterra, Italy", "label": "Volterra"},
+        {"name": "Pisa, Italy", "label": "Pisa"}
+      ],
+      "highlights": ["Chianti vineyards", "Siena's Piazza del Campo", "Medieval towers", "Leaning Tower"],
+      "cover_search_query": "Tuscany cypress hills Val d'Orcia Italy"
+    },
+    {
+      "id": "val-dorcia",
+      "name": "Val d'Orcia & the Crete Senesi",
+      "region": "Tuscany",
+      "duration_days": 4,
+      "distance_km": 200,
+      "description": "UNESCO-listed Val d'Orcia is the landscape that defined Renaissance painting — undulating clay hills, lone farmhouses, and roads lined with ancient cypress trees pointing at the sky.",
+      "stops": [
+        {"name": "Siena, Italy", "label": "Siena"},
+        {"name": "Asciano, Italy", "label": "Asciano"},
+        {"name": "Pienza, Italy", "label": "Pienza"},
+        {"name": "Montepulciano, Italy", "label": "Montepulciano"},
+        {"name": "Montalcino, Italy", "label": "Montalcino"},
+        {"name": "Bagno Vignoni, Italy", "label": "Bagno Vignoni"}
+      ],
+      "highlights": ["UNESCO landscape", "Pecorino cheese at Pienza", "Brunello di Montalcino wine", "Hot springs"],
+      "cover_search_query": "Val d'Orcia rolling hills cypress trees Tuscany Italy"
+    },
+    {
+      "id": "tuscany-maremma",
+      "name": "Maremma & Etruscan Tuscany",
+      "region": "Tuscany",
+      "duration_days": 4,
+      "distance_km": 220,
+      "description": "Wild horses roam the Maremma marshes where the Etruscans once buried their dead in rock-cut tombs. This southwestern Tuscany rewards those who venture beyond the tourist trail.",
+      "stops": [
+        {"name": "Grosseto, Italy", "label": "Grosseto"},
+        {"name": "Pitigliano, Italy", "label": "Pitigliano"},
+        {"name": "Sovana, Italy", "label": "Sovana"},
+        {"name": "Sorano, Italy", "label": "Sorano"},
+        {"name": "Monte Argentario, Italy", "label": "Monte Argentario"}
+      ],
+      "highlights": ["Etruscan necropoli", "Pitigliano tuff city", "Wild Maremma coast", "Laguna di Orbetello"],
+      "cover_search_query": "Pitigliano tuff rock town Tuscany Italy"
+    },
+    {
+      "id": "lunigiana-garfagnana",
+      "name": "Lunigiana & Garfagnana Mountains",
+      "region": "Tuscany",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "Northern Tuscany hides a mountain world of marble peaks, chestnut forests, and medieval fortresses. The Apuan Alps rear white above the Garfagnana valley, source of the world's finest marble.",
+      "stops": [
+        {"name": "Lucca, Italy", "label": "Lucca"},
+        {"name": "Barga, Italy", "label": "Barga"},
+        {"name": "Castelnuovo di Garfagnana, Italy", "label": "Castelnuovo"},
+        {"name": "Carrara, Italy", "label": "Carrara"},
+        {"name": "Massa, Italy", "label": "Massa"}
+      ],
+      "highlights": ["Lucca's intact walls", "Marble quarries at Carrara", "Apuan Alps views", "Chestnut forests"],
+      "cover_search_query": "Carrara marble quarries Apuan Alps Italy"
+    },
+    {
+      "id": "chianti-wine-road",
+      "name": "Chianti Wine Road",
+      "region": "Tuscany",
+      "duration_days": 3,
+      "distance_km": 150,
+      "description": "The Via Chiantigiana threads through the heart of Italy's most famous wine country, passing castle wineries, ancient abbeys, and hilltop villages draped in vines.",
+      "stops": [
+        {"name": "Florence, Italy", "label": "Florence"},
+        {"name": "Greve in Chianti, Italy", "label": "Greve in Chianti"},
+        {"name": "Panzano in Chianti, Italy", "label": "Panzano"},
+        {"name": "Radda in Chianti, Italy", "label": "Radda"},
+        {"name": "Gaiole in Chianti, Italy", "label": "Gaiole"},
+        {"name": "Siena, Italy", "label": "Siena"}
+      ],
+      "highlights": ["Sangiovese wine estates", "Badia a Coltibuono abbey", "Strade bianche", "Butcher Dario Cecchini"],
+      "cover_search_query": "Chianti vineyards wine road Tuscany Italy"
+    },
+    {
+      "id": "tuscan-coast",
+      "name": "Tuscan Riviera & Elba",
+      "region": "Tuscany",
+      "duration_days": 4,
+      "distance_km": 220,
+      "description": "Tuscany has a coast too — from chic Forte dei Marmi to the rugged capes of the Argentario and a ferry hop to Napoleon's island of exile, Elba.",
+      "stops": [
+        {"name": "Forte dei Marmi, Italy", "label": "Forte dei Marmi"},
+        {"name": "Livorno, Italy", "label": "Livorno"},
+        {"name": "Piombino, Italy", "label": "Piombino"},
+        {"name": "Portoferraio, Elba, Italy", "label": "Elba"},
+        {"name": "Castiglione della Pescaia, Italy", "label": "Castiglione"}
+      ],
+      "highlights": ["Elba beaches", "Napoleon's residence", "Etruscan mining history", "Sunset at Cala Violina"],
+      "cover_search_query": "Elba island beach Tuscany Italy"
+    },
+    {
+      "id": "florence-renaissance",
+      "name": "Florence & the Renaissance Villages",
+      "region": "Tuscany",
+      "duration_days": 4,
+      "distance_km": 160,
+      "description": "Florence needs no introduction, but the villages that inspired the Renaissance masters are equally revelatory. Fiesole, Impruneta, and Certaldo reward those who leave the city.",
+      "stops": [
+        {"name": "Florence, Italy", "label": "Florence"},
+        {"name": "Fiesole, Italy", "label": "Fiesole"},
+        {"name": "Impruneta, Italy", "label": "Impruneta"},
+        {"name": "Certaldo, Italy", "label": "Certaldo"},
+        {"name": "Colle di Val d'Elsa, Italy", "label": "Colle di Val d'Elsa"}
+      ],
+      "highlights": ["Uffizi Gallery", "Fiesole Etruscan theatre", "Crystal glass making", "Boccaccio's birthplace"],
+      "cover_search_query": "Florence Duomo cathedral Tuscany Italy"
+    },
+    {
+      "id": "sicily-baroque-southeast",
+      "name": "Sicily Baroque Southeast",
+      "region": "Sicily",
+      "duration_days": 5,
+      "distance_km": 250,
+      "description": "Rebuilt after a devastating 1693 earthquake in flamboyant Sicilian Baroque, the Val di Noto is a UNESCO cluster of golden limestone towns with ornate facades and wide piazzas.",
+      "stops": [
+        {"name": "Catania, Italy", "label": "Catania"},
+        {"name": "Noto, Italy", "label": "Noto"},
+        {"name": "Modica, Italy", "label": "Modica"},
+        {"name": "Ragusa Ibla, Italy", "label": "Ragusa"},
+        {"name": "Scicli, Italy", "label": "Scicli"},
+        {"name": "Siracusa, Italy", "label": "Syracuse"}
+      ],
+      "highlights": ["UNESCO Baroque towns", "Modica chocolate", "Ragusa Ibla viewpoints", "Syracuse Greek theatre"],
+      "cover_search_query": "Noto Baroque cathedral Sicily Italy"
+    },
+    {
+      "id": "sicily-western",
+      "name": "Western Sicily & Temple Valley",
+      "region": "Sicily",
+      "duration_days": 5,
+      "distance_km": 300,
+      "description": "Western Sicily blends Greek, Arab, and Norman history with dramatic salt pans, ancient temples, and one of the best tuna dishes on earth. Agrigento's Valley of the Temples is unmissable.",
+      "stops": [
+        {"name": "Palermo, Italy", "label": "Palermo"},
+        {"name": "Segesta, Italy", "label": "Segesta"},
+        {"name": "Trapani, Italy", "label": "Trapani"},
+        {"name": "Marsala, Italy", "label": "Marsala"},
+        {"name": "Agrigento, Italy", "label": "Agrigento"},
+        {"name": "Scala dei Turchi, Italy", "label": "Scala dei Turchi"}
+      ],
+      "highlights": ["Valley of Temples", "Trapani salt pans at sunset", "Marsala wine", "Scala dei Turchi white cliffs"],
+      "cover_search_query": "Valley of Temples Agrigento Sicily Italy"
+    },
+    {
+      "id": "taormina-etna",
+      "name": "Taormina & Mount Etna",
+      "region": "Sicily",
+      "duration_days": 4,
+      "distance_km": 180,
+      "description": "Taormina's clifftop Greek-Roman theatre frames Europe's largest active volcano. Drive the Etna road circuit through lava fields, pistachio orchards, and wine estates at altitude.",
+      "stops": [
+        {"name": "Catania, Italy", "label": "Catania"},
+        {"name": "Taormina, Italy", "label": "Taormina"},
+        {"name": "Linguaglossa, Italy", "label": "Linguaglossa"},
+        {"name": "Randazzo, Italy", "label": "Randazzo"},
+        {"name": "Bronte, Italy", "label": "Bronte"},
+        {"name": "Zafferana Etnea, Italy", "label": "Zafferana Etnea"}
+      ],
+      "highlights": ["Taormina's ancient theatre", "Etna crater hike", "Bronte pistachios", "Etna DOC wine"],
+      "cover_search_query": "Mount Etna volcano Taormina Sicily Italy"
+    },
+    {
+      "id": "palermo-food-tour",
+      "name": "Palermo & the Conca d'Oro",
+      "region": "Sicily",
+      "duration_days": 4,
+      "distance_km": 160,
+      "description": "Palermo is one of the world's great street-food cities — arancini, panelle, and sfincione at every corner. The Norman cathedrals of the Conca d'Oro valley are equally extraordinary.",
+      "stops": [
+        {"name": "Palermo, Italy", "label": "Palermo"},
+        {"name": "Monreale, Italy", "label": "Monreale"},
+        {"name": "Cefalù, Italy", "label": "Cefalù"},
+        {"name": "Corleone, Italy", "label": "Corleone"},
+        {"name": "Bagheria, Italy", "label": "Bagheria"}
+      ],
+      "highlights": ["Monreale mosaics", "Cefalù Norman cathedral", "Palermo street food", "Baroque villas"],
+      "cover_search_query": "Cefalù Norman cathedral Sicily Italy"
+    },
+    {
+      "id": "sicily-north-coast",
+      "name": "Sicily's Tyrrhenian Coast",
+      "region": "Sicily",
+      "duration_days": 4,
+      "distance_km": 220,
+      "description": "Sicily's northern coastline swoops between Greek ruins, medieval hilltowns, and clear Tyrrhenian waters. Tindari's clifftop sanctuary and the islands of the Aeolian archipelago draw the eye.",
+      "stops": [
+        {"name": "Palermo, Italy", "label": "Palermo"},
+        {"name": "Termini Imerese, Italy", "label": "Termini Imerese"},
+        {"name": "Tindari, Italy", "label": "Tindari"},
+        {"name": "Milazzo, Italy", "label": "Milazzo"},
+        {"name": "Messina, Italy", "label": "Messina"}
+      ],
+      "highlights": ["Tindari cliff sanctuary", "Greek ruins at Tindari", "Aeolian Islands view", "Strait of Messina"],
+      "cover_search_query": "Tindari cliff sanctuary sea Sicily Italy"
+    },
+    {
+      "id": "sardinia-costa-smeralda",
+      "name": "Costa Smeralda & Gallura",
+      "region": "Sardinia",
+      "duration_days": 5,
+      "distance_km": 260,
+      "description": "The Costa Smeralda's turquoise coves rival the Caribbean. Beyond the jet-set resorts of Porto Cervo, granite-sculpted Gallura offers wild hiking, local Vermentino wine, and nuraghe stone towers.",
+      "stops": [
+        {"name": "Olbia, Italy", "label": "Olbia"},
+        {"name": "Porto Cervo, Italy", "label": "Porto Cervo"},
+        {"name": "Santa Teresa Gallura, Italy", "label": "Santa Teresa Gallura"},
+        {"name": "Palau, Italy", "label": "Palau"},
+        {"name": "Arzachena, Italy", "label": "Arzachena"}
+      ],
+      "highlights": ["Turquoise Costa Smeralda waters", "La Maddalena archipelago", "Nuraghe di Albucciu", "Vermentino wine"],
+      "cover_search_query": "Costa Smeralda turquoise sea Sardinia Italy"
+    },
+    {
+      "id": "sardinia-south",
+      "name": "Southern Sardinia & Cagliari",
+      "region": "Sardinia",
+      "duration_days": 5,
+      "distance_km": 280,
+      "description": "Cagliari's Phoenician-Roman port opens into a south Sardinia of pink flamingos, ancient nuraghe fortresses, and the spectacular white dunes of Piscinas.",
+      "stops": [
+        {"name": "Cagliari, Italy", "label": "Cagliari"},
+        {"name": "Nora, Italy", "label": "Nora"},
+        {"name": "Sant'Antioco, Italy", "label": "Sant'Antioco"},
+        {"name": "Carbonia, Italy", "label": "Carbonia"},
+        {"name": "Iglesias, Italy", "label": "Iglesias"},
+        {"name": "Piscinas, Italy", "label": "Piscinas"}
+      ],
+      "highlights": ["Phoenician ruins at Nora", "Flamingo lagoons", "Piscinas dunes", "Carbonia mining history"],
+      "cover_search_query": "Cagliari harbor Sardinia Italy"
+    },
+    {
+      "id": "sardinia-nuraghi",
+      "name": "Nuraghe Trail — Sardinia's Bronze Age",
+      "region": "Sardinia",
+      "duration_days": 4,
+      "distance_km": 230,
+      "description": "Sardinia has more ancient stone towers (nuraghe) than any other place on earth — over 7,000 of them. This route connects the greatest, from Su Nuraxi di Barumini to the sacred well of Santa Cristina.",
+      "stops": [
+        {"name": "Cagliari, Italy", "label": "Cagliari"},
+        {"name": "Barumini, Italy", "label": "Barumini"},
+        {"name": "Oristano, Italy", "label": "Oristano"},
+        {"name": "Paulilatino, Italy", "label": "Paulilatino"},
+        {"name": "Sassari, Italy", "label": "Sassari"}
+      ],
+      "highlights": ["Su Nuraxi UNESCO site", "Santa Cristina sacred well", "Nuraghe Losa", "Oristano carnival"],
+      "cover_search_query": "Nuraghe Su Nuraxi Barumini Sardinia Italy"
+    },
+    {
+      "id": "puglia-salento",
+      "name": "Salento — The Heel of Italy",
+      "region": "Puglia",
+      "duration_days": 5,
+      "distance_km": 240,
+      "description": "The very tip of Italy's boot drips in Baroque architecture, turquoise Adriatic waters, and the hypnotic pizzica folk music of Lecce. Whitewashed towns and sea caves make every stop unforgettable.",
+      "stops": [
+        {"name": "Lecce, Italy", "label": "Lecce"},
+        {"name": "Otranto, Italy", "label": "Otranto"},
+        {"name": "Santa Maria di Leuca, Italy", "label": "Leuca"},
+        {"name": "Gallipoli, Italy", "label": "Gallipoli"},
+        {"name": "Taranto, Italy", "label": "Taranto"}
+      ],
+      "highlights": ["Lecce Baroque excess", "Otranto sea castle", "Southernmost point Italy", "Taranto two seas"],
+      "cover_search_query": "Lecce Baroque cathedral Salento Puglia Italy"
+    },
+    {
+      "id": "puglia-trulli",
+      "name": "Trulli Country & Valle d'Itria",
+      "region": "Puglia",
+      "duration_days": 4,
+      "distance_km": 200,
+      "description": "The Valle d'Itria is studded with trulli — ancient dry-stone dwellings with conical roofs. Alberobello's UNESCO-listed trulli district is the showpiece, while Locorotondo and Martina Franca enchant with their whitewashed streets.",
+      "stops": [
+        {"name": "Bari, Italy", "label": "Bari"},
+        {"name": "Alberobello, Italy", "label": "Alberobello"},
+        {"name": "Locorotondo, Italy", "label": "Locorotondo"},
+        {"name": "Martina Franca, Italy", "label": "Martina Franca"},
+        {"name": "Ostuni, Italy", "label": "Ostuni"}
+      ],
+      "highlights": ["UNESCO trulli houses", "Ostuni the White City", "Primitivo wine", "Valle d'Itria cycling"],
+      "cover_search_query": "Alberobello trulli houses Puglia Italy"
+    },
+    {
+      "id": "puglia-gargano",
+      "name": "Gargano Peninsula",
+      "region": "Puglia",
+      "duration_days": 5,
+      "distance_km": 280,
+      "description": "The Gargano is Puglia's wild promontory — a spur of mountains covered in the ancient Foresta Umbra, surrounded by some of Italy's clearest Adriatic waters and peppered with pilgrimage sites.",
+      "stops": [
+        {"name": "Foggia, Italy", "label": "Foggia"},
+        {"name": "Monte Sant'Angelo, Italy", "label": "Monte Sant'Angelo"},
+        {"name": "Vieste, Italy", "label": "Vieste"},
+        {"name": "Peschici, Italy", "label": "Peschici"},
+        {"name": "Rodi Garganico, Italy", "label": "Rodi Garganico"},
+        {"name": "Manfredonia, Italy", "label": "Manfredonia"}
+      ],
+      "highlights": ["Foresta Umbra ancient forest", "Archangel sanctuary", "Vieste sea stacks", "Tremiti Islands views"],
+      "cover_search_query": "Vieste Gargano sea stacks Puglia Italy"
+    },
+    {
+      "id": "dolomites-grande-strada",
+      "name": "Grande Strada delle Dolomiti",
+      "region": "Dolomites",
+      "duration_days": 5,
+      "distance_km": 350,
+      "description": "The Great Dolomites Road is one of the most beautiful drives in the world, winding between the pink-hued vertical walls of the UNESCO Dolomite peaks from Bolzano to Cortina d'Ampezzo.",
+      "stops": [
+        {"name": "Bolzano, Italy", "label": "Bolzano"},
+        {"name": "Pozza di Fassa, Italy", "label": "Fassa Valley"},
+        {"name": "Passo Pordoi, Italy", "label": "Passo Pordoi"},
+        {"name": "Cortina d'Ampezzo, Italy", "label": "Cortina"},
+        {"name": "Misurina, Italy", "label": "Misurina"}
+      ],
+      "highlights": ["UNESCO Dolomite peaks", "Pink-hued rock at sunset", "Ötzi museum at Bolzano", "Cortina glamour"],
+      "cover_search_query": "Dolomites peaks Passo Pordoi Italy"
+    },
+    {
+      "id": "dolomites-val-gardena",
+      "name": "Val Gardena & Sella Ronda",
+      "region": "Dolomites",
+      "duration_days": 4,
+      "distance_km": 220,
+      "description": "The Sella Ronda circuit around the Sella massif links four Dolomite valleys and countless mountain passes. In summer the ski roads transform into a scenic driving paradise with cable cars and alpine meadows.",
+      "stops": [
+        {"name": "Ortisei, Italy", "label": "Ortisei"},
+        {"name": "Plan de Gralba, Italy", "label": "Plan de Gralba"},
+        {"name": "Corvara in Badia, Italy", "label": "Corvara"},
+        {"name": "Arabba, Italy", "label": "Arabba"},
+        {"name": "Selva di Val Gardena, Italy", "label": "Selva"}
+      ],
+      "highlights": ["Sella Ronda circuit", "Ladin culture and cuisine", "Val Gardena woodcarving", "Alpine wildflowers"],
+      "cover_search_query": "Val Gardena Dolomites mountain valley Italy"
+    },
+    {
+      "id": "dolomites-three-peaks",
+      "name": "Tre Cime di Lavaredo Loop",
+      "region": "Dolomites",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "The three jagged towers of Tre Cime are the iconic symbol of the Dolomites. The road to Misurina lake and the toll road to the hut at the base offer views that defy description.",
+      "stops": [
+        {"name": "Cortina d'Ampezzo, Italy", "label": "Cortina"},
+        {"name": "Misurina, Italy", "label": "Misurina"},
+        {"name": "Tre Cime di Lavaredo, Italy", "label": "Tre Cime"},
+        {"name": "Dobbiaco, Italy", "label": "Dobbiaco"},
+        {"name": "Brunico, Italy", "label": "Brunico"}
+      ],
+      "highlights": ["Tre Cime iconic towers", "Misurina lake reflection", "Pustertal valley", "WWI history sites"],
+      "cover_search_query": "Tre Cime di Lavaredo Dolomites Italy"
+    },
+    {
+      "id": "alto-adige-wine-road",
+      "name": "Alto Adige Wine Road",
+      "region": "Dolomites",
+      "duration_days": 3,
+      "distance_km": 140,
+      "description": "The Südtiroler Weinstraße threads through Europe's highest vineyards. Austrian culture meets Italian warmth in this border region of Gewürztraminer, medieval castles, and apple orchards.",
+      "stops": [
+        {"name": "Bolzano, Italy", "label": "Bolzano"},
+        {"name": "Caldaro sulla Strada del Vino, Italy", "label": "Caldaro"},
+        {"name": "Termeno sulla Strada del Vino, Italy", "label": "Termeno"},
+        {"name": "Merano, Italy", "label": "Merano"},
+        {"name": "Naturno, Italy", "label": "Naturno"}
+      ],
+      "highlights": ["Gewürztraminer birthplace", "Merano thermal baths", "Medieval Tyrolian castles", "Bolzano Christmas market"],
+      "cover_search_query": "Alto Adige vineyards Dolomites South Tyrol Italy"
+    },
+    {
+      "id": "lake-como",
+      "name": "Lake Como & the Larian Triangle",
+      "region": "Lake District",
+      "duration_days": 4,
+      "distance_km": 180,
+      "description": "Lake Como's forked silhouette is framed by snow-capped Alps and lined with Villa del Balbianello and Villa Carlotta — the most palatial of Italy's lakeside estates. George Clooney is a neighbour.",
+      "stops": [
+        {"name": "Como, Italy", "label": "Como"},
+        {"name": "Bellagio, Italy", "label": "Bellagio"},
+        {"name": "Varenna, Italy", "label": "Varenna"},
+        {"name": "Menaggio, Italy", "label": "Menaggio"},
+        {"name": "Tremezzo, Italy", "label": "Tremezzo"}
+      ],
+      "highlights": ["Bellagio ferry junction", "Villa Carlotta gardens", "Villa del Balbianello", "Alpine backdrop"],
+      "cover_search_query": "Lake Como Bellagio Alps Italy"
+    },
+    {
+      "id": "lake-garda",
+      "name": "Lake Garda Grand Tour",
+      "region": "Lake District",
+      "duration_days": 5,
+      "distance_km": 240,
+      "description": "Italy's largest lake spans three regions and three climates. The south is Mediterranean olive groves and Bardolino wine; the north is dramatic fjord-like scenery with windsurfers and towering cliffs.",
+      "stops": [
+        {"name": "Sirmione, Italy", "label": "Sirmione"},
+        {"name": "Gardone Riviera, Italy", "label": "Gardone"},
+        {"name": "Limone sul Garda, Italy", "label": "Limone"},
+        {"name": "Riva del Garda, Italy", "label": "Riva del Garda"},
+        {"name": "Malcesine, Italy", "label": "Malcesine"},
+        {"name": "Garda, Italy", "label": "Garda"}
+      ],
+      "highlights": ["Roman ruins at Sirmione", "D'Annunzio's Vittoriale", "Northern fjord scenery", "Bardolino wine"],
+      "cover_search_query": "Lake Garda Limone cliffs Italy"
+    },
+    {
+      "id": "lake-maggiore",
+      "name": "Lake Maggiore & the Borromean Islands",
+      "region": "Lake District",
+      "duration_days": 4,
+      "distance_km": 200,
+      "description": "Maggiore's western shore is lined with grand hotels and Borromeo family palaces. The extraordinary Borromean Islands — particularly Isola Bella's baroque gardens — are worth the whole journey.",
+      "stops": [
+        {"name": "Stresa, Italy", "label": "Stresa"},
+        {"name": "Isola Bella, Italy", "label": "Isola Bella"},
+        {"name": "Verbania, Italy", "label": "Verbania"},
+        {"name": "Cannobio, Italy", "label": "Cannobio"},
+        {"name": "Arona, Italy", "label": "Arona"}
+      ],
+      "highlights": ["Isola Bella baroque gardens", "Borromean Islands", "Villa Taranto", "Panoramic cable car"],
+      "cover_search_query": "Isola Bella Borromean Islands Lake Maggiore Italy"
+    },
+    {
+      "id": "venice-lagoon",
+      "name": "Venice, Murano & the Lagoon",
+      "region": "Veneto",
+      "duration_days": 4,
+      "distance_km": 120,
+      "description": "Beyond the Grand Canal and Rialto, Venice's lagoon holds mosaic-encrusted Torcello, glass-blowing Murano, and lace-making Burano. The Brenta Riviera of Palladian villas extends inland.",
+      "stops": [
+        {"name": "Venice, Italy", "label": "Venice"},
+        {"name": "Murano, Italy", "label": "Murano"},
+        {"name": "Burano, Italy", "label": "Burano"},
+        {"name": "Mira, Italy", "label": "Mira"},
+        {"name": "Padua, Italy", "label": "Padua"}
+      ],
+      "highlights": ["Grand Canal and gondolas", "Murano glassblowing", "Burano coloured houses", "Giotto's Scrovegni Chapel"],
+      "cover_search_query": "Venice Grand Canal gondola Italy"
+    },
+    {
+      "id": "veneto-wine-roads",
+      "name": "Veneto Wine Roads — Prosecco & Valpolicella",
+      "region": "Veneto",
+      "duration_days": 4,
+      "distance_km": 220,
+      "description": "The Veneto produces more DOC wine than any Italian region. Drive the Prosecco Road's UNESCO hillside vineyards, then swing south to Amarone country in the Valpolicella.",
+      "stops": [
+        {"name": "Verona, Italy", "label": "Verona"},
+        {"name": "Bardolino, Italy", "label": "Bardolino"},
+        {"name": "Valdobbiadene, Italy", "label": "Valdobbiadene"},
+        {"name": "Asolo, Italy", "label": "Asolo"},
+        {"name": "Conegliano, Italy", "label": "Conegliano"}
+      ],
+      "highlights": ["Prosecco DOCG UNESCO hills", "Amarone di Valpolicella", "Romeo and Juliet Verona", "Asolo hilltop views"],
+      "cover_search_query": "Prosecco hills Valdobbiadene Veneto Italy"
+    },
+    {
+      "id": "dolomiti-bellunesi",
+      "name": "Belluno Dolomites & Cadore",
+      "region": "Veneto",
+      "duration_days": 4,
+      "distance_km": 200,
+      "description": "The Belluno province sits at the foot of the wildest Dolomites — Titian's homeland, where the Piave river carved its valley and medieval villages cling to forested slopes.",
+      "stops": [
+        {"name": "Belluno, Italy", "label": "Belluno"},
+        {"name": "Feltre, Italy", "label": "Feltre"},
+        {"name": "Pieve di Cadore, Italy", "label": "Pieve di Cadore"},
+        {"name": "Auronzo di Cadore, Italy", "label": "Auronzo"},
+        {"name": "Cortina d'Ampezzo, Italy", "label": "Cortina"}
+      ],
+      "highlights": ["Titian's birthplace", "Belluno's mountain baroque", "Dolomiti Bellunesi NP", "Cadore craftsmanship"],
+      "cover_search_query": "Belluno Dolomites valley Italy"
+    },
+    {
+      "id": "cinque-terre",
+      "name": "Cinque Terre & Ligurian Riviera",
+      "region": "Liguria",
+      "duration_days": 4,
+      "distance_km": 180,
+      "description": "Five fishing villages cling to near-vertical cliffs between La Spezia and Levanto, connected by the famous Sentiero Azzurro coastal path. The striped pastel houses spilling into the sea are utterly unique.",
+      "stops": [
+        {"name": "La Spezia, Italy", "label": "La Spezia"},
+        {"name": "Riomaggiore, Italy", "label": "Riomaggiore"},
+        {"name": "Vernazza, Italy", "label": "Vernazza"},
+        {"name": "Monterosso al Mare, Italy", "label": "Monterosso"},
+        {"name": "Levanto, Italy", "label": "Levanto"}
+      ],
+      "highlights": ["Clifftop hiking path", "UNESCO villages", "Local Sciacchetrà wine", "Vernazza harbour"],
+      "cover_search_query": "Cinque Terre Vernazza village cliffs Italy"
+    },
+    {
+      "id": "portofino-riviera",
+      "name": "Portofino & the Riviera di Levante",
+      "region": "Liguria",
+      "duration_days": 3,
+      "distance_km": 140,
+      "description": "Portofino is Italy's most glamorous fishing village, its coloured buildings mirrored in a perfectly round harbour. The Riviera di Levante runs east through Camogli and the Tigullio gulf.",
+      "stops": [
+        {"name": "Genoa, Italy", "label": "Genoa"},
+        {"name": "Camogli, Italy", "label": "Camogli"},
+        {"name": "Portofino, Italy", "label": "Portofino"},
+        {"name": "Rapallo, Italy", "label": "Rapallo"},
+        {"name": "Sestri Levante, Italy", "label": "Sestri Levante"}
+      ],
+      "highlights": ["Portofino harbour", "San Fruttuoso abbey by boat", "Paraggi beach", "Genoese pesto"],
+      "cover_search_query": "Portofino harbour Liguria Italy"
+    },
+    {
+      "id": "umbria-assisi-perugia",
+      "name": "Umbria — Mystic Heart of Italy",
+      "region": "Umbria",
+      "duration_days": 5,
+      "distance_km": 260,
+      "description": "Umbria calls itself Italy's green heart. Pilgrims and artists have converged here for centuries: Assisi for St Francis, Perugia for chocolate and art, Orvieto for its Gothic cathedral on a tufa plateau.",
+      "stops": [
+        {"name": "Perugia, Italy", "label": "Perugia"},
+        {"name": "Assisi, Italy", "label": "Assisi"},
+        {"name": "Spoleto, Italy", "label": "Spoleto"},
+        {"name": "Norcia, Italy", "label": "Norcia"},
+        {"name": "Orvieto, Italy", "label": "Orvieto"}
+      ],
+      "highlights": ["Basilica di San Francesco", "Orvieto cathedral facade", "Norcia black truffles", "Lake Trasimeno"],
+      "cover_search_query": "Assisi basilica hilltown Umbria Italy"
+    },
+    {
+      "id": "umbria-valnerina",
+      "name": "Valnerina & the Sibillini Foothills",
+      "region": "Umbria",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "The Nera river valley cuts through the remotest Umbria, connecting waterfalls, Benedictine abbeys, and the reconstructed hilltop of Cascia. Few tourist buses reach here.",
+      "stops": [
+        {"name": "Norcia, Italy", "label": "Norcia"},
+        {"name": "Preci, Italy", "label": "Preci"},
+        {"name": "Cascia, Italy", "label": "Cascia"},
+        {"name": "Scheggino, Italy", "label": "Scheggino"},
+        {"name": "Cascata delle Marmore, Italy", "label": "Marmore Falls"}
+      ],
+      "highlights": ["Cascata delle Marmore", "Benedictine Abbey of Sant'Eutizio", "Black truffles of Norcia", "River canyons"],
+      "cover_search_query": "Cascata delle Marmore waterfall Umbria Italy"
+    },
+    {
+      "id": "marche-urbino",
+      "name": "Marche — Renaissance & Adriatic",
+      "region": "Marche",
+      "duration_days": 4,
+      "distance_km": 220,
+      "description": "Urbino's Ducal Palace is one of Italy's most perfect Renaissance buildings, sitting on twin hilltops above soft green hills. The Sibillini mountains and the Conero Riviera complete this underrated region.",
+      "stops": [
+        {"name": "Ancona, Italy", "label": "Ancona"},
+        {"name": "Conero Riviera, Italy", "label": "Conero"},
+        {"name": "Loreto, Italy", "label": "Loreto"},
+        {"name": "Ascoli Piceno, Italy", "label": "Ascoli Piceno"},
+        {"name": "Urbino, Italy", "label": "Urbino"}
+      ],
+      "highlights": ["Raphael's birthplace in Urbino", "Conero white cliffs", "Ascoli Piceno's travertine piazza", "Olive ascolane"],
+      "cover_search_query": "Urbino ducal palace Renaissance Marche Italy"
+    },
+    {
+      "id": "emilia-food-valley",
+      "name": "Emilia-Romagna Food Valley",
+      "region": "Emilia-Romagna",
+      "duration_days": 5,
+      "distance_km": 280,
+      "description": "The stretch from Parma to Bologna is arguably the richest culinary landscape on earth — Parmigiano-Reggiano, Prosciutto di Parma, Aceto Balsamico, tortellini, and mortadella all originate here.",
+      "stops": [
+        {"name": "Parma, Italy", "label": "Parma"},
+        {"name": "Reggio Emilia, Italy", "label": "Reggio Emilia"},
+        {"name": "Modena, Italy", "label": "Modena"},
+        {"name": "Bologna, Italy", "label": "Bologna"},
+        {"name": "Ferrara, Italy", "label": "Ferrara"}
+      ],
+      "highlights": ["Parma ham and cheese", "Modena balsamic vinegar", "Ferrari museum", "Bologna porticoes"],
+      "cover_search_query": "Bologna porticoes Emilia-Romagna Italy"
+    },
+    {
+      "id": "emilia-ferrari-route",
+      "name": "Motor Valley — Ferrari, Lamborghini, Maserati",
+      "region": "Emilia-Romagna",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "Emilia-Romagna is Italy's motor valley — birthplace of Ferrari, Lamborghini, Maserati, and Ducati. Drive between their museums on roads that double as test tracks.",
+      "stops": [
+        {"name": "Modena, Italy", "label": "Modena"},
+        {"name": "Maranello, Italy", "label": "Maranello"},
+        {"name": "Sant'Agata Bolognese, Italy", "label": "Sant'Agata"},
+        {"name": "Bologna, Italy", "label": "Bologna"},
+        {"name": "Imola, Italy", "label": "Imola"}
+      ],
+      "highlights": ["Ferrari Museum Maranello", "Lamborghini Museum", "Imola racing circuit", "Ducati factory tour"],
+      "cover_search_query": "Ferrari Museum Maranello Emilia-Romagna Italy"
+    },
+    {
+      "id": "emilia-ravenna-coast",
+      "name": "Ravenna Mosaics & Adriatic Riviera",
+      "region": "Emilia-Romagna",
+      "duration_days": 3,
+      "distance_km": 140,
+      "description": "Ravenna's UNESCO Byzantine mosaics are a miracle of colour after the fall of Rome. The Po Delta nature reserve and Dante's tomb add to an itinerary that defies expectation.",
+      "stops": [
+        {"name": "Ravenna, Italy", "label": "Ravenna"},
+        {"name": "Comacchio, Italy", "label": "Comacchio"},
+        {"name": "Ferrara, Italy", "label": "Ferrara"},
+        {"name": "Rimini, Italy", "label": "Rimini"},
+        {"name": "San Marino, Italy", "label": "San Marino"}
+      ],
+      "highlights": ["UNESCO Byzantine mosaics", "Po Delta birdwatching", "Dante's tomb", "San Marino hilltop republic"],
+      "cover_search_query": "Ravenna Byzantine mosaics UNESCO Italy"
+    },
+    {
+      "id": "piedmont-langhe-wine",
+      "name": "Langhe Wine Country",
+      "region": "Piedmont",
+      "duration_days": 4,
+      "distance_km": 200,
+      "description": "The UNESCO Langhe hills of Barolo and Barbaresco are Italy's answer to Burgundy — rolling vineyards, castle wineries, and truffle hunting beneath hazel trees in October.",
+      "stops": [
+        {"name": "Turin, Italy", "label": "Turin"},
+        {"name": "Asti, Italy", "label": "Asti"},
+        {"name": "Alba, Italy", "label": "Alba"},
+        {"name": "La Morra, Italy", "label": "La Morra"},
+        {"name": "Barolo, Italy", "label": "Barolo"},
+        {"name": "Barbaresco, Italy", "label": "Barbaresco"}
+      ],
+      "highlights": ["Barolo DOCG wine", "Truffle fair at Alba", "UNESCO Langhe landscape", "Nutella's birthplace Cuneo"],
+      "cover_search_query": "Barolo vineyards Langhe Piedmont Italy"
+    },
+    {
+      "id": "piedmont-aosta-valley",
+      "name": "Aosta Valley — Alps & Roman Ruins",
+      "region": "Piedmont",
+      "duration_days": 4,
+      "distance_km": 220,
+      "description": "The Aosta Valley is a Roman outpost perfectly preserved — triumphal arches, a theatre, and a forum all in a mountain city at the foot of Mont Blanc and the Matterhorn.",
+      "stops": [
+        {"name": "Turin, Italy", "label": "Turin"},
+        {"name": "Ivrea, Italy", "label": "Ivrea"},
+        {"name": "Aosta, Italy", "label": "Aosta"},
+        {"name": "Courmayeur, Italy", "label": "Courmayeur"},
+        {"name": "Cervinia, Italy", "label": "Cervinia"}
+      ],
+      "highlights": ["Roman Aosta triumphal arch", "Mont Blanc views from Courmayeur", "Matterhorn from Cervinia", "Castello di Fenis"],
+      "cover_search_query": "Aosta Valley Alps Mont Blanc Italy"
+    },
+    {
+      "id": "rome-lazio",
+      "name": "Rome & the Castelli Romani",
+      "region": "Lazio",
+      "duration_days": 5,
+      "distance_km": 160,
+      "description": "Rome needs a week alone, but the Castelli Romani volcanic hills within an hour of the city offer papal summer palaces, wine cellars, and crater lakes. Tivoli's Villa d'Este is a UNESCO garden masterpiece.",
+      "stops": [
+        {"name": "Rome, Italy", "label": "Rome"},
+        {"name": "Tivoli, Italy", "label": "Tivoli"},
+        {"name": "Frascati, Italy", "label": "Frascati"},
+        {"name": "Castel Gandolfo, Italy", "label": "Castel Gandolfo"},
+        {"name": "Nemi, Italy", "label": "Nemi"}
+      ],
+      "highlights": ["Colosseum and Forum", "Villa d'Este gardens", "Papal summer palace", "Nemi strawberries"],
+      "cover_search_query": "Rome Colosseum Forum Italy"
+    },
+    {
+      "id": "lazio-etruscan",
+      "name": "Etruscan Lazio — Viterbo & the North",
+      "region": "Lazio",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "Northern Lazio was Etruscan heartland. Tarquinia's painted tombs are among the greatest artistic treasures of antiquity, while Viterbo's medieval quarter and volcanic Lake Bolsena reward slow exploration.",
+      "stops": [
+        {"name": "Rome, Italy", "label": "Rome"},
+        {"name": "Tarquinia, Italy", "label": "Tarquinia"},
+        {"name": "Viterbo, Italy", "label": "Viterbo"},
+        {"name": "Civita di Bagnoregio, Italy", "label": "Civita di Bagnoregio"},
+        {"name": "Bomarzo, Italy", "label": "Bomarzo"}
+      ],
+      "highlights": ["Tarquinia Etruscan painted tombs", "Viterbo papal palace", "Civita di Bagnoregio dying city", "Monster Park Bomarzo"],
+      "cover_search_query": "Civita di Bagnoregio dying city Lazio Italy"
+    },
+    {
+      "id": "abruzzo-gran-sasso",
+      "name": "Gran Sasso & the Abruzzo Highlands",
+      "region": "Abruzzo",
+      "duration_days": 4,
+      "distance_km": 230,
+      "description": "The Gran Sasso d'Italia is the highest peak in the Apennines, rising above an upland plateau where Marsican bears and wolves still roam. The medieval hilltowns here are Italy's least visited and most authentic.",
+      "stops": [
+        {"name": "L'Aquila, Italy", "label": "L'Aquila"},
+        {"name": "Campo Imperatore, Italy", "label": "Campo Imperatore"},
+        {"name": "Scanno, Italy", "label": "Scanno"},
+        {"name": "Pescasseroli, Italy", "label": "Pescasseroli"},
+        {"name": "Roccaraso, Italy", "label": "Roccaraso"}
+      ],
+      "highlights": ["Gran Sasso alpine plateau", "Abruzzo NP wolves and bears", "Scanno heart-shaped lake", "L'Aquila rebuilding story"],
+      "cover_search_query": "Gran Sasso mountain plateau Abruzzo Italy"
+    },
+    {
+      "id": "matera-basilicata",
+      "name": "Matera & Basilicata",
+      "region": "Basilicata",
+      "duration_days": 4,
+      "distance_km": 240,
+      "description": "Matera's sassi — cave dwellings cut into a ravine — are one of Italy's most extraordinary sights, occupied continuously for 9,000 years and now a UNESCO World Heritage Site and European Capital of Culture.",
+      "stops": [
+        {"name": "Matera, Italy", "label": "Matera"},
+        {"name": "Aliano, Italy", "label": "Aliano"},
+        {"name": "Maratea, Italy", "label": "Maratea"},
+        {"name": "Melfi, Italy", "label": "Melfi"},
+        {"name": "Venosa, Italy", "label": "Venosa"}
+      ],
+      "highlights": ["UNESCO sassi cave city", "Carlo Levi's Cristo si è fermato", "Maratea Tyrrhenian coast", "Norman castle at Melfi"],
+      "cover_search_query": "Matera sassi cave city UNESCO Italy"
+    },
+    {
+      "id": "calabria-tropea",
+      "name": "Calabria — Tropea & the Tyrrhenian",
+      "region": "Calabria",
+      "duration_days": 4,
+      "distance_km": 220,
+      "description": "Tropea perches dramatically on a clifftop above some of the clearest blue water in the Mediterranean. Calabria is Italy's most underrated region — wild, authentic, and stunningly beautiful.",
+      "stops": [
+        {"name": "Reggio Calabria, Italy", "label": "Reggio Calabria"},
+        {"name": "Scilla, Italy", "label": "Scilla"},
+        {"name": "Tropea, Italy", "label": "Tropea"},
+        {"name": "Pizzo, Italy", "label": "Pizzo"},
+        {"name": "Catanzaro, Italy", "label": "Catanzaro"}
+      ],
+      "highlights": ["Tropea clifftop village", "Scilla swordfish fishing", "Pizzo tartufo ice cream", "Riace bronzes at Reggio"],
+      "cover_search_query": "Tropea clifftop village Calabria Italy"
+    },
+    {
+      "id": "friuli-trieste",
+      "name": "Friuli & Trieste — Where Italy Meets Mitteleuropa",
+      "region": "Friuli-Venezia Giulia",
+      "duration_days": 4,
+      "distance_km": 200,
+      "description": "Trieste is Italy's most Central European city — Habsburg coffee houses, a castle on a sea promontory, and the border with Slovenia just minutes away. The Friuli wine hills produce Friulano and Collio whites.",
+      "stops": [
+        {"name": "Venice, Italy", "label": "Venice"},
+        {"name": "Udine, Italy", "label": "Udine"},
+        {"name": "Cividale del Friuli, Italy", "label": "Cividale"},
+        {"name": "Trieste, Italy", "label": "Trieste"},
+        {"name": "Miramare Castle, Italy", "label": "Miramare"}
+      ],
+      "highlights": ["Trieste's Habsburg cafes", "Miramare Castle on the sea", "Friuli white wines", "Longobard heritage"],
+      "cover_search_query": "Trieste Miramare Castle seafront Italy"
+    },
+    {
+      "id": "lombardy-bergamo-brescia",
+      "name": "Bergamo, Brescia & Franciacorta",
+      "region": "Lombardy",
+      "duration_days": 4,
+      "distance_km": 180,
+      "description": "Bergamo's Città Alta is a medieval hilltop encircled by Venetian walls, while Brescia hides Roman ruins beneath its streets. Between them, Franciacorta's sparkling wine estates rival Champagne.",
+      "stops": [
+        {"name": "Milan, Italy", "label": "Milan"},
+        {"name": "Bergamo, Italy", "label": "Bergamo"},
+        {"name": "Franciacorta, Italy", "label": "Franciacorta"},
+        {"name": "Brescia, Italy", "label": "Brescia"},
+        {"name": "Lake Iseo, Italy", "label": "Lake Iseo"}
+      ],
+      "highlights": ["Bergamo's medieval alta città", "Roman Brescia", "Franciacorta sparkling wine", "Monte Isola car-free island"],
+      "cover_search_query": "Bergamo alta città medieval walls Italy"
+    },
+    {
+      "id": "lombardy-valtellina",
+      "name": "Valtellina Alpine Valley",
+      "region": "Lombardy",
+      "duration_days": 3,
+      "distance_km": 200,
+      "description": "The Valtellina runs east from Lake Como beneath the Rhaetian Alps, producing Nebbiolo grapes on vertiginous terraced vineyards. Bormio's thermal spas and the Stelvio Pass are legendary.",
+      "stops": [
+        {"name": "Lecco, Italy", "label": "Lecco"},
+        {"name": "Sondrio, Italy", "label": "Sondrio"},
+        {"name": "Tirano, Italy", "label": "Tirano"},
+        {"name": "Bormio, Italy", "label": "Bormio"},
+        {"name": "Passo dello Stelvio, Italy", "label": "Stelvio Pass"}
+      ],
+      "highlights": ["Stelvio Pass hairpins", "Bormio thermal baths", "Valtellina Nebbiolo wine", "Bernina Express junction"],
+      "cover_search_query": "Stelvio Pass mountain hairpins Alps Italy"
+    },
+    {
+      "id": "trentino-brenta",
+      "name": "Dolomiti di Brenta & Adamello",
+      "region": "Trentino",
+      "duration_days": 4,
+      "distance_km": 200,
+      "description": "The Brenta Dolomites are the most spectacular outlier of the Dolomite chain — isolated towers of white rock rising above larch forests west of Trento. The Via delle Bocchette via ferrata is world-famous.",
+      "stops": [
+        {"name": "Trento, Italy", "label": "Trento"},
+        {"name": "Madonna di Campiglio, Italy", "label": "Madonna di Campiglio"},
+        {"name": "Pinzolo, Italy", "label": "Pinzolo"},
+        {"name": "Riva del Garda, Italy", "label": "Riva del Garda"},
+        {"name": "Rovereto, Italy", "label": "Rovereto"}
+      ],
+      "highlights": ["Brenta Dolomites towers", "Via ferrata climbing", "Trento medieval old town", "Rovereto MART museum"],
+      "cover_search_query": "Brenta Dolomites towers Madonna di Campiglio Italy"
+    },
+    {
+      "id": "sicily-aeolian",
+      "name": "Aeolian Islands Gateway",
+      "region": "Sicily",
+      "duration_days": 4,
+      "distance_km": 120,
+      "description": "The Aeolian Islands are seven volcanic specks north of Sicily — Stromboli erupting nightly, Lipari's obsidian cliffs, Panarea's white terraces. Milazzo is the ferry hub for the archipelago.",
+      "stops": [
+        {"name": "Messina, Italy", "label": "Messina"},
+        {"name": "Milazzo, Italy", "label": "Milazzo"},
+        {"name": "Lipari, Italy", "label": "Lipari"},
+        {"name": "Vulcano, Italy", "label": "Vulcano"}
+      ],
+      "highlights": ["Stromboli night eruptions", "Lipari obsidian cliffs", "Vulcano mud baths", "Malvasia wine"],
+      "cover_search_query": "Aeolian Islands Stromboli volcano Sicily Italy"
+    },
+    {
+      "id": "sicily-agrigento-coast",
+      "name": "Agrigento & the Scala dei Turchi",
+      "region": "Sicily",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "The Valley of the Temples at Agrigento rivals Athens for Greek antiquity. Nearby, the Scala dei Turchi — a brilliant white marlstone cliff sloping into the sea — is one of Italy's strangest natural wonders.",
+      "stops": [
+        {"name": "Agrigento, Italy", "label": "Agrigento"},
+        {"name": "Scala dei Turchi, Italy", "label": "Scala dei Turchi"},
+        {"name": "Selinunte, Italy", "label": "Selinunte"},
+        {"name": "Sciacca, Italy", "label": "Sciacca"}
+      ],
+      "highlights": ["Valley of the Temples", "Scala dei Turchi white cliffs", "Selinunte largest Greek temple", "Sciacca ceramics"],
+      "cover_search_query": "Scala dei Turchi white cliffs Sicily Italy"
+    },
+    {
+      "id": "sardinia-alghero",
+      "name": "Alghero & the Coral Riviera",
+      "region": "Sardinia",
+      "duration_days": 4,
+      "distance_km": 200,
+      "description": "Alghero is the only Catalan-speaking city in Italy, its Spanish Gothic cathedral rising above a harbour full of lobster boats. The Coral Riviera and Neptune's Grotto sea caves extend north to Castelsardo.",
+      "stops": [
+        {"name": "Alghero, Italy", "label": "Alghero"},
+        {"name": "Grotta di Nettuno, Italy", "label": "Neptune's Grotto"},
+        {"name": "Sassari, Italy", "label": "Sassari"},
+        {"name": "Castelsardo, Italy", "label": "Castelsardo"},
+        {"name": "Porto Torres, Italy", "label": "Porto Torres"}
+      ],
+      "highlights": ["Neptune's Grotto sea caves", "Catalan Alghero architecture", "Castelsardo clifftop castle", "Coral diving"],
+      "cover_search_query": "Alghero Sardinia harbor Catalonian Italy"
+    },
+    {
+      "id": "sardinia-ogliastra",
+      "name": "Ogliastra — The Wild East of Sardinia",
+      "region": "Sardinia",
+      "duration_days": 4,
+      "distance_km": 220,
+      "description": "Ogliastra is Sardinia's most mountainous region, home to the oldest-living communities in the world (Blue Zone), dramatic Tacco rock formations, and untouched gorges and sea caves.",
+      "stops": [
+        {"name": "Nuoro, Italy", "label": "Nuoro"},
+        {"name": "Orgosolo, Italy", "label": "Orgosolo"},
+        {"name": "Dorgali, Italy", "label": "Dorgali"},
+        {"name": "Cala Gonone, Italy", "label": "Cala Gonone"},
+        {"name": "Jerzu, Italy", "label": "Jerzu"}
+      ],
+      "highlights": ["Orgosolo murales", "Cala Gonone sea caves", "Supramonte limestone gorges", "Blue Zone longevity"],
+      "cover_search_query": "Cala Gonone sea cave Sardinia Italy"
+    },
+    {
+      "id": "puglia-bari-coast",
+      "name": "Bari & the Adriatic Coast",
+      "region": "Puglia",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "Bari's old city is a maze of whitewashed alleyways where nonnas roll orecchiette by hand on their doorsteps. The Romanesque cathedral housing St Nicholas's bones anchors the castello quarter.",
+      "stops": [
+        {"name": "Bari, Italy", "label": "Bari"},
+        {"name": "Trani, Italy", "label": "Trani"},
+        {"name": "Barletta, Italy", "label": "Barletta"},
+        {"name": "Castel del Monte, Italy", "label": "Castel del Monte"},
+        {"name": "Bitonto, Italy", "label": "Bitonto"}
+      ],
+      "highlights": ["Castel del Monte UNESCO octagon", "Trani cathedral on the sea", "Orecchiette making", "Barletta's Colossus"],
+      "cover_search_query": "Trani cathedral sea Puglia Italy"
+    },
+    {
+      "id": "puglia-polignano",
+      "name": "Polignano a Mare & Sea Caves",
+      "region": "Puglia",
+      "duration_days": 3,
+      "distance_km": 120,
+      "description": "Polignano a Mare's old town teeters on the edge of a limestone cliff above sea-carved grottos. The drive south to Monopoli passes cave restaurants, cliff diving spots, and crystal-clear Adriatic coves.",
+      "stops": [
+        {"name": "Bari, Italy", "label": "Bari"},
+        {"name": "Polignano a Mare, Italy", "label": "Polignano a Mare"},
+        {"name": "Monopoli, Italy", "label": "Monopoli"},
+        {"name": "Fasano, Italy", "label": "Fasano"},
+        {"name": "Ostuni, Italy", "label": "Ostuni"}
+      ],
+      "highlights": ["Polignano cliff diving", "Sea grottos by boat", "Grotta Palazzese cave restaurant", "Fasano safari park"],
+      "cover_search_query": "Polignano a Mare cliff Adriatic Puglia Italy"
+    },
+    {
+      "id": "veneto-verona-vicenza",
+      "name": "Verona, Vicenza & Palladio Country",
+      "region": "Veneto",
+      "duration_days": 3,
+      "distance_km": 140,
+      "description": "Verona is Romeo and Juliet's city and home to a Roman arena still staging opera. Nearby Vicenza is Palladio's open-air museum — a UNESCO city whose villas shaped architecture worldwide.",
+      "stops": [
+        {"name": "Verona, Italy", "label": "Verona"},
+        {"name": "Soave, Italy", "label": "Soave"},
+        {"name": "Vicenza, Italy", "label": "Vicenza"},
+        {"name": "Montecchio Maggiore, Italy", "label": "Montecchio"},
+        {"name": "Este, Italy", "label": "Este"}
+      ],
+      "highlights": ["Verona Roman Arena opera", "Juliet's balcony", "Palladian villas UNESCO", "Soave white wine"],
+      "cover_search_query": "Verona Roman Arena amphitheatre Italy"
+    },
+    {
+      "id": "trentino-paneveggio",
+      "name": "Paneveggio — The Violin Forest",
+      "region": "Trentino",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "The spruce trees of Paneveggio forest have supplied Stradivarius violins for 400 years. This peaceful Trentino loop winds through alpine pastures, Dolomite foothills, and the Fassa valley.",
+      "stops": [
+        {"name": "Predazzo, Italy", "label": "Predazzo"},
+        {"name": "Paneveggio Forest, Italy", "label": "Paneveggio"},
+        {"name": "Passo Rolle, Italy", "label": "Passo Rolle"},
+        {"name": "Fiera di Primiero, Italy", "label": "Primiero"},
+        {"name": "Feltre, Italy", "label": "Feltre"}
+      ],
+      "highlights": ["Stradivarius spruce trees", "Pale di San Martino views", "Alpine dairy farms", "Passo Rolle panorama"],
+      "cover_search_query": "Paneveggio forest Trentino Dolomites Italy"
+    },
+    {
+      "id": "liguria-riviera-ponente",
+      "name": "Riviera di Ponente — Flowers & Olive Oil",
+      "region": "Liguria",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "The western Ligurian Riviera is Europe's flower market — Sanremo hosts both a music festival and the greatest cycling classic. Taggia's olive oil and Dolceacqua's Rossese wine are local treasures.",
+      "stops": [
+        {"name": "Genoa, Italy", "label": "Genoa"},
+        {"name": "Savona, Italy", "label": "Savona"},
+        {"name": "Albenga, Italy", "label": "Albenga"},
+        {"name": "Sanremo, Italy", "label": "Sanremo"},
+        {"name": "Ventimiglia, Italy", "label": "Ventimiglia"}
+      ],
+      "highlights": ["Sanremo music festival city", "Hanbury botanical gardens", "Taggiasca olive groves", "Dolceacqua castle bridge"],
+      "cover_search_query": "Sanremo Ligurian Riviera flowers Italy"
+    },
+    {
+      "id": "umbria-lake-trasimeno",
+      "name": "Lake Trasimeno & Western Umbria",
+      "region": "Umbria",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "Trasimeno is Italy's fourth-largest lake, ringed by hill towns where Perugino painted his dreamy landscapes and where Hannibal won his greatest victory against Rome. The islands are reached by short ferry.",
+      "stops": [
+        {"name": "Perugia, Italy", "label": "Perugia"},
+        {"name": "Castiglione del Lago, Italy", "label": "Castiglione"},
+        {"name": "Isola Maggiore, Italy", "label": "Isola Maggiore"},
+        {"name": "Passignano sul Trasimeno, Italy", "label": "Passignano"},
+        {"name": "Città della Pieve, Italy", "label": "Città della Pieve"}
+      ],
+      "highlights": ["Lake Trasimeno islands", "Perugino frescoes", "Hannibal's ambush site", "Città della Pieve tufa buildings"],
+      "cover_search_query": "Lake Trasimeno Umbria Italy"
+    },
+    {
+      "id": "piedmont-torino",
+      "name": "Turin — Baroque Capital & Mountains",
+      "region": "Piedmont",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "Turin is Italy's most underrated city — a grand Baroque capital of wide arcaded boulevards, the Shroud of Turin, Fiat history, and the finest chocolate and vermouth in Italy.",
+      "stops": [
+        {"name": "Turin, Italy", "label": "Turin"},
+        {"name": "Stupinigi, Italy", "label": "Stupinigi"},
+        {"name": "Sacra di San Michele, Italy", "label": "Sacra di San Michele"},
+        {"name": "Susa, Italy", "label": "Susa"},
+        {"name": "Sestriere, Italy", "label": "Sestriere"}
+      ],
+      "highlights": ["Shroud of Turin", "Fiat Lingotto rooftop test track", "Sacra di San Michele abbey", "Olympic ski resort Sestriere"],
+      "cover_search_query": "Turin Mole Antonelliana Piedmont Italy"
+    },
+    {
+      "id": "piedmont-monferrato",
+      "name": "Monferrato — Champagne of the East",
+      "region": "Piedmont",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "The Monferrato hills are a lesser-known Piedmontese wine country of Barbera, Grignolino, and the rare Ruché. Medieval castles crown every hilltop between Asti and Casale Monferrato.",
+      "stops": [
+        {"name": "Asti, Italy", "label": "Asti"},
+        {"name": "Nizza Monferrato, Italy", "label": "Nizza Monferrato"},
+        {"name": "Acqui Terme, Italy", "label": "Acqui Terme"},
+        {"name": "Casale Monferrato, Italy", "label": "Casale Monferrato"},
+        {"name": "Trino Vercellese, Italy", "label": "Trino"}
+      ],
+      "highlights": ["Asti Spumante wine", "Acqui Terme hot springs", "Casale synagogue museum", "Medieval castle chain"],
+      "cover_search_query": "Monferrato hill castles vineyards Piedmont Italy"
+    },
+    {
+      "id": "emilia-po-delta",
+      "name": "Po Delta & the Adriatic Lagoons",
+      "region": "Emilia-Romagna",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "The Po Delta is Italy's largest wetland — a labyrinth of channels, sand bars, and lagoons where flamingos, herons, and white storks congregate. Comacchio's Venice-like canals and Ravenna's mosaics nearby.",
+      "stops": [
+        {"name": "Ferrara, Italy", "label": "Ferrara"},
+        {"name": "Comacchio, Italy", "label": "Comacchio"},
+        {"name": "Porto Garibaldi, Italy", "label": "Porto Garibaldi"},
+        {"name": "Argenta, Italy", "label": "Argenta"},
+        {"name": "Ravenna, Italy", "label": "Ravenna"}
+      ],
+      "highlights": ["Comacchio canal town", "Po Delta flamingos", "Ferrara UNESCO Este castle", "Eel fishing tradition"],
+      "cover_search_query": "Comacchio canal town Po Delta Italy"
+    },
+    {
+      "id": "lombardy-milan-day-trips",
+      "name": "Milan & Lombardy Day Trips",
+      "region": "Lombardy",
+      "duration_days": 4,
+      "distance_km": 240,
+      "description": "Milan is fashion and the Last Supper, but Lombardy's surrounds offer Pavia's Carthusian monastery, Cremona's violin makers, and Mantua's ducal frescoes — all within easy reach.",
+      "stops": [
+        {"name": "Milan, Italy", "label": "Milan"},
+        {"name": "Pavia, Italy", "label": "Pavia"},
+        {"name": "Cremona, Italy", "label": "Cremona"},
+        {"name": "Mantua, Italy", "label": "Mantua"},
+        {"name": "Sabbioneta, Italy", "label": "Sabbioneta"}
+      ],
+      "highlights": ["Da Vinci's Last Supper", "Certosa di Pavia monastery", "Stradivari violin museum", "Mantua Palazzo Te frescoes"],
+      "cover_search_query": "Milan Duomo cathedral Lombardy Italy"
+    },
+    {
+      "id": "calabria-sila",
+      "name": "Sila National Park & Aspromonte",
+      "region": "Calabria",
+      "duration_days": 4,
+      "distance_km": 250,
+      "description": "Calabria's interior is an ancient pine forest plateau — the Sila — surrounded by mountain towns where 'Ndrangheta mythology mingles with Byzantine Orthodox churches. The Aspromonte descends to Reggio's bronzes.",
+      "stops": [
+        {"name": "Cosenza, Italy", "label": "Cosenza"},
+        {"name": "Camigliatello Silano, Italy", "label": "Camigliatello"},
+        {"name": "San Giovanni in Fiore, Italy", "label": "San Giovanni"},
+        {"name": "Serra San Bruno, Italy", "label": "Serra San Bruno"},
+        {"name": "Gerace, Italy", "label": "Gerace"}
+      ],
+      "highlights": ["Sila highland forests", "Calabrian mushrooms and 'nduja", "Gerace Norman cathedral", "Byzantine churches"],
+      "cover_search_query": "Sila National Park forest Calabria Italy"
+    },
+    {
+      "id": "tuscany-pistoia-prato",
+      "name": "Pistoia, Prato & the Apennine Passes",
+      "region": "Tuscany",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "Pistoia's silver altarpiece and Prato's Donatello pulpit are masterpieces hidden from the crowds. The Apennine passes above them lead to the chestnut forests and ski resorts of the Abetone.",
+      "stops": [
+        {"name": "Florence, Italy", "label": "Florence"},
+        {"name": "Prato, Italy", "label": "Prato"},
+        {"name": "Pistoia, Italy", "label": "Pistoia"},
+        {"name": "Montecatini Terme, Italy", "label": "Montecatini"},
+        {"name": "Abetone, Italy", "label": "Abetone"}
+      ],
+      "highlights": ["Prato's Donatello pulpit", "Pistoia's medieval cathedral", "Montecatini thermal spas", "Apennine forest passes"],
+      "cover_search_query": "Pistoia medieval cathedral Tuscany Italy"
+    },
+    {
+      "id": "venice-treviso",
+      "name": "Treviso, Asolo & the Marca Trevigiana",
+      "region": "Veneto",
+      "duration_days": 3,
+      "distance_km": 130,
+      "description": "The Marca Trevigiana has everything Venice doesn't — cycling along canals, Prosecco in hilltop villages, radicchio on every menu, and absolute quiet. Asolo is called the city of a hundred horizons.",
+      "stops": [
+        {"name": "Venice, Italy", "label": "Venice"},
+        {"name": "Treviso, Italy", "label": "Treviso"},
+        {"name": "Asolo, Italy", "label": "Asolo"},
+        {"name": "Possagno, Italy", "label": "Possagno"},
+        {"name": "Castelfranco Veneto, Italy", "label": "Castelfranco"}
+      ],
+      "highlights": ["Treviso canal cycling", "Asolo panoramic views", "Canova's museum at Possagno", "Castelfranco Giorgione painting"],
+      "cover_search_query": "Asolo hilltop views Veneto Italy"
+    },
+    {
+      "id": "abruzzo-coast",
+      "name": "Abruzzo Adriatic Coast & Trabocchi",
+      "region": "Abruzzo",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "Abruzzo's coastline is dotted with trabocchi — ancient wooden fishing machines built on stilts over the sea, many now converted into extraordinary seafood restaurants.",
+      "stops": [
+        {"name": "Pescara, Italy", "label": "Pescara"},
+        {"name": "Ortona, Italy", "label": "Ortona"},
+        {"name": "Lanciano, Italy", "label": "Lanciano"},
+        {"name": "Vasto, Italy", "label": "Vasto"},
+        {"name": "Termoli, Italy", "label": "Termoli"}
+      ],
+      "highlights": ["Trabocchi fishing platforms", "WWII Canadian cemetery Ortona", "Vasto clifftop medieval town", "Termoli old town"],
+      "cover_search_query": "Trabocchi fishing machines Abruzzo coast Italy"
+    },
+    {
+      "id": "marche-sibillini",
+      "name": "Monti Sibillini & the Flowering Plain",
+      "region": "Marche",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "In June, the Piano Grande di Castelluccio blooms with an extraordinary carpet of wildflowers visible from miles away. The Sibillini mountains surround this upland plain with peaks and medieval hermitages.",
+      "stops": [
+        {"name": "Macerata, Italy", "label": "Macerata"},
+        {"name": "Sarnano, Italy", "label": "Sarnano"},
+        {"name": "Castelluccio di Norcia, Italy", "label": "Castelluccio"},
+        {"name": "Norcia, Italy", "label": "Norcia"},
+        {"name": "Visso, Italy", "label": "Visso"}
+      ],
+      "highlights": ["Castelluccio wildflower plain", "Sibillini National Park", "Norcia truffle market", "Piano Grande panorama"],
+      "cover_search_query": "Piano Grande Castelluccio wildflowers Sibillini Italy"
+    },
+    {
+      "id": "liguria-genoa",
+      "name": "Genoa — La Superba & the Portofino Hinterland",
+      "region": "Liguria",
+      "duration_days": 3,
+      "distance_km": 120,
+      "description": "Genoa is a city of layers — medieval alleyways called caruggi give way to Baroque palaces on the UNESCO Strade Nuove. Columbus's birthplace and Europe's oldest maritime republic.",
+      "stops": [
+        {"name": "Genoa, Italy", "label": "Genoa"},
+        {"name": "Nervi, Italy", "label": "Nervi"},
+        {"name": "Recco, Italy", "label": "Recco"},
+        {"name": "Camogli, Italy", "label": "Camogli"},
+        {"name": "Ruta di Camogli, Italy", "label": "Ruta di Camogli"}
+      ],
+      "highlights": ["UNESCO Rolli palaces", "Focaccia col formaggio at Recco", "Camogli painted houses", "Genoa aquarium"],
+      "cover_search_query": "Genoa old town caruggi Liguria Italy"
+    },
+    {
+      "id": "campania-irpinia",
+      "name": "Irpinia — Campania's Hidden Wine Hills",
+      "region": "Campania",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "Irpinia is Campania's mountain interior and home to its finest wines — Taurasi, Fiano di Avellino, and Greco di Tufo. Ancient Samnite villages and sulfurous springs complete the picture.",
+      "stops": [
+        {"name": "Naples, Italy", "label": "Naples"},
+        {"name": "Avellino, Italy", "label": "Avellino"},
+        {"name": "Taurasi, Italy", "label": "Taurasi"},
+        {"name": "Sant'Angelo dei Lombardi, Italy", "label": "Sant'Angelo"},
+        {"name": "Nusco, Italy", "label": "Nusco"}
+      ],
+      "highlights": ["Taurasi DOCG wine", "Fiano and Greco white wines", "Apennine mountain scenery", "Samnite archaeological sites"],
+      "cover_search_query": "Irpinia wine hills Campania Italy"
+    },
+    {
+      "id": "campania-caserta",
+      "name": "Caserta Royal Palace & Terra di Lavoro",
+      "region": "Campania",
+      "duration_days": 2,
+      "distance_km": 100,
+      "description": "The Reggia di Caserta is Europe's largest royal palace — 1,200 rooms, 47 staircases, and a garden cascade stretching 3km up the hill. The surrounding Terra di Lavoro is Italy's finest market garden.",
+      "stops": [
+        {"name": "Naples, Italy", "label": "Naples"},
+        {"name": "Caserta, Italy", "label": "Caserta"},
+        {"name": "Capua, Italy", "label": "Capua"},
+        {"name": "Caserta Vecchia, Italy", "label": "Caserta Vecchia"}
+      ],
+      "highlights": ["Reggia di Caserta palace", "3km garden cascade", "Medieval Caserta Vecchia", "Mozzarella di bufala"],
+      "cover_search_query": "Reggia di Caserta royal palace Italy"
+    },
+    {
+      "id": "tuscany-arezzo",
+      "name": "Arezzo, Cortona & the Casentino",
+      "region": "Tuscany",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "Arezzo's Piero della Francesca frescoes are a pilgrimage for art lovers; Cortona's hillside views inspired Under the Tuscan Sun. The Casentino forest valley shelters hermit monasteries.",
+      "stops": [
+        {"name": "Arezzo, Italy", "label": "Arezzo"},
+        {"name": "Cortona, Italy", "label": "Cortona"},
+        {"name": "Camaldoli, Italy", "label": "Camaldoli"},
+        {"name": "La Verna, Italy", "label": "La Verna"},
+        {"name": "Poppi, Italy", "label": "Poppi"}
+      ],
+      "highlights": ["Piero della Francesca frescoes", "Cortona hillside views", "Camaldolese monastery", "Francis of Assisi at La Verna"],
+      "cover_search_query": "Cortona hilltop Tuscany Italy"
+    },
+    {
+      "id": "lazio-pontine-islands",
+      "name": "Pontine Coast & Islands",
+      "region": "Lazio",
+      "duration_days": 3,
+      "distance_km": 140,
+      "description": "The Pontine archipelago — Ponza and Ventotene — offers some of the clearest water in the Tyrrhenian Sea. The mainland coast has Sperlonga's cliff village and the gardens of Ninfa.",
+      "stops": [
+        {"name": "Rome, Italy", "label": "Rome"},
+        {"name": "Anzio, Italy", "label": "Anzio"},
+        {"name": "Sperlonga, Italy", "label": "Sperlonga"},
+        {"name": "Gaeta, Italy", "label": "Gaeta"},
+        {"name": "Ponza, Italy", "label": "Ponza"}
+      ],
+      "highlights": ["Ponza volcanic island", "Sperlonga cliff village", "Ninfa garden ruins", "Gaeta WWII coastal fortress"],
+      "cover_search_query": "Ponza island Tyrrhenian Sea Lazio Italy"
+    },
+    {
+      "id": "tuscany-southern",
+      "name": "Southern Tuscany — Montalcino to the Sea",
+      "region": "Tuscany",
+      "duration_days": 4,
+      "distance_km": 220,
+      "description": "From Brunello country at Montalcino, this route descends through spa towns, thermal baths, and the stark beauty of the Crete Senesi to the Argentario coast and Giglio island.",
+      "stops": [
+        {"name": "Montalcino, Italy", "label": "Montalcino"},
+        {"name": "Saturnia, Italy", "label": "Saturnia"},
+        {"name": "Manciano, Italy", "label": "Manciano"},
+        {"name": "Orbetello, Italy", "label": "Orbetello"},
+        {"name": "Porto Santo Stefano, Italy", "label": "Porto Santo Stefano"}
+      ],
+      "highlights": ["Saturnia thermal waterfalls", "Brunello wine estates", "Laguna di Orbetello flamingos", "Monte Argentario drive"],
+      "cover_search_query": "Saturnia thermal waterfalls Tuscany Italy"
+    },
+    {
+      "id": "venezia-friuli-wine",
+      "name": "Friuli Wine Country — Collio & Colli Orientali",
+      "region": "Friuli-Venezia Giulia",
+      "duration_days": 3,
+      "distance_km": 140,
+      "description": "The Collio hills on the Slovenian border produce some of Italy's greatest white wines — Friulano, Ribolla Gialla, and Pinot Grigio — from vine-covered slopes with views into two countries.",
+      "stops": [
+        {"name": "Gorizia, Italy", "label": "Gorizia"},
+        {"name": "Cormons, Italy", "label": "Cormons"},
+        {"name": "Cividale del Friuli, Italy", "label": "Cividale"},
+        {"name": "Buttrio, Italy", "label": "Buttrio"},
+        {"name": "Udine, Italy", "label": "Udine"}
+      ],
+      "highlights": ["Collio DOC white wines", "Gorizia border town", "Longobard heritage Cividale", "Friulano indigenous grape"],
+      "cover_search_query": "Collio wine hills Friuli Italy"
+    },
+    {
+      "id": "dolomites-alta-badia",
+      "name": "Alta Badia — Ladin Peaks",
+      "region": "Dolomites",
+      "duration_days": 4,
+      "distance_km": 180,
+      "description": "Alta Badia is the heart of the Ladin-speaking Dolomites — a culture closer to Celtic-Roman than Italian, preserved in language, cuisine, and tradition. The Michelin-starred restaurants up here are extraordinary.",
+      "stops": [
+        {"name": "Bressanone, Italy", "label": "Bressanone"},
+        {"name": "Corvara in Badia, Italy", "label": "Corvara"},
+        {"name": "La Villa, Italy", "label": "La Villa"},
+        {"name": "San Cassiano, Italy", "label": "San Cassiano"},
+        {"name": "La Cort, Alta Badia, Italy", "label": "La Cort"}
+      ],
+      "highlights": ["Ladin culture and cuisine", "Michelin-starred mountain restaurants", "Passo Gardena views", "Dolomite hiking"],
+      "cover_search_query": "Alta Badia Dolomites Ladin valley Italy"
+    },
+    {
+      "id": "veneto-euganean-hills",
+      "name": "Euganean Hills & the Terme di Abano",
+      "region": "Veneto",
+      "duration_days": 3,
+      "distance_km": 120,
+      "description": "The Euganean Hills are a volcanic anomaly rising from the Venetian plain — dotted with Este dynasty castles, Arquà Petrarch's home, and the thermal spas of Abano Terme.",
+      "stops": [
+        {"name": "Padua, Italy", "label": "Padua"},
+        {"name": "Abano Terme, Italy", "label": "Abano Terme"},
+        {"name": "Este, Italy", "label": "Este"},
+        {"name": "Arquà Petrarca, Italy", "label": "Arquà Petrarca"},
+        {"name": "Monselice, Italy", "label": "Monselice"}
+      ],
+      "highlights": ["Abano thermal mud pools", "Petrarch's medieval home", "Este dynasty castle", "Volcanic hill scenery"],
+      "cover_search_query": "Euganean Hills Este castle Veneto Italy"
+    },
+    {
+      "id": "tuscany-siena-volterra",
+      "name": "Medieval Towers — San Gimignano & Volterra",
+      "region": "Tuscany",
+      "duration_days": 3,
+      "distance_km": 140,
+      "description": "Medieval Manhattan meets Etruscan hilltop: San Gimignano's 14 surviving towers define the Tuscan skyline while alabaster-carving Volterra perches above deep erosion gullies called balze.",
+      "stops": [
+        {"name": "Florence, Italy", "label": "Florence"},
+        {"name": "San Gimignano, Italy", "label": "San Gimignano"},
+        {"name": "Volterra, Italy", "label": "Volterra"},
+        {"name": "Poggibonsi, Italy", "label": "Poggibonsi"}
+      ],
+      "highlights": ["San Gimignano medieval towers", "Volterra alabaster crafts", "Etruscan walls and gates", "Vernaccia di San Gimignano wine"],
+      "cover_search_query": "San Gimignano medieval towers Tuscany Italy"
+    },
+    {
+      "id": "sicily-inland-enna",
+      "name": "Sicily's Inland — Enna & the Mosaics",
+      "region": "Sicily",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "Sicily's interior is a forgotten world of Greek foundations and Byzantine mosaics. Piazza Armerina's Roman villa contains the finest ancient mosaics outside Rome, hidden under a hillside for a thousand years.",
+      "stops": [
+        {"name": "Palermo, Italy", "label": "Palermo"},
+        {"name": "Enna, Italy", "label": "Enna"},
+        {"name": "Piazza Armerina, Italy", "label": "Piazza Armerina"},
+        {"name": "Caltagirone, Italy", "label": "Caltagirone"},
+        {"name": "Catania, Italy", "label": "Catania"}
+      ],
+      "highlights": ["Roman Villa mosaics UNESCO", "Enna hilltop fortress", "Caltagirone ceramic staircase", "Interior Sicilian scenery"],
+      "cover_search_query": "Piazza Armerina Roman villa mosaics Sicily Italy"
+    },
+    {
+      "id": "puglia-salento-beach",
+      "name": "Salento's Best Beaches",
+      "region": "Puglia",
+      "duration_days": 4,
+      "distance_km": 200,
+      "description": "The Ionian side of Salento has shallow turquoise waters and fine white sand beaches rivalling the Caribbean. Porto Cesareo and Torre dell'Orso are the gems, backed by olive and almond groves.",
+      "stops": [
+        {"name": "Lecce, Italy", "label": "Lecce"},
+        {"name": "Porto Cesareo, Italy", "label": "Porto Cesareo"},
+        {"name": "Santa Maria di Leuca, Italy", "label": "Leuca"},
+        {"name": "Castro Marina, Italy", "label": "Castro"},
+        {"name": "Torre dell'Orso, Italy", "label": "Torre dell'Orso"}
+      ],
+      "highlights": ["Porto Cesareo marine reserve", "Castro sea caves", "Torre dell'Orso stacks", "Trullo accommodations"],
+      "cover_search_query": "Salento turquoise sea beach Puglia Italy"
+    },
+    {
+      "id": "lake-orta",
+      "name": "Lake Orta & Piedmont's Quiet Lake",
+      "region": "Lake District",
+      "duration_days": 2,
+      "distance_km": 100,
+      "description": "Lake Orta is Italy's most romantic and least visited lake — smaller than Como, quieter than Maggiore, with the island of San Giulio floating at its centre like a mirage of frescoed churches.",
+      "stops": [
+        {"name": "Orta San Giulio, Italy", "label": "Orta San Giulio"},
+        {"name": "Isola San Giulio, Italy", "label": "Isola San Giulio"},
+        {"name": "Omegna, Italy", "label": "Omegna"},
+        {"name": "Varallo, Italy", "label": "Varallo"}
+      ],
+      "highlights": ["Island of San Giulio frescoes", "Sacro Monte UNESCO path", "Omegna design museum", "Romantic lakeside village"],
+      "cover_search_query": "Lake Orta San Giulio island Piedmont Italy"
+    },
+    {
+      "id": "marche-riviera-conero",
+      "name": "Riviera del Conero",
+      "region": "Marche",
+      "duration_days": 3,
+      "distance_km": 120,
+      "description": "The Monte Conero promontory plunges into the Adriatic creating cliff-backed coves of crystalline water. Sirolo and Numana are the two white-walled resort villages above the best beaches.",
+      "stops": [
+        {"name": "Ancona, Italy", "label": "Ancona"},
+        {"name": "Portonovo, Italy", "label": "Portonovo"},
+        {"name": "Sirolo, Italy", "label": "Sirolo"},
+        {"name": "Numana, Italy", "label": "Numana"},
+        {"name": "Recanati, Italy", "label": "Recanati"}
+      ],
+      "highlights": ["Conero white chalk cliffs", "Verdicchio wine vineyards", "Recanati poet Leopardi", "Portonovo lagoon"],
+      "cover_search_query": "Riviera del Conero cliffs Adriatic Italy"
+    },
+    {
+      "id": "veneto-dolomiti-agordino",
+      "name": "Agordino — The Quiet Dolomites",
+      "region": "Veneto",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "The Agordino valley south of Cortina is where the Dolomites were first scientifically described. Fewer crowds and more authentic mountain villages make this a rewarding contrast to the busier valleys.",
+      "stops": [
+        {"name": "Belluno, Italy", "label": "Belluno"},
+        {"name": "Agordo, Italy", "label": "Agordo"},
+        {"name": "Alleghe, Italy", "label": "Alleghe"},
+        {"name": "Caprile, Italy", "label": "Caprile"},
+        {"name": "Passo Fedaia, Italy", "label": "Passo Fedaia"}
+      ],
+      "highlights": ["Alleghe lake and Civetta wall", "Passo Fedaia Marmolada glacier", "Dolomite geology trails", "Quiet valley villages"],
+      "cover_search_query": "Alleghe lake Dolomites Civetta Italy"
+    },
+    {
+      "id": "campania-naples-day",
+      "name": "Naples & the Phlegraean Fields",
+      "region": "Campania",
+      "duration_days": 3,
+      "distance_km": 100,
+      "description": "West of Naples, the Phlegraean Fields are a volcanic landscape of steaming craters, ancient Roman spa towns, and the entrance to Hades according to Virgil — a bizarre and utterly memorable detour.",
+      "stops": [
+        {"name": "Naples, Italy", "label": "Naples"},
+        {"name": "Pozzuoli, Italy", "label": "Pozzuoli"},
+        {"name": "Baia, Italy", "label": "Baia"},
+        {"name": "Cuma, Italy", "label": "Cuma"},
+        {"name": "Ischia, Italy", "label": "Ischia"}
+      ],
+      "highlights": ["Phlegraean Fields volcanic craters", "Underwater Roman city at Baia", "Cumae Sibyl's cave", "Ischia thermal gardens"],
+      "cover_search_query": "Phlegraean Fields volcanic crater Naples Italy"
+    },
+    {
+      "id": "umbria-spoleto",
+      "name": "Spoleto & the Dukes of Umbria",
+      "region": "Umbria",
+      "duration_days": 3,
+      "distance_km": 140,
+      "description": "Spoleto's Rocca fortress on a mountain spur, the Romanesque cathedral, and the soaring Ponte delle Torri aqueduct make it one of Italy's most dramatic towns. The Festival dei Due Mondi draws artists worldwide.",
+      "stops": [
+        {"name": "Foligno, Italy", "label": "Foligno"},
+        {"name": "Spello, Italy", "label": "Spello"},
+        {"name": "Spoleto, Italy", "label": "Spoleto"},
+        {"name": "Montefalco, Italy", "label": "Montefalco"},
+        {"name": "Bevagna, Italy", "label": "Bevagna"}
+      ],
+      "highlights": ["Spoleto Rocca fortress", "Ponte delle Torri aqueduct bridge", "Montefalco Sagrantino wine", "Spello flower festival"],
+      "cover_search_query": "Spoleto Rocca fortress Umbria Italy"
+    },
+    {
+      "id": "piedmont-asti-wine",
+      "name": "Asti & the Sparkling Wine Route",
+      "region": "Piedmont",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "The hills around Asti produce Italy's most famous sparkling wine — Moscato and Asti Spumante — from Moscato Bianco grapes grown on yellow limestone hills. The medieval palio horse race still runs in September.",
+      "stops": [
+        {"name": "Asti, Italy", "label": "Asti"},
+        {"name": "Canelli, Italy", "label": "Canelli"},
+        {"name": "Santo Stefano Belbo, Italy", "label": "Santo Stefano Belbo"},
+        {"name": "Nizza Monferrato, Italy", "label": "Nizza"},
+        {"name": "Mombercelli, Italy", "label": "Mombercelli"}
+      ],
+      "highlights": ["Asti Spumante and Moscato wines", "UNESCO Canelli underground cellars", "Cesare Pavese birthplace", "Asti palio horse race"],
+      "cover_search_query": "Asti wine hills Moscato Piedmont Italy"
+    },
+    {
+      "id": "trentino-rovereto",
+      "name": "Rovereto & the Lagarina Valley",
+      "region": "Trentino",
+      "duration_days": 2,
+      "distance_km": 100,
+      "description": "Rovereto's MART is one of Italy's finest contemporary art museums. The Lagarina valley below the Dolomites has Marzemino wine, Roman roads, and WWI memorials — a compact and rewarding itinerary.",
+      "stops": [
+        {"name": "Trento, Italy", "label": "Trento"},
+        {"name": "Rovereto, Italy", "label": "Rovereto"},
+        {"name": "Ala, Italy", "label": "Ala"},
+        {"name": "Avio, Italy", "label": "Avio"}
+      ],
+      "highlights": ["MART contemporary art museum", "Castel Beseno largest Trentino fortress", "Marzemino wine", "WWI Campana dei Caduti bell"],
+      "cover_search_query": "Rovereto MART museum Trentino Italy"
+    },
+    {
+      "id": "lazio-inland-rieti",
+      "name": "Rieti Valley & the Sabina Olive Country",
+      "region": "Lazio",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "The Rieti valley claims to be the geographical centre of Italy. The Sabina hills above Rome are covered in ancient olive groves producing the finest DOP oil in Lazio, with Franciscan monasteries hidden among them.",
+      "stops": [
+        {"name": "Rome, Italy", "label": "Rome"},
+        {"name": "Farfa, Italy", "label": "Farfa"},
+        {"name": "Rieti, Italy", "label": "Rieti"},
+        {"name": "Greccio, Italy", "label": "Greccio"},
+        {"name": "Cantalice, Italy", "label": "Cantalice"}
+      ],
+      "highlights": ["Farfa Benedictine abbey", "Sabina DOP olive oil", "First Christmas crib at Greccio", "Rieti geographical centre Italy"],
+      "cover_search_query": "Sabina olive groves Lazio Italy"
+    },
+    {
+      "id": "emilia-borgo-highlights",
+      "name": "Emilia's Most Beautiful Villages",
+      "region": "Emilia-Romagna",
+      "duration_days": 3,
+      "distance_km": 200,
+      "description": "The Emilian Apennines hide some of Italy's most beautiful borghi — medieval fortified villages perched above river gorges. Brisighella, Dozza, and Riolo Terme are the gems.",
+      "stops": [
+        {"name": "Bologna, Italy", "label": "Bologna"},
+        {"name": "Dozza, Italy", "label": "Dozza"},
+        {"name": "Brisighella, Italy", "label": "Brisighella"},
+        {"name": "Riolo Terme, Italy", "label": "Riolo Terme"},
+        {"name": "Faenza, Italy", "label": "Faenza"}
+      ],
+      "highlights": ["Brisighella medieval village", "Dozza painted houses", "Faenza majolica ceramics", "Apennine gorge walks"],
+      "cover_search_query": "Brisighella medieval village Emilia-Romagna Italy"
+    }
+  ]
+}

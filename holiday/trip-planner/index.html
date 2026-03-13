@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4209156852651175" crossorigin="anonymous"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Europe Road Trip Recommender — Path2Holiday</title>
+  <meta name="description" content="Browse curated road trip itineraries for Italy, France, Germany, and Spain. Filter by region, explore routes with cover photos, and launch your route in one click." />
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="theme-color" content="#0f1117" />
+  <link rel="apple-touch-icon" href="/icon-180.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Path2Anywhere" />
+  <script>
+    if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js');
+  </script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:      #0f1117;
+      --surface: #1a1d27;
+      --border:  #2a2d3a;
+      --accent:  #4f8ef7;
+      --purple:  #a78bfa;
+      --text:    #e2e8f0;
+      --muted:   #64748b;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    /* ── Header ── */
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      height: 52px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    header .logo { height: 32px; width: 32px; flex-shrink: 0; }
+    header h1 { font-size: 15px; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; }
+    header .breadcrumb {
+      font-size: 13px;
+      color: var(--muted);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-left: 4px;
+    }
+    header .breadcrumb a { color: var(--muted); text-decoration: none; }
+    header .breadcrumb a:hover { color: var(--text); }
+    header .breadcrumb .sep { color: var(--border); }
+
+    /* ── Page content ── */
+    .page {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 48px 32px 64px;
+    }
+
+    /* ── Hero ── */
+    .hero {
+      margin-bottom: 40px;
+    }
+    .hero p.eyebrow {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--purple);
+      margin-bottom: 12px;
+    }
+    .hero h2 {
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 10px;
+    }
+    .hero p.sub {
+      font-size: 15px;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    /* ── Country picker ── */
+    #country-picker {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 16px;
+      margin-top: 32px;
+    }
+
+    .country-tile {
+      background: var(--surface);
+      border: 2px solid var(--border);
+      border-radius: 12px;
+      padding: 28px 20px;
+      cursor: pointer;
+      text-align: center;
+      transition: border-color 0.15s, transform 0.15s;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+    .country-tile:hover {
+      border-color: var(--purple);
+      transform: translateY(-2px);
+    }
+    .country-tile.active {
+      border-color: var(--purple);
+      background: rgba(167,139,250,0.08);
+    }
+    .country-tile .flag { font-size: 40px; line-height: 1; }
+    .country-tile .cname {
+      font-size: 15px;
+      font-weight: 600;
+    }
+    .country-tile .ctag {
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    /* ── Results section ── */
+    #results-section { display: none; }
+    #results-section.visible { display: block; }
+
+    /* ── Toolbar ── */
+    .toolbar {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 24px;
+      flex-wrap: wrap;
+    }
+    .toolbar-left {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex: 1;
+      flex-wrap: wrap;
+    }
+    #results-title {
+      font-size: 20px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    #trip-count {
+      font-size: 12px;
+      color: var(--muted);
+      white-space: nowrap;
+    }
+    #region-filter {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--text);
+      font-size: 13px;
+      padding: 7px 12px;
+      outline: none;
+      cursor: pointer;
+      transition: border-color 0.15s;
+    }
+    #region-filter:focus { border-color: var(--accent); }
+
+    #search-input {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--text);
+      font-size: 13px;
+      padding: 7px 12px;
+      outline: none;
+      width: 200px;
+      transition: border-color 0.15s;
+    }
+    #search-input:focus { border-color: var(--accent); }
+    #search-input::placeholder { color: var(--muted); }
+
+    /* ── Trip cards grid ── */
+    #cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    .trip-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: border-color 0.15s, transform 0.15s;
+    }
+    .trip-card:hover {
+      border-color: var(--purple);
+      transform: translateY(-2px);
+    }
+
+    /* Cover photo */
+    .trip-cover {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      background: var(--border);
+      display: block;
+    }
+    .trip-cover-placeholder {
+      width: 100%;
+      height: 180px;
+      background: linear-gradient(135deg, #1e2235, #2a2d3a);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+      color: var(--border);
+    }
+
+    .trip-body {
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      flex: 1;
+    }
+
+    .trip-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+    }
+    .trip-header h3 {
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 1.3;
+      flex: 1;
+    }
+
+    .trip-pills {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .pill {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      border-radius: 4px;
+      padding: 3px 7px;
+    }
+    .pill.region { background: rgba(167,139,250,0.15); color: var(--purple); }
+    .pill.duration { background: rgba(79,142,247,0.12); color: var(--accent); }
+    .pill.distance { background: rgba(52,211,153,0.12); color: #34d399; }
+
+    .trip-desc {
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+
+    .trip-stops {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+    .stop-chip {
+      font-size: 11px;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 2px 7px;
+      color: var(--text);
+    }
+    .stop-sep {
+      font-size: 11px;
+      color: var(--muted);
+      align-self: center;
+    }
+
+    .trip-highlights {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+    .highlight-chip {
+      font-size: 10px;
+      color: var(--muted);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 2px 8px;
+    }
+
+    .plan-btn {
+      margin-top: auto;
+      padding-top: 4px;
+    }
+    .plan-btn a {
+      display: block;
+      text-align: center;
+      background: var(--purple);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 7px;
+      padding: 9px 16px;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      transition: opacity 0.15s;
+    }
+    .plan-btn a:hover { opacity: 0.85; }
+
+    /* Loading state */
+    .photo-loading {
+      animation: pulse 1.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+
+    /* Empty state */
+    #empty-state {
+      display: none;
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--muted);
+    }
+    #empty-state.visible { display: block; }
+    #empty-state p { font-size: 14px; margin-top: 8px; }
+
+    /* Attribution */
+    .photo-attribution {
+      font-size: 9px;
+      color: var(--muted);
+      text-align: right;
+      padding: 2px 6px 0;
+      opacity: 0.6;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 600px) {
+      header { padding: 0 16px; }
+      header h1 { display: none; }
+      .page { padding: 28px 16px 48px; }
+      .hero h2 { font-size: 24px; }
+      #cards-grid { grid-template-columns: 1fr; }
+      #search-input { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img class="logo" src="../../logo.svg" alt="Path2Anywhere" />
+  <h1>Path2Anywhere</h1>
+  <div class="breadcrumb">
+    <span class="sep">/</span>
+    <a href="../../">Home</a>
+    <span class="sep">/</span>
+    <a href="../">Path2Holiday</a>
+    <span class="sep">/</span>
+    <span>Road Trip Recommender</span>
+  </div>
+</header>
+
+<div class="page">
+
+  <div class="hero">
+    <p class="eyebrow">Europe Road Trip Recommender</p>
+    <h2>Find your perfect<br>road trip</h2>
+    <p class="sub">Pick a country to browse curated itineraries with photos, stops, and highlights. Then launch any route straight into the planner.</p>
+  </div>
+
+  <!-- Country picker -->
+  <div id="country-picker">
+    <div class="country-tile" data-country="italy">
+      <span class="flag">🇮🇹</span>
+      <span class="cname">Italy</span>
+      <span class="ctag">~100 itineraries</span>
+    </div>
+    <div class="country-tile" data-country="france">
+      <span class="flag">🇫🇷</span>
+      <span class="cname">France</span>
+      <span class="ctag">~100 itineraries</span>
+    </div>
+    <div class="country-tile" data-country="germany">
+      <span class="flag">🇩🇪</span>
+      <span class="cname">Germany</span>
+      <span class="ctag">~100 itineraries</span>
+    </div>
+    <div class="country-tile" data-country="spain">
+      <span class="flag">🇪🇸</span>
+      <span class="cname">Spain</span>
+      <span class="ctag">~100 itineraries</span>
+    </div>
+  </div>
+
+  <!-- Results section -->
+  <div id="results-section">
+    <div class="toolbar">
+      <div class="toolbar-left">
+        <span id="results-title"></span>
+        <span id="trip-count"></span>
+      </div>
+      <select id="region-filter">
+        <option value="">All regions</option>
+      </select>
+      <input type="text" id="search-input" placeholder="Search trips…" autocomplete="off" />
+    </div>
+
+    <div id="cards-grid"></div>
+    <div id="empty-state">
+      <div style="font-size:32px">🗺️</div>
+      <p>No trips match your filter. Try a different region or clear your search.</p>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  // ── Config ──
+  const WEBHOOK_URL = 'https://n8n.path2anywhere.com/webhook/trip-planner';
+  const MULTI_STOP_URL = '/route-calculator/multi-stop/';
+
+  // ── State ──
+  let currentCountry = null;
+  let currentData = null;
+  let photoCache = {}; // country → { query: { photo_url, attribution } }
+  let photosLoading = false;
+
+  // ── Country picker ──
+  document.querySelectorAll('.country-tile').forEach(tile => {
+    tile.addEventListener('click', () => {
+      const country = tile.dataset.country;
+      selectCountry(country, tile);
+    });
+  });
+
+  // Auto-select from ?country= URL param
+  const preCountry = new URLSearchParams(location.search).get('country');
+  if (preCountry) {
+    const tile = document.querySelector(`.country-tile[data-country="${preCountry}"]`);
+    if (tile) selectCountry(preCountry, tile);
+  }
+
+  function selectCountry(country, tile) {
+    document.querySelectorAll('.country-tile').forEach(t => t.classList.remove('active'));
+    tile.classList.add('active');
+    currentCountry = country;
+    loadCountry(country);
+  }
+
+  // ── Load country data ──
+  async function loadCountry(country) {
+    const resultsSection = document.getElementById('results-section');
+    const grid = document.getElementById('cards-grid');
+    const title = document.getElementById('results-title');
+    const countEl = document.getElementById('trip-count');
+
+    resultsSection.classList.remove('visible');
+    grid.innerHTML = '<div style="color:var(--muted);font-size:13px;padding:20px 0">Loading itineraries…</div>';
+    resultsSection.classList.add('visible');
+
+    try {
+      const resp = await fetch(`./data/${country}.json`);
+      if (!resp.ok) throw new Error('Not found');
+      currentData = await resp.json();
+    } catch (e) {
+      grid.innerHTML = '<div style="color:#f87171;font-size:13px;padding:20px 0">Failed to load itineraries. Please try again.</div>';
+      return;
+    }
+
+    // Populate region filter
+    const regionFilter = document.getElementById('region-filter');
+    const regions = [...new Set(currentData.trips.map(t => t.region))].sort();
+    regionFilter.innerHTML = '<option value="">All regions</option>';
+    regions.forEach(r => {
+      const opt = document.createElement('option');
+      opt.value = r;
+      opt.textContent = r;
+      regionFilter.appendChild(opt);
+    });
+
+    const emoji = currentData.emoji || '🌍';
+    title.textContent = `${emoji} ${currentData.country} Road Trips`;
+
+    // Render cards
+    renderCards(currentData.trips);
+
+    // Fetch photos if not cached
+    if (!photoCache[country]) {
+      fetchPhotos(country, currentData.trips);
+    } else {
+      applyPhotos(country);
+    }
+  }
+
+  // ── Render ──
+  function renderCards(trips) {
+    const grid = document.getElementById('cards-grid');
+    const countEl = document.getElementById('trip-count');
+    const emptyState = document.getElementById('empty-state');
+
+    if (!trips.length) {
+      grid.innerHTML = '';
+      emptyState.classList.add('visible');
+      countEl.textContent = '';
+      return;
+    }
+    emptyState.classList.remove('visible');
+    countEl.textContent = `${trips.length} itinerar${trips.length === 1 ? 'y' : 'ies'}`;
+
+    grid.innerHTML = trips.map(trip => {
+      const stopsParam = trip.stops.map(s => encodeURIComponent(s.name)).join('|');
+      const planUrl = `${MULTI_STOP_URL}?stops=${stopsParam}`;
+
+      // Stops display (first 5, with separators)
+      const stopsHtml = trip.stops.slice(0, 6).map((s, i, arr) =>
+        `<span class="stop-chip">${s.label}</span>${i < arr.length - 1 ? '<span class="stop-sep">›</span>' : ''}`
+      ).join('') + (trip.stops.length > 6 ? `<span class="stop-sep">+${trip.stops.length - 6} more</span>` : '');
+
+      // Highlights
+      const highlightsHtml = trip.highlights.map(h =>
+        `<span class="highlight-chip">${h}</span>`
+      ).join('');
+
+      // Photo placeholder (will be replaced when photos load)
+      const photoId = `photo-${trip.id}`;
+      const attrId = `attr-${trip.id}`;
+
+      return `
+        <div class="trip-card" data-trip-id="${trip.id}">
+          <div class="trip-cover-placeholder photo-loading" id="${photoId}">
+            <span>${currentData.emoji || '🗺️'}</span>
+          </div>
+          <div class="trip-body">
+            <div class="trip-header">
+              <h3>${escHtml(trip.name)}</h3>
+            </div>
+            <div class="trip-pills">
+              <span class="pill region">${escHtml(trip.region)}</span>
+              <span class="pill duration">⏱ ${trip.duration_days}d</span>
+              <span class="pill distance">📍 ${trip.distance_km} km</span>
+            </div>
+            <p class="trip-desc">${escHtml(trip.description)}</p>
+            <div class="trip-stops">${stopsHtml}</div>
+            <div class="trip-highlights">${highlightsHtml}</div>
+            <div class="plan-btn">
+              <a href="${planUrl}" target="_blank">Plan this route →</a>
+            </div>
+          </div>
+          <div class="photo-attribution" id="${attrId}"></div>
+        </div>
+      `;
+    }).join('');
+  }
+
+  // ── Photo fetching ──
+  async function fetchPhotos(country, trips) {
+    if (photosLoading) return;
+    photosLoading = true;
+
+    const queries = trips.map(t => t.cover_search_query);
+    const queryToTripId = {};
+    trips.forEach(t => { queryToTripId[t.cover_search_query] = t.id; });
+
+    try {
+      const resp = await fetch(WEBHOOK_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ country, queries }),
+      });
+      if (!resp.ok) throw new Error('Photo fetch failed');
+      const data = await resp.json();
+      photoCache[country] = data;
+      applyPhotos(country, queryToTripId);
+    } catch (e) {
+      // Photos unavailable — remove loading animation
+      document.querySelectorAll('.photo-loading').forEach(el => {
+        el.classList.remove('photo-loading');
+      });
+    } finally {
+      photosLoading = false;
+    }
+  }
+
+  function applyPhotos(country, queryToTripId) {
+    const cache = photoCache[country];
+    if (!cache || !currentData) return;
+
+    currentData.trips.forEach(trip => {
+      const photoData = cache[trip.cover_search_query];
+      const photoEl = document.getElementById(`photo-${trip.id}`);
+      const attrEl = document.getElementById(`attr-${trip.id}`);
+      if (!photoEl) return;
+
+      if (photoData && photoData.photo_url) {
+        const img = document.createElement('img');
+        img.className = 'trip-cover';
+        img.alt = trip.name;
+        img.src = photoData.photo_url;
+        img.onload = () => photoEl.replaceWith(img);
+        img.onerror = () => photoEl.classList.remove('photo-loading');
+      } else {
+        photoEl.classList.remove('photo-loading');
+      }
+
+      if (attrEl && photoData && photoData.attribution) {
+        attrEl.textContent = photoData.attribution;
+      }
+    });
+  }
+
+  // ── Filtering ──
+  document.getElementById('region-filter').addEventListener('change', applyFilters);
+  document.getElementById('search-input').addEventListener('input', applyFilters);
+
+  function applyFilters() {
+    if (!currentData) return;
+    const region = document.getElementById('region-filter').value;
+    const search = document.getElementById('search-input').value.toLowerCase().trim();
+
+    let filtered = currentData.trips;
+    if (region) filtered = filtered.filter(t => t.region === region);
+    if (search) filtered = filtered.filter(t =>
+      t.name.toLowerCase().includes(search) ||
+      t.description.toLowerCase().includes(search) ||
+      t.region.toLowerCase().includes(search) ||
+      t.stops.some(s => s.label.toLowerCase().includes(search)) ||
+      t.highlights.some(h => h.toLowerCase().includes(search))
+    );
+
+    renderCards(filtered);
+    if (photoCache[currentCountry]) applyPhotos(currentCountry);
+  }
+
+  // ── Utilities ──
+  function escHtml(str) {
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+</script>
+
+</body>
+</html>

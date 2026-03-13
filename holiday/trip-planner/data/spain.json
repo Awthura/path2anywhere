@@ -1,0 +1,1429 @@
+{
+  "country": "Spain",
+  "country_code": "es",
+  "emoji": "🇪🇸",
+  "trips": [
+    {
+      "id": "andalusia-classic",
+      "name": "Andalusia Classic — Seville, Córdoba & Granada",
+      "region": "Andalusia",
+      "duration_days": 7,
+      "distance_km": 400,
+      "description": "The three Moorish capitals of Andalusia form the greatest cultural triangle in Spain. Seville's Alcázar, Córdoba's Mezquita, and Granada's Alhambra are the summit of 800 years of Islamic Spain.",
+      "stops": [
+        {"name": "Seville, Spain", "label": "Seville"},
+        {"name": "Córdoba, Spain", "label": "Córdoba"},
+        {"name": "Granada, Spain", "label": "Granada"},
+        {"name": "Guadix, Spain", "label": "Guadix"}
+      ],
+      "highlights": ["Seville Alcázar and Giralda", "Córdoba Mezquita-Cathedral", "Granada Alhambra palace", "Guadix cave houses"],
+      "cover_search_query": "Granada Alhambra palace Sierra Nevada Spain"
+    },
+    {
+      "id": "andalusia-white-villages",
+      "name": "White Villages of Andalusia",
+      "region": "Andalusia",
+      "duration_days": 5,
+      "distance_km": 300,
+      "description": "The Pueblos Blancos are strung like pearls across the Sierras between Ronda and Cádiz — whitewashed villages clinging to limestone peaks with views over olive groves, eagles, and the blue line of Africa.",
+      "stops": [
+        {"name": "Ronda, Spain", "label": "Ronda"},
+        {"name": "Grazalema, Spain", "label": "Grazalema"},
+        {"name": "Zahara de la Sierra, Spain", "label": "Zahara"},
+        {"name": "Arcos de la Frontera, Spain", "label": "Arcos"},
+        {"name": "Jerez de la Frontera, Spain", "label": "Jerez"}
+      ],
+      "highlights": ["Ronda gorge bridge", "Grazalema limestone peaks", "Jerez sherry bodegas", "Arcos clifftop old town"],
+      "cover_search_query": "Ronda gorge bridge Andalusia Spain"
+    },
+    {
+      "id": "costa-de-la-luz",
+      "name": "Costa de la Luz — Atlantic Andalusia",
+      "region": "Andalusia",
+      "duration_days": 4,
+      "distance_km": 240,
+      "description": "The Atlantic Costa de la Luz has the best beaches in Spain — long, wild, and windswept. Tarifa is Europe's kitesurfing capital, and the Strait of Gibraltar provides Africa views just 14km away.",
+      "stops": [
+        {"name": "Cádiz, Spain", "label": "Cádiz"},
+        {"name": "El Puerto de Santa María, Spain", "label": "El Puerto"},
+        {"name": "Bolonia, Spain", "label": "Bolonia"},
+        {"name": "Tarifa, Spain", "label": "Tarifa"},
+        {"name": "Algeciras, Spain", "label": "Algeciras"}
+      ],
+      "highlights": ["Cádiz Atlantic lighthouse peninsula", "Bolonia Roman Baelo Claudia ruins", "Tarifa kitesurfing and Africa views", "Jerez sherry region"],
+      "cover_search_query": "Tarifa kitesurfing Cape Costa de la Luz Spain"
+    },
+    {
+      "id": "andalusia-almeria",
+      "name": "Almería — Spaghetti Westerns & Desert Coast",
+      "region": "Andalusia",
+      "duration_days": 4,
+      "distance_km": 260,
+      "description": "Almería's Tabernas desert was chosen for 60s spaghetti western filming because it resembles Arizona. The provincial coast has Cabo de Gata's volcanic coves — the least developed beaches in Mediterranean Spain.",
+      "stops": [
+        {"name": "Almería, Spain", "label": "Almería"},
+        {"name": "Tabernas, Spain", "label": "Tabernas"},
+        {"name": "Níjar, Spain", "label": "Níjar"},
+        {"name": "Cabo de Gata, Spain", "label": "Cabo de Gata"},
+        {"name": "Mojácar, Spain", "label": "Mojácar"}
+      ],
+      "highlights": ["Tabernas desert Western film sets", "Cabo de Gata volcanic coves", "Mojácar Moorish hilltown", "Almería Alcazaba fortress"],
+      "cover_search_query": "Cabo de Gata volcanic coves Almería Spain"
+    },
+    {
+      "id": "andalusia-jaen-olives",
+      "name": "Jaén Olive Kingdom & Úbeda-Baeza",
+      "region": "Andalusia",
+      "duration_days": 4,
+      "distance_km": 240,
+      "description": "Jaén province produces more olive oil than all of Greece — a sea of silver-green trees stretching to every horizon. At its heart, the twin Renaissance jewels of Úbeda and Baeza are UNESCO-listed masterpieces.",
+      "stops": [
+        {"name": "Jaén, Spain", "label": "Jaén"},
+        {"name": "Úbeda, Spain", "label": "Úbeda"},
+        {"name": "Baeza, Spain", "label": "Baeza"},
+        {"name": "Cazorla, Spain", "label": "Cazorla"},
+        {"name": "Segura de la Sierra, Spain", "label": "Segura de la Sierra"}
+      ],
+      "highlights": ["Úbeda and Baeza UNESCO Renaissance", "Cazorla Natural Park largest in Spain", "Olive oil tasting", "Jaén Moorish castle"],
+      "cover_search_query": "Úbeda Renaissance town Jaén Andalusia Spain"
+    },
+    {
+      "id": "malaga-axarquia",
+      "name": "Málaga & the Axarquía Villages",
+      "region": "Andalusia",
+      "duration_days": 4,
+      "distance_km": 200,
+      "description": "Beyond Málaga's Picasso museum and Alcazaba, the Axarquía hills inland harbour Spain's most dramatic Moorish villages — Frigiliana and Cómpeta cling to ridges above avocado orchards and almond terraces.",
+      "stops": [
+        {"name": "Málaga, Spain", "label": "Málaga"},
+        {"name": "Frigiliana, Spain", "label": "Frigiliana"},
+        {"name": "Cómpeta, Spain", "label": "Cómpeta"},
+        {"name": "Nerja, Spain", "label": "Nerja"},
+        {"name": "Antequera, Spain", "label": "Antequera"}
+      ],
+      "highlights": ["Frigiliana Moorish village", "Nerja caves and balcón viewpoint", "Antequera torcal limestone", "Málaga Picasso birthplace"],
+      "cover_search_query": "Frigiliana white village Axarquía Spain"
+    },
+    {
+      "id": "andalusia-huelva",
+      "name": "Huelva — Columbus & the Doñana",
+      "region": "Andalusia",
+      "duration_days": 4,
+      "distance_km": 240,
+      "description": "Columbus sailed from Palos de la Frontera in 1492. The Doñana National Park — Europe's most important wetland — shelters Iberian lynx, imperial eagles, and half the migratory birds of Europe.",
+      "stops": [
+        {"name": "Huelva, Spain", "label": "Huelva"},
+        {"name": "Palos de la Frontera, Spain", "label": "Palos de la Frontera"},
+        {"name": "La Rábida, Spain", "label": "La Rábida"},
+        {"name": "El Rocío, Spain", "label": "El Rocío"},
+        {"name": "Matalascañas, Spain", "label": "Matalascañas"}
+      ],
+      "highlights": ["Columbus departure point", "Doñana lynx and eagles", "El Rocío pilgrimage town", "Coto Doñana marshes"],
+      "cover_search_query": "Doñana National Park flamingos Huelva Spain"
+    },
+    {
+      "id": "catalonia-barcelona-circuit",
+      "name": "Barcelona & the Catalan Hinterland",
+      "region": "Catalonia",
+      "duration_days": 5,
+      "distance_km": 280,
+      "description": "Barcelona's Gaudí architecture and Catalan modernisme are unmatchable. Beyond, Montserrat's serrated monastery ridge, Sitges's art-nouveau promenade, and the Penedès wine country make a perfect circuit.",
+      "stops": [
+        {"name": "Barcelona, Spain", "label": "Barcelona"},
+        {"name": "Montserrat, Spain", "label": "Montserrat"},
+        {"name": "Sitges, Spain", "label": "Sitges"},
+        {"name": "Vilafranca del Penedès, Spain", "label": "Vilafranca"},
+        {"name": "Sant Sadurní d'Anoia, Spain", "label": "Sant Sadurní"}
+      ],
+      "highlights": ["Gaudí Sagrada Família", "Montserrat monastery ridge", "Cava wine at Sant Sadurní", "Sitges art nouveau"],
+      "cover_search_query": "Montserrat monastery serrated mountain Barcelona Spain"
+    },
+    {
+      "id": "costa-brava",
+      "name": "Costa Brava — Dalí Country",
+      "region": "Catalonia",
+      "duration_days": 5,
+      "distance_km": 280,
+      "description": "The Costa Brava's pine-backed coves and medieval walled towns were the birthplace of mass Mediterranean tourism, but Dalí's triangle of museums — Cadaqués, Figueres, and Púbol — give it genuine cultural depth.",
+      "stops": [
+        {"name": "Girona, Spain", "label": "Girona"},
+        {"name": "Begur, Spain", "label": "Begur"},
+        {"name": "Cadaqués, Spain", "label": "Cadaqués"},
+        {"name": "Figueres, Spain", "label": "Figueres"},
+        {"name": "Pals, Spain", "label": "Pals"}
+      ],
+      "highlights": ["Dalí Theatre-Museum Figueres", "Cadaqués white village and art", "Girona Game of Thrones cathedral", "Costa Brava coves"],
+      "cover_search_query": "Cadaqués white village Costa Brava Catalonia Spain"
+    },
+    {
+      "id": "catalan-pyrenees",
+      "name": "Catalan Pyrenees & Vall de Boí",
+      "region": "Catalonia",
+      "duration_days": 4,
+      "distance_km": 260,
+      "description": "The Catalan Pyrenees cluster eight Romanesque churches in the Vall de Boí — a UNESCO ensemble of 11th-century art hidden in high mountain valleys. The Aigüestortes national park has 200 glacial lakes.",
+      "stops": [
+        {"name": "Lleida, Spain", "label": "Lleida"},
+        {"name": "Sort, Spain", "label": "Sort"},
+        {"name": "Espot, Spain", "label": "Espot"},
+        {"name": "Taüll, Spain", "label": "Taüll"},
+        {"name": "Vielha, Spain", "label": "Vielha"}
+      ],
+      "highlights": ["Vall de Boí UNESCO Romanesque", "Aigüestortes glacial lakes", "Aran Valley Pyrenean culture", "White-water Noguera Pallaresa"],
+      "cover_search_query": "Vall de Boí Romanesque church Pyrenees Spain"
+    },
+    {
+      "id": "tarragona-terres-ebre",
+      "name": "Tarragona & the Terres de l'Ebre",
+      "region": "Catalonia",
+      "duration_days": 3,
+      "distance_km": 200,
+      "description": "Tarragona is Barcelona's forgotten neighbour — a city of Roman walls, amphitheatres, and an aqueduct that predates most of Europe. The Ebre delta south is Spain's largest river delta, full of flamingos.",
+      "stops": [
+        {"name": "Tarragona, Spain", "label": "Tarragona"},
+        {"name": "Tortosa, Spain", "label": "Tortosa"},
+        {"name": "Deltebre, Spain", "label": "Deltebre"},
+        {"name": "Amposta, Spain", "label": "Amposta"},
+        {"name": "Peñíscola, Spain", "label": "Peñíscola"}
+      ],
+      "highlights": ["Tarragona Roman amphitheatre UNESCO", "Ebre delta flamingos", "Tortosa Gothic cathedral", "Peñíscola castle on sea"],
+      "cover_search_query": "Tarragona Roman amphitheatre Mediterranean Spain"
+    },
+    {
+      "id": "castile-leon-salamanca",
+      "name": "Salamanca, Zamora & the Duero",
+      "region": "Castile & León",
+      "duration_days": 4,
+      "distance_km": 240,
+      "description": "Salamanca's golden sandstone plaza mayor is arguably Spain's most beautiful square. Zamora's Romanesque churches outnumber any other Spanish city. The Arribes del Duero canyon separates them both from Portugal.",
+      "stops": [
+        {"name": "Salamanca, Spain", "label": "Salamanca"},
+        {"name": "Zamora, Spain", "label": "Zamora"},
+        {"name": "Miranda do Douro, Spain", "label": "Miranda do Douro"},
+        {"name": "Fermoselle, Spain", "label": "Fermoselle"},
+        {"name": "Ciudad Rodrigo, Spain", "label": "Ciudad Rodrigo"}
+      ],
+      "highlights": ["Salamanca Plaza Mayor and University", "Zamora Romanesque churches", "Arribes del Duero canyon", "Ciudad Rodrigo walled city"],
+      "cover_search_query": "Salamanca Plaza Mayor golden stone Spain"
+    },
+    {
+      "id": "castile-leon-burgos",
+      "name": "Burgos, Atapuerca & the Camino",
+      "region": "Castile & León",
+      "duration_days": 3,
+      "distance_km": 200,
+      "description": "Burgos's Gothic cathedral is Spain's grandest, its spires rising from the Castilian plateau. Nearby Atapuerca contains human remains over a million years old; the Camino Francés passes through both.",
+      "stops": [
+        {"name": "Burgos, Spain", "label": "Burgos"},
+        {"name": "Atapuerca, Spain", "label": "Atapuerca"},
+        {"name": "Santo Domingo de la Calzada, Spain", "label": "Santo Domingo"},
+        {"name": "Nájera, Spain", "label": "Nájera"},
+        {"name": "Logroño, Spain", "label": "Logroño"}
+      ],
+      "highlights": ["Burgos Gothic cathedral El Cid tomb", "Atapuerca million-year human fossils", "Camino de Santiago trail", "Rioja wine region"],
+      "cover_search_query": "Burgos Gothic cathedral Castile Spain"
+    },
+    {
+      "id": "castile-leon-avila-segovia",
+      "name": "Ávila, Segovia & the Sierra Guadarrama",
+      "region": "Castile & León",
+      "duration_days": 3,
+      "distance_km": 200,
+      "description": "Ávila's complete medieval walls and Segovia's Roman aqueduct are two of Spain's greatest monuments, separated by the Sierra de Guadarrama range where Madrid's royals once hunted.",
+      "stops": [
+        {"name": "Madrid, Spain", "label": "Madrid"},
+        {"name": "Ávila, Spain", "label": "Ávila"},
+        {"name": "El Escorial, Spain", "label": "El Escorial"},
+        {"name": "Segovia, Spain", "label": "Segovia"},
+        {"name": "La Granja de San Ildefonso, Spain", "label": "La Granja"}
+      ],
+      "highlights": ["Ávila intact medieval walls", "Segovia Roman aqueduct", "El Escorial royal monastery", "La Granja Versailles gardens"],
+      "cover_search_query": "Segovia Roman aqueduct Castile Spain"
+    },
+    {
+      "id": "castile-leon-soria",
+      "name": "Soria & the Duero Gorge",
+      "region": "Castile & León",
+      "duration_days": 3,
+      "distance_km": 220,
+      "description": "Soria is Spain's least populated provincial capital — a poet's city (Machado wrote here) surrounded by the emptiest landscape in Europe. The Duero canyons and Romanesque hermitages of Cañón del Río Lobos reward the curious.",
+      "stops": [
+        {"name": "Soria, Spain", "label": "Soria"},
+        {"name": "Cañón del Río Lobos, Spain", "label": "Río Lobos Canyon"},
+        {"name": "El Burgo de Osma, Spain", "label": "El Burgo de Osma"},
+        {"name": "Medinaceli, Spain", "label": "Medinaceli"},
+        {"name": "Sigüenza, Spain", "label": "Sigüenza"}
+      ],
+      "highlights": ["Río Lobos canyon wildlife", "El Burgo de Osma medieval cathedral", "Numantia Celtiberian ruins", "Antonio Machado poetry"],
+      "cover_search_query": "Cañón del Río Lobos limestone gorge Soria Spain"
+    },
+    {
+      "id": "basque-country-gipuzkoa",
+      "name": "Basque Country — San Sebastián & Gipuzkoa",
+      "region": "Basque Country & Navarre",
+      "duration_days": 4,
+      "distance_km": 200,
+      "description": "San Sebastián's La Concha bay is Spain's most beautiful urban beach. The Gipuzkoa coast eastward carries surfing villages and the most Michelin stars per capita on earth, culminating in Getaria's txakoli wine.",
+      "stops": [
+        {"name": "San Sebastián, Spain", "label": "San Sebastián"},
+        {"name": "Zarautz, Spain", "label": "Zarautz"},
+        {"name": "Getaria, Spain", "label": "Getaria"},
+        {"name": "Zumaia, Spain", "label": "Zumaia"},
+        {"name": "Lekeitio, Spain", "label": "Lekeitio"}
+      ],
+      "highlights": ["San Sebastián pintxos bars", "La Concha beach", "Getaria txakoli wine", "Zumaia flysch UNESCO geopark"],
+      "cover_search_query": "San Sebastián La Concha bay Basque Spain"
+    },
+    {
+      "id": "basque-bilbao",
+      "name": "Bilbao & the Basque Interior",
+      "region": "Basque Country & Navarre",
+      "duration_days": 4,
+      "distance_km": 220,
+      "description": "Bilbao's Guggenheim Museum by Frank Gehry transformed a post-industrial port into one of Europe's great cultural cities. The Basque interior's oak valleys, Guernica, and the Urdaibai biosphere reserve complete the picture.",
+      "stops": [
+        {"name": "Bilbao, Spain", "label": "Bilbao"},
+        {"name": "Gernika-Lumo, Spain", "label": "Gernika"},
+        {"name": "Mundaka, Spain", "label": "Mundaka"},
+        {"name": "Bermeo, Spain", "label": "Bermeo"},
+        {"name": "Vitoria-Gasteiz, Spain", "label": "Vitoria-Gasteiz"}
+      ],
+      "highlights": ["Guggenheim Museum Bilbao", "Guernica Picasso town", "Mundaka world surfing reserve", "Vitoria medieval old town"],
+      "cover_search_query": "Guggenheim Museum Bilbao Basque Spain"
+    },
+    {
+      "id": "navarre-pamplona",
+      "name": "Navarre — Pamplona & the Bull Run Country",
+      "region": "Basque Country & Navarre",
+      "duration_days": 4,
+      "distance_km": 240,
+      "description": "Pamplona's San Fermín festival is the world's most famous dangerous event. Beyond the bull runs, Navarre has Roncesvalles's Camino gateway, the Bardenas Reales badlands, and the oldest wine region in Spain.",
+      "stops": [
+        {"name": "Pamplona, Spain", "label": "Pamplona"},
+        {"name": "Roncesvalles, Spain", "label": "Roncesvalles"},
+        {"name": "Estella, Spain", "label": "Estella"},
+        {"name": "Olite, Spain", "label": "Olite"},
+        {"name": "Bardenas Reales, Spain", "label": "Bardenas Reales"}
+      ],
+      "highlights": ["Pamplona San Fermín bull run", "Roncesvalles Camino gateway", "Bardenas Reales badlands", "Olite fairy-tale castle"],
+      "cover_search_query": "Bardenas Reales badlands desert Navarre Spain"
+    },
+    {
+      "id": "galicia-camino-santiago",
+      "name": "Galicia — The Last Stretch of the Camino",
+      "region": "Galicia",
+      "duration_days": 4,
+      "distance_km": 220,
+      "description": "The final 100km of the Camino Francés enters Galicia at O Cebreiro through mountain mist and descends through stone-walled villages and hórreos granaries to Santiago de Compostela's thundering cathedral.",
+      "stops": [
+        {"name": "O Cebreiro, Spain", "label": "O Cebreiro"},
+        {"name": "Sarria, Spain", "label": "Sarria"},
+        {"name": "Portomarin, Spain", "label": "Portomarin"},
+        {"name": "Palas de Rei, Spain", "label": "Palas de Rei"},
+        {"name": "Santiago de Compostela, Spain", "label": "Santiago"}
+      ],
+      "highlights": ["O Cebreiro mountain gateway", "Pilgrim culture and credencial", "Santiago Cathedral Botafumeiro", "Pulpo a feira octopus"],
+      "cover_search_query": "Santiago de Compostela cathedral Galicia Spain"
+    },
+    {
+      "id": "galicia-rias-baixas",
+      "name": "Rías Baixas — Albariño Country",
+      "region": "Galicia",
+      "duration_days": 4,
+      "distance_km": 240,
+      "description": "The drowned river valleys of the Rías Baixas produce the finest white wine in Spain — Albariño — grown on granite terraces above mussel-farming estuaries. Pontevedra's old town is car-free and completely beautiful.",
+      "stops": [
+        {"name": "Pontevedra, Spain", "label": "Pontevedra"},
+        {"name": "Cambados, Spain", "label": "Cambados"},
+        {"name": "O Grove, Spain", "label": "O Grove"},
+        {"name": "Baiona, Spain", "label": "Baiona"},
+        {"name": "A Guarda, Spain", "label": "A Guarda"}
+      ],
+      "highlights": ["Albariño wine at Cambados", "O Grove oyster festival", "Baiona Columbus return port", "A Guarda Celtic Castro hilltop"],
+      "cover_search_query": "Rías Baixas estuary Albariño vineyards Galicia Spain"
+    },
+    {
+      "id": "galicia-ribeira-sacra",
+      "name": "Ribeira Sacra — Sacred Banks",
+      "region": "Galicia",
+      "duration_days": 3,
+      "distance_km": 200,
+      "description": "The Ribeira Sacra is where the Miño and Sil rivers cut dramatic gorges through slate schist slopes planted with terraced Mencía vines. Romanesque monasteries perch above the water on rock ledges.",
+      "stops": [
+        {"name": "Ourense, Spain", "label": "Ourense"},
+        {"name": "Monforte de Lemos, Spain", "label": "Monforte"},
+        {"name": "Parada de Sil, Spain", "label": "Parada de Sil"},
+        {"name": "Castro Caldelas, Spain", "label": "Castro Caldelas"},
+        {"name": "Chantada, Spain", "label": "Chantada"}
+      ],
+      "highlights": ["Sil canyon catamaran cruise", "Mencía wine terraces", "Romanesque monasteries", "Ourense thermal baths"],
+      "cover_search_query": "Ribeira Sacra canyon Sil river Galicia Spain"
+    },
+    {
+      "id": "galicia-north-coast",
+      "name": "Galicia's Wild Coast — Rías Altas",
+      "region": "Galicia",
+      "duration_days": 4,
+      "distance_km": 300,
+      "description": "The Rías Altas north coast is pounded by Atlantic swells — the Costa da Morte (Death Coast) is named for its shipwrecks. The lighthouse at Cabo Fisterra was the 'end of the world' for medieval pilgrims.",
+      "stops": [
+        {"name": "A Coruña, Spain", "label": "A Coruña"},
+        {"name": "Betanzos, Spain", "label": "Betanzos"},
+        {"name": "Cabo Fisterra, Spain", "label": "Fisterra"},
+        {"name": "Muxía, Spain", "label": "Muxía"},
+        {"name": "Carnota, Spain", "label": "Carnota"}
+      ],
+      "highlights": ["Cabo Fisterra world's end lighthouse", "Costa da Morte wild scenery", "A Coruña Roman lighthouse", "Carnota longest hórreo in Galicia"],
+      "cover_search_query": "Cabo Fisterra lighthouse end of world Galicia Spain"
+    },
+    {
+      "id": "asturias-picos-europa",
+      "name": "Picos de Europa — Spain's First National Park",
+      "region": "Asturias & Cantabria",
+      "duration_days": 5,
+      "distance_km": 280,
+      "description": "The Picos de Europa are a limestone massif of extraordinary drama — the cable car to Fuente Dé rises 800m in a near-vertical wall. Cabrales blue cheese, apple cider, and painted Paleolithic caves are nearby.",
+      "stops": [
+        {"name": "Cangas de Onís, Spain", "label": "Cangas de Onís"},
+        {"name": "Covadonga, Spain", "label": "Covadonga"},
+        {"name": "Fuente Dé, Spain", "label": "Fuente Dé"},
+        {"name": "Potes, Spain", "label": "Potes"},
+        {"name": "Arenas de Cabrales, Spain", "label": "Arenas de Cabrales"}
+      ],
+      "highlights": ["Fuente Dé cable car 800m ascent", "Covadonga Spain's birthplace", "Cabrales blue cheese caves", "Naranjo de Bulnes peak"],
+      "cover_search_query": "Picos de Europa mountains Fuente Dé Spain"
+    },
+    {
+      "id": "asturias-coast",
+      "name": "Asturian Coast — Cider & Sidrerías",
+      "region": "Asturias & Cantabria",
+      "duration_days": 4,
+      "distance_km": 260,
+      "description": "The Asturian coast is green, dramatic, and unknown to most tourists. Sidrerías pour cider from a great height; Llanes's painted cliffs and Cudillero's amphitheatre fishing port are postcard-perfect.",
+      "stops": [
+        {"name": "Oviedo, Spain", "label": "Oviedo"},
+        {"name": "Avilés, Spain", "label": "Avilés"},
+        {"name": "Cudillero, Spain", "label": "Cudillero"},
+        {"name": "Luarca, Spain", "label": "Luarca"},
+        {"name": "Llanes, Spain", "label": "Llanes"}
+      ],
+      "highlights": ["Cudillero amphitheatre fishing port", "Asturian sidra cider culture", "Oviedo Pre-Romanesque UNESCO churches", "Llanes painted cliffs"],
+      "cover_search_query": "Cudillero fishing port Asturias Spain"
+    },
+    {
+      "id": "cantabria-santander",
+      "name": "Cantabria — Altamira & the Green Coast",
+      "region": "Asturias & Cantabria",
+      "duration_days": 4,
+      "distance_km": 240,
+      "description": "Cantabria's prehistoric credentials are extraordinary — Altamira's cave paintings rival Lascaux. The coast alternates between sandy coves and clifftop villages; Comillas has two of Gaudí's earliest buildings.",
+      "stops": [
+        {"name": "Santander, Spain", "label": "Santander"},
+        {"name": "Santillana del Mar, Spain", "label": "Santillana del Mar"},
+        {"name": "Comillas, Spain", "label": "Comillas"},
+        {"name": "San Vicente de la Barquera, Spain", "label": "San Vicente"},
+        {"name": "Liébana, Spain", "label": "Liébana"}
+      ],
+      "highlights": ["Altamira Neolithic cave art", "Santillana del Mar medieval village", "Comillas Capricho Gaudí", "Liébana Picos gateway"],
+      "cover_search_query": "Santillana del Mar medieval village Cantabria Spain"
+    },
+    {
+      "id": "la-rioja-wine",
+      "name": "La Rioja — Wine Road",
+      "region": "Basque Country & Navarre",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "La Rioja is Spain's most famous wine region — Tempranillo ageing in oak in the cellars of Haro and Laguardia. The Marqués de Riscal winery by Frank Gehry brings high architecture to the vineyard.",
+      "stops": [
+        {"name": "Logroño, Spain", "label": "Logroño"},
+        {"name": "Haro, Spain", "label": "Haro"},
+        {"name": "Briones, Spain", "label": "Briones"},
+        {"name": "Laguardia, Spain", "label": "Laguardia"},
+        {"name": "Elciego, Spain", "label": "Elciego"}
+      ],
+      "highlights": ["Rioja Reserva wine cellars", "Laguardia medieval walled village", "Marqués de Riscal Gehry architecture", "Wine battle festival at Haro"],
+      "cover_search_query": "Laguardia walled village La Rioja vineyards Spain"
+    },
+    {
+      "id": "aragon-ordesa",
+      "name": "Ordesa & Monte Perdido",
+      "region": "Aragon & Pyrenees",
+      "duration_days": 4,
+      "distance_km": 240,
+      "description": "The Ordesa canyon is the Yosemite of Spain — sheer 1,000m limestone walls above a glacier-carved valley with the Monte Perdido massif behind. The Añisclo canyon and Pineta valley offer solitude.",
+      "stops": [
+        {"name": "Huesca, Spain", "label": "Huesca"},
+        {"name": "Torla-Ordesa, Spain", "label": "Torla"},
+        {"name": "Broto, Spain", "label": "Broto"},
+        {"name": "Aínsa, Spain", "label": "Aínsa"},
+        {"name": "Bielsa, Spain", "label": "Bielsa"}
+      ],
+      "highlights": ["Ordesa canyon 1000m walls", "Monte Perdido UNESCO glacier", "Aínsa medieval village plaza", "Pyrenean chamois and vultures"],
+      "cover_search_query": "Ordesa canyon Pyrenees Monte Perdido Spain"
+    },
+    {
+      "id": "aragon-teruel",
+      "name": "Teruel — Mudéjar & the Maestrazgo",
+      "region": "Aragon & Pyrenees",
+      "duration_days": 4,
+      "distance_km": 280,
+      "description": "Teruel is the capital of Spain's emptiest province — a UNESCO Mudéjar city of brick towers that blends Islamic and Christian art. The Maestrazgo plateau behind is a landscape of medieval castles and dinosaur tracks.",
+      "stops": [
+        {"name": "Teruel, Spain", "label": "Teruel"},
+        {"name": "Albarracín, Spain", "label": "Albarracín"},
+        {"name": "Mora de Rubielos, Spain", "label": "Mora de Rubielos"},
+        {"name": "Cantavieja, Spain", "label": "Cantavieja"},
+        {"name": "Peñarroya de Tastavins, Spain", "label": "Peñarroya"}
+      ],
+      "highlights": ["Teruel Mudéjar UNESCO towers", "Albarracín pink medieval city", "Maestrazgo dinosaur footprints", "Spain's emptiest landscapes"],
+      "cover_search_query": "Albarracín pink medieval walled city Aragon Spain"
+    },
+    {
+      "id": "valencia-city-coast",
+      "name": "Valencia & the Costa Blanca",
+      "region": "Valencia & Murcia",
+      "duration_days": 4,
+      "distance_km": 260,
+      "description": "Valencia gave the world paella and the Arts & Sciences complex. South on the Costa Blanca, Alicante's Moorish castle, the salt-pink Torrevieja lakes, and Benidorm's skyline of towers are each extraordinary in different ways.",
+      "stops": [
+        {"name": "Valencia, Spain", "label": "Valencia"},
+        {"name": "Xàtiva, Spain", "label": "Xàtiva"},
+        {"name": "Alicante, Spain", "label": "Alicante"},
+        {"name": "Altea, Spain", "label": "Altea"},
+        {"name": "Guadalest, Spain", "label": "Guadalest"}
+      ],
+      "highlights": ["Valencia paella origin", "Xàtiva Borgia family castle", "Alicante Castillo Santa Bárbara", "Guadalest mountain fortress"],
+      "cover_search_query": "Valencia City of Arts Sciences Spain"
+    },
+    {
+      "id": "valencia-inland",
+      "name": "Valencia Inland — Morella & the Ports",
+      "region": "Valencia & Murcia",
+      "duration_days": 3,
+      "distance_km": 200,
+      "description": "Morella is one of Spain's most spectacular medieval fortress towns — its castle crowns a solitary rock above a walled city and deep pine forests. The Els Ports natural park around it is virtually visitor-free.",
+      "stops": [
+        {"name": "Castellón de la Plana, Spain", "label": "Castellón"},
+        {"name": "Morella, Spain", "label": "Morella"},
+        {"name": "Forcall, Spain", "label": "Forcall"},
+        {"name": "Cantavieja, Spain", "label": "Cantavieja"},
+        {"name": "Peñíscola, Spain", "label": "Peñíscola"}
+      ],
+      "highlights": ["Morella fortress city", "Els Ports forest wilderness", "Peñíscola castle on sea rock", "Pope Benedict XIII's palace"],
+      "cover_search_query": "Morella fortress medieval town Valencia Spain"
+    },
+    {
+      "id": "madrid-city-surrounds",
+      "name": "Madrid & Royal Castile",
+      "region": "Madrid & Castile-La Mancha",
+      "duration_days": 4,
+      "distance_km": 200,
+      "description": "Madrid's Prado, Reina Sofía, and Thyssen make it one of the world's great art cities. The surrounding royal retreats — Aranjuez, Toledo, and El Escorial — are within an hour and equally unmissable.",
+      "stops": [
+        {"name": "Madrid, Spain", "label": "Madrid"},
+        {"name": "Aranjuez, Spain", "label": "Aranjuez"},
+        {"name": "Toledo, Spain", "label": "Toledo"},
+        {"name": "El Escorial, Spain", "label": "El Escorial"},
+        {"name": "Alcalá de Henares, Spain", "label": "Alcalá de Henares"}
+      ],
+      "highlights": ["Prado museum", "Toledo three cultures UNESCO", "El Escorial royal monastery", "Alcalá Cervantes birthplace"],
+      "cover_search_query": "Toledo medieval city on hill Castile Spain"
+    },
+    {
+      "id": "castile-la-mancha-cuenca",
+      "name": "Cuenca & La Mancha",
+      "region": "Madrid & Castile-La Mancha",
+      "duration_days": 3,
+      "distance_km": 200,
+      "description": "Cuenca's hanging houses dangle over a gorge in one of Spain's most dramatic settings. La Mancha's windmills and Don Quixote's plains extend to Almagro — a perfectly preserved 16th-century theatre town.",
+      "stops": [
+        {"name": "Cuenca, Spain", "label": "Cuenca"},
+        {"name": "Alarcon, Spain", "label": "Alarcon"},
+        {"name": "Consuegra, Spain", "label": "Consuegra"},
+        {"name": "Campo de Criptana, Spain", "label": "Campo de Criptana"},
+        {"name": "Almagro, Spain", "label": "Almagro"}
+      ],
+      "highlights": ["Cuenca hanging houses UNESCO", "Consuegra windmills", "Don Quixote windmill route", "Almagro Corral de Comedias theatre"],
+      "cover_search_query": "Cuenca hanging houses gorge Castile Spain"
+    },
+    {
+      "id": "extremadura-merida",
+      "name": "Extremadura — Rome in Spain",
+      "region": "Extremadura",
+      "duration_days": 4,
+      "distance_km": 260,
+      "description": "Extremadura preserves more complete Roman monuments than Rome itself. Mérida's theatre, amphitheatre, and circus are the best in Iberia. Cáceres's medieval old town is Europe's most complete.",
+      "stops": [
+        {"name": "Cáceres, Spain", "label": "Cáceres"},
+        {"name": "Mérida, Spain", "label": "Mérida"},
+        {"name": "Badajoz, Spain", "label": "Badajoz"},
+        {"name": "Zafra, Spain", "label": "Zafra"},
+        {"name": "Jerez de los Caballeros, Spain", "label": "Jerez de los Caballeros"}
+      ],
+      "highlights": ["Mérida Roman theatre", "Cáceres medieval UNESCO city", "Extremadura black pigs ibérico ham", "Badajoz Portugal border"],
+      "cover_search_query": "Mérida Roman theatre Extremadura Spain"
+    },
+    {
+      "id": "extremadura-monfrague",
+      "name": "Monfragüe & Plasencia",
+      "region": "Extremadura",
+      "duration_days": 3,
+      "distance_km": 200,
+      "description": "Monfragüe National Park has the highest density of Spanish imperial eagles and black vultures in the world — over 350 pairs nest on its quartzite cliffs. Plasencia's Gothic cathedral and the Valle del Jerte cherry blossom complete this.",
+      "stops": [
+        {"name": "Plasencia, Spain", "label": "Plasencia"},
+        {"name": "Monfragüe National Park, Spain", "label": "Monfragüe"},
+        {"name": "Trujillo, Spain", "label": "Trujillo"},
+        {"name": "Valle del Jerte, Spain", "label": "Valle del Jerte"},
+        {"name": "Hervás, Spain", "label": "Hervás"}
+      ],
+      "highlights": ["Monfragüe black vulture colonies", "Spanish imperial eagle", "Trujillo Pizarro birthplace", "Valle del Jerte spring cherry blossom"],
+      "cover_search_query": "Monfragüe vultures raptors Extremadura Spain"
+    },
+    {
+      "id": "mallorca-mountains",
+      "name": "Mallorca — Tramuntana Mountains",
+      "region": "Balearic Islands",
+      "duration_days": 5,
+      "distance_km": 280,
+      "description": "The Serra de Tramuntana is UNESCO-listed — a mountain range dropping straight into the Mediterranean, with dry stone walls, ancient olive groves, and the hermitage of Valldemossa where Chopin composed.",
+      "stops": [
+        {"name": "Palma de Mallorca, Spain", "label": "Palma"},
+        {"name": "Valldemossa, Spain", "label": "Valldemossa"},
+        {"name": "Deià, Spain", "label": "Deià"},
+        {"name": "Sóller, Spain", "label": "Sóller"},
+        {"name": "Pollença, Spain", "label": "Pollença"}
+      ],
+      "highlights": ["Tramuntana UNESCO mountain roads", "Valldemossa Chopin monastery", "Deià artist village", "Sóller vintage train"],
+      "cover_search_query": "Mallorca Tramuntana mountains cliffs Spain"
+    },
+    {
+      "id": "mallorca-southeast",
+      "name": "Mallorca — Caves, Coves & the East",
+      "region": "Balearic Islands",
+      "duration_days": 4,
+      "distance_km": 200,
+      "description": "Eastern Mallorca has the island's finest coves — Cala Mondragó, Cala Mesquida — and the spectacular Coves del Drach whose underground lake is one of the largest in the world.",
+      "stops": [
+        {"name": "Palma de Mallorca, Spain", "label": "Palma"},
+        {"name": "Felanitx, Spain", "label": "Felanitx"},
+        {"name": "Porto Cristo, Spain", "label": "Porto Cristo"},
+        {"name": "Artà, Spain", "label": "Artà"},
+        {"name": "Alcúdia, Spain", "label": "Alcúdia"}
+      ],
+      "highlights": ["Coves del Drach underground lake", "Artà talayotic ruins", "Alcúdia Roman city walls", "Eastern coves snorkelling"],
+      "cover_search_query": "Mallorca coves turquoise water Balearic Spain"
+    },
+    {
+      "id": "tenerife-teide",
+      "name": "Tenerife — Teide & the North",
+      "region": "Canary Islands",
+      "duration_days": 5,
+      "distance_km": 280,
+      "description": "Teide is Spain's highest peak at 3,718m — a volcanic cone rising from the clouds above a UNESCO national park of lava landscapes. The north coast's Las Mercedes laurisilva forest is a living relic of the Tertiary era.",
+      "stops": [
+        {"name": "Santa Cruz de Tenerife, Spain", "label": "Santa Cruz"},
+        {"name": "La Laguna, Spain", "label": "La Laguna"},
+        {"name": "Teide National Park, Spain", "label": "Teide"},
+        {"name": "Masca, Spain", "label": "Masca"},
+        {"name": "Garachico, Spain", "label": "Garachico"}
+      ],
+      "highlights": ["Teide summit 3718m", "Masca gorge dramatic village", "Garachico natural rock pools", "La Laguna UNESCO colonial city"],
+      "cover_search_query": "Teide volcano peak Tenerife Spain"
+    },
+    {
+      "id": "gran-canaria",
+      "name": "Gran Canaria — Mini-Continent",
+      "region": "Canary Islands",
+      "duration_days": 4,
+      "distance_km": 240,
+      "description": "Gran Canaria packs the equivalent of a continent into 1,560km² — Saharan dunes at Maspalomas, cloud-forest peaks in Tejeda, and Spanish colonial baroque at Las Palmas.",
+      "stops": [
+        {"name": "Las Palmas de Gran Canaria, Spain", "label": "Las Palmas"},
+        {"name": "Tejeda, Spain", "label": "Tejeda"},
+        {"name": "Roque Nublo, Spain", "label": "Roque Nublo"},
+        {"name": "Mogán, Spain", "label": "Mogán"},
+        {"name": "Maspalomas, Spain", "label": "Maspalomas"}
+      ],
+      "highlights": ["Roque Nublo volcanic monolith", "Maspalomas sand dunes", "Tejeda almond blossom", "Columbus house Las Palmas"],
+      "cover_search_query": "Gran Canaria Maspalomas sand dunes Spain"
+    },
+    {
+      "id": "lanzarote",
+      "name": "Lanzarote — César Manrique's Island",
+      "region": "Canary Islands",
+      "duration_days": 4,
+      "distance_km": 200,
+      "description": "Lanzarote is a black volcanic island where César Manrique turned lava tunnels into concert halls and volcanic craters into vine amphitheatres. The Timanfaya fire mountains are a UNESCO landscape unlike anywhere on earth.",
+      "stops": [
+        {"name": "Arrecife, Spain", "label": "Arrecife"},
+        {"name": "Timanfaya National Park, Spain", "label": "Timanfaya"},
+        {"name": "Jameos del Agua, Spain", "label": "Jameos del Agua"},
+        {"name": "Teguise, Spain", "label": "Teguise"},
+        {"name": "La Geria, Spain", "label": "La Geria"}
+      ],
+      "highlights": ["Timanfaya lava landscape", "Jameos del Agua lava cave concert hall", "La Geria vine craters in volcanic ash", "César Manrique architecture"],
+      "cover_search_query": "Timanfaya volcanic landscape Lanzarote Spain"
+    },
+    {
+      "id": "castile-leon-el-bierzo",
+      "name": "El Bierzo & the Maragatería",
+      "region": "Castile & León",
+      "duration_days": 3,
+      "distance_km": 200,
+      "description": "El Bierzo is a wine appellation cut off from the rest of Castile by mountains — producing Mencía reds from slate soils in a landscape that feels more Galicia than Spain. Las Médulas's Roman gold workings are UNESCO.",
+      "stops": [
+        {"name": "Ponferrada, Spain", "label": "Ponferrada"},
+        {"name": "Las Médulas, Spain", "label": "Las Médulas"},
+        {"name": "Villafranca del Bierzo, Spain", "label": "Villafranca"},
+        {"name": "O Cebreiro, Spain", "label": "O Cebreiro"},
+        {"name": "Astorga, Spain", "label": "Astorga"}
+      ],
+      "highlights": ["Las Médulas Roman gold mines UNESCO", "El Bierzo Mencía wine", "Ponferrada Templar castle", "Astorga Gaudí Bishop's Palace"],
+      "cover_search_query": "Las Médulas Roman gold mines El Bierzo Spain"
+    },
+    {
+      "id": "murcia-cartagena",
+      "name": "Murcia — Cartagena & the Mar Menor",
+      "region": "Valencia & Murcia",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "Cartagena was the Carthaginian capital of Spain — its Roman theatre, Punic walls, and submarine museum tell 3,000 years of history. The Mar Menor lagoon is the largest salt lake in Europe.",
+      "stops": [
+        {"name": "Murcia, Spain", "label": "Murcia"},
+        {"name": "Cartagena, Spain", "label": "Cartagena"},
+        {"name": "Cabo de Palos, Spain", "label": "Cabo de Palos"},
+        {"name": "La Manga del Mar Menor, Spain", "label": "La Manga"},
+        {"name": "Águilas, Spain", "label": "Águilas"}
+      ],
+      "highlights": ["Cartagena Roman theatre", "Punic wall museum", "Mar Menor lagoon sailing", "Águilas carnival"],
+      "cover_search_query": "Cartagena Roman theatre Murcia Spain"
+    },
+    {
+      "id": "menorca",
+      "name": "Menorca — Prehistoric Island",
+      "region": "Balearic Islands",
+      "duration_days": 4,
+      "distance_km": 160,
+      "description": "Menorca is quieter and greener than Mallorca — a UNESCO biosphere with over 1,500 Bronze Age megalithic monuments (talaiots, navetes, taules) and unspoilt beaches on both north and south coasts.",
+      "stops": [
+        {"name": "Maó, Spain", "label": "Maó"},
+        {"name": "Es Castell, Spain", "label": "Es Castell"},
+        {"name": "Ciutadella de Menorca, Spain", "label": "Ciutadella"},
+        {"name": "Fornells, Spain", "label": "Fornells"},
+        {"name": "Es Mercadal, Spain", "label": "Es Mercadal"}
+      ],
+      "highlights": ["Talaiotic Bronze Age monuments", "Fornells caldereta de llagosta lobster", "Ciutadella ancient capital", "Binibèquer white village"],
+      "cover_search_query": "Menorca talayot monument Balearic Spain"
+    },
+    {
+      "id": "la-palma-canary",
+      "name": "La Palma — La Isla Bonita",
+      "region": "Canary Islands",
+      "duration_days": 4,
+      "distance_km": 200,
+      "description": "La Palma is the steepest island on earth relative to its size — the Caldera de Taburiente National Park is a collapsed volcano 10km wide. The Ruta de los Volcanes lava trail marks recent eruptions.",
+      "stops": [
+        {"name": "Santa Cruz de la Palma, Spain", "label": "Santa Cruz"},
+        {"name": "Caldera de Taburiente, Spain", "label": "Caldera"},
+        {"name": "El Paso, Spain", "label": "El Paso"},
+        {"name": "Fuencaliente, Spain", "label": "Fuencaliente"},
+        {"name": "Los Llanos de Aridane, Spain", "label": "Los Llanos"}
+      ],
+      "highlights": ["Caldera de Taburiente NP", "Ruta de los Volcanes lava", "Best stargazing in Europe", "Malvasia volcanic wine"],
+      "cover_search_query": "La Palma caldera volcano Canary Islands Spain"
+    },
+    {
+      "id": "castile-valladolid",
+      "name": "Valladolid & the Castilian Wine Route",
+      "region": "Castile & León",
+      "duration_days": 3,
+      "distance_km": 200,
+      "description": "Valladolid was Spain's capital before Madrid — its national sculpture museum is Spain's finest. The Ribera del Duero wine route runs east through the meseta, producing Spain's greatest Tempranillo reds.",
+      "stops": [
+        {"name": "Valladolid, Spain", "label": "Valladolid"},
+        {"name": "Peñafiel, Spain", "label": "Peñafiel"},
+        {"name": "Aranda de Duero, Spain", "label": "Aranda de Duero"},
+        {"name": "Lerma, Spain", "label": "Lerma"},
+        {"name": "Palencia, Spain", "label": "Palencia"}
+      ],
+      "highlights": ["Ribera del Duero Tempranillo wine", "Peñafiel castle wine museum", "Valladolid national sculpture museum", "Lerma ducal baroque town"],
+      "cover_search_query": "Ribera del Duero vineyards Peñafiel castle Spain"
+    },
+    {
+      "id": "green-spain-coast",
+      "name": "Green Spain — Cantabrian Coastal Route",
+      "region": "Asturias & Cantabria",
+      "duration_days": 5,
+      "distance_km": 400,
+      "description": "The N-634 along Spain's northern Cantabrian coast is the green antidote to the Costa del Sol — cliffs, cider houses, Romanesque churches, and medieval fishing villages from the Basque Country to Galicia.",
+      "stops": [
+        {"name": "San Sebastián, Spain", "label": "San Sebastián"},
+        {"name": "Bilbao, Spain", "label": "Bilbao"},
+        {"name": "Santander, Spain", "label": "Santander"},
+        {"name": "Oviedo, Spain", "label": "Oviedo"},
+        {"name": "Lugo, Spain", "label": "Lugo"}
+      ],
+      "highlights": ["Green coastline all year", "Basque, Asturian, and Galician culture", "Cider, pintxos, and seafood", "Roman walls at Lugo"],
+      "cover_search_query": "Cantabrian coast green Spain cliffs road"
+    },
+    {
+      "id": "zaragoza-aragon",
+      "name": "Zaragoza & the Aragonese Meseta",
+      "region": "Aragon & Pyrenees",
+      "duration_days": 3,
+      "distance_km": 240,
+      "description": "Zaragoza's Basílica del Pilar sits on the Ebro river at the heart of Spain's most undervisited city. The Goya trail winds through his birthplace Fuendetodos and the baroque monastery of Veruela.",
+      "stops": [
+        {"name": "Zaragoza, Spain", "label": "Zaragoza"},
+        {"name": "Fuendetodos, Spain", "label": "Fuendetodos"},
+        {"name": "Calatayud, Spain", "label": "Calatayud"},
+        {"name": "Tarazona, Spain", "label": "Tarazona"},
+        {"name": "Sos del Rey Católico, Spain", "label": "Sos del Rey Católico"}
+      ],
+      "highlights": ["Basílica del Pilar on the Ebro", "Goya birthplace Fuendetodos", "Mudéjar Tarazona", "Sos del Rey Católico Fernando II birthplace"],
+      "cover_search_query": "Zaragoza Basílica del Pilar Ebro river Spain"
+    },
+    {
+      "id": "andalusia-granada-alpujarra",
+      "name": "Las Alpujarras — High Sierra Nevada Villages",
+      "region": "Andalusia",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "The Moorish farmers expelled from Granada in 1492 retreated to these high Sierra Nevada valleys and built tinaos — covered alleys connecting their stone-and-white-plaster villages above 1,000m.",
+      "stops": [
+        {"name": "Granada, Spain", "label": "Granada"},
+        {"name": "Lanjarón, Spain", "label": "Lanjarón"},
+        {"name": "Pampaneira, Spain", "label": "Pampaneira"},
+        {"name": "Bubión, Spain", "label": "Bubión"},
+        {"name": "Capileira, Spain", "label": "Capileira"}
+      ],
+      "highlights": ["High Moorish villages", "Sierra Nevada drives", "Alpujarran weaving tradition", "Ham curing at Trevélez"],
+      "cover_search_query": "Alpujarras Moorish mountain villages Sierra Nevada Spain"
+    },
+    {
+      "id": "andalusia-sevilla-carmona",
+      "name": "Seville & the Campiña",
+      "region": "Andalusia",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "Beyond Seville's magnificent cathedral and Alcázar, the Campiña's rolling wheat plains shelter Carmona's clifftop Roman necropolis and Écija's towers — the 'city of towers' that earned the title of Andalusia's Baroque showcase.",
+      "stops": [
+        {"name": "Seville, Spain", "label": "Seville"},
+        {"name": "Carmona, Spain", "label": "Carmona"},
+        {"name": "Écija, Spain", "label": "Écija"},
+        {"name": "Osuna, Spain", "label": "Osuna"},
+        {"name": "Estepa, Spain", "label": "Estepa"}
+      ],
+      "highlights": ["Seville cathedral and Giralda", "Carmona Roman necropolis", "Écija Baroque towers", "Osuna ducal college"],
+      "cover_search_query": "Seville Alcázar Real palace gardens Spain"
+    },
+    {
+      "id": "galicia-lugo-roman",
+      "name": "Lugo — Roman Walls & Galician Interior",
+      "region": "Galicia",
+      "duration_days": 3,
+      "distance_km": 200,
+      "description": "Lugo's Roman walls are the most complete in the world — you can walk the full 2km circuit. The Galician interior beyond is deeply rural, a land of granite farmhouses, ancient stone crosses, and Celtic castro hillforts.",
+      "stops": [
+        {"name": "Lugo, Spain", "label": "Lugo"},
+        {"name": "Monforte de Lemos, Spain", "label": "Monforte de Lemos"},
+        {"name": "Quiroga, Spain", "label": "Quiroga"},
+        {"name": "Viveiro, Spain", "label": "Viveiro"},
+        {"name": "Mondoñedo, Spain", "label": "Mondoñedo"}
+      ],
+      "highlights": ["Lugo Roman walls UNESCO", "Monforte Renaissance palace", "Galician granite landscape", "Mondoñedo Gothic cathedral"],
+      "cover_search_query": "Lugo Roman walls complete circuit Galicia Spain"
+    },
+    {
+      "id": "castile-palencia-fromista",
+      "name": "Palencia & the Romanesque Corridor",
+      "region": "Castile & León",
+      "duration_days": 3,
+      "distance_km": 200,
+      "description": "Palencia calls itself 'the forgotten capital' — perhaps why its cathedral, national sculpture, and the Romanesque corridor from Frómista to Carrión de los Condes along the Camino remain so beautifully preserved.",
+      "stops": [
+        {"name": "Palencia, Spain", "label": "Palencia"},
+        {"name": "Frómista, Spain", "label": "Frómista"},
+        {"name": "Carrión de los Condes, Spain", "label": "Carrión"},
+        {"name": "Sahagún, Spain", "label": "Sahagún"},
+        {"name": "Saldaña, Spain", "label": "Saldaña"}
+      ],
+      "highlights": ["Frómista San Martín perfect Romanesque", "Palencia Gothic cathedral", "Camino de Santiago rural stretch", "Mudéjar Sahagún churches"],
+      "cover_search_query": "Frómista Romanesque church Castile Spain"
+    },
+    {
+      "id": "aragon-benasque",
+      "name": "Benasque Valley & Aneto Peak",
+      "region": "Aragon & Pyrenees",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "The Benasque valley leads to the highest peak in the Pyrenees — Aneto at 3,404m. The valley's spa town and the Posets-Maladeta nature reserve make this the mountain epicentre of the Spanish Pyrenees.",
+      "stops": [
+        {"name": "Graus, Spain", "label": "Graus"},
+        {"name": "Benasque, Spain", "label": "Benasque"},
+        {"name": "Anciles, Spain", "label": "Anciles"},
+        {"name": "Plan, Spain", "label": "Plan"},
+        {"name": "Ainsa, Spain", "label": "Aínsa"}
+      ],
+      "highlights": ["Aneto highest Pyrenees peak", "Benasque spa village", "Posets-Maladeta glaciers", "Rural Aragonese mountain culture"],
+      "cover_search_query": "Benasque valley Pyrenees Aneto peak Aragon Spain"
+    },
+    {
+      "id": "valencia-huerta",
+      "name": "Valencia Rice Country & Albufera",
+      "region": "Valencia & Murcia",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "Paella was born on the shores of the Albufera lagoon south of Valencia — the largest freshwater lagoon in Spain, ringed by rice paddies that turn gold in autumn. El Saler beach and the orange groves complete the picture.",
+      "stops": [
+        {"name": "Valencia, Spain", "label": "Valencia"},
+        {"name": "Albufera Natural Park, Spain", "label": "Albufera"},
+        {"name": "El Saler, Spain", "label": "El Saler"},
+        {"name": "Sueca, Spain", "label": "Sueca"},
+        {"name": "Cullera, Spain", "label": "Cullera"}
+      ],
+      "highlights": ["Albufera paella origin lagoon", "Rice paddies at harvest", "Sunset boat on Albufera", "Cullera medieval castle"],
+      "cover_search_query": "Albufera lagoon rice paddies Valencia Spain"
+    },
+    {
+      "id": "catalonia-girona",
+      "name": "Girona — Medieval City & Volcanic Zone",
+      "region": "Catalonia",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "Girona's Jewish Quarter and cathedral were chosen as Game of Thrones' King's Landing for good reason — the medieval city is extraordinarily intact. Behind it, the volcanic Garrotxa park has 40 ancient eruption cones.",
+      "stops": [
+        {"name": "Girona, Spain", "label": "Girona"},
+        {"name": "Olot, Spain", "label": "Olot"},
+        {"name": "Santa Pau, Spain", "label": "Santa Pau"},
+        {"name": "Besalú, Spain", "label": "Besalú"},
+        {"name": "Banyoles, Spain", "label": "Banyoles"}
+      ],
+      "highlights": ["Girona Jewish quarter", "Garrotxa volcanic landscape", "Besalú Romanesque fortified bridge", "Banyoles Olympic rowing lake"],
+      "cover_search_query": "Girona medieval cathedral Game of Thrones Spain"
+    },
+    {
+      "id": "catalonia-penedes-wine",
+      "name": "Penedès & Priorat Wine Country",
+      "region": "Catalonia",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "The Penedès is Spain's biggest sparkling wine (cava) region. An hour south, the Priorat's terraced llicorella slate vineyards produce some of Spain's most concentrated and expensive wines in a DOQ region like Burgundy.",
+      "stops": [
+        {"name": "Vilafranca del Penedès, Spain", "label": "Vilafranca"},
+        {"name": "Sant Sadurní d'Anoia, Spain", "label": "Sant Sadurní"},
+        {"name": "Falset, Spain", "label": "Falset"},
+        {"name": "Gratallops, Spain", "label": "Gratallops"},
+        {"name": "Siurana, Spain", "label": "Siurana"}
+      ],
+      "highlights": ["Cava celler tours", "Priorat slate llicorella terraces", "Siurana clifftop village", "Garnacha and Cariñena reds"],
+      "cover_search_query": "Priorat vineyards slate terraces Catalonia Spain"
+    },
+    {
+      "id": "basque-rioja-alavesa",
+      "name": "Rioja Alavesa — Basque Wine Villages",
+      "region": "Basque Country & Navarre",
+      "duration_days": 2,
+      "distance_km": 120,
+      "description": "Rioja Alavesa is the most beautiful section of the Rioja wine region — walled villages like Laguardia above the Ebro plain, with Marqués de Riscal's titanium Gehry winery next to ancient bodegas carved into hillsides.",
+      "stops": [
+        {"name": "Vitoria-Gasteiz, Spain", "label": "Vitoria-Gasteiz"},
+        {"name": "Laguardia, Spain", "label": "Laguardia"},
+        {"name": "Elciego, Spain", "label": "Elciego"},
+        {"name": "Samaniego, Spain", "label": "Samaniego"},
+        {"name": "Labastida, Spain", "label": "Labastida"}
+      ],
+      "highlights": ["Laguardia underground wine cellars", "Gehry's Marqués de Riscal hotel", "Basque Country wine culture", "Sierra de Cantabria backdrop"],
+      "cover_search_query": "Laguardia walled village Rioja Alavesa Basque Spain"
+    },
+    {
+      "id": "fuerteventura",
+      "name": "Fuerteventura — Wind & Dunes",
+      "region": "Canary Islands",
+      "duration_days": 4,
+      "distance_km": 220,
+      "description": "Fuerteventura is 14km from Africa — the windiest island in Europe and a mecca for windsurfers and kitesurfers. The Jandía peninsula's white beaches are the finest in the Canaries and among the best in Europe.",
+      "stops": [
+        {"name": "Puerto del Rosario, Spain", "label": "Puerto del Rosario"},
+        {"name": "Corralejo, Spain", "label": "Corralejo"},
+        {"name": "Betancuria, Spain", "label": "Betancuria"},
+        {"name": "Morro Jable, Spain", "label": "Morro Jable"},
+        {"name": "Pájara, Spain", "label": "Pájara"}
+      ],
+      "highlights": ["Corralejo sand dunes", "Jandía beach windsurfing", "Betancuria ancient capital", "Proximity to Africa"],
+      "cover_search_query": "Fuerteventura sand dunes Corralejo Canary Islands Spain"
+    },
+    {
+      "id": "la-gomera",
+      "name": "La Gomera — Lost in the Laurel Forest",
+      "region": "Canary Islands",
+      "duration_days": 3,
+      "distance_km": 140,
+      "description": "La Gomera's Garajonay National Park is a UNESCO cloud forest — the largest surviving laurisilva in the world, the same ancient vegetation that covered the Mediterranean before the ice ages.",
+      "stops": [
+        {"name": "San Sebastián de la Gomera, Spain", "label": "San Sebastián"},
+        {"name": "Garajonay National Park, Spain", "label": "Garajonay"},
+        {"name": "Valle Gran Rey, Spain", "label": "Valle Gran Rey"},
+        {"name": "Alajero, Spain", "label": "Alajero"},
+        {"name": "Agulo, Spain", "label": "Agulo"}
+      ],
+      "highlights": ["Garajonay laurel forest UNESCO", "Silbo Gomero whistle language", "Columbus stop before Americas", "Valle Gran Rey hippie beach"],
+      "cover_search_query": "La Gomera laurel forest Garajonay Spain"
+    },
+    {
+      "id": "extremadura-hurdes",
+      "name": "Las Hurdes & the Sierra de Gata",
+      "region": "Extremadura",
+      "duration_days": 3,
+      "distance_km": 200,
+      "description": "Las Hurdes was so remote and poor that Buñuel made a documentary about it in 1933. Today it's a hiking paradise of crystal rivers and slate villages in Spain's emptiest corner, bordering Portugal.",
+      "stops": [
+        {"name": "Plasencia, Spain", "label": "Plasencia"},
+        {"name": "Ciudad Rodrigo, Spain", "label": "Ciudad Rodrigo"},
+        {"name": "Descargamaría, Spain", "label": "Descargamaría"},
+        {"name": "Vegas de Coria, Spain", "label": "Vegas de Coria"},
+        {"name": "Moraleja, Spain", "label": "Moraleja"}
+      ],
+      "highlights": ["Las Hurdes slate villages", "Buñuel's documentary site", "Sierra de Gata cherry orchards", "Extremadura unpopulated wilderness"],
+      "cover_search_query": "Las Hurdes slate villages river Extremadura Spain"
+    },
+    {
+      "id": "catalonia-ebro-delta",
+      "name": "Ebre Delta & the Rice Lands",
+      "region": "Catalonia",
+      "duration_days": 2,
+      "distance_km": 120,
+      "description": "The Ebre Delta is the second-largest wetland in the western Mediterranean — 330km² of rice fields, lagoons, and sandbars where flamingos outnumber tourists. The rice of Molí de l'Abad is served in Delta restaurants.",
+      "stops": [
+        {"name": "Amposta, Spain", "label": "Amposta"},
+        {"name": "Deltebre, Spain", "label": "Deltebre"},
+        {"name": "L'Aldea, Spain", "label": "L'Aldea"},
+        {"name": "Sant Carles de la Ràpita, Spain", "label": "Sant Carles"}
+      ],
+      "highlights": ["Flamingos in rice paddies", "Ebre Delta birdwatching", "Delta rice cuisine", "Sandbar beaches"],
+      "cover_search_query": "Ebre Delta flamingos rice fields Catalonia Spain"
+    },
+    {
+      "id": "madrid-guadalajara",
+      "name": "Guadalajara & the Alcarria Honey Country",
+      "region": "Madrid & Castile-La Mancha",
+      "duration_days": 3,
+      "distance_km": 200,
+      "description": "Camilo José Cela's Nobel-winning Journey to the Alcarria described a plateau of lavender fields, beehives, and stone villages so timeless it could be the Middle Ages. Sigüenza's pink limestone cathedral is astonishing.",
+      "stops": [
+        {"name": "Guadalajara, Spain", "label": "Guadalajara"},
+        {"name": "Brihuega, Spain", "label": "Brihuega"},
+        {"name": "Pastrana, Spain", "label": "Pastrana"},
+        {"name": "Sigüenza, Spain", "label": "Sigüenza"},
+        {"name": "Molina de Aragón, Spain", "label": "Molina de Aragón"}
+      ],
+      "highlights": ["Brihuega lavender fields", "Pastrana ducal tapestries", "Sigüenza pink limestone cathedral", "Alcarria honey region"],
+      "cover_search_query": "Brihuega lavender fields Alcarria Spain"
+    },
+    {
+      "id": "asturias-somiedo",
+      "name": "Somiedo & the Asturian Reserve",
+      "region": "Asturias & Cantabria",
+      "duration_days": 3,
+      "distance_km": 200,
+      "description": "Somiedo is one of Spain's richest bear habitats — the Cantabrian brown bear has its last Iberian stronghold here. The vaqueiros (seasonal herdspeople) still drive cattle to high meadows in summer.",
+      "stops": [
+        {"name": "Oviedo, Spain", "label": "Oviedo"},
+        {"name": "Pola de Somiedo, Spain", "label": "Pola de Somiedo"},
+        {"name": "Valle del Lago, Spain", "label": "Valle del Lago"},
+        {"name": "Belmonte de Miranda, Spain", "label": "Belmonte"},
+        {"name": "Tineo, Spain", "label": "Tineo"}
+      ],
+      "highlights": ["Cantabrian brown bear habitat", "Somiedo glacial lakes", "Vaqueiros transhumance culture", "Teito round stone huts"],
+      "cover_search_query": "Somiedo mountains Asturias bears Spain"
+    },
+    {
+      "id": "navarre-bardenas",
+      "name": "Bardenas Reales — Badlands of Navarre",
+      "region": "Basque Country & Navarre",
+      "duration_days": 2,
+      "distance_km": 160,
+      "description": "The Bardenas Reales is a 42,000-hectare semi-desert of clay badlands, rock chimneys, and tablelands that looks like Arizona transplanted to Spain. Game of Thrones filmed Dothraki scenes here.",
+      "stops": [
+        {"name": "Pamplona, Spain", "label": "Pamplona"},
+        {"name": "Bardenas Reales, Spain", "label": "Bardenas Reales"},
+        {"name": "Tudela, Spain", "label": "Tudela"},
+        {"name": "Cascante, Spain", "label": "Cascante"},
+        {"name": "Fitero, Spain", "label": "Fitero"}
+      ],
+      "highlights": ["Bardenas badland formations", "Tudela river bend medieval town", "Fitero Cistercian monastery", "Desert landscape in Europe"],
+      "cover_search_query": "Bardenas Reales desert badlands Navarre Spain"
+    },
+    {
+      "id": "rioja-heritage",
+      "name": "La Rioja Heritage — Santo Domingo to Nájera",
+      "region": "Basque Country & Navarre",
+      "duration_days": 2,
+      "distance_km": 120,
+      "description": "The Rioja stretch of the Camino de Santiago between Nájera and Logroño passes medieval monasteries, Romanesque bridges, and the shrine of Santo Domingo de la Calzada — where live chickens cluck in a Gothic cathedral.",
+      "stops": [
+        {"name": "Logroño, Spain", "label": "Logroño"},
+        {"name": "Nájera, Spain", "label": "Nájera"},
+        {"name": "Santo Domingo de la Calzada, Spain", "label": "Santo Domingo"},
+        {"name": "Ezcaray, Spain", "label": "Ezcaray"},
+        {"name": "Haro, Spain", "label": "Haro"}
+      ],
+      "highlights": ["Live chickens in cathedral", "Nájera Monastery of Santa María", "Ezcaray mountain village", "Wine Battle of Haro festival"],
+      "cover_search_query": "Santo Domingo de la Calzada cathedral Camino Spain"
+    },
+    {
+      "id": "castile-leon-zamora-romanesque",
+      "name": "Zamora — Spain's Romanesque Capital",
+      "region": "Castile & León",
+      "duration_days": 2,
+      "distance_km": 120,
+      "description": "Zamora has 23 Romanesque churches in a city of 60,000 — more than any other town in the world for its size. The cathedral's Byzantine-influenced dome and the Duero gorge view make it unmissable.",
+      "stops": [
+        {"name": "Zamora, Spain", "label": "Zamora"},
+        {"name": "Toro, Spain", "label": "Toro"},
+        {"name": "Benavente, Spain", "label": "Benavente"},
+        {"name": "Sanabria Lake, Spain", "label": "Lago de Sanabria"}
+      ],
+      "highlights": ["23 Romanesque churches", "Zamora Byzantine cathedral dome", "Toro collegiate church", "Lago de Sanabria volcanic lake"],
+      "cover_search_query": "Zamora Romanesque cathedral Castile Spain"
+    },
+    {
+      "id": "cantabria-liébana",
+      "name": "Liébana Valley & the Santo Toribio",
+      "region": "Asturias & Cantabria",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "The Liébana valley is a microclimate of fig trees and vineyards enclosed by the Picos de Europa — one of Spain's wettest regions producing the strongest wine in the country (orujo). Santo Toribio holds the largest piece of the True Cross.",
+      "stops": [
+        {"name": "Potes, Spain", "label": "Potes"},
+        {"name": "Monasterio de Santo Toribio, Spain", "label": "Santo Toribio"},
+        {"name": "Espinama, Spain", "label": "Espinama"},
+        {"name": "Bejes, Spain", "label": "Bejes"},
+        {"name": "San Vicente de la Barquera, Spain", "label": "San Vicente"}
+      ],
+      "highlights": ["Liébana orujo liqueur", "Santo Toribio True Cross relic", "Picos de Europa access", "Fuente Dé cable car nearby"],
+      "cover_search_query": "Liébana valley Potes Cantabria Spain"
+    },
+    {
+      "id": "catalonia-costa-daurada",
+      "name": "Costa Daurada & Roman Tarragona",
+      "region": "Catalonia",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "The Costa Daurada's golden beaches stretch south of Tarragona, which sits atop a plateau of Roman temples, walls, and one of the best-preserved amphitheatres in the world. Sitges adds art nouveau glamour.",
+      "stops": [
+        {"name": "Sitges, Spain", "label": "Sitges"},
+        {"name": "Tarragona, Spain", "label": "Tarragona"},
+        {"name": "Cambrils, Spain", "label": "Cambrils"},
+        {"name": "Miami Platja, Spain", "label": "Miami Platja"},
+        {"name": "L'Ametlla de Mar, Spain", "label": "L'Ametlla"}
+      ],
+      "highlights": ["Tarragona Roman walls and amphitheatre", "Sitges art nouveau festival", "Costa Daurada beaches", "Cambrils seafood"],
+      "cover_search_query": "Tarragona Roman amphitheatre Costa Daurada Spain"
+    },
+    {
+      "id": "andalusia-cordoba-province",
+      "name": "Córdoba Province — Medina Azahara & Priego",
+      "region": "Andalusia",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "The Caliphate's summer palace of Medina Azahara lies half-excavated west of Córdoba — a UNESCO ghost city of 10,000 rooms. Priego de Córdoba's Baroque fountains rival those of Rome.",
+      "stops": [
+        {"name": "Córdoba, Spain", "label": "Córdoba"},
+        {"name": "Medina Azahara, Spain", "label": "Medina Azahara"},
+        {"name": "Zuheros, Spain", "label": "Zuheros"},
+        {"name": "Priego de Córdoba, Spain", "label": "Priego de Córdoba"},
+        {"name": "Montilla, Spain", "label": "Montilla"}
+      ],
+      "highlights": ["Medina Azahara UNESCO ghost city", "Priego Baroque fountain city", "Zuheros clifftop village", "Montilla-Moriles wine region"],
+      "cover_search_query": "Medina Azahara Moorish palace ruins Córdoba Spain"
+    },
+    {
+      "id": "castile-guadalupe",
+      "name": "Guadalupe & the Monastery Route",
+      "region": "Extremadura",
+      "duration_days": 3,
+      "distance_km": 220,
+      "description": "The Monastery of Guadalupe was the spiritual heart of the Spanish Empire — Columbus returned here after discovering America. Its gold treasury, Zurbarán paintings, and embroidery museum are extraordinary.",
+      "stops": [
+        {"name": "Trujillo, Spain", "label": "Trujillo"},
+        {"name": "Guadalupe, Spain", "label": "Guadalupe"},
+        {"name": "Hervás, Spain", "label": "Hervás"},
+        {"name": "Plasencia, Spain", "label": "Plasencia"},
+        {"name": "Montánchez, Spain", "label": "Montánchez"}
+      ],
+      "highlights": ["Guadalupe monastery UNESCO", "Zurbarán paintings", "Trujillo Pizarro's golden city", "Hervás Jewish quarter"],
+      "cover_search_query": "Guadalupe monastery Extremadura Spain"
+    },
+    {
+      "id": "mallorca-north",
+      "name": "Northern Mallorca — Cap Formentor",
+      "region": "Balearic Islands",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "The road to Cap Formentor is one of the finest coastal drives in the Mediterranean — a cliff-edge ribbon offering views of turquoise water and the Tramuntana peaks. Alcúdia's Roman city walls are alongside.",
+      "stops": [
+        {"name": "Pollença, Spain", "label": "Pollença"},
+        {"name": "Cala Sant Vicenç, Spain", "label": "Cala Sant Vicenç"},
+        {"name": "Cap Formentor, Spain", "label": "Cap Formentor"},
+        {"name": "Alcúdia, Spain", "label": "Alcúdia"},
+        {"name": "Can Picafort, Spain", "label": "Can Picafort"}
+      ],
+      "highlights": ["Cap Formentor lighthouse cliffs", "Pollença town and calvary steps", "Alcúdia Roman walls", "Formentor peninsula drive"],
+      "cover_search_query": "Cap Formentor lighthouse cliffs Mallorca Spain"
+    },
+    {
+      "id": "basque-hondarribia",
+      "name": "Txingudi Bay — Hondarribia & the French Border",
+      "region": "Basque Country & Navarre",
+      "duration_days": 2,
+      "distance_km": 100,
+      "description": "Hondarribia's medieval quarter faces its twin French town Hendaye across the Bidasoa river. The Jaizkibel mountain road loops above the bay offering dramatic views of the Basque coast and the Pyrenean foothills.",
+      "stops": [
+        {"name": "San Sebastián, Spain", "label": "San Sebastián"},
+        {"name": "Hondarribia, Spain", "label": "Hondarribia"},
+        {"name": "Pasaia, Spain", "label": "Pasaia"},
+        {"name": "Errenteria, Spain", "label": "Errenteria"}
+      ],
+      "highlights": ["Hondarribia medieval walled town", "Jaizkibel coastal road", "Pasaia deep harbour fjord", "French-Spanish border culture"],
+      "cover_search_query": "Hondarribia medieval town harbour Basque Spain"
+    },
+    {
+      "id": "asturias-western-coast",
+      "name": "Western Asturias — Cudillero to Ribadeo",
+      "region": "Asturias & Cantabria",
+      "duration_days": 3,
+      "distance_km": 200,
+      "description": "Western Asturias is the wildest stretch of Spain's north coast — cliff-perched villages, ría estuaries, and the jaw-dropping cathedral-like cliffs of Playa de las Catedrales, accessible only at low tide.",
+      "stops": [
+        {"name": "Luarca, Spain", "label": "Luarca"},
+        {"name": "Navia, Spain", "label": "Navia"},
+        {"name": "Tapia de Casariego, Spain", "label": "Tapia"},
+        {"name": "Castropol, Spain", "label": "Castropol"},
+        {"name": "Ribadeo, Spain", "label": "Ribadeo"}
+      ],
+      "highlights": ["Playa de las Catedrales cliff arches", "Galicia-Asturias border estuary", "Luarca black cemetery cliffs", "Atlantic coast seafood"],
+      "cover_search_query": "Playa de las Catedrales rock arches Asturias Spain"
+    },
+    {
+      "id": "andalusia-sierra-norte-sevilla",
+      "name": "Sierra Norte de Sevilla",
+      "region": "Andalusia",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "The Sierra Norte nature park north of Seville is the antithesis of the tourist Andalusia — cork oak forests, black pigs rooting for acorns, and whitewashed villages with no tour buses in sight.",
+      "stops": [
+        {"name": "Seville, Spain", "label": "Seville"},
+        {"name": "Constantina, Spain", "label": "Constantina"},
+        {"name": "Cazalla de la Sierra, Spain", "label": "Cazalla"},
+        {"name": "El Pedroso, Spain", "label": "El Pedroso"},
+        {"name": "Guadalcanal, Spain", "label": "Guadalcanal"}
+      ],
+      "highlights": ["Sierra Norte cork oak forests", "Cazalla anise liqueur", "Ibérico pig acorn feeding", "Unpopulated rural Andalusia"],
+      "cover_search_query": "Sierra Norte Sevilla cork oak Andalusia Spain"
+    },
+    {
+      "id": "aragon-zaragoza-aragones-pyrenees",
+      "name": "Aragonese Pyrenees — Hecho & Ansó",
+      "region": "Aragon & Pyrenees",
+      "duration_days": 3,
+      "distance_km": 200,
+      "description": "The westernmost valleys of the Aragonese Pyrenees — Hecho and Ansó — are stone-built medieval worlds barely touched by tourism. The dialect echoes Aragonese, not Castilian; the costumes unchanged for centuries.",
+      "stops": [
+        {"name": "Jaca, Spain", "label": "Jaca"},
+        {"name": "Hecho, Spain", "label": "Hecho"},
+        {"name": "Ansó, Spain", "label": "Ansó"},
+        {"name": "Urdós, Spain", "label": "Urdós"},
+        {"name": "Canfranc, Spain", "label": "Canfranc"}
+      ],
+      "highlights": ["Hecho and Ansó stone villages", "Aragonese dialect heritage", "Canfranc abandoned railway station", "Pyrenean valley isolation"],
+      "cover_search_query": "Ansó Hecho stone village Aragonese Pyrenees Spain"
+    },
+    {
+      "id": "spain-ibiza-formentera",
+      "name": "Ibiza & Formentera",
+      "region": "Balearic Islands",
+      "duration_days": 4,
+      "distance_km": 120,
+      "description": "Ibiza's walled Dalt Vila citadel is UNESCO-listed; the rest is hedonism and sunsets. A 30-minute ferry to Formentera finds Spain's most beautiful beach (Ses Illetes) in a car-free paradise.",
+      "stops": [
+        {"name": "Ibiza, Spain", "label": "Ibiza"},
+        {"name": "Sant Antoni de Portmany, Spain", "label": "Sant Antoni"},
+        {"name": "Sant Joan de Labritja, Spain", "label": "Sant Joan"},
+        {"name": "Formentera, Spain", "label": "Formentera"}
+      ],
+      "highlights": ["Ibiza Dalt Vila UNESCO", "Formentera Ses Illetes beach", "Ibiza sunset ritual", "Hippie market Es Canar"],
+      "cover_search_query": "Ibiza Dalt Vila citadel sunset Balearic Spain"
+    },
+    {
+      "id": "galicia-pontevedra",
+      "name": "Pontevedra & the Rías Altas Coast",
+      "region": "Galicia",
+      "duration_days": 3,
+      "distance_km": 200,
+      "description": "Pontevedra's car-free old town is the most liveable in Galicia. North, the Costa da Morte (Death Coast) earns its name from the Atlantic fury that has sunk over 1,000 ships off its granite headlands.",
+      "stops": [
+        {"name": "Pontevedra, Spain", "label": "Pontevedra"},
+        {"name": "Combarro, Spain", "label": "Combarro"},
+        {"name": "Sanxenxo, Spain", "label": "Sanxenxo"},
+        {"name": "Vigo, Spain", "label": "Vigo"},
+        {"name": "Baiona, Spain", "label": "Baiona"}
+      ],
+      "highlights": ["Pontevedra car-free city", "Combarro seafront hórreos granaries", "Vigo Cíes Islands boats", "Baiona Columbus news port"],
+      "cover_search_query": "Pontevedra car-free old town Galicia Spain"
+    },
+    {
+      "id": "castile-segovia-riofrio",
+      "name": "Segovia's Royal Palaces",
+      "region": "Castile & León",
+      "duration_days": 2,
+      "distance_km": 120,
+      "description": "Segovia alone merits a day with its perfect Roman aqueduct, fairy-tale Alcázar perched on a rocky spur, and 14th-century cathedral. The two royal palaces at La Granja and Riofrío extend the visit.",
+      "stops": [
+        {"name": "Segovia, Spain", "label": "Segovia"},
+        {"name": "La Granja de San Ildefonso, Spain", "label": "La Granja"},
+        {"name": "Palacio de Riofrío, Spain", "label": "Riofrío"},
+        {"name": "Pedraza, Spain", "label": "Pedraza"}
+      ],
+      "highlights": ["Segovia Roman aqueduct", "Alcázar fairy-tale castle", "La Granja Versailles gardens", "Pedraza medieval village"],
+      "cover_search_query": "Segovia Alcázar castle Castile Spain"
+    },
+    {
+      "id": "andalusia-malaga-costa",
+      "name": "Costa del Sol — Between Marbella & Málaga",
+      "region": "Andalusia",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "The Costa del Sol's 320 days of sunshine anchor Spain's tourist industry. Beyond the resort strip, Marbella's old town has genuine Andalusian charm; Mijas Pueblo and Casares rise above the coast on hillsides.",
+      "stops": [
+        {"name": "Málaga, Spain", "label": "Málaga"},
+        {"name": "Torremolinos, Spain", "label": "Torremolinos"},
+        {"name": "Marbella, Spain", "label": "Marbella"},
+        {"name": "Mijas, Spain", "label": "Mijas"},
+        {"name": "Casares, Spain", "label": "Casares"}
+      ],
+      "highlights": ["Marbella old town", "Mijas white hilltop village", "Málaga Picasso museum", "Casares Blas Infante birthplace"],
+      "cover_search_query": "Marbella old town Costa del Sol Andalusia Spain"
+    },
+    {
+      "id": "aragon-jaca-romanesque",
+      "name": "Jaca & the Romanesque Pyrenean Route",
+      "region": "Aragon & Pyrenees",
+      "duration_days": 3,
+      "distance_km": 200,
+      "description": "Jaca was the first capital of the Kingdom of Aragon, its cathedral launching the Romanesque style into Spain from 1063. The Camino de Santiago crosses the Pyrenees at Somport above the town.",
+      "stops": [
+        {"name": "Huesca, Spain", "label": "Huesca"},
+        {"name": "Jaca, Spain", "label": "Jaca"},
+        {"name": "San Juan de la Peña, Spain", "label": "San Juan de la Peña"},
+        {"name": "Santa Cruz de la Serós, Spain", "label": "Santa Cruz de la Serós"},
+        {"name": "Hecho, Spain", "label": "Hecho"}
+      ],
+      "highlights": ["Jaca cathedral Romanesque birthplace", "San Juan de la Peña cliff monastery", "Royal pantheon of Aragon", "Somport Pyrenean pass"],
+      "cover_search_query": "San Juan de la Peña cliff monastery Aragon Spain"
+    },
+    {
+      "id": "valencia-costa-blanca-south",
+      "name": "Costa Blanca South — Alicante to Murcia",
+      "region": "Valencia & Murcia",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "South Alicante's Costa Blanca has some of Spain's most distinctive landscapes — the palm forest of Elche (UNESCO), the salt lakes of Torrevieja turning pink, and Santa Pola's marine reserve.",
+      "stops": [
+        {"name": "Alicante, Spain", "label": "Alicante"},
+        {"name": "Elche, Spain", "label": "Elche"},
+        {"name": "Santa Pola, Spain", "label": "Santa Pola"},
+        {"name": "Torrevieja, Spain", "label": "Torrevieja"},
+        {"name": "Guardamar del Segura, Spain", "label": "Guardamar"}
+      ],
+      "highlights": ["Elche palm forest UNESCO", "Torrevieja pink salt lakes", "Santa Pola marine reserve", "Alicante Moorish castle"],
+      "cover_search_query": "Elche palm forest UNESCO Alicante Spain"
+    },
+    {
+      "id": "navarre-olite",
+      "name": "Navarre Wine & Castles Route",
+      "region": "Basque Country & Navarre",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "Southern Navarre opens onto the Ribera wine zone — Garnacha reds from old vines, Muscat whites from the Ochoa family, and the fairy-tale castle of Olite rising above a medieval town of Gothic palaces.",
+      "stops": [
+        {"name": "Pamplona, Spain", "label": "Pamplona"},
+        {"name": "Olite, Spain", "label": "Olite"},
+        {"name": "Tafalla, Spain", "label": "Tafalla"},
+        {"name": "Tudela, Spain", "label": "Tudela"},
+        {"name": "Cintruénigo, Spain", "label": "Cintruénigo"}
+      ],
+      "highlights": ["Olite royal castle turrets", "Ribera Navarra Garnacha wine", "Tudela vegetable cuisine", "Monasterio de la Oliva"],
+      "cover_search_query": "Olite castle turrets Navarre Spain"
+    },
+    {
+      "id": "murcia-sierra-espuna",
+      "name": "Murcia Interior — Sierra Espuña & Caravaca",
+      "region": "Valencia & Murcia",
+      "duration_days": 3,
+      "distance_km": 200,
+      "description": "The interior of Murcia is almost unknown to tourists — the Sierra Espuña nature park, Caravaca de la Cruz's holy relic city, and the historic town of Lorca with its earthquake story and impressive Moorish castle.",
+      "stops": [
+        {"name": "Murcia, Spain", "label": "Murcia"},
+        {"name": "Lorca, Spain", "label": "Lorca"},
+        {"name": "Caravaca de la Cruz, Spain", "label": "Caravaca"},
+        {"name": "Sierra Espuña, Spain", "label": "Sierra Espuña"},
+        {"name": "Totana, Spain", "label": "Totana"}
+      ],
+      "highlights": ["Caravaca Holy Cross pilgrimage", "Lorca earthquake rebuilt baroque", "Sierra Espuña mountain wildlife", "Murcia Baroque cathedral"],
+      "cover_search_query": "Lorca castle fortress Murcia Spain"
+    },
+    {
+      "id": "catalonia-central-solsona",
+      "name": "Central Catalonia — Cardona & the Pre-Pyrenees",
+      "region": "Catalonia",
+      "duration_days": 3,
+      "distance_km": 200,
+      "description": "The Cardona salt mountain — a 100m hill of pure rock salt rising above a medieval village — is a geological wonder. The pre-Pyrenean massifs of Pedraforca and Berguedà are Catalonia's best hiking terrain.",
+      "stops": [
+        {"name": "Manresa, Spain", "label": "Manresa"},
+        {"name": "Cardona, Spain", "label": "Cardona"},
+        {"name": "Solsona, Spain", "label": "Solsona"},
+        {"name": "Berga, Spain", "label": "Berga"},
+        {"name": "Pedraforca, Spain", "label": "Pedraforca"}
+      ],
+      "highlights": ["Cardona salt mountain", "Pedraforca forked peak", "Solsona medieval cathedral", "Berga La Patum UNESCO festival"],
+      "cover_search_query": "Cardona salt mountain Catalonia Spain"
+    },
+    {
+      "id": "andalusia-sierra-nevada",
+      "name": "Sierra Nevada — Spain's Highest Road",
+      "region": "Andalusia",
+      "duration_days": 3,
+      "distance_km": 200,
+      "description": "Spain's highest mountain road crosses the Sierra Nevada at 3,392m on the Pico del Veleta road — the highest paved road in Europe. From Granada the drive takes 90 minutes to ski altitude, then down to the Alpujarras.",
+      "stops": [
+        {"name": "Granada, Spain", "label": "Granada"},
+        {"name": "Sierra Nevada, Spain", "label": "Sierra Nevada"},
+        {"name": "Pico del Veleta, Spain", "label": "Pico del Veleta"},
+        {"name": "Capileira, Spain", "label": "Capileira"},
+        {"name": "Trevélez, Spain", "label": "Trevélez"}
+      ],
+      "highlights": ["Highest paved road Europe", "Sierra Nevada ski resort", "Trevélez highest village Spain", "Snow and Mediterranean views simultaneously"],
+      "cover_search_query": "Sierra Nevada mountain road Granada Spain"
+    },
+    {
+      "id": "castile-consuegra-windmills",
+      "name": "Don Quixote's La Mancha",
+      "region": "Madrid & Castile-La Mancha",
+      "duration_days": 3,
+      "distance_km": 200,
+      "description": "Cervantes set his novel in La Mancha and the windmills of Consuegra and Campo de Criptana were the giants Don Quixote tilted at. The plateau of red earth, saffron fields, and whitewashed windmills is timeless.",
+      "stops": [
+        {"name": "Toledo, Spain", "label": "Toledo"},
+        {"name": "Consuegra, Spain", "label": "Consuegra"},
+        {"name": "Campo de Criptana, Spain", "label": "Campo de Criptana"},
+        {"name": "El Toboso, Spain", "label": "El Toboso"},
+        {"name": "Belmonte, Spain", "label": "Belmonte"}
+      ],
+      "highlights": ["Consuegra hilltop windmills", "Dulcinea's town El Toboso", "Belmonte castle", "La Mancha saffron fields"],
+      "cover_search_query": "Consuegra windmills La Mancha Don Quixote Spain"
+    }
+  ]
+}

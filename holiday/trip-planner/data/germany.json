@@ -1,0 +1,1549 @@
+{
+  "country": "Germany",
+  "country_code": "de",
+  "emoji": "🇩🇪",
+  "trips": [
+    {
+      "id": "bavarian-classics",
+      "name": "Bavarian Classics",
+      "region": "Bavaria",
+      "duration_days": 7,
+      "distance_km": 420,
+      "description": "The quintessential Bavarian road trip sweeps through fairytale castles, Alpine meadows, and pristine lakes. From Munich's cosmopolitan energy to the soaring peaks above Garmisch-Partenkirchen, every mile reveals a postcard landscape.",
+      "stops": [
+        { "name": "Munich, Germany", "label": "Munich" },
+        { "name": "Garmisch-Partenkirchen, Germany", "label": "Garmisch-Partenkirchen" },
+        { "name": "Füssen, Germany", "label": "Füssen" },
+        { "name": "Neuschwanstein Castle, Schwangau, Germany", "label": "Neuschwanstein" },
+        { "name": "Wieskirche, Steingaden, Germany", "label": "Wieskirche" },
+        { "name": "Oberammergau, Germany", "label": "Oberammergau" },
+        { "name": "Munich, Germany", "label": "Munich" }
+      ],
+      "highlights": ["Neuschwanstein Castle at sunrise", "Zugspitze cable car", "Wieskirche UNESCO church", "Oberammergau wood carvings"],
+      "cover_search_query": "Neuschwanstein Castle autumn Bavaria Germany"
+    },
+    {
+      "id": "berchtesgaden-alpine-escape",
+      "name": "Berchtesgaden Alpine Escape",
+      "region": "Bavaria",
+      "duration_days": 5,
+      "distance_km": 280,
+      "description": "This southern Bavarian loop dips into the dramatic Berchtesgaden Alps, skirts the emerald Königssee, and passes through the salt-mining town of Bad Reichenhall. The scenery is some of the most spectacular in Germany.",
+      "stops": [
+        { "name": "Salzburg, Austria", "label": "Salzburg" },
+        { "name": "Berchtesgaden, Germany", "label": "Berchtesgaden" },
+        { "name": "Königssee, Schönau am Königssee, Germany", "label": "Königssee" },
+        { "name": "Bad Reichenhall, Germany", "label": "Bad Reichenhall" },
+        { "name": "Chiemsee, Prien am Chiemsee, Germany", "label": "Chiemsee" },
+        { "name": "Rosenheim, Germany", "label": "Rosenheim" }
+      ],
+      "highlights": ["Königssee boat trip to St. Bartholomä", "Eagle's Nest viewpoint", "Herrenchiemsee Palace", "Alpine salt mines"],
+      "cover_search_query": "Königssee lake St Bartholomä Bavaria Germany"
+    },
+    {
+      "id": "bavarian-lake-country",
+      "name": "Bavarian Lake Country",
+      "region": "Bavaria",
+      "duration_days": 6,
+      "distance_km": 340,
+      "description": "A gentle tour of Bavaria's glittering pre-Alpine lakes — Starnberger See, Ammersee, Tegernsee, and Schliersee — each ringed by charming villages, beer gardens, and mountain backdrops. Perfect for swimming, cycling, and Bavarian hospitality.",
+      "stops": [
+        { "name": "Munich, Germany", "label": "Munich" },
+        { "name": "Starnberg, Germany", "label": "Starnberg" },
+        { "name": "Andechs, Germany", "label": "Andechs Monastery" },
+        { "name": "Herrsching am Ammersee, Germany", "label": "Ammersee" },
+        { "name": "Tegernsee, Germany", "label": "Tegernsee" },
+        { "name": "Schliersee, Germany", "label": "Schliersee" },
+        { "name": "Rosenheim, Germany", "label": "Rosenheim" }
+      ],
+      "highlights": ["Andechs monastery brewery", "Starnberger See sailing", "Tegernsee beer garden culture", "Alpine foothills cycling"],
+      "cover_search_query": "Tegernsee village Bavaria Alps reflection Germany"
+    },
+    {
+      "id": "zugspitze-and-wetterstein",
+      "name": "Zugspitze & Wetterstein",
+      "region": "Bavaria",
+      "duration_days": 4,
+      "distance_km": 200,
+      "description": "Germany's highest peak anchors this compact Alpine circuit, taking in the Eibsee's turquoise waters, the gorges of the Partnachklamm, and the meadows of the Loisachtal. An intense mountain experience in a short driving distance.",
+      "stops": [
+        { "name": "Garmisch-Partenkirchen, Germany", "label": "Garmisch-Partenkirchen" },
+        { "name": "Zugspitze, Grainau, Germany", "label": "Zugspitze" },
+        { "name": "Eibsee, Grainau, Germany", "label": "Eibsee" },
+        { "name": "Mittenwald, Germany", "label": "Mittenwald" },
+        { "name": "Wallgau, Germany", "label": "Wallgau" },
+        { "name": "Garmisch-Partenkirchen, Germany", "label": "Garmisch-Partenkirchen" }
+      ],
+      "highlights": ["Zugspitze summit at 2962m", "Eibsee turquoise waters", "Partnachklamm gorge walk", "Mittenwald painted façades"],
+      "cover_search_query": "Zugspitze summit Germany highest peak Bavaria"
+    },
+    {
+      "id": "allgau-and-oberschwaben",
+      "name": "Allgäu & Oberschwaben",
+      "region": "Bavaria",
+      "duration_days": 5,
+      "distance_km": 310,
+      "description": "Rolling green hills, cow-bells, cheese dairies, and the dramatic Allgäu Alps define this southwest Bavarian tour. The route also dips into Upper Swabia's remarkable concentration of Baroque monasteries and pilgrimage churches.",
+      "stops": [
+        { "name": "Kempten, Germany", "label": "Kempten" },
+        { "name": "Sonthofen, Germany", "label": "Sonthofen" },
+        { "name": "Oberstdorf, Germany", "label": "Oberstdorf" },
+        { "name": "Immenstadt im Allgäu, Germany", "label": "Immenstadt" },
+        { "name": "Lindau, Germany", "label": "Lindau" },
+        { "name": "Memmingen, Germany", "label": "Memmingen" }
+      ],
+      "highlights": ["Oberstdorf high Alpine valley", "Lindau island on Lake Constance", "Allgäu cheese making", "Ottobeuren Basilica Baroque interior"],
+      "cover_search_query": "Oberstdorf village Allgäu Alps Germany"
+    },
+    {
+      "id": "lower-bavaria-danube-loop",
+      "name": "Lower Bavaria Danube Loop",
+      "region": "Bavaria",
+      "duration_days": 5,
+      "distance_km": 360,
+      "description": "The Danube carves through the gentle hills of Lower Bavaria past Romanesque abbeys, medieval market towns, and the confluence of the rivers Inn and Danube at Passau. This is rural Bavaria at its most unhurried and authentic.",
+      "stops": [
+        { "name": "Regensburg, Germany", "label": "Regensburg" },
+        { "name": "Kelheim, Germany", "label": "Kelheim" },
+        { "name": "Weltenburg Abbey, Germany", "label": "Weltenburg Abbey" },
+        { "name": "Straubing, Germany", "label": "Straubing" },
+        { "name": "Deggendorf, Germany", "label": "Deggendorf" },
+        { "name": "Passau, Germany", "label": "Passau" }
+      ],
+      "highlights": ["Weltenburg Monastery gorge", "Regensburg Stone Bridge", "Passau Three Rivers confluence", "Straubing Gäubodenvolksfest"],
+      "cover_search_query": "Passau three rivers confluence Danube Bavaria Germany"
+    },
+    {
+      "id": "munich-to-salzburg-scenic",
+      "name": "Munich to Salzburg Scenic Route",
+      "region": "Bavaria",
+      "duration_days": 4,
+      "distance_km": 260,
+      "description": "Rather than taking the motorway, this scenic route between two great cities hugs the Alpine foothills through market towns, onion-domed churches, and lakeside resorts. The Chiemgau countryside is Bavaria's breadbasket at its most serene.",
+      "stops": [
+        { "name": "Munich, Germany", "label": "Munich" },
+        { "name": "Wasserburg am Inn, Germany", "label": "Wasserburg am Inn" },
+        { "name": "Prien am Chiemsee, Germany", "label": "Chiemsee" },
+        { "name": "Marquartstein, Germany", "label": "Marquartstein" },
+        { "name": "Ruhpolding, Germany", "label": "Ruhpolding" },
+        { "name": "Bad Reichenhall, Germany", "label": "Bad Reichenhall" },
+        { "name": "Salzburg, Austria", "label": "Salzburg" }
+      ],
+      "highlights": ["Herrenchiemsee island palace", "Wasserburg peninsula old town", "Chiemgau Alpine panoramas", "Bad Reichenhall salt spa"],
+      "cover_search_query": "Chiemsee island Bavaria Germany aerial view"
+    },
+    {
+      "id": "bavarian-forest-national-park",
+      "name": "Bavarian Forest National Park",
+      "region": "Bavaria",
+      "duration_days": 5,
+      "distance_km": 290,
+      "description": "Germany's oldest national park stretches along the Czech border in a vast arc of ancient forest, granite peaks, and glacial lakes. The route passes through glass-blowing villages, the Bohemian market town of Deggendorf, and the medieval gem of Cham.",
+      "stops": [
+        { "name": "Regensburg, Germany", "label": "Regensburg" },
+        { "name": "Cham, Germany", "label": "Cham" },
+        { "name": "Bodenmais, Germany", "label": "Bodenmais" },
+        { "name": "Bayerisch Eisenstein, Germany", "label": "Bayerisch Eisenstein" },
+        { "name": "Grafenau, Germany", "label": "Grafenau" },
+        { "name": "Passau, Germany", "label": "Passau" }
+      ],
+      "highlights": ["Großer Arber summit hike", "Bavarian Forest treetop walkway", "Zwiesel glassblowing tradition", "Rachel and Lusen wilderness"],
+      "cover_search_query": "Bavarian Forest National Park autumn misty Germany"
+    },
+    {
+      "id": "munich-oktoberfest-country",
+      "name": "Munich & Oktoberfest Country",
+      "region": "Bavaria",
+      "duration_days": 4,
+      "distance_km": 180,
+      "description": "A short but deeply Bavarian loop from Munich through the heartland of beer culture — Freising with its ancient cathedral brewery, Erding, and the hop-growing fields of the Hallertau. Ideal for visitors who want the culture beyond the crowds.",
+      "stops": [
+        { "name": "Munich, Germany", "label": "Munich" },
+        { "name": "Freising, Germany", "label": "Freising" },
+        { "name": "Erding, Germany", "label": "Erding" },
+        { "name": "Landshut, Germany", "label": "Landshut" },
+        { "name": "Dachau, Germany", "label": "Dachau" },
+        { "name": "Munich, Germany", "label": "Munich" }
+      ],
+      "highlights": ["Weihenstephan world's oldest brewery", "Landshut Trausnitz Castle", "Hallertau hop fields", "Dachau Memorial Site"],
+      "cover_search_query": "Landshut castle Bavaria Germany medieval town"
+    },
+    {
+      "id": "german-alpine-road",
+      "name": "German Alpine Road",
+      "region": "Bavaria",
+      "duration_days": 8,
+      "distance_km": 480,
+      "description": "The Deutsche Alpenstraße runs the entire length of the Bavarian Alps from Lindau on Lake Constance to Berchtesgaden. This classic touring road links every major Alpine resort, castle, and high pass in an unforgettable east–west traverse.",
+      "stops": [
+        { "name": "Lindau, Germany", "label": "Lindau" },
+        { "name": "Oberstdorf, Germany", "label": "Oberstdorf" },
+        { "name": "Füssen, Germany", "label": "Füssen" },
+        { "name": "Garmisch-Partenkirchen, Germany", "label": "Garmisch-Partenkirchen" },
+        { "name": "Tegernsee, Germany", "label": "Tegernsee" },
+        { "name": "Rosenheim, Germany", "label": "Rosenheim" },
+        { "name": "Chiemsee, Prien am Chiemsee, Germany", "label": "Chiemsee" },
+        { "name": "Berchtesgaden, Germany", "label": "Berchtesgaden" }
+      ],
+      "highlights": ["Full length of Deutsche Alpenstraße", "Neuschwanstein en route", "Chiemsee island palace", "Berchtesgaden Eagle's Nest"],
+      "cover_search_query": "German Alpine Road Deutsche Alpenstrasse Bavaria mountain road"
+    },
+    {
+      "id": "ingolstadt-and-danube-valley",
+      "name": "Ingolstadt & Upper Danube Valley",
+      "region": "Bavaria",
+      "duration_days": 4,
+      "distance_km": 220,
+      "description": "Upstream from Regensburg, the Danube narrows into dramatic limestone gorges flanked by cliffs and castles. This circuit from Ingolstadt visits Kelheim's Liberation Hall, the Altmühltal Nature Park, and the monastic heartland of Bavaria.",
+      "stops": [
+        { "name": "Ingolstadt, Germany", "label": "Ingolstadt" },
+        { "name": "Eichstätt, Germany", "label": "Eichstätt" },
+        { "name": "Solnhofen, Germany", "label": "Solnhofen" },
+        { "name": "Kelheim, Germany", "label": "Kelheim" },
+        { "name": "Weltenburg Abbey, Germany", "label": "Weltenburg Abbey" },
+        { "name": "Regensburg, Germany", "label": "Regensburg" }
+      ],
+      "highlights": ["Altmühltal limestone canyon kayaking", "Eichstätt Bishop's Residenz", "Kelheim Liberation Hall", "Weltenburg brewery gorge"],
+      "cover_search_query": "Altmühltal valley limestone cliffs Bavaria Germany"
+    },
+    {
+      "id": "augsburg-and-swabian-bavaria",
+      "name": "Augsburg & Swabian Bavaria",
+      "region": "Bavaria",
+      "duration_days": 4,
+      "distance_km": 240,
+      "description": "Augsburg, Germany's third-oldest city, anchors a route through Swabian Bavaria that spans Renaissance merchant palaces, the world's oldest social housing, and the Lech River wetlands — a quieter side of Bavaria often overlooked by tourists.",
+      "stops": [
+        { "name": "Augsburg, Germany", "label": "Augsburg" },
+        { "name": "Landsberg am Lech, Germany", "label": "Landsberg am Lech" },
+        { "name": "Schongau, Germany", "label": "Schongau" },
+        { "name": "Kaufbeuren, Germany", "label": "Kaufbeuren" },
+        { "name": "Memmingen, Germany", "label": "Memmingen" },
+        { "name": "Günzburg, Germany", "label": "Günzburg" }
+      ],
+      "highlights": ["Fuggerei world's oldest social housing", "Augsburg Renaissance fountains", "Lech gorge waterfalls", "Memmingen medieval walls"],
+      "cover_search_query": "Augsburg Rathaus Renaissance Bavaria Germany"
+    },
+    {
+      "id": "munich-day-trips-circuit",
+      "name": "Munich Day-Trips Circuit",
+      "region": "Bavaria",
+      "duration_days": 5,
+      "distance_km": 300,
+      "description": "Munich sits at the centre of an extraordinary ring of day-trip destinations — this route strings them together into a satisfying loop, from the concentration camp memorial at Dachau to the Roman ruins at Augsburg and the fairy-tale castles of the Royal Road.",
+      "stops": [
+        { "name": "Munich, Germany", "label": "Munich" },
+        { "name": "Dachau, Germany", "label": "Dachau" },
+        { "name": "Augsburg, Germany", "label": "Augsburg" },
+        { "name": "Landsberg am Lech, Germany", "label": "Landsberg am Lech" },
+        { "name": "Wieskirche, Steingaden, Germany", "label": "Wieskirche" },
+        { "name": "Neuschwanstein Castle, Schwangau, Germany", "label": "Neuschwanstein" },
+        { "name": "Munich, Germany", "label": "Munich" }
+      ],
+      "highlights": ["Dachau Memorial reflective visit", "Augsburg Fuggerei", "Wieskirche rococo interior", "Neuschwanstein at golden hour"],
+      "cover_search_query": "Wieskirche interior Baroque Bavaria Germany UNESCO"
+    },
+    {
+      "id": "classic-romantic-road",
+      "name": "Classic Romantic Road",
+      "region": "Romantic Road",
+      "duration_days": 6,
+      "distance_km": 360,
+      "description": "Germany's most famous themed tourist route connects the Main Valley at Würzburg with the Alps at Füssen through a procession of medieval walled towns, Baroque palaces, and vine-covered hillsides. The Romantische Straße is a rite of passage.",
+      "stops": [
+        { "name": "Würzburg, Germany", "label": "Würzburg" },
+        { "name": "Bad Mergentheim, Germany", "label": "Bad Mergentheim" },
+        { "name": "Rothenburg ob der Tauber, Germany", "label": "Rothenburg ob der Tauber" },
+        { "name": "Dinkelsbühl, Germany", "label": "Dinkelsbühl" },
+        { "name": "Nördlingen, Germany", "label": "Nördlingen" },
+        { "name": "Augsburg, Germany", "label": "Augsburg" },
+        { "name": "Füssen, Germany", "label": "Füssen" }
+      ],
+      "highlights": ["Rothenburg ob der Tauber medieval walls", "Würzburg Residenz UNESCO palace", "Nördlingen meteor-crater town", "Dinkelsbühl perfectly preserved old town"],
+      "cover_search_query": "Rothenburg ob der Tauber medieval town walls Germany"
+    },
+    {
+      "id": "romantic-road-north",
+      "name": "Romantic Road North",
+      "region": "Romantic Road",
+      "duration_days": 4,
+      "distance_km": 200,
+      "description": "The northern half of the Romantic Road follows the Tauber Valley through rolling Franconian hills and a string of half-timbered market towns. Würzburg's Baroque splendour gives way to the perfectly preserved medieval streetscapes of Rothenburg.",
+      "stops": [
+        { "name": "Würzburg, Germany", "label": "Würzburg" },
+        { "name": "Weikersheim, Germany", "label": "Weikersheim" },
+        { "name": "Bad Mergentheim, Germany", "label": "Bad Mergentheim" },
+        { "name": "Creglingen, Germany", "label": "Creglingen" },
+        { "name": "Rothenburg ob der Tauber, Germany", "label": "Rothenburg ob der Tauber" }
+      ],
+      "highlights": ["Weikersheim Palace gardens", "Würzburg Marienberg Fortress", "Creglingen Herrgottskirche altar", "Rothenburg Night Watchman tour"],
+      "cover_search_query": "Würzburg Residenz vineyard Main river Germany"
+    },
+    {
+      "id": "romantic-road-south-castles",
+      "name": "Romantic Road South — Castle Country",
+      "region": "Romantic Road",
+      "duration_days": 4,
+      "distance_km": 220,
+      "description": "The southern stretch of the Romantic Road races through Swabian towns to a grand Alpine finale at Füssen. The climax is the twin castles of Neuschwanstein and Hohenschwangau, rising above an Alpsee lake that mirrors their silhouettes.",
+      "stops": [
+        { "name": "Augsburg, Germany", "label": "Augsburg" },
+        { "name": "Landsberg am Lech, Germany", "label": "Landsberg am Lech" },
+        { "name": "Schongau, Germany", "label": "Schongau" },
+        { "name": "Steingaden, Germany", "label": "Steingaden" },
+        { "name": "Füssen, Germany", "label": "Füssen" },
+        { "name": "Neuschwanstein Castle, Schwangau, Germany", "label": "Neuschwanstein" }
+      ],
+      "highlights": ["Neuschwanstein and Hohenschwangau castles", "Wieskirche rococo pilgrimage church", "Füssen old town and Hohes Schloss", "Alpsee reflections"],
+      "cover_search_query": "Neuschwanstein Hohenschwangau castles Alpsee Bavaria Germany"
+    },
+    {
+      "id": "tauber-valley-wine-route",
+      "name": "Tauber Valley Wine Route",
+      "region": "Romantic Road",
+      "duration_days": 3,
+      "distance_km": 140,
+      "description": "The Tauber River meanders through a valley of vineyards, half-timbered villages, and Romanesque churches that somehow escaped the destruction of the Second World War. This gentle loop is ideal for cyclists and wine lovers alike.",
+      "stops": [
+        { "name": "Rothenburg ob der Tauber, Germany", "label": "Rothenburg ob der Tauber" },
+        { "name": "Bettwar, Germany", "label": "Bettwar" },
+        { "name": "Creglingen, Germany", "label": "Creglingen" },
+        { "name": "Weikersheim, Germany", "label": "Weikersheim" },
+        { "name": "Bad Mergentheim, Germany", "label": "Bad Mergentheim" }
+      ],
+      "highlights": ["Tauber Valley Franconian wine tasting", "Weikersheim Renaissance palace", "Cycling the Taubertal-Radweg", "Romantic village inn stays"],
+      "cover_search_query": "Tauber Valley vineyards Rothenburg Germany autumn"
+    },
+    {
+      "id": "nördlingen-meteor-crater",
+      "name": "Nördlingen & the Ries Crater",
+      "region": "Romantic Road",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "Fifteen million years ago a meteorite created the circular Ries Crater; today its flat floor holds the perfectly round medieval town of Nördlingen. This short loop connects three Swabian gems set in an otherworldly geological landscape.",
+      "stops": [
+        { "name": "Nördlingen, Germany", "label": "Nördlingen" },
+        { "name": "Harburg, Germany", "label": "Harburg Castle" },
+        { "name": "Dinkelsbühl, Germany", "label": "Dinkelsbühl" },
+        { "name": "Wallerstein, Germany", "label": "Wallerstein" },
+        { "name": "Donauwörth, Germany", "label": "Donauwörth" }
+      ],
+      "highlights": ["Nördlingen town walls crater view", "Harburg Castle medieval interiors", "Dinkelsbühl Kinderzeche festival", "Ries Crater geology museum"],
+      "cover_search_query": "Nördlingen medieval walled town aerial Germany"
+    },
+    {
+      "id": "rhine-gorge-classic",
+      "name": "Rhine Gorge Classic",
+      "region": "Rhine Valley & Moselle",
+      "duration_days": 5,
+      "distance_km": 310,
+      "description": "The UNESCO Middle Rhine Valley squeezes between slate cliffs crowned with castle ruins for 65 kilometres from Bingen to Koblenz. This route combines river ferry crossings, wine-village strolls, and the legendary Loreley Rock.",
+      "stops": [
+        { "name": "Mainz, Germany", "label": "Mainz" },
+        { "name": "Bingen am Rhein, Germany", "label": "Bingen" },
+        { "name": "Bacharach, Germany", "label": "Bacharach" },
+        { "name": "Kaub, Germany", "label": "Kaub" },
+        { "name": "Loreley, Sankt Goarshausen, Germany", "label": "Loreley" },
+        { "name": "Koblenz, Germany", "label": "Koblenz" }
+      ],
+      "highlights": ["Loreley Rock viewpoint", "Pfalzgrafenstein water castle", "Bacharach half-timbered town", "Deutsches Eck confluence at Koblenz"],
+      "cover_search_query": "Rhine Valley castles Middle Rhine gorge Germany"
+    },
+    {
+      "id": "cologne-to-koblenz-rhine",
+      "name": "Cologne to Koblenz Rhine Drive",
+      "region": "Rhine Valley & Moselle",
+      "duration_days": 4,
+      "distance_km": 200,
+      "description": "From Cologne's soaring Gothic cathedral the Rhine sweeps south through Bonn, Siebengebirge, and the volcanic Eifel foothills to the Moselle confluence at Koblenz. The drive mixes city culture with wild riverscape.",
+      "stops": [
+        { "name": "Cologne, Germany", "label": "Cologne" },
+        { "name": "Bonn, Germany", "label": "Bonn" },
+        { "name": "Bad Godesberg, Bonn, Germany", "label": "Bad Godesberg" },
+        { "name": "Remagen, Germany", "label": "Remagen" },
+        { "name": "Andernach, Germany", "label": "Andernach" },
+        { "name": "Koblenz, Germany", "label": "Koblenz" }
+      ],
+      "highlights": ["Cologne Cathedral twin spires", "Bonn Beethoven birthplace", "Siebengebirge Dragon Rock", "Ehrenbreitstein Fortress Koblenz"],
+      "cover_search_query": "Cologne Cathedral Rhine river Germany golden hour"
+    },
+    {
+      "id": "moselle-wine-road",
+      "name": "Moselle Wine Road",
+      "region": "Rhine Valley & Moselle",
+      "duration_days": 5,
+      "distance_km": 280,
+      "description": "The Moselle River loops in extravagant curves through steep slate slopes planted with Riesling vines, the terraces seeming to defy gravity above the river. Half-timbered wine towns, ancient Roman monuments, and cobblestone weinstuben fill the route.",
+      "stops": [
+        { "name": "Koblenz, Germany", "label": "Koblenz" },
+        { "name": "Cochem, Germany", "label": "Cochem" },
+        { "name": "Treis-Karden, Germany", "label": "Treis-Karden" },
+        { "name": "Bernkastel-Kues, Germany", "label": "Bernkastel-Kues" },
+        { "name": "Zeltingen-Rachtig, Germany", "label": "Zeltingen-Rachtig" },
+        { "name": "Trier, Germany", "label": "Trier" }
+      ],
+      "highlights": ["Moselle Riesling wine tasting", "Cochem Imperial Castle", "Bernkastel-Kues market square", "Trier Roman Porta Nigra"],
+      "cover_search_query": "Moselle River vineyards Bernkastel wine village Germany"
+    },
+    {
+      "id": "trier-roman-heritage",
+      "name": "Trier — Roman Heritage Circuit",
+      "region": "Rhine Valley & Moselle",
+      "duration_days": 4,
+      "distance_km": 220,
+      "description": "Trier was Rome's northern capital, and its concentration of UNESCO-listed Roman monuments is unmatched north of the Alps. This short circuit combines Trier's ancient splendour with Moselle wine villages and the rolling Hunsrück hills.",
+      "stops": [
+        { "name": "Trier, Germany", "label": "Trier" },
+        { "name": "Konz, Germany", "label": "Konz" },
+        { "name": "Saarburg, Germany", "label": "Saarburg" },
+        { "name": "Bernkastel-Kues, Germany", "label": "Bernkastel-Kues" },
+        { "name": "Cochem, Germany", "label": "Cochem" },
+        { "name": "Koblenz, Germany", "label": "Koblenz" }
+      ],
+      "highlights": ["Trier Porta Nigra and Amphitheater", "Roman Imperial Baths", "Saarburg Leuk waterfall", "Moselle Riesling vineyard hike"],
+      "cover_search_query": "Trier Porta Nigra Roman gate Germany"
+    },
+    {
+      "id": "nahe-valley-and-rheingau",
+      "name": "Nahe Valley & Rheingau Wine Route",
+      "region": "Rhine Valley & Moselle",
+      "duration_days": 4,
+      "distance_km": 180,
+      "description": "Germany's two most prestigious Riesling regions meet on this compact circuit from Mainz. The Rheingau's lordly monasteries and the Nahe's rocky gem mines set a dramatic stage for world-class white wine.",
+      "stops": [
+        { "name": "Mainz, Germany", "label": "Mainz" },
+        { "name": "Rüdesheim am Rhein, Germany", "label": "Rüdesheim" },
+        { "name": "Assmannshausen, Germany", "label": "Assmannshausen" },
+        { "name": "Bad Kreuznach, Germany", "label": "Bad Kreuznach" },
+        { "name": "Bingen am Rhein, Germany", "label": "Bingen" },
+        { "name": "Mainz, Germany", "label": "Mainz" }
+      ],
+      "highlights": ["Kloster Eberbach medieval winery", "Rüdesheim Drosselgasse wine lane", "Nahe valley semi-precious gems", "Rheingau Riesling estates"],
+      "cover_search_query": "Rüdesheim Rheingau vineyards Rhine Germany"
+    },
+    {
+      "id": "saar-moselle-loop",
+      "name": "Saar-Moselle Loop",
+      "region": "Rhine Valley & Moselle",
+      "duration_days": 4,
+      "distance_km": 210,
+      "description": "Where the Saar joins the Moselle near Konz, two great wine rivers converge in a landscape of extraordinary beauty. This loop explores both valleys, from Roman Trier to the spectacularly looping Saar at Serrig and Saarburg.",
+      "stops": [
+        { "name": "Trier, Germany", "label": "Trier" },
+        { "name": "Saarburg, Germany", "label": "Saarburg" },
+        { "name": "Serrig, Germany", "label": "Serrig" },
+        { "name": "Wiltingen, Germany", "label": "Wiltingen" },
+        { "name": "Konz, Germany", "label": "Konz" },
+        { "name": "Trier, Germany", "label": "Trier" }
+      ],
+      "highlights": ["Saar River great loop at Serrig", "Scharzhofberg Riesling vineyard", "Saarburg town waterfall", "Schoden rock formations"],
+      "cover_search_query": "Saar River loop bend Serrig vineyard Germany"
+    },
+    {
+      "id": "rhine-castles-and-wiesbaden",
+      "name": "Rhine Castles & Wiesbaden",
+      "region": "Rhine Valley & Moselle",
+      "duration_days": 4,
+      "distance_km": 190,
+      "description": "Wiesbaden's elegant Wilhelminian spa architecture marks the start of a Rhine drive through the densest concentration of castle ruins in Europe. Each bend of the Middle Rhine reveals another ruined keep perched atop a vine-covered cliff.",
+      "stops": [
+        { "name": "Wiesbaden, Germany", "label": "Wiesbaden" },
+        { "name": "Eltville am Rhein, Germany", "label": "Eltville" },
+        { "name": "Rüdesheim am Rhein, Germany", "label": "Rüdesheim" },
+        { "name": "Bacharach, Germany", "label": "Bacharach" },
+        { "name": "Oberwesel, Germany", "label": "Oberwesel" },
+        { "name": "Sankt Goar, Germany", "label": "Sankt Goar" }
+      ],
+      "highlights": ["Wiesbaden Kurhaus and casino", "Burg Rheinfels ruin", "Bacharach Werner Chapel ruins", "Schönburg castle hotel"],
+      "cover_search_query": "Oberwesel Rhine castles town walls Germany"
+    },
+    {
+      "id": "black-forest-high-road",
+      "name": "Black Forest High Road",
+      "region": "Black Forest",
+      "duration_days": 5,
+      "distance_km": 270,
+      "description": "The Schwarzwald-Hochstraße follows the ridge of the Northern Black Forest through viewpoints, moor ponds, and dense fir forests to the resort town of Freudenstadt. This is the classic Black Forest drive, full of panoramic pull-offs.",
+      "stops": [
+        { "name": "Baden-Baden, Germany", "label": "Baden-Baden" },
+        { "name": "Bühl, Germany", "label": "Bühl" },
+        { "name": "Mummelsee, Seebach, Germany", "label": "Mummelsee" },
+        { "name": "Freudenstadt, Germany", "label": "Freudenstadt" },
+        { "name": "Alpirsbach, Germany", "label": "Alpirsbach" },
+        { "name": "Triberg, Germany", "label": "Triberg" }
+      ],
+      "highlights": ["Baden-Baden thermal baths", "Mummelsee dark lake legend", "Triberg waterfalls Germany's highest", "Freudenstadt market square"],
+      "cover_search_query": "Black Forest Hochstraße misty road Germany"
+    },
+    {
+      "id": "freiburg-and-southern-black-forest",
+      "name": "Freiburg & Southern Black Forest",
+      "region": "Black Forest",
+      "duration_days": 5,
+      "distance_km": 260,
+      "description": "Freiburg's sunny medieval city centre with its babbling Bächle streams anchors this tour of the Southern Black Forest. The route climbs to the Feldberg peak, lingers at the glacial Titisee, and descends through the gorges of the Wutachschlucht.",
+      "stops": [
+        { "name": "Freiburg im Breisgau, Germany", "label": "Freiburg" },
+        { "name": "Staufen im Breisgau, Germany", "label": "Staufen" },
+        { "name": "Feldberg, Germany", "label": "Feldberg" },
+        { "name": "Titisee-Neustadt, Germany", "label": "Titisee" },
+        { "name": "Schluchsee, Germany", "label": "Schluchsee" },
+        { "name": "St. Blasien, Germany", "label": "St. Blasien" }
+      ],
+      "highlights": ["Freiburg Münster cathedral market", "Feldberg panorama ski resort peak", "Titisee lakeside promenade", "Wutachschlucht gorge hiking"],
+      "cover_search_query": "Titisee lake Black Forest village Germany"
+    },
+    {
+      "id": "triberg-and-cuckoo-clock-country",
+      "name": "Triberg & Cuckoo Clock Country",
+      "region": "Black Forest",
+      "duration_days": 4,
+      "distance_km": 200,
+      "description": "The Central Black Forest is cuckoo clock territory, and Triberg's mighty waterfalls draw visitors year-round. This loop threads through open-air museum farmsteads, watchmaking towns, and the Kinzig Valley's half-timbered inns.",
+      "stops": [
+        { "name": "Offenburg, Germany", "label": "Offenburg" },
+        { "name": "Haslach im Kinzigtal, Germany", "label": "Haslach" },
+        { "name": "Gutach im Schwarzwald, Germany", "label": "Gutach Open-Air Museum" },
+        { "name": "Triberg, Germany", "label": "Triberg" },
+        { "name": "Furtwangen im Schwarzwald, Germany", "label": "Furtwangen" },
+        { "name": "Villingen-Schwenningen, Germany", "label": "Villingen" }
+      ],
+      "highlights": ["Triberg falls 163-metre cascade", "Vogtsbauernhof open-air museum", "Furtwangen German Clock Museum", "Black Forest farmhouse architecture"],
+      "cover_search_query": "Triberg waterfalls Black Forest Germany"
+    },
+    {
+      "id": "baden-wine-route",
+      "name": "Baden Wine Route",
+      "region": "Black Forest",
+      "duration_days": 5,
+      "distance_km": 290,
+      "description": "The Badische Weinstraße runs along the warm western slopes of the Black Forest, one of Germany's sunniest wine regions. Pinot Noir, Pinot Gris, and Müller-Thurgau thrive here in a landscape of volcanic hills, spa towns, and Roman settlements.",
+      "stops": [
+        { "name": "Baden-Baden, Germany", "label": "Baden-Baden" },
+        { "name": "Bühl, Germany", "label": "Bühl" },
+        { "name": "Kappelrodeck, Germany", "label": "Kappelrodeck" },
+        { "name": "Offenburg, Germany", "label": "Offenburg" },
+        { "name": "Breisach am Rhein, Germany", "label": "Breisach" },
+        { "name": "Freiburg im Breisgau, Germany", "label": "Freiburg" }
+      ],
+      "highlights": ["Baden-Baden Casino and Trinkhalle", "Ortenau Pinot Noir wine estates", "Breisach Minster hilltop views", "Kaiserstuhl volcanic wine terraces"],
+      "cover_search_query": "Kaiserstuhl volcanic hill vineyards Baden Germany"
+    },
+    {
+      "id": "black-forest-panoramic-road",
+      "name": "Black Forest Panoramic Road",
+      "region": "Black Forest",
+      "duration_days": 4,
+      "distance_km": 230,
+      "description": "The Schwarzwald-Panoramastraße links the Northern and Central Black Forest with sweeping viewpoints over the Rhine plain and Vosges mountains. It passes through the spa grandeur of Baden-Baden and the lush Nagold Valley.",
+      "stops": [
+        { "name": "Karlsruhe, Germany", "label": "Karlsruhe" },
+        { "name": "Baden-Baden, Germany", "label": "Baden-Baden" },
+        { "name": "Gernsbach, Germany", "label": "Gernsbach" },
+        { "name": "Bad Wildbad, Germany", "label": "Bad Wildbad" },
+        { "name": "Nagold, Germany", "label": "Nagold" },
+        { "name": "Calw, Germany", "label": "Calw" }
+      ],
+      "highlights": ["Baden-Baden Festspielhaus opera", "Caracalla Therme spa", "Altensteig old town towers", "Calw Hermann Hesse birthplace"],
+      "cover_search_query": "Baden-Baden Lichtentaler Allee autumn Germany"
+    },
+    {
+      "id": "black-forest-valley-roads",
+      "name": "Black Forest Valley Roads",
+      "region": "Black Forest",
+      "duration_days": 4,
+      "distance_km": 210,
+      "description": "Where the rivers cut through the Black Forest they create narrow, moody valleys of great charm. This route descends three classic valleys — the Kinzig, Gutach, and Elz — each offering a different character of forest, waterfall, and village.",
+      "stops": [
+        { "name": "Freudenstadt, Germany", "label": "Freudenstadt" },
+        { "name": "Alpirsbach, Germany", "label": "Alpirsbach" },
+        { "name": "Wolfach, Germany", "label": "Wolfach" },
+        { "name": "Hausach, Germany", "label": "Hausach" },
+        { "name": "Elzach, Germany", "label": "Elzach" },
+        { "name": "Waldkirch, Germany", "label": "Waldkirch" }
+      ],
+      "highlights": ["Alpirsbach monastery brewery", "Kinzig Valley half-timbered inns", "Elz Valley gorge cycling", "Waldkirch organ-building tradition"],
+      "cover_search_query": "Kinzig Valley Black Forest autumn Germany"
+    },
+    {
+      "id": "black-forest-to-lake-constance",
+      "name": "Black Forest to Lake Constance",
+      "region": "Black Forest",
+      "duration_days": 5,
+      "distance_km": 240,
+      "description": "A sweeping route from the dark forests and waterfalls of the Hochschwarzwald down to the sunshine and vineyards of Lake Constance (Bodensee). The contrast between dense Alpine forest and Mediterranean-feeling lakeside is extraordinary.",
+      "stops": [
+        { "name": "Freiburg im Breisgau, Germany", "label": "Freiburg" },
+        { "name": "Schluchsee, Germany", "label": "Schluchsee" },
+        { "name": "St. Blasien, Germany", "label": "St. Blasien" },
+        { "name": "Waldshut-Tiengen, Germany", "label": "Waldshut" },
+        { "name": "Konstanz, Germany", "label": "Konstanz" },
+        { "name": "Meersburg, Germany", "label": "Meersburg" }
+      ],
+      "highlights": ["St. Blasien Baroque dome", "Rhine Falls at Schaffhausen", "Konstanz Council of Constance", "Meersburg castle on the lake"],
+      "cover_search_query": "Meersburg Lake Constance Germany castle vineyard"
+    },
+    {
+      "id": "dresden-and-saxon-switzerland",
+      "name": "Dresden & Saxon Switzerland",
+      "region": "Saxony & Saxon Switzerland",
+      "duration_days": 6,
+      "distance_km": 310,
+      "description": "Dresden's Baroque skyline on the Elbe gives way to one of Europe's most dramatic national parks just 30km away. Sandstone pillars, table mountains, and the Bastei Bridge of Saxon Switzerland frame a journey between artistic grandeur and raw nature.",
+      "stops": [
+        { "name": "Dresden, Germany", "label": "Dresden" },
+        { "name": "Pirna, Germany", "label": "Pirna" },
+        { "name": "Bad Schandau, Germany", "label": "Bad Schandau" },
+        { "name": "Bastei, Lohmen, Germany", "label": "Bastei Bridge" },
+        { "name": "Königstein, Germany", "label": "Königstein Fortress" },
+        { "name": "Meissen, Germany", "label": "Meissen" }
+      ],
+      "highlights": ["Dresden Frauenkirche dome", "Bastei Bridge sandstone pillars", "Königstein fortress Elbe cliff", "Meissen porcelain manufactory"],
+      "cover_search_query": "Bastei Bridge Saxon Switzerland Germany sandstone"
+    },
+    {
+      "id": "elbe-valley-historic-route",
+      "name": "Elbe Valley Historic Route",
+      "region": "Saxony & Saxon Switzerland",
+      "duration_days": 5,
+      "distance_km": 280,
+      "description": "The Elbe from Dresden to Meissen and beyond traces one of Saxony's most historic corridors, passing vineyard terraces, Elbe castles, and the cathedral city of Meissen to the Weißes Elster confluence at Halle. History, wine, and riverside panoramas.",
+      "stops": [
+        { "name": "Dresden, Germany", "label": "Dresden" },
+        { "name": "Meissen, Germany", "label": "Meissen" },
+        { "name": "Riesa, Germany", "label": "Riesa" },
+        { "name": "Torgau, Germany", "label": "Torgau" },
+        { "name": "Wittenberg, Germany", "label": "Lutherstadt Wittenberg" },
+        { "name": "Halle (Saale), Germany", "label": "Halle" }
+      ],
+      "highlights": ["Meissen cathedral and Albrechtsburg", "Torgau Luther's wife memorial", "Wittenberg Reformation churches", "Dresden Semperoper"],
+      "cover_search_query": "Meissen cathedral Albrechtsburg Elbe Germany"
+    },
+    {
+      "id": "saxon-switzerland-rock-climbing",
+      "name": "Saxon Switzerland Rock Kingdom",
+      "region": "Saxony & Saxon Switzerland",
+      "duration_days": 4,
+      "distance_km": 190,
+      "description": "The Elbsandsteingebirge is Europe's rock climbing birthplace, where the sport was codified in 1910. This compact loop focuses on the national park's most dramatic formations — Bastei, Schrammsteine, Affensteine — woven between spa villages.",
+      "stops": [
+        { "name": "Pirna, Germany", "label": "Pirna" },
+        { "name": "Bastei, Lohmen, Germany", "label": "Bastei" },
+        { "name": "Hohnstein, Germany", "label": "Hohnstein" },
+        { "name": "Bad Schandau, Germany", "label": "Bad Schandau" },
+        { "name": "Kirnitzschtal, Germany", "label": "Kirnitzschtal" },
+        { "name": "Pirna, Germany", "label": "Pirna" }
+      ],
+      "highlights": ["Bastei panorama at sunrise", "Hohnstein tram-car up the cliff", "Kirnitzschtal tram through the gorge", "Pirna Gothic market church"],
+      "cover_search_query": "Saxon Switzerland Schrammsteine rock formations Elbe Germany"
+    },
+    {
+      "id": "leipzig-and-central-saxony",
+      "name": "Leipzig & Central Saxony",
+      "region": "Saxony & Saxon Switzerland",
+      "duration_days": 5,
+      "distance_km": 290,
+      "description": "Leipzig's dynamic cultural scene — Bach, Schiller, the Peaceful Revolution of 1989 — anchors a tour through the industrial and artistic heartland of Saxony. Chemnitz, Zwickau, and the Erzgebirge mining towns round out the picture.",
+      "stops": [
+        { "name": "Leipzig, Germany", "label": "Leipzig" },
+        { "name": "Colditz, Germany", "label": "Colditz Castle" },
+        { "name": "Rochlitz, Germany", "label": "Rochlitz" },
+        { "name": "Chemnitz, Germany", "label": "Chemnitz" },
+        { "name": "Zwickau, Germany", "label": "Zwickau" },
+        { "name": "Leipzig, Germany", "label": "Leipzig" }
+      ],
+      "highlights": ["Leipzig St Thomas Church Bach concerts", "Colditz famous WWII escape castle", "Chemnitz Karl Marx Monument", "Zwickau Robert Schumann birthplace"],
+      "cover_search_query": "Leipzig Nikolaikirche Peaceful Revolution Germany"
+    },
+    {
+      "id": "görlitz-and-lusatia",
+      "name": "Görlitz & Lusatia",
+      "region": "Saxony & Saxon Switzerland",
+      "duration_days": 4,
+      "distance_km": 200,
+      "description": "Görlitz escaped bombing in both World Wars and preserves one of Central Europe's most complete old town ensembles. The route explores Lusatia's Sorbian minority culture, the Zittau Mountains, and the Neisse River border landscape.",
+      "stops": [
+        { "name": "Görlitz, Germany", "label": "Görlitz" },
+        { "name": "Bautzen, Germany", "label": "Bautzen" },
+        { "name": "Herrnhut, Germany", "label": "Herrnhut" },
+        { "name": "Zittau, Germany", "label": "Zittau" },
+        { "name": "Löbau, Germany", "label": "Löbau" },
+        { "name": "Görlitz, Germany", "label": "Görlitz" }
+      ],
+      "highlights": ["Görlitz Untermarkt unspoiled Baroque", "Bautzen Sorbian culture and Ortenburg", "Herrnhut Moravian settlement", "Zittau Lenten veil medieval cloth"],
+      "cover_search_query": "Görlitz old town Untermarkt Germany"
+    },
+    {
+      "id": "erzgebirge-mining-heritage",
+      "name": "Erzgebirge Mining Heritage",
+      "region": "Saxony & Saxon Switzerland",
+      "duration_days": 4,
+      "distance_km": 230,
+      "description": "The Ore Mountains along the Czech border built Saxon wealth from silver mining and later became a UNESCO World Heritage landscape. Christmas pyramid carvers, lace-makers, and nutcracker craftsmen still fill these hilltop towns.",
+      "stops": [
+        { "name": "Chemnitz, Germany", "label": "Chemnitz" },
+        { "name": "Annaberg-Buchholz, Germany", "label": "Annaberg-Buchholz" },
+        { "name": "Schneeberg, Germany", "label": "Schneeberg" },
+        { "name": "Aue-Bad Schlema, Germany", "label": "Aue" },
+        { "name": "Schwarzenberg, Germany", "label": "Schwarzenberg" },
+        { "name": "Marienberg, Germany", "label": "Marienberg" }
+      ],
+      "highlights": ["Annaberg silver mine UNESCO site", "Erzgebirge Christmas craft workshops", "Schneeberg church frescoes", "Schwarzenberg castle"],
+      "cover_search_query": "Erzgebirge Ore Mountains Christmas wooden crafts Germany"
+    },
+    {
+      "id": "saxony-beyond-dresden",
+      "name": "Saxony Beyond Dresden",
+      "region": "Saxony & Saxon Switzerland",
+      "duration_days": 5,
+      "distance_km": 260,
+      "description": "Once you leave Dresden, Saxony rewards with the spa town of Bad Muskau and its UNESCO Muskau Park, the Sorbian market town of Bautzen, and the porcelain legacy of Meissen. This loop reveals the width and depth of Saxon culture.",
+      "stops": [
+        { "name": "Dresden, Germany", "label": "Dresden" },
+        { "name": "Bautzen, Germany", "label": "Bautzen" },
+        { "name": "Bad Muskau, Germany", "label": "Bad Muskau" },
+        { "name": "Görlitz, Germany", "label": "Görlitz" },
+        { "name": "Zittau, Germany", "label": "Zittau" },
+        { "name": "Dresden, Germany", "label": "Dresden" }
+      ],
+      "highlights": ["Bad Muskau UNESCO landscape park", "Bautzen Senf mustard tradition", "Görlitz Silesian townscape", "Dresden Zwinger palace"],
+      "cover_search_query": "Dresden Frauenkirche skyline Elbe River Germany"
+    },
+    {
+      "id": "thuringia-classical-heritage",
+      "name": "Thuringia — Classical Heritage",
+      "region": "Thuringia",
+      "duration_days": 5,
+      "distance_km": 240,
+      "description": "Weimar and Erfurt form the twin poles of Thuringia's extraordinary cultural legacy — Goethe and Schiller in Weimar, the reformer Martin Luther in Erfurt. Between them lies a gentle landscape of forest, river valley, and small Thuringian towns.",
+      "stops": [
+        { "name": "Erfurt, Germany", "label": "Erfurt" },
+        { "name": "Weimar, Germany", "label": "Weimar" },
+        { "name": "Jena, Germany", "label": "Jena" },
+        { "name": "Naumburg, Germany", "label": "Naumburg" },
+        { "name": "Bad Kösen, Germany", "label": "Bad Kösen" },
+        { "name": "Erfurt, Germany", "label": "Erfurt" }
+      ],
+      "highlights": ["Weimar Goethe and Schiller houses", "Erfurt Cathedral and Krämerbrücke", "Jena Zeiss optics heritage", "Naumburg Cathedral UNESCO"],
+      "cover_search_query": "Weimar Goethe house Thuringia Germany"
+    },
+    {
+      "id": "wartburg-and-eisenach",
+      "name": "Wartburg & Eisenach",
+      "region": "Thuringia",
+      "duration_days": 4,
+      "distance_km": 200,
+      "description": "The Wartburg above Eisenach is one of Germany's greatest castles — where Martin Luther translated the New Testament and Richard Wagner set Tannhäuser. Bach was also born in Eisenach, making this a place of extraordinary cultural density.",
+      "stops": [
+        { "name": "Eisenach, Germany", "label": "Eisenach" },
+        { "name": "Wartburg Castle, Eisenach, Germany", "label": "Wartburg" },
+        { "name": "Bad Salzungen, Germany", "label": "Bad Salzungen" },
+        { "name": "Schmalkalden, Germany", "label": "Schmalkalden" },
+        { "name": "Meiningen, Germany", "label": "Meiningen" },
+        { "name": "Erfurt, Germany", "label": "Erfurt" }
+      ],
+      "highlights": ["Wartburg Luther's study chamber", "Eisenach Bach birthplace", "Thuringian Forest hiking", "Meiningen theatre tradition"],
+      "cover_search_query": "Wartburg Castle Eisenach Thuringia Germany autumn"
+    },
+    {
+      "id": "thuringian-forest-ridge-road",
+      "name": "Thuringian Forest Ridge Road",
+      "region": "Thuringia",
+      "duration_days": 4,
+      "distance_km": 220,
+      "description": "The Rennsteig is the historic ridge road along the Thuringian Forest crest, once a border between dialects and kingdoms. Now it is Germany's favourite long-distance hiking trail, and this drive follows it through dark spruce forests and timber-frame spa towns.",
+      "stops": [
+        { "name": "Eisenach, Germany", "label": "Eisenach" },
+        { "name": "Ruhla, Germany", "label": "Ruhla" },
+        { "name": "Oberhof, Germany", "label": "Oberhof" },
+        { "name": "Ilmenau, Germany", "label": "Ilmenau" },
+        { "name": "Suhl, Germany", "label": "Suhl" },
+        { "name": "Sonneberg, Germany", "label": "Sonneberg" }
+      ],
+      "highlights": ["Rennsteig historic ridge road", "Oberhof biathlon and winter sports", "Ilmenau Goethe hiking trail", "Thuringian Forest timber-frame villages"],
+      "cover_search_query": "Rennsteig Thuringian Forest ridge path Germany"
+    },
+    {
+      "id": "saale-unstrut-wine-valley",
+      "name": "Saale-Unstrut Wine Valley",
+      "region": "Thuringia",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "Germany's northernmost wine region clings to the steep terraces of the Saale and Unstrut rivers. Limestone cliffs, ruined castles, and the Romanesque cathedral of Naumburg frame a wine landscape of haunting beauty rarely visited by international tourists.",
+      "stops": [
+        { "name": "Naumburg, Germany", "label": "Naumburg" },
+        { "name": "Bad Kösen, Germany", "label": "Bad Kösen" },
+        { "name": "Freyburg (Unstrut), Germany", "label": "Freyburg" },
+        { "name": "Nebra, Germany", "label": "Nebra" },
+        { "name": "Weißenfels, Germany", "label": "Weißenfels" }
+      ],
+      "highlights": ["Naumburg Cathedral Romanesque sculpture", "Freyburg Neuenburg Castle", "Nebra Sky Disc museum", "Saale-Unstrut Müller-Thurgau wines"],
+      "cover_search_query": "Saale-Unstrut Freyburg wine terraces river Germany"
+    },
+    {
+      "id": "eastern-thuringia-porcelain-loop",
+      "name": "Eastern Thuringia Porcelain Loop",
+      "region": "Thuringia",
+      "duration_days": 3,
+      "distance_km": 170,
+      "description": "Eastern Thuringia is the birthplace of Thuringian porcelain and glass, with a string of small towns each famous for their craft. Jena's university city contrasts with the delicate manufactures of Rudolstadt and Saalfeld's fairy grottoes.",
+      "stops": [
+        { "name": "Jena, Germany", "label": "Jena" },
+        { "name": "Saalfeld, Germany", "label": "Saalfeld" },
+        { "name": "Rudolstadt, Germany", "label": "Rudolstadt" },
+        { "name": "Pößneck, Germany", "label": "Pößneck" },
+        { "name": "Gera, Germany", "label": "Gera" }
+      ],
+      "highlights": ["Saalfeld Fairy Grottoes", "Jena Schiller Garden", "Rudolstadt Heidecksburg Palace", "Thuringian porcelain workshops"],
+      "cover_search_query": "Saalfeld Fairy Grottoes minerals Thuringia Germany"
+    },
+    {
+      "id": "harz-mountains-classic",
+      "name": "Harz Mountains Classic",
+      "region": "Harz Mountains",
+      "duration_days": 5,
+      "distance_km": 280,
+      "description": "The Harz is northern Germany's only real upland, a plateau of dark fir forest, moor bogs, and ancient silver-mining towns. The steam-powered Brocken railway still puffs up to the summit, and the medieval imperial city of Goslar glitters with ore wealth.",
+      "stops": [
+        { "name": "Goslar, Germany", "label": "Goslar" },
+        { "name": "Clausthal-Zellerfeld, Germany", "label": "Clausthal-Zellerfeld" },
+        { "name": "Brocken, Schierke, Germany", "label": "Brocken Summit" },
+        { "name": "Wernigerode, Germany", "label": "Wernigerode" },
+        { "name": "Quedlinburg, Germany", "label": "Quedlinburg" },
+        { "name": "Halberstadt, Germany", "label": "Halberstadt" }
+      ],
+      "highlights": ["Goslar Imperial Palace UNESCO", "Brocken summit steam railway", "Wernigerode fairytale castle", "Quedlinburg collegiate church UNESCO"],
+      "cover_search_query": "Goslar medieval city Harz Germany"
+    },
+    {
+      "id": "harz-narrow-gauge-railways",
+      "name": "Harz Narrow-Gauge Railways",
+      "region": "Harz Mountains",
+      "duration_days": 4,
+      "distance_km": 210,
+      "description": "The Harz is home to Germany's finest narrow-gauge steam railway network, with three lines criss-crossing the mountains. This route combines riding the trains with driving between stations through the charming spa towns and half-timbered villages.",
+      "stops": [
+        { "name": "Wernigerode, Germany", "label": "Wernigerode" },
+        { "name": "Drei Annen Hohne, Germany", "label": "Drei Annen Hohne" },
+        { "name": "Brocken, Schierke, Germany", "label": "Brocken" },
+        { "name": "Nordhausen, Germany", "label": "Nordhausen" },
+        { "name": "Quedlinburg, Germany", "label": "Quedlinburg" },
+        { "name": "Thale, Germany", "label": "Thale" }
+      ],
+      "highlights": ["Brocken steam railway summit", "Thale Hexentanzplatz witches plateau", "Nordhausen Mittelwerk memorial", "Harz narrow-gauge network"],
+      "cover_search_query": "Brocken steam railway Harz Germany narrow gauge"
+    },
+    {
+      "id": "quedlinburg-and-romanesque-road",
+      "name": "Quedlinburg & the Romanesque Road",
+      "region": "Harz Mountains",
+      "duration_days": 4,
+      "distance_km": 200,
+      "description": "The Romanische Straße in Saxony-Anhalt visits the greatest concentration of Romanesque architecture north of the Alps — Quedlinburg, Halberstadt, Naumburg, and Merseburg. This is medieval Germany at its most monumental.",
+      "stops": [
+        { "name": "Quedlinburg, Germany", "label": "Quedlinburg" },
+        { "name": "Halberstadt, Germany", "label": "Halberstadt" },
+        { "name": "Halberstädter Dom, Germany", "label": "Halberstadt Cathedral" },
+        { "name": "Gernrode, Germany", "label": "Gernrode" },
+        { "name": "Ballenstedt, Germany", "label": "Ballenstedt" },
+        { "name": "Aschersleben, Germany", "label": "Aschersleben" }
+      ],
+      "highlights": ["Quedlinburg Stiftskirche UNESCO", "Halberstadt Cathedral medieval treasury", "Gernrode St Cyriakus oldest galleried church", "Romanesque Road abbey tour"],
+      "cover_search_query": "Quedlinburg UNESCO Stiftskirche castle hill Germany"
+    },
+    {
+      "id": "harz-witches-trail",
+      "name": "Harz Witches Trail",
+      "region": "Harz Mountains",
+      "duration_days": 4,
+      "distance_km": 180,
+      "description": "The Harz has a reputation for witchcraft since the Middle Ages, and the route follows the legendary Walpurgis Night tradition from Thale's Hexentanzplatz through the misty forests to the Brocken summit where witches allegedly danced.",
+      "stops": [
+        { "name": "Thale, Germany", "label": "Thale" },
+        { "name": "Blankenburg, Germany", "label": "Blankenburg" },
+        { "name": "Schierke, Germany", "label": "Schierke" },
+        { "name": "Brocken, Schierke, Germany", "label": "Brocken" },
+        { "name": "Bad Harzburg, Germany", "label": "Bad Harzburg" },
+        { "name": "Goslar, Germany", "label": "Goslar" }
+      ],
+      "highlights": ["Hexentanzplatz cliff cable car", "Brocken Walpurgis Night folklore", "Bodetal gorge hiking", "Bad Harzburg cable car and spa"],
+      "cover_search_query": "Brocken summit mist Harz Germany fog"
+    },
+    {
+      "id": "harz-southern-loop",
+      "name": "Harz Southern Loop",
+      "region": "Harz Mountains",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "The gentler southern Harz dissolves into a limestone karst landscape with cave systems, salt springs, and spa towns. Nordhausen, Sangerhausen, and the Kyffhäuser Monument mark the transition from dark forest to open farmland.",
+      "stops": [
+        { "name": "Nordhausen, Germany", "label": "Nordhausen" },
+        { "name": "Bad Sachsa, Germany", "label": "Bad Sachsa" },
+        { "name": "Bad Lauterberg im Harz, Germany", "label": "Bad Lauterberg" },
+        { "name": "Herzberg am Harz, Germany", "label": "Herzberg" },
+        { "name": "Sangerhausen, Germany", "label": "Sangerhausen" },
+        { "name": "Kyffhäuserburg, Germany", "label": "Kyffhäuser Monument" }
+      ],
+      "highlights": ["Kyffhäuser Barbarossa monument", "Nordhausen concentration camp memorial", "Bad Sachsa spa saline baths", "Harz southern limestone karst"],
+      "cover_search_query": "Kyffhäuser monument Barbarossa Harz Germany"
+    },
+    {
+      "id": "hamburg-and-lubeck-hanse",
+      "name": "Hamburg & Lübeck — Hanseatic Twins",
+      "region": "Northern Germany Coast",
+      "duration_days": 4,
+      "distance_km": 210,
+      "description": "Two of the great Hanseatic merchant cities anchor the western end of the Baltic coast drive. Hamburg's massive port contrasts with Lübeck's concentration of brick-Gothic churches and the marzipan-scented alleys of the Holsten Quarter.",
+      "stops": [
+        { "name": "Hamburg, Germany", "label": "Hamburg" },
+        { "name": "Ratzeburg, Germany", "label": "Ratzeburg" },
+        { "name": "Lübeck, Germany", "label": "Lübeck" },
+        { "name": "Travemünde, Germany", "label": "Travemünde" },
+        { "name": "Bad Schwartau, Germany", "label": "Bad Schwartau" },
+        { "name": "Kiel, Germany", "label": "Kiel" }
+      ],
+      "highlights": ["Hamburg Speicherstadt UNESCO", "Lübeck Holstentor gate", "Travemünde Baltic beach promenade", "Kiel Fjord and Kieler Woche"],
+      "cover_search_query": "Lübeck Holstentor Hanse Baltic Germany"
+    },
+    {
+      "id": "rügen-island-circuit",
+      "name": "Rügen Island Circuit",
+      "region": "Northern Germany Coast",
+      "duration_days": 5,
+      "distance_km": 250,
+      "description": "Germany's largest island is a world of chalk cliffs, beech forests, and Wilhelminian spa architecture. The ghostly Prora holiday complex, the Jasmund National Park chalk cliffs, and the fishing harbour of Sellin frame one of Germany's most distinctive landscapes.",
+      "stops": [
+        { "name": "Stralsund, Germany", "label": "Stralsund" },
+        { "name": "Bergen auf Rügen, Germany", "label": "Bergen" },
+        { "name": "Binz, Germany", "label": "Binz" },
+        { "name": "Sellin, Germany", "label": "Sellin" },
+        { "name": "Kap Arkona, Putgarten, Germany", "label": "Kap Arkona" },
+        { "name": "Sassnitz, Germany", "label": "Sassnitz" }
+      ],
+      "highlights": ["Jasmund chalk cliffs Königsstuhl", "Binz Jugendstil spa architecture", "Kap Arkona lighthouse and Viking fort", "Prora colossal Nazi-era building"],
+      "cover_search_query": "Rügen chalk cliffs Königsstuhl Baltic Germany"
+    },
+    {
+      "id": "mecklenburg-coast-and-greifswald",
+      "name": "Mecklenburg Coast & Greifswald",
+      "region": "Northern Germany Coast",
+      "duration_days": 5,
+      "distance_km": 290,
+      "description": "The Mecklenburg Baltic coast hops between fishing villages, sand dunes, and brick-Gothic harbour towns. Greifswald's perfectly preserved old town and the monastery ruin on Eldena make this a Caspar David Friedrich landscape come to life.",
+      "stops": [
+        { "name": "Rostock, Germany", "label": "Rostock" },
+        { "name": "Warnemünde, Germany", "label": "Warnemünde" },
+        { "name": "Ribnitz-Damgarten, Germany", "label": "Ribnitz-Damgarten" },
+        { "name": "Stralsund, Germany", "label": "Stralsund" },
+        { "name": "Greifswald, Germany", "label": "Greifswald" },
+        { "name": "Usedom, Germany", "label": "Usedom Island" }
+      ],
+      "highlights": ["Warnemünde lighthouse and beach", "Stralsund UNESCO Hanse town", "Greifswald Caspar David Friedrich birthplace area", "Usedom amber coast"],
+      "cover_search_query": "Stralsund Hanseatic harbour Baltic Germany"
+    },
+    {
+      "id": "schleswig-holstein-and-flensburg",
+      "name": "Schleswig-Holstein & Flensburg Fjord",
+      "region": "Northern Germany Coast",
+      "duration_days": 4,
+      "distance_km": 230,
+      "description": "At Germany's northern tip, the landscape opens into wide skies, Viking ship burial sites, and the Danish-German border culture around Flensburg. The Schlei fjord, the Viking Museum at Haithabu, and the Flensburg rum trading heritage make this a rich detour.",
+      "stops": [
+        { "name": "Kiel, Germany", "label": "Kiel" },
+        { "name": "Schleswig, Germany", "label": "Schleswig" },
+        { "name": "Haithabu, Schleswig, Germany", "label": "Viking Museum Haithabu" },
+        { "name": "Flensburg, Germany", "label": "Flensburg" },
+        { "name": "Glücksburg, Germany", "label": "Glücksburg" },
+        { "name": "Husum, Germany", "label": "Husum" }
+      ],
+      "highlights": ["Haithabu Viking ship museum", "Schleswig Dom and Bordesholm Altar", "Flensburg rum tradition", "Glücksburg water castle"],
+      "cover_search_query": "Schleswig Holm fishermen village fjord Germany"
+    },
+    {
+      "id": "wadden-sea-and-north-frisian-islands",
+      "name": "Wadden Sea & North Frisian Islands",
+      "region": "Northern Germany Coast",
+      "duration_days": 5,
+      "distance_km": 260,
+      "description": "Germany's UNESCO Wadden Sea National Park is the world's largest tidal flat ecosystem. The North Frisian Islands of Sylt, Föhr, and Amrum are connected to the mainland by tidal causeways and ferry, creating a memorable island-hopping coastal drive.",
+      "stops": [
+        { "name": "Husum, Germany", "label": "Husum" },
+        { "name": "Sylt, Germany", "label": "Sylt Island" },
+        { "name": "Föhr, Germany", "label": "Föhr Island" },
+        { "name": "Amrum, Germany", "label": "Amrum Island" },
+        { "name": "St. Peter-Ording, Germany", "label": "St. Peter-Ording" },
+        { "name": "Büsum, Germany", "label": "Büsum" }
+      ],
+      "highlights": ["Sylt Westerland beach culture", "Wadden Sea tidal flat walking", "Föhr Frisian village charm", "St. Peter-Ording dune beach stilts"],
+      "cover_search_query": "Sylt island beach dunes North Sea Germany"
+    },
+    {
+      "id": "usedom-and-stettin-lagoon",
+      "name": "Usedom & the Stettin Lagoon",
+      "region": "Northern Germany Coast",
+      "duration_days": 4,
+      "distance_km": 210,
+      "description": "Usedom is Germany's sunniest island, its chalk-white beach promenades lined with ornate Wilhelminian villas. The Peenemünde rocket development site adds a layer of 20th-century history to this tranquil Baltic island.",
+      "stops": [
+        { "name": "Greifswald, Germany", "label": "Greifswald" },
+        { "name": "Wolgast, Germany", "label": "Wolgast" },
+        { "name": "Peenemünde, Germany", "label": "Peenemünde" },
+        { "name": "Heringsdorf, Germany", "label": "Heringsdorf" },
+        { "name": "Ahlbeck, Germany", "label": "Ahlbeck" },
+        { "name": "Anklam, Germany", "label": "Anklam" }
+      ],
+      "highlights": ["Peenemünde V2 rocket museum", "Heringsdorf imperial beach villas", "Ahlbeck pier Baltic Sea", "Usedom sunniest island Germany"],
+      "cover_search_query": "Usedom Heringsdorf Wilhelminian beach pier Baltic Germany"
+    },
+    {
+      "id": "hamburg-waterways-and-rivers",
+      "name": "Hamburg Waterways & River Country",
+      "region": "Northern Germany Coast",
+      "duration_days": 4,
+      "distance_km": 200,
+      "description": "Hamburg's inland waterways extend into the Altes Land orchard country, the Elbe marshes, and the Vierlande market gardens. This loop explores the lesser-known Green Hamburg — canals, dykes, red-brick farmhouses, and Europe's oldest orchards.",
+      "stops": [
+        { "name": "Hamburg, Germany", "label": "Hamburg" },
+        { "name": "Stade, Germany", "label": "Stade" },
+        { "name": "Buxtehude, Germany", "label": "Buxtehude" },
+        { "name": "Lüneburg, Germany", "label": "Lüneburg" },
+        { "name": "Harburg, Hamburg, Germany", "label": "Hamburg-Harburg" },
+        { "name": "Hamburg, Germany", "label": "Hamburg" }
+      ],
+      "highlights": ["Hamburg Speicherstadt canal warehouse city", "Altes Land Europe's largest orchard", "Stade Hanseatic old town", "Lüneburg salt mine heritage"],
+      "cover_search_query": "Hamburg Speicherstadt warehouse canal Germany night"
+    },
+    {
+      "id": "mecklenburg-lake-district",
+      "name": "Mecklenburg Lake District",
+      "region": "Mecklenburg Lake District",
+      "duration_days": 5,
+      "distance_km": 280,
+      "description": "The Mecklenburgische Seenplatte is a vast glacial lake district of over 1,000 lakes linked by the Müritz-Elde waterway. Houseboating, stork villages, and the moated castle at Schwerin define this peaceful corner of northeastern Germany.",
+      "stops": [
+        { "name": "Schwerin, Germany", "label": "Schwerin" },
+        { "name": "Güstrow, Germany", "label": "Güstrow" },
+        { "name": "Waren (Müritz), Germany", "label": "Waren (Müritz)" },
+        { "name": "Müritz National Park, Germany", "label": "Müritz NP" },
+        { "name": "Neustrelitz, Germany", "label": "Neustrelitz" },
+        { "name": "Neubrandenburg, Germany", "label": "Neubrandenburg" }
+      ],
+      "highlights": ["Schwerin Palace island fairy-tale castle", "Müritz National Park crane migration", "Waren lakefront market town", "Neustrelitz Baroque planned city"],
+      "cover_search_query": "Schwerin Castle island lake Germany"
+    },
+    {
+      "id": "schwerin-to-rostock-coastal",
+      "name": "Schwerin to Rostock Coastal Loop",
+      "region": "Mecklenburg Lake District",
+      "duration_days": 4,
+      "distance_km": 220,
+      "description": "From Schwerin's fairy-tale castle the route heads north through the flat Mecklenburg countryside to the Baltic coast at Rostock and Warnemünde, returning through the brick-Gothic churches of the Hanseatic towns.",
+      "stops": [
+        { "name": "Schwerin, Germany", "label": "Schwerin" },
+        { "name": "Wismar, Germany", "label": "Wismar" },
+        { "name": "Rostock, Germany", "label": "Rostock" },
+        { "name": "Warnemünde, Germany", "label": "Warnemünde" },
+        { "name": "Güstrow, Germany", "label": "Güstrow" },
+        { "name": "Schwerin, Germany", "label": "Schwerin" }
+      ],
+      "highlights": ["Wismar UNESCO Hanse town", "Rostock Kröpeliner Straße", "Warnemünde lighthouse", "Güstrow Renaissance castle"],
+      "cover_search_query": "Wismar Marienkirche Hanse town Germany Baltic"
+    },
+    {
+      "id": "müritz-national-park-loop",
+      "name": "Müritz National Park Loop",
+      "region": "Mecklenburg Lake District",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "Germany's largest inland national park is a sanctuary of reed fringes, osprey nests, and ancient beech forests surrounding the Müritz lake. This slow loop circles the lake through tiny fishing villages and migratory bird viewing points.",
+      "stops": [
+        { "name": "Waren (Müritz), Germany", "label": "Waren" },
+        { "name": "Röbel/Müritz, Germany", "label": "Röbel" },
+        { "name": "Rechlin, Germany", "label": "Rechlin" },
+        { "name": "Federow, Germany", "label": "Federow NP Centre" },
+        { "name": "Waren (Müritz), Germany", "label": "Waren" }
+      ],
+      "highlights": ["Müritz osprey and white-tailed eagle", "Waren marina and promenade", "Röbel medieval town above the lake", "Müritz NP beech forest trail"],
+      "cover_search_query": "Müritz lake sunrise National Park Germany"
+    },
+    {
+      "id": "havel-lakes-and-rheinsberg",
+      "name": "Havel Lakes & Rheinsberg",
+      "region": "Mecklenburg Lake District",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "The Havel River expands into a series of lakes between Potsdam and Müritz, passing the Rococo palace of Rheinsberg where Frederick the Great spent his happiest years. Houseboats, summer theatres, and slow river towns fill this gentle loop.",
+      "stops": [
+        { "name": "Neuruppin, Germany", "label": "Neuruppin" },
+        { "name": "Rheinsberg, Germany", "label": "Rheinsberg" },
+        { "name": "Fürstenberg/Havel, Germany", "label": "Fürstenberg" },
+        { "name": "Ravensbrück, Germany", "label": "Ravensbrück Memorial" },
+        { "name": "Zehdenick, Germany", "label": "Zehdenick" }
+      ],
+      "highlights": ["Rheinsberg Palace Frederick the Great", "Neuruppin Fontane birthplace", "Havel lakes canoe routes", "Ravensbrück women's concentration camp memorial"],
+      "cover_search_query": "Rheinsberg Palace lake Brandenburg Germany"
+    },
+    {
+      "id": "nuremberg-and-franconian-heritage",
+      "name": "Nuremberg & Franconian Heritage",
+      "region": "Franconia",
+      "duration_days": 5,
+      "distance_km": 280,
+      "description": "Nuremberg is medieval Germany's most impressive surviving city, ringed by walls and crowned with the Kaiserburg. This loop pairs it with the brewing city of Bamberg and the opera city of Bayreuth in a tour of Franconia's cultural high points.",
+      "stops": [
+        { "name": "Nuremberg, Germany", "label": "Nuremberg" },
+        { "name": "Erlangen, Germany", "label": "Erlangen" },
+        { "name": "Bamberg, Germany", "label": "Bamberg" },
+        { "name": "Bayreuth, Germany", "label": "Bayreuth" },
+        { "name": "Kulmbach, Germany", "label": "Kulmbach" },
+        { "name": "Nuremberg, Germany", "label": "Nuremberg" }
+      ],
+      "highlights": ["Nuremberg Kaiserburg and Christmas Market", "Bamberg Rauchbier smoked beer", "Bayreuth Wagner Festival Theatre", "Kulmbach Plassenburg castle"],
+      "cover_search_query": "Bamberg Little Venice Regnitz Germany"
+    },
+    {
+      "id": "franconian-switzerland",
+      "name": "Franconian Switzerland",
+      "region": "Franconia",
+      "duration_days": 4,
+      "distance_km": 210,
+      "description": "The Fränkische Schweiz is a miniature landscape of limestone rock towers, hop gardens, and half-timbered villages stuffed between dramatic cliff faces. It has more breweries per capita than any other region in the world.",
+      "stops": [
+        { "name": "Bayreuth, Germany", "label": "Bayreuth" },
+        { "name": "Pottenstein, Germany", "label": "Pottenstein" },
+        { "name": "Tüchersfeld, Germany", "label": "Tüchersfeld" },
+        { "name": "Gößweinstein, Germany", "label": "Gößweinstein" },
+        { "name": "Ebermannstadt, Germany", "label": "Ebermannstadt" },
+        { "name": "Forchheim, Germany", "label": "Forchheim" }
+      ],
+      "highlights": ["Tüchersfeld cliff-hanging village", "Franconian Switzerland cave system", "World record brewery density", "Gößweinstein pilgrimage basilica"],
+      "cover_search_query": "Franconian Switzerland limestone rocks Tüchersfeld village Germany"
+    },
+    {
+      "id": "franconian-wine-road",
+      "name": "Franconian Wine Road",
+      "region": "Franconia",
+      "duration_days": 4,
+      "distance_km": 230,
+      "description": "Franconian wine comes in distinctive Bocksbeutel flasks and pairs with the region's hearty cuisine. The Main River loops through vine-covered hillsides from Würzburg to Volkach and beyond, with Baroque pilgrimage churches at every turn.",
+      "stops": [
+        { "name": "Würzburg, Germany", "label": "Würzburg" },
+        { "name": "Volkach, Germany", "label": "Volkach" },
+        { "name": "Sommerach, Germany", "label": "Sommerach" },
+        { "name": "Nordheim am Main, Germany", "label": "Nordheim" },
+        { "name": "Kitzingen, Germany", "label": "Kitzingen" },
+        { "name": "Iphofen, Germany", "label": "Iphofen" }
+      ],
+      "highlights": ["Volkach Rosenkranzkirche vineyard chapel", "Würzburg Stein vineyard", "Iphofen medieval town walls", "Franconian Bocksbeutel wine estates"],
+      "cover_search_query": "Würzburg Main River vineyard Franconian wine Germany"
+    },
+    {
+      "id": "altmühltal-nature-park",
+      "name": "Altmühltal Nature Park",
+      "region": "Franconia",
+      "duration_days": 4,
+      "distance_km": 220,
+      "description": "The Altmühl River meanders through one of Germany's largest nature parks in wide loops between white limestone cliffs riddled with fossils. Canoeists and cyclists share the valley with cruising vultures and prehistoric village reconstructions.",
+      "stops": [
+        { "name": "Gunzenhausen, Germany", "label": "Gunzenhausen" },
+        { "name": "Pappenheim, Germany", "label": "Pappenheim" },
+        { "name": "Solnhofen, Germany", "label": "Solnhofen" },
+        { "name": "Eichstätt, Germany", "label": "Eichstätt" },
+        { "name": "Beilngries, Germany", "label": "Beilngries" },
+        { "name": "Kelheim, Germany", "label": "Kelheim" }
+      ],
+      "highlights": ["Solnhofen Archaeopteryx fossil site", "Eichstätt baroque cathedral city", "Altmühl River canoe route", "Pappenheim castle ruins"],
+      "cover_search_query": "Altmühltal river limestone cliffs Bavaria Germany"
+    },
+    {
+      "id": "steigerwald-and-haßberge",
+      "name": "Steigerwald & Haßberge",
+      "region": "Franconia",
+      "duration_days": 3,
+      "distance_km": 170,
+      "description": "Between the Main and the Regnitz, the Steigerwald forest hides ancient oak forests, Cistercian monasteries, and the wine town of Iphofen. The Haßberge hills to the north add a further layer of forested tranquillity to this quiet Franconian corner.",
+      "stops": [
+        { "name": "Bamberg, Germany", "label": "Bamberg" },
+        { "name": "Ebrach, Germany", "label": "Ebrach Monastery" },
+        { "name": "Iphofen, Germany", "label": "Iphofen" },
+        { "name": "Schlüsselfeld, Germany", "label": "Schlüsselfeld" },
+        { "name": "Haßfurt, Germany", "label": "Haßfurt" }
+      ],
+      "highlights": ["Ebrach Cistercian monastery", "Iphofen complete medieval walls", "Steigerwald ancient oak forest", "Haßfurt Knights Chapel"],
+      "cover_search_query": "Ebrach Cistercian monastery Steigerwald Germany"
+    },
+    {
+      "id": "nuremberg-to-regensburg",
+      "name": "Nuremberg to Regensburg",
+      "region": "Franconia",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "Two of Germany's finest medieval cities lie just 100km apart on the old imperial road through Franconia. The route between them passes the Ludwig-Donau-Main canal, the Altmühl Valley, and some of the finest Romanesque churches in Germany.",
+      "stops": [
+        { "name": "Nuremberg, Germany", "label": "Nuremberg" },
+        { "name": "Schwabach, Germany", "label": "Schwabach" },
+        { "name": "Weißenburg in Bayern, Germany", "label": "Weißenburg" },
+        { "name": "Eichstätt, Germany", "label": "Eichstätt" },
+        { "name": "Kelheim, Germany", "label": "Kelheim" },
+        { "name": "Regensburg, Germany", "label": "Regensburg" }
+      ],
+      "highlights": ["Nuremberg toy and gingerbread market", "Weißenburg Roman fort", "Eichstätt bishop's city", "Regensburg Stone Bridge"],
+      "cover_search_query": "Regensburg Steinerne Brücke Danube Germany"
+    },
+    {
+      "id": "heidelberg-and-odenwald",
+      "name": "Heidelberg & the Odenwald",
+      "region": "Baden-Württemberg",
+      "duration_days": 5,
+      "distance_km": 280,
+      "description": "Heidelberg's ruined castle above the Neckar has inspired poets from Goethe to Twain, and the Alte Brücke and Old Town are Germany's most photographed ensemble. The wooded Odenwald behind the city conceals half-timbered towns and Roman roads.",
+      "stops": [
+        { "name": "Heidelberg, Germany", "label": "Heidelberg" },
+        { "name": "Neckarsteinach, Germany", "label": "Neckarsteinach" },
+        { "name": "Eberbach, Germany", "label": "Eberbach" },
+        { "name": "Michelstadt, Germany", "label": "Michelstadt" },
+        { "name": "Erbach im Odenwald, Germany", "label": "Erbach" },
+        { "name": "Heppenheim, Germany", "label": "Heppenheim" }
+      ],
+      "highlights": ["Heidelberg Castle ruins and old town", "Michelstadt medieval Rathaus on stilts", "Neckarsteig long-distance trail", "Erbach ivory carving tradition"],
+      "cover_search_query": "Heidelberg Castle Neckar River Germany"
+    },
+    {
+      "id": "swabian-alb-limestone-plateau",
+      "name": "Swabian Alb Limestone Plateau",
+      "region": "Baden-Württemberg",
+      "duration_days": 5,
+      "distance_km": 300,
+      "description": "The Schwäbische Alb is a dramatic limestone plateau of dry valleys, juniper heaths, and cliff-top castles. Hohenzollern — ancestral seat of the German emperors — rises from a lone hill in the most theatrical castle setting in Germany.",
+      "stops": [
+        { "name": "Tübingen, Germany", "label": "Tübingen" },
+        { "name": "Burg Hohenzollern, Hechingen, Germany", "label": "Hohenzollern Castle" },
+        { "name": "Albstadt, Germany", "label": "Albstadt" },
+        { "name": "Sigmaringen, Germany", "label": "Sigmaringen" },
+        { "name": "Bad Urach, Germany", "label": "Bad Urach" },
+        { "name": "Blaubeuren, Germany", "label": "Blaubeuren" }
+      ],
+      "highlights": ["Hohenzollern Castle imperial silhouette", "Blaubeuren Blautopf spring blue pool", "Bad Urach waterfall", "Tübingen punting on the Neckar"],
+      "cover_search_query": "Hohenzollern Castle hill mist Swabian Alb Germany"
+    },
+    {
+      "id": "lake-constance-circuit",
+      "name": "Lake Constance Circuit",
+      "region": "Baden-Württemberg",
+      "duration_days": 5,
+      "distance_km": 270,
+      "description": "The Bodensee is Germany's largest lake, an inland sea shared with Austria and Switzerland. The German shore combines the medieval island city of Konstanz, apple orchards of Überlingen, and the vine island of Reichenau in a relaxed lakeside drive.",
+      "stops": [
+        { "name": "Konstanz, Germany", "label": "Konstanz" },
+        { "name": "Reichenau Island, Germany", "label": "Reichenau Island" },
+        { "name": "Radolfzell, Germany", "label": "Radolfzell" },
+        { "name": "Überlingen, Germany", "label": "Überlingen" },
+        { "name": "Meersburg, Germany", "label": "Meersburg" },
+        { "name": "Friedrichshafen, Germany", "label": "Friedrichshafen" }
+      ],
+      "highlights": ["Reichenau UNESCO monastery island", "Meersburg medieval castle above lake", "Konstanz Old Town on the lake", "Friedrichshafen Zeppelin Museum"],
+      "cover_search_query": "Lake Constance Meersburg castle Germany summer"
+    },
+    {
+      "id": "stuttgart-and-swabian-wine-country",
+      "name": "Stuttgart & Swabian Wine Country",
+      "region": "Baden-Württemberg",
+      "duration_days": 4,
+      "distance_km": 230,
+      "description": "Stuttgart sits in a bowl of vineyards on the Neckar, and the Württemberg wine route winds along the river through castles, terraced hillside vineyards, and the ancient Roman fort town of Heilbronn. Cars and wine collide happily here.",
+      "stops": [
+        { "name": "Stuttgart, Germany", "label": "Stuttgart" },
+        { "name": "Ludwigsburg, Germany", "label": "Ludwigsburg" },
+        { "name": "Marbach am Neckar, Germany", "label": "Marbach" },
+        { "name": "Heilbronn, Germany", "label": "Heilbronn" },
+        { "name": "Weinsberg, Germany", "label": "Weinsberg" },
+        { "name": "Schwäbisch Hall, Germany", "label": "Schwäbisch Hall" }
+      ],
+      "highlights": ["Stuttgart Porsche and Mercedes museums", "Ludwigsburg Baroque palace", "Schwäbisch Hall market square steps", "Württemberg vineyard terraces"],
+      "cover_search_query": "Stuttgart Weinsteige vineyard terrace city Germany"
+    },
+    {
+      "id": "upper-swabia-baroque-route",
+      "name": "Upper Swabia Baroque Route",
+      "region": "Baden-Württemberg",
+      "duration_days": 4,
+      "distance_km": 220,
+      "description": "Upper Swabia has the highest concentration of Baroque religious architecture in Germany, a legacy of the Counter-Reformation. The Oberschwäbische Barockstraße links seventeen pilgrimage churches and monasteries in a landscape of rolling moraine hills.",
+      "stops": [
+        { "name": "Ulm, Germany", "label": "Ulm" },
+        { "name": "Biberach an der Riß, Germany", "label": "Biberach" },
+        { "name": "Weingarten, Germany", "label": "Weingarten" },
+        { "name": "Ravensburg, Germany", "label": "Ravensburg" },
+        { "name": "Wangen im Allgäu, Germany", "label": "Wangen" },
+        { "name": "Isny im Allgäu, Germany", "label": "Isny" }
+      ],
+      "highlights": ["Weingarten Basilica largest Baroque church south Germany", "Ulm Münster world's tallest church spire", "Ravensburg medieval towers", "Isny well-preserved town gates"],
+      "cover_search_query": "Weingarten Basilica Baroque Upper Swabia Germany"
+    },
+    {
+      "id": "neckar-valley-castle-road",
+      "name": "Neckar Valley Castle Road",
+      "region": "Baden-Württemberg",
+      "duration_days": 5,
+      "distance_km": 290,
+      "description": "The Burgenstraße follows the Neckar from Heidelberg to Heilbronn through Germany's densest concentration of castles per kilometre. Each bend of the river reveals another ruin on the heights, and the valley's half-timbered towns have barely changed in centuries.",
+      "stops": [
+        { "name": "Heidelberg, Germany", "label": "Heidelberg" },
+        { "name": "Hirschhorn, Germany", "label": "Hirschhorn" },
+        { "name": "Eberbach, Germany", "label": "Eberbach" },
+        { "name": "Mosbach, Germany", "label": "Mosbach" },
+        { "name": "Bad Wimpfen, Germany", "label": "Bad Wimpfen" },
+        { "name": "Heilbronn, Germany", "label": "Heilbronn" }
+      ],
+      "highlights": ["Hirschhorn Rhine count castle", "Bad Wimpfen Roman imperial palace", "Mosbach market square half-timbered", "Neckar river valley cycling"],
+      "cover_search_query": "Neckar Valley castles Hirschhorn Germany river"
+    },
+    {
+      "id": "heidelberg-to-konstanz-scenic",
+      "name": "Heidelberg to Konstanz Scenic",
+      "region": "Baden-Württemberg",
+      "duration_days": 5,
+      "distance_km": 340,
+      "description": "A south-to-north traverse of Baden-Württemberg links the university city of Heidelberg with Lake Constance through the Black Forest heights, the Swabian Alb, and the Hegau volcanic hills. Every landscape type of the southwest in one sweeping drive.",
+      "stops": [
+        { "name": "Heidelberg, Germany", "label": "Heidelberg" },
+        { "name": "Baden-Baden, Germany", "label": "Baden-Baden" },
+        { "name": "Freiburg im Breisgau, Germany", "label": "Freiburg" },
+        { "name": "Donaueschingen, Germany", "label": "Donaueschingen" },
+        { "name": "Stockach, Germany", "label": "Stockach" },
+        { "name": "Konstanz, Germany", "label": "Konstanz" }
+      ],
+      "highlights": ["Danube source at Donaueschingen", "Freiburg Münster Saturday market", "Radolfzell storks on chimneys", "Konstanz medieval Council hall"],
+      "cover_search_query": "Heidelberg old town aerial Neckar Germany"
+    },
+    {
+      "id": "berlin-and-potsdam-circuit",
+      "name": "Berlin & Potsdam Royal Circuit",
+      "region": "Brandenburg & Spreewald",
+      "duration_days": 5,
+      "distance_km": 260,
+      "description": "Potsdam's magnificent park and palace ensemble — Sanssouci, Cecilienhof, New Garden — forms one of Europe's greatest royal landscapes, an easy day-trip from Berlin. This circuit extends the Hohenzollern trail along the Havel lakes to Brandenburg an der Havel.",
+      "stops": [
+        { "name": "Berlin, Germany", "label": "Berlin" },
+        { "name": "Potsdam, Germany", "label": "Potsdam" },
+        { "name": "Sanssouci Park, Potsdam, Germany", "label": "Sanssouci" },
+        { "name": "Brandenburg an der Havel, Germany", "label": "Brandenburg" },
+        { "name": "Neuruppin, Germany", "label": "Neuruppin" },
+        { "name": "Oranienburg, Germany", "label": "Oranienburg" }
+      ],
+      "highlights": ["Sanssouci Frederick the Great's rococo palace", "Potsdam Cecilienhof Truman conference", "Brandenburg Havel island cathedral", "Sachsenhausen memorial"],
+      "cover_search_query": "Sanssouci Palace fountain Potsdam Germany"
+    },
+    {
+      "id": "spreewald-biosphere",
+      "name": "Spreewald Biosphere Reserve",
+      "region": "Brandenburg & Spreewald",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "The Spreewald is an extraordinary network of waterways where the Spree fans into hundreds of channels through an ancient floodplain forest. Sorbian culture, punter ferries, gherkin farms, and horse-drawn post coaches survive in this UNESCO biosphere.",
+      "stops": [
+        { "name": "Lübben (Spreewald), Germany", "label": "Lübben" },
+        { "name": "Lübbenau/Spreewald, Germany", "label": "Lübbenau" },
+        { "name": "Burg (Spreewald), Germany", "label": "Burg" },
+        { "name": "Cottbus, Germany", "label": "Cottbus" }
+      ],
+      "highlights": ["Spreewald punt boat tours", "Sorbian language and Easter traditions", "Lübbenau open-air museum", "Cottbus Baroque palace Branitz"],
+      "cover_search_query": "Spreewald canal punt boat Lübbenau Germany"
+    },
+    {
+      "id": "flaeming-and-wittenberg",
+      "name": "Fläming & Lutherstadt Wittenberg",
+      "region": "Brandenburg & Spreewald",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "The gentle Fläming hills south of Berlin offer cycling through glacial moraine landscape to the town where Martin Luther nailed his 95 Theses. Wittenberg's Reformation heritage is entirely walkable, and the Fläming's castle loop adds medieval colour.",
+      "stops": [
+        { "name": "Wittenberg, Germany", "label": "Lutherstadt Wittenberg" },
+        { "name": "Jüterbog, Germany", "label": "Jüterbog" },
+        { "name": "Belzig, Germany", "label": "Belzig" },
+        { "name": "Wiesenburg, Germany", "label": "Wiesenburg" },
+        { "name": "Potsdam, Germany", "label": "Potsdam" }
+      ],
+      "highlights": ["Wittenberg Castle Church Luther door", "Belzig Eisenhardt castle", "Fläming cycling landscape", "Wiesenburg English castle gardens"],
+      "cover_search_query": "Wittenberg Castle Church Reformation Germany Luther"
+    },
+    {
+      "id": "havel-lakes-and-rhinow",
+      "name": "Havel Lakes & Rhinow Hills",
+      "region": "Brandenburg & Spreewald",
+      "duration_days": 3,
+      "distance_km": 190,
+      "description": "The Havelland west of Berlin is a lake-scattered plain where Hohenzollern hunting lodges, sleepy fishing villages, and the aviation pioneer Otto Lilienthal's home hills create an unexpectedly diverse short break from the capital.",
+      "stops": [
+        { "name": "Potsdam, Germany", "label": "Potsdam" },
+        { "name": "Brandenburg an der Havel, Germany", "label": "Brandenburg" },
+        { "name": "Rathenow, Germany", "label": "Rathenow" },
+        { "name": "Rhinow, Germany", "label": "Rhinow" },
+        { "name": "Werder (Havel), Germany", "label": "Werder" }
+      ],
+      "highlights": ["Werder blossom festival April", "Rhinow Lilienthal aviation memorial", "Brandenburg cathedral island", "Havel lakes houseboat culture"],
+      "cover_search_query": "Havel River lakes Brandenburg Germany spring blossom"
+    },
+    {
+      "id": "lausitz-sorbian-country",
+      "name": "Lausitz — Sorbian Country",
+      "region": "Brandenburg & Spreewald",
+      "duration_days": 4,
+      "distance_km": 200,
+      "description": "The Lusatia region straddles Saxony and Brandenburg and is home to the Sorbs, Germany's only indigenous Slavic minority, with their own language, painted Easter eggs, and folk costumes. The lignite mining transformation here is also extraordinary.",
+      "stops": [
+        { "name": "Cottbus, Germany", "label": "Cottbus" },
+        { "name": "Hoyerswerda, Germany", "label": "Hoyerswerda" },
+        { "name": "Bautzen, Germany", "label": "Bautzen" },
+        { "name": "Weißwasser/Oberlausitz, Germany", "label": "Weißwasser" },
+        { "name": "Spremberg, Germany", "label": "Spremberg" }
+      ],
+      "highlights": ["Cottbus Branitz palace and Pückler landscape", "Sorbian Easter egg tradition", "Bautzen dual language street signs", "Lausitz lignite mine lakes transformation"],
+      "cover_search_query": "Bautzen Sorbian town Lusatia Germany"
+    },
+    {
+      "id": "eifel-volcanic-lakes",
+      "name": "Eifel Volcanic Lakes",
+      "region": "Eifel & Hunsrück",
+      "duration_days": 4,
+      "distance_km": 220,
+      "description": "The Eifel is a Volcanic Field of extinct maar craters now filled with deep blue lakes. The Laacher See, Pulvermaar, and Gemündener Maar offer eerie geological beauty, while Nürburg's legendary race circuit draws motorsport pilgrims.",
+      "stops": [
+        { "name": "Koblenz, Germany", "label": "Koblenz" },
+        { "name": "Laacher See, Mendig, Germany", "label": "Laacher See" },
+        { "name": "Mayen, Germany", "label": "Mayen" },
+        { "name": "Daun, Germany", "label": "Daun" },
+        { "name": "Nürburg, Germany", "label": "Nürburgring" },
+        { "name": "Adenau, Germany", "label": "Adenau" }
+      ],
+      "highlights": ["Laacher See volcanic lake abbey", "Nürburgring Nordschleife race track", "Daun maar lakes crater walk", "Gerolstein Heldborn mineral spring"],
+      "cover_search_query": "Nürburgring Nordschleife Eifel race circuit Germany"
+    },
+    {
+      "id": "hunsrück-high-road",
+      "name": "Hunsrück High Road",
+      "region": "Eifel & Hunsrück",
+      "duration_days": 4,
+      "distance_km": 230,
+      "description": "The Hunsrück plateau between Moselle and Rhine is crossed by an ancient ridge road past the Erbeskopf summit, the Celtic ring forts at Otzenhausen, and the Hunnen-Ring. Edgar Reitz set his epic Heimat film cycle in these atmospheric forested hills.",
+      "stops": [
+        { "name": "Trier, Germany", "label": "Trier" },
+        { "name": "Hermeskeil, Germany", "label": "Hermeskeil" },
+        { "name": "Birkenfeld, Germany", "label": "Birkenfeld" },
+        { "name": "Idar-Oberstein, Germany", "label": "Idar-Oberstein" },
+        { "name": "Simmern (Hunsrück), Germany", "label": "Simmern" },
+        { "name": "Boppard, Germany", "label": "Boppard" }
+      ],
+      "highlights": ["Idar-Oberstein cliff church in rock face", "Hunnenring Celtic hillfort", "Boppard Rhine loop panorama", "Erbeskopf Rhineland-Palatinate highpoint"],
+      "cover_search_query": "Idar-Oberstein church cliff rock face Germany"
+    },
+    {
+      "id": "cochem-and-moselleeifel",
+      "name": "Cochem & Moselle-Eifel",
+      "region": "Eifel & Hunsrück",
+      "duration_days": 4,
+      "distance_km": 200,
+      "description": "Where the Moselle cuts through the Eifel it forms the most dramatic section of its entire course, with Cochem's imperial castle looming over the river and the wine villages of Bremm and Alken perched on near-vertical slate slopes.",
+      "stops": [
+        { "name": "Cochem, Germany", "label": "Cochem" },
+        { "name": "Bremm, Germany", "label": "Bremm" },
+        { "name": "Treis-Karden, Germany", "label": "Treis-Karden" },
+        { "name": "Alken, Germany", "label": "Alken" },
+        { "name": "Münstermaifeld, Germany", "label": "Münstermaifeld" },
+        { "name": "Mayen, Germany", "label": "Mayen" }
+      ],
+      "highlights": ["Cochem Reichsburg above the river", "Bremm steepest vineyard in Germany", "Treis-Karden Romanesque church", "Moselle river bend panorama"],
+      "cover_search_query": "Cochem Imperial Castle Moselle River Germany"
+    },
+    {
+      "id": "eifel-national-park-and-aachen",
+      "name": "Eifel National Park & Aachen",
+      "region": "Eifel & Hunsrück",
+      "duration_days": 4,
+      "distance_km": 210,
+      "description": "The Eifel National Park in the north contains the last primeval beech forest remnants of western Germany. Charlemagne's capital at Aachen — its cathedral a UNESCO World Heritage treasure — anchors this westernmost corner of Germany.",
+      "stops": [
+        { "name": "Aachen, Germany", "label": "Aachen" },
+        { "name": "Monschau, Germany", "label": "Monschau" },
+        { "name": "Schleiden, Germany", "label": "Schleiden" },
+        { "name": "Bad Münstereifel, Germany", "label": "Bad Münstereifel" },
+        { "name": "Blankenheim, Germany", "label": "Blankenheim" },
+        { "name": "Prüm, Germany", "label": "Prüm" }
+      ],
+      "highlights": ["Aachen Cathedral Charlemagne UNESCO", "Monschau half-timbered Eifel town", "Nationalpark Eifel primeval beech", "Bad Münstereifel complete medieval walls"],
+      "cover_search_query": "Monschau half-timbered Eifel valley Germany"
+    },
+    {
+      "id": "lüneburg-heath-and-heide",
+      "name": "Lüneburg Heath",
+      "region": "Lower Saxony & Bremen",
+      "duration_days": 4,
+      "distance_km": 230,
+      "description": "In late summer the Lüneburg Heath turns purple with heather, creating one of Germany's most distinctive landscapes. The salt city of Lüneburg, the Bergen-Belsen memorial, and the horse town of Celle frame the heath in history and natural beauty.",
+      "stops": [
+        { "name": "Lüneburg, Germany", "label": "Lüneburg" },
+        { "name": "Bispingen, Germany", "label": "Bispingen" },
+        { "name": "Soltau, Germany", "label": "Soltau" },
+        { "name": "Bergen, Germany", "label": "Bergen" },
+        { "name": "Celle, Germany", "label": "Celle" },
+        { "name": "Hannover, Germany", "label": "Hannover" }
+      ],
+      "highlights": ["Lüneburg salt works and leaning buildings", "Lüneburg Heath heather August bloom", "Bergen-Belsen memorial", "Celle ducal palace and old town"],
+      "cover_search_query": "Lüneburg Heath heather bloom purple August Germany"
+    },
+    {
+      "id": "bremen-and-weser-marshes",
+      "name": "Bremen & the Weser Marshes",
+      "region": "Lower Saxony & Bremen",
+      "duration_days": 4,
+      "distance_km": 220,
+      "description": "Bremen's magnificent Marktplatz with its Roland statue and Town Musicians sculpture anchors a route through the Weser Marshes, the half-timbered masterpiece of Worpswede artists' colony, and the Elbe mouth at Cuxhaven.",
+      "stops": [
+        { "name": "Bremen, Germany", "label": "Bremen" },
+        { "name": "Worpswede, Germany", "label": "Worpswede" },
+        { "name": "Bremerhaven, Germany", "label": "Bremerhaven" },
+        { "name": "Cuxhaven, Germany", "label": "Cuxhaven" },
+        { "name": "Stade, Germany", "label": "Stade" },
+        { "name": "Hamburg, Germany", "label": "Hamburg" }
+      ],
+      "highlights": ["Bremen Roland statue and Town Musicians", "Worpswede artists colony", "Bremerhaven emigration museum", "Cuxhaven Wadden Sea seal watching"],
+      "cover_search_query": "Bremen Marktplatz Rathaus Roland Germany"
+    },
+    {
+      "id": "east-frisian-islands",
+      "name": "East Frisian Islands",
+      "region": "Lower Saxony & Bremen",
+      "duration_days": 5,
+      "distance_km": 250,
+      "description": "Seven car-free islands protect the East Frisian coast from the North Sea. Each has its own character — Borkum the grand, Norderney the fashionable, Juist the quietest, Spiekeroog the most traditional — reachable by ferry from the mainland harbours.",
+      "stops": [
+        { "name": "Emden, Germany", "label": "Emden" },
+        { "name": "Borkum, Germany", "label": "Borkum Island" },
+        { "name": "Norderney, Germany", "label": "Norderney Island" },
+        { "name": "Norddeich, Germany", "label": "Norddeich" },
+        { "name": "Aurich, Germany", "label": "Aurich" },
+        { "name": "Jever, Germany", "label": "Jever" }
+      ],
+      "highlights": ["Borkum grand lighthouse", "Norderney Kurhaus spa architecture", "East Frisian tidal mudflat walks", "Jever Palace and Frisian beer"],
+      "cover_search_query": "Norderney East Frisian Island lighthouse Germany North Sea"
+    },
+    {
+      "id": "hannover-and-weser-hills",
+      "name": "Hannover & the Weser Hills",
+      "region": "Lower Saxony & Bremen",
+      "duration_days": 4,
+      "distance_km": 240,
+      "description": "The Weserbergland south of Hannover is the setting for the Pied Piper legend of Hameln and the sandstone gorges of the Weser. Half-timbered market towns of exceptional quality — Hameln, Höxter, Corvey Abbey — fill a compact and rewarding loop.",
+      "stops": [
+        { "name": "Hannover, Germany", "label": "Hannover" },
+        { "name": "Hameln, Germany", "label": "Hameln" },
+        { "name": "Bad Pyrmont, Germany", "label": "Bad Pyrmont" },
+        { "name": "Höxter, Germany", "label": "Höxter" },
+        { "name": "Corvey, Germany", "label": "Corvey Abbey" },
+        { "name": "Holzminden, Germany", "label": "Holzminden" }
+      ],
+      "highlights": ["Hameln Pied Piper Weser Renaissance", "Corvey UNESCO Carolingian westwork", "Weserbergland sandstone landscape", "Bad Pyrmont Baroque spa colonnade"],
+      "cover_search_query": "Hameln Weser Renaissance half-timbered Germany"
+    }
+  ]
+}

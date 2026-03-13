@@ -127,9 +127,10 @@
       display: flex; align-items: center; justify-content: center;
       font-size: 18px;
     }
-    .card-icon.blue  { background: rgba(79,142,247,0.15); }
-    .card-icon.green { background: rgba(52,211,153,0.15); }
-    .card-icon.amber { background: rgba(245,158,11,0.15);  }
+    .card-icon.blue   { background: rgba(79,142,247,0.15); }
+    .card-icon.green  { background: rgba(52,211,153,0.15); }
+    .card-icon.amber  { background: rgba(245,158,11,0.15);  }
+    .card-icon.purple { background: rgba(167,139,250,0.15); }
 
     .card-meta {
       display: flex;
@@ -167,12 +168,164 @@
     }
     .card.soon .tag { color: var(--muted); }
 
+    /* ── Road Trip Planner section ── */
+    .rtp-section {
+      padding: 0 32px 64px;
+      max-width: 860px;
+      margin: 0 auto;
+    }
+    .rtp-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+    .rtp-header .section-label { margin: 0; border: 0; padding: 0; }
+    .rtp-header a.view-all {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent);
+      text-decoration: none;
+    }
+    .rtp-header a.view-all:hover { opacity: 0.8; }
+
+    /* Country pills */
+    .rtp-countries {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 24px;
+    }
+    .rtp-country-btn {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 7px 16px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: border-color 0.15s;
+    }
+    .rtp-country-btn:hover { border-color: var(--accent); }
+    .rtp-country-btn.active {
+      border-color: #a78bfa;
+      background: rgba(167,139,250,0.1);
+      color: #a78bfa;
+    }
+
+    /* Trip mini-cards */
+    .rtp-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 14px;
+    }
+
+    .rtp-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: border-color 0.15s, transform 0.15s;
+    }
+    .rtp-card:hover { border-color: #a78bfa; transform: translateY(-2px); }
+
+    .rtp-photo {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+      display: block;
+    }
+    .rtp-photo-placeholder {
+      width: 100%;
+      height: 140px;
+      background: linear-gradient(135deg, #1e2235, #2a2d3a);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 32px;
+    }
+    .rtp-photo-loading { animation: rtp-pulse 1.5s ease-in-out infinite; }
+    @keyframes rtp-pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+
+    .rtp-card-body {
+      padding: 12px 14px 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      flex: 1;
+    }
+    .rtp-card-body h3 {
+      font-size: 13px;
+      font-weight: 700;
+      line-height: 1.3;
+    }
+    .rtp-pills {
+      display: flex;
+      gap: 5px;
+      flex-wrap: wrap;
+    }
+    .rtp-pill {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      border-radius: 4px;
+      padding: 2px 6px;
+    }
+    .rtp-pill.region  { background: rgba(167,139,250,0.15); color: #a78bfa; }
+    .rtp-pill.dur     { background: rgba(79,142,247,0.12);  color: var(--accent); }
+    .rtp-pill.dist    { background: rgba(52,211,153,0.12);  color: #34d399; }
+
+    .rtp-stops {
+      font-size: 11px;
+      color: var(--muted);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .rtp-btn {
+      display: block;
+      margin-top: auto;
+      text-align: center;
+      background: #a78bfa;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      padding: 8px 12px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      transition: opacity 0.15s;
+    }
+    .rtp-btn:hover { opacity: 0.85; }
+
+    /* Loading / empty states */
+    .rtp-state {
+      font-size: 13px;
+      color: var(--muted);
+      padding: 32px 0;
+      text-align: center;
+    }
+
     @media (max-width: 600px) {
       header { padding: 0 16px; }
       .hero { padding: 32px 16px 20px; }
       .hero h2 { font-size: 24px; }
       .section { padding: 8px 16px 40px; }
       .grid { grid-template-columns: 1fr; }
+      .rtp-section { padding: 0 16px 48px; }
+      .rtp-grid { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -203,6 +356,16 @@
       <span class="tag">6 tools available</span>
     </a>
 
+    <a class="card" href="./holiday/">
+      <div class="card-meta">
+        <div class="card-icon purple">🌍</div>
+        <span class="arrow">›</span>
+      </div>
+      <h3>Path2Holiday</h3>
+      <p>Planning a holiday? Discover curated European road trips, explore itineraries, and launch your route in one click.</p>
+      <span class="tag">1 tool available</span>
+    </a>
+
     <div class="card soon">
       <div class="card-icon green">🎯</div>
       <h3>Event Planner</h3>
@@ -212,6 +375,142 @@
 
   </div>
 </div>
+
+<!-- ── Road Trip Planner ── -->
+<div class="rtp-section">
+  <div class="rtp-header">
+    <div class="section-label">Road Trip Planner</div>
+    <a class="view-all" href="./holiday/trip-planner/" id="rtp-view-all" style="display:none">View all →</a>
+  </div>
+
+  <div class="rtp-countries">
+    <button class="rtp-country-btn" data-country="italy">🇮🇹 Italy</button>
+    <button class="rtp-country-btn" data-country="france">🇫🇷 France</button>
+    <button class="rtp-country-btn" data-country="germany">🇩🇪 Germany</button>
+    <button class="rtp-country-btn" data-country="spain">🇪🇸 Spain</button>
+  </div>
+
+  <div id="rtp-grid" class="rtp-grid"></div>
+  <div id="rtp-state" class="rtp-state">Pick a country to explore road trips.</div>
+</div>
+
+<script>
+(function () {
+  const WEBHOOK = 'https://n8n.path2anywhere.com/webhook/trip-planner';
+  const MULTI   = '/route-calculator/multi-stop/';
+  const TRIP_PG = './holiday/trip-planner/';
+  const SHOWN   = 6; // cards to show on homepage
+
+  let cache = {}; // country → { data, photos }
+
+  document.querySelectorAll('.rtp-country-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.rtp-country-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      loadCountry(btn.dataset.country);
+    });
+  });
+
+  async function loadCountry(country) {
+    const grid  = document.getElementById('rtp-grid');
+    const state = document.getElementById('rtp-state');
+    const viewAll = document.getElementById('rtp-view-all');
+
+    grid.innerHTML = '';
+    state.textContent = 'Loading…';
+    state.style.display = 'block';
+    viewAll.style.display = 'none';
+
+    // Load JSON (cached)
+    if (!cache[country]) {
+      try {
+        const r = await fetch(`./holiday/trip-planner/data/${country}.json`);
+        if (!r.ok) throw new Error();
+        cache[country] = { data: await r.json(), photos: null };
+      } catch {
+        state.textContent = 'Could not load itineraries.';
+        return;
+      }
+    }
+
+    const { data } = cache[country];
+    const featured = data.trips.slice(0, SHOWN);
+
+    state.style.display = 'none';
+    renderCards(featured, data.emoji || '🗺️');
+
+    // Update "view all" link
+    viewAll.href = `${TRIP_PG}?country=${country}`;
+    viewAll.textContent = `View all ${data.trips.length} itineraries →`;
+    viewAll.style.display = 'block';
+
+    // Fetch photos if needed
+    if (!cache[country].photos) {
+      const queries = featured.map(t => t.cover_search_query);
+      try {
+        const r = await fetch(WEBHOOK, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ country, queries }),
+        });
+        cache[country].photos = await r.json();
+      } catch {
+        cache[country].photos = {};
+      }
+      applyPhotos(featured);
+    } else {
+      applyPhotos(featured);
+    }
+  }
+
+  function renderCards(trips, emoji) {
+    const grid = document.getElementById('rtp-grid');
+    grid.innerHTML = trips.map(trip => {
+      const stopsParam = trip.stops.map(s => encodeURIComponent(s.name)).join('|');
+      const stopLabels = trip.stops.slice(0, 4).map(s => s.label).join(' › ')
+        + (trip.stops.length > 4 ? ` +${trip.stops.length - 4}` : '');
+      return `
+        <div class="rtp-card">
+          <div class="rtp-photo-placeholder rtp-photo-loading" id="rtp-p-${trip.id}">${emoji}</div>
+          <div class="rtp-card-body">
+            <h3>${esc(trip.name)}</h3>
+            <div class="rtp-pills">
+              <span class="rtp-pill region">${esc(trip.region)}</span>
+              <span class="rtp-pill dur">⏱ ${trip.duration_days}d</span>
+              <span class="rtp-pill dist">📍 ${trip.distance_km} km</span>
+            </div>
+            <div class="rtp-stops">${esc(stopLabels)}</div>
+            <a class="rtp-btn" href="${MULTI}?stops=${stopsParam}">Plan this route →</a>
+          </div>
+        </div>`;
+    }).join('');
+  }
+
+  function applyPhotos(trips) {
+    const country = document.querySelector('.rtp-country-btn.active')?.dataset.country;
+    const photos = cache[country]?.photos || {};
+    trips.forEach(trip => {
+      const el = document.getElementById(`rtp-p-${trip.id}`);
+      if (!el) return;
+      const p = photos[trip.cover_search_query];
+      if (p && p.photo_url) {
+        const img = document.createElement('img');
+        img.className = 'rtp-photo';
+        img.alt = trip.name;
+        img.src = p.photo_url;
+        img.onload = () => el.replaceWith(img);
+        img.onerror = () => el.classList.remove('rtp-photo-loading');
+      } else {
+        el.classList.remove('rtp-photo-loading');
+      }
+    });
+  }
+
+  function esc(s) {
+    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+})();
+</script>
 
 </body>
 </html>

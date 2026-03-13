@@ -1,0 +1,1512 @@
+{
+  "country": "France",
+  "country_code": "fr",
+  "emoji": "🇫🇷",
+  "trips": [
+    {
+      "id": "provence-lavender",
+      "name": "Provence Lavender & Luberon",
+      "region": "Provence & Côte d'Azur",
+      "duration_days": 5,
+      "distance_km": 300,
+      "description": "In July, the Valensole plateau turns violet with lavender as far as the eye can see. Drive through ochre-cliffed Roussillon, perched Gordes, and the Luberon's hilltop villages for the quintessential Provence experience.",
+      "stops": [
+        {"name": "Avignon, France", "label": "Avignon"},
+        {"name": "Gordes, France", "label": "Gordes"},
+        {"name": "Roussillon, France", "label": "Roussillon"},
+        {"name": "Apt, France", "label": "Apt"},
+        {"name": "Valensole, France", "label": "Valensole"},
+        {"name": "Moustiers-Sainte-Marie, France", "label": "Moustiers"}
+      ],
+      "highlights": ["Lavender fields at Valensole", "Ochre cliffs at Roussillon", "Gordes hilltop view", "Luberon villages"],
+      "cover_search_query": "Provence lavender fields Valensole France"
+    },
+    {
+      "id": "cote-azur-classic",
+      "name": "Côte d'Azur Classic",
+      "region": "Provence & Côte d'Azur",
+      "duration_days": 5,
+      "distance_km": 260,
+      "description": "The French Riviera's Corniche roads — Grande, Moyenne, and Basse — offer three different perspectives on Monaco and the cliff-backed coastline between Nice and Menton. Glamour without flying.",
+      "stops": [
+        {"name": "Nice, France", "label": "Nice"},
+        {"name": "Èze, France", "label": "Èze"},
+        {"name": "Monaco, Monaco", "label": "Monaco"},
+        {"name": "Menton, France", "label": "Menton"},
+        {"name": "Antibes, France", "label": "Antibes"},
+        {"name": "Cannes, France", "label": "Cannes"}
+      ],
+      "highlights": ["Three Corniche roads", "Monaco Grand Prix circuit", "Matisse Chapel at Vence", "Antibes old town"],
+      "cover_search_query": "Côte d'Azur Corniche road Nice France"
+    },
+    {
+      "id": "gorges-verdon",
+      "name": "Gorges du Verdon — Europe's Grand Canyon",
+      "region": "Provence & Côte d'Azur",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "The Gorges du Verdon is Europe's deepest canyon — 700m of limestone walls above a turquoise river. The D952 road along the rim is one of France's great drives, with vertigo-inducing viewpoints.",
+      "stops": [
+        {"name": "Castellane, France", "label": "Castellane"},
+        {"name": "La Palud-sur-Verdon, France", "label": "La Palud"},
+        {"name": "Moustiers-Sainte-Marie, France", "label": "Moustiers"},
+        {"name": "Lac de Sainte-Croix, France", "label": "Lac Sainte-Croix"},
+        {"name": "Aiguines, France", "label": "Aiguines"}
+      ],
+      "highlights": ["700m canyon walls", "Turquoise Verdon river", "Canoe and kayak on the lake", "Moustiers faience pottery"],
+      "cover_search_query": "Gorges du Verdon canyon turquoise France"
+    },
+    {
+      "id": "provence-alpilles-camargue",
+      "name": "Alpilles, Arles & the Camargue",
+      "region": "Provence & Côte d'Azur",
+      "duration_days": 4,
+      "distance_km": 220,
+      "description": "Les Baux-de-Provence perches above olive-silvered limestone while the Camargue wetlands shelter white horses and flamingos. Van Gogh painted Arles relentlessly; the Roman arena still hosts corridas.",
+      "stops": [
+        {"name": "Arles, France", "label": "Arles"},
+        {"name": "Les Baux-de-Provence, France", "label": "Les Baux"},
+        {"name": "Saint-Rémy-de-Provence, France", "label": "Saint-Rémy"},
+        {"name": "Saintes-Maries-de-la-Mer, France", "label": "Saintes-Maries"},
+        {"name": "Aigues-Mortes, France", "label": "Aigues-Mortes"}
+      ],
+      "highlights": ["Arles Roman amphitheatre", "Les Baux dramatic ruins", "Camargue white horses and flamingos", "Van Gogh trail"],
+      "cover_search_query": "Camargue white horses Provence France"
+    },
+    {
+      "id": "aix-marseille",
+      "name": "Aix-en-Provence & Marseille",
+      "region": "Provence & Côte d'Azur",
+      "duration_days": 4,
+      "distance_km": 200,
+      "description": "Cézanne's fountained city and France's oldest harbour: Aix's cours Mirabeau and Marseille's Vieux-Port are just 30 minutes apart but feel like different worlds. The Calanques between them are extraordinary.",
+      "stops": [
+        {"name": "Aix-en-Provence, France", "label": "Aix-en-Provence"},
+        {"name": "Marseille, France", "label": "Marseille"},
+        {"name": "Cassis, France", "label": "Cassis"},
+        {"name": "Bandol, France", "label": "Bandol"},
+        {"name": "Toulon, France", "label": "Toulon"}
+      ],
+      "highlights": ["Marseille Vieux-Port bouillabaisse", "Calanques limestone fjords", "Cézanne's studio", "Bandol rosé wine"],
+      "cover_search_query": "Calanques limestone cliffs Marseille France"
+    },
+    {
+      "id": "var-saint-tropez",
+      "name": "Var — Saint-Tropez & the Massif des Maures",
+      "region": "Provence & Côte d'Azur",
+      "duration_days": 4,
+      "distance_km": 200,
+      "description": "Saint-Tropez's harbour bristles with superyachts, but inland the Massif des Maures is a wild cork-oak forest hiding villages like Collobrières and its marron glacé tradition.",
+      "stops": [
+        {"name": "Toulon, France", "label": "Toulon"},
+        {"name": "Hyères, France", "label": "Hyères"},
+        {"name": "Collobrières, France", "label": "Collobrières"},
+        {"name": "Grimaud, France", "label": "Grimaud"},
+        {"name": "Saint-Tropez, France", "label": "Saint-Tropez"},
+        {"name": "Fréjus, France", "label": "Fréjus"}
+      ],
+      "highlights": ["Saint-Tropez harbour glamour", "Massif des Maures cork forest", "Collobrières chestnuts", "Port Grimaud water village"],
+      "cover_search_query": "Saint-Tropez harbour yachts Var France"
+    },
+    {
+      "id": "haute-provence",
+      "name": "Haute-Provence — Lavender & Mountains",
+      "region": "Provence & Côte d'Azur",
+      "duration_days": 4,
+      "distance_km": 260,
+      "description": "Above Digne-les-Bains, the Alpes-de-Haute-Provence open into a landscape of lavender fields, alpine villages, and the remote Vallée de l'Ubaye — all within a long day's drive of the Côte d'Azur.",
+      "stops": [
+        {"name": "Digne-les-Bains, France", "label": "Digne-les-Bains"},
+        {"name": "Forcalquier, France", "label": "Forcalquier"},
+        {"name": "Sisteron, France", "label": "Sisteron"},
+        {"name": "Barcelonnette, France", "label": "Barcelonnette"},
+        {"name": "Entrevaux, France", "label": "Entrevaux"}
+      ],
+      "highlights": ["Sisteron citadel on rock", "Col d'Allos mountain pass", "Barcelonnette Mexican villas", "Alpine flower meadows"],
+      "cover_search_query": "Sisteron citadel rock Haute-Provence France"
+    },
+    {
+      "id": "normandy-d-day",
+      "name": "D-Day Beaches & the Battle of Normandy",
+      "region": "Normandy",
+      "duration_days": 4,
+      "distance_km": 200,
+      "description": "The 80km of Normandy coast between Utah and Sword beaches is the most significant stretch of 20th-century history. Walk Omaha Beach, visit Pointe du Hoc, and end at the moving American cemetery above the sea.",
+      "stops": [
+        {"name": "Caen, France", "label": "Caen"},
+        {"name": "Arromanches-les-Bains, France", "label": "Arromanches"},
+        {"name": "Omaha Beach, France", "label": "Omaha Beach"},
+        {"name": "Pointe du Hoc, France", "label": "Pointe du Hoc"},
+        {"name": "Bayeux, France", "label": "Bayeux"},
+        {"name": "Sainte-Mère-Église, France", "label": "Sainte-Mère-Église"}
+      ],
+      "highlights": ["Omaha Beach cemetery", "Arromanches Mulberry harbour remains", "Bayeux Tapestry", "Paratroopers church Sainte-Mère-Église"],
+      "cover_search_query": "Omaha Beach Normandy D-Day cemetery France"
+    },
+    {
+      "id": "mont-saint-michel",
+      "name": "Mont Saint-Michel & the Cotentin",
+      "region": "Normandy",
+      "duration_days": 4,
+      "distance_km": 240,
+      "description": "Mont Saint-Michel rises from tidal sands like a medieval hallucination — the most visited site in France outside Paris. The Cotentin peninsula's wild cliffs and Cap de la Hague complete this corner of Normandy.",
+      "stops": [
+        {"name": "Rennes, France", "label": "Rennes"},
+        {"name": "Mont Saint-Michel, France", "label": "Mont Saint-Michel"},
+        {"name": "Granville, France", "label": "Granville"},
+        {"name": "Cherbourg, France", "label": "Cherbourg"},
+        {"name": "Cap de la Hague, France", "label": "Cap de la Hague"}
+      ],
+      "highlights": ["Mont Saint-Michel tidal island", "Bay quicksand experience", "Cotentin wild cliffs", "Cherbourg Cité de la Mer"],
+      "cover_search_query": "Mont Saint-Michel tidal island Normandy France"
+    },
+    {
+      "id": "normandy-honfleur-etretat",
+      "name": "Honfleur, Étretat & the Alabaster Coast",
+      "region": "Normandy",
+      "duration_days": 4,
+      "distance_km": 220,
+      "description": "Honfleur's Vieux Bassin inspired Boudin and later Monet. North on the Alabaster Coast, Étretat's chalk arches plunge into the sea in the scene that inspired Monet's most famous canvases.",
+      "stops": [
+        {"name": "Rouen, France", "label": "Rouen"},
+        {"name": "Honfleur, France", "label": "Honfleur"},
+        {"name": "Deauville, France", "label": "Deauville"},
+        {"name": "Étretat, France", "label": "Étretat"},
+        {"name": "Fécamp, France", "label": "Fécamp"},
+        {"name": "Dieppe, France", "label": "Dieppe"}
+      ],
+      "highlights": ["Étretat chalk arches Monet", "Honfleur harbour Impressionists", "Deauville boardwalk", "Rouen Joan of Arc cathedral"],
+      "cover_search_query": "Étretat chalk cliffs arch Normandy France"
+    },
+    {
+      "id": "normandy-suisse",
+      "name": "Norman Switzerland & the Perche",
+      "region": "Normandy",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "The wooded valleys of the Suisse Normande earned their name from the dramatic scenery. The Perche countryside beyond produces its famous percherons horses and France's finest cider and calvados.",
+      "stops": [
+        {"name": "Caen, France", "label": "Caen"},
+        {"name": "Clécy, France", "label": "Clécy"},
+        {"name": "Argentan, France", "label": "Argentan"},
+        {"name": "Camembert, France", "label": "Camembert"},
+        {"name": "Lisieux, France", "label": "Lisieux"}
+      ],
+      "highlights": ["Suisse Normande river gorge", "Camembert cheese village", "Percheron horse studs", "Calvados distilleries"],
+      "cover_search_query": "Suisse Normande river gorge Normandy France"
+    },
+    {
+      "id": "brittany-finistere",
+      "name": "Finistère — Land's End of Brittany",
+      "region": "Brittany",
+      "duration_days": 5,
+      "distance_km": 300,
+      "description": "Finistère means Land's End in Latin — it's where France runs out, and the Atlantic takes over. Crozon's wild peninsulas, Ouessant's lighthouse island, and the enclos paroissiaux carved churchyards are unforgettable.",
+      "stops": [
+        {"name": "Brest, France", "label": "Brest"},
+        {"name": "Crozon, France", "label": "Crozon"},
+        {"name": "Douarnenez, France", "label": "Douarnenez"},
+        {"name": "Quimper, France", "label": "Quimper"},
+        {"name": "Pointe du Raz, France", "label": "Pointe du Raz"},
+        {"name": "Audierne, France", "label": "Audierne"}
+      ],
+      "highlights": ["Pointe du Raz dramatic tip", "Crozon peninsula wild coast", "Quimper Gothic cathedral", "Brittany crêpes"],
+      "cover_search_query": "Pointe du Raz Finistère Brittany France"
+    },
+    {
+      "id": "brittany-saint-malo",
+      "name": "Saint-Malo, Dinard & the Emerald Coast",
+      "region": "Brittany",
+      "duration_days": 4,
+      "distance_km": 220,
+      "description": "Saint-Malo's ramparts enclose a corsair city that seems lifted from a novel. Across the estuary Dinard has striped beach tents and villas; east, the Côte d'Émeraude's green water matches its name.",
+      "stops": [
+        {"name": "Saint-Malo, France", "label": "Saint-Malo"},
+        {"name": "Dinard, France", "label": "Dinard"},
+        {"name": "Dinan, France", "label": "Dinan"},
+        {"name": "Cap Fréhel, France", "label": "Cap Fréhel"},
+        {"name": "Paimpol, France", "label": "Paimpol"}
+      ],
+      "highlights": ["Saint-Malo rampart walk", "Dinan medieval harbour", "Cap Fréhel lighthouse", "Brittany seafood"],
+      "cover_search_query": "Saint-Malo ramparts Brittany France"
+    },
+    {
+      "id": "brittany-morbihan",
+      "name": "Gulf of Morbihan & Carnac",
+      "region": "Brittany",
+      "duration_days": 4,
+      "distance_km": 200,
+      "description": "The Gulf of Morbihan is a sheltered inland sea full of islands and oyster beds. Carnac's stone alignments — 3,000 ancient menhirs stretching for kilometres — are prehistoric Europe's greatest mystery.",
+      "stops": [
+        {"name": "Vannes, France", "label": "Vannes"},
+        {"name": "Carnac, France", "label": "Carnac"},
+        {"name": "Quiberon, France", "label": "Quiberon"},
+        {"name": "Île-aux-Moines, France", "label": "Île-aux-Moines"},
+        {"name": "Auray, France", "label": "Auray"}
+      ],
+      "highlights": ["Carnac megalithic alignments", "Gulf of Morbihan islands", "Quiberon wild coast (Côte Sauvage)", "Oyster tasting at Vannes"],
+      "cover_search_query": "Carnac megalithic stones Brittany France"
+    },
+    {
+      "id": "brittany-pink-granite",
+      "name": "Pink Granite Coast & the Tregor",
+      "region": "Brittany",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "The Côte de Granit Rose turns pink at sunrise, its enormous rounded boulders creating a lunar landscape at Ploumanac'h. Perros-Guirec and Tréguier's Gothic cathedral anchor this northern Breton circuit.",
+      "stops": [
+        {"name": "Lannion, France", "label": "Lannion"},
+        {"name": "Ploumanac'h, France", "label": "Ploumanac'h"},
+        {"name": "Perros-Guirec, France", "label": "Perros-Guirec"},
+        {"name": "Tréguier, France", "label": "Tréguier"},
+        {"name": "Paimpol, France", "label": "Paimpol"}
+      ],
+      "highlights": ["Pink granite boulders at Ploumanac'h", "Tréguier Gothic cathedral", "Île de Bréhat boat trip", "Breton culture and language"],
+      "cover_search_query": "Pink Granite Coast Ploumanac'h Brittany France"
+    },
+    {
+      "id": "loire-chateaux",
+      "name": "Loire Valley Châteaux",
+      "region": "Loire Valley",
+      "duration_days": 5,
+      "distance_km": 300,
+      "description": "The Loire valley is the garden of France — a UNESCO river corridor of Renaissance châteaux, white tuffeau stone villages, and cool white wines. Chambord, Chenonceau, and Amboise define French royal grandeur.",
+      "stops": [
+        {"name": "Orléans, France", "label": "Orléans"},
+        {"name": "Chambord, France", "label": "Chambord"},
+        {"name": "Blois, France", "label": "Blois"},
+        {"name": "Amboise, France", "label": "Amboise"},
+        {"name": "Chenonceau, France", "label": "Chenonceau"},
+        {"name": "Tours, France", "label": "Tours"}
+      ],
+      "highlights": ["Chambord double-helix staircase", "Chenonceau spanning the river", "Leonardo's tomb at Amboise", "Vouvray wine caves"],
+      "cover_search_query": "Château de Chambord Loire Valley France"
+    },
+    {
+      "id": "loire-western",
+      "name": "Anjou & the Western Loire",
+      "region": "Loire Valley",
+      "duration_days": 4,
+      "distance_km": 240,
+      "description": "The western Loire is wilder and less visited — Angers's tapestry of the Apocalypse, the muscadet vineyards of the Pays Nantais, and the extraordinary troglodyte village of Rochemenier.",
+      "stops": [
+        {"name": "Angers, France", "label": "Angers"},
+        {"name": "Saumur, France", "label": "Saumur"},
+        {"name": "Fontevraud-l'Abbaye, France", "label": "Fontevraud"},
+        {"name": "Chinon, France", "label": "Chinon"},
+        {"name": "Nantes, France", "label": "Nantes"}
+      ],
+      "highlights": ["Apocalypse Tapestry at Angers", "Saumur mushroom caves", "Plantagenet tombs at Fontevraud", "Chinon medieval castle"],
+      "cover_search_query": "Saumur castle Loire Valley France"
+    },
+    {
+      "id": "alsace-wine-route",
+      "name": "Alsace Wine Route",
+      "region": "Alsace & Lorraine",
+      "duration_days": 4,
+      "distance_km": 200,
+      "description": "The Route des Vins d'Alsace threads through half-timbered villages with flower-draped balconies, producing Riesling, Gewürztraminer, and Pinot Gris under a Vosges mountain backdrop.",
+      "stops": [
+        {"name": "Strasbourg, France", "label": "Strasbourg"},
+        {"name": "Obernai, France", "label": "Obernai"},
+        {"name": "Riquewihr, France", "label": "Riquewihr"},
+        {"name": "Kaysersberg, France", "label": "Kaysersberg"},
+        {"name": "Colmar, France", "label": "Colmar"},
+        {"name": "Thann, France", "label": "Thann"}
+      ],
+      "highlights": ["Riquewihr perfectly preserved village", "Colmar's Little Venice", "Strasbourg Cathedral", "Riesling wine estates"],
+      "cover_search_query": "Alsace Riquewihr half-timbered village wine France"
+    },
+    {
+      "id": "alsace-vosges",
+      "name": "Vosges Mountains & the Alsatian Crest Road",
+      "region": "Alsace & Lorraine",
+      "duration_days": 3,
+      "distance_km": 200,
+      "description": "The Route des Crêtes runs along the crest of the Vosges from one WWII battlefield to the next, with views across to the Black Forest. Munster valley produces the eponymous pungent cheese.",
+      "stops": [
+        {"name": "Colmar, France", "label": "Colmar"},
+        {"name": "Munster, France", "label": "Munster"},
+        {"name": "Le Markstein, France", "label": "Le Markstein"},
+        {"name": "Gérardmer, France", "label": "Gérardmer"},
+        {"name": "Épinal, France", "label": "Épinal"}
+      ],
+      "highlights": ["Route des Crêtes viewpoints", "Munster cheese valley", "Gérardmer lake", "WWII Maginot Line sites"],
+      "cover_search_query": "Vosges mountains Route des Crêtes Alsace France"
+    },
+    {
+      "id": "lorraine-metz-nancy",
+      "name": "Lorraine — Metz, Nancy & the Moselle",
+      "region": "Alsace & Lorraine",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "Nancy's Place Stanislas is the most beautiful baroque square in France; Metz has a cathedral of stained glass; and the Moselle river curves between vineyards producing the lightest wines in France.",
+      "stops": [
+        {"name": "Nancy, France", "label": "Nancy"},
+        {"name": "Metz, France", "label": "Metz"},
+        {"name": "Verdun, France", "label": "Verdun"},
+        {"name": "Thionville, France", "label": "Thionville"},
+        {"name": "Pont-à-Mousson, France", "label": "Pont-à-Mousson"}
+      ],
+      "highlights": ["Nancy Place Stanislas Art Nouveau", "Metz cathedral stained glass", "Verdun WWI battlefield", "Moselle wines"],
+      "cover_search_query": "Nancy Place Stanislas baroque square France"
+    },
+    {
+      "id": "burgundy-wine-road",
+      "name": "Burgundy Wine Road — Côte d'Or",
+      "region": "Burgundy",
+      "duration_days": 4,
+      "distance_km": 200,
+      "description": "The Route des Grands Crus runs through 35km of the world's most valuable farmland, passing the appellations of Gevrey-Chambertin, Vosne-Romanée, and Meursault. Every village here is a wine legend.",
+      "stops": [
+        {"name": "Dijon, France", "label": "Dijon"},
+        {"name": "Gevrey-Chambertin, France", "label": "Gevrey-Chambertin"},
+        {"name": "Beaune, France", "label": "Beaune"},
+        {"name": "Meursault, France", "label": "Meursault"},
+        {"name": "Puligny-Montrachet, France", "label": "Puligny-Montrachet"},
+        {"name": "Châlon-sur-Saône, France", "label": "Chalon"}
+      ],
+      "highlights": ["Beaune Hospices de Beaune", "Grands Crus appellations", "Dijon mustard and pain d'épices", "Côte de Beaune white wines"],
+      "cover_search_query": "Burgundy Côte d'Or vineyards Beaune France"
+    },
+    {
+      "id": "burgundy-vezelay",
+      "name": "Vézelay, Auxerre & Northern Burgundy",
+      "region": "Burgundy",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "Vézelay's basilica on a hilltop was the mustering point for the Second and Third Crusades. Northern Burgundy's Chablis vineyards produce the driest Chardonnay in France from ancient Kimmeridgian limestone.",
+      "stops": [
+        {"name": "Auxerre, France", "label": "Auxerre"},
+        {"name": "Chablis, France", "label": "Chablis"},
+        {"name": "Vézelay, France", "label": "Vézelay"},
+        {"name": "Avallon, France", "label": "Avallon"},
+        {"name": "Noyers-sur-Serein, France", "label": "Noyers"}
+      ],
+      "highlights": ["Vézelay hilltop basilica", "Chablis Premier Cru vineyards", "Auxerre Gothic cathedral", "Noyers medieval village"],
+      "cover_search_query": "Vézelay hilltop basilica Burgundy France"
+    },
+    {
+      "id": "dordogne-sarlat",
+      "name": "Dordogne & Périgord Noir",
+      "region": "Dordogne & Périgord",
+      "duration_days": 5,
+      "distance_km": 280,
+      "description": "The Dordogne valley is prehistoric France — Lascaux cave paintings, walnut-tree-lined rivers, and foie gras country. Sarlat's golden medieval centre is the best-preserved bastide town in the southwest.",
+      "stops": [
+        {"name": "Périgueux, France", "label": "Périgueux"},
+        {"name": "Les Eyzies-de-Tayac, France", "label": "Les Eyzies"},
+        {"name": "Sarlat-la-Canéda, France", "label": "Sarlat"},
+        {"name": "Rocamadour, France", "label": "Rocamadour"},
+        {"name": "Beynac-et-Cazenac, France", "label": "Beynac"},
+        {"name": "La Roque-Gageac, France", "label": "La Roque-Gageac"}
+      ],
+      "highlights": ["Lascaux cave paintings", "Rocamadour cliff sanctuary", "Périgord truffles and foie gras", "Dordogne river châteaux"],
+      "cover_search_query": "La Roque-Gageac Dordogne river cliffs France"
+    },
+    {
+      "id": "lot-valley",
+      "name": "Lot Valley & Quercy Blanc",
+      "region": "Dordogne & Périgord",
+      "duration_days": 4,
+      "distance_km": 240,
+      "description": "The Lot river carves a dramatic incised meander through Cahors wine country and the Quercy Blanc. Figeac, Saint-Cirq-Lapopie, and Puy-l'Évêque perch above the river in positions of seemingly impossible beauty.",
+      "stops": [
+        {"name": "Cahors, France", "label": "Cahors"},
+        {"name": "Saint-Cirq-Lapopie, France", "label": "Saint-Cirq-Lapopie"},
+        {"name": "Figeac, France", "label": "Figeac"},
+        {"name": "Puy-l'Évêque, France", "label": "Puy-l'Évêque"},
+        {"name": "Villeneuve-sur-Lot, France", "label": "Villeneuve-sur-Lot"}
+      ],
+      "highlights": ["Saint-Cirq-Lapopie clifftop village", "Cahors Malbec wine", "Valentré bridge fortifications", "Quercy limestone plateaux"],
+      "cover_search_query": "Saint-Cirq-Lapopie cliff village Lot France"
+    },
+    {
+      "id": "dordogne-bastides",
+      "name": "Bastide Towns of the Périgord",
+      "region": "Dordogne & Périgord",
+      "duration_days": 3,
+      "distance_km": 200,
+      "description": "The Périgord was divided between English and French in the Hundred Years War and its bastide towns — planned medieval new towns — still carry the grid layout and cornières arcades of the 13th century.",
+      "stops": [
+        {"name": "Bergerac, France", "label": "Bergerac"},
+        {"name": "Eymet, France", "label": "Eymet"},
+        {"name": "Villeréal, France", "label": "Villeréal"},
+        {"name": "Monflanquin, France", "label": "Monflanquin"},
+        {"name": "Monpazier, France", "label": "Monpazier"}
+      ],
+      "highlights": ["Monpazier most perfect bastide", "Bergerac Cyrano country", "English-French medieval history", "Cornières market squares"],
+      "cover_search_query": "Monpazier bastide town Dordogne France"
+    },
+    {
+      "id": "pyrenees-basque",
+      "name": "Basque Country & the Atlantic Pyrenees",
+      "region": "Pyrenees & Basque Country",
+      "duration_days": 5,
+      "distance_km": 300,
+      "description": "The Basque coast from Bayonne to the Spanish border is Europe's surfing capital. Behind Biarritz, the Pyrenean foothills hide the pilgrimage village of Saint-Jean-Pied-de-Port and the gorge of Kakueta.",
+      "stops": [
+        {"name": "Bayonne, France", "label": "Bayonne"},
+        {"name": "Biarritz, France", "label": "Biarritz"},
+        {"name": "Saint-Jean-de-Luz, France", "label": "Saint-Jean-de-Luz"},
+        {"name": "Espelette, France", "label": "Espelette"},
+        {"name": "Saint-Jean-Pied-de-Port, France", "label": "Saint-Jean-Pied-de-Port"}
+      ],
+      "highlights": ["Biarritz surf beach", "Bayonne chocolate and Armagnac", "Espelette chilli pepper drying", "Camino de Santiago start"],
+      "cover_search_query": "Biarritz surf coast Basque France"
+    },
+    {
+      "id": "pyrenees-hautes",
+      "name": "Hautes-Pyrénées & the Cirque de Gavarnie",
+      "region": "Pyrenees & Basque Country",
+      "duration_days": 4,
+      "distance_km": 240,
+      "description": "The Cirque de Gavarnie is a UNESCO natural amphitheatre with Europe's highest waterfall plunging 422m from a glacial cirque. Lourdes and Cauterets thermal spa valley complete this magnificent mountain circuit.",
+      "stops": [
+        {"name": "Tarbes, France", "label": "Tarbes"},
+        {"name": "Lourdes, France", "label": "Lourdes"},
+        {"name": "Cauterets, France", "label": "Cauterets"},
+        {"name": "Gavarnie, France", "label": "Gavarnie"},
+        {"name": "Luz-Saint-Sauveur, France", "label": "Luz-Saint-Sauveur"}
+      ],
+      "highlights": ["Cirque de Gavarnie UNESCO", "Europe's highest waterfall", "Lourdes pilgrimage site", "Pyrenean bears and marmots"],
+      "cover_search_query": "Cirque de Gavarnie Pyrenees waterfall France"
+    },
+    {
+      "id": "languedoc-cathar",
+      "name": "Cathar Country — Carcassonne & the Corbières",
+      "region": "Languedoc & Roussillon",
+      "duration_days": 4,
+      "distance_km": 240,
+      "description": "The Cathar heresy left a trail of ruined mountain fortresses across the Corbières hills. Carcassonne's perfectly preserved double-walled cité is the largest medieval fortress in Europe.",
+      "stops": [
+        {"name": "Carcassonne, France", "label": "Carcassonne"},
+        {"name": "Peyrepertuse, France", "label": "Peyrepertuse"},
+        {"name": "Quéribus, France", "label": "Quéribus"},
+        {"name": "Minerve, France", "label": "Minerve"},
+        {"name": "Lagrasse, France", "label": "Lagrasse"}
+      ],
+      "highlights": ["Carcassonne medieval fortress", "Cathar castle ruins on cliffs", "Minerve gorge village", "Corbières wine"],
+      "cover_search_query": "Carcassonne medieval fortress Languedoc France"
+    },
+    {
+      "id": "languedoc-roman",
+      "name": "Roman Languedoc — Nîmes & the Pont du Gard",
+      "region": "Languedoc & Roussillon",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "Languedoc preserves more intact Roman monuments than Rome itself. The Pont du Gard aqueduct, Nîmes's amphitheatre, and the Via Domitia road between them form the world's greatest Roman open-air museum.",
+      "stops": [
+        {"name": "Nîmes, France", "label": "Nîmes"},
+        {"name": "Pont du Gard, France", "label": "Pont du Gard"},
+        {"name": "Uzès, France", "label": "Uzès"},
+        {"name": "Bagnols-sur-Cèze, France", "label": "Bagnols"},
+        {"name": "Orange, France", "label": "Orange"}
+      ],
+      "highlights": ["Pont du Gard Roman aqueduct", "Nîmes amphitheatre", "Orange Roman theatre", "Uzès ducal city"],
+      "cover_search_query": "Pont du Gard Roman aqueduct Languedoc France"
+    },
+    {
+      "id": "roussillon-perpignan",
+      "name": "Roussillon — Catalan France",
+      "region": "Languedoc & Roussillon",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "Roussillon is France that speaks Catalan — red-roofed Perpignan's palace of the Kings of Mallorca, vineyards producing Banyuls and Collioure, and the Vermilion Coast's painted-scene fishing villages.",
+      "stops": [
+        {"name": "Perpignan, France", "label": "Perpignan"},
+        {"name": "Collioure, France", "label": "Collioure"},
+        {"name": "Port-Vendres, France", "label": "Port-Vendres"},
+        {"name": "Banyuls-sur-Mer, France", "label": "Banyuls"},
+        {"name": "Céret, France", "label": "Céret"}
+      ],
+      "highlights": ["Collioure painted harbour Matisse", "Banyuls fortified wine", "Vermilion Coast anchovies", "Céret Cubist museums"],
+      "cover_search_query": "Collioure harbour Vermilion Coast Roussillon France"
+    },
+    {
+      "id": "alps-chamonix",
+      "name": "Chamonix Valley & Mont Blanc",
+      "region": "French Alps",
+      "duration_days": 4,
+      "distance_km": 200,
+      "description": "The highest peak in the Alps towers 4,808m above Chamonix, accessible by the Aiguille du Midi cable car. The Chamonix valley connects six ski resorts and one of the world's great mountain drives.",
+      "stops": [
+        {"name": "Geneva, Switzerland", "label": "Geneva"},
+        {"name": "Chamonix-Mont-Blanc, France", "label": "Chamonix"},
+        {"name": "Argentière, France", "label": "Argentière"},
+        {"name": "Megève, France", "label": "Megève"},
+        {"name": "Annecy, France", "label": "Annecy"}
+      ],
+      "highlights": ["Mont Blanc summit view", "Mer de Glace glacier train", "Aiguille du Midi cable car", "Annecy old town canals"],
+      "cover_search_query": "Chamonix Mont Blanc glacier Alps France"
+    },
+    {
+      "id": "alps-annecy",
+      "name": "Annecy, Aravis & the Savoie Lakes",
+      "region": "French Alps",
+      "duration_days": 4,
+      "distance_km": 220,
+      "distance_km": 220,
+      "description": "Annecy sits at the edge of Europe's clearest lake, its old town of canals and pastel houses backdropped by limestone Aravis peaks. The Savoie region beyond serves tartiflette and raclette with Apremont wine.",
+      "stops": [
+        {"name": "Annecy, France", "label": "Annecy"},
+        {"name": "Thônes, France", "label": "Thônes"},
+        {"name": "La Clusaz, France", "label": "La Clusaz"},
+        {"name": "Flumet, France", "label": "Flumet"},
+        {"name": "Chambéry, France", "label": "Chambéry"}
+      ],
+      "highlights": ["Annecy lake clarity", "Aravis mountain pass", "Beaufort cheese valley", "Chambéry vermouth"],
+      "cover_search_query": "Annecy old town canal Alps France"
+    },
+    {
+      "id": "alps-ecrins-vercors",
+      "name": "Écrins & Vercors Massif",
+      "region": "French Alps",
+      "duration_days": 4,
+      "distance_km": 260,
+      "description": "The Vercors is a high limestone plateau with sheer cliffs on all sides — a Resistance stronghold in WWII. To the east, the Écrins national park has the most glaciated mountains in the French Alps.",
+      "stops": [
+        {"name": "Grenoble, France", "label": "Grenoble"},
+        {"name": "Villard-de-Lans, France", "label": "Villard-de-Lans"},
+        {"name": "Die, France", "label": "Die"},
+        {"name": "Gap, France", "label": "Gap"},
+        {"name": "Briançon, France", "label": "Briançon"}
+      ],
+      "highlights": ["Vercors Resistance WWII history", "Briançon highest walled city", "Gorges de la Bourne", "Écrins glacier views"],
+      "cover_search_query": "Vercors plateau cliffs Grenoble France"
+    },
+    {
+      "id": "bordeaux-saint-emilion",
+      "name": "Bordeaux & Saint-Émilion",
+      "region": "Bordeaux & Atlantic Coast",
+      "duration_days": 4,
+      "distance_km": 200,
+      "description": "Bordeaux's waterfront Cité du Vin celebrates the wine that made this city its fortune. Saint-Émilion's village of golden limestone sits atop limestone caves full of Merlot grands crus.",
+      "stops": [
+        {"name": "Bordeaux, France", "label": "Bordeaux"},
+        {"name": "Saint-Émilion, France", "label": "Saint-Émilion"},
+        {"name": "Pomerol, France", "label": "Pomerol"},
+        {"name": "Bergerac, France", "label": "Bergerac"},
+        {"name": "Périgueux, France", "label": "Périgueux"}
+      ],
+      "highlights": ["Saint-Émilion UNESCO village", "Pomerol Merlot estates", "Bordeaux Cité du Vin", "Libourne market"],
+      "cover_search_query": "Saint-Émilion wine village Bordeaux France"
+    },
+    {
+      "id": "medoc-wine",
+      "name": "Médoc — Châteaux of the Left Bank",
+      "region": "Bordeaux & Atlantic Coast",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "The D2 through the Médoc is the most prestigious wine road in the world — Margaux, Pauillac, Saint-Estèphe — where classified estates produce the world's most valuable red wines among gentle gravel-covered hills.",
+      "stops": [
+        {"name": "Bordeaux, France", "label": "Bordeaux"},
+        {"name": "Margaux, France", "label": "Margaux"},
+        {"name": "Pauillac, France", "label": "Pauillac"},
+        {"name": "Saint-Estèphe, France", "label": "Saint-Estèphe"},
+        {"name": "Lesparre-Médoc, France", "label": "Lesparre"}
+      ],
+      "highlights": ["Château Margaux", "Château Pichon-Longueville", "Rothschild art collections", "Cabernet Sauvignon gravel"],
+      "cover_search_query": "Médoc wine château Pauillac Bordeaux France"
+    },
+    {
+      "id": "arcachon-landes",
+      "name": "Arcachon Bay & the Landes Forests",
+      "region": "Bordeaux & Atlantic Coast",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "The Dune du Pilat is Europe's highest sand dune, rising 106m above the Atlantic. Arcachon Bay's oyster beds and the endless pine forests of the Landes extend south to the Basque country.",
+      "stops": [
+        {"name": "Bordeaux, France", "label": "Bordeaux"},
+        {"name": "Arcachon, France", "label": "Arcachon"},
+        {"name": "Dune du Pilat, France", "label": "Dune du Pilat"},
+        {"name": "Biscarrosse, France", "label": "Biscarrosse"},
+        {"name": "Mont-de-Marsan, France", "label": "Mont-de-Marsan"}
+      ],
+      "highlights": ["Dune du Pilat Europe's highest dune", "Arcachon oysters and surf", "Atlantic pine forest drive", "Landaise forest walking"],
+      "cover_search_query": "Dune du Pilat sand dune Atlantic France"
+    },
+    {
+      "id": "champagne-reims",
+      "name": "Champagne Country — Reims & Épernay",
+      "region": "Champagne & Northeast",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "The Montagne de Reims and Vallée de la Marne are the two arms of Champagne country. Every great house has cellars beneath Épernay's Avenue de Champagne; Reims cathedral is where French kings were crowned.",
+      "stops": [
+        {"name": "Reims, France", "label": "Reims"},
+        {"name": "Épernay, France", "label": "Épernay"},
+        {"name": "Hautvillers, France", "label": "Hautvillers"},
+        {"name": "Châlons-en-Champagne, France", "label": "Châlons"},
+        {"name": "Troyes, France", "label": "Troyes"}
+      ],
+      "highlights": ["Reims coronation cathedral", "Épernay Avenue de Champagne cellars", "Dom Pérignon's abbey", "Troyes half-timbered city"],
+      "cover_search_query": "Épernay Champagne Avenue cellars France"
+    },
+    {
+      "id": "auvergne-volcans",
+      "name": "Auvergne Volcanoes & Puy de Dôme",
+      "region": "Auvergne & Massif Central",
+      "duration_days": 4,
+      "distance_km": 260,
+      "description": "The Chaîne des Puys — a UNESCO line of 80 volcanoes — is France's greatest geological wonder. Climb Puy de Dôme by rack railway for views over the crater chain, then descend to the thermal spas of Vichy.",
+      "stops": [
+        {"name": "Clermont-Ferrand, France", "label": "Clermont-Ferrand"},
+        {"name": "Puy de Dôme, France", "label": "Puy de Dôme"},
+        {"name": "Orcival, France", "label": "Orcival"},
+        {"name": "Le Mont-Dore, France", "label": "Mont-Dore"},
+        {"name": "Vichy, France", "label": "Vichy"}
+      ],
+      "highlights": ["Puy de Dôme volcano summit", "Chaîne des Puys UNESCO", "Romanesque churches of Auvergne", "Vichy thermal springs"],
+      "cover_search_query": "Puy de Dôme volcano chain Auvergne France"
+    },
+    {
+      "id": "gorges-tarn",
+      "name": "Gorges du Tarn & Millau Viaduct",
+      "region": "Auvergne & Massif Central",
+      "duration_days": 3,
+      "distance_km": 200,
+      "description": "The Tarn slices 500m deep through the Causses limestone plateau in one of France's most spectacular gorges. The Millau Viaduct — the world's tallest bridge — crosses the valley at a height above the clouds.",
+      "stops": [
+        {"name": "Millau, France", "label": "Millau"},
+        {"name": "Sainte-Énimie, France", "label": "Sainte-Énimie"},
+        {"name": "La Malène, France", "label": "La Malène"},
+        {"name": "Les Vignes, France", "label": "Les Vignes"},
+        {"name": "Florac, France", "label": "Florac"}
+      ],
+      "highlights": ["Millau Viaduct world's tallest bridge", "Tarn gorge 500m deep", "Canoe on the Tarn", "Causses limestone plateau"],
+      "cover_search_query": "Millau Viaduct bridge Gorges du Tarn France"
+    },
+    {
+      "id": "corsica-south",
+      "name": "Corsica — Bonifacio & the South",
+      "region": "Corsica",
+      "duration_days": 5,
+      "distance_km": 280,
+      "description": "Corsica's southern tip is its most dramatic — Bonifacio's citadel hangs over white limestone cliffs above the Strait. Porto-Vecchio's gulf is ringed by the finest white beaches in the Mediterranean.",
+      "stops": [
+        {"name": "Bastia, Corsica, France", "label": "Bastia"},
+        {"name": "Porto-Vecchio, Corsica, France", "label": "Porto-Vecchio"},
+        {"name": "Bonifacio, Corsica, France", "label": "Bonifacio"},
+        {"name": "Sartène, Corsica, France", "label": "Sartène"},
+        {"name": "Ajaccio, Corsica, France", "label": "Ajaccio"}
+      ],
+      "highlights": ["Bonifacio cliff citadel", "Porto-Vecchio white beaches", "Napoleon's Ajaccio", "Maquis scrubland fragrance"],
+      "cover_search_query": "Bonifacio cliff citadel Corsica France"
+    },
+    {
+      "id": "corsica-north",
+      "name": "Corsica — Cap Corse & the North",
+      "region": "Corsica",
+      "duration_days": 4,
+      "distance_km": 220,
+      "description": "Cap Corse is a narrow spine of mountains jutting into the Ligurian Sea, ringed with Genovese watch towers and tiny fishing ports. Calvi's citadel and the Balagne's olive-terraced hills extend westward.",
+      "stops": [
+        {"name": "Bastia, Corsica, France", "label": "Bastia"},
+        {"name": "Centuri, Corsica, France", "label": "Centuri"},
+        {"name": "Calvi, Corsica, France", "label": "Calvi"},
+        {"name": "Île-Rousse, Corsica, France", "label": "Île-Rousse"},
+        {"name": "Corte, Corsica, France", "label": "Corte"}
+      ],
+      "highlights": ["Cap Corse Genovese towers", "Calvi citadel beaches", "Balagne olive groves", "Corte mountain capital"],
+      "cover_search_query": "Cap Corse coastline Corsica France"
+    },
+    {
+      "id": "rhone-valley-wine",
+      "name": "Rhône Valley — Côtes du Rhône Wine Road",
+      "region": "Rhône Valley",
+      "duration_days": 4,
+      "distance_km": 240,
+      "description": "The Rhône narrows between Lyon and Avignon to create France's most varied wine corridor — from the granite-terraced Syrah of Hermitage in the north to the Grenache blends of Châteauneuf-du-Pape.",
+      "stops": [
+        {"name": "Lyon, France", "label": "Lyon"},
+        {"name": "Vienne, France", "label": "Vienne"},
+        {"name": "Tournon-sur-Rhône, France", "label": "Tournon"},
+        {"name": "Tain-l'Hermitage, France", "label": "Tain-l'Hermitage"},
+        {"name": "Châteauneuf-du-Pape, France", "label": "Châteauneuf-du-Pape"},
+        {"name": "Avignon, France", "label": "Avignon"}
+      ],
+      "highlights": ["Hermitage Syrah vineyards", "Châteauneuf-du-Pape", "Lyon gastronomy capital", "Avignon Papal Palace"],
+      "cover_search_query": "Rhône Valley vineyards Hermitage France"
+    },
+    {
+      "id": "lyon-beaujolais",
+      "name": "Lyon & the Beaujolais Villages",
+      "region": "Rhône Valley",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "Lyon is France's second gastronomy capital — its bouchon restaurants serve quenelles, cervelles de canut, and andouillette. The Beaujolais hills north produce the famous nouveau and ten distinguished cru villages.",
+      "stops": [
+        {"name": "Lyon, France", "label": "Lyon"},
+        {"name": "Villefranche-sur-Saône, France", "label": "Villefranche"},
+        {"name": "Moulin-à-Vent, France", "label": "Moulin-à-Vent"},
+        {"name": "Fleurie, France", "label": "Fleurie"},
+        {"name": "Juliénas, France", "label": "Juliénas"}
+      ],
+      "highlights": ["Lyon bouchon restaurants", "Beaujolais Nouveau tradition", "Cru Beaujolais villages", "Romanèche-Thorins wine museum"],
+      "cover_search_query": "Beaujolais vineyards village Lyon France"
+    },
+    {
+      "id": "normandy-pays-dauge",
+      "name": "Pays d'Auge — Cheese & Cider Country",
+      "region": "Normandy",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "The Pays d'Auge's half-timbered manor farms produce Camembert, Livarot, Pont-l'Évêque, and the three great Norman drinks — cidre, calvados, and pommeau. This is rural France at its most delicious.",
+      "stops": [
+        {"name": "Lisieux, France", "label": "Lisieux"},
+        {"name": "Camembert, France", "label": "Camembert"},
+        {"name": "Livarot, France", "label": "Livarot"},
+        {"name": "Beuvron-en-Auge, France", "label": "Beuvron-en-Auge"},
+        {"name": "Pont-l'Évêque, France", "label": "Pont-l'Évêque"}
+      ],
+      "highlights": ["Camembert cheese village", "Apple orchards and calvados", "Beuvron half-timbered village", "Pays d'Auge manor farms"],
+      "cover_search_query": "Beuvron-en-Auge half-timbered village Normandy France"
+    },
+    {
+      "id": "paris-ile-de-france",
+      "name": "Paris & the Île-de-France Châteaux",
+      "region": "Paris & Île-de-France",
+      "duration_days": 4,
+      "distance_km": 160,
+      "description": "Paris cannot be summarised. But the drive out through the forests of the Île-de-France leads to Versailles, Fontainebleau, Vaux-le-Vicomte, and Chartres — a circuit of French royal grandeur.",
+      "stops": [
+        {"name": "Paris, France", "label": "Paris"},
+        {"name": "Versailles, France", "label": "Versailles"},
+        {"name": "Vaux-le-Vicomte, France", "label": "Vaux-le-Vicomte"},
+        {"name": "Fontainebleau, France", "label": "Fontainebleau"},
+        {"name": "Chartres, France", "label": "Chartres"}
+      ],
+      "highlights": ["Palace of Versailles", "Vaux-le-Vicomte gardens", "Fontainebleau forest", "Chartres rose windows"],
+      "cover_search_query": "Palace of Versailles gardens Île-de-France France"
+    },
+    {
+      "id": "northern-opal-coast",
+      "name": "Opal Coast & Flemish France",
+      "region": "Northern France",
+      "duration_days": 3,
+      "distance_km": 200,
+      "description": "The Opal Coast from Calais to the Somme mouth has white cliffs, beach huts, and herring ports. Inland, Flemish France — Lille's Grand Place, Arras's Baroque squares, and WWI Vimy Ridge — is rarely visited.",
+      "stops": [
+        {"name": "Calais, France", "label": "Calais"},
+        {"name": "Boulogne-sur-Mer, France", "label": "Boulogne"},
+        {"name": "Le Touquet-Paris-Plage, France", "label": "Le Touquet"},
+        {"name": "Arras, France", "label": "Arras"},
+        {"name": "Lille, France", "label": "Lille"}
+      ],
+      "highlights": ["Cap Blanc-Nez white cliffs", "Lille Flemish architecture", "Arras underground tunnels", "Vimy Ridge Canadian memorial"],
+      "cover_search_query": "Cap Blanc-Nez white cliffs Opal Coast France"
+    },
+    {
+      "id": "alsace-christmas",
+      "name": "Alsace Christmas Markets Circuit",
+      "region": "Alsace & Lorraine",
+      "duration_days": 3,
+      "distance_km": 140,
+      "description": "Alsace invented the Christmas tree tradition. In December every village transforms — Strasbourg's Christkindelsmärik, Colmar's old town glowing with stalls, and Ribeauvillé's medieval walls strung with lights.",
+      "stops": [
+        {"name": "Strasbourg, France", "label": "Strasbourg"},
+        {"name": "Obernai, France", "label": "Obernai"},
+        {"name": "Sélestat, France", "label": "Sélestat"},
+        {"name": "Ribeauvillé, France", "label": "Ribeauvillé"},
+        {"name": "Colmar, France", "label": "Colmar"}
+      ],
+      "highlights": ["Strasbourg Christmas market oldest in France", "Colmar Little Venice illuminated", "Vin chaud and bredele cookies", "Christmas tree tradition origin"],
+      "cover_search_query": "Strasbourg Christmas market Alsace France"
+    },
+    {
+      "id": "normandy-cider-route",
+      "name": "Normandy Cider Route",
+      "region": "Normandy",
+      "duration_days": 2,
+      "distance_km": 120,
+      "description": "The Cider Route loops through the apple orchards and stone farmyards of the Pays d'Auge, linking farm cideries and distilleries where calvados ages in oak barrels.",
+      "stops": [
+        {"name": "Caen, France", "label": "Caen"},
+        {"name": "Orbec, France", "label": "Orbec"},
+        {"name": "Cambremer, France", "label": "Cambremer"},
+        {"name": "Beuvron-en-Auge, France", "label": "Beuvron"},
+        {"name": "Dozulé, France", "label": "Dozulé"}
+      ],
+      "highlights": ["Farm cider tasting", "Calvados aging cellars", "Apple blossom in spring", "Norman farmhouse architecture"],
+      "cover_search_query": "Normandy apple orchard cidre farm France"
+    },
+    {
+      "id": "burgundy-morvan",
+      "name": "Morvan Regional Park",
+      "region": "Burgundy",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "The Morvan is Burgundy's wild granite heart — a national park of oak forests, reservoirs, and hilltop villages that produced the chauffeurs of Paris in the 19th century and Resistance fighters in the 20th.",
+      "stops": [
+        {"name": "Autun, France", "label": "Autun"},
+        {"name": "Château-Chinon, France", "label": "Château-Chinon"},
+        {"name": "Vézelay, France", "label": "Vézelay"},
+        {"name": "Saulieu, France", "label": "Saulieu"},
+        {"name": "Semur-en-Auxois, France", "label": "Semur-en-Auxois"}
+      ],
+      "highlights": ["Autun Roman gates", "Semur-en-Auxois pink granite", "Morvan forest reservoirs", "Saulieu Burgundy cuisine"],
+      "cover_search_query": "Semur-en-Auxois pink granite village Burgundy France"
+    },
+    {
+      "id": "loire-troglodyte",
+      "name": "Loire Troglodytes — The Cave Dwellers",
+      "region": "Loire Valley",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "The soft tuffeau limestone of the Loire valley has been carved into cave dwellings, wine cellars, and even entire villages for thousands of years. Rochemenier and Troo are the most remarkable.",
+      "stops": [
+        {"name": "Tours, France", "label": "Tours"},
+        {"name": "Troo, France", "label": "Troo"},
+        {"name": "Vendôme, France", "label": "Vendôme"},
+        {"name": "Montoire-sur-le-Loir, France", "label": "Montoire"},
+        {"name": "Lavardin, France", "label": "Lavardin"}
+      ],
+      "highlights": ["Troo cave dwelling village", "Lavardin Romanesque frescoes", "Vendôme abbey bellower", "Tuffeau mushroom caves"],
+      "cover_search_query": "Troo troglodyte cave village Loire France"
+    },
+    {
+      "id": "jura-wine-cheese",
+      "name": "Jura — Yellow Wine & Comté Cheese",
+      "region": "Jura & Franche-Comté",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "The Jura is France's best-kept wine secret — Vin Jaune ages under a veil of yeast for six years to produce something between sherry and Burgundy. The Comté cheese caves of Poligny are a pilgrimage for food lovers.",
+      "stops": [
+        {"name": "Arbois, France", "label": "Arbois"},
+        {"name": "Poligny, France", "label": "Poligny"},
+        {"name": "Château-Chalon, France", "label": "Château-Chalon"},
+        {"name": "Lons-le-Saunier, France", "label": "Lons-le-Saunier"},
+        {"name": "Baume-les-Messieurs, France", "label": "Baume-les-Messieurs"}
+      ],
+      "highlights": ["Vin Jaune Château-Chalon", "Comté aging caves at Poligny", "Louis Pasteur birthplace Arbois", "Baume-les-Messieurs abbaye"],
+      "cover_search_query": "Château-Chalon Jura vineyards France"
+    },
+    {
+      "id": "pyrenees-ariege",
+      "name": "Ariège & the Pyrenean Caves",
+      "region": "Pyrenees & Basque Country",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "The Ariège has more prehistoric decorated caves than anywhere on earth — Niaux, Mas d'Azil, and Bédeilhac preserve Magdalenian art 13,000 years old. The medieval Cathar fortress of Montségur crowns the route.",
+      "stops": [
+        {"name": "Foix, France", "label": "Foix"},
+        {"name": "Tarascon-sur-Ariège, France", "label": "Tarascon"},
+        {"name": "Niaux, France", "label": "Niaux"},
+        {"name": "Montségur, France", "label": "Montségur"},
+        {"name": "Mirepoix, France", "label": "Mirepoix"}
+      ],
+      "highlights": ["Niaux cave Magdalenian paintings", "Montségur Cathar last stand", "Mirepoix medieval arcades", "Ariège Pyrenean scenery"],
+      "cover_search_query": "Montségur Cathar fortress Ariège France"
+    },
+    {
+      "id": "alsace-colmar-deep",
+      "name": "Colmar & the Alsatian Villages",
+      "region": "Alsace & Lorraine",
+      "duration_days": 3,
+      "distance_km": 120,
+      "description": "Colmar is the most perfectly preserved medieval Alsatian city — its Little Venice quarter of canals and flowers is as pretty as anything in Europe. The surrounding villages of Eguisheim and Hunawihr are equally beautiful.",
+      "stops": [
+        {"name": "Colmar, France", "label": "Colmar"},
+        {"name": "Eguisheim, France", "label": "Eguisheim"},
+        {"name": "Turckheim, France", "label": "Turckheim"},
+        {"name": "Hunawihr, France", "label": "Hunawihr"},
+        {"name": "Bergheim, France", "label": "Bergheim"}
+      ],
+      "highlights": ["Colmar Little Venice", "Eguisheim medieval ring village", "Stork nests on chimneys", "Alsatian tarte flambée"],
+      "cover_search_query": "Colmar Little Venice canal Alsace France"
+    },
+    {
+      "id": "brittany-belle-ile",
+      "name": "Belle-Île & the Morbihan Islands",
+      "region": "Brittany",
+      "duration_days": 4,
+      "distance_km": 160,
+      "description": "Belle-Île is the largest island off the Breton coast — Monet painted its dramatic stacks and grottoes in the 1880s. The ferry from Quiberon takes 45 minutes to reach a car-free Atlantic world of heathland and coves.",
+      "stops": [
+        {"name": "Quiberon, France", "label": "Quiberon"},
+        {"name": "Le Palais, Belle-Île, France", "label": "Belle-Île"},
+        {"name": "Groix Island, France", "label": "Groix"},
+        {"name": "Lorient, France", "label": "Lorient"},
+        {"name": "Vannes, France", "label": "Vannes"}
+      ],
+      "highlights": ["Belle-Île Monet's rock stacks", "Groix island tuna fishing heritage", "Lorient Interceltique Festival", "Morbihan sailing waters"],
+      "cover_search_query": "Belle-Île-en-Mer rocky coast Brittany France"
+    },
+    {
+      "id": "auvergne-margeride",
+      "name": "Margeride & Haute-Loire Plateaux",
+      "region": "Auvergne & Massif Central",
+      "duration_days": 3,
+      "distance_km": 200,
+      "description": "The granite plateau of the Margeride is the wildest heartland of the Massif Central — a landscape of ancient beech forests, megalithic dolmens, and the Lozère wolf country that inspired the Beast of Gévaudan legend.",
+      "stops": [
+        {"name": "Le Puy-en-Velay, France", "label": "Le Puy-en-Velay"},
+        {"name": "Brioude, France", "label": "Brioude"},
+        {"name": "Mende, France", "label": "Mende"},
+        {"name": "La Garde-Guérin, France", "label": "La Garde-Guérin"},
+        {"name": "Langogne, France", "label": "Langogne"}
+      ],
+      "highlights": ["Le Puy-en-Velay volcanic cathedral", "Beast of Gévaudan legend", "Margeride wolf trails", "Romanesque Brioude basilica"],
+      "cover_search_query": "Le Puy-en-Velay volcanic rock cathedral France"
+    },
+    {
+      "id": "cevennes-stevenson",
+      "name": "Cévennes — Stevenson Trail",
+      "region": "Auvergne & Massif Central",
+      "duration_days": 4,
+      "distance_km": 220,
+      "description": "Robert Louis Stevenson walked the Cévennes with a donkey in 1878 and described a wilderness that hasn't changed much since — chestnut forests, Protestant villages, and the Gorges du Gardon descending to Pont du Gard.",
+      "stops": [
+        {"name": "Le Puy-en-Velay, France", "label": "Le Puy"},
+        {"name": "Langogne, France", "label": "Langogne"},
+        {"name": "Florac, France", "label": "Florac"},
+        {"name": "Alès, France", "label": "Alès"},
+        {"name": "Uzès, France", "label": "Uzès"}
+      ],
+      "highlights": ["Stevenson Trail history", "Cévennes chestnut forests", "Huguenot Protestantism heritage", "Wild Lozère scenery"],
+      "cover_search_query": "Cévennes chestnut forest Massif Central France"
+    },
+    {
+      "id": "alsace-haut-koenigsbourg",
+      "name": "Alsace Castles & the Haut-Koenigsbourg",
+      "region": "Alsace & Lorraine",
+      "duration_days": 2,
+      "distance_km": 120,
+      "description": "The Vosges foothills above the Alsace plain are defended by a chain of medieval castles. The Haut-Koenigsbourg's restored fortress dominates the plain; Ribeauvillé below has three ruined towers on the ridge above it.",
+      "stops": [
+        {"name": "Sélestat, France", "label": "Sélestat"},
+        {"name": "Haut-Koenigsbourg Castle, France", "label": "Haut-Koenigsbourg"},
+        {"name": "Ribeauvillé, France", "label": "Ribeauvillé"},
+        {"name": "Kaysersberg, France", "label": "Kaysersberg"}
+      ],
+      "highlights": ["Haut-Koenigsbourg castle views", "Ribeauvillé three tower ruins", "Kaysersberg birthplace Albert Schweitzer", "Alsace plain panorama"],
+      "cover_search_query": "Haut-Koenigsbourg castle Alsace France"
+    },
+    {
+      "id": "lot-et-garonne-pruneaux",
+      "name": "Lot-et-Garonne — Plum Country",
+      "region": "Dordogne & Périgord",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "Lot-et-Garonne is France's market garden — the pruneaux d'Agen come from here, as do the strawberries of Marmande. Agen and Villeneuve-sur-Lot flank a bastide circuit through sunflower fields.",
+      "stops": [
+        {"name": "Agen, France", "label": "Agen"},
+        {"name": "Villeneuve-sur-Lot, France", "label": "Villeneuve-sur-Lot"},
+        {"name": "Pujols, France", "label": "Pujols"},
+        {"name": "Nérac, France", "label": "Nérac"},
+        {"name": "Marmande, France", "label": "Marmande"}
+      ],
+      "highlights": ["Agen prune distillery", "Pujols hilltop village", "Nérac Gascon history", "Lot-et-Garonne sunflower fields"],
+      "cover_search_query": "Pujols hilltop village Lot-et-Garonne France"
+    },
+    {
+      "id": "languedoc-herault",
+      "name": "Hérault — Pézenas, Montpellier & the Etang",
+      "region": "Languedoc & Roussillon",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "Pézenas was the Versailles of Languedoc — where Molière performed his early comedies in a city of hôtels particuliers. The Bassin de Thau's oyster tables and the Canal du Midi complete an elegant southern circuit.",
+      "stops": [
+        {"name": "Montpellier, France", "label": "Montpellier"},
+        {"name": "Pézenas, France", "label": "Pézenas"},
+        {"name": "Sète, France", "label": "Sète"},
+        {"name": "Agde, France", "label": "Agde"},
+        {"name": "Béziers, France", "label": "Béziers"}
+      ],
+      "highlights": ["Pézenas Molière theatres", "Sète oysters on the lagoon", "Canal du Midi UNESCO", "Béziers Allées Paul-Riquet"],
+      "cover_search_query": "Sète lagoon fishermen Languedoc France"
+    },
+    {
+      "id": "atlantic-charente",
+      "name": "Charente & the Cognac Country",
+      "region": "Bordeaux & Atlantic Coast",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "The Charente river flows through cognac country — limestone cellars of aging brandy, Romanesque churches on the pilgrimage route, and the oyster ports of the Île d'Oléron.",
+      "stops": [
+        {"name": "Cognac, France", "label": "Cognac"},
+        {"name": "Angoulême, France", "label": "Angoulême"},
+        {"name": "Saintes, France", "label": "Saintes"},
+        {"name": "Rochefort, France", "label": "Rochefort"},
+        {"name": "Brouage, France", "label": "Brouage"}
+      ],
+      "highlights": ["Cognac distillery tours", "Saintes Roman amphitheatre", "Brouage oyster ghost village", "Angoulême comics festival"],
+      "cover_search_query": "Cognac distillery Charente France"
+    },
+    {
+      "id": "atlantic-marais-poitevin",
+      "name": "Marais Poitevin — Green Venice",
+      "region": "Bordeaux & Atlantic Coast",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "The Marais Poitevin is a labyrinth of waterways through poplar-canopied flatbottom boat country, earned the name Green Venice for its flat-bottomed barque tradition. Niort and Fontenay-le-Comte anchor either end.",
+      "stops": [
+        {"name": "Niort, France", "label": "Niort"},
+        {"name": "Coulon, France", "label": "Coulon"},
+        {"name": "Arçais, France", "label": "Arçais"},
+        {"name": "Fontenay-le-Comte, France", "label": "Fontenay-le-Comte"},
+        {"name": "La Rochelle, France", "label": "La Rochelle"}
+      ],
+      "highlights": ["Flat-bottomed boat through canals", "Green Venice poplar tunnels", "La Rochelle old harbour towers", "Marais wildlife"],
+      "cover_search_query": "Marais Poitevin Green Venice canals France"
+    },
+    {
+      "id": "provence-pont-du-gard",
+      "name": "Provençal Garrigue & the Pont du Gard",
+      "region": "Provence & Côte d'Azur",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "The garrigue is the wild aromatic scrubland of Provence — thyme, lavender, and rosemary buzzing with cicadas. Between Avignon and Nîmes, the Pont du Gard emerges above a wooded gorge unchanged since Roman times.",
+      "stops": [
+        {"name": "Avignon, France", "label": "Avignon"},
+        {"name": "Villeneuve-lès-Avignon, France", "label": "Villeneuve"},
+        {"name": "Pont du Gard, France", "label": "Pont du Gard"},
+        {"name": "Uzès, France", "label": "Uzès"},
+        {"name": "Nîmes, France", "label": "Nîmes"}
+      ],
+      "highlights": ["Avignon Papal Palace", "Pont du Gard three-tier aqueduct", "Uzès Renaissance duchy", "Nîmes Roman temples"],
+      "cover_search_query": "Avignon Papal Palace Provence France"
+    },
+    {
+      "id": "savoy-lake-geneva",
+      "name": "Savoie & the French Shore of Lake Geneva",
+      "region": "French Alps",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "The Chablais vineyards slope down to France's Lac Léman shore between Évian and Geneva. Thonon, Yvoire's flower village, and the Chablais mountains behind make a perfect loop between two countries.",
+      "stops": [
+        {"name": "Évian-les-Bains, France", "label": "Évian"},
+        {"name": "Thonon-les-Bains, France", "label": "Thonon"},
+        {"name": "Yvoire, France", "label": "Yvoire"},
+        {"name": "Douvaine, France", "label": "Douvaine"},
+        {"name": "Annemasse, France", "label": "Annemasse"}
+      ],
+      "highlights": ["Évian mineral water source", "Yvoire medieval flower village", "Lake Geneva sailboats", "Chablais mountain backdrop"],
+      "cover_search_query": "Yvoire medieval village Lake Geneva France"
+    },
+    {
+      "id": "loire-sologne",
+      "name": "Sologne — The Secret Loire Hinterland",
+      "region": "Loire Valley",
+      "duration_days": 3,
+      "distance_km": 200,
+      "description": "The Sologne is a land of lakes, forests, and hunting châteaux hidden south of the Loire valley proper. Romorantin, the asparagus fields, and the white horses of the Camargue-style marshes make this a delightful back road.",
+      "stops": [
+        {"name": "Blois, France", "label": "Blois"},
+        {"name": "Chambord, France", "label": "Chambord"},
+        {"name": "Bracieux, France", "label": "Bracieux"},
+        {"name": "Romorantin-Lanthenay, France", "label": "Romorantin"},
+        {"name": "Salbris, France", "label": "Salbris"}
+      ],
+      "highlights": ["Sologne hunting forests", "Asparagus and game cuisine", "Chambord hunting domain", "Lake and marsh wildlife"],
+      "cover_search_query": "Sologne lake forest Loire France"
+    },
+    {
+      "id": "pyrenees-haute-ariege",
+      "name": "Haute-Garonne & the Comminges",
+      "region": "Pyrenees & Basque Country",
+      "duration_days": 3,
+      "distance_km": 200,
+      "description": "The Comminges is a deeply rural Pyrenean hinterland sheltering a Roman city at Saint-Bertrand and the pilgrimage villages of Lourdes county. Bagnères-de-Luchon is the queen of Pyrenean spa towns.",
+      "stops": [
+        {"name": "Toulouse, France", "label": "Toulouse"},
+        {"name": "Saint-Bertrand-de-Comminges, France", "label": "Saint-Bertrand"},
+        {"name": "Bagnères-de-Luchon, France", "label": "Luchon"},
+        {"name": "Arreau, France", "label": "Arreau"},
+        {"name": "Bagnères-de-Bigorre, France", "label": "Bagnères"}
+      ],
+      "highlights": ["Saint-Bertrand Roman Gallo-Roman town", "Luchon thermal baths", "Tour de France mountain passes", "Pyrenean brown bears"],
+      "cover_search_query": "Saint-Bertrand-de-Comminges cathedral Pyrenees France"
+    },
+    {
+      "id": "normandy-abbey",
+      "name": "Norman Abbey Route — Benedictine Legacy",
+      "region": "Normandy",
+      "duration_days": 3,
+      "distance_km": 200,
+      "description": "William the Conqueror's duchy was built on Benedictine abbeys — Caen's Abbaye aux Hommes, Jumièges's romantic ruins, and Fécamp's abbatiale are testament to one of medieval Europe's greatest building programmes.",
+      "stops": [
+        {"name": "Caen, France", "label": "Caen"},
+        {"name": "Jumièges, France", "label": "Jumièges"},
+        {"name": "Saint-Wandrille-Rançon, France", "label": "Saint-Wandrille"},
+        {"name": "Fécamp, France", "label": "Fécamp"},
+        {"name": "Le Bec-Hellouin, France", "label": "Le Bec-Hellouin"}
+      ],
+      "highlights": ["Jumièges ruins in forest", "William the Conqueror Abbaye aux Hommes", "Fécamp Bénédictine liqueur", "Le Bec-Hellouin active monks"],
+      "cover_search_query": "Jumièges abbey ruins Normandy France"
+    },
+    {
+      "id": "burgundy-cluny",
+      "name": "Cluny & the Mâconnais Wine Hills",
+      "region": "Burgundy",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "Cluny was the most powerful abbey in medieval Christendom — at one point larger than St Peter's in Rome. The Mâconnais hills above the Saône produce Pouilly-Fuissé white wine and one of Burgundy's most beautiful landscapes.",
+      "stops": [
+        {"name": "Mâcon, France", "label": "Mâcon"},
+        {"name": "Cluny, France", "label": "Cluny"},
+        {"name": "Berzé-la-Ville, France", "label": "Berzé-la-Ville"},
+        {"name": "Solutré-Pouilly, France", "label": "Solutré"},
+        {"name": "Tournus, France", "label": "Tournus"}
+      ],
+      "highlights": ["Cluny great abbey ruins", "Pouilly-Fuissé limestone terroir", "Roche de Solutré prehistoric site", "Tournus Romanesque architecture"],
+      "cover_search_query": "Cluny abbey Burgundy France"
+    },
+    {
+      "id": "provence-ste-victoire",
+      "name": "Cézanne's Provence — Sainte-Victoire",
+      "region": "Provence & Côte d'Azur",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "Cézanne painted the limestone ridge of Sainte-Victoire more than 80 times from his studio in Aix. The walking trails above the plain of the Arc provide the same view that transfixed the Post-Impressionist master.",
+      "stops": [
+        {"name": "Aix-en-Provence, France", "label": "Aix-en-Provence"},
+        {"name": "Le Tholonet, France", "label": "Le Tholonet"},
+        {"name": "Vauvenargues, France", "label": "Vauvenargues"},
+        {"name": "Puyloubier, France", "label": "Puyloubier"},
+        {"name": "Trets, France", "label": "Trets"}
+      ],
+      "highlights": ["Cézanne studio visits", "Sainte-Victoire limestone ridge hike", "Vauvenargues Picasso's château", "Aix-en-Provence fountains"],
+      "cover_search_query": "Cézanne Sainte-Victoire mountain Aix Provence France"
+    },
+    {
+      "id": "champagne-troyes",
+      "name": "Troyes & the Champagne Lakes",
+      "region": "Champagne & Northeast",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "Troyes is a half-timbered city shaped like a Champagne cork, its medieval streets still largely intact. East of the city, the man-made Lac du Der is Europe's largest reservoir and a mecca for wintering cranes.",
+      "stops": [
+        {"name": "Troyes, France", "label": "Troyes"},
+        {"name": "Lac du Der-Chantecoq, France", "label": "Lac du Der"},
+        {"name": "Colombey-les-Deux-Églises, France", "label": "Colombey"},
+        {"name": "Bar-sur-Aube, France", "label": "Bar-sur-Aube"},
+        {"name": "Châtillon-sur-Seine, France", "label": "Châtillon"}
+      ],
+      "highlights": ["Troyes half-timbered city", "Lac du Der migratory cranes", "De Gaulle memorial Colombey", "Troyes stained glass churches"],
+      "cover_search_query": "Troyes half-timbered medieval Champagne France"
+    },
+    {
+      "id": "rhone-ardeche",
+      "name": "Ardèche Gorges & the Pont d'Arc",
+      "region": "Rhône Valley",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "The Ardèche river carved Europe's deepest canyon south of the Massif Central. The Pont d'Arc is a natural limestone arch 60m wide where the river emerges from its gorge. The Chauvet Cave's 36,000-year-old paintings are nearby.",
+      "stops": [
+        {"name": "Aubenas, France", "label": "Aubenas"},
+        {"name": "Vallon-Pont-d'Arc, France", "label": "Vallon-Pont-d'Arc"},
+        {"name": "Pont d'Arc, France", "label": "Pont d'Arc"},
+        {"name": "Chauvet Cave, France", "label": "Chauvet Cave"},
+        {"name": "Bourg-Saint-Andéol, France", "label": "Bourg-Saint-Andéol"}
+      ],
+      "highlights": ["Pont d'Arc natural arch", "Chauvet Cave oldest paintings world", "Ardèche gorge canoe", "Chestnut and Ardèche cream"],
+      "cover_search_query": "Ardèche gorge Pont d'Arc natural arch France"
+    },
+    {
+      "id": "loire-anjou-wine",
+      "name": "Anjou Wine & Tuffeau Troglodytes",
+      "region": "Loire Valley",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "Anjou's white wines — Savennières, Quarts de Chaume, Bonnezeaux — are the Loire's finest and least known. The cliff-carved cave towns of Doué-la-Fontaine and Dénezé-sous-Doué add geological wonder.",
+      "stops": [
+        {"name": "Angers, France", "label": "Angers"},
+        {"name": "Savennières, France", "label": "Savennières"},
+        {"name": "Doué-la-Fontaine, France", "label": "Doué-la-Fontaine"},
+        {"name": "Saumur, France", "label": "Saumur"},
+        {"name": "Brissac-Quincé, France", "label": "Brissac"}
+      ],
+      "highlights": ["Savennières Chenin Blanc", "Doué-la-Fontaine cave town", "Saumur Champigny red wine", "Brissac tallest château in Loire"],
+      "cover_search_query": "Saumur château Loire Valley France"
+    },
+    {
+      "id": "gers-armagnac",
+      "name": "Gers & the Armagnac Country",
+      "region": "Pyrenees & Basque Country",
+      "duration_days": 3,
+      "distance_km": 200,
+      "description": "The Gers department is Gascony — a land of duck confit, foie gras, Armagnac, and medieval bastide towns where life moves slower than anywhere in France. Auch's cathedral and d'Artagnan's village of Lupiac anchor the route.",
+      "stops": [
+        {"name": "Auch, France", "label": "Auch"},
+        {"name": "Condom, France", "label": "Condom"},
+        {"name": "Larressingle, France", "label": "Larressingle"},
+        {"name": "Éauze, France", "label": "Éauze"},
+        {"name": "Flaran, France", "label": "Flaran"}
+      ],
+      "highlights": ["Armagnac brandy tasting", "Auch Gothic cathedral", "Larressingle smallest fortified village", "Gascony duck and foie gras"],
+      "cover_search_query": "Gers Gascony Armagnac countryside France"
+    },
+    {
+      "id": "vosges-parc-regional",
+      "name": "Vosges du Nord Regional Park",
+      "region": "Alsace & Lorraine",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "Northern Vosges is a UNESCO biosphere reserve of sandstone castles, pine forests, and half-timbered border towns straddling France and Germany. Wissembourg, La Petite Pierre, and the Palatinate Forest extend seamlessly.",
+      "stops": [
+        {"name": "Saverne, France", "label": "Saverne"},
+        {"name": "La Petite Pierre, France", "label": "La Petite Pierre"},
+        {"name": "Wissembourg, France", "label": "Wissembourg"},
+        {"name": "Niederbronn-les-Bains, France", "label": "Niederbronn"},
+        {"name": "Bitche, France", "label": "Bitche"}
+      ],
+      "highlights": ["Fleckenstein sandstone castle ruins", "Wissembourg Alsatian border town", "Palatinate Forest hiking", "Bitche citadel military history"],
+      "cover_search_query": "Fleckenstein castle sandstone Vosges France"
+    },
+    {
+      "id": "charente-maritime",
+      "name": "Charente-Maritime — La Rochelle & Ré Island",
+      "region": "Bordeaux & Atlantic Coast",
+      "duration_days": 4,
+      "distance_km": 200,
+      "description": "La Rochelle's towers guard a harbour where Huguenots once fled to the Americas. The Île de Ré's cycle paths thread between salt marshes, oyster beds, and whitewashed villages — one of France's finest island escapes.",
+      "stops": [
+        {"name": "La Rochelle, France", "label": "La Rochelle"},
+        {"name": "Île de Ré, France", "label": "Île de Ré"},
+        {"name": "Rochefort, France", "label": "Rochefort"},
+        {"name": "Royan, France", "label": "Royan"},
+        {"name": "Saintes, France", "label": "Saintes"}
+      ],
+      "highlights": ["Île de Ré cycling and beaches", "La Rochelle old harbour towers", "Rochefort Hermione frigate", "Saintes Roman triumphal arch"],
+      "cover_search_query": "Île de Ré salt marshes La Rochelle France"
+    },
+    {
+      "id": "alsace-munster-wine",
+      "name": "Alsace Southern Villages — Thann to Mulhouse",
+      "region": "Alsace & Lorraine",
+      "duration_days": 2,
+      "distance_km": 100,
+      "description": "The southern Alsace wine route ends at Thann with its gothic collegiate church before opening into the Rhine plain. Mulhouse's remarkable automobile museum is the greatest car collection in Europe.",
+      "stops": [
+        {"name": "Colmar, France", "label": "Colmar"},
+        {"name": "Guebwiller, France", "label": "Guebwiller"},
+        {"name": "Thann, France", "label": "Thann"},
+        {"name": "Mulhouse, France", "label": "Mulhouse"}
+      ],
+      "highlights": ["Mulhouse Cité de l'Automobile", "Thann Gothic collegiate", "Rangen Grand Cru volcanic wine", "Southern Wine Route villages"],
+      "cover_search_query": "Mulhouse Cité Automobile museum Alsace France"
+    },
+    {
+      "id": "burgundy-south-beaujolais",
+      "name": "Southern Burgundy & Golden Stone Villages",
+      "region": "Burgundy",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "The golden stone country south of Mâcon — Bresse, Beaujolais, and the Dombes wetlands — is some of the most beautiful countryside in France. Pérouges is the most perfectly preserved 15th-century village in Europe.",
+      "stops": [
+        {"name": "Bourg-en-Bresse, France", "label": "Bourg-en-Bresse"},
+        {"name": "Pérouges, France", "label": "Pérouges"},
+        {"name": "Trévoux, France", "label": "Trévoux"},
+        {"name": "Dombes, France", "label": "Dombes"},
+        {"name": "Châtillon-sur-Chalaronne, France", "label": "Châtillon"}
+      ],
+      "highlights": ["Pérouges medieval village", "Bresse poulet royale chicken", "Dombes bird reserve 1000 species", "Ain river valley"],
+      "cover_search_query": "Pérouges medieval village golden stone France"
+    },
+    {
+      "id": "languedoc-grande-motte",
+      "name": "Languedoc Coast — Grande-Motte to Sète",
+      "region": "Languedoc & Roussillon",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "The Languedoc coast is France's Mediterranean playground — less glamorous than the Riviera but with longer beaches, cheaper wine, and the extraordinary Étang de Thau oyster lagoon at Sète.",
+      "stops": [
+        {"name": "Montpellier, France", "label": "Montpellier"},
+        {"name": "La Grande-Motte, France", "label": "Grande-Motte"},
+        {"name": "Palavas-les-Flots, France", "label": "Palavas"},
+        {"name": "Maguelone, France", "label": "Maguelone"},
+        {"name": "Sète, France", "label": "Sète"}
+      ],
+      "highlights": ["Sète the singular island city", "Oysters from Étang de Thau", "Montpellier historic centre", "Maguelone cathedral island"],
+      "cover_search_query": "Sète harbour fishing boats Languedoc France"
+    },
+    {
+      "id": "bretagne-presqile-crozon",
+      "name": "Crozon Peninsula & Presqu'île de Crozon",
+      "region": "Brittany",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "The Crozon peninsula is the wildest headland in Brittany — three sub-peninsulas of sheer schist cliffs, secluded beaches, and military heritage from the Pointe des Espagnols to the Pointe de Dinan arch.",
+      "stops": [
+        {"name": "Brest, France", "label": "Brest"},
+        {"name": "Crozon, France", "label": "Crozon"},
+        {"name": "Camaret-sur-Mer, France", "label": "Camaret"},
+        {"name": "Morgat, France", "label": "Morgat"},
+        {"name": "Landévennec, France", "label": "Landévennec"}
+      ],
+      "highlights": ["Pointe de Dinan rock arch", "Camaret American naval memorial", "Morgat sea caves by kayak", "Brest naval museum"],
+      "cover_search_query": "Crozon peninsula cliffs Brittany France"
+    },
+    {
+      "id": "franche-comte-lakes",
+      "name": "Franche-Comté Lakes & the Doubs Valley",
+      "region": "Jura & Franche-Comté",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "The Doubs valley carves a meander so tight it almost circles back on itself at the Horseshoe of Pontarlier. The Jura lakes at Clairvaux and Chalain are clean, green, and almost entirely undiscovered by foreign tourists.",
+      "stops": [
+        {"name": "Besançon, France", "label": "Besançon"},
+        {"name": "Pontarlier, France", "label": "Pontarlier"},
+        {"name": "Clairvaux-les-Lacs, France", "label": "Clairvaux-les-Lacs"},
+        {"name": "Morez, France", "label": "Morez"},
+        {"name": "Saint-Claude, France", "label": "Saint-Claude"}
+      ],
+      "highlights": ["Doubs horseshoe meander viewpoint", "Besançon Vauban citadel", "Jura lake swimming", "Saint-Claude pipe and diamond cutting"],
+      "cover_search_query": "Doubs horseshoe meander Franche-Comté France"
+    },
+    {
+      "id": "normandy-coutances",
+      "name": "Manche & the Norman Peninsula",
+      "region": "Normandy",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "The Manche department's oyster beds and bocage hedgerow country are the true heart of rustic Normandy. Coutances cathedral's Romanesque towers rival any in France; the tidal island of Chausey is a hidden gem.",
+      "stops": [
+        {"name": "Saint-Lô, France", "label": "Saint-Lô"},
+        {"name": "Coutances, France", "label": "Coutances"},
+        {"name": "Granville, France", "label": "Granville"},
+        {"name": "Avranches, France", "label": "Avranches"},
+        {"name": "Vire, France", "label": "Vire"}
+      ],
+      "highlights": ["Coutances lantern tower cathedral", "Granville carnival city", "Avranches Mont Saint-Michel views", "Bocage landscape"],
+      "cover_search_query": "Coutances cathedral Normandy Manche France"
+    },
+    {
+      "id": "haute-savoie-megeve",
+      "name": "Megève & the Fiz Mountains",
+      "region": "French Alps",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "Megève is the most elegant Alpine resort in France — a traffic-free village of cobbled streets and Rococo church below the Aravis peaks. The Combloux balcony viewpoints look straight at Mont Blanc.",
+      "stops": [
+        {"name": "Sallanches, France", "label": "Sallanches"},
+        {"name": "Megève, France", "label": "Megève"},
+        {"name": "Combloux, France", "label": "Combloux"},
+        {"name": "Saint-Gervais-les-Bains, France", "label": "Saint-Gervais"},
+        {"name": "Cluses, France", "label": "Cluses"}
+      ],
+      "highlights": ["Megève chalet village", "Mont Blanc panorama from Combloux", "Saint-Gervais thermal baths", "Haute-Savoie Reblochon cheese"],
+      "cover_search_query": "Megève alpine village Mont Blanc France"
+    },
+    {
+      "id": "vaucluse-dentelles",
+      "name": "Dentelles de Montmirail & Côtes du Rhône",
+      "region": "Provence & Côte d'Azur",
+      "duration_days": 3,
+      "distance_km": 140,
+      "description": "The Dentelles de Montmirail are a jagged limestone lace ridge above the wine villages of Gigondas and Vacqueyras. Mont Ventoux's bald summit dominates the skyline from every direction.",
+      "stops": [
+        {"name": "Orange, France", "label": "Orange"},
+        {"name": "Vaison-la-Romaine, France", "label": "Vaison-la-Romaine"},
+        {"name": "Gigondas, France", "label": "Gigondas"},
+        {"name": "Beaumes-de-Venise, France", "label": "Beaumes-de-Venise"},
+        {"name": "Carpentras, France", "label": "Carpentras"}
+      ],
+      "highlights": ["Vaison-la-Romaine Roman town", "Gigondas Grenache wine", "Beaumes-de-Venise Muscat dessert wine", "Mont Ventoux Tour de France climb"],
+      "cover_search_query": "Dentelles de Montmirail Gigondas Provence France"
+    },
+    {
+      "id": "auvergne-vichy",
+      "name": "Vichy, Riom & the Allier Valley",
+      "region": "Auvergne & Massif Central",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "Vichy's Belle Époque thermal halls and Allier riverside parks are surprisingly elegant for a city carrying wartime baggage. Riom's volcanic stone townhouses and Thiers's knife-making heritage complete an off-beat Auvergne circuit.",
+      "stops": [
+        {"name": "Vichy, France", "label": "Vichy"},
+        {"name": "Riom, France", "label": "Riom"},
+        {"name": "Thiers, France", "label": "Thiers"},
+        {"name": "Ambert, France", "label": "Ambert"},
+        {"name": "Issoire, France", "label": "Issoire"}
+      ],
+      "highlights": ["Vichy thermal springs history", "Riom black volcanic stone churches", "Thiers cutlery museum", "Issoire Romanesque church"],
+      "cover_search_query": "Vichy thermal baths Belle Époque Auvergne France"
+    },
+    {
+      "id": "picardie-somme",
+      "name": "Somme & the WWI Battlefields",
+      "region": "Northern France",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "The Somme valley holds the most moving landscape of the Western Front — the Thiepval Arch, Beaumont-Hamel's preserved trenches, and the Vimy Ridge Canadian memorial form a circuit that puts history in brutal perspective.",
+      "stops": [
+        {"name": "Amiens, France", "label": "Amiens"},
+        {"name": "Péronne, France", "label": "Péronne"},
+        {"name": "Thiepval, France", "label": "Thiepval"},
+        {"name": "Albert, France", "label": "Albert"},
+        {"name": "Beaumont-Hamel, France", "label": "Beaumont-Hamel"}
+      ],
+      "highlights": ["Thiepval Arch 72,000 names", "Preserved Somme trenches", "Amiens Gothic cathedral", "WWI historial museum Péronne"],
+      "cover_search_query": "Thiepval Arch Somme WWI memorial France"
+    },
+    {
+      "id": "provence-luberon",
+      "name": "Luberon — Marquis de Sade Country",
+      "region": "Provence & Côte d'Azur",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "The Luberon massif divides Provence into a northern and southern slopes of contrasting character. Lacoste carries the Marquis de Sade's ruined château; Ménerbes was Peter Mayle's 'Year in Provence' village.",
+      "stops": [
+        {"name": "Apt, France", "label": "Apt"},
+        {"name": "Bonnieux, France", "label": "Bonnieux"},
+        {"name": "Lacoste, France", "label": "Lacoste"},
+        {"name": "Ménerbes, France", "label": "Ménerbes"},
+        {"name": "Oppède-le-Vieux, France", "label": "Oppède"}
+      ],
+      "highlights": ["Bonnieux hilltop village", "Lacoste de Sade château ruins", "Ménerbes Peter Mayle village", "Luberon cherry orchards"],
+      "cover_search_query": "Luberon Bonnieux hilltop village Provence France"
+    },
+    {
+      "id": "alsace-northern",
+      "name": "Northern Alsace — Wissembourg & the Palatinate",
+      "region": "Alsace & Lorraine",
+      "duration_days": 2,
+      "distance_km": 120,
+      "description": "Northern Alsace is the least touristy part of the region — Wissembourg's half-timbered old town straddles a stream on the German border, while Haguenau's ancient forest and Soultz-sous-Forêts guard Roman remains.",
+      "stops": [
+        {"name": "Haguenau, France", "label": "Haguenau"},
+        {"name": "Wissembourg, France", "label": "Wissembourg"},
+        {"name": "Lembach, France", "label": "Lembach"},
+        {"name": "La Petite Pierre, France", "label": "La Petite Pierre"}
+      ],
+      "highlights": ["Wissembourg prettiest Alsatian town", "Outre-Forêt dialect heritage", "Maginot Line bunkers", "Haguenau forest cycling"],
+      "cover_search_query": "Wissembourg half-timbered Alsace France"
+    },
+    {
+      "id": "atlantic-poitou",
+      "name": "Poitou & the Pilgrimage to Santiago",
+      "region": "Bordeaux & Atlantic Coast",
+      "duration_days": 3,
+      "distance_km": 200,
+      "description": "Poitiers is where Charles Martel stopped the Moorish advance in 732 AD. The Via Turonensis pilgrimage road from Tours to Santiago passes through Poitiers and Saint-Jean-d'Angély, lined with Romanesque masterpieces.",
+      "stops": [
+        {"name": "Poitiers, France", "label": "Poitiers"},
+        {"name": "Chauvigny, France", "label": "Chauvigny"},
+        {"name": "Saint-Savin, France", "label": "Saint-Savin"},
+        {"name": "Saint-Jean-d'Angély, France", "label": "Saint-Jean-d'Angély"},
+        {"name": "Aulnay, France", "label": "Aulnay"}
+      ],
+      "highlights": ["Saint-Savin UNESCO frescoes", "Poitiers Romanesque churches", "Chauvigny collegiate capitals", "Camino de Santiago road"],
+      "cover_search_query": "Saint-Savin Romanesque frescoes Poitou France"
+    },
+    {
+      "id": "vendee-pays-loire",
+      "name": "Vendée & the Atlantic Marshes",
+      "region": "Loire Valley",
+      "duration_days": 3,
+      "distance_km": 200,
+      "description": "The Vendée's 250km of Atlantic coast has France's sunniest and most family-friendly beaches. The bocage interior carries memories of the Vendée Wars; Puy du Fou's historical theme park is Europe's most awarded.",
+      "stops": [
+        {"name": "La Roche-sur-Yon, France", "label": "La Roche-sur-Yon"},
+        {"name": "Puy du Fou, France", "label": "Puy du Fou"},
+        {"name": "Les Sables-d'Olonne, France", "label": "Les Sables-d'Olonne"},
+        {"name": "Noirmoutier-en-l'Île, France", "label": "Noirmoutier"},
+        {"name": "Saint-Jean-de-Monts, France", "label": "Saint-Jean-de-Monts"}
+      ],
+      "highlights": ["Puy du Fou historical spectacle", "Noirmoutier salt island", "Vendée bocage heritage", "Atlantic surf beaches"],
+      "cover_search_query": "Noirmoutier island salt marshes Vendée France"
+    }
+  ]
+}
