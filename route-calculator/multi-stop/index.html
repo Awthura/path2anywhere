@@ -656,6 +656,7 @@
 
   let map, directionsRenderer, directionsService, lastResult;
   let activeMarkers = [];
+  let photoInfoWindows = []; // { iw, p, query } — for zoom-adaptive resizing
   let activePolyline = null;
   let fuelPrices = null, detectedCountryCode = null, costEnabled = false;
   let stopIdCounter = 0;
@@ -871,6 +872,12 @@
     maxBtn.addEventListener('click', toggleMapMaximize);
     map.controls[google.maps.ControlPosition.TOP_RIGHT].push(maxBtn);
 
+    // Update photo card sizes when zoom changes
+    map.addListener('zoom_changed', () => {
+      const size = photoCardSize(map.getZoom());
+      photoInfoWindows.forEach(({ iw, p, query }) => iw.setContent(photoCardContent(p, query, size)));
+    });
+
     // Add stops — prefill from ?stops=A|B|C URL param if present
     const preStops = new URLSearchParams(location.search).get('stops');
     if (preStops) {
@@ -1063,7 +1070,28 @@
 
   /* ── Stop photos (holiday planner mode) ── */
 
+  function photoCardSize(zoom) {
+    const w = Math.max(40, Math.min(120, zoom * 6 - 20));
+    return {
+      imgW: w,
+      imgH: Math.round(w * 0.65),
+      nameFz: Math.max(9, Math.round(w * 0.12)) + 'px',
+      attrFz: w >= 70 ? '8px' : '0px',
+    };
+  }
+
+  function photoCardContent(p, query, size) {
+    const { imgW, imgH, nameFz, attrFz } = size;
+    const stopLabel = query.split(',')[0];
+    return `<div style="width:${imgW}px;font-family:system-ui,sans-serif">` +
+      `<img src="${p.photo_url}" style="width:${imgW}px;height:${imgH}px;object-fit:cover;border-radius:5px;display:block" />` +
+      `<div style="font-size:${nameFz};font-weight:700;color:#1a1d27;margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${stopLabel}</div>` +
+      (p.attribution ? `<div style="font-size:${attrFz};color:#94a3b8;margin-top:1px">📷 ${p.attribution}</div>` : '') +
+      `</div>`;
+  }
+
   async function addStopPhotos(stopValues) {
+    photoInfoWindows = [];
     try {
       const resp = await fetch(PHOTO_WEBHOOK, {
         method: 'POST',
@@ -1071,30 +1099,23 @@
         body: JSON.stringify({ country: 'trip', queries: stopValues }),
       });
       const photos = await resp.json();
-
-      const mapW  = document.getElementById('map').offsetWidth;
-      const imgW  = Math.round(Math.max(48, Math.min(100, mapW * 0.08)));
-      const imgH  = Math.round(imgW * 0.65);
-      const nameFz = Math.max(9, Math.round(imgW * 0.12)) + 'px';
-      const attrFz = imgW >= 70 ? '8px' : '0px';
+      const size = photoCardSize(map.getZoom() || 7);
 
       activeMarkers.forEach((marker, i) => {
         const query = stopValues[i];
         const p = photos[query];
         if (!p || !p.photo_url) return;
 
-        const stopLabel = query.split(',')[0];
         const iw = new google.maps.InfoWindow({
-          content: `<div style="width:${imgW}px;font-family:system-ui,sans-serif">` +
-            `<img src="${p.photo_url}" style="width:${imgW}px;height:${imgH}px;object-fit:cover;border-radius:5px;display:block" />` +
-            `<div style="font-size:${nameFz};font-weight:700;color:#1a1d27;margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${stopLabel}</div>` +
-            (p.attribution ? `<div style="font-size:${attrFz};color:#94a3b8;margin-top:1px">📷 ${p.attribution}</div>` : '') +
-            `</div>`,
+          content: photoCardContent(p, query, size),
           pixelOffset: new google.maps.Size(0, -6),
           disableAutoPan: true,
         });
-        iw.open({ map, anchor: marker });
-        marker.addListener('click', () => iw.open({ map, anchor: marker }));
+        photoInfoWindows.push({ iw, p, query });
+        marker.addListener('click', () => {
+          map.panTo(marker.getPosition());
+          iw.open({ map, anchor: marker });
+        });
       });
     } catch (e) {
       // Photos unavailable — silent fail, markers still work normally
@@ -1126,6 +1147,7 @@
         },
         label: { text: label, color: '#0f1117', fontSize: '11px', fontWeight: '700' },
       });
+      marker.addListener('click', () => map.panTo(marker.getPosition()));
       activeMarkers.push(marker);
     });
   }

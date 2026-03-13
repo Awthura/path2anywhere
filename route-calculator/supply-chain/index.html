@@ -934,7 +934,7 @@
     ];
 
     markerDefs.forEach(({ lat, lng, label, color, title }) => {
-      new google.maps.Marker({
+      const marker = new google.maps.Marker({
         position: { lat, lng },
         map,
         title,
@@ -948,6 +948,7 @@
         },
         label: { text: label, color: '#0f1117', fontSize: '11px', fontWeight: '700' },
       });
+      marker.addListener('click', () => map.panTo(marker.getPosition()));
     });
   }
 

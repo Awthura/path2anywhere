@@ -729,7 +729,7 @@
       { lat: leg.from_lat, lng: leg.from_lng, label: 'A', color: '#4f8ef7', title: fromAddr },
       { lat: leg.to_lat,   lng: leg.to_lng,   label: 'B', color: '#34d399', title: toAddr   },
     ].forEach(({ lat, lng, label, color, title }) => {
-      new google.maps.Marker({
+      const marker = new google.maps.Marker({
         position: { lat, lng }, map, title,
         icon: {
           path: google.maps.SymbolPath.CIRCLE,
@@ -738,6 +738,7 @@
         },
         label: { text: label, color: '#0f1117', fontSize: '11px', fontWeight: '700' },
       });
+      marker.addListener('click', () => map.panTo(marker.getPosition()));
     });
   }
 
