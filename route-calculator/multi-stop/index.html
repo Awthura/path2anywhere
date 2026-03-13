@@ -256,6 +256,15 @@
       padding: 10px 12px; gap: 8px;
     }
     .legs-bar.hidden { display: none; }
+    .legs-toggle {
+      background: var(--bg); border-top: 1px solid var(--border);
+      padding: 9px 16px; cursor: pointer;
+      font-size: 11px; font-weight: 700; color: var(--muted);
+      text-transform: uppercase; letter-spacing: 0.08em;
+      user-select: none; transition: color 0.15s;
+    }
+    .legs-toggle:hover { color: var(--text); }
+    .legs-toggle.hidden { display: none; }
     .leg-card {
       background: var(--surface); border: 1px solid var(--border);
       border-radius: 8px; padding: 9px 12px;
@@ -540,6 +549,10 @@
   </div>
 </div>
 
+<!-- Legs toggle -->
+<div class="legs-toggle hidden" id="legsToggle" onclick="toggleLegs()">
+  <span id="legsToggleLabel">▶ Show route breakdown</span>
+</div>
 <!-- Legs bar -->
 <div class="legs-bar hidden" id="legsBar"></div>
 
@@ -1021,7 +1034,17 @@
       `;
       bar.appendChild(card);
     });
-    bar.classList.remove('hidden');
+    // Show toggle collapsed, not the bar directly
+    document.getElementById('legsToggle').classList.remove('hidden');
+    document.getElementById('legsToggleLabel').textContent = '▶ Show route breakdown';
+  }
+
+  function toggleLegs() {
+    const bar    = document.getElementById('legsBar');
+    const label  = document.getElementById('legsToggleLabel');
+    const open   = !bar.classList.contains('hidden');
+    bar.classList.toggle('hidden', open);
+    label.textContent = open ? '▶ Show route breakdown' : '▼ Hide route breakdown';
   }
 
   function drawPolylineFromLegs(legs) {
@@ -1119,10 +1142,13 @@
       }
 
       onAdd() {
+        const w   = Math.round(Math.max(70, Math.min(120, window.innerWidth * 0.22)));
+        const h   = Math.round(w * 0.65);
+        const fz  = Math.max(9, Math.round(w * 0.09)) + 'px';
         const div = document.createElement('div');
         div.style.cssText = [
-          'position:absolute',
-          'width:120px',
+          `position:absolute`,
+          `width:${w}px`,
           'background:#1c1f2b',
           'border-radius:8px',
           'overflow:hidden',
@@ -1133,8 +1159,8 @@
         ].join(';');
         const label = this.query.split(',')[0].trim();
         div.innerHTML =
-          `<img src="${this.photoUrl}" style="width:120px;height:78px;object-fit:cover;display:block">` +
-          `<div style="padding:4px 7px 5px;font-family:system-ui,sans-serif;font-size:10px;font-weight:700;color:#e2e8f0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${label}</div>`;
+          `<img src="${this.photoUrl}" style="width:${w}px;height:${h}px;object-fit:cover;display:block">` +
+          `<div style="padding:3px 6px 4px;font-family:system-ui,sans-serif;font-size:${fz};font-weight:700;color:#e2e8f0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${label}</div>`;
         div.addEventListener('click', () => {
           this.getMap().panTo(this.position);
           showStopModal(this.photoUrl, this.query, this.stopNum, this.totalStops, this.attribution);
