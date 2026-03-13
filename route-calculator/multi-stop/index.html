@@ -593,9 +593,11 @@
 
 <script>
   const WEBHOOK_URL    = 'https://n8n.path2anywhere.com/webhook/route';
+  const PHOTO_WEBHOOK  = 'https://n8n.path2anywhere.com/webhook/trip-planner';
   const MAPS_API_KEY   = '__MAPS_API_KEY__';
   const MAX_FREE_STOPS = 10;
   const IS_OPTIMISER   = new URLSearchParams(location.search).get('mode') === 'optimise';
+  const FROM_TRIP_PLANNER = !!new URLSearchParams(location.search).get('stops');
 
   const STOP_COLORS = ['#4f8ef7','#34d399','#f59e0b','#a78bfa','#fb923c','#e879f9','#4ade80','#60a5fa','#f472b6','#facc15'];
   const STOP_LABELS = 'ABCDEFGHIJ'.split('');
@@ -843,7 +845,9 @@
       const values = preStops.split('|').map(s => decodeURIComponent(s).trim()).filter(Boolean);
       if (values.length >= 2) {
         values.forEach(v => addStop(v));
-        calculate(); // auto-calculate when launched from trip planner
+        calculate().then(() => {
+          if (FROM_TRIP_PLANNER && lastResult) addStopPhotos(lastResult.stopValues);
+        });
       } else {
         addStop();
         addStop();
@@ -992,6 +996,40 @@
       strokeColor: '#4f8ef7', strokeWeight: 3, strokeOpacity: 0.9,
       geodesic: true,
     });
+  }
+
+  /* ── Stop photos (holiday planner mode) ── */
+
+  async function addStopPhotos(stopValues) {
+    try {
+      const resp = await fetch(PHOTO_WEBHOOK, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ country: 'trip', queries: stopValues }),
+      });
+      const photos = await resp.json();
+
+      activeMarkers.forEach((marker, i) => {
+        const query = stopValues[i];
+        const p = photos[query];
+        if (!p || !p.photo_url) return;
+
+        const stopLabel = query.split(',')[0];
+        const iw = new google.maps.InfoWindow({
+          content: `<div style="width:110px;font-family:system-ui,sans-serif">` +
+            `<img src="${p.photo_url}" style="width:110px;height:72px;object-fit:cover;border-radius:5px;display:block" />` +
+            `<div style="font-size:11px;font-weight:700;color:#1a1d27;margin-top:4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${stopLabel}</div>` +
+            (p.attribution ? `<div style="font-size:9px;color:#94a3b8;margin-top:1px">📷 ${p.attribution}</div>` : '') +
+            `</div>`,
+          pixelOffset: new google.maps.Size(0, -6),
+          disableAutoPan: true,
+        });
+        iw.open({ map, anchor: marker });
+        marker.addListener('click', () => iw.open({ map, anchor: marker }));
+      });
+    } catch (e) {
+      // Photos unavailable — silent fail, markers still work normally
+    }
   }
 
   function placeMarkers(legs, stopValues) {
