@@ -296,19 +296,65 @@
 
     .rtp-btn {
       display: block;
+      width: 100%;
       margin-top: auto;
       text-align: center;
       background: #a78bfa;
       color: #fff;
       text-decoration: none;
+      border: none;
       border-radius: 6px;
       padding: 8px 12px;
       font-size: 11px;
       font-weight: 700;
       letter-spacing: 0.04em;
+      font-family: inherit;
+      cursor: pointer;
       transition: opacity 0.15s;
     }
     .rtp-btn:hover { opacity: 0.85; }
+
+    /* Journey bar */
+    .rtp-journey {
+      display: none;
+      gap: 12px;
+      align-items: flex-end;
+      flex-wrap: wrap;
+      background: rgba(79,142,247,0.06);
+      border: 1px solid rgba(79,142,247,0.18);
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin-bottom: 20px;
+    }
+    .rtp-journey.visible { display: flex; }
+    .rtp-journey-field {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      flex: 1;
+      min-width: 140px;
+    }
+    .rtp-journey-field label {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--accent);
+    }
+    .rtp-journey-input {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--text);
+      font-size: 12px;
+      padding: 7px 10px;
+      outline: none;
+      width: 100%;
+      font-family: inherit;
+      transition: border-color 0.15s;
+    }
+    .rtp-journey-input:focus { border-color: var(--accent); }
+    .rtp-journey-input::placeholder { color: var(--muted); font-style: italic; }
 
     /* Loading / empty states */
     .rtp-state {
@@ -390,6 +436,17 @@
     <button class="rtp-country-btn" data-country="spain">🇪🇸 Spain</button>
   </div>
 
+  <div id="rtp-journey" class="rtp-journey">
+    <div class="rtp-journey-field">
+      <label>📍 Starting from</label>
+      <input id="rtp-start" class="rtp-journey-input" type="text" placeholder="e.g. London, Paris… (optional)" autocomplete="off">
+    </div>
+    <div class="rtp-journey-field">
+      <label>🏁 Ending at</label>
+      <input id="rtp-end" class="rtp-journey-input" type="text" placeholder="Optional return point" autocomplete="off">
+    </div>
+  </div>
+
   <div id="rtp-grid" class="rtp-grid"></div>
   <div id="rtp-state" class="rtp-state">Pick a country to explore road trips.</div>
 </div>
@@ -439,6 +496,14 @@
     state.style.display = 'none';
     renderCards(featured, data.emoji || '🗺️');
 
+    // Show journey bar + pre-fill from localStorage
+    const jbar = document.getElementById('rtp-journey');
+    jbar.classList.add('visible');
+    const saved = localStorage.getItem('p2a_start');
+    const savedEnd = localStorage.getItem('p2a_end');
+    if (saved)    document.getElementById('rtp-start').value = saved;
+    if (savedEnd) document.getElementById('rtp-end').value   = savedEnd;
+
     // Update "view all" link
     viewAll.href = `${TRIP_PG}?country=${country}`;
     viewAll.textContent = `View all ${data.trips.length} itineraries →`;
@@ -466,7 +531,7 @@
   function renderCards(trips, emoji) {
     const grid = document.getElementById('rtp-grid');
     grid.innerHTML = trips.map(trip => {
-      const stopsParam = trip.stops.map(s => encodeURIComponent(s.name)).join('|');
+      const stopsJson = esc(JSON.stringify(trip.stops.map(s => s.name)));
       const stopLabels = trip.stops.slice(0, 4).map(s => s.label).join(' › ')
         + (trip.stops.length > 4 ? ` +${trip.stops.length - 4}` : '');
       return `
@@ -480,11 +545,21 @@
               <span class="rtp-pill dist">📍 ${trip.distance_km} km</span>
             </div>
             <div class="rtp-stops">${esc(stopLabels)}</div>
-            <a class="rtp-btn" href="${MULTI}?stops=${stopsParam}">Plan this route →</a>
+            <button class="rtp-btn" data-stops="${stopsJson}" onclick="rtpPlan(this)">Plan this route →</button>
           </div>
         </div>`;
     }).join('');
   }
+
+  window.rtpPlan = function(btn) {
+    const stops = JSON.parse(btn.dataset.stops);
+    const start = document.getElementById('rtp-start').value.trim();
+    const end   = document.getElementById('rtp-end').value.trim();
+    if (start) localStorage.setItem('p2a_start', start); else localStorage.removeItem('p2a_start');
+    if (end)   localStorage.setItem('p2a_end',   end);   else localStorage.removeItem('p2a_end');
+    const all = [...(start ? [start] : []), ...stops, ...(end ? [end] : [])];
+    window.open(`${MULTI}?stops=${all.map(encodeURIComponent).join('|')}`, '_blank');
+  };
 
   function applyPhotos(trips) {
     const country = document.querySelector('.rtp-country-btn.active')?.dataset.country;
