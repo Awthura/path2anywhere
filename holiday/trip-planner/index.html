@@ -712,7 +712,8 @@
     if (start) localStorage.setItem('p2a_start', start); else localStorage.removeItem('p2a_start');
     if (end)   localStorage.setItem('p2a_end',   end);   else localStorage.removeItem('p2a_end');
     const all = [...(start ? [start] : []), ...trip.stops, ...(end ? [end] : [])];
-    window.open(`${MULTI_STOP_URL}?stops=${all.map(encodeURIComponent).join('|')}`, '_blank');
+    const photoStops = trip.stops.map(encodeURIComponent).join('|');
+    window.open(`${MULTI_STOP_URL}?stops=${all.map(encodeURIComponent).join('|')}&photoStops=${photoStops}`, '_blank');
   }
 
   // Pre-fill from localStorage when results become visible

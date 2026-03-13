@@ -1159,19 +1159,29 @@
     photoOverlays.forEach(o => o.setMap(null));
     photoOverlays = [];
     try {
+      // Use photoStops param if present — these are the itinerary stops only,
+      // excluding any custom start/end the user added in the journey bar.
+      const rawPhotoStops = new URLSearchParams(location.search).get('photoStops');
+      const photoQueries = rawPhotoStops
+        ? rawPhotoStops.split('|').map(s => decodeURIComponent(s).trim()).filter(Boolean)
+        : stopValues;
+
       const resp = await fetch(PHOTO_WEBHOOK, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ country: 'trip', queries: stopValues }),
+        body: JSON.stringify({ country: 'trip', queries: photoQueries }),
       });
       const photos = await resp.json();
-      const total = stopValues.length;
+      const total = photoQueries.length;
 
-      activeMarkers.forEach((marker, i) => {
-        const query = stopValues[i];
+      photoQueries.forEach((query, photoIdx) => {
         const p = photos[query];
         if (!p || !p.photo_url) return;
-        const overlay = new PhotoOverlay(marker.getPosition(), p.photo_url, query, i + 1, total, p.attribution || null);
+        // Find the matching marker by stop name
+        const markerIdx = stopValues.indexOf(query);
+        const marker = activeMarkers[markerIdx];
+        if (!marker) return;
+        const overlay = new PhotoOverlay(marker.getPosition(), p.photo_url, query, photoIdx + 1, total, p.attribution || null);
         overlay.setMap(map);
         photoOverlays.push(overlay);
         marker.addListener('click', () => map.panTo(marker.getPosition()));

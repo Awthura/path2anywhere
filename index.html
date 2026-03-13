@@ -558,7 +558,8 @@
     if (start) localStorage.setItem('p2a_start', start); else localStorage.removeItem('p2a_start');
     if (end)   localStorage.setItem('p2a_end',   end);   else localStorage.removeItem('p2a_end');
     const all = [...(start ? [start] : []), ...stops, ...(end ? [end] : [])];
-    window.open(`${MULTI}?stops=${all.map(encodeURIComponent).join('|')}`, '_blank');
+    const photoStops = stops.map(encodeURIComponent).join('|');
+    window.open(`${MULTI}?stops=${all.map(encodeURIComponent).join('|')}&photoStops=${photoStops}`, '_blank');
   };
 
   function applyPhotos(trips) {
