@@ -1,0 +1,433 @@
+{
+  "country": "Switzerland",
+  "country_code": "ch",
+  "emoji": "🇨🇭",
+  "trips": [
+    {
+      "id": "bernese-oberland-classic",
+      "name": "Bernese Oberland Classic",
+      "region": "Bernese Oberland",
+      "duration_days": 5,
+      "distance_km": 280,
+      "description": "The Bernese Oberland is Switzerland's alpine heartland — a valley of thundering waterfalls, cable cars to 4,000m peaks, and the iconic trio of Eiger, Mönch and Jungfrau watching over every turn. The drive from Bern to Lauterbrunnen passes mirror-flat lakes before the valley walls close in dramatically.",
+      "stops": [
+        {"name": "Bern, Switzerland", "label": "Bern"},
+        {"name": "Thun, Switzerland", "label": "Thun"},
+        {"name": "Interlaken, Switzerland", "label": "Interlaken"},
+        {"name": "Grindelwald, Switzerland", "label": "Grindelwald"},
+        {"name": "Lauterbrunnen, Switzerland", "label": "Lauterbrunnen"}
+      ],
+      "highlights": ["Eiger Mönch Jungfrau panorama", "Trümmelbach waterfalls", "Interlaken lake promenade", "Grindelwald First cable car"],
+      "cover_search_query": "Grindelwald Eiger mountain village Switzerland"
+    },
+    {
+      "id": "lake-geneva-swiss-riviera",
+      "name": "Lake Geneva & the Swiss Riviera",
+      "region": "Lake Geneva",
+      "duration_days": 4,
+      "distance_km": 180,
+      "description": "The northern shore of Lake Geneva runs through some of the most manicured scenery in Europe — Belle Époque promenades, UNESCO vineyard terraces, and Chillon Castle rising from the water. Montreux's jazz heritage and Vevey's Charlie Chaplin connection make this as culturally rich as it is beautiful.",
+      "stops": [
+        {"name": "Geneva, Switzerland", "label": "Geneva"},
+        {"name": "Lausanne, Switzerland", "label": "Lausanne"},
+        {"name": "Vevey, Switzerland", "label": "Vevey"},
+        {"name": "Montreux, Switzerland", "label": "Montreux"},
+        {"name": "Gruyères, Switzerland", "label": "Gruyères"}
+      ],
+      "highlights": ["Château de Chillon", "Lavaux UNESCO vineyard terraces", "Montreux Jazz Festival birthplace", "Gruyères medieval castle"],
+      "cover_search_query": "Château de Chillon Montreux Lake Geneva Switzerland"
+    },
+    {
+      "id": "matterhorn-zermatt-valley",
+      "name": "Matterhorn & Zermatt Valley",
+      "region": "Valais",
+      "duration_days": 4,
+      "distance_km": 220,
+      "description": "The drive up the Mattervispa valley to car-free Zermatt offers the most dramatic mountain reveal in the Alps — the Matterhorn first appearing as a dark pyramid above the valley walls. Saas-Fee's 360° glacier arena and Sion's twin hilltop fortresses provide the perfect bookends.",
+      "stops": [
+        {"name": "Geneva, Switzerland", "label": "Geneva"},
+        {"name": "Sion, Switzerland", "label": "Sion"},
+        {"name": "Visp, Switzerland", "label": "Visp"},
+        {"name": "Zermatt, Switzerland", "label": "Zermatt"},
+        {"name": "Saas-Fee, Switzerland", "label": "Saas-Fee"}
+      ],
+      "highlights": ["Matterhorn pyramid view", "Zermatt car-free village", "Saas-Fee glacier arena", "Sion twin hilltop fortresses"],
+      "cover_search_query": "Matterhorn Zermatt reflection Switzerland"
+    },
+    {
+      "id": "lucerne-central-switzerland",
+      "name": "Lucerne & Central Switzerland",
+      "region": "Central Switzerland",
+      "duration_days": 3,
+      "distance_km": 120,
+      "description": "Lucerne's Chapel Bridge and the Lion Monument bookend one of Switzerland's most accessible alpine circuits. The Reuss valley road to Andermatt climbs through the Schöllenen Gorge — a dramatic slot canyon where the Devil's Bridge spans churning white water.",
+      "stops": [
+        {"name": "Lucerne, Switzerland", "label": "Lucerne"},
+        {"name": "Weggis, Switzerland", "label": "Weggis"},
+        {"name": "Engelberg, Switzerland", "label": "Engelberg"},
+        {"name": "Andermatt, Switzerland", "label": "Andermatt"},
+        {"name": "Altdorf, Switzerland", "label": "Altdorf"}
+      ],
+      "highlights": ["Chapel Bridge Lucerne", "Schöllenen Gorge Devil's Bridge", "Titlis glacier cable car", "William Tell country"],
+      "cover_search_query": "Chapel Bridge Lucerne Switzerland lake"
+    },
+    {
+      "id": "engadin-valley-st-moritz",
+      "name": "Engadin Valley & St. Moritz",
+      "region": "Graubünden",
+      "duration_days": 5,
+      "distance_km": 260,
+      "description": "The Inn valley between Maloja and Zernez is Europe's sunniest alpine valley — 320 days of sunshine, frozen lakes in winter and wildflower meadows in summer. St. Moritz's gilded resort culture gives way rapidly to the windswept Silsersee, where Nietzsche found his philosophy of eternal recurrence.",
+      "stops": [
+        {"name": "Chur, Switzerland", "label": "Chur"},
+        {"name": "Davos, Switzerland", "label": "Davos"},
+        {"name": "St. Moritz, Switzerland", "label": "St. Moritz"},
+        {"name": "Pontresina, Switzerland", "label": "Pontresina"},
+        {"name": "Sils Maria, Switzerland", "label": "Sils Maria"},
+        {"name": "Maloja, Switzerland", "label": "Maloja"}
+      ],
+      "highlights": ["St. Moritz frozen lake circuit", "Silsersee Nietzsche shore walk", "Pontresina glacier valley", "Maloja Pass hairpins"],
+      "cover_search_query": "St. Moritz lake Engadin valley Switzerland"
+    },
+    {
+      "id": "ticino-lakeside",
+      "name": "Ticino Lakeside",
+      "region": "Ticino",
+      "duration_days": 4,
+      "distance_km": 160,
+      "description": "South of the Alps, Switzerland turns Italian — terracotta rooftops, palm trees, and lake towns that feel more Lombardy than Lucerne. Bellinzona's three UNESCO castles give way to the magnolia-lined Locarno waterfront and Lugano's cosmopolitan energy.",
+      "stops": [
+        {"name": "Bellinzona, Switzerland", "label": "Bellinzona"},
+        {"name": "Locarno, Switzerland", "label": "Locarno"},
+        {"name": "Ascona, Switzerland", "label": "Ascona"},
+        {"name": "Lugano, Switzerland", "label": "Lugano"},
+        {"name": "Morcote, Switzerland", "label": "Morcote"}
+      ],
+      "highlights": ["Bellinzona three UNESCO castles", "Locarno Piazza Grande", "Lugano lake panorama", "Morcote oldest village in Ticino"],
+      "cover_search_query": "Lugano lake Ticino Switzerland palm trees"
+    },
+    {
+      "id": "furka-grimsel-passes",
+      "name": "Furka & Grimsel Passes",
+      "region": "Central Alps",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "The Furka and Grimsel are twin passes that inspired Shelley's Frankenstein and appeared in a James Bond car chase — vertiginous hairpins above turquoise glacial lakes on both sides. Meiringen's Reichenbach Falls, where Sherlock Holmes met his fate, sets the dramatic tone.",
+      "stops": [
+        {"name": "Meiringen, Switzerland", "label": "Meiringen"},
+        {"name": "Innertkirchen, Switzerland", "label": "Innertkirchen"},
+        {"name": "Gletsch, Switzerland", "label": "Gletsch"},
+        {"name": "Furka Pass, Switzerland", "label": "Furka Pass"},
+        {"name": "Andermatt, Switzerland", "label": "Andermatt"}
+      ],
+      "highlights": ["Rhône Glacier ice cave", "Grimsel reservoir lunar landscape", "Furka Pass James Bond location", "Reichenbach Falls Sherlock Holmes"],
+      "cover_search_query": "Furka Pass mountain road hairpins Switzerland"
+    },
+    {
+      "id": "rhine-falls-thurgau",
+      "name": "Rhine Falls & Northern Switzerland",
+      "region": "Northern Switzerland",
+      "duration_days": 3,
+      "distance_km": 150,
+      "description": "The Rhine Falls at Schaffhausen are Europe's largest waterfall by volume — a curtain of white water 150m wide that shakes the viewing platforms. The medieval town of Stein am Rhein has frescoed house fronts painted to look like carved stone, virtually unchanged since the 15th century.",
+      "stops": [
+        {"name": "Zurich, Switzerland", "label": "Zurich"},
+        {"name": "Schaffhausen, Switzerland", "label": "Schaffhausen"},
+        {"name": "Stein am Rhein, Switzerland", "label": "Stein am Rhein"},
+        {"name": "Kreuzlingen, Switzerland", "label": "Kreuzlingen"},
+        {"name": "Frauenfeld, Switzerland", "label": "Frauenfeld"}
+      ],
+      "highlights": ["Rhine Falls Europe's largest waterfall", "Stein am Rhein painted medieval facades", "Schaffhausen Munot fortress", "Rhine river boat crossing"],
+      "cover_search_query": "Rhine Falls Schaffhausen waterfall Switzerland"
+    },
+    {
+      "id": "appenzell-alpstein",
+      "name": "Appenzell & the Alpstein",
+      "region": "Eastern Switzerland",
+      "duration_days": 3,
+      "distance_km": 130,
+      "description": "Appenzell Innerrhoden is the most traditional canton in Switzerland — men still carry ceremonial swords to the open-air parliament, and the flower meadows above are worked by families who have owned the same strips since the Middle Ages. The Säntis massif's jagged limestone ridgeline lords over the entire region.",
+      "stops": [
+        {"name": "St. Gallen, Switzerland", "label": "St. Gallen"},
+        {"name": "Appenzell, Switzerland", "label": "Appenzell"},
+        {"name": "Wasserauen, Switzerland", "label": "Wasserauen"},
+        {"name": "Brülisau, Switzerland", "label": "Brülisau"},
+        {"name": "Wildhaus, Switzerland", "label": "Wildhaus"}
+      ],
+      "highlights": ["Appenzell open-air democracy Landsgemeinde", "Säntis peak panorama", "Ebenalp cliff monastery", "Appenzeller cheese dairy visits"],
+      "cover_search_query": "Appenzell village colourful houses Switzerland Alps"
+    },
+    {
+      "id": "gotthard-pass-val-tremola",
+      "name": "Gotthard Pass & Val Tremola",
+      "region": "Central Switzerland",
+      "duration_days": 3,
+      "distance_km": 200,
+      "description": "The Gotthard is Switzerland's most historic mountain crossing — a cobbled old road (Val Tremola) that winds through 24 hairpins unchanged since the 18th century. The pass summit museum chronicles three centuries of alpine travel from mule caravans to the world's longest rail tunnel beneath it.",
+      "stops": [
+        {"name": "Bellinzona, Switzerland", "label": "Bellinzona"},
+        {"name": "Airolo, Switzerland", "label": "Airolo"},
+        {"name": "Gotthard Pass, Switzerland", "label": "Gotthard Pass"},
+        {"name": "Andermatt, Switzerland", "label": "Andermatt"},
+        {"name": "Wassen, Switzerland", "label": "Wassen"}
+      ],
+      "highlights": ["Val Tremola cobbled historic road", "Gotthard Pass summit museum", "Schöllenen Gorge Devil's Bridge", "Wassen triple church view"],
+      "cover_search_query": "Gotthard Pass old road cobblestone Switzerland"
+    },
+    {
+      "id": "bernina-express-route",
+      "name": "Bernina Pass & Poschiavo",
+      "region": "Graubünden",
+      "duration_days": 4,
+      "distance_km": 220,
+      "description": "The Bernina Pass road follows Europe's highest non-rack railway crossing the Alps — a UNESCO World Heritage route that passes the frozen Lago Bianco and spirals down through the Brusio viaduct. The contrast between the snow-white pass and the palm trees of Poschiavo 1,800m below is startling.",
+      "stops": [
+        {"name": "Chur, Switzerland", "label": "Chur"},
+        {"name": "Thusis, Switzerland", "label": "Thusis"},
+        {"name": "Tiefencastel, Switzerland", "label": "Tiefencastel"},
+        {"name": "St. Moritz, Switzerland", "label": "St. Moritz"},
+        {"name": "Poschiavo, Switzerland", "label": "Poschiavo"}
+      ],
+      "highlights": ["Lago Bianco glacier lake", "Brusio circular viaduct UNESCO", "Bernina Pass 2,328m", "Via Mala gorge"],
+      "cover_search_query": "Bernina Pass lake white Switzerland Graubünden"
+    },
+    {
+      "id": "swiss-national-park-lower-engadin",
+      "name": "Swiss National Park & Lower Engadin",
+      "region": "Graubünden",
+      "duration_days": 4,
+      "distance_km": 230,
+      "description": "Switzerland's only national park protects 170km² of recovering alpine wilderness with ibex, golden eagles and red deer roaming freely without a single tourist infrastructure point inside. The Romansh-speaking villages of Guarda and Sent are living museums of medieval Engadin architecture.",
+      "stops": [
+        {"name": "Zernez, Switzerland", "label": "Zernez"},
+        {"name": "S-chanf, Switzerland", "label": "S-chanf"},
+        {"name": "Scuol, Switzerland", "label": "Scuol"},
+        {"name": "Guarda, Switzerland", "label": "Guarda"},
+        {"name": "Val Müstair, Switzerland", "label": "Val Müstair"}
+      ],
+      "highlights": ["Swiss National Park ibex trails", "Scuol thermal baths", "Guarda UNESCO Engadin village", "Romansh culture and language"],
+      "cover_search_query": "Swiss National Park Engadin valley Switzerland"
+    },
+    {
+      "id": "aletsch-glacier-riederalp",
+      "name": "Aletsch Glacier & Riederalp",
+      "region": "Valais",
+      "duration_days": 4,
+      "distance_km": 200,
+      "description": "The Aletsch is Europe's largest glacier — a 23km river of ice flowing from the Jungfrau massif into the Rhône valley, inscribed as a UNESCO World Heritage site. The car-free villages of Riederalp and Bettmeralp sit above the tree line with view terraces looking directly onto the glacier's fractured surface.",
+      "stops": [
+        {"name": "Brig, Switzerland", "label": "Brig"},
+        {"name": "Mörel, Switzerland", "label": "Mörel"},
+        {"name": "Riederalp, Switzerland", "label": "Riederalp"},
+        {"name": "Bettmeralp, Switzerland", "label": "Bettmeralp"},
+        {"name": "Fiesch, Switzerland", "label": "Fiesch"}
+      ],
+      "highlights": ["Aletsch Glacier UNESCO Europe's largest", "Riederalp car-free alpine village", "Bettmerhorn 360° panorama", "Villa Cassel nature conservation centre"],
+      "cover_search_query": "Aletsch Glacier aerial view Switzerland UNESCO"
+    },
+    {
+      "id": "lavaux-vineyard-terraces",
+      "name": "Lavaux Vineyard Terraces",
+      "region": "Vaud",
+      "duration_days": 3,
+      "distance_km": 120,
+      "description": "The Lavaux vineyard terraces above Lake Geneva are a UNESCO World Heritage landscape — 2,000 years of Roman, monastic and peasant viticulture carved into south-facing hillsides that plunge to the lakeshore. On hot summer afternoons the lake reflects the terraces in a mirror of gold and blue.",
+      "stops": [
+        {"name": "Lausanne, Switzerland", "label": "Lausanne"},
+        {"name": "Lutry, Switzerland", "label": "Lutry"},
+        {"name": "Cully, Switzerland", "label": "Cully"},
+        {"name": "Épesses, Switzerland", "label": "Épesses"},
+        {"name": "Vevey, Switzerland", "label": "Vevey"}
+      ],
+      "highlights": ["Lavaux UNESCO vineyard terraces", "Cully wine cave tastings", "Lausanne Olympic Museum", "Vevey Charlie Chaplin statue"],
+      "cover_search_query": "Lavaux vineyard terraces Lake Geneva Switzerland UNESCO"
+    },
+    {
+      "id": "fribourg-gruyeres",
+      "name": "Fribourg & Gruyères",
+      "region": "Fribourg",
+      "duration_days": 3,
+      "distance_km": 140,
+      "description": "Gruyères castle lords over one of Switzerland's best-preserved medieval towns, and the cheese of the same name has been made in the valley below for nearly 900 years. Fribourg's old town bridges the linguistic divide between German and French Switzerland on a cliff peninsula above the Sarine river.",
+      "stops": [
+        {"name": "Bern, Switzerland", "label": "Bern"},
+        {"name": "Fribourg, Switzerland", "label": "Fribourg"},
+        {"name": "Bulle, Switzerland", "label": "Bulle"},
+        {"name": "Gruyères, Switzerland", "label": "Gruyères"},
+        {"name": "Charmey, Switzerland", "label": "Charmey"}
+      ],
+      "highlights": ["Gruyères medieval castle village", "H.R. Giger Museum Gruyères", "Fribourg Gothic cathedral", "Authentic Gruyère cheese cellar"],
+      "cover_search_query": "Gruyères medieval castle town Switzerland"
+    },
+    {
+      "id": "saas-valley-fee-glacier",
+      "name": "Saas Valley & Fee Glacier",
+      "region": "Valais",
+      "duration_days": 3,
+      "distance_km": 120,
+      "description": "The Saas valley is Zermatt's quieter, equally spectacular neighbour — enclosed on three sides by 4,000m peaks and the Fee Glacier, the car-free village of Saas-Fee has been traffic-free since 1951. The world's highest outdoor revolving cable car deposits you at the edge of a glacier at 3,600m.",
+      "stops": [
+        {"name": "Visp, Switzerland", "label": "Visp"},
+        {"name": "Stalden, Switzerland", "label": "Stalden"},
+        {"name": "Saas-Grund, Switzerland", "label": "Saas-Grund"},
+        {"name": "Saas-Fee, Switzerland", "label": "Saas-Fee"},
+        {"name": "Saas-Almagell, Switzerland", "label": "Saas-Almagell"}
+      ],
+      "highlights": ["Saas-Fee car-free glacier village", "Fee Glacier world's highest ice rink", "18 four-thousanders panorama", "Allalinhorn revolving cable car"],
+      "cover_search_query": "Saas-Fee glacier village Switzerland Alps"
+    },
+    {
+      "id": "simmental-gstaad",
+      "name": "Simmental & Gstaad",
+      "region": "Bernese Oberland",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "The Simmental valley runs through the heart of the Bernese Prealps, connecting the lake shores to Gstaad's rarefied resort world of horse-drawn sleighs and private banks. Château-d'Oex hosts the world's most celebrated hot air balloon festival each January, filling the valley with colour.",
+      "stops": [
+        {"name": "Spiez, Switzerland", "label": "Spiez"},
+        {"name": "Zweisimmen, Switzerland", "label": "Zweisimmen"},
+        {"name": "Gstaad, Switzerland", "label": "Gstaad"},
+        {"name": "Château-d'Oex, Switzerland", "label": "Château-d'Oex"},
+        {"name": "Rossinière, Switzerland", "label": "Rossinière"}
+      ],
+      "highlights": ["Gstaad luxury alpine village", "Château-d'Oex balloon festival", "Rossinière Grand Chalet largest wooden house", "Spiez castle on Lake Thun"],
+      "cover_search_query": "Gstaad alpine village Switzerland mountains"
+    },
+    {
+      "id": "walensee-heidiland",
+      "name": "Walensee & Heidiland",
+      "region": "Eastern Switzerland",
+      "duration_days": 3,
+      "distance_km": 150,
+      "description": "The Walensee is one of the most dramatic drives in Switzerland — a narrow lake hemmed between vertical limestone walls, the road barely clinging to the cliff face above turquoise water. Maienfeld is the actual village that inspired Johanna Spyri's Heidi, with the original farmhouse still receiving pilgrims.",
+      "stops": [
+        {"name": "Zurich, Switzerland", "label": "Zurich"},
+        {"name": "Walenstadt, Switzerland", "label": "Walenstadt"},
+        {"name": "Bad Ragaz, Switzerland", "label": "Bad Ragaz"},
+        {"name": "Maienfeld, Switzerland", "label": "Maienfeld"},
+        {"name": "Chur, Switzerland", "label": "Chur"}
+      ],
+      "highlights": ["Walensee cliff road drama", "Maienfeld Heidi village", "Bad Ragaz thermal spa", "Tamina Gorge walk"],
+      "cover_search_query": "Walensee lake cliffs Switzerland dramatic"
+    },
+    {
+      "id": "valais-wine-route",
+      "name": "Valais Wine Route",
+      "region": "Valais",
+      "duration_days": 3,
+      "distance_km": 150,
+      "description": "The Valais is Switzerland's sunniest and most wine-productive canton — sheltered by the Alps, its dry continental climate produces some of Europe's most distinctive whites from ancient indigenous grape varieties like Petite Arvine and Amigne found nowhere else. The Salgesch UNESCO vineyards are the sunniest spot in Switzerland.",
+      "stops": [
+        {"name": "Martigny, Switzerland", "label": "Martigny"},
+        {"name": "Sion, Switzerland", "label": "Sion"},
+        {"name": "Sierre, Switzerland", "label": "Sierre"},
+        {"name": "Leuk, Switzerland", "label": "Leuk"},
+        {"name": "Visp, Switzerland", "label": "Visp"}
+      ],
+      "highlights": ["Sion twin fortresses Valère and Tourbillon", "Salgesch UNESCO wine terraces", "Martigny Fondation Gianadda", "Indigenous grape varieties Petite Arvine"],
+      "cover_search_query": "Valais vineyard terraces Switzerland Rhône valley"
+    },
+    {
+      "id": "susten-klausen-pass-circuit",
+      "name": "Susten & Klausen Pass Circuit",
+      "region": "Bernese Oberland",
+      "duration_days": 4,
+      "distance_km": 240,
+      "description": "The Susten and Klausen passes form a back-to-back alpine circuit that most tourists miss entirely — high-altitude moorland, waterfall valleys and dramatic switchbacks above the treeline. Meiringen's Reichenbach Falls, where Sherlock Holmes met his fate, and Glarus's story bookend a forgotten Switzerland.",
+      "stops": [
+        {"name": "Interlaken, Switzerland", "label": "Interlaken"},
+        {"name": "Meiringen, Switzerland", "label": "Meiringen"},
+        {"name": "Wassen, Switzerland", "label": "Wassen"},
+        {"name": "Altdorf, Switzerland", "label": "Altdorf"},
+        {"name": "Glarus, Switzerland", "label": "Glarus"}
+      ],
+      "highlights": ["Susten Pass alpine snow tunnels", "Klausenpass high meadows", "Reichenbach Falls Sherlock Holmes", "Glarus Landsgemeinde open-air democracy"],
+      "cover_search_query": "Susten Pass alpine road Switzerland"
+    },
+    {
+      "id": "neuchatel-swiss-jura",
+      "name": "Neuchâtel & the Swiss Jura",
+      "region": "Jura",
+      "duration_days": 3,
+      "distance_km": 160,
+      "description": "The Swiss Jura is watchmaking country — La Chaux-de-Fonds and Le Locle were rebuilt on a grid plan after fire specifically to allow maximum northern light into watchmakers' workshops, and the entire twin city is UNESCO listed. The rolling limestone plateau above the lakes feels like a different Switzerland entirely.",
+      "stops": [
+        {"name": "Basel, Switzerland", "label": "Basel"},
+        {"name": "Delémont, Switzerland", "label": "Delémont"},
+        {"name": "La Chaux-de-Fonds, Switzerland", "label": "La Chaux-de-Fonds"},
+        {"name": "Neuchâtel, Switzerland", "label": "Neuchâtel"},
+        {"name": "Yverdon-les-Bains, Switzerland", "label": "Yverdon-les-Bains"}
+      ],
+      "highlights": ["La Chaux-de-Fonds UNESCO watchmaking city", "Neuchâtel castle and collegiate church", "Vue des Alpes pass panorama", "La Tène Celtic archaeological site"],
+      "cover_search_query": "Neuchâtel lake old town castle Switzerland"
+    },
+    {
+      "id": "murten-three-lakes",
+      "name": "Murten & the Three Lakes",
+      "region": "Mittelland",
+      "duration_days": 3,
+      "distance_km": 170,
+      "description": "Switzerland's three western lakes — Biel, Murten and Neuchâtel — are linked by canals created in a 19th-century land reclamation project that drained vast marshes. Murten is the best-preserved medieval walled town in Switzerland, its towers and rampart walk unchanged since the Battle of Murten in 1476.",
+      "stops": [
+        {"name": "Bern, Switzerland", "label": "Bern"},
+        {"name": "Biel, Switzerland", "label": "Biel"},
+        {"name": "Murten, Switzerland", "label": "Murten"},
+        {"name": "Avenches, Switzerland", "label": "Avenches"},
+        {"name": "Payerne, Switzerland", "label": "Payerne"}
+      ],
+      "highlights": ["Murten medieval walled town", "Avenches Roman amphitheatre", "Biel bilingual city culture", "Three Lakes 19th-century canal project"],
+      "cover_search_query": "Murten medieval walled town Switzerland lake"
+    },
+    {
+      "id": "pratigau-davos-arosa",
+      "name": "Prättigau, Davos & Arosa",
+      "region": "Graubünden",
+      "duration_days": 3,
+      "distance_km": 180,
+      "description": "The Prättigau valley is the secret entry into Graubünden's alpine heartland — a narrowing road between hayfield farms and Walser villages that suddenly opens into Klosters's discreet luxury. Davos hosts the World Economic Forum each January, but in summer it reveals a long blue lake beneath glacier-streaked peaks.",
+      "stops": [
+        {"name": "Landquart, Switzerland", "label": "Landquart"},
+        {"name": "Küblis, Switzerland", "label": "Küblis"},
+        {"name": "Klosters, Switzerland", "label": "Klosters"},
+        {"name": "Davos, Switzerland", "label": "Davos"},
+        {"name": "Arosa, Switzerland", "label": "Arosa"}
+      ],
+      "highlights": ["Klosters discreet luxury resort", "Davos Sertigtal wild valley walk", "Arosa cable car Lenzerheide link", "Prättigau Walser heritage villages"],
+      "cover_search_query": "Davos lake Switzerland mountains summer"
+    },
+    {
+      "id": "obergoms-binntal",
+      "name": "Obergoms & Binn Valley",
+      "region": "Valais",
+      "duration_days": 3,
+      "distance_km": 170,
+      "description": "The upper Rhône valley above Brig is the Goms — a string of tiny Walser villages clinging to south-facing slopes above the growing glacier river. The Binn Valley is Switzerland's most mineral-rich protected landscape, where Victorian gem-hunters collected rare crystals and the tradition quietly continues today.",
+      "stops": [
+        {"name": "Brig, Switzerland", "label": "Brig"},
+        {"name": "Ulrichen, Switzerland", "label": "Ulrichen"},
+        {"name": "Münster, Switzerland", "label": "Münster"},
+        {"name": "Binn, Switzerland", "label": "Binn"},
+        {"name": "Ernen, Switzerland", "label": "Ernen"}
+      ],
+      "highlights": ["Goms Walser heritage villages", "Binn Valley crystal collecting", "Ernen medieval village square", "Rhône source glacier hike"],
+      "cover_search_query": "Goms valley Switzerland winter Walser villages"
+    },
+    {
+      "id": "zurich-lake-einsiedeln",
+      "name": "Zurich, Lake Zurich & Einsiedeln",
+      "region": "Zurich",
+      "duration_days": 3,
+      "distance_km": 100,
+      "description": "Lake Zurich's eastern shore is the Gold Coast — affluent villages with manicured gardens above turquoise water, ending at Rapperswil's rose-covered castle. Einsiedeln's baroque monastery is the most visited pilgrimage site in Switzerland, its black Madonna drawing 150,000 pilgrims each year on a journey from medieval Europe.",
+      "stops": [
+        {"name": "Zurich, Switzerland", "label": "Zurich"},
+        {"name": "Rapperswil, Switzerland", "label": "Rapperswil"},
+        {"name": "Einsiedeln, Switzerland", "label": "Einsiedeln"},
+        {"name": "Schwyz, Switzerland", "label": "Schwyz"},
+        {"name": "Zug, Switzerland", "label": "Zug"}
+      ],
+      "highlights": ["Rapperswil rose garden and castle", "Einsiedeln baroque pilgrimage monastery", "Lake Zurich Gold Coast", "Zug medieval old town"],
+      "cover_search_query": "Rapperswil castle Lake Zurich Switzerland"
+    }
+  ]
+}
