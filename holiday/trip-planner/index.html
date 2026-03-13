@@ -323,51 +323,26 @@
     }
     .plan-btn a:hover, .plan-btn button:hover { opacity: 0.85; }
 
-    /* ── Journey panel ── */
-    .journey-panel {
-      background: rgba(79,142,247,0.06);
-      border: 1px solid rgba(79,142,247,0.18);
-      border-radius: 10px;
-      padding: 14px 16px;
-      margin-bottom: 24px;
-      display: flex;
-      gap: 12px;
-      flex-wrap: wrap;
-      align-items: flex-end;
+    /* ── Plan modal ── */
+    @keyframes planModalIn {
+      from { opacity: 0; transform: scale(0.95) translateY(6px); }
+      to   { opacity: 1; transform: scale(1)    translateY(0);   }
     }
-    .journey-panel-label {
+    .plan-modal-input {
       width: 100%;
-      font-size: 11px;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--accent);
-      margin-bottom: 2px;
-    }
-    .journey-field {
-      display: flex;
-      flex-direction: column;
-      gap: 5px;
-      flex: 1;
-      min-width: 180px;
-    }
-    .journey-field label {
-      font-size: 12px;
-      color: var(--muted);
-    }
-    .journey-input {
-      background: var(--surface);
+      background: var(--bg);
       border: 1px solid var(--border);
-      border-radius: 6px;
+      border-radius: 8px;
       color: var(--text);
-      font-size: 13px;
-      padding: 8px 12px;
+      font-size: 14px;
+      padding: 10px 14px;
       outline: none;
-      width: 100%;
+      box-sizing: border-box;
       transition: border-color 0.15s;
+      font-family: inherit;
     }
-    .journey-input:focus { border-color: var(--accent); }
-    .journey-input::placeholder { color: var(--muted); font-style: italic; }
+    .plan-modal-input:focus { border-color: var(--accent); }
+    .plan-modal-input::placeholder { color: var(--muted); }
 
     /* Loading state */
     .photo-loading {
@@ -466,18 +441,6 @@
         <option value="">All regions</option>
       </select>
       <input type="text" id="search-input" placeholder="Search trips…" autocomplete="off" />
-    </div>
-
-    <div class="journey-panel">
-      <div class="journey-panel-label">📍 Personalise your journey — optional</div>
-      <div class="journey-field">
-        <label>Starting from</label>
-        <input type="text" id="start-input" class="journey-input" placeholder="e.g. Paris, London, Amsterdam…" autocomplete="off">
-      </div>
-      <div class="journey-field">
-        <label>Ending at</label>
-        <input type="text" id="end-input" class="journey-input" placeholder="Leave blank to end at last stop" autocomplete="off">
-      </div>
     </div>
 
     <div id="cards-grid"></div>
@@ -583,7 +546,11 @@
     countEl.textContent = `${trips.length} itinerar${trips.length === 1 ? 'y' : 'ies'}`;
 
     grid.innerHTML = trips.map(trip => {
-      const stopsJson = escHtml(JSON.stringify(trip.stops.map(s => s.name)));
+      const tripJson = escHtml(JSON.stringify({
+        name: trip.name,
+        stops: trip.stops.map(s => s.name),
+        firstLabel: trip.stops[0].label,
+      }));
 
       // Stops display (first 5, with separators)
       const stopsHtml = trip.stops.slice(0, 6).map((s, i, arr) =>
@@ -617,7 +584,7 @@
             <div class="trip-stops">${stopsHtml}</div>
             <div class="trip-highlights">${highlightsHtml}</div>
             <div class="plan-btn">
-              <button data-stops="${stopsJson}" onclick="openPlanner(this)">Plan this route →</button>
+              <button data-trip="${tripJson}" onclick="openPlanner(this)">Plan this route →</button>
             </div>
           </div>
           <div class="photo-attribution" id="${attrId}"></div>
@@ -705,13 +672,84 @@
     if (photoCache[currentCountry]) applyPhotos(currentCountry);
   }
 
-  // ── Open planner with optional start/end ──
+  // ── Plan modal ──
+  let _pendingTrip = null;
+
   function openPlanner(btn) {
-    const stops = JSON.parse(btn.dataset.stops);
-    const start = document.getElementById('start-input').value.trim();
-    const end   = document.getElementById('end-input').value.trim();
-    const all   = [...(start ? [start] : []), ...stops, ...(end ? [end] : [])];
+    _pendingTrip = JSON.parse(btn.dataset.trip);
+    const saved = localStorage.getItem('p2a_start') || '';
+    const savedEnd = localStorage.getItem('p2a_end') || '';
+
+    const old = document.getElementById('plan-modal');
+    if (old) old.remove();
+
+    const backdrop = document.createElement('div');
+    backdrop.id = 'plan-modal';
+    backdrop.style.cssText = 'position:fixed;inset:0;z-index:3000;background:rgba(0,0,0,0.6);display:flex;align-items:center;justify-content:center;padding:16px';
+
+    const card = document.createElement('div');
+    card.style.cssText = 'background:var(--surface,#1a1d27);border-radius:16px;width:100%;max-width:400px;padding:24px;box-shadow:0 16px 48px rgba(0,0,0,0.85);animation:planModalIn 0.18s ease;font-family:system-ui,sans-serif';
+    card.innerHTML =
+      `<div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:#a78bfa;margin-bottom:6px">Plan this route</div>` +
+      `<div style="font-size:17px;font-weight:700;color:#e2e8f0;margin-bottom:20px;line-height:1.3">${escHtml(_pendingTrip.name)}</div>` +
+
+      `<label style="display:block;font-size:12px;color:#94a3b8;margin-bottom:7px">Where are you travelling from?</label>` +
+      `<input id="pmi-start" class="plan-modal-input" type="text" placeholder="e.g. London, Paris, Berlin…" autocomplete="off" value="${escHtml(saved)}">` +
+
+      `<div style="margin-top:10px">` +
+        `<button id="pmi-return-toggle" onclick="toggleReturnField()" style="background:none;border:none;color:#64748b;font-size:12px;cursor:pointer;padding:0;text-decoration:underline">+ Add a return destination</button>` +
+      `</div>` +
+      `<div id="pmi-return-field" style="display:none;margin-top:10px">` +
+        `<label style="display:block;font-size:12px;color:#94a3b8;margin-bottom:7px">Ending at</label>` +
+        `<input id="pmi-end" class="plan-modal-input" type="text" placeholder="Leave blank to end at last stop" autocomplete="off" value="${escHtml(savedEnd)}">` +
+      `</div>` +
+
+      `<div style="display:flex;flex-direction:column;gap:10px;margin-top:22px">` +
+        `<button onclick="confirmPlan()" style="background:#a78bfa;color:#fff;border:none;border-radius:8px;padding:12px;font-size:14px;font-weight:700;cursor:pointer;font-family:inherit;transition:opacity 0.15s">Plan route →</button>` +
+        `<button onclick="skipPlan()" style="background:none;border:none;color:#64748b;font-size:13px;cursor:pointer;padding:4px;font-family:inherit">Skip — start at ${escHtml(_pendingTrip.firstLabel)}</button>` +
+      `</div>`;
+
+    backdrop.appendChild(card);
+    backdrop.addEventListener('click', e => { if (e.target === backdrop) backdrop.remove(); });
+    document.addEventListener('keydown', function esc(e) {
+      if (e.key === 'Escape') { backdrop.remove(); document.removeEventListener('keydown', esc); }
+    });
+    document.body.appendChild(backdrop);
+
+    const startInput = document.getElementById('pmi-start');
+    setTimeout(() => startInput.focus(), 50);
+    startInput.addEventListener('keydown', e => { if (e.key === 'Enter') confirmPlan(); });
+
+    // Re-open return field if previously used
+    if (savedEnd) {
+      document.getElementById('pmi-return-field').style.display = 'block';
+      document.getElementById('pmi-return-toggle').textContent = '− Remove return destination';
+    }
+  }
+
+  function toggleReturnField() {
+    const field = document.getElementById('pmi-return-field');
+    const btn   = document.getElementById('pmi-return-toggle');
+    const open  = field.style.display === 'none';
+    field.style.display = open ? 'block' : 'none';
+    btn.textContent = open ? '− Remove return destination' : '+ Add a return destination';
+    if (open) document.getElementById('pmi-end').focus();
+  }
+
+  function confirmPlan() {
+    const start = document.getElementById('pmi-start').value.trim();
+    const endEl = document.getElementById('pmi-end');
+    const end   = endEl ? endEl.value.trim() : '';
+    if (start) localStorage.setItem('p2a_start', start); else localStorage.removeItem('p2a_start');
+    if (end)   localStorage.setItem('p2a_end', end);     else localStorage.removeItem('p2a_end');
+    document.getElementById('plan-modal').remove();
+    const all = [...(start ? [start] : []), ..._pendingTrip.stops, ...(end ? [end] : [])];
     window.open(`${MULTI_STOP_URL}?stops=${all.map(encodeURIComponent).join('|')}`, '_blank');
+  }
+
+  function skipPlan() {
+    document.getElementById('plan-modal').remove();
+    window.open(`${MULTI_STOP_URL}?stops=${_pendingTrip.stops.map(encodeURIComponent).join('|')}`, '_blank');
   }
 
   // ── Utilities ──
