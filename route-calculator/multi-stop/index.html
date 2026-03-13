@@ -198,7 +198,31 @@
     .price-warn.danger { color: var(--danger); }
 
     /* ── Map ── */
-    #map { flex: 1; background: #1c1f2b; }
+    #map { flex: 1; background: #1c1f2b; position: relative; }
+
+    #map.maximized {
+      position: fixed !important;
+      inset: 0 !important;
+      width: 100vw !important;
+      height: 100vh !important;
+      max-height: none !important;
+      z-index: 999;
+    }
+
+    .map-max-btn {
+      background: rgba(26,29,39,0.92);
+      border: 1px solid #2a2d3a;
+      border-radius: 6px;
+      color: #e2e8f0;
+      cursor: pointer;
+      font-size: 15px;
+      line-height: 1;
+      padding: 7px 9px;
+      margin: 10px 10px 0 0;
+      transition: background 0.15s, border-color 0.15s;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+    }
+    .map-max-btn:hover { background: rgba(79,142,247,0.2); border-color: #4f8ef7; }
 
     /* ── Stats bar ── */
     .stats-bar {
@@ -839,6 +863,14 @@
     directionsRenderer.setMap(map);
     directionsService = new google.maps.DirectionsService();
 
+    // Maximize control
+    const maxBtn = document.createElement('button');
+    maxBtn.className = 'map-max-btn';
+    maxBtn.innerHTML = '&#x26F6;';
+    maxBtn.title = 'Maximize map';
+    maxBtn.addEventListener('click', toggleMapMaximize);
+    map.controls[google.maps.ControlPosition.TOP_RIGHT].push(maxBtn);
+
     // Add stops — prefill from ?stops=A|B|C URL param if present
     const preStops = new URLSearchParams(location.search).get('stops');
     if (preStops) {
@@ -998,6 +1030,37 @@
     });
   }
 
+  /* ── Map maximize ── */
+
+  function toggleMapMaximize() {
+    const mapEl = document.getElementById('map');
+    const isMax = mapEl.classList.toggle('maximized');
+    const btn = mapEl.querySelector ? map.controls[google.maps.ControlPosition.TOP_RIGHT].getAt(0) : null;
+    // Update the button that's inside map.controls
+    map.controls[google.maps.ControlPosition.TOP_RIGHT].forEach(el => {
+      if (el.classList && el.classList.contains('map-max-btn')) {
+        el.innerHTML = isMax ? '&#x2715;' : '&#x26F6;';
+        el.title = isMax ? 'Exit fullscreen' : 'Maximize map';
+      }
+    });
+    google.maps.event.trigger(map, 'resize');
+    if (lastResult) {
+      const bounds = new google.maps.LatLngBounds();
+      lastResult.data.legs.forEach(l => {
+        bounds.extend({ lat: l.from_lat, lng: l.from_lng });
+        bounds.extend({ lat: l.to_lat,   lng: l.to_lng   });
+      });
+      map.fitBounds(bounds);
+    }
+  }
+
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') {
+      const mapEl = document.getElementById('map');
+      if (mapEl.classList.contains('maximized')) toggleMapMaximize();
+    }
+  });
+
   /* ── Stop photos (holiday planner mode) ── */
 
   async function addStopPhotos(stopValues) {
@@ -1009,6 +1072,12 @@
       });
       const photos = await resp.json();
 
+      const mobile = window.innerWidth < 768;
+      const imgW  = mobile ? 82 : 110;
+      const imgH  = mobile ? 54 : 72;
+      const nameFz = mobile ? '10px' : '11px';
+      const attrFz = mobile ? '8px' : '9px';
+
       activeMarkers.forEach((marker, i) => {
         const query = stopValues[i];
         const p = photos[query];
@@ -1016,10 +1085,10 @@
 
         const stopLabel = query.split(',')[0];
         const iw = new google.maps.InfoWindow({
-          content: `<div style="width:110px;font-family:system-ui,sans-serif">` +
-            `<img src="${p.photo_url}" style="width:110px;height:72px;object-fit:cover;border-radius:5px;display:block" />` +
-            `<div style="font-size:11px;font-weight:700;color:#1a1d27;margin-top:4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${stopLabel}</div>` +
-            (p.attribution ? `<div style="font-size:9px;color:#94a3b8;margin-top:1px">📷 ${p.attribution}</div>` : '') +
+          content: `<div style="width:${imgW}px;font-family:system-ui,sans-serif">` +
+            `<img src="${p.photo_url}" style="width:${imgW}px;height:${imgH}px;object-fit:cover;border-radius:5px;display:block" />` +
+            `<div style="font-size:${nameFz};font-weight:700;color:#1a1d27;margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${stopLabel}</div>` +
+            (p.attribution ? `<div style="font-size:${attrFz};color:#94a3b8;margin-top:1px">📷 ${p.attribution}</div>` : '') +
             `</div>`,
           pixelOffset: new google.maps.Size(0, -6),
           disableAutoPan: true,
