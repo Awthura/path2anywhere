@@ -1064,55 +1064,50 @@
 
   /* ── Stop photos (holiday planner mode) ── */
 
-  class PhotoOverlay extends google.maps.OverlayView {
-    constructor(position, photoUrl, label) {
-      super();
-      this.position = position;
-      this.photoUrl = photoUrl;
-      this.label = label;
-      this.div = null;
-    }
-
-    onAdd() {
-      const div = document.createElement('div');
-      div.style.cssText = [
-        'position:absolute',
-        'width:120px',
-        'background:#1c1f2b',
-        'border-radius:8px',
-        'overflow:hidden',
-        'box-shadow:0 3px 10px rgba(0,0,0,0.6)',
-        'transform:translate(-50%,calc(-100% - 16px))',
-        'pointer-events:auto',
-        'cursor:pointer',
-        'transition:opacity 0.15s',
-      ].join(';');
-      div.innerHTML =
-        `<img src="${this.photoUrl}" style="width:120px;height:78px;object-fit:cover;display:block">` +
-        `<div style="padding:4px 7px 5px;font-family:system-ui,sans-serif;font-size:10px;font-weight:700;color:#e2e8f0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${this.label}</div>`;
-      div.addEventListener('click', () => {
-        this.getMap().panTo(this.position);
-      });
-      this.div = div;
-      this.getPanes().floatPane.appendChild(div);
-    }
-
-    draw() {
-      if (!this.div) return;
-      const proj = this.getProjection();
-      const pt = proj.fromLatLngToDivPixel(this.position);
-      this.div.style.left = pt.x + 'px';
-      this.div.style.top  = pt.y + 'px';
-      // Auto-show at zoom >= 10, hide when zoomed out
-      this.div.style.display = this.getMap().getZoom() >= 10 ? 'block' : 'none';
-    }
-
-    onRemove() {
-      if (this.div) { this.div.parentNode.removeChild(this.div); this.div = null; }
-    }
-  }
-
   async function addStopPhotos(stopValues) {
+    // Defined here so google.maps.OverlayView is guaranteed to be available
+    class PhotoOverlay extends google.maps.OverlayView {
+      constructor(position, photoUrl, label) {
+        super();
+        this.position = position;
+        this.photoUrl = photoUrl;
+        this.label = label;
+        this.div = null;
+      }
+
+      onAdd() {
+        const div = document.createElement('div');
+        div.style.cssText = [
+          'position:absolute',
+          'width:120px',
+          'background:#1c1f2b',
+          'border-radius:8px',
+          'overflow:hidden',
+          'box-shadow:0 3px 10px rgba(0,0,0,0.6)',
+          'transform:translate(-50%,calc(-100% - 16px))',
+          'pointer-events:auto',
+          'cursor:pointer',
+        ].join(';');
+        div.innerHTML =
+          `<img src="${this.photoUrl}" style="width:120px;height:78px;object-fit:cover;display:block">` +
+          `<div style="padding:4px 7px 5px;font-family:system-ui,sans-serif;font-size:10px;font-weight:700;color:#e2e8f0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${this.label}</div>`;
+        div.addEventListener('click', () => this.getMap().panTo(this.position));
+        this.div = div;
+        this.getPanes().floatPane.appendChild(div);
+      }
+
+      draw() {
+        if (!this.div) return;
+        const pt = this.getProjection().fromLatLngToDivPixel(this.position);
+        this.div.style.left = pt.x + 'px';
+        this.div.style.top  = pt.y + 'px';
+        this.div.style.display = this.getMap().getZoom() >= 10 ? 'block' : 'none';
+      }
+
+      onRemove() {
+        if (this.div) { this.div.parentNode.removeChild(this.div); this.div = null; }
+      }
+    }
     photoOverlays.forEach(o => o.setMap(null));
     photoOverlays = [];
     try {
