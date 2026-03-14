@@ -92,41 +92,42 @@
 
     /* ── Country picker ── */
     #country-picker {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      gap: 16px;
-      margin-top: 32px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 24px;
     }
 
     .country-tile {
       background: var(--surface);
       border: 2px solid var(--border);
-      border-radius: 12px;
-      padding: 28px 20px;
+      border-radius: 100px;
+      padding: 8px 14px;
       cursor: pointer;
-      text-align: center;
-      transition: border-color 0.15s, transform 0.15s;
+      transition: border-color 0.15s, background 0.15s;
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       align-items: center;
-      gap: 10px;
+      gap: 8px;
     }
     .country-tile:hover {
       border-color: var(--purple);
-      transform: translateY(-2px);
     }
     .country-tile.active {
       border-color: var(--purple);
       background: rgba(167,139,250,0.08);
     }
-    .country-tile .flag { font-size: 40px; line-height: 1; }
+    .country-tile .flag { font-size: 22px; line-height: 1; }
     .country-tile .cname {
-      font-size: 15px;
+      font-size: 14px;
       font-weight: 600;
     }
     .country-tile .ctag {
       font-size: 11px;
       color: var(--muted);
+      background: rgba(255,255,255,0.06);
+      border-radius: 20px;
+      padding: 1px 7px;
     }
 
     /* ── Results section ── */
@@ -431,42 +432,42 @@
     <div class="country-tile" data-country="italy">
       <span class="flag">🇮🇹</span>
       <span class="cname">Italy</span>
-      <span class="ctag">~100 itineraries</span>
+      <span class="ctag">60</span>
     </div>
     <div class="country-tile" data-country="france">
       <span class="flag">🇫🇷</span>
       <span class="cname">France</span>
-      <span class="ctag">~100 itineraries</span>
+      <span class="ctag">60</span>
     </div>
     <div class="country-tile" data-country="germany">
       <span class="flag">🇩🇪</span>
       <span class="cname">Germany</span>
-      <span class="ctag">~100 itineraries</span>
+      <span class="ctag">40</span>
     </div>
     <div class="country-tile" data-country="spain">
       <span class="flag">🇪🇸</span>
       <span class="cname">Spain</span>
-      <span class="ctag">~100 itineraries</span>
+      <span class="ctag">60</span>
     </div>
     <div class="country-tile" data-country="switzerland">
       <span class="flag">🇨🇭</span>
       <span class="cname">Switzerland</span>
-      <span class="ctag">25 itineraries</span>
+      <span class="ctag">25</span>
     </div>
     <div class="country-tile" data-country="austria">
       <span class="flag">🇦🇹</span>
       <span class="cname">Austria</span>
-      <span class="ctag">25 itineraries</span>
+      <span class="ctag">25</span>
     </div>
     <div class="country-tile" data-country="portugal">
       <span class="flag">🇵🇹</span>
       <span class="cname">Portugal</span>
-      <span class="ctag">20 itineraries</span>
+      <span class="ctag">20</span>
     </div>
     <div class="country-tile" data-country="benelux">
       <span class="flag">🇧🇪🇳🇱🇱🇺</span>
       <span class="cname">Benelux</span>
-      <span class="ctag">20 itineraries</span>
+      <span class="ctag">20</span>
     </div>
   </div>
 
