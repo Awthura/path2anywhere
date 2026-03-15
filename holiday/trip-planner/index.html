@@ -532,8 +532,22 @@
   // ── State ──
   let currentCountry = null;
   let currentData = null;
-  let photoCache = {}; // country → { query: { photo_url, attribution } }
   let photosLoading = false;
+
+  // ── Persistent photo cache (localStorage, 7-day TTL) ──
+  const PHOTO_CACHE_KEY = 'p2a_photos_v1';
+  const PHOTO_TTL = 7 * 24 * 60 * 60 * 1000;
+  let photoStore = {};
+  try { photoStore = JSON.parse(localStorage.getItem(PHOTO_CACHE_KEY) || '{}'); } catch {}
+
+  function isPhotoCached(query) {
+    const e = photoStore[query];
+    return e && e.photo_url && (Date.now() - (e.cachedAt || 0)) < PHOTO_TTL;
+  }
+
+  function savePhotoStore() {
+    try { localStorage.setItem(PHOTO_CACHE_KEY, JSON.stringify(photoStore)); } catch {}
+  }
 
   // ── Country picker ──
   document.querySelectorAll('.country-tile').forEach(tile => {
@@ -595,11 +609,12 @@
     renderCards(currentData.trips);
     prefillJourneyBar();
 
-    // Fetch photos if not cached
-    if (!photoCache[country]) {
+    // Fetch only photos not already in persistent cache
+    const missingPhotos = currentData.trips.some(t => !isPhotoCached(t.cover_search_query));
+    if (missingPhotos) {
       fetchPhotos(country, currentData.trips);
     } else {
-      applyPhotos(country);
+      applyPhotos();
     }
   }
 
@@ -671,9 +686,13 @@
     if (photosLoading) return;
     photosLoading = true;
 
-    const queries = trips.map(t => t.cover_search_query);
-    const queryToTripId = {};
-    trips.forEach(t => { queryToTripId[t.cover_search_query] = t.id; });
+    // Apply whatever is already cached immediately
+    applyPhotos();
+
+    // Only request photos we don't have yet
+    const queries = trips.map(t => t.cover_search_query).filter(q => !isPhotoCached(q));
+
+    if (queries.length === 0) { photosLoading = false; return; }
 
     try {
       const resp = await fetch(WEBHOOK_URL, {
@@ -683,27 +702,24 @@
       });
       if (!resp.ok) throw new Error('Photo fetch failed');
       const data = await resp.json();
-      photoCache[country] = data;
-      applyPhotos(country, queryToTripId);
+      const now = Date.now();
+      Object.entries(data).forEach(([q, v]) => { photoStore[q] = { ...v, cachedAt: now }; });
+      savePhotoStore();
+      applyPhotos();
     } catch (e) {
-      // Photos unavailable — remove loading animation
-      document.querySelectorAll('.photo-loading').forEach(el => {
-        el.classList.remove('photo-loading');
-      });
+      document.querySelectorAll('.photo-loading').forEach(el => el.classList.remove('photo-loading'));
     } finally {
       photosLoading = false;
     }
   }
 
-  function applyPhotos(country, queryToTripId) {
-    const cache = photoCache[country];
-    if (!cache || !currentData) return;
-
+  function applyPhotos() {
+    if (!currentData) return;
     currentData.trips.forEach(trip => {
-      const photoData = cache[trip.cover_search_query];
+      const photoData = photoStore[trip.cover_search_query];
       const photoEl = document.getElementById(`photo-${trip.id}`);
-      const attrEl = document.getElementById(`attr-${trip.id}`);
-      if (!photoEl) return;
+      const attrEl  = document.getElementById(`attr-${trip.id}`);
+      if (!photoEl || photoEl.tagName === 'IMG') return; // already replaced
 
       if (photoData && photoData.photo_url) {
         const img = document.createElement('img');
@@ -715,10 +731,7 @@
       } else {
         photoEl.classList.remove('photo-loading');
       }
-
-      if (attrEl && photoData && photoData.attribution) {
-        attrEl.textContent = photoData.attribution;
-      }
+      if (attrEl && photoData && photoData.attribution) attrEl.textContent = photoData.attribution;
     });
   }
 
@@ -742,7 +755,7 @@
     );
 
     renderCards(filtered);
-    if (photoCache[currentCountry]) applyPhotos(currentCountry);
+    applyPhotos();
   }
 
   // ── Plan route — reads start/end bar at click time ──

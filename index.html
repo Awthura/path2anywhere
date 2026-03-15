@@ -466,7 +466,20 @@
   const TRIP_PG = './holiday/trip-planner/';
   const SHOWN   = 6; // cards to show on homepage
 
-  let cache = {}; // country → { data, photos }
+  let cache = {}; // country → { data }
+
+  // ── Persistent photo cache (shared with trip-planner, 7-day TTL) ──
+  const PHOTO_CACHE_KEY = 'p2a_photos_v1';
+  const PHOTO_TTL = 7 * 24 * 60 * 60 * 1000;
+  let photoStore = {};
+  try { photoStore = JSON.parse(localStorage.getItem(PHOTO_CACHE_KEY) || '{}'); } catch {}
+
+  function isPhotoCached(q) {
+    const e = photoStore[q]; return e && e.photo_url && (Date.now() - (e.cachedAt || 0)) < PHOTO_TTL;
+  }
+  function savePhotoStore() {
+    try { localStorage.setItem(PHOTO_CACHE_KEY, JSON.stringify(photoStore)); } catch {}
+  }
 
   document.querySelectorAll('.rtp-country-btn').forEach(btn => {
     btn.addEventListener('click', () => {
@@ -517,21 +530,21 @@
     viewAll.textContent = `View all ${data.trips.length} itineraries →`;
     viewAll.style.display = 'block';
 
-    // Fetch photos if needed
-    if (!cache[country].photos) {
-      const queries = featured.map(t => t.cover_search_query);
+    // Apply cached photos immediately, then fetch only missing ones
+    applyPhotos(featured);
+    const missing = featured.map(t => t.cover_search_query).filter(q => !isPhotoCached(q));
+    if (missing.length > 0) {
       try {
         const r = await fetch(WEBHOOK, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ country, queries }),
+          body: JSON.stringify({ country, queries: missing }),
         });
-        cache[country].photos = await r.json();
-      } catch {
-        cache[country].photos = {};
-      }
-      applyPhotos(featured);
-    } else {
+        const data = await r.json();
+        const now = Date.now();
+        Object.entries(data).forEach(([q, v]) => { photoStore[q] = { ...v, cachedAt: now }; });
+        savePhotoStore();
+      } catch {}
       applyPhotos(featured);
     }
   }
@@ -571,12 +584,10 @@
   };
 
   function applyPhotos(trips) {
-    const country = document.querySelector('.rtp-country-btn.active')?.dataset.country;
-    const photos = cache[country]?.photos || {};
     trips.forEach(trip => {
       const el = document.getElementById(`rtp-p-${trip.id}`);
-      if (!el) return;
-      const p = photos[trip.cover_search_query];
+      if (!el || el.tagName === 'IMG') return; // already replaced
+      const p = photoStore[trip.cover_search_query];
       if (p && p.photo_url) {
         const img = document.createElement('img');
         img.className = 'rtp-photo';
