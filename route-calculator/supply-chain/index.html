@@ -1122,7 +1122,7 @@
 <div id="paywall-modal">
   <div id="paywall-box">
     <p class="pw-eyebrow">Daily limit reached</p>
-    <h2 class="pw-heading">You've used your 10 free uses today</h2>
+    <h2 class="pw-heading">You've used your 20 free uses today</h2>
     <p class="pw-body">Come back tomorrow — your limit resets at midnight.</p>
     <p class="pw-premium">✨ <strong>Path2Anywhere Premium</strong> is coming soon — unlimited routes, saved trips, and more.</p>
     <button class="pw-btn" onclick="closePaywall()">Got it</button>
@@ -1130,7 +1130,7 @@
 </div>
 <script>
 const USAGE_KEY = 'p2a_daily_usage';
-const DAILY_LIMIT = 10;
+const DAILY_LIMIT = 20;
 function isAdmin() { return localStorage.getItem('p2a_admin') === '1'; }
 function getUsageToday() {
   try {
