@@ -1,0 +1,380 @@
+{
+  "country": "Poland",
+  "country_code": "pl",
+  "emoji": "🇵🇱",
+  "trips": [
+    {
+      "id": "krakow-tatra-classic",
+      "name": "Kraków & the Tatra Mountains",
+      "region": "Lesser Poland",
+      "duration_days": 4,
+      "distance_km": 280,
+      "description": "This classic southern loop sweeps from Kraków's royal spires down through the Tatra highlands to Zakopane, where wooden górale architecture clings to mountain valleys. The Dunajec Gorge offers a dramatic raft ride through limestone cliffs before the medieval town of Stary Sącz provides a gentle close to the journey.",
+      "stops": [
+        { "name": "Kraków, Poland", "label": "Kraków" },
+        { "name": "Wieliczka, Poland", "label": "Wieliczka" },
+        { "name": "Nowy Targ, Poland", "label": "Nowy Targ" },
+        { "name": "Zakopane, Poland", "label": "Zakopane" },
+        { "name": "Dunajec Gorge, Poland", "label": "Dunajec Gorge" },
+        { "name": "Stary Sącz, Poland", "label": "Stary Sącz" },
+        { "name": "Kraków, Poland", "label": "Kraków" }
+      ],
+      "highlights": ["Wieliczka Salt Mine UNESCO descent", "Zakopane highland culture", "Dunajec river rafting", "Tatra mountain scenery"],
+      "cover_search_query": "Zakopane Tatra Mountains wooden villas Poland"
+    },
+    {
+      "id": "krakow-city-loop",
+      "name": "Kraków City & Surrounds",
+      "region": "Lesser Poland",
+      "duration_days": 2,
+      "distance_km": 120,
+      "description": "A compact but weighty loop that pairs Kraków's magnificent Old Town and Wawel Castle with two of the most emotionally significant sites in Central Europe. The Wieliczka Salt Mine's underground chapels and the Auschwitz-Birkenau memorial demand reflection and time, making this a journey that stays with visitors long after they leave.",
+      "stops": [
+        { "name": "Kraków, Poland", "label": "Kraków" },
+        { "name": "Wieliczka Salt Mine, Poland", "label": "Wieliczka Salt Mine" },
+        { "name": "Auschwitz-Birkenau, Poland", "label": "Auschwitz-Birkenau" },
+        { "name": "Oświęcim, Poland", "label": "Oświęcim" },
+        { "name": "Kraków, Poland", "label": "Kraków" }
+      ],
+      "highlights": ["Wawel Royal Castle", "Wieliczka underground chapels", "Auschwitz-Birkenau memorial", "Kraków Old Town Market Square"],
+      "cover_search_query": "Kraków Wawel Castle Royal Hill Poland"
+    },
+    {
+      "id": "małopolska-castles",
+      "name": "Małopolska Eagle's Nest Trail",
+      "region": "Lesser Poland",
+      "duration_days": 3,
+      "distance_km": 240,
+      "description": "The Szlak Orlich Gniazd strings together limestone rock formations and ruined medieval castles perched high above forested Jurassic uplands. From the enchanting Ojców valley to the white towers of Pieskowa Skała and the towering monastery at Częstochowa, this route blends natural drama with deep Polish Catholic heritage.",
+      "stops": [
+        { "name": "Kraków, Poland", "label": "Kraków" },
+        { "name": "Ojców, Poland", "label": "Ojców" },
+        { "name": "Pieskowa Skała, Poland", "label": "Pieskowa Skała" },
+        { "name": "Częstochowa, Poland", "label": "Częstochowa" },
+        { "name": "Olsztyn Castle, Poland", "label": "Olsztyn Castle" },
+        { "name": "Kraków, Poland", "label": "Kraków" }
+      ],
+      "highlights": ["Pieskowa Skała castle on the rocks", "Jasna Góra monastery Częstochowa", "Ojców National Park gorge", "Jurassic limestone towers"],
+      "cover_search_query": "Pieskowa Skała castle limestone rock Poland"
+    },
+    {
+      "id": "dunajec-pieniny",
+      "name": "Pieniny & Dunajec Gorge",
+      "region": "Lesser Poland",
+      "duration_days": 2,
+      "distance_km": 180,
+      "description": "The Pieniny mountains are compact but spectacular, and nowhere more so than where the Dunajec River has carved a sinuous gorge through white limestone cliffs. Traditional wooden rafts steered by górale highlanders float past Three Crowns peak before the road climbs to the resort town of Szczawnica and continues to the wild Tatra foothills.",
+      "stops": [
+        { "name": "Kraków, Poland", "label": "Kraków" },
+        { "name": "Nowy Targ, Poland", "label": "Nowy Targ" },
+        { "name": "Czorsztyn, Poland", "label": "Czorsztyn" },
+        { "name": "Sromowce Niżne, Poland", "label": "Sromowce Niżne" },
+        { "name": "Szczawnica, Poland", "label": "Szczawnica" },
+        { "name": "Zakopane, Poland", "label": "Zakopane" }
+      ],
+      "highlights": ["Dunajec gorge raft descent", "Czorsztyn lake castle ruins", "Pieniny National Park", "Górale highland traditions"],
+      "cover_search_query": "Dunajec Gorge river rafting Pieniny Poland"
+    },
+    {
+      "id": "warsaw-city-mazovia",
+      "name": "Warsaw & Mazovian Countryside",
+      "region": "Masovia & Central",
+      "duration_days": 3,
+      "distance_km": 220,
+      "description": "Warsaw rewards exploration far beyond its reconstructed Old Town — this loop ventures into the peaceful Mazovian flatlands to find Chopin's birthplace at Żelazowa Wola and the magnificent romantic English garden at Arkadia with its follies and temples. The colourful folk costumes and painted Easter eggs of Łowicz add a vibrant local flavour to the route.",
+      "stops": [
+        { "name": "Warsaw, Poland", "label": "Warsaw" },
+        { "name": "Żelazowa Wola, Poland", "label": "Żelazowa Wola" },
+        { "name": "Łowicz, Poland", "label": "Łowicz" },
+        { "name": "Arkadia, Poland", "label": "Arkadia" },
+        { "name": "Nieborów, Poland", "label": "Nieborów" },
+        { "name": "Warsaw, Poland", "label": "Warsaw" }
+      ],
+      "highlights": ["Chopin birthplace Żelazowa Wola", "Łowicz folk costumes and cathedral", "Arkadia romantic English garden", "Nieborów baroque palace"],
+      "cover_search_query": "Warsaw Old Town Royal Castle Poland"
+    },
+    {
+      "id": "mazury-lakes-loop",
+      "name": "Great Masurian Lakes Loop",
+      "region": "Masovia & Central",
+      "duration_days": 4,
+      "distance_km": 380,
+      "description": "The Masurian lake district is Poland's sailing heartland — over two thousand lakes connected by rivers and canals shimmer through a forest landscape barely changed since the last ice age. Sailing boats and kayaks share the waters around Giżycko and Mikołajki while the Wolf's Lair at Kętrzyn provides a haunting wartime contrast amid the birch trees.",
+      "stops": [
+        { "name": "Olsztyn, Poland", "label": "Olsztyn" },
+        { "name": "Giżycko, Poland", "label": "Giżycko" },
+        { "name": "Mikołajki, Poland", "label": "Mikołajki" },
+        { "name": "Ryn, Poland", "label": "Ryn" },
+        { "name": "Mrągowo, Poland", "label": "Mrągowo" },
+        { "name": "Kętrzyn, Poland", "label": "Kętrzyn" },
+        { "name": "Olsztyn, Poland", "label": "Olsztyn" }
+      ],
+      "highlights": ["Masurian sailing and kayaking", "Wolf's Lair bunker complex", "Mikołajki lakeside town", "Ryn castle hotel"],
+      "cover_search_query": "Mikołajki Great Masurian Lakes sailing Poland"
+    },
+    {
+      "id": "warsaw-lodz-heritage",
+      "name": "Warsaw to Łódź Heritage Drive",
+      "region": "Masovia & Central",
+      "duration_days": 2,
+      "distance_km": 160,
+      "description": "This compact central Poland route connects the capital's baroque splendour with Łódź's gritty industrial heritage, passing through the folk embroidery capital of Łowicz and the orchard-rich town of Skierniewice. Łódź's transformed textile mills now house galleries, restaurants and boutique hotels that make it one of Poland's most surprising urban destinations.",
+      "stops": [
+        { "name": "Warsaw, Poland", "label": "Warsaw" },
+        { "name": "Łowicz, Poland", "label": "Łowicz" },
+        { "name": "Skierniewice, Poland", "label": "Skierniewice" },
+        { "name": "Łódź, Poland", "label": "Łódź" },
+        { "name": "Piotrków Trybunalski, Poland", "label": "Piotrków Trybunalski" },
+        { "name": "Warsaw, Poland", "label": "Warsaw" }
+      ],
+      "highlights": ["Łódź Manufaktura arts complex", "Łowicz folk art and costumes", "Piotrków Trybunalski old town", "Warsaw Palace of Culture"],
+      "cover_search_query": "Łódź Manufaktura factory arts district Poland"
+    },
+    {
+      "id": "gdansk-tri-city",
+      "name": "Gdańsk, Sopot & Gdynia",
+      "region": "Pomerania & Tri-City",
+      "duration_days": 2,
+      "distance_km": 60,
+      "description": "The three cities strung along the Gulf of Gdańsk offer a remarkable contrast: medieval Gdańsk with its Hanseatic amber-coloured façades and the stirring Solidarity museum, bourgeois Sopot with its famous wooden pier and Art Nouveau villas, and modernist Gdynia built from scratch as an interwar maritime symbol of Polish independence. The Hel Peninsula's white sand beaches provide a natural finale.",
+      "stops": [
+        { "name": "Gdańsk, Poland", "label": "Gdańsk" },
+        { "name": "Oliwa, Poland", "label": "Oliwa" },
+        { "name": "Sopot, Poland", "label": "Sopot" },
+        { "name": "Gdynia, Poland", "label": "Gdynia" },
+        { "name": "Hel Peninsula, Poland", "label": "Hel Peninsula" },
+        { "name": "Gdańsk, Poland", "label": "Gdańsk" }
+      ],
+      "highlights": ["Gdańsk Long Market and Crane", "Sopot Molo longest wooden pier", "Solidarity museum and shipyards", "Hel Peninsula beach dunes"],
+      "cover_search_query": "Gdańsk Long Market Hanseatic houses Poland"
+    },
+    {
+      "id": "baltic-coast-drive",
+      "name": "Baltic Coast Drive",
+      "region": "Pomerania & Tri-City",
+      "duration_days": 4,
+      "distance_km": 420,
+      "description": "Poland's Baltic coastline stretches from the amber shores of Gdańsk through the shifting sand dunes of Słowiński National Park, where immense desert-like dunes march steadily inland burying forests in their wake. The lighthouse-topped cliffs at Kołobrzeg and the broad waterways of Szczecin make a grand western finale to this coastal adventure.",
+      "stops": [
+        { "name": "Gdańsk, Poland", "label": "Gdańsk" },
+        { "name": "Hel, Poland", "label": "Hel" },
+        { "name": "Władysławowo, Poland", "label": "Władysławowo" },
+        { "name": "Łeba, Poland", "label": "Łeba" },
+        { "name": "Słowiński National Park, Poland", "label": "Słowiński dunes" },
+        { "name": "Kołobrzeg, Poland", "label": "Kołobrzeg" },
+        { "name": "Szczecin, Poland", "label": "Szczecin" }
+      ],
+      "highlights": ["Słowiński moving sand dunes", "Hel Peninsula Baltic beaches", "Kołobrzeg spa resort and pier", "Szczecin Pomeranian dukes castle"],
+      "cover_search_query": "Słowiński National Park moving sand dunes Baltic Poland"
+    },
+    {
+      "id": "kashubia-region",
+      "name": "Kashubia Lakes & Villages",
+      "region": "Pomerania & Tri-City",
+      "duration_days": 2,
+      "distance_km": 160,
+      "description": "Kashubia is Poland's hidden folk culture — a distinct Slavic people with their own language, embroidery patterns and fishing traditions spread across a rolling lakeland southwest of Gdańsk. The open-air museum at Wdzydze Kiszewskie preserves centuries of wooden cottage architecture, while the lakes around Chmielno invite kayaking through reed-fringed shores at a slow, unhurried pace.",
+      "stops": [
+        { "name": "Gdańsk, Poland", "label": "Gdańsk" },
+        { "name": "Kartuzy, Poland", "label": "Kartuzy" },
+        { "name": "Chmielno, Poland", "label": "Chmielno" },
+        { "name": "Wdzydze Kiszewskie, Poland", "label": "Wdzydze Kiszewskie" },
+        { "name": "Bytów, Poland", "label": "Bytów" },
+        { "name": "Gdańsk, Poland", "label": "Gdańsk" }
+      ],
+      "highlights": ["Kashubian folk embroidery and language", "Wdzydze open-air skansen museum", "Kartuzy Carthusian monastery", "Kaszubskie lakeland kayaking"],
+      "cover_search_query": "Kashubia folk village wooden cottages Poland"
+    },
+    {
+      "id": "wroclaw-sudeten",
+      "name": "Wrocław & the Sudeten Mountains",
+      "region": "Silesia",
+      "duration_days": 4,
+      "distance_km": 340,
+      "description": "Wrocław's island-dotted Oder River and hundred-bridge old town give way southward to the brooding castle of Książ and the eerie Nazi tunnel complex at Wałbrzych. The road climbs into the Karkonosze range where mist-wrapped meadows, wooden resort hotels and the highest summit in the Czech-Polish Sudeten await at Śnieżka.",
+      "stops": [
+        { "name": "Wrocław, Poland", "label": "Wrocław" },
+        { "name": "Świdnica, Poland", "label": "Świdnica" },
+        { "name": "Wałbrzych, Poland", "label": "Wałbrzych" },
+        { "name": "Karpacz, Poland", "label": "Karpacz" },
+        { "name": "Szklarska Poręba, Poland", "label": "Szklarska Poręba" },
+        { "name": "Jelenia Góra, Poland", "label": "Jelenia Góra" },
+        { "name": "Wrocław, Poland", "label": "Wrocław" }
+      ],
+      "highlights": ["Wrocław gnomes and island cathedral", "Książ castle and Nazi tunnels", "Śnieżka summit panorama", "Karkonosze hiking trails"],
+      "cover_search_query": "Wrocław Cathedral Island Oder River Poland"
+    },
+    {
+      "id": "wroclaw-city-loop",
+      "name": "Wrocław & Lower Silesia",
+      "region": "Silesia",
+      "duration_days": 3,
+      "distance_km": 220,
+      "description": "Lower Silesia's rich Germanic and Polish heritage overlaps in a sequence of baroque abbeys, Piast dynasty castles and Prussian town halls strung between Wrocław and the Sudeten foothills. Trzebnica's Cistercian abbey, the Renaissance castle at Brzeg and the cathedral city of Opole make this a deeply layered cultural drive through one of Central Europe's most historically complex regions.",
+      "stops": [
+        { "name": "Wrocław, Poland", "label": "Wrocław" },
+        { "name": "Trzebnica, Poland", "label": "Trzebnica" },
+        { "name": "Oleśnica, Poland", "label": "Oleśnica" },
+        { "name": "Brzeg, Poland", "label": "Brzeg" },
+        { "name": "Opole, Poland", "label": "Opole" },
+        { "name": "Nysa, Poland", "label": "Nysa" },
+        { "name": "Wrocław, Poland", "label": "Wrocław" }
+      ],
+      "highlights": ["Brzeg Piast dynasty castle", "Opole cathedral and old town", "Trzebnica Cistercian abbey", "Wrocław market square gnomes"],
+      "cover_search_query": "Wrocław Market Square colourful townhouses Poland"
+    },
+    {
+      "id": "karkonosze-giants",
+      "name": "Karkonosze & the Giant Mountains",
+      "region": "Silesia",
+      "duration_days": 2,
+      "distance_km": 150,
+      "description": "The Karkonosze range — the Giant Mountains of Silesia — straddle the Polish-Czech border in a landscape of peat bogs, glacial cirques and fairy-tale rocky tors. Karpacz clusters at the foot of Śnieżka peak where the bizarre Norwegian stave church of Wang has stood since it was reassembled here in the 19th century, while Szklarska Poręba offers waterfalls and crystal glass traditions.",
+      "stops": [
+        { "name": "Jelenia Góra, Poland", "label": "Jelenia Góra" },
+        { "name": "Karpacz, Poland", "label": "Karpacz" },
+        { "name": "Śnieżka, Poland", "label": "Śnieżka" },
+        { "name": "Szklarska Poręba, Poland", "label": "Szklarska Poręba" },
+        { "name": "Harrachov, Poland", "label": "Harrachov border" },
+        { "name": "Jelenia Góra, Poland", "label": "Jelenia Góra" }
+      ],
+      "highlights": ["Śnieżka summit at 1603m", "Wang stave church Karpacz", "Szklarska Poręba waterfalls", "Karkonosze peat bog trails"],
+      "cover_search_query": "Karkonosze Śnieżka Giant Mountains summit Poland"
+    },
+    {
+      "id": "bieszczady-wild-loop",
+      "name": "Bieszczady Wild Mountains Loop",
+      "region": "Podkarpacie & East",
+      "duration_days": 4,
+      "distance_km": 360,
+      "description": "The Bieszczady are Poland's most remote and wildest mountains, a borderland of empty poloniny meadows, abandoned Lemko villages and roaming bison that feels a world apart from the rest of the country. Sanok's extraordinary open-air museum of wooden architecture and the atmospheric Przemyśl fortress city bookend this journey into Poland's untamed southeast.",
+      "stops": [
+        { "name": "Rzeszów, Poland", "label": "Rzeszów" },
+        { "name": "Sanok, Poland", "label": "Sanok" },
+        { "name": "Lesko, Poland", "label": "Lesko" },
+        { "name": "Cisna, Poland", "label": "Cisna" },
+        { "name": "Ustrzyki Górne, Poland", "label": "Ustrzyki Górne" },
+        { "name": "Wetlina, Poland", "label": "Wetlina" },
+        { "name": "Przemyśl, Poland", "label": "Przemyśl" },
+        { "name": "Rzeszów, Poland", "label": "Rzeszów" }
+      ],
+      "highlights": ["Bieszczady wild bison and wolves", "Sanok open-air skansen museum", "Poloniny ridge hiking", "Przemyśl fortress and cathedral"],
+      "cover_search_query": "Bieszczady Mountains poloniny meadows wild Poland"
+    },
+    {
+      "id": "zamosc-roztocze",
+      "name": "Zamość & Roztocze",
+      "region": "Podkarpacie & East",
+      "duration_days": 3,
+      "distance_km": 280,
+      "description": "Zamość is one of the best-preserved Renaissance planned cities in all of Europe, its arcaded market square and Mannerist townhouses frozen beautifully in amber. Beyond the city walls, the Roztocze upland unfurls as a gentle ridge of pine and beech forests, chalk stream valleys and nature reserves where the rare Polish forest horse still roams freely around Zwierzyniec.",
+      "stops": [
+        { "name": "Lublin, Poland", "label": "Lublin" },
+        { "name": "Zamość, Poland", "label": "Zamość" },
+        { "name": "Zwierzyniec, Poland", "label": "Zwierzyniec" },
+        { "name": "Roztocze National Park, Poland", "label": "Roztocze National Park" },
+        { "name": "Tomaszów Lubelski, Poland", "label": "Tomaszów Lubelski" },
+        { "name": "Lublin, Poland", "label": "Lublin" }
+      ],
+      "highlights": ["Zamość Renaissance old town UNESCO", "Roztocze forest horses", "Zwierzyniec nature reserve", "Lublin old town and castle"],
+      "cover_search_query": "Zamość Renaissance Market Square arcades Poland"
+    },
+    {
+      "id": "lublin-eastern-poland",
+      "name": "Lublin & Eastern Borderlands",
+      "region": "Podkarpacie & East",
+      "duration_days": 3,
+      "distance_km": 300,
+      "description": "Eastern Poland holds a layered history of Polish, Jewish, Ukrainian and Ruthenian cultures woven together across a quiet agricultural landscape. Lublin's vibrant old town and castle, the clifftop town of Kazimierz Dolny with its Renaissance granaries reflected in the Vistula, and Zamość's perfect Renaissance square form a remarkable cultural triangle rarely visited by western tourists.",
+      "stops": [
+        { "name": "Warsaw, Poland", "label": "Warsaw" },
+        { "name": "Lublin, Poland", "label": "Lublin" },
+        { "name": "Kazimierz Dolny, Poland", "label": "Kazimierz Dolny" },
+        { "name": "Zamość, Poland", "label": "Zamość" },
+        { "name": "Chełm, Poland", "label": "Chełm" },
+        { "name": "Lublin, Poland", "label": "Lublin" }
+      ],
+      "highlights": ["Kazimierz Dolny Vistula clifftop", "Lublin castle and old town", "Zamość perfect Renaissance square", "Chełm chalk tunnels underground"],
+      "cover_search_query": "Kazimierz Dolny Renaissance granaries Vistula Poland"
+    },
+    {
+      "id": "poznan-piast-route",
+      "name": "Poznań & the Piast Route",
+      "region": "Greater Poland & West",
+      "duration_days": 3,
+      "distance_km": 260,
+      "description": "The Piast Route traces the cradle of the Polish nation through Wielkopolska, following the first Piast dynasty from Poznań's baroque old town to the cathedral island of Ostrów Tumski in Gniezno, where Poland's first archbishop was crowned. Romanesque doorways, Benedictine monasteries at Strzelno and the saltworks city of Inowrocław connect a landscape where Poland itself was born.",
+      "stops": [
+        { "name": "Poznań, Poland", "label": "Poznań" },
+        { "name": "Gniezno, Poland", "label": "Gniezno" },
+        { "name": "Trzemeszno, Poland", "label": "Trzemeszno" },
+        { "name": "Strzelno, Poland", "label": "Strzelno" },
+        { "name": "Inowrocław, Poland", "label": "Inowrocław" },
+        { "name": "Kruszwica, Poland", "label": "Kruszwica" },
+        { "name": "Poznań, Poland", "label": "Poznań" }
+      ],
+      "highlights": ["Gniezno Cathedral first Polish archbishopric", "Strzelno Romanesque columns", "Kruszwica Mouse Tower legend", "Poznań goats market square clock"],
+      "cover_search_query": "Gniezno Cathedral first Polish archbishopric Poland"
+    },
+    {
+      "id": "poznan-wielkopolska",
+      "name": "Poznań & Wielkopolska Nature",
+      "region": "Greater Poland & West",
+      "duration_days": 2,
+      "distance_km": 180,
+      "description": "The rolling Wielkopolska countryside south of Poznań harbours a string of aristocratic estates and lakeside retreats that once defined the Prussian-Polish borderland. Rogalin's neoclassical palace stands amid the oldest and largest oak forest in Poland, while Kórnik Castle sits romantically on an island in a lake surrounded by an arboretum of rare specimen trees.",
+      "stops": [
+        { "name": "Poznań, Poland", "label": "Poznań" },
+        { "name": "Rogalin, Poland", "label": "Rogalin" },
+        { "name": "Kórnik, Poland", "label": "Kórnik" },
+        { "name": "Śrem, Poland", "label": "Śrem" },
+        { "name": "Leszno, Poland", "label": "Leszno" },
+        { "name": "Poznań, Poland", "label": "Poznań" }
+      ],
+      "highlights": ["Kórnik Castle island arboretum", "Rogalin ancient oak forest", "Poznań baroque Jesuit church", "Leszno baroque market square"],
+      "cover_search_query": "Kórnik Castle island lake arboretum Poland"
+    },
+    {
+      "id": "poland-royal-road",
+      "name": "Poland's Royal Road: Kraków to Gdańsk",
+      "region": "Cross-Country",
+      "duration_days": 7,
+      "distance_km": 650,
+      "description": "This north-south traverse follows the historic royal highway linking Poland's two great historic cities, passing through the industrial reimagining of Łódź, the capital Warsaw and the magnificent Gothic brickwork of Toruń. From the Tatra foothills to the Baltic amber coast, this route captures the full sweep of Polish history, landscape and culture in a single cohesive journey.",
+      "stops": [
+        { "name": "Kraków, Poland", "label": "Kraków" },
+        { "name": "Częstochowa, Poland", "label": "Częstochowa" },
+        { "name": "Łódź, Poland", "label": "Łódź" },
+        { "name": "Warsaw, Poland", "label": "Warsaw" },
+        { "name": "Toruń, Poland", "label": "Toruń" },
+        { "name": "Gniezno, Poland", "label": "Gniezno" },
+        { "name": "Poznań, Poland", "label": "Poznań" },
+        { "name": "Gdańsk, Poland", "label": "Gdańsk" }
+      ],
+      "highlights": ["Toruń Gothic brick old town and Copernicus", "Jasna Góra pilgrimage monastery", "Warsaw Royal Castle rebuilt", "Gdańsk Hanseatic waterfront"],
+      "cover_search_query": "Toruń Gothic brick Old Town Copernicus birthplace Poland"
+    },
+    {
+      "id": "poland-grand-tour",
+      "name": "Poland Grand Tour",
+      "region": "Cross-Country",
+      "duration_days": 10,
+      "distance_km": 1100,
+      "description": "The ultimate Polish road trip circles the entire country clockwise from Warsaw, taking in the Baltic amber coast, the Pomeranian plains, the Silesian mountains, the royal magnificence of Kraków and Zakopane's mountain culture before arcing eastward through the UNESCO-listed Renaissance jewel of Zamość and the university city of Lublin. This is Poland in full — ancient, complex, beautiful and utterly captivating.",
+      "stops": [
+        { "name": "Warsaw, Poland", "label": "Warsaw" },
+        { "name": "Gdańsk, Poland", "label": "Gdańsk" },
+        { "name": "Szczecin, Poland", "label": "Szczecin" },
+        { "name": "Poznań, Poland", "label": "Poznań" },
+        { "name": "Wrocław, Poland", "label": "Wrocław" },
+        { "name": "Kraków, Poland", "label": "Kraków" },
+        { "name": "Zakopane, Poland", "label": "Zakopane" },
+        { "name": "Zamość, Poland", "label": "Zamość" },
+        { "name": "Lublin, Poland", "label": "Lublin" },
+        { "name": "Warsaw, Poland", "label": "Warsaw" }
+      ],
+      "highlights": ["Kraków royal capital UNESCO heritage", "Gdańsk Hanseatic amber coast", "Wrocław hundred bridges old town", "Zamość Renaissance planned city"],
+      "cover_search_query": "Poland collage Kraków Gdańsk Wrocław Warsaw landmarks"
+    }
+  ]
+}
