@@ -605,8 +605,10 @@
     });
     directionsRenderer.setMap(map);
 
-    new google.maps.places.Autocomplete(document.getElementById('homeInput'),    { types: ['geocode'] });
-    new google.maps.places.Autocomplete(document.getElementById('stadiumInput'), { types: ['geocode'] });
+    ['homeInput', 'stadiumInput'].forEach(id => {
+      const ac = new google.maps.places.Autocomplete(document.getElementById(id), { types: ['geocode'] });
+      ac.addListener('place_changed', () => { ac.getPlace(); });
+    });
   }
 
   function onLeagueChange() {

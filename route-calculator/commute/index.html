@@ -724,7 +724,8 @@
     directionsRenderer.setMap(map);
 
     ['homeInput', 'workInput'].forEach(id => {
-      new google.maps.places.Autocomplete(document.getElementById(id), { types: ['geocode'] });
+      const ac = new google.maps.places.Autocomplete(document.getElementById(id), { types: ['geocode'] });
+      ac.addListener('place_changed', () => { ac.getPlace(); });
     });
   }
 

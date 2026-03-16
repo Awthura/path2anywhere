@@ -829,10 +829,11 @@
     directionsRenderer.setMap(map);
 
     ['supplierInput', 'manufacturerInput', 'customerInput'].forEach(id => {
-      new google.maps.places.Autocomplete(document.getElementById(id), {
+      const ac = new google.maps.places.Autocomplete(document.getElementById(id), {
         types: ['geocode'],
         componentRestrictions: {},
       });
+      ac.addListener('place_changed', () => { ac.getPlace(); });
     });
   }
 

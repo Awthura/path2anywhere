@@ -740,7 +740,9 @@
 
     if (window.google) {
       const input = document.getElementById(id);
-      stopAutocompletes[id] = new google.maps.places.Autocomplete(input, { types: ['geocode'] });
+      const ac = new google.maps.places.Autocomplete(input, { types: ['geocode'] });
+      ac.addListener('place_changed', () => { ac.getPlace(); });
+      stopAutocompletes[id] = ac;
     }
     updateStopUI();
   }
