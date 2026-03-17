@@ -7,6 +7,33 @@
   <title>Journey Planner — Path2Anywhere</title>
   <meta name="description" content="Six free journey planning tools — single trips, multi-stop routes, route optimisation, commute calculator, away days, and supply chain. Real distances, fuel costs, and CO₂." />
   <link rel="canonical" href="https://path2anywhere.com/route-calculator/" />
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://path2anywhere.com/route-calculator/" />
+  <meta property="og:title" content="Journey Planner — Path2Anywhere" />
+  <meta property="og:description" content="Six free journey planning tools — single trips, multi-stop routes, route optimisation, commute calculator, away days, and supply chain. Real distances, fuel costs, and CO₂." />
+  <meta property="og:image" content="https://path2anywhere.com/og-image.png" />
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://path2anywhere.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Journey Planner", "item": "https://path2anywhere.com/route-calculator/" }
+        ]
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://path2anywhere.com/route-calculator/",
+        "name": "Journey Planner — Path2Anywhere",
+        "description": "Six free journey planning tools — single trips, multi-stop routes, route optimisation, commute calculator, away days, and supply chain. Real distances, fuel costs, and CO₂."
+      }
+    ]
+  }
+  </script>
   <link rel="manifest" href="/manifest.json" />
   <meta name="theme-color" content="#0f1117" />
   <link rel="apple-touch-icon" href="/icon-180.png" />
@@ -49,7 +76,7 @@
       width: 32px;
       flex-shrink: 0;
     }
-    header h1 {
+    header .site-name {
       font-size: 15px;
       font-weight: 600;
       letter-spacing: 0.05em;
@@ -83,7 +110,7 @@
       color: var(--accent);
       margin-bottom: 12px;
     }
-    .hero h2 {
+    .hero h1 {
       font-size: 32px;
       font-weight: 700;
       line-height: 1.2;
@@ -174,9 +201,9 @@
 
     @media (max-width: 600px) {
       header { padding: 0 16px; }
-      header h1 { display: none; }
+      header .site-name { display: none; }
       .hero { padding: 32px 16px 20px; }
-      .hero h2 { font-size: 24px; }
+      .hero h1 { font-size: 24px; }
       .section { padding: 8px 16px 40px; }
       .grid { grid-template-columns: 1fr; }
     }
@@ -186,7 +213,7 @@
 
 <header>
   <img class="logo" src="../logo.svg" alt="Path2Anywhere" />
-  <h1>Path2Anywhere</h1>
+  <span class="site-name">Path2Anywhere</span>
   <div class="breadcrumb">
     <span class="sep">/</span>
     <a href="../">Home</a>
@@ -197,7 +224,7 @@
 
 <div class="hero">
   <p class="eyebrow">Route Calculator</p>
-  <h2>Where are you<br>headed?</h2>
+  <h1>Where are you<br>headed?</h1>
   <p class="sub">From a quick single trip to a fully optimised multi-stop road trip — every calculator gives you real distances, drive times, fuel costs, and CO₂ footprint.</p>
 </div>
 

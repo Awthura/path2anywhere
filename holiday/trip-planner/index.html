@@ -7,6 +7,37 @@
   <title>Europe Road Trip Recommender — Path2Holiday</title>
   <meta name="description" content="Browse curated road trip itineraries for Italy, France, Germany, and Spain. Filter by region, explore routes with cover photos, and launch your route in one click." />
   <link rel="canonical" href="https://path2anywhere.com/holiday/trip-planner/" />
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://path2anywhere.com/holiday/trip-planner/" />
+  <meta property="og:title" content="Europe Road Trip Recommender — Path2Holiday" />
+  <meta property="og:description" content="Browse curated road trip itineraries for Italy, France, Germany, and Spain. Filter by region, explore routes with cover photos, and launch your route in one click." />
+  <meta property="og:image" content="https://path2anywhere.com/og-image.png" />
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://path2anywhere.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Holiday", "item": "https://path2anywhere.com/holiday/" },
+          { "@type": "ListItem", "position": 3, "name": "Europe Road Trip Recommender", "item": "https://path2anywhere.com/holiday/trip-planner/" }
+        ]
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "Europe Road Trip Recommender",
+        "url": "https://path2anywhere.com/holiday/trip-planner/",
+        "description": "Browse curated road trip itineraries for Italy, France, Germany, and Spain. Filter by region, explore routes with cover photos, and launch your route in one click.",
+        "applicationCategory": "TravelApplication",
+        "operatingSystem": "Web",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "GBP" }
+      }
+    ]
+  }
+  </script>
   <link rel="manifest" href="/manifest.json" />
   <meta name="theme-color" content="#0f1117" />
   <link rel="apple-touch-icon" href="/icon-180.png" />
@@ -47,7 +78,7 @@
       gap: 10px;
     }
     header .logo { height: 32px; width: 32px; flex-shrink: 0; }
-    header h1 { font-size: 15px; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; }
+    header .site-name { font-size: 15px; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; }
     header .breadcrumb {
       font-size: 13px;
       color: var(--muted);
@@ -79,7 +110,7 @@
       color: var(--purple);
       margin-bottom: 12px;
     }
-    .hero h2 {
+    .hero h1 {
       font-size: 32px;
       font-weight: 700;
       line-height: 1.2;
@@ -413,9 +444,9 @@
     /* ── Responsive ── */
     @media (max-width: 600px) {
       header { padding: 0 16px; }
-      header h1 { display: none; }
+      header .site-name { display: none; }
       .page { padding: 28px 16px 48px; }
-      .hero h2 { font-size: 24px; }
+      .hero h1 { font-size: 24px; }
       #cards-grid { grid-template-columns: 1fr; }
       #search-input { width: 100%; }
     }
@@ -425,7 +456,7 @@
 
 <header>
   <img class="logo" src="../../logo.svg" alt="Path2Anywhere" />
-  <h1>Path2Anywhere</h1>
+  <span class="site-name">Path2Anywhere</span>
   <div class="breadcrumb">
     <span class="sep">/</span>
     <a href="../../">Home</a>
@@ -440,7 +471,7 @@
 
   <div class="hero">
     <p class="eyebrow">Europe Road Trip Recommender</p>
-    <h2>Find your perfect<br>road trip</h2>
+    <h1>Find your perfect<br>road trip</h1>
     <p class="sub">Pick a country to browse curated itineraries with photos, stops, and highlights. Then launch any route straight into the planner.</p>
   </div>
 

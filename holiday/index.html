@@ -7,6 +7,33 @@
   <title>Path2Holiday — Holiday Planning Tools</title>
   <meta name="description" content="Curated European road trip itineraries, holiday route planning, and travel tools. Discover your perfect road trip and launch it into the route planner in one click." />
   <link rel="canonical" href="https://path2anywhere.com/holiday/" />
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://path2anywhere.com/holiday/" />
+  <meta property="og:title" content="Path2Holiday — Holiday Planning Tools" />
+  <meta property="og:description" content="Curated European road trip itineraries, holiday route planning, and travel tools. Discover your perfect road trip and launch it into the route planner in one click." />
+  <meta property="og:image" content="https://path2anywhere.com/og-image.png" />
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://path2anywhere.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Holiday", "item": "https://path2anywhere.com/holiday/" }
+        ]
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://path2anywhere.com/holiday/",
+        "name": "Path2Holiday — Holiday Planning Tools",
+        "description": "Curated European road trip itineraries, holiday route planning, and travel tools. Discover your perfect road trip and launch it into the route planner in one click."
+      }
+    ]
+  }
+  </script>
   <link rel="manifest" href="/manifest.json" />
   <meta name="theme-color" content="#0f1117" />
   <link rel="apple-touch-icon" href="/icon-180.png" />
@@ -45,7 +72,7 @@
       gap: 10px;
     }
     header .logo { height: 32px; width: 32px; flex-shrink: 0; }
-    header h1 { font-size: 15px; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; }
+    header .site-name { font-size: 15px; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; }
     header .breadcrumb {
       font-size: 13px;
       color: var(--muted);
@@ -71,7 +98,7 @@
       color: #a78bfa;
       margin-bottom: 12px;
     }
-    .hero h2 {
+    .hero h1 {
       font-size: 32px;
       font-weight: 700;
       line-height: 1.2;
@@ -160,9 +187,9 @@
 
     @media (max-width: 600px) {
       header { padding: 0 16px; }
-      header h1 { display: none; }
+      header .site-name { display: none; }
       .hero { padding: 32px 16px 20px; }
-      .hero h2 { font-size: 24px; }
+      .hero h1 { font-size: 24px; }
       .section { padding: 8px 16px 40px; }
       .grid { grid-template-columns: 1fr; }
     }
@@ -172,7 +199,7 @@
 
 <header>
   <img class="logo" src="../logo.svg" alt="Path2Anywhere" />
-  <h1>Path2Anywhere</h1>
+  <span class="site-name">Path2Anywhere</span>
   <div class="breadcrumb">
     <span class="sep">/</span>
     <a href="../">Home</a>
@@ -183,7 +210,7 @@
 
 <div class="hero">
   <p class="eyebrow">Path2Holiday</p>
-  <h2>Plan your perfect<br>European road trip</h2>
+  <h1>Plan your perfect<br>European road trip</h1>
   <p class="sub">Curated itineraries, real driving routes, and one-click launch into the multi-stop planner. Your next adventure starts here.</p>
 </div>
 
