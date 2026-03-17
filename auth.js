@@ -138,8 +138,8 @@
   }
 
   async function _signUpWithEmail(email, password) {
-    const { error } = await sb.auth.signUp({ email, password });
-    return error;
+    const { data, error } = await sb.auth.signUp({ email, password });
+    return { error, session: data?.session };
   }
 
   async function _signInWithGoogle() {
@@ -204,15 +204,22 @@
     if (password.length < 8) return _setAuthError('Password must be at least 8 characters.');
     const btn = document.getElementById('p2a-signup-btn');
     btn.disabled = true; btn.textContent = 'Creating account…';
-    const error = await _signUpWithEmail(email, password);
+    const { error, session } = await _signUpWithEmail(email, password);
     btn.disabled = false; btn.textContent = 'Create account';
     if (error) return _setAuthError(error.message);
-    document.getElementById('p2a-auth-form-area').innerHTML = `
-      <div style="text-align:center;padding:16px 0">
-        <div style="font-size:32px;margin-bottom:12px">✉️</div>
-        <p style="color:#e2e8f0;font-weight:600;margin-bottom:8px">Check your email</p>
-        <p style="color:#94a3b8;font-size:14px">We sent a confirmation link to <strong>${email}</strong>. Click it to activate your account.</p>
-      </div>`;
+
+    if (session) {
+      // Email confirmation disabled — user is signed in immediately
+      closeAuthModal();
+    } else {
+      // Email confirmation enabled — show check-your-email screen
+      document.getElementById('p2a-auth-form-area').innerHTML = `
+        <div style="text-align:center;padding:16px 0">
+          <div style="font-size:32px;margin-bottom:12px">✉️</div>
+          <p style="color:#e2e8f0;font-weight:600;margin-bottom:8px">Check your email</p>
+          <p style="color:#94a3b8;font-size:14px">We sent a confirmation link to <strong>${email}</strong>. Click it to activate your account.</p>
+        </div>`;
+    }
   }
 
   function _injectAuthModal() {
