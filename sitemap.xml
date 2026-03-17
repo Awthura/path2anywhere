@@ -21,11 +21,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://path2anywhere.com/route-calculator/multi-stop/?mode=optimise</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://path2anywhere.com/route-calculator/commute/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
