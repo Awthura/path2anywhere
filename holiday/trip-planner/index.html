@@ -826,7 +826,7 @@
   }
 
   // ── Plan route — reads start/end bar at click time ──
-  function openPlanner(btn) {
+  async function openPlanner(btn) {
     if (!(await P2AAuth.checkAndIncrementUsage())) return;
     const trip  = JSON.parse(btn.dataset.trip);
     const start = document.getElementById('journey-start').value.trim();
