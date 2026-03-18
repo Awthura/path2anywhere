@@ -1,4 +1,4 @@
-const CACHE = 'p2a-v1';
+const CACHE = 'p2a-v2';
 
 const PRECACHE = [
   '/',

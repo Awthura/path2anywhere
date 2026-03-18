@@ -757,7 +757,11 @@
 
   // ── Plan route — reads start/end bar at click time ──
   async function openPlanner(btn) {
-    if (!(await P2AAuth.checkAndIncrementUsage())) return;
+    const newWin = window.open('', '_blank');   // must open before any await
+    if (!(await P2AAuth.checkAndIncrementUsage())) {
+      newWin?.close();
+      return;
+    }
     const trip  = JSON.parse(btn.dataset.trip);
     const start = document.getElementById('journey-start').value.trim();
     const end   = document.getElementById('journey-end').value.trim();
@@ -765,7 +769,7 @@
     if (end)   localStorage.setItem('p2a_end',   end);   else localStorage.removeItem('p2a_end');
     const all = [...(start ? [start] : []), ...trip.stops, ...(end ? [end] : [])];
     const photoStops = trip.stops.map(encodeURIComponent).join('|');
-    window.open(`${MULTI_STOP_URL}?stops=${all.map(encodeURIComponent).join('|')}&photoStops=${photoStops}`, '_blank');
+    newWin.location.href = `${MULTI_STOP_URL}?stops=${all.map(encodeURIComponent).join('|')}&photoStops=${photoStops}`;
   }
 
   // Pre-fill from localStorage when results become visible
