@@ -762,8 +762,11 @@
     // Apply whatever is already cached immediately
     applyPhotos();
 
-    // Only request photos we don't have yet
-    const queries = trips.map(t => t.cover_search_query).filter(q => !isPhotoCached(q));
+    // Only request photos not already baked into JSON or in localStorage cache
+    const queries = trips
+      .filter(t => !t.photo_url)
+      .map(t => t.cover_search_query)
+      .filter(q => !isPhotoCached(q));
 
     if (queries.length === 0) { photosLoading = false; return; }
 
