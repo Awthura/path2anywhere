@@ -665,7 +665,6 @@
 
 <script>
   const WEBHOOK_URL    = 'https://n8n.path2anywhere.com/webhook/route';
-  const PHOTO_WEBHOOK  = 'https://n8n.path2anywhere.com/webhook/trip-planner';
   const MAPS_API_KEY   = '__MAPS_API_KEY__';
   const MAX_FREE_STOPS = 10;
   const IS_OPTIMISER   = new URLSearchParams(location.search).get('mode') === 'optimise';
@@ -706,6 +705,42 @@
   let activeMarkers = [];
   let photoOverlays = [];
   let activePolyline = null;
+
+  /* ── Wikipedia stop photo cache ── */
+  const STOP_PHOTO_CACHE_KEY = 'p2a_stop_photos_v1';
+  const STOP_PHOTO_TTL = 7 * 24 * 60 * 60 * 1000;
+  let stopPhotoStore = {};
+  try { stopPhotoStore = JSON.parse(localStorage.getItem(STOP_PHOTO_CACHE_KEY) || '{}'); } catch {}
+  function _saveStopPhotoStore() {
+    try { localStorage.setItem(STOP_PHOTO_CACHE_KEY, JSON.stringify(stopPhotoStore)); } catch {}
+  }
+
+  // Patterns that indicate a non-scenic image (icon, map, flag, coat of arms, etc.)
+  const BAD_IMG = /flag|coat|map|locator|logo|emblem|seal|stamp|blason|coa_|plan_|symbol|\.svg/i;
+
+  async function fetchWikipediaPhoto(query) {
+    const cached = stopPhotoStore[query];
+    if (cached && (Date.now() - (cached.cachedAt || 0)) < STOP_PHOTO_TTL) return cached;
+
+    // Use the city name only (before first comma) as the Wikipedia article title
+    const title = query.split(',')[0].trim();
+    const apiUrl = `https://en.wikipedia.org/w/api.php?action=query&titles=${encodeURIComponent(title)}&prop=pageimages&format=json&pithumbsize=800&piprop=thumbnail&origin=*`;
+
+    const resp = await fetch(apiUrl, { headers: { 'User-Agent': 'Path2Anywhere/1.0 (https://path2anywhere.com)' } });
+    if (!resp.ok) return null;
+
+    const data = await resp.json();
+    const page = Object.values(data.query?.pages || {})[0];
+    const thumb = page?.thumbnail;
+
+    // Reject missing, tiny, or non-scenic images
+    if (!thumb?.source || thumb.width < 300 || BAD_IMG.test(thumb.source)) return null;
+
+    const result = { url: thumb.source, attribution: `Wikipedia · ${page.title}`, cachedAt: Date.now() };
+    stopPhotoStore[query] = result;
+    _saveStopPhotoStore();
+    return result;
+  }
   let fuelPrices = null, detectedCountryCode = null, costEnabled = false;
   let stopIdCounter = 0;
 
@@ -1279,22 +1314,19 @@
         ? rawPhotoStops.split('|').map(s => decodeURIComponent(s).trim()).filter(Boolean)
         : stopValues;
 
-      const resp = await fetch(PHOTO_WEBHOOK, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ country: 'trip', queries: photoQueries }),
-      });
-      const photos = await resp.json();
+      // Fetch all stop photos from Wikipedia in parallel — free, no API key needed
+      const photoResults = await Promise.all(
+        photoQueries.map(q => fetchWikipediaPhoto(q).catch(() => null))
+      );
       const total = photoQueries.length;
 
       photoQueries.forEach((query, photoIdx) => {
-        const p = photos[query];
-        if (!p || !p.photo_url) return;
-        // Find the matching marker by stop name
+        const p = photoResults[photoIdx];
+        if (!p || !p.url) return;
         const markerIdx = stopValues.indexOf(query);
         const marker = activeMarkers[markerIdx];
         if (!marker) return;
-        const overlay = new PhotoOverlay(marker.getPosition(), p.photo_url, query, photoIdx + 1, total, p.attribution || null);
+        const overlay = new PhotoOverlay(marker.getPosition(), p.url, query, photoIdx + 1, total, p.attribution || null);
         overlay.setMap(map);
         photoOverlays.push(overlay);
         marker.addListener('click', () => map.panTo(marker.getPosition()));
