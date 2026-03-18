@@ -11,18 +11,51 @@
       "distance_km": 1332,
       "description": "Iceland's Route 1 is the backbone of the island, looping 1332km around a country of fire, ice, and endless sky. From the capital you head north through lava fields and turf-roofed churches, swing east past glacier-carved fjords, and return via the iceberg lagoon and volcanic south coast. No single journey gives a more complete portrait of Iceland's staggering variety.",
       "stops": [
-        { "name": "Reykjavík, Iceland", "label": "Reykjavík" },
-        { "name": "Borgarnes, Iceland", "label": "Borgarnes" },
-        { "name": "Akureyri, Iceland", "label": "Akureyri" },
-        { "name": "Mývatn, Iceland", "label": "Mývatn" },
-        { "name": "Egilsstaðir, Iceland", "label": "Egilsstaðir" },
-        { "name": "Höfn, Iceland", "label": "Höfn" },
-        { "name": "Vík, Iceland", "label": "Vík" },
-        { "name": "Selfoss, Iceland", "label": "Selfoss" },
-        { "name": "Reykjavík, Iceland", "label": "Reykjavík" }
+        {
+          "name": "Reykjavík, Iceland",
+          "label": "Reykjavík"
+        },
+        {
+          "name": "Borgarnes, Iceland",
+          "label": "Borgarnes"
+        },
+        {
+          "name": "Akureyri, Iceland",
+          "label": "Akureyri"
+        },
+        {
+          "name": "Mývatn, Iceland",
+          "label": "Mývatn"
+        },
+        {
+          "name": "Egilsstaðir, Iceland",
+          "label": "Egilsstaðir"
+        },
+        {
+          "name": "Höfn, Iceland",
+          "label": "Höfn"
+        },
+        {
+          "name": "Vík, Iceland",
+          "label": "Vík"
+        },
+        {
+          "name": "Selfoss, Iceland",
+          "label": "Selfoss"
+        },
+        {
+          "name": "Reykjavík, Iceland",
+          "label": "Reykjavík"
+        }
       ],
-      "highlights": ["Full Ring Road loop", "Mývatn volcanic landscape", "Jökulsárlón glacier lagoon", "Black sand beaches at Vík"],
-      "cover_search_query": "Iceland Ring Road Route 1 aerial landscape"
+      "highlights": [
+        "Full Ring Road loop",
+        "Mývatn volcanic landscape",
+        "Jökulsárlón glacier lagoon",
+        "Black sand beaches at Vík"
+      ],
+      "cover_search_query": "Iceland Ring Road Route 1 aerial landscape",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/is/ring-road-classic.jpg"
     },
     {
       "id": "south-coast-glaciers",
@@ -32,17 +65,47 @@
       "distance_km": 380,
       "description": "Iceland's south coast packs more drama per kilometre than almost anywhere on Earth — thundering waterfalls you can walk behind, a black sand beach guarded by basalt columns, and finally the ethereal blue icebergs of Jökulsárlón drifting silently to the sea. This drive is a crescendo, each stop more jaw-dropping than the last, ending at the little harbour town of Höfn with Vatnajökull's white mass filling the horizon.",
       "stops": [
-        { "name": "Reykjavík, Iceland", "label": "Reykjavík" },
-        { "name": "Seljalandsfoss, Iceland", "label": "Seljalandsfoss" },
-        { "name": "Skógafoss, Iceland", "label": "Skógafoss" },
-        { "name": "Vík, Iceland", "label": "Vík" },
-        { "name": "Kirkjubæjarklaustur, Iceland", "label": "Kirkjubæjarklaustur" },
-        { "name": "Skaftafell, Iceland", "label": "Skaftafell" },
-        { "name": "Jökulsárlón, Iceland", "label": "Jökulsárlón" },
-        { "name": "Höfn, Iceland", "label": "Höfn" }
+        {
+          "name": "Reykjavík, Iceland",
+          "label": "Reykjavík"
+        },
+        {
+          "name": "Seljalandsfoss, Iceland",
+          "label": "Seljalandsfoss"
+        },
+        {
+          "name": "Skógafoss, Iceland",
+          "label": "Skógafoss"
+        },
+        {
+          "name": "Vík, Iceland",
+          "label": "Vík"
+        },
+        {
+          "name": "Kirkjubæjarklaustur, Iceland",
+          "label": "Kirkjubæjarklaustur"
+        },
+        {
+          "name": "Skaftafell, Iceland",
+          "label": "Skaftafell"
+        },
+        {
+          "name": "Jökulsárlón, Iceland",
+          "label": "Jökulsárlón"
+        },
+        {
+          "name": "Höfn, Iceland",
+          "label": "Höfn"
+        }
       ],
-      "highlights": ["Walk behind Seljalandsfoss", "Reynisfjara black sand beach", "Jökulsárlón glacier lagoon icebergs", "Skaftafell ice cave hikes"],
-      "cover_search_query": "Jökulsárlón glacier lagoon icebergs Iceland"
+      "highlights": [
+        "Walk behind Seljalandsfoss",
+        "Reynisfjara black sand beach",
+        "Jökulsárlón glacier lagoon icebergs",
+        "Skaftafell ice cave hikes"
+      ],
+      "cover_search_query": "Jökulsárlón glacier lagoon icebergs Iceland",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/is/south-coast-glaciers.jpg"
     },
     {
       "id": "golden-circle-classic",
@@ -52,15 +115,39 @@
       "distance_km": 230,
       "description": "The Golden Circle is Iceland's most celebrated day-drive — three world-class natural wonders strung together on a tidy loop from Reykjavík. Þingvellir's rift valley is where the Eurasian and North American tectonic plates visibly separate and where Iceland's parliament was founded in 930 AD; Geysir gives its name to every erupting hot spring on the planet; and Gullfoss hurls the Hvítá River into a double-tiered canyon of roaring white water. Kerið's perfectly circular crimson crater makes a vivid final stop before the city.",
       "stops": [
-        { "name": "Reykjavík, Iceland", "label": "Reykjavík" },
-        { "name": "Þingvellir National Park, Iceland", "label": "Þingvellir" },
-        { "name": "Geysir, Iceland", "label": "Geysir" },
-        { "name": "Gullfoss, Iceland", "label": "Gullfoss" },
-        { "name": "Kerið, Iceland", "label": "Kerið" },
-        { "name": "Reykjavík, Iceland", "label": "Reykjavík" }
+        {
+          "name": "Reykjavík, Iceland",
+          "label": "Reykjavík"
+        },
+        {
+          "name": "Þingvellir National Park, Iceland",
+          "label": "Þingvellir"
+        },
+        {
+          "name": "Geysir, Iceland",
+          "label": "Geysir"
+        },
+        {
+          "name": "Gullfoss, Iceland",
+          "label": "Gullfoss"
+        },
+        {
+          "name": "Kerið, Iceland",
+          "label": "Kerið"
+        },
+        {
+          "name": "Reykjavík, Iceland",
+          "label": "Reykjavík"
+        }
       ],
-      "highlights": ["Strokkur geyser eruptions", "Gullfoss double-cascade waterfall", "Þingvellir tectonic rift valley", "Kerið volcanic crater lake"],
-      "cover_search_query": "Gullfoss waterfall double cascade Iceland"
+      "highlights": [
+        "Strokkur geyser eruptions",
+        "Gullfoss double-cascade waterfall",
+        "Þingvellir tectonic rift valley",
+        "Kerið volcanic crater lake"
+      ],
+      "cover_search_query": "Gullfoss waterfall double cascade Iceland",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/is/golden-circle-classic.jpg"
     },
     {
       "id": "reykjanes-peninsula",
@@ -70,15 +157,39 @@
       "distance_km": 150,
       "description": "Just south of Keflavík airport lies one of Iceland's most geologically raw landscapes — a peninsula of smoking fumaroles, lava fields, and churning Atlantic coastline. The famous Blue Lagoon's milky-turquoise geothermal waters sit improbably amid a black lava desert, while the Reykjanes lighthouse guards the southwesternmost tip of the island above crashing surf. Krýsuvík's sulfur springs and mud pools add an otherworldly finale before you return to Reykjavík.",
       "stops": [
-        { "name": "Reykjavík, Iceland", "label": "Reykjavík" },
-        { "name": "Keflavík, Iceland", "label": "Keflavík" },
-        { "name": "Blue Lagoon, Iceland", "label": "Blue Lagoon" },
-        { "name": "Reykjanesvíti, Iceland", "label": "Reykjanesvíti" },
-        { "name": "Krýsuvík, Iceland", "label": "Krýsuvík" },
-        { "name": "Reykjavík, Iceland", "label": "Reykjavík" }
+        {
+          "name": "Reykjavík, Iceland",
+          "label": "Reykjavík"
+        },
+        {
+          "name": "Keflavík, Iceland",
+          "label": "Keflavík"
+        },
+        {
+          "name": "Blue Lagoon, Iceland",
+          "label": "Blue Lagoon"
+        },
+        {
+          "name": "Reykjanesvíti, Iceland",
+          "label": "Reykjanesvíti"
+        },
+        {
+          "name": "Krýsuvík, Iceland",
+          "label": "Krýsuvík"
+        },
+        {
+          "name": "Reykjavík, Iceland",
+          "label": "Reykjavík"
+        }
       ],
-      "highlights": ["Blue Lagoon geothermal spa", "Reykjanesvíti lighthouse cliffs", "Krýsuvík mud pools and fumaroles", "Active volcanic lava fields"],
-      "cover_search_query": "Blue Lagoon geothermal pool Iceland milky turquoise"
+      "highlights": [
+        "Blue Lagoon geothermal spa",
+        "Reykjanesvíti lighthouse cliffs",
+        "Krýsuvík mud pools and fumaroles",
+        "Active volcanic lava fields"
+      ],
+      "cover_search_query": "Blue Lagoon geothermal pool Iceland milky turquoise",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/is/reykjanes-peninsula.jpg"
     },
     {
       "id": "snaefellsnes-classic",
@@ -88,16 +199,43 @@
       "distance_km": 260,
       "description": "Jules Verne chose Snæfellsjökull as the entrance to his journey to the centre of the Earth, and the glacier-capped volcano does carry an almost magnetic mystique. The peninsula stretches west into the Atlantic like a finger pointing toward Greenland, flanked by lava archways, seal colonies, and the charming fishing town of Stykkishólmur with its coloured houses reflected in a mirror-calm bay. Grundarfjörður's Kirkjufell mountain — perhaps the most photographed peak in Iceland — provides a perfect farewell.",
       "stops": [
-        { "name": "Reykjavík, Iceland", "label": "Reykjavík" },
-        { "name": "Borgarnes, Iceland", "label": "Borgarnes" },
-        { "name": "Arnarstapi, Iceland", "label": "Arnarstapi" },
-        { "name": "Snæfellsjökull National Park, Iceland", "label": "Snæfellsjökull" },
-        { "name": "Stykkishólmur, Iceland", "label": "Stykkishólmur" },
-        { "name": "Grundarfjörður, Iceland", "label": "Grundarfjörður" },
-        { "name": "Reykjavík, Iceland", "label": "Reykjavík" }
+        {
+          "name": "Reykjavík, Iceland",
+          "label": "Reykjavík"
+        },
+        {
+          "name": "Borgarnes, Iceland",
+          "label": "Borgarnes"
+        },
+        {
+          "name": "Arnarstapi, Iceland",
+          "label": "Arnarstapi"
+        },
+        {
+          "name": "Snæfellsjökull National Park, Iceland",
+          "label": "Snæfellsjökull"
+        },
+        {
+          "name": "Stykkishólmur, Iceland",
+          "label": "Stykkishólmur"
+        },
+        {
+          "name": "Grundarfjörður, Iceland",
+          "label": "Grundarfjörður"
+        },
+        {
+          "name": "Reykjavík, Iceland",
+          "label": "Reykjavík"
+        }
       ],
-      "highlights": ["Snæfellsjökull glacier volcano", "Kirkjufell mountain at Grundarfjörður", "Arnarstapi lava arch coastline", "Stykkishólmur harbour town"],
-      "cover_search_query": "Kirkjufell mountain waterfall Snæfellsnes Iceland"
+      "highlights": [
+        "Snæfellsjökull glacier volcano",
+        "Kirkjufell mountain at Grundarfjörður",
+        "Arnarstapi lava arch coastline",
+        "Stykkishólmur harbour town"
+      ],
+      "cover_search_query": "Kirkjufell mountain waterfall Snæfellsnes Iceland",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/is/snaefellsnes-classic.jpg"
     },
     {
       "id": "westfjords-adventure",
@@ -107,17 +245,47 @@
       "distance_km": 520,
       "description": "The Westfjords are where Iceland keeps its secrets — a deeply incised peninsula of fjords so remote that most visitors never reach them, leaving the roads blissfully empty and the landscapes fiercely pristine. Dynjandi waterfall cascades in a broad bridal-veil fan down a cliff face visible from kilometres away, and the Látrabjarg bird cliffs at Europe's westernmost point host millions of puffins, razorbills, and guillemots. Ísafjörður, the region's charming capital, offers cosy guesthouses and a warm welcome after long days on winding gravel roads.",
       "stops": [
-        { "name": "Reykjavík, Iceland", "label": "Reykjavík" },
-        { "name": "Hólmavík, Iceland", "label": "Hólmavík" },
-        { "name": "Ísafjörður, Iceland", "label": "Ísafjörður" },
-        { "name": "Dynjandi, Iceland", "label": "Dynjandi" },
-        { "name": "Patreksfjörður, Iceland", "label": "Patreksfjörður" },
-        { "name": "Látrabjarg, Iceland", "label": "Látrabjarg" },
-        { "name": "Reykhólar, Iceland", "label": "Reykhólar" },
-        { "name": "Reykjavík, Iceland", "label": "Reykjavík" }
+        {
+          "name": "Reykjavík, Iceland",
+          "label": "Reykjavík"
+        },
+        {
+          "name": "Hólmavík, Iceland",
+          "label": "Hólmavík"
+        },
+        {
+          "name": "Ísafjörður, Iceland",
+          "label": "Ísafjörður"
+        },
+        {
+          "name": "Dynjandi, Iceland",
+          "label": "Dynjandi"
+        },
+        {
+          "name": "Patreksfjörður, Iceland",
+          "label": "Patreksfjörður"
+        },
+        {
+          "name": "Látrabjarg, Iceland",
+          "label": "Látrabjarg"
+        },
+        {
+          "name": "Reykhólar, Iceland",
+          "label": "Reykhólar"
+        },
+        {
+          "name": "Reykjavík, Iceland",
+          "label": "Reykjavík"
+        }
       ],
-      "highlights": ["Dynjandi tiered waterfall", "Látrabjarg puffin cliffs", "Ísafjörður historic town", "Untouched fjord wilderness"],
-      "cover_search_query": "Dynjandi waterfall Westfjords Iceland"
+      "highlights": [
+        "Dynjandi tiered waterfall",
+        "Látrabjarg puffin cliffs",
+        "Ísafjörður historic town",
+        "Untouched fjord wilderness"
+      ],
+      "cover_search_query": "Dynjandi waterfall Westfjords Iceland",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/is/westfjords-adventure.jpg"
     },
     {
       "id": "north-iceland-diamond",
@@ -127,16 +295,43 @@
       "distance_km": 400,
       "description": "Northern Iceland is where volcanism and geology put on their most spectacular performance: Goðafoss, the waterfall of the gods, arcs in a perfect horseshoe before the landscape transforms into the alien shores of Lake Mývatn with its pseudocraters and bubbling mud pools. Dettifoss — Europe's most powerful waterfall — sends plumes of spray hundreds of metres into the air, while Húsavík has built a global reputation as Iceland's best town for whale watching.",
       "stops": [
-        { "name": "Akureyri, Iceland", "label": "Akureyri" },
-        { "name": "Goðafoss, Iceland", "label": "Goðafoss" },
-        { "name": "Mývatn, Iceland", "label": "Mývatn" },
-        { "name": "Dettifoss, Iceland", "label": "Dettifoss" },
-        { "name": "Húsavík, Iceland", "label": "Húsavík" },
-        { "name": "Ásbyrgi, Iceland", "label": "Ásbyrgi" },
-        { "name": "Akureyri, Iceland", "label": "Akureyri" }
+        {
+          "name": "Akureyri, Iceland",
+          "label": "Akureyri"
+        },
+        {
+          "name": "Goðafoss, Iceland",
+          "label": "Goðafoss"
+        },
+        {
+          "name": "Mývatn, Iceland",
+          "label": "Mývatn"
+        },
+        {
+          "name": "Dettifoss, Iceland",
+          "label": "Dettifoss"
+        },
+        {
+          "name": "Húsavík, Iceland",
+          "label": "Húsavík"
+        },
+        {
+          "name": "Ásbyrgi, Iceland",
+          "label": "Ásbyrgi"
+        },
+        {
+          "name": "Akureyri, Iceland",
+          "label": "Akureyri"
+        }
       ],
-      "highlights": ["Dettifoss Europe's most powerful waterfall", "Lake Mývatn volcanic landscape", "Húsavík whale watching", "Ásbyrgi horseshoe canyon"],
-      "cover_search_query": "Dettifoss waterfall powerful Iceland northern"
+      "highlights": [
+        "Dettifoss Europe's most powerful waterfall",
+        "Lake Mývatn volcanic landscape",
+        "Húsavík whale watching",
+        "Ásbyrgi horseshoe canyon"
+      ],
+      "cover_search_query": "Dettifoss waterfall powerful Iceland northern",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/is/north-iceland-diamond.jpg"
     },
     {
       "id": "myvatn-highlands-loop",
@@ -146,16 +341,43 @@
       "distance_km": 280,
       "description": "This compact northern loop delves deep into Iceland's most geologically active corner, where the landscape looks freshly made — because much of it is. Lake Mývatn's eerie lava formations, pseudocraters, and sulphurous hot springs sit beside the Krafla caldera with its vivid acid lake and steaming lava fields barely cooled from a 1984 eruption. The loop ends at Ásbyrgi's forest-filled horseshoe canyon, a Norse legend frozen in basalt.",
       "stops": [
-        { "name": "Akureyri, Iceland", "label": "Akureyri" },
-        { "name": "Goðafoss, Iceland", "label": "Goðafoss" },
-        { "name": "Mývatn, Iceland", "label": "Mývatn" },
-        { "name": "Krafla, Iceland", "label": "Krafla" },
-        { "name": "Dettifoss, Iceland", "label": "Dettifoss" },
-        { "name": "Ásbyrgi, Iceland", "label": "Ásbyrgi" },
-        { "name": "Akureyri, Iceland", "label": "Akureyri" }
+        {
+          "name": "Akureyri, Iceland",
+          "label": "Akureyri"
+        },
+        {
+          "name": "Goðafoss, Iceland",
+          "label": "Goðafoss"
+        },
+        {
+          "name": "Mývatn, Iceland",
+          "label": "Mývatn"
+        },
+        {
+          "name": "Krafla, Iceland",
+          "label": "Krafla"
+        },
+        {
+          "name": "Dettifoss, Iceland",
+          "label": "Dettifoss"
+        },
+        {
+          "name": "Ásbyrgi, Iceland",
+          "label": "Ásbyrgi"
+        },
+        {
+          "name": "Akureyri, Iceland",
+          "label": "Akureyri"
+        }
       ],
-      "highlights": ["Krafla volcanic caldera", "Mývatn Nature Baths geothermal spa", "Goðafoss waterfall at dusk", "Námaskarð sulfur springs"],
-      "cover_search_query": "Mývatn lake volcanic craters Iceland"
+      "highlights": [
+        "Krafla volcanic caldera",
+        "Mývatn Nature Baths geothermal spa",
+        "Goðafoss waterfall at dusk",
+        "Námaskarð sulfur springs"
+      ],
+      "cover_search_query": "Mývatn lake volcanic craters Iceland",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/is/myvatn-highlands-loop.jpg"
     },
     {
       "id": "east-fjords-scenic",
@@ -165,15 +387,39 @@
       "distance_km": 350,
       "description": "Iceland's east is the quiet counterweight to the tourist-heavy south — fishing villages tucked into the narrows of glacially carved fjords, reindeer grazing on hillsides, and Seyðisfjörður's rainbow-painted street descending to a fairy-tale blue church. Borgarfjörður Eystri rewards the drive with puffin colonies nesting just metres from the road, while the stone egg sculptures at Djúpivogur nod to the region's understated artistic soul.",
       "stops": [
-        { "name": "Egilsstaðir, Iceland", "label": "Egilsstaðir" },
-        { "name": "Seyðisfjörður, Iceland", "label": "Seyðisfjörður" },
-        { "name": "Borgarfjörður Eystri, Iceland", "label": "Borgarfjörður Eystri" },
-        { "name": "Djúpivogur, Iceland", "label": "Djúpivogur" },
-        { "name": "Höfn, Iceland", "label": "Höfn" },
-        { "name": "Egilsstaðir, Iceland", "label": "Egilsstaðir" }
+        {
+          "name": "Egilsstaðir, Iceland",
+          "label": "Egilsstaðir"
+        },
+        {
+          "name": "Seyðisfjörður, Iceland",
+          "label": "Seyðisfjörður"
+        },
+        {
+          "name": "Borgarfjörður Eystri, Iceland",
+          "label": "Borgarfjörður Eystri"
+        },
+        {
+          "name": "Djúpivogur, Iceland",
+          "label": "Djúpivogur"
+        },
+        {
+          "name": "Höfn, Iceland",
+          "label": "Höfn"
+        },
+        {
+          "name": "Egilsstaðir, Iceland",
+          "label": "Egilsstaðir"
+        }
       ],
-      "highlights": ["Seyðisfjörður rainbow street and blue church", "Borgarfjörður Eystri puffin colonies", "Remote fjord fishing villages", "Reindeer on highland roads"],
-      "cover_search_query": "Seyðisfjörður rainbow road blue church Iceland"
+      "highlights": [
+        "Seyðisfjörður rainbow street and blue church",
+        "Borgarfjörður Eystri puffin colonies",
+        "Remote fjord fishing villages",
+        "Reindeer on highland roads"
+      ],
+      "cover_search_query": "Seyðisfjörður rainbow road blue church Iceland",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/is/east-fjords-scenic.jpg"
     },
     {
       "id": "landmannalaugar-highlands",
@@ -183,15 +429,39 @@
       "distance_km": 240,
       "description": "Landmannalaugar sits at the edge of a vast rhyolite mountain range where the hills run red, yellow, green, and purple — colours that seem borrowed from a painter's palette rather than geology. F-roads through black sand deserts and river crossings lead to steaming hot springs where you can soak surrounded by lava, and the Eldgjá volcanic canyon stretching 75km is one of the largest on Earth. This is strictly 4WD-only territory and the reward is proportional to the effort.",
       "stops": [
-        { "name": "Reykjavík, Iceland", "label": "Reykjavík" },
-        { "name": "Hella, Iceland", "label": "Hella" },
-        { "name": "Landmannalaugar, Iceland", "label": "Landmannalaugar" },
-        { "name": "Eldgjá, Iceland", "label": "Eldgjá" },
-        { "name": "Kirkjubæjarklaustur, Iceland", "label": "Kirkjubæjarklaustur" },
-        { "name": "Reykjavík, Iceland", "label": "Reykjavík" }
+        {
+          "name": "Reykjavík, Iceland",
+          "label": "Reykjavík"
+        },
+        {
+          "name": "Hella, Iceland",
+          "label": "Hella"
+        },
+        {
+          "name": "Landmannalaugar, Iceland",
+          "label": "Landmannalaugar"
+        },
+        {
+          "name": "Eldgjá, Iceland",
+          "label": "Eldgjá"
+        },
+        {
+          "name": "Kirkjubæjarklaustur, Iceland",
+          "label": "Kirkjubæjarklaustur"
+        },
+        {
+          "name": "Reykjavík, Iceland",
+          "label": "Reykjavík"
+        }
       ],
-      "highlights": ["Rhyolite rainbow mountains", "Natural geothermal hot spring bathing", "Eldgjá volcanic canyon", "F-road river crossings"],
-      "cover_search_query": "Landmannalaugar rhyolite colourful mountains Iceland"
+      "highlights": [
+        "Rhyolite rainbow mountains",
+        "Natural geothermal hot spring bathing",
+        "Eldgjá volcanic canyon",
+        "F-road river crossings"
+      ],
+      "cover_search_query": "Landmannalaugar rhyolite colourful mountains Iceland",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/is/landmannalaugar-highlands.jpg"
     },
     {
       "id": "kjolur-highland-route",
@@ -201,13 +471,31 @@
       "distance_km": 200,
       "description": "The Kjölur route (F35) is the most approachable of Iceland's highland tracks, a straight shot across the interior plateau between two glacier massifs with no major river crossings. Hveravellir oasis — geothermal pools sitting improbably in the middle of a wind-scoured desert — is the perfect overnight stop, the sort of place that makes you feel profoundly far from the ordinary world. The route exits near Blönduós and onwards to Akureyri, connecting south to north through Iceland's bare, beautiful heart.",
       "stops": [
-        { "name": "Gullfoss, Iceland", "label": "Gullfoss" },
-        { "name": "Hveravellir, Iceland", "label": "Hveravellir" },
-        { "name": "Blönduós, Iceland", "label": "Blönduós" },
-        { "name": "Akureyri, Iceland", "label": "Akureyri" }
+        {
+          "name": "Gullfoss, Iceland",
+          "label": "Gullfoss"
+        },
+        {
+          "name": "Hveravellir, Iceland",
+          "label": "Hveravellir"
+        },
+        {
+          "name": "Blönduós, Iceland",
+          "label": "Blönduós"
+        },
+        {
+          "name": "Akureyri, Iceland",
+          "label": "Akureyri"
+        }
       ],
-      "highlights": ["Hveravellir geothermal oasis", "Kjölur plateau highland solitude", "Langjökull glacier views", "South-to-north interior crossing"],
-      "cover_search_query": "Kjölur highland route Iceland F35 desolate plateau"
+      "highlights": [
+        "Hveravellir geothermal oasis",
+        "Kjölur plateau highland solitude",
+        "Langjökull glacier views",
+        "South-to-north interior crossing"
+      ],
+      "cover_search_query": "Kjölur highland route Iceland F35 desolate plateau",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/is/kjolur-highland-route.jpg"
     },
     {
       "id": "reykjavik-south-loop",
@@ -217,16 +505,43 @@
       "distance_km": 290,
       "description": "This is the definitive Iceland first-timer loop — three days that manage to pack in tectonic plates, erupting geysers, Iceland's most famous waterfall, a curtain waterfall you walk behind, and a black sand beach fringed by basalt sea stacks. The route sweeps southeast from Þingvellir through the Golden Circle before dropping down to the moody south coast, making it the best possible introduction to what Iceland does better than anywhere else on Earth.",
       "stops": [
-        { "name": "Reykjavík, Iceland", "label": "Reykjavík" },
-        { "name": "Þingvellir National Park, Iceland", "label": "Þingvellir" },
-        { "name": "Geysir, Iceland", "label": "Geysir" },
-        { "name": "Gullfoss, Iceland", "label": "Gullfoss" },
-        { "name": "Seljalandsfoss, Iceland", "label": "Seljalandsfoss" },
-        { "name": "Vík, Iceland", "label": "Vík" },
-        { "name": "Reykjavík, Iceland", "label": "Reykjavík" }
+        {
+          "name": "Reykjavík, Iceland",
+          "label": "Reykjavík"
+        },
+        {
+          "name": "Þingvellir National Park, Iceland",
+          "label": "Þingvellir"
+        },
+        {
+          "name": "Geysir, Iceland",
+          "label": "Geysir"
+        },
+        {
+          "name": "Gullfoss, Iceland",
+          "label": "Gullfoss"
+        },
+        {
+          "name": "Seljalandsfoss, Iceland",
+          "label": "Seljalandsfoss"
+        },
+        {
+          "name": "Vík, Iceland",
+          "label": "Vík"
+        },
+        {
+          "name": "Reykjavík, Iceland",
+          "label": "Reykjavík"
+        }
       ],
-      "highlights": ["Golden Circle in one sweep", "Walk behind Seljalandsfoss", "Reynisfjara black sand beach", "Þingvellir rift valley snorkelling"],
-      "cover_search_query": "Seljalandsfoss waterfall walk behind Iceland"
+      "highlights": [
+        "Golden Circle in one sweep",
+        "Walk behind Seljalandsfoss",
+        "Reynisfjara black sand beach",
+        "Þingvellir rift valley snorkelling"
+      ],
+      "cover_search_query": "Seljalandsfoss waterfall walk behind Iceland",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/is/reykjavik-south-loop.jpg"
     },
     {
       "id": "north-ring-road-segment",
@@ -236,15 +551,39 @@
       "distance_km": 320,
       "description": "If you could only drive one section of the Ring Road, many Icelanders would choose this one: east from Akureyri through the volcanic north, past Mývatn's lunar lakes and the thunderous Dettifoss, then south through increasingly remote highland scenery to the East Fjords. The segment ends at Seyðisfjörður, a Norwegian-heritage village of brightly painted timber houses accessible via a sinuous mountain pass, making the journey feel like a reward compounding with every kilometre.",
       "stops": [
-        { "name": "Akureyri, Iceland", "label": "Akureyri" },
-        { "name": "Goðafoss, Iceland", "label": "Goðafoss" },
-        { "name": "Mývatn, Iceland", "label": "Mývatn" },
-        { "name": "Dettifoss, Iceland", "label": "Dettifoss" },
-        { "name": "Egilsstaðir, Iceland", "label": "Egilsstaðir" },
-        { "name": "Seyðisfjörður, Iceland", "label": "Seyðisfjörður" }
+        {
+          "name": "Akureyri, Iceland",
+          "label": "Akureyri"
+        },
+        {
+          "name": "Goðafoss, Iceland",
+          "label": "Goðafoss"
+        },
+        {
+          "name": "Mývatn, Iceland",
+          "label": "Mývatn"
+        },
+        {
+          "name": "Dettifoss, Iceland",
+          "label": "Dettifoss"
+        },
+        {
+          "name": "Egilsstaðir, Iceland",
+          "label": "Egilsstaðir"
+        },
+        {
+          "name": "Seyðisfjörður, Iceland",
+          "label": "Seyðisfjörður"
+        }
       ],
-      "highlights": ["Goðafoss the waterfall of the gods", "Mývatn volcanic lake", "Dettifoss raw power", "Seyðisfjörður fjord village arrival"],
-      "cover_search_query": "Goðafoss waterfall gods Iceland northern"
+      "highlights": [
+        "Goðafoss the waterfall of the gods",
+        "Mývatn volcanic lake",
+        "Dettifoss raw power",
+        "Seyðisfjörður fjord village arrival"
+      ],
+      "cover_search_query": "Goðafoss waterfall gods Iceland northern",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/is/north-ring-road-segment.jpg"
     },
     {
       "id": "west-iceland-sagas",
@@ -254,16 +593,43 @@
       "distance_km": 300,
       "description": "West Iceland was the heartland of the Icelandic Sagas — Borgarnes' excellent settlement centre brings the medieval texts to vivid life before you head inland to Reykholt, where scholar Snorri Sturluson wrote the Prose Edda in the 13th century. Hraunfossar is a revelation: dozens of small springs emerge directly from a lava field and cascade into the Hvítá River in a curtain of crystal water, while Húsafell's forest and geothermal pool make a perfect overnight stop before the loop back via Stykkishólmur.",
       "stops": [
-        { "name": "Reykjavík, Iceland", "label": "Reykjavík" },
-        { "name": "Borgarnes, Iceland", "label": "Borgarnes" },
-        { "name": "Reykholt, Iceland", "label": "Reykholt" },
-        { "name": "Húsafell, Iceland", "label": "Húsafell" },
-        { "name": "Hraunfossar, Iceland", "label": "Hraunfossar" },
-        { "name": "Stykkishólmur, Iceland", "label": "Stykkishólmur" },
-        { "name": "Reykjavík, Iceland", "label": "Reykjavík" }
+        {
+          "name": "Reykjavík, Iceland",
+          "label": "Reykjavík"
+        },
+        {
+          "name": "Borgarnes, Iceland",
+          "label": "Borgarnes"
+        },
+        {
+          "name": "Reykholt, Iceland",
+          "label": "Reykholt"
+        },
+        {
+          "name": "Húsafell, Iceland",
+          "label": "Húsafell"
+        },
+        {
+          "name": "Hraunfossar, Iceland",
+          "label": "Hraunfossar"
+        },
+        {
+          "name": "Stykkishólmur, Iceland",
+          "label": "Stykkishólmur"
+        },
+        {
+          "name": "Reykjavík, Iceland",
+          "label": "Reykjavík"
+        }
       ],
-      "highlights": ["Hraunfossar lava springs waterfall", "Snorri Sturluson's medieval hot tub at Reykholt", "Borgarnes Saga history", "Stykkishólmur island-dotted bay"],
-      "cover_search_query": "Hraunfossar lava waterfalls West Iceland"
+      "highlights": [
+        "Hraunfossar lava springs waterfall",
+        "Snorri Sturluson's medieval hot tub at Reykholt",
+        "Borgarnes Saga history",
+        "Stykkishólmur island-dotted bay"
+      ],
+      "cover_search_query": "Hraunfossar lava waterfalls West Iceland",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/is/west-iceland-sagas.jpg"
     },
     {
       "id": "south-ring-road-segment",
@@ -273,17 +639,47 @@
       "distance_km": 500,
       "description": "The southern stretch of the Ring Road is Iceland's most photographed corridor — a relentless procession of waterfalls, glacial tongues, black beaches, and finally the drifting blue icebergs of Jökulsárlón that photographers stake out at dawn and dusk. The glacier Vatnajökull — Europe's largest — dominates the horizon for much of the drive, sending its fingers down through Skaftafell's hiking trails all the way to the coast. Ending in Höfn with a plate of the local langoustine and Vatnajökull glowing at sunset is one of Iceland's great travel rituals.",
       "stops": [
-        { "name": "Reykjavík, Iceland", "label": "Reykjavík" },
-        { "name": "Seljalandsfoss, Iceland", "label": "Seljalandsfoss" },
-        { "name": "Skógafoss, Iceland", "label": "Skógafoss" },
-        { "name": "Vík, Iceland", "label": "Vík" },
-        { "name": "Kirkjubæjarklaustur, Iceland", "label": "Kirkjubæjarklaustur" },
-        { "name": "Skaftafell, Iceland", "label": "Skaftafell" },
-        { "name": "Jökulsárlón, Iceland", "label": "Jökulsárlón" },
-        { "name": "Höfn, Iceland", "label": "Höfn" }
+        {
+          "name": "Reykjavík, Iceland",
+          "label": "Reykjavík"
+        },
+        {
+          "name": "Seljalandsfoss, Iceland",
+          "label": "Seljalandsfoss"
+        },
+        {
+          "name": "Skógafoss, Iceland",
+          "label": "Skógafoss"
+        },
+        {
+          "name": "Vík, Iceland",
+          "label": "Vík"
+        },
+        {
+          "name": "Kirkjubæjarklaustur, Iceland",
+          "label": "Kirkjubæjarklaustur"
+        },
+        {
+          "name": "Skaftafell, Iceland",
+          "label": "Skaftafell"
+        },
+        {
+          "name": "Jökulsárlón, Iceland",
+          "label": "Jökulsárlón"
+        },
+        {
+          "name": "Höfn, Iceland",
+          "label": "Höfn"
+        }
       ],
-      "highlights": ["Skógafoss rainbow waterfall", "Reynisfjara basalt columns and sea stacks", "Vatnajökull glacier walks", "Jökulsárlón diamond beach sunrise"],
-      "cover_search_query": "Jökulsárlón diamond beach icebergs Iceland sunrise"
+      "highlights": [
+        "Skógafoss rainbow waterfall",
+        "Reynisfjara basalt columns and sea stacks",
+        "Vatnajökull glacier walks",
+        "Jökulsárlón diamond beach sunrise"
+      ],
+      "cover_search_query": "Jökulsárlón diamond beach icebergs Iceland sunrise",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/is/south-ring-road-segment.jpg"
     }
   ]
 }

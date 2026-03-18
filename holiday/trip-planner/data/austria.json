@@ -11,14 +11,35 @@
       "distance_km": 220,
       "description": "Drive Austria's most legendary alpine pass, ascending to 2,571m with sweeping views of the Grossglockner — Austria's highest peak. The route winds through the Hohe Tauern National Park past glaciers, ibex herds, and the Franz-Josefs-Höhe viewpoint overlooking the Pasterze Glacier.",
       "stops": [
-        { "name": "Zell am See, Austria", "label": "Zell am See" },
-        { "name": "Bruck an der Grossglocknerstrasse, Austria", "label": "Bruck" },
-        { "name": "Franz-Josefs-Höhe, Austria", "label": "Franz-Josefs-Höhe" },
-        { "name": "Heiligenblut am Grossglockner, Austria", "label": "Heiligenblut" },
-        { "name": "Lienz, Austria", "label": "Lienz" }
+        {
+          "name": "Zell am See, Austria",
+          "label": "Zell am See"
+        },
+        {
+          "name": "Bruck an der Grossglocknerstrasse, Austria",
+          "label": "Bruck"
+        },
+        {
+          "name": "Franz-Josefs-Höhe, Austria",
+          "label": "Franz-Josefs-Höhe"
+        },
+        {
+          "name": "Heiligenblut am Grossglockner, Austria",
+          "label": "Heiligenblut"
+        },
+        {
+          "name": "Lienz, Austria",
+          "label": "Lienz"
+        }
       ],
-      "highlights": ["Grossglockner summit views", "Pasterze Glacier", "Hohe Tauern National Park", "Franz-Josefs-Höhe viewpoint"],
-      "cover_search_query": "Grossglockner High Alpine Road Austria mountain pass glacier"
+      "highlights": [
+        "Grossglockner summit views",
+        "Pasterze Glacier",
+        "Hohe Tauern National Park",
+        "Franz-Josefs-Höhe viewpoint"
+      ],
+      "cover_search_query": "Grossglockner High Alpine Road Austria mountain pass glacier",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/at/grossglockner-alpine-road.jpg"
     },
     {
       "id": "wachau-danube-valley",
@@ -28,14 +49,35 @@
       "distance_km": 180,
       "description": "Follow the Danube through the UNESCO-listed Wachau Valley, a landscape of vineyard terraces, medieval abbeys, and cliff-top castle ruins. Sample world-class Grüner Veltliner wines, visit the opulent Melk Abbey, and explore the romantic ruin of Dürnstein Castle where Richard the Lionheart was once imprisoned.",
       "stops": [
-        { "name": "Vienna, Austria", "label": "Vienna" },
-        { "name": "Klosterneuburg, Austria", "label": "Klosterneuburg" },
-        { "name": "Melk, Austria", "label": "Melk Abbey" },
-        { "name": "Dürnstein, Austria", "label": "Dürnstein" },
-        { "name": "Krems an der Donau, Austria", "label": "Krems" }
+        {
+          "name": "Vienna, Austria",
+          "label": "Vienna"
+        },
+        {
+          "name": "Klosterneuburg, Austria",
+          "label": "Klosterneuburg"
+        },
+        {
+          "name": "Melk, Austria",
+          "label": "Melk Abbey"
+        },
+        {
+          "name": "Dürnstein, Austria",
+          "label": "Dürnstein"
+        },
+        {
+          "name": "Krems an der Donau, Austria",
+          "label": "Krems"
+        }
       ],
-      "highlights": ["Melk Abbey", "Dürnstein Castle ruins", "Wachau wine cellars", "Danube river views"],
-      "cover_search_query": "Wachau Valley Danube river Austria vineyards Dürnstein"
+      "highlights": [
+        "Melk Abbey",
+        "Dürnstein Castle ruins",
+        "Wachau wine cellars",
+        "Danube river views"
+      ],
+      "cover_search_query": "Wachau Valley Danube river Austria vineyards Dürnstein",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/at/wachau-danube-valley.jpg"
     },
     {
       "id": "salzkammergut-lakes",
@@ -45,14 +87,35 @@
       "distance_km": 260,
       "description": "Wind through Austria's fairy-tale lake district, a mosaic of turquoise alpine lakes flanked by dramatic limestone peaks. Hallstatt — perhaps the world's most photographed village — clings to a clifftop above its mirror-still lake, while Wolfgangsee and Grundlsee offer serene beauty and excellent hiking.",
       "stops": [
-        { "name": "Salzburg, Austria", "label": "Salzburg" },
-        { "name": "St. Wolfgang im Salzkammergut, Austria", "label": "St. Wolfgang" },
-        { "name": "Bad Ischl, Austria", "label": "Bad Ischl" },
-        { "name": "Hallstatt, Austria", "label": "Hallstatt" },
-        { "name": "Grundlsee, Austria", "label": "Grundlsee" }
+        {
+          "name": "Salzburg, Austria",
+          "label": "Salzburg"
+        },
+        {
+          "name": "St. Wolfgang im Salzkammergut, Austria",
+          "label": "St. Wolfgang"
+        },
+        {
+          "name": "Bad Ischl, Austria",
+          "label": "Bad Ischl"
+        },
+        {
+          "name": "Hallstatt, Austria",
+          "label": "Hallstatt"
+        },
+        {
+          "name": "Grundlsee, Austria",
+          "label": "Grundlsee"
+        }
       ],
-      "highlights": ["Hallstatt lakeside village", "Salt mines tour", "Dachstein cable car", "Wolfgangsee swimming"],
-      "cover_search_query": "Hallstatt lake Austria alpine village reflection"
+      "highlights": [
+        "Hallstatt lakeside village",
+        "Salt mines tour",
+        "Dachstein cable car",
+        "Wolfgangsee swimming"
+      ],
+      "cover_search_query": "Hallstatt lake Austria alpine village reflection",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/at/salzkammergut-lakes.jpg"
     },
     {
       "id": "innsbruck-tyrolian-alps",
@@ -62,14 +125,35 @@
       "distance_km": 280,
       "description": "Explore the heart of Tyrol from its imperial capital, where the Old Town's golden roof and baroque façades are framed by razor-edged alpine peaks. Drive south to the Europabrücke, west to the Seefeld plateau, and north through the Karwendel wilderness for some of Austria's most dramatic mountain scenery.",
       "stops": [
-        { "name": "Innsbruck, Austria", "label": "Innsbruck" },
-        { "name": "Seefeld in Tirol, Austria", "label": "Seefeld" },
-        { "name": "Mittenwald, Bavaria, Germany", "label": "Mittenwald" },
-        { "name": "Scharnitz, Austria", "label": "Scharnitz" },
-        { "name": "Stubaital, Austria", "label": "Stubai Valley" }
+        {
+          "name": "Innsbruck, Austria",
+          "label": "Innsbruck"
+        },
+        {
+          "name": "Seefeld in Tirol, Austria",
+          "label": "Seefeld"
+        },
+        {
+          "name": "Mittenwald, Bavaria, Germany",
+          "label": "Mittenwald"
+        },
+        {
+          "name": "Scharnitz, Austria",
+          "label": "Scharnitz"
+        },
+        {
+          "name": "Stubaital, Austria",
+          "label": "Stubai Valley"
+        }
       ],
-      "highlights": ["Golden Roof Old Town", "Nordkette cable car", "Europabrücke bridge", "Karwendel Nature Park"],
-      "cover_search_query": "Innsbruck Austria Old Town alpine mountains Nordkette"
+      "highlights": [
+        "Golden Roof Old Town",
+        "Nordkette cable car",
+        "Europabrücke bridge",
+        "Karwendel Nature Park"
+      ],
+      "cover_search_query": "Innsbruck Austria Old Town alpine mountains Nordkette",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/at/innsbruck-tyrolian-alps.jpg"
     },
     {
       "id": "otztal-alpine-drive",
@@ -79,14 +163,35 @@
       "distance_km": 200,
       "description": "Follow the Ötztal valley deep into the heart of the Alps, past thundering waterfalls and ice-age glaciers to the village of Sölden — home to some of Europe's highest ski terrain. The valley rises through pine forests and high meadows to the Rettenbach and Tiefenbach glaciers at over 3,000 metres.",
       "stops": [
-        { "name": "Innsbruck, Austria", "label": "Innsbruck" },
-        { "name": "Ötz, Austria", "label": "Ötz" },
-        { "name": "Längenfeld, Austria", "label": "Längenfeld" },
-        { "name": "Sölden, Austria", "label": "Sölden" },
-        { "name": "Obergurgl-Hochgurgl, Austria", "label": "Obergurgl" }
+        {
+          "name": "Innsbruck, Austria",
+          "label": "Innsbruck"
+        },
+        {
+          "name": "Ötz, Austria",
+          "label": "Ötz"
+        },
+        {
+          "name": "Längenfeld, Austria",
+          "label": "Längenfeld"
+        },
+        {
+          "name": "Sölden, Austria",
+          "label": "Sölden"
+        },
+        {
+          "name": "Obergurgl-Hochgurgl, Austria",
+          "label": "Obergurgl"
+        }
       ],
-      "highlights": ["Stuibenfall waterfall", "Glacier skiing at Sölden", "Ötztal Museum (Ötzi the Iceman)", "High alpine meadows"],
-      "cover_search_query": "Ötztal valley Austria glacier Sölden alpine road"
+      "highlights": [
+        "Stuibenfall waterfall",
+        "Glacier skiing at Sölden",
+        "Ötztal Museum (Ötzi the Iceman)",
+        "High alpine meadows"
+      ],
+      "cover_search_query": "Ötztal valley Austria glacier Sölden alpine road",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/at/otztal-alpine-drive.jpg"
     },
     {
       "id": "zillertal-krimml-waterfalls",
@@ -96,14 +201,35 @@
       "distance_km": 220,
       "description": "Drive up the cheerful Zillertal, famous for its brass bands and cable cars, then cross the Gerlos Alpine Road to reach the Krimml Waterfalls — the highest in Austria and among the tallest in Europe, plunging 380 metres through a roaring gorge of mossy boulders.",
       "stops": [
-        { "name": "Jenbach, Austria", "label": "Jenbach" },
-        { "name": "Mayrhofen, Austria", "label": "Mayrhofen" },
-        { "name": "Gerlos, Austria", "label": "Gerlos" },
-        { "name": "Krimml, Austria", "label": "Krimml Waterfalls" },
-        { "name": "Mittersill, Austria", "label": "Mittersill" }
+        {
+          "name": "Jenbach, Austria",
+          "label": "Jenbach"
+        },
+        {
+          "name": "Mayrhofen, Austria",
+          "label": "Mayrhofen"
+        },
+        {
+          "name": "Gerlos, Austria",
+          "label": "Gerlos"
+        },
+        {
+          "name": "Krimml, Austria",
+          "label": "Krimml Waterfalls"
+        },
+        {
+          "name": "Mittersill, Austria",
+          "label": "Mittersill"
+        }
       ],
-      "highlights": ["Krimml Waterfalls 380m drop", "Gerlos Alpine Road panoramas", "Hintertux Glacier", "Zillertal narrow-gauge railway"],
-      "cover_search_query": "Krimml Waterfalls Austria Hohe Tauern highest waterfall"
+      "highlights": [
+        "Krimml Waterfalls 380m drop",
+        "Gerlos Alpine Road panoramas",
+        "Hintertux Glacier",
+        "Zillertal narrow-gauge railway"
+      ],
+      "cover_search_query": "Krimml Waterfalls Austria Hohe Tauern highest waterfall",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/at/zillertal-krimml-waterfalls.jpg"
     },
     {
       "id": "carinthian-lake-circuit",
@@ -113,14 +239,35 @@
       "distance_km": 300,
       "description": "Carinthia's lake district basks in the warmest, sunniest climate in Austria — a Mediterranean mood among alpine peaks. Circle the Wörthersee, Faaker See, and Ossiacher See, all with crystal-clear swimming water, then visit Klagenfurt's Renaissance old town and the island-crowned Burg Hochosterwitz fortress.",
       "stops": [
-        { "name": "Klagenfurt am Wörthersee, Austria", "label": "Klagenfurt" },
-        { "name": "Velden am Wörther See, Austria", "label": "Velden" },
-        { "name": "Faak am See, Austria", "label": "Faaker See" },
-        { "name": "Villach, Austria", "label": "Villach" },
-        { "name": "Ossiach, Austria", "label": "Ossiacher See" }
+        {
+          "name": "Klagenfurt am Wörthersee, Austria",
+          "label": "Klagenfurt"
+        },
+        {
+          "name": "Velden am Wörther See, Austria",
+          "label": "Velden"
+        },
+        {
+          "name": "Faak am See, Austria",
+          "label": "Faaker See"
+        },
+        {
+          "name": "Villach, Austria",
+          "label": "Villach"
+        },
+        {
+          "name": "Ossiach, Austria",
+          "label": "Ossiacher See"
+        }
       ],
-      "highlights": ["Wörthersee swimming & sailing", "Burg Hochosterwitz fortress", "Faaker See island chapel", "Villach old town"],
-      "cover_search_query": "Wörthersee Carinthia Austria lake alpine summer"
+      "highlights": [
+        "Wörthersee swimming & sailing",
+        "Burg Hochosterwitz fortress",
+        "Faaker See island chapel",
+        "Villach old town"
+      ],
+      "cover_search_query": "Wörthersee Carinthia Austria lake alpine summer",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/at/carinthian-lake-circuit.jpg"
     },
     {
       "id": "arlberg-vorarlberg",
@@ -130,14 +277,35 @@
       "distance_km": 250,
       "description": "Austria's westernmost corner is its most dramatic — the Arlberg massif divides the Rhine valley from the Alps, and the Flexen Road snakes through tunnels and snow galleries above Zürs and Lech. This loop takes in Bregenz on Lake Constance, the Bregenzerwald's rolling cheese country, and the legendary ski resort of St. Anton.",
       "stops": [
-        { "name": "Bregenz, Austria", "label": "Bregenz" },
-        { "name": "Dornbirn, Austria", "label": "Dornbirn" },
-        { "name": "Bregenzerwald, Austria", "label": "Bregenzerwald" },
-        { "name": "Lech am Arlberg, Austria", "label": "Lech am Arlberg" },
-        { "name": "St. Anton am Arlberg, Austria", "label": "St. Anton" }
+        {
+          "name": "Bregenz, Austria",
+          "label": "Bregenz"
+        },
+        {
+          "name": "Dornbirn, Austria",
+          "label": "Dornbirn"
+        },
+        {
+          "name": "Bregenzerwald, Austria",
+          "label": "Bregenzerwald"
+        },
+        {
+          "name": "Lech am Arlberg, Austria",
+          "label": "Lech am Arlberg"
+        },
+        {
+          "name": "St. Anton am Arlberg, Austria",
+          "label": "St. Anton"
+        }
       ],
-      "highlights": ["Bregenz Festival floating stage", "Flexen Road snowgalleries", "Lech skiing & hiking", "Lake Constance shoreline"],
-      "cover_search_query": "Arlberg Austria mountain road Lech Zürs alpine winter"
+      "highlights": [
+        "Bregenz Festival floating stage",
+        "Flexen Road snowgalleries",
+        "Lech skiing & hiking",
+        "Lake Constance shoreline"
+      ],
+      "cover_search_query": "Arlberg Austria mountain road Lech Zürs alpine winter",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/at/arlberg-vorarlberg.jpg"
     },
     {
       "id": "dachstein-schladming",
@@ -147,14 +315,35 @@
       "distance_km": 190,
       "description": "The Dachstein massif straddles Styria and Upper Austria, its ice caves and high plateaus contrasting with the lush Ennstal below. Drive the scenic Grimming Road, visit Ramsau's dramatic cliffside church, and ride the Dachstein cable car to the Sky Walk for 360° views of five countries.",
       "stops": [
-        { "name": "Schladming, Austria", "label": "Schladming" },
-        { "name": "Ramsau am Dachstein, Austria", "label": "Ramsau" },
-        { "name": "Obertraun, Austria", "label": "Obertraun" },
-        { "name": "Bad Aussee, Austria", "label": "Bad Aussee" },
-        { "name": "Stainach-Pürgg, Austria", "label": "Stainach" }
+        {
+          "name": "Schladming, Austria",
+          "label": "Schladming"
+        },
+        {
+          "name": "Ramsau am Dachstein, Austria",
+          "label": "Ramsau"
+        },
+        {
+          "name": "Obertraun, Austria",
+          "label": "Obertraun"
+        },
+        {
+          "name": "Bad Aussee, Austria",
+          "label": "Bad Aussee"
+        },
+        {
+          "name": "Stainach-Pürgg, Austria",
+          "label": "Stainach"
+        }
       ],
-      "highlights": ["Dachstein ice caves", "Krippenstein Sky Walk", "Ramsau alpine meadows", "Grimming volcanic plateau"],
-      "cover_search_query": "Dachstein glacier Austria Ramsau mountain church"
+      "highlights": [
+        "Dachstein ice caves",
+        "Krippenstein Sky Walk",
+        "Ramsau alpine meadows",
+        "Grimming volcanic plateau"
+      ],
+      "cover_search_query": "Dachstein glacier Austria Ramsau mountain church",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/at/dachstein-schladming.jpg"
     },
     {
       "id": "pinzgau-zell-am-see",
@@ -164,14 +353,35 @@
       "distance_km": 280,
       "description": "The Pinzgau valley runs east from Zell am See beneath the glaciated flanks of the Hohe Tauern, following an historic salt trade route. Visit the Schmittenhöhe for panoramic views over the Zeller See, drive the Pinzgauer Höhenstrasse ridge road, and explore Kaprun's glacier world above the famous reservoir dams.",
       "stops": [
-        { "name": "Zell am See, Austria", "label": "Zell am See" },
-        { "name": "Kaprun, Austria", "label": "Kaprun" },
-        { "name": "Saalfelden am Steinernen Meer, Austria", "label": "Saalfelden" },
-        { "name": "Lofer, Austria", "label": "Lofer" },
-        { "name": "Maria Alm am Steinernen Meer, Austria", "label": "Maria Alm" }
+        {
+          "name": "Zell am See, Austria",
+          "label": "Zell am See"
+        },
+        {
+          "name": "Kaprun, Austria",
+          "label": "Kaprun"
+        },
+        {
+          "name": "Saalfelden am Steinernen Meer, Austria",
+          "label": "Saalfelden"
+        },
+        {
+          "name": "Lofer, Austria",
+          "label": "Lofer"
+        },
+        {
+          "name": "Maria Alm am Steinernen Meer, Austria",
+          "label": "Maria Alm"
+        }
       ],
-      "highlights": ["Schmittenhöhe panoramic summit", "Kaprun glacier reservoir", "Pinzgauer Höhenstrasse ridge road", "Steinernes Meer plateau hikes"],
-      "cover_search_query": "Zell am See Austria lake mountains Schmittenhöhe"
+      "highlights": [
+        "Schmittenhöhe panoramic summit",
+        "Kaprun glacier reservoir",
+        "Pinzgauer Höhenstrasse ridge road",
+        "Steinernes Meer plateau hikes"
+      ],
+      "cover_search_query": "Zell am See Austria lake mountains Schmittenhöhe",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/at/pinzgau-zell-am-see.jpg"
     },
     {
       "id": "styrian-wine-road",
@@ -181,14 +391,35 @@
       "distance_km": 180,
       "description": "Southern Styria's rolling vineyard hills — often called the 'Tuscany of Austria' — produce some of the country's finest whites. The Südsteirische Weinstraße winds past tasting-room cellars, pumpkin-seed oil farms, and the medieval university city of Graz with its UNESCO old town and innovative food scene.",
       "stops": [
-        { "name": "Graz, Austria", "label": "Graz" },
-        { "name": "Leibnitz, Austria", "label": "Leibnitz" },
-        { "name": "Gamlitz, Austria", "label": "Gamlitz" },
-        { "name": "Ehrenhausen an der Weinstraße, Austria", "label": "Ehrenhausen" },
-        { "name": "Bad Radkersburg, Austria", "label": "Bad Radkersburg" }
+        {
+          "name": "Graz, Austria",
+          "label": "Graz"
+        },
+        {
+          "name": "Leibnitz, Austria",
+          "label": "Leibnitz"
+        },
+        {
+          "name": "Gamlitz, Austria",
+          "label": "Gamlitz"
+        },
+        {
+          "name": "Ehrenhausen an der Weinstraße, Austria",
+          "label": "Ehrenhausen"
+        },
+        {
+          "name": "Bad Radkersburg, Austria",
+          "label": "Bad Radkersburg"
+        }
       ],
-      "highlights": ["Graz UNESCO old town", "South Styrian wine tastings", "Styrian pumpkin-seed oil farms", "Ehrenhausen castle"],
-      "cover_search_query": "South Styria wine road Austria vineyards rolling hills"
+      "highlights": [
+        "Graz UNESCO old town",
+        "South Styrian wine tastings",
+        "Styrian pumpkin-seed oil farms",
+        "Ehrenhausen castle"
+      ],
+      "cover_search_query": "South Styria wine road Austria vineyards rolling hills",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/at/styrian-wine-road.jpg"
     },
     {
       "id": "kaiser-mountains-kitzbuehel",
@@ -198,14 +429,35 @@
       "distance_km": 200,
       "description": "The Wilder Kaiser's jagged limestone towers are among Austria's most striking massifs — a dramatic backdrop for the affluent medieval ski town of Kitzbühel and the glittering Hintersteiner See. Drive the Kaisergebirgsstrasse, hike the Stripsenjoch, and explore the pretty market towns of Kufstein and St. Johann in Tirol.",
       "stops": [
-        { "name": "Kufstein, Austria", "label": "Kufstein" },
-        { "name": "Going am Wilden Kaiser, Austria", "label": "Going" },
-        { "name": "Kitzbühel, Austria", "label": "Kitzbühel" },
-        { "name": "St. Johann in Tirol, Austria", "label": "St. Johann" },
-        { "name": "Ellmau, Austria", "label": "Ellmau" }
+        {
+          "name": "Kufstein, Austria",
+          "label": "Kufstein"
+        },
+        {
+          "name": "Going am Wilden Kaiser, Austria",
+          "label": "Going"
+        },
+        {
+          "name": "Kitzbühel, Austria",
+          "label": "Kitzbühel"
+        },
+        {
+          "name": "St. Johann in Tirol, Austria",
+          "label": "St. Johann"
+        },
+        {
+          "name": "Ellmau, Austria",
+          "label": "Ellmau"
+        }
       ],
-      "highlights": ["Wilder Kaiser dramatic peaks", "Kitzbühel medieval old town", "Hintersteiner See swimming", "Kufstein fortress"],
-      "cover_search_query": "Wilder Kaiser mountains Austria Kitzbühel Tyrol"
+      "highlights": [
+        "Wilder Kaiser dramatic peaks",
+        "Kitzbühel medieval old town",
+        "Hintersteiner See swimming",
+        "Kufstein fortress"
+      ],
+      "cover_search_query": "Wilder Kaiser mountains Austria Kitzbühel Tyrol",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/at/kaiser-mountains-kitzbuehel.jpg"
     },
     {
       "id": "puster-valley-east-tyrol",
@@ -215,14 +467,35 @@
       "distance_km": 310,
       "description": "East Tyrol is Austria's most isolated and unspoiled region — a land of high passes, ancient paths, and the Hohe Tauern's glaciated giants. Drive the Puster Valley to Lienz, Austria's sunniest town, then climb to the Iselsberg Pass for views stretching from the Dolomites to the Glockner group.",
       "stops": [
-        { "name": "Lienz, Austria", "label": "Lienz" },
-        { "name": "Kals am Großglockner, Austria", "label": "Kals" },
-        { "name": "Matrei in Osttirol, Austria", "label": "Matrei" },
-        { "name": "Iselsberg-Stronach, Austria", "label": "Iselsberg Pass" },
-        { "name": "Sillian, Austria", "label": "Sillian" }
+        {
+          "name": "Lienz, Austria",
+          "label": "Lienz"
+        },
+        {
+          "name": "Kals am Großglockner, Austria",
+          "label": "Kals"
+        },
+        {
+          "name": "Matrei in Osttirol, Austria",
+          "label": "Matrei"
+        },
+        {
+          "name": "Iselsberg-Stronach, Austria",
+          "label": "Iselsberg Pass"
+        },
+        {
+          "name": "Sillian, Austria",
+          "label": "Sillian"
+        }
       ],
-      "highlights": ["East Tyrol wilderness", "Iselsberg Pass Dolomite views", "Kals am Großglockner trails", "Lienz old town & castle"],
-      "cover_search_query": "East Tyrol Lienz Austria alpine Dolomitenblick valley"
+      "highlights": [
+        "East Tyrol wilderness",
+        "Iselsberg Pass Dolomite views",
+        "Kals am Großglockner trails",
+        "Lienz old town & castle"
+      ],
+      "cover_search_query": "East Tyrol Lienz Austria alpine Dolomitenblick valley",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/at/puster-valley-east-tyrol.jpg"
     },
     {
       "id": "gastein-valley",
@@ -232,14 +505,35 @@
       "distance_km": 170,
       "description": "The Gastein valley cuts deep into the Hohe Tauern, its warm radon springs rising from ancient granite to supply Europe's finest thermal spas. Bad Gastein's belle-époque villas cling to a gorge above a roaring waterfall, while the Stubnerkogel summit lift delivers some of Austria's most accessible high-alpine terrain.",
       "stops": [
-        { "name": "Schwarzach im Pongau, Austria", "label": "Schwarzach" },
-        { "name": "Bad Hofgastein, Austria", "label": "Bad Hofgastein" },
-        { "name": "Bad Gastein, Austria", "label": "Bad Gastein" },
-        { "name": "Böckstein, Austria", "label": "Böckstein" },
-        { "name": "Sportgastein, Austria", "label": "Sportgastein" }
+        {
+          "name": "Schwarzach im Pongau, Austria",
+          "label": "Schwarzach"
+        },
+        {
+          "name": "Bad Hofgastein, Austria",
+          "label": "Bad Hofgastein"
+        },
+        {
+          "name": "Bad Gastein, Austria",
+          "label": "Bad Gastein"
+        },
+        {
+          "name": "Böckstein, Austria",
+          "label": "Böckstein"
+        },
+        {
+          "name": "Sportgastein, Austria",
+          "label": "Sportgastein"
+        }
       ],
-      "highlights": ["Bad Gastein belle-époque spa town", "Gastein waterfall gorge", "Stubnerkogel 2,246m summit", "Radon thermal baths"],
-      "cover_search_query": "Bad Gastein Austria spa belle epoque waterfall valley"
+      "highlights": [
+        "Bad Gastein belle-époque spa town",
+        "Gastein waterfall gorge",
+        "Stubnerkogel 2,246m summit",
+        "Radon thermal baths"
+      ],
+      "cover_search_query": "Bad Gastein Austria spa belle epoque waterfall valley",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/at/gastein-valley.jpg"
     },
     {
       "id": "waldviertel-granite-plateau",
@@ -249,14 +543,35 @@
       "distance_km": 210,
       "description": "The Waldviertel is Austria's most enigmatic landscape — a plateau of granite boulders, dark spruce forests, and carp-filled ponds that rolls toward the Czech border. Explore atmospheric medieval towns like Zwettl and Weitra, visit the magnificent Baroque Stift Altenburg abbey, and discover the scattered stone formations of the Blockheide.",
       "stops": [
-        { "name": "Krems an der Donau, Austria", "label": "Krems" },
-        { "name": "Stift Altenburg, Austria", "label": "Stift Altenburg" },
-        { "name": "Zwettl, Austria", "label": "Zwettl" },
-        { "name": "Weitra, Austria", "label": "Weitra" },
-        { "name": "Gmünd, Lower Austria, Austria", "label": "Gmünd" }
+        {
+          "name": "Krems an der Donau, Austria",
+          "label": "Krems"
+        },
+        {
+          "name": "Stift Altenburg, Austria",
+          "label": "Stift Altenburg"
+        },
+        {
+          "name": "Zwettl, Austria",
+          "label": "Zwettl"
+        },
+        {
+          "name": "Weitra, Austria",
+          "label": "Weitra"
+        },
+        {
+          "name": "Gmünd, Lower Austria, Austria",
+          "label": "Gmünd"
+        }
       ],
-      "highlights": ["Stift Altenburg Baroque library", "Blockheide granite boulders", "Weitra medieval brewery town", "Waldviertel poppy fields"],
-      "cover_search_query": "Waldviertel Austria granite landscape spruce forest medieval"
+      "highlights": [
+        "Stift Altenburg Baroque library",
+        "Blockheide granite boulders",
+        "Weitra medieval brewery town",
+        "Waldviertel poppy fields"
+      ],
+      "cover_search_query": "Waldviertel Austria granite landscape spruce forest medieval",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/at/waldviertel-granite-plateau.jpg"
     },
     {
       "id": "vienna-burgenland-wine",
@@ -266,14 +581,35 @@
       "distance_km": 190,
       "description": "From Vienna's Ringstrasse grandeur, drive south through the flat steppe landscape of Burgenland — Austria's warmest and youngest province, bordering Hungary. The reed-fringed Neusiedler See, a UNESCO World Heritage lake, is surrounded by stork-nesting villages and some of Austria's finest red wines.",
       "stops": [
-        { "name": "Vienna, Austria", "label": "Vienna" },
-        { "name": "Eisenstadt, Austria", "label": "Eisenstadt" },
-        { "name": "Rust, Burgenland, Austria", "label": "Rust" },
-        { "name": "Mörbisch am See, Austria", "label": "Mörbisch" },
-        { "name": "Podersdorf am See, Austria", "label": "Podersdorf" }
+        {
+          "name": "Vienna, Austria",
+          "label": "Vienna"
+        },
+        {
+          "name": "Eisenstadt, Austria",
+          "label": "Eisenstadt"
+        },
+        {
+          "name": "Rust, Burgenland, Austria",
+          "label": "Rust"
+        },
+        {
+          "name": "Mörbisch am See, Austria",
+          "label": "Mörbisch"
+        },
+        {
+          "name": "Podersdorf am See, Austria",
+          "label": "Podersdorf"
+        }
       ],
-      "highlights": ["Neusiedler See reed lake", "Rust rooftop stork nests", "Esterhazy Palace Eisenstadt", "Burgenland red wine tastings"],
-      "cover_search_query": "Neusiedler See Burgenland Austria lake storks reeds sunset"
+      "highlights": [
+        "Neusiedler See reed lake",
+        "Rust rooftop stork nests",
+        "Esterhazy Palace Eisenstadt",
+        "Burgenland red wine tastings"
+      ],
+      "cover_search_query": "Neusiedler See Burgenland Austria lake storks reeds sunset",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/at/vienna-burgenland-wine.jpg"
     },
     {
       "id": "montafon-valley-drive",
@@ -283,14 +619,35 @@
       "distance_km": 160,
       "description": "The Montafon is one of Austria's most handsome alpine valleys — a narrow slot flanked by peaks over 3,000 metres, threaded by the Ill river and dotted with dark timber-clad villages. Drive south from Bludenz to Partenen, the gateway to the Silvretta Alpine Road and its breathtaking reservoir perched among eternal snowfields.",
       "stops": [
-        { "name": "Bludenz, Austria", "label": "Bludenz" },
-        { "name": "Schruns, Vorarlberg, Austria", "label": "Schruns" },
-        { "name": "Gaschurn, Austria", "label": "Gaschurn" },
-        { "name": "Partenen, Austria", "label": "Partenen" },
-        { "name": "Silvretta Stausee, Austria", "label": "Silvretta Reservoir" }
+        {
+          "name": "Bludenz, Austria",
+          "label": "Bludenz"
+        },
+        {
+          "name": "Schruns, Vorarlberg, Austria",
+          "label": "Schruns"
+        },
+        {
+          "name": "Gaschurn, Austria",
+          "label": "Gaschurn"
+        },
+        {
+          "name": "Partenen, Austria",
+          "label": "Partenen"
+        },
+        {
+          "name": "Silvretta Stausee, Austria",
+          "label": "Silvretta Reservoir"
+        }
       ],
-      "highlights": ["Silvretta Reservoir panorama", "Montafon dark-timber villages", "Kristberg ridge hike", "Bludenz chocolate town"],
-      "cover_search_query": "Silvretta reservoir Austria Montafon alpine road reflections"
+      "highlights": [
+        "Silvretta Reservoir panorama",
+        "Montafon dark-timber villages",
+        "Kristberg ridge hike",
+        "Bludenz chocolate town"
+      ],
+      "cover_search_query": "Silvretta reservoir Austria Montafon alpine road reflections",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/at/montafon-valley-drive.jpg"
     },
     {
       "id": "hohe-tauern-valley-roads",
@@ -300,14 +657,35 @@
       "distance_km": 300,
       "description": "The Hohe Tauern National Park is Austria's largest protected area — a cathedral of ice and rock spanning three provinces. This route links the Felbertauern Tunnel, the Iselsberg viewpoint, and the Maltatal's emerald reservoirs, exploring the park's wild heart from valley floors to 2,000m meadow roads.",
       "stops": [
-        { "name": "Zell am See, Austria", "label": "Zell am See" },
-        { "name": "Mittersill, Austria", "label": "Mittersill" },
-        { "name": "Matrei in Osttirol, Austria", "label": "Matrei" },
-        { "name": "Mallnitz, Austria", "label": "Mallnitz" },
-        { "name": "Gmünd in Kärnten, Austria", "label": "Gmünd in Kärnten" }
+        {
+          "name": "Zell am See, Austria",
+          "label": "Zell am See"
+        },
+        {
+          "name": "Mittersill, Austria",
+          "label": "Mittersill"
+        },
+        {
+          "name": "Matrei in Osttirol, Austria",
+          "label": "Matrei"
+        },
+        {
+          "name": "Mallnitz, Austria",
+          "label": "Mallnitz"
+        },
+        {
+          "name": "Gmünd in Kärnten, Austria",
+          "label": "Gmünd in Kärnten"
+        }
       ],
-      "highlights": ["Felbertauern mountain road", "Maltatal reservoir valley", "Hohe Tauern wilderness", "Iselsberg viewpoint"],
-      "cover_search_query": "Hohe Tauern National Park Austria valley roads glacier mountains"
+      "highlights": [
+        "Felbertauern mountain road",
+        "Maltatal reservoir valley",
+        "Hohe Tauern wilderness",
+        "Iselsberg viewpoint"
+      ],
+      "cover_search_query": "Hohe Tauern National Park Austria valley roads glacier mountains",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/at/hohe-tauern-valley-roads.jpg"
     },
     {
       "id": "murau-upper-styria",
@@ -317,14 +695,35 @@
       "distance_km": 220,
       "description": "Upper Styria's iron-forging tradition stretches back 2,000 years — the 'Iron Road' follows the Mur river through a landscape of rugged mountains and industrial heritage. Visit Judenburg's medieval tower, Mautern's ironworking museum, and the magnificent baroque castle of Murau, hidden in a broad mountain valley.",
       "stops": [
-        { "name": "Leoben, Austria", "label": "Leoben" },
-        { "name": "Judenburg, Austria", "label": "Judenburg" },
-        { "name": "Murau, Austria", "label": "Murau" },
-        { "name": "Oberwölz, Austria", "label": "Oberwölz" },
-        { "name": "Schladming, Austria", "label": "Schladming" }
+        {
+          "name": "Leoben, Austria",
+          "label": "Leoben"
+        },
+        {
+          "name": "Judenburg, Austria",
+          "label": "Judenburg"
+        },
+        {
+          "name": "Murau, Austria",
+          "label": "Murau"
+        },
+        {
+          "name": "Oberwölz, Austria",
+          "label": "Oberwölz"
+        },
+        {
+          "name": "Schladming, Austria",
+          "label": "Schladming"
+        }
       ],
-      "highlights": ["Murau baroque castle", "Mur river gorge", "Upper Styrian iron heritage", "Judenburg medieval star tower"],
-      "cover_search_query": "Murau Austria Styria castle valley mountain baroque"
+      "highlights": [
+        "Murau baroque castle",
+        "Mur river gorge",
+        "Upper Styrian iron heritage",
+        "Judenburg medieval star tower"
+      ],
+      "cover_search_query": "Murau Austria Styria castle valley mountain baroque",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/at/murau-upper-styria.jpg"
     },
     {
       "id": "muehlviertel-bohemian-forest",
@@ -334,13 +733,33 @@
       "distance_km": 200,
       "description": "The Mühlviertel plateau north of Linz is a gently rolling landscape of granite ridges, mill streams, and linen-weaving villages — a world apart from the alpine drama to the south. Cross into the Bohemian Forest, visit the pilgrimage town of Freistadt with its intact medieval walls, and discover the moody peat bogs of the Schwarzenberger Schwemmkanal.",
       "stops": [
-        { "name": "Linz, Austria", "label": "Linz" },
-        { "name": "Freistadt, Austria", "label": "Freistadt" },
-        { "name": "Rohrbach in Oberösterreich, Austria", "label": "Rohrbach" },
-        { "name": "Aigen-Schlägl, Austria", "label": "Schlägl Abbey" },
-        { "name": "Ulrichsberg, Austria", "label": "Ulrichsberg" }
+        {
+          "name": "Linz, Austria",
+          "label": "Linz"
+        },
+        {
+          "name": "Freistadt, Austria",
+          "label": "Freistadt"
+        },
+        {
+          "name": "Rohrbach in Oberösterreich, Austria",
+          "label": "Rohrbach"
+        },
+        {
+          "name": "Aigen-Schlägl, Austria",
+          "label": "Schlägl Abbey"
+        },
+        {
+          "name": "Ulrichsberg, Austria",
+          "label": "Ulrichsberg"
+        }
       ],
-      "highlights": ["Freistadt medieval walls", "Schlägl Monastery", "Schwarzenberger Schwemmkanal log flume", "Mühlviertel linen museum"],
+      "highlights": [
+        "Freistadt medieval walls",
+        "Schlägl Monastery",
+        "Schwarzenberger Schwemmkanal log flume",
+        "Mühlviertel linen museum"
+      ],
       "cover_search_query": "Mühlviertel Austria granite landscape spruce forest Bohemian border"
     },
     {
@@ -351,14 +770,35 @@
       "distance_km": 200,
       "description": "The Gesäuse is Austria's wildest national park — the Enns river tears through a 12km limestone canyon whose walls rise nearly 2,000 metres sheer from the water. Drive the dramatic gorge road, then explore the broad Enns valley's market towns and the towering silhouette of the Hochtor, one of Austria's great alpine faces.",
       "stops": [
-        { "name": "Steyr, Austria", "label": "Steyr" },
-        { "name": "Weyer, Austria", "label": "Weyer" },
-        { "name": "Altenmarkt bei Sankt Gallen, Austria", "label": "Altenmarkt" },
-        { "name": "Admont, Austria", "label": "Admont Abbey" },
-        { "name": "Hieflau, Austria", "label": "Gesäuse Gorge" }
+        {
+          "name": "Steyr, Austria",
+          "label": "Steyr"
+        },
+        {
+          "name": "Weyer, Austria",
+          "label": "Weyer"
+        },
+        {
+          "name": "Altenmarkt bei Sankt Gallen, Austria",
+          "label": "Altenmarkt"
+        },
+        {
+          "name": "Admont, Austria",
+          "label": "Admont Abbey"
+        },
+        {
+          "name": "Hieflau, Austria",
+          "label": "Gesäuse Gorge"
+        }
       ],
-      "highlights": ["Gesäuse gorge limestone walls", "Admont Abbey world's largest monastery library", "Enns river rapids", "Hochtor north face"],
-      "cover_search_query": "Gesäuse gorge Austria Enns river limestone cliffs national park"
+      "highlights": [
+        "Gesäuse gorge limestone walls",
+        "Admont Abbey world's largest monastery library",
+        "Enns river rapids",
+        "Hochtor north face"
+      ],
+      "cover_search_query": "Gesäuse gorge Austria Enns river limestone cliffs national park",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/at/enns-valley-gesause.jpg"
     },
     {
       "id": "lower-inn-valley-kufstein",
@@ -368,14 +808,35 @@
       "distance_km": 180,
       "description": "The Inn river winds between Bavaria and Austria through a valley of medieval river-crossing towns, each with a fortress guarding the old trade routes south. Kufstein's giant mountain fortress rises 90 metres above the river, while Rattenberg is Austria's smallest town — its entire medieval centre preserved in amber.",
       "stops": [
-        { "name": "Kufstein, Austria", "label": "Kufstein" },
-        { "name": "Rattenberg, Austria", "label": "Rattenberg" },
-        { "name": "Brixlegg, Austria", "label": "Brixlegg" },
-        { "name": "Schwaz, Austria", "label": "Schwaz" },
-        { "name": "Hall in Tirol, Austria", "label": "Hall in Tirol" }
+        {
+          "name": "Kufstein, Austria",
+          "label": "Kufstein"
+        },
+        {
+          "name": "Rattenberg, Austria",
+          "label": "Rattenberg"
+        },
+        {
+          "name": "Brixlegg, Austria",
+          "label": "Brixlegg"
+        },
+        {
+          "name": "Schwaz, Austria",
+          "label": "Schwaz"
+        },
+        {
+          "name": "Hall in Tirol, Austria",
+          "label": "Hall in Tirol"
+        }
       ],
-      "highlights": ["Kufstein fortress & Heldenorgel", "Rattenberg smallest Austrian town", "Schwaz silver mining heritage", "Hall in Tirol salt town"],
-      "cover_search_query": "Kufstein fortress Austria Inn Valley river Tyrol medieval"
+      "highlights": [
+        "Kufstein fortress & Heldenorgel",
+        "Rattenberg smallest Austrian town",
+        "Schwaz silver mining heritage",
+        "Hall in Tirol salt town"
+      ],
+      "cover_search_query": "Kufstein fortress Austria Inn Valley river Tyrol medieval",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/at/lower-inn-valley-kufstein.jpg"
     },
     {
       "id": "carinthian-border-roads",
@@ -385,14 +846,35 @@
       "distance_km": 240,
       "description": "Southern Carinthia borders Slovenia along a limestone ridge of old frontier roads and alpine meadows. Drive the historic Loibl Pass — the oldest transalpine crossing road — then circle the Karawanken range through Slovenian-speaking villages, past Roman ruins at Virunum, and through the dramatic Ferlach Gorge.",
       "stops": [
-        { "name": "Klagenfurt am Wörthersee, Austria", "label": "Klagenfurt" },
-        { "name": "Maria Rain, Carinthia, Austria", "label": "Maria Rain" },
-        { "name": "Bad Eisenkappel, Austria", "label": "Bad Eisenkappel" },
-        { "name": "Ferlach, Austria", "label": "Ferlach Gorge" },
-        { "name": "Völkermarkt, Austria", "label": "Völkermarkt" }
+        {
+          "name": "Klagenfurt am Wörthersee, Austria",
+          "label": "Klagenfurt"
+        },
+        {
+          "name": "Maria Rain, Carinthia, Austria",
+          "label": "Maria Rain"
+        },
+        {
+          "name": "Bad Eisenkappel, Austria",
+          "label": "Bad Eisenkappel"
+        },
+        {
+          "name": "Ferlach, Austria",
+          "label": "Ferlach Gorge"
+        },
+        {
+          "name": "Völkermarkt, Austria",
+          "label": "Völkermarkt"
+        }
       ],
-      "highlights": ["Loibl Pass historic tunnel", "Ferlach Gorge", "Slovenian-Carinthian bilingual villages", "Roman ruins at Virunum"],
-      "cover_search_query": "Carinthia Austria Karawanken mountains pass border Slovenia"
+      "highlights": [
+        "Loibl Pass historic tunnel",
+        "Ferlach Gorge",
+        "Slovenian-Carinthian bilingual villages",
+        "Roman ruins at Virunum"
+      ],
+      "cover_search_query": "Carinthia Austria Karawanken mountains pass border Slovenia",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/at/carinthian-border-roads.jpg"
     },
     {
       "id": "bregenzerwald-cheese-road",
@@ -402,14 +884,35 @@
       "distance_km": 170,
       "description": "The Bregenzerwald is one of Austria's best-kept secrets — a cluster of dark-timbered villages where award-winning architecture and a thriving cheese-making tradition survive side by side. The KäseStrasse links two dozen dairy farms and mountain huts, passing reed-fringed ponds and hand-crafted villages designed by the internationally acclaimed Vorarlberg school of architecture.",
       "stops": [
-        { "name": "Dornbirn, Austria", "label": "Dornbirn" },
-        { "name": "Schwarzenberg, Vorarlberg, Austria", "label": "Schwarzenberg" },
-        { "name": "Schoppernau, Austria", "label": "Schoppernau" },
-        { "name": "Bezau, Austria", "label": "Bezau" },
-        { "name": "Mellau, Austria", "label": "Mellau" }
+        {
+          "name": "Dornbirn, Austria",
+          "label": "Dornbirn"
+        },
+        {
+          "name": "Schwarzenberg, Vorarlberg, Austria",
+          "label": "Schwarzenberg"
+        },
+        {
+          "name": "Schoppernau, Austria",
+          "label": "Schoppernau"
+        },
+        {
+          "name": "Bezau, Austria",
+          "label": "Bezau"
+        },
+        {
+          "name": "Mellau, Austria",
+          "label": "Mellau"
+        }
       ],
-      "highlights": ["Bregenzerwald mountain cheese dairies", "Vorarlberg contemporary architecture", "Kanisfluh cliff face", "Alpine pasture huts"],
-      "cover_search_query": "Bregenzerwald Austria alpine village dark timber architecture cheese"
+      "highlights": [
+        "Bregenzerwald mountain cheese dairies",
+        "Vorarlberg contemporary architecture",
+        "Kanisfluh cliff face",
+        "Alpine pasture huts"
+      ],
+      "cover_search_query": "Bregenzerwald Austria alpine village dark timber architecture cheese",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/at/bregenzerwald-cheese-road.jpg"
     },
     {
       "id": "salzburg-surroundings",
@@ -419,14 +922,35 @@
       "distance_km": 240,
       "description": "Mozart's birthplace needs no introduction, but the countryside surrounding Salzburg — where 'The Sound of Music' was filmed — is just as spellbinding. Drive the lake-dotted Flachgau, stop at the Hellbrunn trick fountains, climb to Hohensalzburg fortress, and wind through the Tennengau to the Lammertal gorge and the eerie Eisriesenwelt ice cave.",
       "stops": [
-        { "name": "Salzburg, Austria", "label": "Salzburg" },
-        { "name": "Hellbrunn, Salzburg, Austria", "label": "Hellbrunn Palace" },
-        { "name": "Hallein, Austria", "label": "Hallein" },
-        { "name": "Golling an der Salzach, Austria", "label": "Golling" },
-        { "name": "Werfen, Austria", "label": "Werfen Ice Cave" }
+        {
+          "name": "Salzburg, Austria",
+          "label": "Salzburg"
+        },
+        {
+          "name": "Hellbrunn, Salzburg, Austria",
+          "label": "Hellbrunn Palace"
+        },
+        {
+          "name": "Hallein, Austria",
+          "label": "Hallein"
+        },
+        {
+          "name": "Golling an der Salzach, Austria",
+          "label": "Golling"
+        },
+        {
+          "name": "Werfen, Austria",
+          "label": "Werfen Ice Cave"
+        }
       ],
-      "highlights": ["Salzburg baroque old town", "Hohensalzburg fortress", "Eisriesenwelt ice cave (world's largest)", "Hellbrunn trick fountains"],
-      "cover_search_query": "Salzburg Austria baroque old town Hohensalzburg fortress mountains"
+      "highlights": [
+        "Salzburg baroque old town",
+        "Hohensalzburg fortress",
+        "Eisriesenwelt ice cave (world's largest)",
+        "Hellbrunn trick fountains"
+      ],
+      "cover_search_query": "Salzburg Austria baroque old town Hohensalzburg fortress mountains",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/at/salzburg-surroundings.jpg"
     }
   ]
 }

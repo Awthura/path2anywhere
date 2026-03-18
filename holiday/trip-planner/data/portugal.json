@@ -11,14 +11,35 @@
       "distance_km": 280,
       "description": "Portugal's sun-drenched southern coast delivers the country's most spectacular scenery: towering ochre sea stacks, hidden grottos, and wide golden beaches that vanish into the Atlantic at Sagres. Drive west from the Roman-influenced town of Faro through Lagos and the bizarre rock formations of Ponta da Piedade to Europe's most south-westerly point.",
       "stops": [
-        { "name": "Faro, Portugal", "label": "Faro" },
-        { "name": "Albufeira, Portugal", "label": "Albufeira" },
-        { "name": "Lagos, Portugal", "label": "Lagos" },
-        { "name": "Ponta da Piedade, Portugal", "label": "Ponta da Piedade" },
-        { "name": "Sagres, Portugal", "label": "Sagres" }
+        {
+          "name": "Faro, Portugal",
+          "label": "Faro"
+        },
+        {
+          "name": "Albufeira, Portugal",
+          "label": "Albufeira"
+        },
+        {
+          "name": "Lagos, Portugal",
+          "label": "Lagos"
+        },
+        {
+          "name": "Ponta da Piedade, Portugal",
+          "label": "Ponta da Piedade"
+        },
+        {
+          "name": "Sagres, Portugal",
+          "label": "Sagres"
+        }
       ],
-      "highlights": ["Ponta da Piedade sea stacks", "Sagres fortress", "Benagil sea cave", "Algarve cliff beaches"],
-      "cover_search_query": "Ponta da Piedade Lagos Portugal golden cliffs sea stacks"
+      "highlights": [
+        "Ponta da Piedade sea stacks",
+        "Sagres fortress",
+        "Benagil sea cave",
+        "Algarve cliff beaches"
+      ],
+      "cover_search_query": "Ponta da Piedade Lagos Portugal golden cliffs sea stacks",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/pt/algarve-golden-coast.jpg"
     },
     {
       "id": "douro-valley-wine-route",
@@ -28,14 +49,35 @@
       "distance_km": 260,
       "description": "The Douro Valley is a UNESCO World Heritage landscape of terraced vineyards carved from schist slopes above one of Europe's most beautiful rivers. Drive the dramatic N222 — named the world's best road by Automobile Magazine — stopping at quintas for port wine tastings and watching the evening light turn the terraces to gold.",
       "stops": [
-        { "name": "Porto, Portugal", "label": "Porto" },
-        { "name": "Peso da Régua, Portugal", "label": "Régua" },
-        { "name": "Pinhão, Portugal", "label": "Pinhão" },
-        { "name": "São João da Pesqueira, Portugal", "label": "São João da Pesqueira" },
-        { "name": "Vila Nova de Foz Côa, Portugal", "label": "Foz Côa" }
+        {
+          "name": "Porto, Portugal",
+          "label": "Porto"
+        },
+        {
+          "name": "Peso da Régua, Portugal",
+          "label": "Régua"
+        },
+        {
+          "name": "Pinhão, Portugal",
+          "label": "Pinhão"
+        },
+        {
+          "name": "São João da Pesqueira, Portugal",
+          "label": "São João da Pesqueira"
+        },
+        {
+          "name": "Vila Nova de Foz Côa, Portugal",
+          "label": "Foz Côa"
+        }
       ],
-      "highlights": ["N222 world's best road", "Port wine quintas", "Pinhão azulejo train station", "Foz Côa rock art UNESCO site"],
-      "cover_search_query": "Douro Valley Portugal terraced vineyards river wine quintas"
+      "highlights": [
+        "N222 world's best road",
+        "Port wine quintas",
+        "Pinhão azulejo train station",
+        "Foz Côa rock art UNESCO site"
+      ],
+      "cover_search_query": "Douro Valley Portugal terraced vineyards river wine quintas",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/pt/douro-valley-wine-route.jpg"
     },
     {
       "id": "porto-minho-green-wine",
@@ -45,14 +87,35 @@
       "distance_km": 220,
       "description": "North of Porto the verdant Minho region produces the refreshing vinho verde — young, slightly sparkling white wine — from vines trained up granite trellises above flower-filled meadows. Drive through Lima and Minho river valleys, visit the pilgrim city of Braga, and climb to the hilltop sanctuary of Bom Jesus for sweeping Atlantic views.",
       "stops": [
-        { "name": "Porto, Portugal", "label": "Porto" },
-        { "name": "Braga, Portugal", "label": "Braga" },
-        { "name": "Guimarães, Portugal", "label": "Guimarães" },
-        { "name": "Ponte de Lima, Portugal", "label": "Ponte de Lima" },
-        { "name": "Viana do Castelo, Portugal", "label": "Viana do Castelo" }
+        {
+          "name": "Porto, Portugal",
+          "label": "Porto"
+        },
+        {
+          "name": "Braga, Portugal",
+          "label": "Braga"
+        },
+        {
+          "name": "Guimarães, Portugal",
+          "label": "Guimarães"
+        },
+        {
+          "name": "Ponte de Lima, Portugal",
+          "label": "Ponte de Lima"
+        },
+        {
+          "name": "Viana do Castelo, Portugal",
+          "label": "Viana do Castelo"
+        }
       ],
-      "highlights": ["Porto riverside ribeira", "Bom Jesus do Monte staircase", "Ponte de Lima medieval bridge", "Vinho verde wine estates"],
-      "cover_search_query": "Porto Portugal ribeira waterfront colourful buildings Douro"
+      "highlights": [
+        "Porto riverside ribeira",
+        "Bom Jesus do Monte staircase",
+        "Ponte de Lima medieval bridge",
+        "Vinho verde wine estates"
+      ],
+      "cover_search_query": "Porto Portugal ribeira waterfront colourful buildings Douro",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/pt/porto-minho-green-wine.jpg"
     },
     {
       "id": "sintra-cascais-setubal",
@@ -62,13 +125,33 @@
       "distance_km": 200,
       "description": "A fairy-tale loop from Lisbon through some of Europe's most romanticised coast. Sintra's colourful palaces and Moorish castle sit in forested hills above the Atlantic; Cascais is a chic fishing-town-turned-resort with wild beaches nearby; the Arrábida Natural Park is a hidden gem of turquoise coves and white limestone cliffs.",
       "stops": [
-        { "name": "Lisbon, Portugal", "label": "Lisbon" },
-        { "name": "Sintra, Portugal", "label": "Sintra" },
-        { "name": "Cascais, Portugal", "label": "Cascais" },
-        { "name": "Setúbal, Portugal", "label": "Setúbal" },
-        { "name": "Arrábida Natural Park, Portugal", "label": "Arrábida" }
+        {
+          "name": "Lisbon, Portugal",
+          "label": "Lisbon"
+        },
+        {
+          "name": "Sintra, Portugal",
+          "label": "Sintra"
+        },
+        {
+          "name": "Cascais, Portugal",
+          "label": "Cascais"
+        },
+        {
+          "name": "Setúbal, Portugal",
+          "label": "Setúbal"
+        },
+        {
+          "name": "Arrábida Natural Park, Portugal",
+          "label": "Arrábida"
+        }
       ],
-      "highlights": ["Sintra Pena Palace", "Cabo da Roca westernmost Europe", "Arrábida turquoise coves", "Cascais old town"],
+      "highlights": [
+        "Sintra Pena Palace",
+        "Cabo da Roca westernmost Europe",
+        "Arrábida turquoise coves",
+        "Cascais old town"
+      ],
       "cover_search_query": "Sintra Portugal Pena Palace colourful fairy tale forest"
     },
     {
@@ -79,14 +162,35 @@
       "distance_km": 290,
       "description": "The Alentejo occupies one third of Portugal but barely a tenth of its people — a landscape of immense cork oak forests, golden wheat plains, and whitewashed hilltop villages baking under a merciless sun. This region hides Europe's greatest concentration of megalithic monuments, with stone circles and dolmens scattered across the plain near Évora.",
       "stops": [
-        { "name": "Évora, Portugal", "label": "Évora" },
-        { "name": "Monsaraz, Portugal", "label": "Monsaraz" },
-        { "name": "Mértola, Portugal", "label": "Mértola" },
-        { "name": "Beja, Portugal", "label": "Beja" },
-        { "name": "Estremoz, Portugal", "label": "Estremoz" }
+        {
+          "name": "Évora, Portugal",
+          "label": "Évora"
+        },
+        {
+          "name": "Monsaraz, Portugal",
+          "label": "Monsaraz"
+        },
+        {
+          "name": "Mértola, Portugal",
+          "label": "Mértola"
+        },
+        {
+          "name": "Beja, Portugal",
+          "label": "Beja"
+        },
+        {
+          "name": "Estremoz, Portugal",
+          "label": "Estremoz"
+        }
       ],
-      "highlights": ["Évora Roman temple & bone chapel", "Almendres megalith circle", "Monsaraz hilltop village & reservoir", "Mértola Moorish castle"],
-      "cover_search_query": "Évora Portugal Roman temple cork oak plains Alentejo"
+      "highlights": [
+        "Évora Roman temple & bone chapel",
+        "Almendres megalith circle",
+        "Monsaraz hilltop village & reservoir",
+        "Mértola Moorish castle"
+      ],
+      "cover_search_query": "Évora Portugal Roman temple cork oak plains Alentejo",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/pt/alentejo-plains-cork.jpg"
     },
     {
       "id": "costa-vicentina-wild-coast",
@@ -96,14 +200,35 @@
       "distance_km": 240,
       "description": "The Costa Vicentina is Western Europe's largest stretch of undeveloped Atlantic coast — a protected park of wind-sculpted cliffs, empty surf beaches, and fishing villages barely touched by tourism. Drive the EN268 through rolling heath and dune valleys between Sines and Sagres, stopping at dramatic viewpoints above pounding winter swells.",
       "stops": [
-        { "name": "Sines, Portugal", "label": "Sines" },
-        { "name": "Porto Covo, Portugal", "label": "Porto Covo" },
-        { "name": "Vila Nova de Milfontes, Portugal", "label": "Milfontes" },
-        { "name": "Zambujeira do Mar, Portugal", "label": "Zambujeira do Mar" },
-        { "name": "Aljezur, Portugal", "label": "Aljezur" }
+        {
+          "name": "Sines, Portugal",
+          "label": "Sines"
+        },
+        {
+          "name": "Porto Covo, Portugal",
+          "label": "Porto Covo"
+        },
+        {
+          "name": "Vila Nova de Milfontes, Portugal",
+          "label": "Milfontes"
+        },
+        {
+          "name": "Zambujeira do Mar, Portugal",
+          "label": "Zambujeira do Mar"
+        },
+        {
+          "name": "Aljezur, Portugal",
+          "label": "Aljezur"
+        }
       ],
-      "highlights": ["Illhéu do Pessegueiro island fortress", "Zambujeira do Mar surf beach", "Costa Vicentina wild heath", "Aljezur Moorish castle"],
-      "cover_search_query": "Costa Vicentina Portugal wild Atlantic cliffs surf beach"
+      "highlights": [
+        "Illhéu do Pessegueiro island fortress",
+        "Zambujeira do Mar surf beach",
+        "Costa Vicentina wild heath",
+        "Aljezur Moorish castle"
+      ],
+      "cover_search_query": "Costa Vicentina Portugal wild Atlantic cliffs surf beach",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/pt/costa-vicentina-wild-coast.jpg"
     },
     {
       "id": "serra-da-estrela-beiras",
@@ -113,14 +238,35 @@
       "distance_km": 280,
       "description": "The Serra da Estrela is mainland Portugal's highest mountain range — a granite plateau of glacial valleys, ancient shepherding traditions, and the country's only ski station. Drive past schist villages clinging to steep hillsides in the Aldeias de Xisto, taste the world-famous Serra cheese, and visit the medieval walled city of Monsanto perched on its granite boulders.",
       "stops": [
-        { "name": "Covilhã, Portugal", "label": "Covilhã" },
-        { "name": "Torre, Serra da Estrela, Portugal", "label": "Torre (highest point)" },
-        { "name": "Manteigas, Portugal", "label": "Manteigas" },
-        { "name": "Monsanto, Portugal", "label": "Monsanto" },
-        { "name": "Sortelha, Portugal", "label": "Sortelha" }
+        {
+          "name": "Covilhã, Portugal",
+          "label": "Covilhã"
+        },
+        {
+          "name": "Torre, Serra da Estrela, Portugal",
+          "label": "Torre (highest point)"
+        },
+        {
+          "name": "Manteigas, Portugal",
+          "label": "Manteigas"
+        },
+        {
+          "name": "Monsanto, Portugal",
+          "label": "Monsanto"
+        },
+        {
+          "name": "Sortelha, Portugal",
+          "label": "Sortelha"
+        }
       ],
-      "highlights": ["Torre 1993m summit", "Glacial Zêzere valley", "Monsanto granite boulder village", "Serra da Estrela sheep cheese"],
-      "cover_search_query": "Serra da Estrela Portugal mountain glacial valley granite"
+      "highlights": [
+        "Torre 1993m summit",
+        "Glacial Zêzere valley",
+        "Monsanto granite boulder village",
+        "Serra da Estrela sheep cheese"
+      ],
+      "cover_search_query": "Serra da Estrela Portugal mountain glacial valley granite",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/pt/serra-da-estrela-beiras.jpg"
     },
     {
       "id": "tras-os-montes-northeast",
@@ -130,14 +276,35 @@
       "distance_km": 300,
       "description": "Beyond the mountains, Trás-os-Montes ('behind the mountains') is Portugal's most isolated region — a land of chestnut forests, ancient villages, and the dramatic Tua and Sabor river gorges. Chaves has Roman bridges and thermal springs; Bragança guards the Spanish border behind its perfectly intact medieval castle and walls.",
       "stops": [
-        { "name": "Chaves, Portugal", "label": "Chaves" },
-        { "name": "Bragança, Portugal", "label": "Bragança" },
-        { "name": "Miranda do Douro, Portugal", "label": "Miranda do Douro" },
-        { "name": "Mogadouro, Portugal", "label": "Mogadouro" },
-        { "name": "Torre de Moncorvo, Portugal", "label": "Torre de Moncorvo" }
+        {
+          "name": "Chaves, Portugal",
+          "label": "Chaves"
+        },
+        {
+          "name": "Bragança, Portugal",
+          "label": "Bragança"
+        },
+        {
+          "name": "Miranda do Douro, Portugal",
+          "label": "Miranda do Douro"
+        },
+        {
+          "name": "Mogadouro, Portugal",
+          "label": "Mogadouro"
+        },
+        {
+          "name": "Torre de Moncorvo, Portugal",
+          "label": "Torre de Moncorvo"
+        }
       ],
-      "highlights": ["Bragança medieval castle & citadel", "Miranda do Douro gorge", "Chaves Roman bridge", "Trás-os-Montes almond blossoms"],
-      "cover_search_query": "Bragança Portugal medieval castle citadel fortress"
+      "highlights": [
+        "Bragança medieval castle & citadel",
+        "Miranda do Douro gorge",
+        "Chaves Roman bridge",
+        "Trás-os-Montes almond blossoms"
+      ],
+      "cover_search_query": "Bragança Portugal medieval castle citadel fortress",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/pt/tras-os-montes-northeast.jpg"
     },
     {
       "id": "silver-coast-coimbra",
@@ -147,14 +314,35 @@
       "distance_km": 250,
       "description": "The Costa de Prata stretches between Lisbon and Porto — a silver-sand coast of fishing towns, pine forests, and Atlantic surf largely ignored by international tourism. Inland, Coimbra's ancient university city rises over the Mondego river with the finest Manueline architecture in Portugal and a fado tradition wholly different from Lisbon's.",
       "stops": [
-        { "name": "Coimbra, Portugal", "label": "Coimbra" },
-        { "name": "Figueira da Foz, Portugal", "label": "Figueira da Foz" },
-        { "name": "Aveiro, Portugal", "label": "Aveiro" },
-        { "name": "Óbidos, Portugal", "label": "Óbidos" },
-        { "name": "Nazaré, Portugal", "label": "Nazaré" }
+        {
+          "name": "Coimbra, Portugal",
+          "label": "Coimbra"
+        },
+        {
+          "name": "Figueira da Foz, Portugal",
+          "label": "Figueira da Foz"
+        },
+        {
+          "name": "Aveiro, Portugal",
+          "label": "Aveiro"
+        },
+        {
+          "name": "Óbidos, Portugal",
+          "label": "Óbidos"
+        },
+        {
+          "name": "Nazaré, Portugal",
+          "label": "Nazaré"
+        }
       ],
-      "highlights": ["Coimbra University library (Baroque)", "Nazaré big wave surfing", "Aveiro canals & moliceiros", "Óbidos medieval walled town"],
-      "cover_search_query": "Coimbra Portugal university Joanina library Mondego river"
+      "highlights": [
+        "Coimbra University library (Baroque)",
+        "Nazaré big wave surfing",
+        "Aveiro canals & moliceiros",
+        "Óbidos medieval walled town"
+      ],
+      "cover_search_query": "Coimbra Portugal university Joanina library Mondego river",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/pt/silver-coast-coimbra.jpg"
     },
     {
       "id": "peneda-geres-national-park",
@@ -164,14 +352,35 @@
       "distance_km": 180,
       "description": "Portugal's only national park is a rugged granite wilderness of waterfalls, oak forests, and wild Garrano ponies roaming free above Celtic-era villages. The Cávado and Lima river valleys cut through the park, dotted with ancient stone bridges, Roman milestones, and terraced fields worked by communities largely unchanged for centuries.",
       "stops": [
-        { "name": "Braga, Portugal", "label": "Braga" },
-        { "name": "Vieira do Minho, Portugal", "label": "Vieira do Minho" },
-        { "name": "Gerês, Portugal", "label": "Gerês" },
-        { "name": "Soajo, Portugal", "label": "Soajo" },
-        { "name": "Arcos de Valdevez, Portugal", "label": "Arcos de Valdevez" }
+        {
+          "name": "Braga, Portugal",
+          "label": "Braga"
+        },
+        {
+          "name": "Vieira do Minho, Portugal",
+          "label": "Vieira do Minho"
+        },
+        {
+          "name": "Gerês, Portugal",
+          "label": "Gerês"
+        },
+        {
+          "name": "Soajo, Portugal",
+          "label": "Soajo"
+        },
+        {
+          "name": "Arcos de Valdevez, Portugal",
+          "label": "Arcos de Valdevez"
+        }
       ],
-      "highlights": ["Gerês wild waterfalls", "Wild Garrano ponies", "Soajo espigueiros granaries", "Roman milestones & roads"],
-      "cover_search_query": "Peneda Gerês Portugal national park waterfall granite wild ponies"
+      "highlights": [
+        "Gerês wild waterfalls",
+        "Wild Garrano ponies",
+        "Soajo espigueiros granaries",
+        "Roman milestones & roads"
+      ],
+      "cover_search_query": "Peneda Gerês Portugal national park waterfall granite wild ponies",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/pt/peneda-geres-national-park.jpg"
     },
     {
       "id": "guimaraes-braga-cradle",
@@ -181,14 +390,35 @@
       "distance_km": 150,
       "description": "Guimarães is where Portugal was born — the first capital of the kingdom, its medieval centre so perfectly preserved it is a UNESCO World Heritage site. Nearby Braga is the country's religious capital, home to dozens of baroque churches and the extraordinary pilgrimage staircase of Bom Jesus, flanked by symbolic chapels representing the Stations of the Cross.",
       "stops": [
-        { "name": "Guimarães, Portugal", "label": "Guimarães" },
-        { "name": "Braga, Portugal", "label": "Braga" },
-        { "name": "Bom Jesus do Monte, Portugal", "label": "Bom Jesus" },
-        { "name": "Barcelos, Portugal", "label": "Barcelos" },
-        { "name": "Póvoa de Varzim, Portugal", "label": "Póvoa de Varzim" }
+        {
+          "name": "Guimarães, Portugal",
+          "label": "Guimarães"
+        },
+        {
+          "name": "Braga, Portugal",
+          "label": "Braga"
+        },
+        {
+          "name": "Bom Jesus do Monte, Portugal",
+          "label": "Bom Jesus"
+        },
+        {
+          "name": "Barcelos, Portugal",
+          "label": "Barcelos"
+        },
+        {
+          "name": "Póvoa de Varzim, Portugal",
+          "label": "Póvoa de Varzim"
+        }
       ],
-      "highlights": ["Guimarães medieval castle", "Bom Jesus baroque staircase", "Barcelos cockerel market", "Braga Sé Cathedral"],
-      "cover_search_query": "Guimarães Portugal medieval castle birthplace nation UNESCO"
+      "highlights": [
+        "Guimarães medieval castle",
+        "Bom Jesus baroque staircase",
+        "Barcelos cockerel market",
+        "Braga Sé Cathedral"
+      ],
+      "cover_search_query": "Guimarães Portugal medieval castle birthplace nation UNESCO",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/pt/guimaraes-braga-cradle.jpg"
     },
     {
       "id": "alentejo-wine-marble-towns",
@@ -198,14 +428,35 @@
       "distance_km": 200,
       "description": "The Alentejo produces Portugal's most celebrated red wines — big, structured, and deeply aromatic from the blazing summer heat. The marble triangle of Estremoz, Borba, and Vila Viçosa is a unique landscape where entire town centres are built from dazzling white stone quarried nearby, and ducal palaces rival anything in Lisbon.",
       "stops": [
-        { "name": "Évora, Portugal", "label": "Évora" },
-        { "name": "Estremoz, Portugal", "label": "Estremoz" },
-        { "name": "Vila Viçosa, Portugal", "label": "Vila Viçosa" },
-        { "name": "Borba, Portugal", "label": "Borba" },
-        { "name": "Reguengos de Monsaraz, Portugal", "label": "Reguengos" }
+        {
+          "name": "Évora, Portugal",
+          "label": "Évora"
+        },
+        {
+          "name": "Estremoz, Portugal",
+          "label": "Estremoz"
+        },
+        {
+          "name": "Vila Viçosa, Portugal",
+          "label": "Vila Viçosa"
+        },
+        {
+          "name": "Borba, Portugal",
+          "label": "Borba"
+        },
+        {
+          "name": "Reguengos de Monsaraz, Portugal",
+          "label": "Reguengos"
+        }
       ],
-      "highlights": ["Alentejo red wine estates", "Vila Viçosa ducal palace", "Estremoz marble castle", "Borba wine co-operative"],
-      "cover_search_query": "Alentejo Portugal wine estate marble whitewashed village"
+      "highlights": [
+        "Alentejo red wine estates",
+        "Vila Viçosa ducal palace",
+        "Estremoz marble castle",
+        "Borba wine co-operative"
+      ],
+      "cover_search_query": "Alentejo Portugal wine estate marble whitewashed village",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/pt/alentejo-wine-marble-towns.jpg"
     },
     {
       "id": "obidos-templars-tomar",
@@ -215,14 +466,35 @@
       "distance_km": 170,
       "description": "A compact circuit through central Portugal's most romantic medieval towns. Óbidos is an impossibly picturesque walled village gifted by Portuguese kings to their queens; Alcobaça hosts Portugal's finest gothic abbey; and Tomar's Convent of Christ — headquarters of the Knights Templar in Portugal — is one of the country's supreme UNESCO monuments.",
       "stops": [
-        { "name": "Óbidos, Portugal", "label": "Óbidos" },
-        { "name": "Alcobaça, Portugal", "label": "Alcobaça" },
-        { "name": "Batalha, Portugal", "label": "Batalha" },
-        { "name": "Fátima, Portugal", "label": "Fátima" },
-        { "name": "Tomar, Portugal", "label": "Tomar" }
+        {
+          "name": "Óbidos, Portugal",
+          "label": "Óbidos"
+        },
+        {
+          "name": "Alcobaça, Portugal",
+          "label": "Alcobaça"
+        },
+        {
+          "name": "Batalha, Portugal",
+          "label": "Batalha"
+        },
+        {
+          "name": "Fátima, Portugal",
+          "label": "Fátima"
+        },
+        {
+          "name": "Tomar, Portugal",
+          "label": "Tomar"
+        }
       ],
-      "highlights": ["Tomar Templar Convent of Christ", "Batalha Monastery unfinished chapels", "Óbidos medieval walls", "Alcobaça gothic royal abbey"],
-      "cover_search_query": "Tomar Convent of Christ Portugal Knights Templar UNESCO"
+      "highlights": [
+        "Tomar Templar Convent of Christ",
+        "Batalha Monastery unfinished chapels",
+        "Óbidos medieval walls",
+        "Alcobaça gothic royal abbey"
+      ],
+      "cover_search_query": "Tomar Convent of Christ Portugal Knights Templar UNESCO",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/pt/obidos-templars-tomar.jpg"
     },
     {
       "id": "lisbon-tagus-setubal",
@@ -232,14 +504,35 @@
       "distance_km": 160,
       "description": "Lisbon rewards slow exploration — fado echoing down steep alleys, Manueline stonework glowing at Belém, and sweeping views from Alfama's hilltop miradouros. Cross the 25 de Abril bridge to the Setúbal Peninsula, where the UNESCO-listed rice paddies and flamingo lagoons of the Sado estuary offer an unexpected wilderness close to the capital.",
       "stops": [
-        { "name": "Lisbon, Portugal", "label": "Lisbon" },
-        { "name": "Belém, Lisbon, Portugal", "label": "Belém" },
-        { "name": "Palmela, Portugal", "label": "Palmela" },
-        { "name": "Setúbal, Portugal", "label": "Setúbal" },
-        { "name": "Sesimbra, Portugal", "label": "Sesimbra" }
+        {
+          "name": "Lisbon, Portugal",
+          "label": "Lisbon"
+        },
+        {
+          "name": "Belém, Lisbon, Portugal",
+          "label": "Belém"
+        },
+        {
+          "name": "Palmela, Portugal",
+          "label": "Palmela"
+        },
+        {
+          "name": "Setúbal, Portugal",
+          "label": "Setúbal"
+        },
+        {
+          "name": "Sesimbra, Portugal",
+          "label": "Sesimbra"
+        }
       ],
-      "highlights": ["Jerónimos Monastery Belém", "Alfama fado neighbourhood", "Sado estuary flamingos & dolphins", "Sesimbra fishing village"],
-      "cover_search_query": "Lisbon Portugal Belém tower Tagus river sunset"
+      "highlights": [
+        "Jerónimos Monastery Belém",
+        "Alfama fado neighbourhood",
+        "Sado estuary flamingos & dolphins",
+        "Sesimbra fishing village"
+      ],
+      "cover_search_query": "Lisbon Portugal Belém tower Tagus river sunset",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/pt/lisbon-tagus-setubal.jpg"
     },
     {
       "id": "beira-baixa-castelo-branco",
@@ -249,14 +542,35 @@
       "distance_km": 230,
       "description": "The border country between Portugal and Spain is defined by granite ridges and ancient frontier castles guarding every hilltop along the Tagus river. Castelo Branco has one of Portugal's most extraordinary baroque gardens; the twin villages of Marvão and Castelo de Vide perch dramatically on rocky spurs above the plain.",
       "stops": [
-        { "name": "Castelo Branco, Portugal", "label": "Castelo Branco" },
-        { "name": "Idanha-a-Nova, Portugal", "label": "Idanha-a-Nova" },
-        { "name": "Castelo de Vide, Portugal", "label": "Castelo de Vide" },
-        { "name": "Marvão, Portugal", "label": "Marvão" },
-        { "name": "Portalegre, Portugal", "label": "Portalegre" }
+        {
+          "name": "Castelo Branco, Portugal",
+          "label": "Castelo Branco"
+        },
+        {
+          "name": "Idanha-a-Nova, Portugal",
+          "label": "Idanha-a-Nova"
+        },
+        {
+          "name": "Castelo de Vide, Portugal",
+          "label": "Castelo de Vide"
+        },
+        {
+          "name": "Marvão, Portugal",
+          "label": "Marvão"
+        },
+        {
+          "name": "Portalegre, Portugal",
+          "label": "Portalegre"
+        }
       ],
-      "highlights": ["Marvão clifftop fortress village", "Castelo Branco episcopal garden", "Idanha-a-Nova Roman ruins", "Border castle circuit"],
-      "cover_search_query": "Marvão Portugal clifftop village medieval castle fortress"
+      "highlights": [
+        "Marvão clifftop fortress village",
+        "Castelo Branco episcopal garden",
+        "Idanha-a-Nova Roman ruins",
+        "Border castle circuit"
+      ],
+      "cover_search_query": "Marvão Portugal clifftop village medieval castle fortress",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/pt/beira-baixa-castelo-branco.jpg"
     },
     {
       "id": "setubal-peninsula-azeitao",
@@ -266,14 +580,35 @@
       "distance_km": 130,
       "description": "Just south of Lisbon, the triangular Setúbal Peninsula hides one of Portugal's great wine surprises — the muscatel vineyards of Azeitão, producing rich amber dessert wines from ancient Moscatel vines. Combine cellar visits with a walk through Arrábida's limestone gorge to an impossibly clear turquoise cove that looks more like the Aegean than the Atlantic.",
       "stops": [
-        { "name": "Azeitão, Portugal", "label": "Azeitão" },
-        { "name": "Sesimbra, Portugal", "label": "Sesimbra" },
-        { "name": "Serra da Arrábida, Portugal", "label": "Arrábida" },
-        { "name": "Setúbal, Portugal", "label": "Setúbal" },
-        { "name": "Palmela, Portugal", "label": "Palmela" }
+        {
+          "name": "Azeitão, Portugal",
+          "label": "Azeitão"
+        },
+        {
+          "name": "Sesimbra, Portugal",
+          "label": "Sesimbra"
+        },
+        {
+          "name": "Serra da Arrábida, Portugal",
+          "label": "Arrábida"
+        },
+        {
+          "name": "Setúbal, Portugal",
+          "label": "Setúbal"
+        },
+        {
+          "name": "Palmela, Portugal",
+          "label": "Palmela"
+        }
       ],
-      "highlights": ["Arrábida crystal-clear coves", "Azeitão Moscatel wine estates", "Sesimbra Moorish castle", "Palmela wine DO"],
-      "cover_search_query": "Arrábida Portugal turquoise cove limestone cliffs Setúbal"
+      "highlights": [
+        "Arrábida crystal-clear coves",
+        "Azeitão Moscatel wine estates",
+        "Sesimbra Moorish castle",
+        "Palmela wine DO"
+      ],
+      "cover_search_query": "Arrábida Portugal turquoise cove limestone cliffs Setúbal",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/pt/setubal-peninsula-azeitao.jpg"
     },
     {
       "id": "ribatejo-santarem-plains",
@@ -283,14 +618,35 @@
       "distance_km": 180,
       "description": "The Ribatejo is Portugal's flat heartland — a vast Tagus floodplain where white Lusitano horses, black fighting bulls, and campino horsemen in traditional red waistcoats define the landscape. Santarém is the 'Capital of Gothic' with an extraordinary density of medieval churches; Abrantes guards the Tagus from a hilltop castle with sweeping river views.",
       "stops": [
-        { "name": "Santarém, Portugal", "label": "Santarém" },
-        { "name": "Tomar, Portugal", "label": "Tomar" },
-        { "name": "Constância, Portugal", "label": "Constância" },
-        { "name": "Abrantes, Portugal", "label": "Abrantes" },
-        { "name": "Alpiarça, Portugal", "label": "Alpiarça" }
+        {
+          "name": "Santarém, Portugal",
+          "label": "Santarém"
+        },
+        {
+          "name": "Tomar, Portugal",
+          "label": "Tomar"
+        },
+        {
+          "name": "Constância, Portugal",
+          "label": "Constância"
+        },
+        {
+          "name": "Abrantes, Portugal",
+          "label": "Abrantes"
+        },
+        {
+          "name": "Alpiarça, Portugal",
+          "label": "Alpiarça"
+        }
       ],
-      "highlights": ["Santarém Gothic churches", "Lusitano horse stud farms", "Tagus river confluence at Constância", "Abrantes castle viewpoint"],
-      "cover_search_query": "Santarém Portugal Gothic tower Tagus river plains"
+      "highlights": [
+        "Santarém Gothic churches",
+        "Lusitano horse stud farms",
+        "Tagus river confluence at Constância",
+        "Abrantes castle viewpoint"
+      ],
+      "cover_search_query": "Santarém Portugal Gothic tower Tagus river plains",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/pt/ribatejo-santarem-plains.jpg"
     },
     {
       "id": "algarve-eastern-ria-formosa",
@@ -300,14 +656,35 @@
       "distance_km": 160,
       "description": "The eastern Algarve is calmer and wilder than its western counterpart — the Ria Formosa Natural Park is a vast lagoon of islands, salt pans, and mudflats stretching 60km along the coast, home to flamingos, purple gallinules, and the rare purple heron. Take a boat to the barrier islands, explore Tavira's beautiful old town, and cross to Spain at Vila Real.",
       "stops": [
-        { "name": "Faro, Portugal", "label": "Faro" },
-        { "name": "Olhão, Portugal", "label": "Olhão" },
-        { "name": "Tavira, Portugal", "label": "Tavira" },
-        { "name": "Cacela Velha, Portugal", "label": "Cacela Velha" },
-        { "name": "Vila Real de Santo António, Portugal", "label": "Vila Real" }
+        {
+          "name": "Faro, Portugal",
+          "label": "Faro"
+        },
+        {
+          "name": "Olhão, Portugal",
+          "label": "Olhão"
+        },
+        {
+          "name": "Tavira, Portugal",
+          "label": "Tavira"
+        },
+        {
+          "name": "Cacela Velha, Portugal",
+          "label": "Cacela Velha"
+        },
+        {
+          "name": "Vila Real de Santo António, Portugal",
+          "label": "Vila Real"
+        }
       ],
-      "highlights": ["Ria Formosa barrier islands", "Tavira old town & Roman bridge", "Cacela Velha clifftop hamlet", "Flamingos & purple gallinules"],
-      "cover_search_query": "Ria Formosa Portugal lagoon barrier islands flamingos Algarve"
+      "highlights": [
+        "Ria Formosa barrier islands",
+        "Tavira old town & Roman bridge",
+        "Cacela Velha clifftop hamlet",
+        "Flamingos & purple gallinules"
+      ],
+      "cover_search_query": "Ria Formosa Portugal lagoon barrier islands flamingos Algarve",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/pt/algarve-eastern-ria-formosa.jpg"
     },
     {
       "id": "algarve-monchique-highlands",
@@ -317,14 +694,35 @@
       "distance_km": 130,
       "description": "Rising to 902m above the Algarve coast, the Serra de Monchique is a lush anomaly in an otherwise arid region — rain-fed forests of eucalyptus and medronho arbutus trees, cool spa towns, and dramatic views from Foia's summit over both the Atlantic and the Alentejo plains. A complete contrast to the beach crowds a mere 30 minutes away.",
       "stops": [
-        { "name": "Portimão, Portugal", "label": "Portimão" },
-        { "name": "Caldas de Monchique, Portugal", "label": "Caldas de Monchique" },
-        { "name": "Monchique, Portugal", "label": "Monchique" },
-        { "name": "Foia, Portugal", "label": "Foia summit" },
-        { "name": "Aljezur, Portugal", "label": "Aljezur" }
+        {
+          "name": "Portimão, Portugal",
+          "label": "Portimão"
+        },
+        {
+          "name": "Caldas de Monchique, Portugal",
+          "label": "Caldas de Monchique"
+        },
+        {
+          "name": "Monchique, Portugal",
+          "label": "Monchique"
+        },
+        {
+          "name": "Foia, Portugal",
+          "label": "Foia summit"
+        },
+        {
+          "name": "Aljezur, Portugal",
+          "label": "Aljezur"
+        }
       ],
-      "highlights": ["Foia 902m panoramic summit", "Medronho berry brandy distilleries", "Caldas de Monchique thermal spa", "Monchique forest walks"],
-      "cover_search_query": "Serra de Monchique Portugal highlands forest Foia summit Algarve"
+      "highlights": [
+        "Foia 902m panoramic summit",
+        "Medronho berry brandy distilleries",
+        "Caldas de Monchique thermal spa",
+        "Monchique forest walks"
+      ],
+      "cover_search_query": "Serra de Monchique Portugal highlands forest Foia summit Algarve",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/pt/algarve-monchique-highlands.jpg"
     },
     {
       "id": "ave-cavado-textile-valleys",
@@ -334,14 +732,35 @@
       "distance_km": 190,
       "description": "The river valleys of Ave and Cávado powered Portugal's textile industry and produced its greatest Romanesque monuments. The route passes through Guimarães' medieval birthplace, the extraordinary Romanesque cathedral of Braga, and the prehistoric stone citânia of Briteiros — an entire Celtic town preserved on a hilltop above the Minho valley.",
       "stops": [
-        { "name": "Guimarães, Portugal", "label": "Guimarães" },
-        { "name": "Citânia de Briteiros, Portugal", "label": "Briteiros Celtic city" },
-        { "name": "Braga, Portugal", "label": "Braga" },
-        { "name": "Póvoa de Lanhoso, Portugal", "label": "Póvoa de Lanhoso" },
-        { "name": "Famalicão, Portugal", "label": "Famalicão" }
+        {
+          "name": "Guimarães, Portugal",
+          "label": "Guimarães"
+        },
+        {
+          "name": "Citânia de Briteiros, Portugal",
+          "label": "Briteiros Celtic city"
+        },
+        {
+          "name": "Braga, Portugal",
+          "label": "Braga"
+        },
+        {
+          "name": "Póvoa de Lanhoso, Portugal",
+          "label": "Póvoa de Lanhoso"
+        },
+        {
+          "name": "Famalicão, Portugal",
+          "label": "Famalicão"
+        }
       ],
-      "highlights": ["Citânia de Briteiros Celtic hillfort", "Braga Sé Cathedral (oldest in Portugal)", "Minho valley Romanesque churches", "Textile heritage of the Ave valley"],
-      "cover_search_query": "Citânia de Briteiros Portugal Celtic hillfort ruins Minho"
+      "highlights": [
+        "Citânia de Briteiros Celtic hillfort",
+        "Braga Sé Cathedral (oldest in Portugal)",
+        "Minho valley Romanesque churches",
+        "Textile heritage of the Ave valley"
+      ],
+      "cover_search_query": "Citânia de Briteiros Portugal Celtic hillfort ruins Minho",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/pt/ave-cavado-textile-valleys.jpg"
     }
   ]
 }

@@ -11,14 +11,35 @@
       "distance_km": 550,
       "description": "Begin in Amsterdam's canal-laced streets before crossing into Belgium's fairy-tale city of Bruges, where medieval belfries reflect in mirror-still waterways. Wind through Ghent's university buzz and Brussels' grand squares before arriving in the boulevards and brasseries of Paris. This compact corridor packs in three capitals, extraordinary chocolate, and centuries of art into one perfect western-Europe loop.",
       "stops": [
-        { "name": "Amsterdam, Netherlands", "label": "Amsterdam" },
-        { "name": "Bruges, Belgium", "label": "Bruges" },
-        { "name": "Ghent, Belgium", "label": "Ghent" },
-        { "name": "Brussels, Belgium", "label": "Brussels" },
-        { "name": "Paris, France", "label": "Paris" }
+        {
+          "name": "Amsterdam, Netherlands",
+          "label": "Amsterdam"
+        },
+        {
+          "name": "Bruges, Belgium",
+          "label": "Bruges"
+        },
+        {
+          "name": "Ghent, Belgium",
+          "label": "Ghent"
+        },
+        {
+          "name": "Brussels, Belgium",
+          "label": "Brussels"
+        },
+        {
+          "name": "Paris, France",
+          "label": "Paris"
+        }
       ],
-      "highlights": ["Bruges canal reflections", "Brussels Grand Place", "Amsterdam canals", "Paris bistros"],
-      "cover_search_query": "Bruges canal medieval belfry reflection Belgium"
+      "highlights": [
+        "Bruges canal reflections",
+        "Brussels Grand Place",
+        "Amsterdam canals",
+        "Paris bistros"
+      ],
+      "cover_search_query": "Bruges canal medieval belfry reflection Belgium",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/amsterdam-bruges-paris.jpg"
     },
     {
       "id": "rhine-moselle-alsace",
@@ -28,16 +49,43 @@
       "distance_km": 600,
       "description": "Follow the Rhine south from Cologne's twin-spired cathedral through the vine-draped gorges of Koblenz and the Roman grace of Trier before crossing into Luxembourg's rolling farmland. The route blossoms into Alsace, where half-timbered villages drip with geraniums and Riesling, finishing in the cosmopolitan crossroads of Basel. Every valley corner reveals a new vintage, a new ruin, a new reason to linger.",
       "stops": [
-        { "name": "Cologne, Germany", "label": "Cologne" },
-        { "name": "Koblenz, Germany", "label": "Koblenz" },
-        { "name": "Trier, Germany", "label": "Trier" },
-        { "name": "Luxembourg City, Luxembourg", "label": "Luxembourg City" },
-        { "name": "Strasbourg, France", "label": "Strasbourg" },
-        { "name": "Colmar, France", "label": "Colmar" },
-        { "name": "Basel, Switzerland", "label": "Basel" }
+        {
+          "name": "Cologne, Germany",
+          "label": "Cologne"
+        },
+        {
+          "name": "Koblenz, Germany",
+          "label": "Koblenz"
+        },
+        {
+          "name": "Trier, Germany",
+          "label": "Trier"
+        },
+        {
+          "name": "Luxembourg City, Luxembourg",
+          "label": "Luxembourg City"
+        },
+        {
+          "name": "Strasbourg, France",
+          "label": "Strasbourg"
+        },
+        {
+          "name": "Colmar, France",
+          "label": "Colmar"
+        },
+        {
+          "name": "Basel, Switzerland",
+          "label": "Basel"
+        }
       ],
-      "highlights": ["Rhine gorge castles", "Moselle Riesling vineyards", "Alsace half-timbered villages", "Cologne Cathedral"],
-      "cover_search_query": "Colmar half-timbered houses canal Alsace France"
+      "highlights": [
+        "Rhine gorge castles",
+        "Moselle Riesling vineyards",
+        "Alsace half-timbered villages",
+        "Cologne Cathedral"
+      ],
+      "cover_search_query": "Colmar half-timbered houses canal Alsace France",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/rhine-moselle-alsace.jpg"
     },
     {
       "id": "benelux-capitals",
@@ -47,15 +95,39 @@
       "distance_km": 480,
       "description": "This compact loop threads the three Benelux nations together in five effortless days, connecting Amsterdam's golden-age canals with The Hague's regal diplomacy, Rotterdam's sky-scraping harbourfront, and Bruges' medieval perfection before concluding in Brussels. Luxembourg City, perched dramatically above its gorge, provides a triumphant finale before the return north. Urban architecture, world-class museums, and superb cuisine reward every kilometre.",
       "stops": [
-        { "name": "Amsterdam, Netherlands", "label": "Amsterdam" },
-        { "name": "The Hague, Netherlands", "label": "The Hague" },
-        { "name": "Rotterdam, Netherlands", "label": "Rotterdam" },
-        { "name": "Bruges, Belgium", "label": "Bruges" },
-        { "name": "Brussels, Belgium", "label": "Brussels" },
-        { "name": "Luxembourg City, Luxembourg", "label": "Luxembourg City" }
+        {
+          "name": "Amsterdam, Netherlands",
+          "label": "Amsterdam"
+        },
+        {
+          "name": "The Hague, Netherlands",
+          "label": "The Hague"
+        },
+        {
+          "name": "Rotterdam, Netherlands",
+          "label": "Rotterdam"
+        },
+        {
+          "name": "Bruges, Belgium",
+          "label": "Bruges"
+        },
+        {
+          "name": "Brussels, Belgium",
+          "label": "Brussels"
+        },
+        {
+          "name": "Luxembourg City, Luxembourg",
+          "label": "Luxembourg City"
+        }
       ],
-      "highlights": ["Rotterdam modern harbour", "Vermeer in The Hague", "Bruges belfry", "Luxembourg gorge views"],
-      "cover_search_query": "Rotterdam Erasmus Bridge harbour Netherlands skyline"
+      "highlights": [
+        "Rotterdam modern harbour",
+        "Vermeer in The Hague",
+        "Bruges belfry",
+        "Luxembourg gorge views"
+      ],
+      "cover_search_query": "Rotterdam Erasmus Bridge harbour Netherlands skyline",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/benelux-capitals.jpg"
     },
     {
       "id": "alsace-rhine-black-forest",
@@ -65,15 +137,39 @@
       "distance_km": 340,
       "description": "Cross back and forth over the Rhine in this short but spectacular loop that unites French Alsace with Germany's Black Forest. Strasbourg's pink sandstone cathedral and Colmar's Little Venice anchor the French side, while Freiburg's vibrant student city and the spa grandeur of Baden-Baden command the German shore. The rolling hills between them are carpeted in pine forest and cherry orchards that blaze in spring.",
       "stops": [
-        { "name": "Strasbourg, France", "label": "Strasbourg" },
-        { "name": "Colmar, France", "label": "Colmar" },
-        { "name": "Mulhouse, France", "label": "Mulhouse" },
-        { "name": "Basel, Switzerland", "label": "Basel" },
-        { "name": "Freiburg im Breisgau, Germany", "label": "Freiburg" },
-        { "name": "Baden-Baden, Germany", "label": "Baden-Baden" }
+        {
+          "name": "Strasbourg, France",
+          "label": "Strasbourg"
+        },
+        {
+          "name": "Colmar, France",
+          "label": "Colmar"
+        },
+        {
+          "name": "Mulhouse, France",
+          "label": "Mulhouse"
+        },
+        {
+          "name": "Basel, Switzerland",
+          "label": "Basel"
+        },
+        {
+          "name": "Freiburg im Breisgau, Germany",
+          "label": "Freiburg"
+        },
+        {
+          "name": "Baden-Baden, Germany",
+          "label": "Baden-Baden"
+        }
       ],
-      "highlights": ["Alsace wine route", "Black Forest drives", "Baden-Baden thermal spas", "Strasbourg Christmas market"],
-      "cover_search_query": "Strasbourg Petite France canal half-timbered houses Alsace"
+      "highlights": [
+        "Alsace wine route",
+        "Black Forest drives",
+        "Baden-Baden thermal spas",
+        "Strasbourg Christmas market"
+      ],
+      "cover_search_query": "Strasbourg Petite France canal half-timbered houses Alsace",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/alsace-rhine-black-forest.jpg"
     },
     {
       "id": "paris-berlin-creative-capitals",
@@ -83,15 +179,39 @@
       "distance_km": 1050,
       "description": "This long diagonal slices through the cultural heart of western Europe, from Parisian grandeur through Reims' Champagne cellars and Luxembourg City's fortified cliffs to the creative energy of Cologne and Düsseldorf's art galleries. Berlin provides a fitting crescendo — a city still crackling with reinvention two decades after reunification. Art, architecture, and excellent food sustain the journey the entire way.",
       "stops": [
-        { "name": "Paris, France", "label": "Paris" },
-        { "name": "Reims, France", "label": "Reims" },
-        { "name": "Luxembourg City, Luxembourg", "label": "Luxembourg City" },
-        { "name": "Cologne, Germany", "label": "Cologne" },
-        { "name": "Düsseldorf, Germany", "label": "Düsseldorf" },
-        { "name": "Berlin, Germany", "label": "Berlin" }
+        {
+          "name": "Paris, France",
+          "label": "Paris"
+        },
+        {
+          "name": "Reims, France",
+          "label": "Reims"
+        },
+        {
+          "name": "Luxembourg City, Luxembourg",
+          "label": "Luxembourg City"
+        },
+        {
+          "name": "Cologne, Germany",
+          "label": "Cologne"
+        },
+        {
+          "name": "Düsseldorf, Germany",
+          "label": "Düsseldorf"
+        },
+        {
+          "name": "Berlin, Germany",
+          "label": "Berlin"
+        }
       ],
-      "highlights": ["Reims Champagne caves", "Cologne Cathedral", "Düsseldorf art scene", "Berlin Wall memorial"],
-      "cover_search_query": "Berlin Brandenburg Gate night lights Germany"
+      "highlights": [
+        "Reims Champagne caves",
+        "Cologne Cathedral",
+        "Düsseldorf art scene",
+        "Berlin Wall memorial"
+      ],
+      "cover_search_query": "Berlin Brandenburg Gate night lights Germany",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/paris-berlin-creative-capitals.jpg"
     },
     {
       "id": "benelux-to-rhine",
@@ -101,15 +221,39 @@
       "distance_km": 590,
       "description": "Starting in Amsterdam, this route heads south through Utrecht's canal-streaked university city and into Belgium before following the Rhine valley eastward through Luxembourg and Alsace towards Frankfurt's gleaming skyline. The journey layers Dutch tulip-flat landscapes against the rolling vine terraces of the Moselle and the half-timbered charm of Alsace. It is a drive that encapsulates western Europe's extraordinary density of culture.",
       "stops": [
-        { "name": "Amsterdam, Netherlands", "label": "Amsterdam" },
-        { "name": "Utrecht, Netherlands", "label": "Utrecht" },
-        { "name": "Brussels, Belgium", "label": "Brussels" },
-        { "name": "Luxembourg City, Luxembourg", "label": "Luxembourg City" },
-        { "name": "Strasbourg, France", "label": "Strasbourg" },
-        { "name": "Frankfurt, Germany", "label": "Frankfurt" }
+        {
+          "name": "Amsterdam, Netherlands",
+          "label": "Amsterdam"
+        },
+        {
+          "name": "Utrecht, Netherlands",
+          "label": "Utrecht"
+        },
+        {
+          "name": "Brussels, Belgium",
+          "label": "Brussels"
+        },
+        {
+          "name": "Luxembourg City, Luxembourg",
+          "label": "Luxembourg City"
+        },
+        {
+          "name": "Strasbourg, France",
+          "label": "Strasbourg"
+        },
+        {
+          "name": "Frankfurt, Germany",
+          "label": "Frankfurt"
+        }
       ],
-      "highlights": ["Utrecht Dom Tower", "Brussels beer culture", "Strasbourg old town", "Frankfurt Römerberg"],
-      "cover_search_query": "Frankfurt Römerberg old town skyline reflection Germany"
+      "highlights": [
+        "Utrecht Dom Tower",
+        "Brussels beer culture",
+        "Strasbourg old town",
+        "Frankfurt Römerberg"
+      ],
+      "cover_search_query": "Frankfurt Römerberg old town skyline reflection Germany",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/benelux-to-rhine.jpg"
     },
     {
       "id": "flanders-to-normandy",
@@ -119,16 +263,43 @@
       "distance_km": 620,
       "description": "A deeply moving journey through Europe's most fought-over landscapes, beginning at Bruges' medieval splendour before confronting the haunting cemeteries and preserved trenches of Ypres and Arras. The route crosses into France past Reims' bullet-scarred cathedral and onwards to the Normandy beaches, where the scale of the D-Day landings leaves every visitor humbled. Mont-Saint-Michel's tidal abbey provides a quietly triumphant finale.",
       "stops": [
-        { "name": "Brussels, Belgium", "label": "Brussels" },
-        { "name": "Bruges, Belgium", "label": "Bruges" },
-        { "name": "Ypres, Belgium", "label": "Ypres" },
-        { "name": "Arras, France", "label": "Arras" },
-        { "name": "Reims, France", "label": "Reims" },
-        { "name": "Caen, France", "label": "Caen" },
-        { "name": "Mont-Saint-Michel, France", "label": "Mont-Saint-Michel" }
+        {
+          "name": "Brussels, Belgium",
+          "label": "Brussels"
+        },
+        {
+          "name": "Bruges, Belgium",
+          "label": "Bruges"
+        },
+        {
+          "name": "Ypres, Belgium",
+          "label": "Ypres"
+        },
+        {
+          "name": "Arras, France",
+          "label": "Arras"
+        },
+        {
+          "name": "Reims, France",
+          "label": "Reims"
+        },
+        {
+          "name": "Caen, France",
+          "label": "Caen"
+        },
+        {
+          "name": "Mont-Saint-Michel, France",
+          "label": "Mont-Saint-Michel"
+        }
       ],
-      "highlights": ["Ypres Menin Gate ceremony", "Normandy D-Day beaches", "Mont-Saint-Michel tidal island", "Reims Gothic cathedral"],
-      "cover_search_query": "Mont-Saint-Michel tidal island abbey sunset Normandy France"
+      "highlights": [
+        "Ypres Menin Gate ceremony",
+        "Normandy D-Day beaches",
+        "Mont-Saint-Michel tidal island",
+        "Reims Gothic cathedral"
+      ],
+      "cover_search_query": "Mont-Saint-Michel tidal island abbey sunset Normandy France",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/flanders-to-normandy.jpg"
     },
     {
       "id": "mont-blanc-matterhorn",
@@ -138,14 +309,35 @@
       "distance_km": 480,
       "description": "Two of the Alps' most iconic summits bookend this compact but awe-inspiring drive through the roof of Europe. Starting beneath the ice walls of Mont Blanc in Chamonix, the route crosses the Great St Bernard Pass — used by Napoleon — into the verdant Valle d'Aosta before climbing through Swiss vineyards to Zermatt, where the Matterhorn's perfect pyramid dominates every view. Geneva's lakeside elegance provides a cultured finish.",
       "stops": [
-        { "name": "Chamonix-Mont-Blanc, France", "label": "Chamonix" },
-        { "name": "Great St Bernard Pass, Switzerland", "label": "Great St Bernard" },
-        { "name": "Aosta, Italy", "label": "Aosta" },
-        { "name": "Zermatt, Switzerland", "label": "Zermatt" },
-        { "name": "Geneva, Switzerland", "label": "Geneva" }
+        {
+          "name": "Chamonix-Mont-Blanc, France",
+          "label": "Chamonix"
+        },
+        {
+          "name": "Great St Bernard Pass, Switzerland",
+          "label": "Great St Bernard"
+        },
+        {
+          "name": "Aosta, Italy",
+          "label": "Aosta"
+        },
+        {
+          "name": "Zermatt, Switzerland",
+          "label": "Zermatt"
+        },
+        {
+          "name": "Geneva, Switzerland",
+          "label": "Geneva"
+        }
       ],
-      "highlights": ["Mont Blanc glacier views", "Matterhorn at sunrise", "Great St Bernard Pass", "Valle d'Aosta Roman ruins"],
-      "cover_search_query": "Matterhorn mountain reflection Riffelsee lake Zermatt Switzerland"
+      "highlights": [
+        "Mont Blanc glacier views",
+        "Matterhorn at sunrise",
+        "Great St Bernard Pass",
+        "Valle d'Aosta Roman ruins"
+      ],
+      "cover_search_query": "Matterhorn mountain reflection Riffelsee lake Zermatt Switzerland",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/mont-blanc-matterhorn.jpg"
     },
     {
       "id": "swiss-austrian-lakes",
@@ -155,15 +347,39 @@
       "distance_km": 720,
       "description": "Lake Zurich and Lake Lucerne launch this grand sweep through the heartland of the Alps, passing beneath the north face of the Eiger at Interlaken and crossing the Rhine into tiny Liechtenstein before descending into Innsbruck's baroque city centre. The route ends in Salzburg, Mozart's birthplace, surrounded by the lakes and mountains that inspired The Sound of Music. Every stop is a postcard made real.",
       "stops": [
-        { "name": "Zürich, Switzerland", "label": "Zürich" },
-        { "name": "Lucerne, Switzerland", "label": "Lucerne" },
-        { "name": "Interlaken, Switzerland", "label": "Interlaken" },
-        { "name": "Vaduz, Liechtenstein", "label": "Vaduz" },
-        { "name": "Innsbruck, Austria", "label": "Innsbruck" },
-        { "name": "Salzburg, Austria", "label": "Salzburg" }
+        {
+          "name": "Zürich, Switzerland",
+          "label": "Zürich"
+        },
+        {
+          "name": "Lucerne, Switzerland",
+          "label": "Lucerne"
+        },
+        {
+          "name": "Interlaken, Switzerland",
+          "label": "Interlaken"
+        },
+        {
+          "name": "Vaduz, Liechtenstein",
+          "label": "Vaduz"
+        },
+        {
+          "name": "Innsbruck, Austria",
+          "label": "Innsbruck"
+        },
+        {
+          "name": "Salzburg, Austria",
+          "label": "Salzburg"
+        }
       ],
-      "highlights": ["Eiger north face views", "Liechtenstein Rhine valley", "Innsbruck Golden Roof", "Salzburg Hohensalzburg fortress"],
-      "cover_search_query": "Lucerne Chapel Bridge lake Pilatus mountain Switzerland"
+      "highlights": [
+        "Eiger north face views",
+        "Liechtenstein Rhine valley",
+        "Innsbruck Golden Roof",
+        "Salzburg Hohensalzburg fortress"
+      ],
+      "cover_search_query": "Lucerne Chapel Bridge lake Pilatus mountain Switzerland",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/swiss-austrian-lakes.jpg"
     },
     {
       "id": "swiss-italian-lakes",
@@ -173,14 +389,35 @@
       "distance_km": 420,
       "description": "From Lake Geneva's Arc Léman, this graceful drive traces the Alpine foothills south through Lausanne's Olympic terraces and across the border into the silken light of Lugano and Lake Como. Bellagio's clifftop gardens and the ferry ride across the lake are among Italy's most romantic experiences before the route eases into Milan's fashion-forward energy. Water and light define every hour of this journey.",
       "stops": [
-        { "name": "Geneva, Switzerland", "label": "Geneva" },
-        { "name": "Lausanne, Switzerland", "label": "Lausanne" },
-        { "name": "Lugano, Switzerland", "label": "Lugano" },
-        { "name": "Bellagio, Italy", "label": "Bellagio" },
-        { "name": "Milan, Italy", "label": "Milan" }
+        {
+          "name": "Geneva, Switzerland",
+          "label": "Geneva"
+        },
+        {
+          "name": "Lausanne, Switzerland",
+          "label": "Lausanne"
+        },
+        {
+          "name": "Lugano, Switzerland",
+          "label": "Lugano"
+        },
+        {
+          "name": "Bellagio, Italy",
+          "label": "Bellagio"
+        },
+        {
+          "name": "Milan, Italy",
+          "label": "Milan"
+        }
       ],
-      "highlights": ["Lake Como ferry at Bellagio", "Lausanne Olympic Museum", "Lugano waterfront", "Milan Duomo"],
-      "cover_search_query": "Bellagio Lake Como village hillside Italy aerial"
+      "highlights": [
+        "Lake Como ferry at Bellagio",
+        "Lausanne Olympic Museum",
+        "Lugano waterfront",
+        "Milan Duomo"
+      ],
+      "cover_search_query": "Bellagio Lake Como village hillside Italy aerial",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/swiss-italian-lakes.jpg"
     },
     {
       "id": "munich-to-adriatic",
@@ -190,17 +427,47 @@
       "distance_km": 780,
       "description": "Beginning in Bavaria's beer-garden capital, this dramatic diagonal crosses the Brenner Pass through Innsbruck and winds down through South Tyrol's apple orchards and Dolomite spires to Verona's rose-red amphitheatre. Venice shimmers in the lagoon light before the road curves east to Trieste's Austrian-Italian port and into Slovenia, finishing at Lake Bled's picture-book island church. Four countries, one unforgettable transect.",
       "stops": [
-        { "name": "Munich, Germany", "label": "Munich" },
-        { "name": "Innsbruck, Austria", "label": "Innsbruck" },
-        { "name": "Bolzano, Italy", "label": "Bolzano" },
-        { "name": "Verona, Italy", "label": "Verona" },
-        { "name": "Venice, Italy", "label": "Venice" },
-        { "name": "Trieste, Italy", "label": "Trieste" },
-        { "name": "Ljubljana, Slovenia", "label": "Ljubljana" },
-        { "name": "Bled, Slovenia", "label": "Bled" }
+        {
+          "name": "Munich, Germany",
+          "label": "Munich"
+        },
+        {
+          "name": "Innsbruck, Austria",
+          "label": "Innsbruck"
+        },
+        {
+          "name": "Bolzano, Italy",
+          "label": "Bolzano"
+        },
+        {
+          "name": "Verona, Italy",
+          "label": "Verona"
+        },
+        {
+          "name": "Venice, Italy",
+          "label": "Venice"
+        },
+        {
+          "name": "Trieste, Italy",
+          "label": "Trieste"
+        },
+        {
+          "name": "Ljubljana, Slovenia",
+          "label": "Ljubljana"
+        },
+        {
+          "name": "Bled, Slovenia",
+          "label": "Bled"
+        }
       ],
-      "highlights": ["Dolomite mountain passes", "Venice Grand Canal", "Verona Roman amphitheatre", "Lake Bled island church"],
-      "cover_search_query": "Lake Bled island church castle mountain reflection Slovenia"
+      "highlights": [
+        "Dolomite mountain passes",
+        "Venice Grand Canal",
+        "Verona Roman amphitheatre",
+        "Lake Bled island church"
+      ],
+      "cover_search_query": "Lake Bled island church castle mountain reflection Slovenia",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/munich-to-adriatic.jpg"
     },
     {
       "id": "french-swiss-alps-loop",
@@ -210,16 +477,43 @@
       "distance_km": 780,
       "description": "Lyon's gastronomic grandeur launches this circular Alpine adventure that climbs to Annecy's turquoise lake before reaching Chamonix's needle-sharp skyline. Geneva marks the Swiss gateway before Bern's arcaded medieval core and Lausanne's lakeside promenade ease the drive south towards Grenoble's mountain-ringed city. The loop closes back in Lyon with a well-earned dinner and a Rhône reflection to savour.",
       "stops": [
-        { "name": "Lyon, France", "label": "Lyon" },
-        { "name": "Annecy, France", "label": "Annecy" },
-        { "name": "Chamonix-Mont-Blanc, France", "label": "Chamonix" },
-        { "name": "Geneva, Switzerland", "label": "Geneva" },
-        { "name": "Bern, Switzerland", "label": "Bern" },
-        { "name": "Lausanne, Switzerland", "label": "Lausanne" },
-        { "name": "Grenoble, France", "label": "Grenoble" }
+        {
+          "name": "Lyon, France",
+          "label": "Lyon"
+        },
+        {
+          "name": "Annecy, France",
+          "label": "Annecy"
+        },
+        {
+          "name": "Chamonix-Mont-Blanc, France",
+          "label": "Chamonix"
+        },
+        {
+          "name": "Geneva, Switzerland",
+          "label": "Geneva"
+        },
+        {
+          "name": "Bern, Switzerland",
+          "label": "Bern"
+        },
+        {
+          "name": "Lausanne, Switzerland",
+          "label": "Lausanne"
+        },
+        {
+          "name": "Grenoble, France",
+          "label": "Grenoble"
+        }
       ],
-      "highlights": ["Annecy Alpine lake", "Chamonix Aiguille du Midi", "Bern bear park and old town", "Lyon traboules"],
-      "cover_search_query": "Annecy lake old town canal Alps reflection France"
+      "highlights": [
+        "Annecy Alpine lake",
+        "Chamonix Aiguille du Midi",
+        "Bern bear park and old town",
+        "Lyon traboules"
+      ],
+      "cover_search_query": "Annecy lake old town canal Alps reflection France",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/french-swiss-alps-loop.jpg"
     },
     {
       "id": "via-francigena-drive",
@@ -229,16 +523,43 @@
       "distance_km": 1150,
       "description": "Following the ancient pilgrim road south from Lausanne over the Great St Bernard Pass into Italy, this magnificent drive crosses the Po Plain and climbs into the Tuscan hills through Lucca's perfect walled city and Siena's scallop-shelled Piazza del Campo. Rome's Eternal City, where pilgrims have arrived exhausted and exultant for twelve centuries, provides the only possible ending. The journey is both physical and spiritual.",
       "stops": [
-        { "name": "Lausanne, Switzerland", "label": "Lausanne" },
-        { "name": "Great St Bernard Pass, Switzerland", "label": "Great St Bernard" },
-        { "name": "Aosta, Italy", "label": "Aosta" },
-        { "name": "Turin, Italy", "label": "Turin" },
-        { "name": "Lucca, Italy", "label": "Lucca" },
-        { "name": "Siena, Italy", "label": "Siena" },
-        { "name": "Rome, Italy", "label": "Rome" }
+        {
+          "name": "Lausanne, Switzerland",
+          "label": "Lausanne"
+        },
+        {
+          "name": "Great St Bernard Pass, Switzerland",
+          "label": "Great St Bernard"
+        },
+        {
+          "name": "Aosta, Italy",
+          "label": "Aosta"
+        },
+        {
+          "name": "Turin, Italy",
+          "label": "Turin"
+        },
+        {
+          "name": "Lucca, Italy",
+          "label": "Lucca"
+        },
+        {
+          "name": "Siena, Italy",
+          "label": "Siena"
+        },
+        {
+          "name": "Rome, Italy",
+          "label": "Rome"
+        }
       ],
-      "highlights": ["Great St Bernard alpine hospice", "Siena Piazza del Campo", "Lucca city walls walk", "Rome St Peter's Basilica"],
-      "cover_search_query": "Siena Piazza del Campo medieval square Tuscany Italy aerial"
+      "highlights": [
+        "Great St Bernard alpine hospice",
+        "Siena Piazza del Campo",
+        "Lucca city walls walk",
+        "Rome St Peter's Basilica"
+      ],
+      "cover_search_query": "Siena Piazza del Campo medieval square Tuscany Italy aerial",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/via-francigena-drive.jpg"
     },
     {
       "id": "german-alpine-road",
@@ -248,16 +569,43 @@
       "distance_km": 650,
       "description": "Germany's most scenic driving route hugs the Austrian border from Lindau's island town on Lake Constance to the fairy-tale towers of Neuschwanstein above Füssen before cresting through Garmisch-Partenkirchen beneath the Zugspitze and arriving at Berchtesgaden's glacial lake. Salzburg's Mozart-scented baroque streets make a worthy detour into Austria before the circuit closes at Innsbruck and Bregenz. Every village seems designed by a Romantic painter.",
       "stops": [
-        { "name": "Lindau, Germany", "label": "Lindau" },
-        { "name": "Füssen, Germany", "label": "Füssen" },
-        { "name": "Garmisch-Partenkirchen, Germany", "label": "Garmisch-Partenkirchen" },
-        { "name": "Berchtesgaden, Germany", "label": "Berchtesgaden" },
-        { "name": "Salzburg, Austria", "label": "Salzburg" },
-        { "name": "Innsbruck, Austria", "label": "Innsbruck" },
-        { "name": "Bregenz, Austria", "label": "Bregenz" }
+        {
+          "name": "Lindau, Germany",
+          "label": "Lindau"
+        },
+        {
+          "name": "Füssen, Germany",
+          "label": "Füssen"
+        },
+        {
+          "name": "Garmisch-Partenkirchen, Germany",
+          "label": "Garmisch-Partenkirchen"
+        },
+        {
+          "name": "Berchtesgaden, Germany",
+          "label": "Berchtesgaden"
+        },
+        {
+          "name": "Salzburg, Austria",
+          "label": "Salzburg"
+        },
+        {
+          "name": "Innsbruck, Austria",
+          "label": "Innsbruck"
+        },
+        {
+          "name": "Bregenz, Austria",
+          "label": "Bregenz"
+        }
       ],
-      "highlights": ["Neuschwanstein Castle", "Königssee emerald lake", "Zugspitze summit", "Bregenz Lake Constance festival"],
-      "cover_search_query": "Neuschwanstein Castle Bavaria mountains autumn forest Germany"
+      "highlights": [
+        "Neuschwanstein Castle",
+        "Königssee emerald lake",
+        "Zugspitze summit",
+        "Bregenz Lake Constance festival"
+      ],
+      "cover_search_query": "Neuschwanstein Castle Bavaria mountains autumn forest Germany",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/german-alpine-road.jpg"
     },
     {
       "id": "french-italian-riviera",
@@ -267,16 +615,43 @@
       "distance_km": 380,
       "description": "The most glamorous coastal drive in Europe follows the Côte d'Azur east from Nice past Monaco's casino-studded headland and through the fragrant flower markets of Menton before dipping into Italy at Ventimiglia. San Remo's Art Nouveau casino and Genoa's UNESCO-listed caruggi lanes bring Italian verve to the promenade culture before Portofino's pastel harbour — unchanged, it seems, since Slim Aarons photographed it in the 1950s.",
       "stops": [
-        { "name": "Nice, France", "label": "Nice" },
-        { "name": "Monaco", "label": "Monaco" },
-        { "name": "Menton, France", "label": "Menton" },
-        { "name": "Ventimiglia, Italy", "label": "Ventimiglia" },
-        { "name": "San Remo, Italy", "label": "San Remo" },
-        { "name": "Genoa, Italy", "label": "Genoa" },
-        { "name": "Portofino, Italy", "label": "Portofino" }
+        {
+          "name": "Nice, France",
+          "label": "Nice"
+        },
+        {
+          "name": "Monaco",
+          "label": "Monaco"
+        },
+        {
+          "name": "Menton, France",
+          "label": "Menton"
+        },
+        {
+          "name": "Ventimiglia, Italy",
+          "label": "Ventimiglia"
+        },
+        {
+          "name": "San Remo, Italy",
+          "label": "San Remo"
+        },
+        {
+          "name": "Genoa, Italy",
+          "label": "Genoa"
+        },
+        {
+          "name": "Portofino, Italy",
+          "label": "Portofino"
+        }
       ],
-      "highlights": ["Nice Promenade des Anglais", "Monaco Grand Prix circuit", "Portofino harbour", "Menton lemon festival"],
-      "cover_search_query": "Portofino harbour colourful buildings Italian Riviera aerial"
+      "highlights": [
+        "Nice Promenade des Anglais",
+        "Monaco Grand Prix circuit",
+        "Portofino harbour",
+        "Menton lemon festival"
+      ],
+      "cover_search_query": "Portofino harbour colourful buildings Italian Riviera aerial",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/french-italian-riviera.jpg"
     },
     {
       "id": "provence-liguria",
@@ -286,16 +661,43 @@
       "distance_km": 540,
       "description": "Marseille's bouillabaisse coast gives way to the Roman theatre ruins of Arles and the walled papal city of Avignon before the route swings east along the Côte d'Azur to Nice and Monaco's gilded headland. Crossing into Italy the road enters the flower-growing heartland of the Ligurian Riviera, finishing at Genoa — a world city that repays those who venture beyond the port. Lavender and olive oil scent every stop.",
       "stops": [
-        { "name": "Marseille, France", "label": "Marseille" },
-        { "name": "Arles, France", "label": "Arles" },
-        { "name": "Avignon, France", "label": "Avignon" },
-        { "name": "Nice, France", "label": "Nice" },
-        { "name": "Monaco", "label": "Monaco" },
-        { "name": "San Remo, Italy", "label": "San Remo" },
-        { "name": "Genoa, Italy", "label": "Genoa" }
+        {
+          "name": "Marseille, France",
+          "label": "Marseille"
+        },
+        {
+          "name": "Arles, France",
+          "label": "Arles"
+        },
+        {
+          "name": "Avignon, France",
+          "label": "Avignon"
+        },
+        {
+          "name": "Nice, France",
+          "label": "Nice"
+        },
+        {
+          "name": "Monaco",
+          "label": "Monaco"
+        },
+        {
+          "name": "San Remo, Italy",
+          "label": "San Remo"
+        },
+        {
+          "name": "Genoa, Italy",
+          "label": "Genoa"
+        }
       ],
-      "highlights": ["Avignon Palais des Papes", "Arles Roman amphitheatre", "Nice old town", "Ligurian flower markets"],
-      "cover_search_query": "Avignon Palais des Papes Pont Saint-Bénézet sunset Provence France"
+      "highlights": [
+        "Avignon Palais des Papes",
+        "Arles Roman amphitheatre",
+        "Nice old town",
+        "Ligurian flower markets"
+      ],
+      "cover_search_query": "Avignon Palais des Papes Pont Saint-Bénézet sunset Provence France",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/provence-liguria.jpg"
     },
     {
       "id": "barcelona-paris-via-carcassonne",
@@ -305,16 +707,43 @@
       "distance_km": 1200,
       "description": "From Barcelona's Modernista masterpieces, the road climbs to Montserrat's jagged monastery before crossing the Pyrenean foothills into Perpignan and the perfectly preserved crusader city of Carcassonne. Toulouse's pink-brick boulevards and the vine country of Bordeaux ease the journey north towards Paris. It is a route that moves from Mediterranean heat to Atlantic cool through the most varied landscapes in France.",
       "stops": [
-        { "name": "Barcelona, Spain", "label": "Barcelona" },
-        { "name": "Montserrat, Spain", "label": "Montserrat" },
-        { "name": "Perpignan, France", "label": "Perpignan" },
-        { "name": "Carcassonne, France", "label": "Carcassonne" },
-        { "name": "Toulouse, France", "label": "Toulouse" },
-        { "name": "Bordeaux, France", "label": "Bordeaux" },
-        { "name": "Paris, France", "label": "Paris" }
+        {
+          "name": "Barcelona, Spain",
+          "label": "Barcelona"
+        },
+        {
+          "name": "Montserrat, Spain",
+          "label": "Montserrat"
+        },
+        {
+          "name": "Perpignan, France",
+          "label": "Perpignan"
+        },
+        {
+          "name": "Carcassonne, France",
+          "label": "Carcassonne"
+        },
+        {
+          "name": "Toulouse, France",
+          "label": "Toulouse"
+        },
+        {
+          "name": "Bordeaux, France",
+          "label": "Bordeaux"
+        },
+        {
+          "name": "Paris, France",
+          "label": "Paris"
+        }
       ],
-      "highlights": ["Carcassonne medieval citadel", "Montserrat mountain monastery", "Bordeaux wine trail", "Barcelona Sagrada Família"],
-      "cover_search_query": "Carcassonne medieval walled citadel aerial Languedoc France"
+      "highlights": [
+        "Carcassonne medieval citadel",
+        "Montserrat mountain monastery",
+        "Bordeaux wine trail",
+        "Barcelona Sagrada Família"
+      ],
+      "cover_search_query": "Carcassonne medieval walled citadel aerial Languedoc France",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/barcelona-paris-via-carcassonne.jpg"
     },
     {
       "id": "mediterranean-arch",
@@ -324,17 +753,47 @@
       "distance_km": 1700,
       "description": "The great Mediterranean arc follows the entire northern coastline of the inland sea from Catalan Barcelona through Languedoc's lagoon coast and Provence's lavender-scented plains to the Italian Riviera and Tuscany's hill-towns. Rome anchors the route with its incomparable concentration of millennia — the Forum, the Vatican, the eternal aperitivo hour. This is the definitive Mediterranean driving journey.",
       "stops": [
-        { "name": "Barcelona, Spain", "label": "Barcelona" },
-        { "name": "Perpignan, France", "label": "Perpignan" },
-        { "name": "Montpellier, France", "label": "Montpellier" },
-        { "name": "Marseille, France", "label": "Marseille" },
-        { "name": "Nice, France", "label": "Nice" },
-        { "name": "Genoa, Italy", "label": "Genoa" },
-        { "name": "Florence, Italy", "label": "Florence" },
-        { "name": "Rome, Italy", "label": "Rome" }
+        {
+          "name": "Barcelona, Spain",
+          "label": "Barcelona"
+        },
+        {
+          "name": "Perpignan, France",
+          "label": "Perpignan"
+        },
+        {
+          "name": "Montpellier, France",
+          "label": "Montpellier"
+        },
+        {
+          "name": "Marseille, France",
+          "label": "Marseille"
+        },
+        {
+          "name": "Nice, France",
+          "label": "Nice"
+        },
+        {
+          "name": "Genoa, Italy",
+          "label": "Genoa"
+        },
+        {
+          "name": "Florence, Italy",
+          "label": "Florence"
+        },
+        {
+          "name": "Rome, Italy",
+          "label": "Rome"
+        }
       ],
-      "highlights": ["Barcelona Gaudí architecture", "Marseille Calanques cliffs", "Cinque Terre coastal villages", "Rome Colosseum"],
-      "cover_search_query": "Florence Ponte Vecchio Arno river sunset Tuscany Italy"
+      "highlights": [
+        "Barcelona Gaudí architecture",
+        "Marseille Calanques cliffs",
+        "Cinque Terre coastal villages",
+        "Rome Colosseum"
+      ],
+      "cover_search_query": "Florence Ponte Vecchio Arno river sunset Tuscany Italy",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/mediterranean-arch.jpg"
     },
     {
       "id": "pyrenees-crossing",
@@ -344,16 +803,43 @@
       "distance_km": 700,
       "description": "The ancient pilgrimage corridor across the Pyrenees links the Basque Country's culinary capital of San Sebastián with Pamplona's bull-running streets before climbing through the French side to Lourdes' pilgrimage shrines and Toulouse's rose-brick city. Carcassonne's double-walled citadel and the flamingo-pink lagoons near Perpignan bring this Atlantic-to-Mediterranean crossing to a dramatic close in Barcelona. The mountains are never far from view.",
       "stops": [
-        { "name": "San Sebastián, Spain", "label": "San Sebastián" },
-        { "name": "Pamplona, Spain", "label": "Pamplona" },
-        { "name": "Lourdes, France", "label": "Lourdes" },
-        { "name": "Toulouse, France", "label": "Toulouse" },
-        { "name": "Carcassonne, France", "label": "Carcassonne" },
-        { "name": "Perpignan, France", "label": "Perpignan" },
-        { "name": "Barcelona, Spain", "label": "Barcelona" }
+        {
+          "name": "San Sebastián, Spain",
+          "label": "San Sebastián"
+        },
+        {
+          "name": "Pamplona, Spain",
+          "label": "Pamplona"
+        },
+        {
+          "name": "Lourdes, France",
+          "label": "Lourdes"
+        },
+        {
+          "name": "Toulouse, France",
+          "label": "Toulouse"
+        },
+        {
+          "name": "Carcassonne, France",
+          "label": "Carcassonne"
+        },
+        {
+          "name": "Perpignan, France",
+          "label": "Perpignan"
+        },
+        {
+          "name": "Barcelona, Spain",
+          "label": "Barcelona"
+        }
       ],
-      "highlights": ["Pyrenees mountain passes", "San Sebastián pintxos bars", "Lourdes basilica", "Pamplona old city"],
-      "cover_search_query": "San Sebastián La Concha beach city Basque Country Spain aerial"
+      "highlights": [
+        "Pyrenees mountain passes",
+        "San Sebastián pintxos bars",
+        "Lourdes basilica",
+        "Pamplona old city"
+      ],
+      "cover_search_query": "San Sebastián La Concha beach city Basque Country Spain aerial",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/pyrenees-crossing.jpg"
     },
     {
       "id": "costa-brava-to-riviera",
@@ -363,16 +849,43 @@
       "distance_km": 560,
       "description": "Barcelona's art nouveau skyline and the Salvador Dalí museum in Girona kick off this sun-drenched coastal drive along the rugged Costa Brava and into France at Perpignan. The little Fauve painters' port of Collioure glows in crimson light before the route opens onto the broad plains of Languedoc, winding through Montpellier's student-filled streets and finishing at Nîmes' perfectly preserved Roman amphitheatre and Avignon's papal palace. Mediterranean life at its most distilled.",
       "stops": [
-        { "name": "Barcelona, Spain", "label": "Barcelona" },
-        { "name": "Girona, Spain", "label": "Girona" },
-        { "name": "Perpignan, France", "label": "Perpignan" },
-        { "name": "Collioure, France", "label": "Collioure" },
-        { "name": "Montpellier, France", "label": "Montpellier" },
-        { "name": "Nîmes, France", "label": "Nîmes" },
-        { "name": "Avignon, France", "label": "Avignon" }
+        {
+          "name": "Barcelona, Spain",
+          "label": "Barcelona"
+        },
+        {
+          "name": "Girona, Spain",
+          "label": "Girona"
+        },
+        {
+          "name": "Perpignan, France",
+          "label": "Perpignan"
+        },
+        {
+          "name": "Collioure, France",
+          "label": "Collioure"
+        },
+        {
+          "name": "Montpellier, France",
+          "label": "Montpellier"
+        },
+        {
+          "name": "Nîmes, France",
+          "label": "Nîmes"
+        },
+        {
+          "name": "Avignon, France",
+          "label": "Avignon"
+        }
       ],
-      "highlights": ["Girona medieval walls", "Collioure Fauve harbour", "Nîmes Roman amphitheatre", "Costa Brava coves"],
-      "cover_search_query": "Collioure harbour church coastal village Roussillon France"
+      "highlights": [
+        "Girona medieval walls",
+        "Collioure Fauve harbour",
+        "Nîmes Roman amphitheatre",
+        "Costa Brava coves"
+      ],
+      "cover_search_query": "Collioure harbour church coastal village Roussillon France",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/costa-brava-to-riviera.jpg"
     },
     {
       "id": "camino-atlantic",
@@ -382,17 +895,47 @@
       "distance_km": 900,
       "description": "The Atlantic pilgrimage road north from Lisbon passes Sintra's fairy-tale palaces on its way to Porto's port-wine lodges before hugging the wild Galician coast to Santiago de Compostela, where pilgrims have arrived weeping for a millennium. A Coruña's Tower of Hercules — the world's oldest working lighthouse — and the green cliffs of Asturias lead east to San Sebastián, whose pinned pintxos and breaking surf complete this magnificent corner of Europe.",
       "stops": [
-        { "name": "Lisbon, Portugal", "label": "Lisbon" },
-        { "name": "Sintra, Portugal", "label": "Sintra" },
-        { "name": "Porto, Portugal", "label": "Porto" },
-        { "name": "Viana do Castelo, Portugal", "label": "Viana do Castelo" },
-        { "name": "Santiago de Compostela, Spain", "label": "Santiago de Compostela" },
-        { "name": "A Coruña, Spain", "label": "A Coruña" },
-        { "name": "Gijón, Spain", "label": "Gijón" },
-        { "name": "San Sebastián, Spain", "label": "San Sebastián" }
+        {
+          "name": "Lisbon, Portugal",
+          "label": "Lisbon"
+        },
+        {
+          "name": "Sintra, Portugal",
+          "label": "Sintra"
+        },
+        {
+          "name": "Porto, Portugal",
+          "label": "Porto"
+        },
+        {
+          "name": "Viana do Castelo, Portugal",
+          "label": "Viana do Castelo"
+        },
+        {
+          "name": "Santiago de Compostela, Spain",
+          "label": "Santiago de Compostela"
+        },
+        {
+          "name": "A Coruña, Spain",
+          "label": "A Coruña"
+        },
+        {
+          "name": "Gijón, Spain",
+          "label": "Gijón"
+        },
+        {
+          "name": "San Sebastián, Spain",
+          "label": "San Sebastián"
+        }
       ],
-      "highlights": ["Santiago de Compostela Cathedral", "Porto Dom Luís Bridge", "Sintra Pena Palace", "Tower of Hercules A Coruña"],
-      "cover_search_query": "Porto Dom Luís Bridge Douro river sunset Portugal"
+      "highlights": [
+        "Santiago de Compostela Cathedral",
+        "Porto Dom Luís Bridge",
+        "Sintra Pena Palace",
+        "Tower of Hercules A Coruña"
+      ],
+      "cover_search_query": "Porto Dom Luís Bridge Douro river sunset Portugal",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/camino-atlantic.jpg"
     },
     {
       "id": "basque-gascony",
@@ -402,15 +945,39 @@
       "distance_km": 360,
       "description": "The compact but intensely flavoured Basque-Gascony loop swings between two great food cultures divided by the Pyrenean foothills. Bilbao's titanium Guggenheim and San Sebastián's constellation of Michelin stars anchor the Spanish side, while Biarritz's surfing culture, Bayonne's chocolate tradition, and the gascon market town of Pau bridge the gap before Pamplona closes the loop with Hemingway-haunted squares and the memory of running bulls.",
       "stops": [
-        { "name": "Bilbao, Spain", "label": "Bilbao" },
-        { "name": "San Sebastián, Spain", "label": "San Sebastián" },
-        { "name": "Biarritz, France", "label": "Biarritz" },
-        { "name": "Bayonne, France", "label": "Bayonne" },
-        { "name": "Pau, France", "label": "Pau" },
-        { "name": "Pamplona, Spain", "label": "Pamplona" }
+        {
+          "name": "Bilbao, Spain",
+          "label": "Bilbao"
+        },
+        {
+          "name": "San Sebastián, Spain",
+          "label": "San Sebastián"
+        },
+        {
+          "name": "Biarritz, France",
+          "label": "Biarritz"
+        },
+        {
+          "name": "Bayonne, France",
+          "label": "Bayonne"
+        },
+        {
+          "name": "Pau, France",
+          "label": "Pau"
+        },
+        {
+          "name": "Pamplona, Spain",
+          "label": "Pamplona"
+        }
       ],
-      "highlights": ["Bilbao Guggenheim Museum", "San Sebastián pintxos", "Biarritz surf beaches", "Pamplona running of the bulls"],
-      "cover_search_query": "Bilbao Guggenheim Museum titanium exterior Basque Country Spain"
+      "highlights": [
+        "Bilbao Guggenheim Museum",
+        "San Sebastián pintxos",
+        "Biarritz surf beaches",
+        "Pamplona running of the bulls"
+      ],
+      "cover_search_query": "Bilbao Guggenheim Museum titanium exterior Basque Country Spain",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/basque-gascony.jpg"
     },
     {
       "id": "barcelona-to-lisbon-south",
@@ -420,16 +987,43 @@
       "distance_km": 1800,
       "description": "The great southern Iberian diagonal spans three contrasting coastlines — the Costa Dorada north of Valencia, Andalucía's whitewashed pueblos and Moorish palaces, and the Algarve's sea-carved cliffs before Évora's Roman temple and cork-oak plains lead into Lisbon. Granada's Alhambra and Seville's Giralda represent the twin peaks of Moorish-Christian civilisation and must be savoured slowly. This is an Iberian grand tour in miniature.",
       "stops": [
-        { "name": "Barcelona, Spain", "label": "Barcelona" },
-        { "name": "Valencia, Spain", "label": "Valencia" },
-        { "name": "Granada, Spain", "label": "Granada" },
-        { "name": "Seville, Spain", "label": "Seville" },
-        { "name": "Lagos, Portugal", "label": "Lagos" },
-        { "name": "Évora, Portugal", "label": "Évora" },
-        { "name": "Lisbon, Portugal", "label": "Lisbon" }
+        {
+          "name": "Barcelona, Spain",
+          "label": "Barcelona"
+        },
+        {
+          "name": "Valencia, Spain",
+          "label": "Valencia"
+        },
+        {
+          "name": "Granada, Spain",
+          "label": "Granada"
+        },
+        {
+          "name": "Seville, Spain",
+          "label": "Seville"
+        },
+        {
+          "name": "Lagos, Portugal",
+          "label": "Lagos"
+        },
+        {
+          "name": "Évora, Portugal",
+          "label": "Évora"
+        },
+        {
+          "name": "Lisbon, Portugal",
+          "label": "Lisbon"
+        }
       ],
-      "highlights": ["Granada Alhambra palace", "Seville flamenco", "Algarve sea cliffs", "Évora Roman temple"],
-      "cover_search_query": "Alhambra palace gardens Granada Sierra Nevada Spain aerial"
+      "highlights": [
+        "Granada Alhambra palace",
+        "Seville flamenco",
+        "Algarve sea cliffs",
+        "Évora Roman temple"
+      ],
+      "cover_search_query": "Alhambra palace gardens Granada Sierra Nevada Spain aerial",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/barcelona-to-lisbon-south.jpg"
     },
     {
       "id": "wine-triangle",
@@ -439,17 +1033,47 @@
       "distance_km": 1100,
       "description": "Three of the world's most revered wine regions form the vertices of this Iberian triangle, beginning in Bordeaux's Belle Époque châteaux country before swinging south to San Sebastián's perfect pintxos bars. La Rioja's terracotta bodegas and Burgos' Gothic cathedral lead to Porto's rabelo boats laden with port barrels, the vine-terraced cliffs of the Douro Valley, and the university city of Salamanca before the loop closes back north. Indulgence is the itinerary.",
       "stops": [
-        { "name": "Bordeaux, France", "label": "Bordeaux" },
-        { "name": "San Sebastián, Spain", "label": "San Sebastián" },
-        { "name": "Logroño, Spain", "label": "Logroño" },
-        { "name": "Burgos, Spain", "label": "Burgos" },
-        { "name": "Porto, Portugal", "label": "Porto" },
-        { "name": "Pinhão, Portugal", "label": "Douro Valley" },
-        { "name": "Salamanca, Spain", "label": "Salamanca" },
-        { "name": "Bordeaux, France", "label": "Bordeaux" }
+        {
+          "name": "Bordeaux, France",
+          "label": "Bordeaux"
+        },
+        {
+          "name": "San Sebastián, Spain",
+          "label": "San Sebastián"
+        },
+        {
+          "name": "Logroño, Spain",
+          "label": "Logroño"
+        },
+        {
+          "name": "Burgos, Spain",
+          "label": "Burgos"
+        },
+        {
+          "name": "Porto, Portugal",
+          "label": "Porto"
+        },
+        {
+          "name": "Pinhão, Portugal",
+          "label": "Douro Valley"
+        },
+        {
+          "name": "Salamanca, Spain",
+          "label": "Salamanca"
+        },
+        {
+          "name": "Bordeaux, France",
+          "label": "Bordeaux"
+        }
       ],
-      "highlights": ["Bordeaux wine châteaux", "La Rioja bodegas", "Douro river terraces", "Salamanca Plaza Mayor"],
-      "cover_search_query": "Douro Valley wine terraces river Portugal aerial autumn"
+      "highlights": [
+        "Bordeaux wine châteaux",
+        "La Rioja bodegas",
+        "Douro river terraces",
+        "Salamanca Plaza Mayor"
+      ],
+      "cover_search_query": "Douro Valley wine terraces river Portugal aerial autumn",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/wine-triangle.jpg"
     },
     {
       "id": "atlantic-seaboard",
@@ -459,18 +1083,51 @@
       "distance_km": 1350,
       "description": "The Atlantic coast of the Iberian Peninsula is among Europe's most dramatically untamed shorelines, and this route traces it in full — from Lisbon's tram-laced hills and Sintra's clifftop fantasias north through Porto and Galicia's Celtic-flavoured coast to Santiago de Compostela. The Asturian and Cantabrian coast of green Spain and the sophisticated surf city of Bilbao lead to Biarritz's belle-époque grandeur and Bordeaux's golden vineyards. Wind, ocean, and extraordinary food throughout.",
       "stops": [
-        { "name": "Lisbon, Portugal", "label": "Lisbon" },
-        { "name": "Sintra, Portugal", "label": "Sintra" },
-        { "name": "Porto, Portugal", "label": "Porto" },
-        { "name": "Santiago de Compostela, Spain", "label": "Santiago de Compostela" },
-        { "name": "Vigo, Spain", "label": "Vigo" },
-        { "name": "Gijón, Spain", "label": "Gijón" },
-        { "name": "Bilbao, Spain", "label": "Bilbao" },
-        { "name": "Biarritz, France", "label": "Biarritz" },
-        { "name": "Bordeaux, France", "label": "Bordeaux" }
+        {
+          "name": "Lisbon, Portugal",
+          "label": "Lisbon"
+        },
+        {
+          "name": "Sintra, Portugal",
+          "label": "Sintra"
+        },
+        {
+          "name": "Porto, Portugal",
+          "label": "Porto"
+        },
+        {
+          "name": "Santiago de Compostela, Spain",
+          "label": "Santiago de Compostela"
+        },
+        {
+          "name": "Vigo, Spain",
+          "label": "Vigo"
+        },
+        {
+          "name": "Gijón, Spain",
+          "label": "Gijón"
+        },
+        {
+          "name": "Bilbao, Spain",
+          "label": "Bilbao"
+        },
+        {
+          "name": "Biarritz, France",
+          "label": "Biarritz"
+        },
+        {
+          "name": "Bordeaux, France",
+          "label": "Bordeaux"
+        }
       ],
-      "highlights": ["Galician wild Atlantic coast", "Bilbao Guggenheim", "Sintra palace trail", "Cantabrian green mountains"],
-      "cover_search_query": "Sintra Pena Palace colorful fairytale Portugal hilltop"
+      "highlights": [
+        "Galician wild Atlantic coast",
+        "Bilbao Guggenheim",
+        "Sintra palace trail",
+        "Cantabrian green mountains"
+      ],
+      "cover_search_query": "Sintra Pena Palace colorful fairytale Portugal hilltop",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/atlantic-seaboard.jpg"
     },
     {
       "id": "iberian-pilgrimage-loop",
@@ -480,17 +1137,47 @@
       "distance_km": 1600,
       "description": "A great circuit of Portugal and western Spain built around the pilgrimage roads of the Camino de Santiago, beginning in Lisbon where the Tagus meets the sea and heading north through Fátima's vast basilica complex and the university splendour of Salamanca. León's stunning Gothic cathedral and the Camino Francés lead to the emotional climax of Santiago de Compostela before Porto and Braga close the loop southward. Sacred architecture and wild Atlantic scenery in equal measure.",
       "stops": [
-        { "name": "Lisbon, Portugal", "label": "Lisbon" },
-        { "name": "Fátima, Portugal", "label": "Fátima" },
-        { "name": "Salamanca, Spain", "label": "Salamanca" },
-        { "name": "León, Spain", "label": "León" },
-        { "name": "Santiago de Compostela, Spain", "label": "Santiago de Compostela" },
-        { "name": "Porto, Portugal", "label": "Porto" },
-        { "name": "Braga, Portugal", "label": "Braga" },
-        { "name": "Lisbon, Portugal", "label": "Lisbon" }
+        {
+          "name": "Lisbon, Portugal",
+          "label": "Lisbon"
+        },
+        {
+          "name": "Fátima, Portugal",
+          "label": "Fátima"
+        },
+        {
+          "name": "Salamanca, Spain",
+          "label": "Salamanca"
+        },
+        {
+          "name": "León, Spain",
+          "label": "León"
+        },
+        {
+          "name": "Santiago de Compostela, Spain",
+          "label": "Santiago de Compostela"
+        },
+        {
+          "name": "Porto, Portugal",
+          "label": "Porto"
+        },
+        {
+          "name": "Braga, Portugal",
+          "label": "Braga"
+        },
+        {
+          "name": "Lisbon, Portugal",
+          "label": "Lisbon"
+        }
       ],
-      "highlights": ["Fátima pilgrimage basilica", "Salamanca golden sandstone university", "Santiago de Compostela Cathedral", "Braga Bom Jesus staircase"],
-      "cover_search_query": "Santiago de Compostela Cathedral Praza do Obradoiro pilgrims Spain"
+      "highlights": [
+        "Fátima pilgrimage basilica",
+        "Salamanca golden sandstone university",
+        "Santiago de Compostela Cathedral",
+        "Braga Bom Jesus staircase"
+      ],
+      "cover_search_query": "Santiago de Compostela Cathedral Praza do Obradoiro pilgrims Spain",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/iberian-pilgrimage-loop.jpg"
     },
     {
       "id": "french-atlantic-coast",
@@ -500,16 +1187,43 @@
       "distance_km": 530,
       "description": "Bordeaux's world-famous wine estates give way to the silver dunes of Arcachon Bay, where oysters are eaten at wooden shacks over the water, before the road curves south to Biarritz's surfing swells and Bayonne's chocolate makers. San Sebastián's old town and Bilbao's Guggenheim represent the Basque pinnacle before the medieval pilgrimage streets of Vitoria-Gasteiz and Pamplona round out this coastal and cultural arc. Every meal is an event.",
       "stops": [
-        { "name": "Bordeaux, France", "label": "Bordeaux" },
-        { "name": "Arcachon, France", "label": "Arcachon" },
-        { "name": "Biarritz, France", "label": "Biarritz" },
-        { "name": "San Sebastián, Spain", "label": "San Sebastián" },
-        { "name": "Bilbao, Spain", "label": "Bilbao" },
-        { "name": "Vitoria-Gasteiz, Spain", "label": "Vitoria-Gasteiz" },
-        { "name": "Pamplona, Spain", "label": "Pamplona" }
+        {
+          "name": "Bordeaux, France",
+          "label": "Bordeaux"
+        },
+        {
+          "name": "Arcachon, France",
+          "label": "Arcachon"
+        },
+        {
+          "name": "Biarritz, France",
+          "label": "Biarritz"
+        },
+        {
+          "name": "San Sebastián, Spain",
+          "label": "San Sebastián"
+        },
+        {
+          "name": "Bilbao, Spain",
+          "label": "Bilbao"
+        },
+        {
+          "name": "Vitoria-Gasteiz, Spain",
+          "label": "Vitoria-Gasteiz"
+        },
+        {
+          "name": "Pamplona, Spain",
+          "label": "Pamplona"
+        }
       ],
-      "highlights": ["Arcachon Bay oyster shacks", "Biarritz Grande Plage", "Bordeaux Cité du Vin", "Basque pintxos trail"],
-      "cover_search_query": "Biarritz Grande Plage surf beach Basque coast France"
+      "highlights": [
+        "Arcachon Bay oyster shacks",
+        "Biarritz Grande Plage",
+        "Bordeaux Cité du Vin",
+        "Basque pintxos trail"
+      ],
+      "cover_search_query": "Biarritz Grande Plage surf beach Basque coast France",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/french-atlantic-coast.jpg"
     },
     {
       "id": "danube-valley",
@@ -519,16 +1233,43 @@
       "distance_km": 720,
       "description": "The Danube sweeps through the heart of Central Europe in a great arc from Bavaria to the Hungarian plain, and this route traces every magnificent bend. Gothic Regensburg and Passau's three-river confluence give way to Linz's modern art scene and the Baroque splendour of Melk's clifftop abbey before Vienna's coffeehouse culture and Bratislava's compact old town lead triumphantly to Budapest's twin cities straddling the silver river. History flows with the current.",
       "stops": [
-        { "name": "Regensburg, Germany", "label": "Regensburg" },
-        { "name": "Passau, Germany", "label": "Passau" },
-        { "name": "Linz, Austria", "label": "Linz" },
-        { "name": "Melk, Austria", "label": "Melk" },
-        { "name": "Vienna, Austria", "label": "Vienna" },
-        { "name": "Bratislava, Slovakia", "label": "Bratislava" },
-        { "name": "Budapest, Hungary", "label": "Budapest" }
+        {
+          "name": "Regensburg, Germany",
+          "label": "Regensburg"
+        },
+        {
+          "name": "Passau, Germany",
+          "label": "Passau"
+        },
+        {
+          "name": "Linz, Austria",
+          "label": "Linz"
+        },
+        {
+          "name": "Melk, Austria",
+          "label": "Melk"
+        },
+        {
+          "name": "Vienna, Austria",
+          "label": "Vienna"
+        },
+        {
+          "name": "Bratislava, Slovakia",
+          "label": "Bratislava"
+        },
+        {
+          "name": "Budapest, Hungary",
+          "label": "Budapest"
+        }
       ],
-      "highlights": ["Melk Benedictine abbey", "Vienna coffeehouse culture", "Budapest Chain Bridge", "Danube river cycling"],
-      "cover_search_query": "Budapest Chain Bridge Parliament Danube river night Hungary"
+      "highlights": [
+        "Melk Benedictine abbey",
+        "Vienna coffeehouse culture",
+        "Budapest Chain Bridge",
+        "Danube river cycling"
+      ],
+      "cover_search_query": "Budapest Chain Bridge Parliament Danube river night Hungary",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/danube-valley.jpg"
     },
     {
       "id": "prague-vienna-salzburg",
@@ -538,16 +1279,43 @@
       "distance_km": 600,
       "description": "Three of Central Europe's most beautiful cities form the corners of this historic triangle, beginning in Prague's medieval gold — the Charles Bridge, the castle, the old Jewish quarter — before detouring to Kutná Hora's bone-encrusted ossuary and the fairy-tale moat town of Český Krumlov. Linz provides a modern counterpoint before Salzburg's baroque splendour and the salt-mine lake of Hallstatt lead to Vienna's imperial crescendo. Central Europe at its most concentrated.",
       "stops": [
-        { "name": "Prague, Czech Republic", "label": "Prague" },
-        { "name": "Kutná Hora, Czech Republic", "label": "Kutná Hora" },
-        { "name": "Český Krumlov, Czech Republic", "label": "Český Krumlov" },
-        { "name": "Linz, Austria", "label": "Linz" },
-        { "name": "Salzburg, Austria", "label": "Salzburg" },
-        { "name": "Hallstatt, Austria", "label": "Hallstatt" },
-        { "name": "Vienna, Austria", "label": "Vienna" }
+        {
+          "name": "Prague, Czech Republic",
+          "label": "Prague"
+        },
+        {
+          "name": "Kutná Hora, Czech Republic",
+          "label": "Kutná Hora"
+        },
+        {
+          "name": "Český Krumlov, Czech Republic",
+          "label": "Český Krumlov"
+        },
+        {
+          "name": "Linz, Austria",
+          "label": "Linz"
+        },
+        {
+          "name": "Salzburg, Austria",
+          "label": "Salzburg"
+        },
+        {
+          "name": "Hallstatt, Austria",
+          "label": "Hallstatt"
+        },
+        {
+          "name": "Vienna, Austria",
+          "label": "Vienna"
+        }
       ],
-      "highlights": ["Prague Charles Bridge", "Český Krumlov castle", "Hallstatt lakeside village", "Vienna Opera House"],
-      "cover_search_query": "Hallstatt village lake mountain reflection Austria aerial"
+      "highlights": [
+        "Prague Charles Bridge",
+        "Český Krumlov castle",
+        "Hallstatt lakeside village",
+        "Vienna Opera House"
+      ],
+      "cover_search_query": "Hallstatt village lake mountain reflection Austria aerial",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/prague-vienna-salzburg.jpg"
     },
     {
       "id": "central-european-capitals",
@@ -557,16 +1325,43 @@
       "distance_km": 1150,
       "description": "Five great capitals in ten days — this is Central Europe's ultimate driving challenge and greatest reward. Berlin's edgy creativity gives way to Dresden's rebuilt Baroque skyline and Prague's medieval perfection before Brno's Moravian wine culture and Vienna's imperial grandeur ease the route south. Bratislava and Budapest provide a fitting dual finale, the Danube binding their twin identities like a silver thread between East and West.",
       "stops": [
-        { "name": "Berlin, Germany", "label": "Berlin" },
-        { "name": "Dresden, Germany", "label": "Dresden" },
-        { "name": "Prague, Czech Republic", "label": "Prague" },
-        { "name": "Brno, Czech Republic", "label": "Brno" },
-        { "name": "Vienna, Austria", "label": "Vienna" },
-        { "name": "Bratislava, Slovakia", "label": "Bratislava" },
-        { "name": "Budapest, Hungary", "label": "Budapest" }
+        {
+          "name": "Berlin, Germany",
+          "label": "Berlin"
+        },
+        {
+          "name": "Dresden, Germany",
+          "label": "Dresden"
+        },
+        {
+          "name": "Prague, Czech Republic",
+          "label": "Prague"
+        },
+        {
+          "name": "Brno, Czech Republic",
+          "label": "Brno"
+        },
+        {
+          "name": "Vienna, Austria",
+          "label": "Vienna"
+        },
+        {
+          "name": "Bratislava, Slovakia",
+          "label": "Bratislava"
+        },
+        {
+          "name": "Budapest, Hungary",
+          "label": "Budapest"
+        }
       ],
-      "highlights": ["Berlin East Side Gallery", "Dresden Frauenkirche", "Prague Astronomical Clock", "Budapest thermal baths"],
-      "cover_search_query": "Prague Charles Bridge castle Vltava river sunrise Czech Republic"
+      "highlights": [
+        "Berlin East Side Gallery",
+        "Dresden Frauenkirche",
+        "Prague Astronomical Clock",
+        "Budapest thermal baths"
+      ],
+      "cover_search_query": "Prague Charles Bridge castle Vltava river sunrise Czech Republic",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/central-european-capitals.jpg"
     },
     {
       "id": "vienna-bratislava-budapest",
@@ -576,14 +1371,35 @@
       "distance_km": 380,
       "description": "Three imperial capitals within easy reach of each other make this the most time-efficient cultural journey in Central Europe. Vienna's Ringstrasse and Schönbrunn fill the first days before a short drive downstream reaches Bratislava — a compact, confident capital that punches far above its size — and then Budapest's thermal baths, ruin bars, and grand parliament building along the Danube. Four days, three countries, lifetime memories.",
       "stops": [
-        { "name": "Vienna, Austria", "label": "Vienna" },
-        { "name": "Bratislava, Slovakia", "label": "Bratislava" },
-        { "name": "Budapest, Hungary", "label": "Budapest" },
-        { "name": "Győr, Hungary", "label": "Győr" },
-        { "name": "Vienna, Austria", "label": "Vienna" }
+        {
+          "name": "Vienna, Austria",
+          "label": "Vienna"
+        },
+        {
+          "name": "Bratislava, Slovakia",
+          "label": "Bratislava"
+        },
+        {
+          "name": "Budapest, Hungary",
+          "label": "Budapest"
+        },
+        {
+          "name": "Győr, Hungary",
+          "label": "Győr"
+        },
+        {
+          "name": "Vienna, Austria",
+          "label": "Vienna"
+        }
       ],
-      "highlights": ["Vienna Schönbrunn Palace", "Bratislava castle views", "Budapest ruin bars", "Győr baroque old town"],
-      "cover_search_query": "Vienna Schönbrunn Palace garden aerial Austria"
+      "highlights": [
+        "Vienna Schönbrunn Palace",
+        "Bratislava castle views",
+        "Budapest ruin bars",
+        "Győr baroque old town"
+      ],
+      "cover_search_query": "Vienna Schönbrunn Palace garden aerial Austria",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/vienna-bratislava-budapest.jpg"
     },
     {
       "id": "romantic-road-bohemia",
@@ -593,16 +1409,43 @@
       "distance_km": 650,
       "description": "Germany's fabled Romantic Road strings together half-timbered villages, vineyard valleys, and medieval walled towns from Frankfurt south to Füssen before crossing into the Czech Republic at Plzeň — home of the world's original Pilsner. The spa triangle of Karlovy Vary draws in European aristocrats for its colonnaded springs before Prague provides the grandest of finales. Fairy-tale Germany and dark-golden Bohemia make for an irresistible combination.",
       "stops": [
-        { "name": "Frankfurt, Germany", "label": "Frankfurt" },
-        { "name": "Würzburg, Germany", "label": "Würzburg" },
-        { "name": "Rothenburg ob der Tauber, Germany", "label": "Rothenburg ob der Tauber" },
-        { "name": "Nuremberg, Germany", "label": "Nuremberg" },
-        { "name": "Plzeň, Czech Republic", "label": "Plzeň" },
-        { "name": "Karlovy Vary, Czech Republic", "label": "Karlovy Vary" },
-        { "name": "Prague, Czech Republic", "label": "Prague" }
+        {
+          "name": "Frankfurt, Germany",
+          "label": "Frankfurt"
+        },
+        {
+          "name": "Würzburg, Germany",
+          "label": "Würzburg"
+        },
+        {
+          "name": "Rothenburg ob der Tauber, Germany",
+          "label": "Rothenburg ob der Tauber"
+        },
+        {
+          "name": "Nuremberg, Germany",
+          "label": "Nuremberg"
+        },
+        {
+          "name": "Plzeň, Czech Republic",
+          "label": "Plzeň"
+        },
+        {
+          "name": "Karlovy Vary, Czech Republic",
+          "label": "Karlovy Vary"
+        },
+        {
+          "name": "Prague, Czech Republic",
+          "label": "Prague"
+        }
       ],
-      "highlights": ["Rothenburg medieval walls", "Würzburg Residenz palace", "Karlovy Vary spa colonnades", "Nuremberg castle"],
-      "cover_search_query": "Rothenburg ob der Tauber medieval walled town Bavaria Germany"
+      "highlights": [
+        "Rothenburg medieval walls",
+        "Würzburg Residenz palace",
+        "Karlovy Vary spa colonnades",
+        "Nuremberg castle"
+      ],
+      "cover_search_query": "Rothenburg ob der Tauber medieval walled town Bavaria Germany",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/romantic-road-bohemia.jpg"
     },
     {
       "id": "krakow-to-vienna",
@@ -612,15 +1455,39 @@
       "distance_km": 720,
       "description": "Starting in Kraków — Poland's royal city, UNESCO-listed and utterly compelling — this route climbs into the Tatra mountains at Zakopane, where wooden highlander architecture dots the alpine meadows beneath Poland's highest peak. The route descends into Slovakia past the timber churches of Orava and Bratislava before ending in Vienna with its coffee-scented institutions and magnificent Ring Boulevard. Culture and mountain drama alternate at every turn.",
       "stops": [
-        { "name": "Kraków, Poland", "label": "Kraków" },
-        { "name": "Zakopane, Poland", "label": "Zakopane" },
-        { "name": "Orava Castle, Slovakia", "label": "Orava" },
-        { "name": "Bratislava, Slovakia", "label": "Bratislava" },
-        { "name": "Brno, Czech Republic", "label": "Brno" },
-        { "name": "Vienna, Austria", "label": "Vienna" }
+        {
+          "name": "Kraków, Poland",
+          "label": "Kraków"
+        },
+        {
+          "name": "Zakopane, Poland",
+          "label": "Zakopane"
+        },
+        {
+          "name": "Orava Castle, Slovakia",
+          "label": "Orava"
+        },
+        {
+          "name": "Bratislava, Slovakia",
+          "label": "Bratislava"
+        },
+        {
+          "name": "Brno, Czech Republic",
+          "label": "Brno"
+        },
+        {
+          "name": "Vienna, Austria",
+          "label": "Vienna"
+        }
       ],
-      "highlights": ["Kraków Wawel Castle", "Tatra mountain hiking", "Orava dramatic hilltop castle", "Vienna Ringstrasse"],
-      "cover_search_query": "Kraków Wawel Castle Vistula river Poland aerial"
+      "highlights": [
+        "Kraków Wawel Castle",
+        "Tatra mountain hiking",
+        "Orava dramatic hilltop castle",
+        "Vienna Ringstrasse"
+      ],
+      "cover_search_query": "Kraków Wawel Castle Vistula river Poland aerial",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/krakow-to-vienna.jpg"
     },
     {
       "id": "berlin-warsaw-krakow",
@@ -630,14 +1497,35 @@
       "distance_km": 900,
       "description": "The great Polish corridor from Berlin to Kraków passes through Poznań's Renaissance market square and Warsaw's painstakingly rebuilt old town before arriving in Kraków's medieval heart. Each city carries the weight of 20th-century history differently — Berlin's divided past, Warsaw's total destruction and rebirth, Kraków's miraculous survival — and understanding all three together delivers a profound understanding of European memory. Lublin adds Jagiellonian university character to the route south.",
       "stops": [
-        { "name": "Berlin, Germany", "label": "Berlin" },
-        { "name": "Poznań, Poland", "label": "Poznań" },
-        { "name": "Warsaw, Poland", "label": "Warsaw" },
-        { "name": "Lublin, Poland", "label": "Lublin" },
-        { "name": "Kraków, Poland", "label": "Kraków" }
+        {
+          "name": "Berlin, Germany",
+          "label": "Berlin"
+        },
+        {
+          "name": "Poznań, Poland",
+          "label": "Poznań"
+        },
+        {
+          "name": "Warsaw, Poland",
+          "label": "Warsaw"
+        },
+        {
+          "name": "Lublin, Poland",
+          "label": "Lublin"
+        },
+        {
+          "name": "Kraków, Poland",
+          "label": "Kraków"
+        }
       ],
-      "highlights": ["Warsaw Old Town reconstruction", "Kraków Jewish Quarter Kazimierz", "Poznań Renaissance market", "Berlin Checkpoint Charlie"],
-      "cover_search_query": "Warsaw Old Town Market Square colorful facades Poland"
+      "highlights": [
+        "Warsaw Old Town reconstruction",
+        "Kraków Jewish Quarter Kazimierz",
+        "Poznań Renaissance market",
+        "Berlin Checkpoint Charlie"
+      ],
+      "cover_search_query": "Warsaw Old Town Market Square colorful facades Poland",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/berlin-warsaw-krakow.jpg"
     },
     {
       "id": "baltic-capitals",
@@ -647,15 +1535,39 @@
       "distance_km": 920,
       "description": "The three Baltic states share a complex history of occupation and independence, and this drive from Tallinn's perfectly preserved Hanseatic old town through Tartu's university city, Riga's Art Nouveau boulevards, and Vilnius' baroque old town illuminates every chapter. Trakai's island castle rises from a lake east of Vilnius before the route crosses into Poland and follows the Vistula to Warsaw's resilient, rebuilt capital. This is the journey of Europe's most recovered cities.",
       "stops": [
-        { "name": "Tallinn, Estonia", "label": "Tallinn" },
-        { "name": "Tartu, Estonia", "label": "Tartu" },
-        { "name": "Riga, Latvia", "label": "Riga" },
-        { "name": "Vilnius, Lithuania", "label": "Vilnius" },
-        { "name": "Trakai, Lithuania", "label": "Trakai" },
-        { "name": "Warsaw, Poland", "label": "Warsaw" }
+        {
+          "name": "Tallinn, Estonia",
+          "label": "Tallinn"
+        },
+        {
+          "name": "Tartu, Estonia",
+          "label": "Tartu"
+        },
+        {
+          "name": "Riga, Latvia",
+          "label": "Riga"
+        },
+        {
+          "name": "Vilnius, Lithuania",
+          "label": "Vilnius"
+        },
+        {
+          "name": "Trakai, Lithuania",
+          "label": "Trakai"
+        },
+        {
+          "name": "Warsaw, Poland",
+          "label": "Warsaw"
+        }
       ],
-      "highlights": ["Tallinn medieval old town", "Riga Art Nouveau facades", "Vilnius baroque old city", "Trakai island castle"],
-      "cover_search_query": "Tallinn old town medieval towers rooftops Estonia aerial"
+      "highlights": [
+        "Tallinn medieval old town",
+        "Riga Art Nouveau facades",
+        "Vilnius baroque old city",
+        "Trakai island castle"
+      ],
+      "cover_search_query": "Tallinn old town medieval towers rooftops Estonia aerial",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/baltic-capitals.jpg"
     },
     {
       "id": "scandinavian-fjords-capitals",
@@ -665,16 +1577,43 @@
       "distance_km": 1500,
       "description": "Copenhagen's design-forward canals and the Øresund crossing into Sweden launch this Scandinavian arc that climbs the west coast of Sweden to Gothenburg before crossing into Norway and Oslo's Viking ships. The route then plunges west through the Hardangerfjord's waterfalls and apple orchards to Bergen, where the Bryggen wharf has stood since Hanseatic times, and the famous Flåm railway descent provides a staggering finale before Stavanger's oil-city exuberance.",
       "stops": [
-        { "name": "Copenhagen, Denmark", "label": "Copenhagen" },
-        { "name": "Malmö, Sweden", "label": "Malmö" },
-        { "name": "Gothenburg, Sweden", "label": "Gothenburg" },
-        { "name": "Oslo, Norway", "label": "Oslo" },
-        { "name": "Bergen, Norway", "label": "Bergen" },
-        { "name": "Flåm, Norway", "label": "Flåm" },
-        { "name": "Stavanger, Norway", "label": "Stavanger" }
+        {
+          "name": "Copenhagen, Denmark",
+          "label": "Copenhagen"
+        },
+        {
+          "name": "Malmö, Sweden",
+          "label": "Malmö"
+        },
+        {
+          "name": "Gothenburg, Sweden",
+          "label": "Gothenburg"
+        },
+        {
+          "name": "Oslo, Norway",
+          "label": "Oslo"
+        },
+        {
+          "name": "Bergen, Norway",
+          "label": "Bergen"
+        },
+        {
+          "name": "Flåm, Norway",
+          "label": "Flåm"
+        },
+        {
+          "name": "Stavanger, Norway",
+          "label": "Stavanger"
+        }
       ],
-      "highlights": ["Bergen Bryggen wharf", "Flåm railway descent", "Copenhagen Nyhavn", "Norwegian fjord roads"],
-      "cover_search_query": "Bergen Bryggen colourful wooden wharf Norway fjord"
+      "highlights": [
+        "Bergen Bryggen wharf",
+        "Flåm railway descent",
+        "Copenhagen Nyhavn",
+        "Norwegian fjord roads"
+      ],
+      "cover_search_query": "Bergen Bryggen colourful wooden wharf Norway fjord",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/scandinavian-fjords-capitals.jpg"
     },
     {
       "id": "hanseatic-cities",
@@ -684,15 +1623,39 @@
       "distance_km": 900,
       "description": "The medieval trading network of the Hanseatic League left its brick Gothic fingerprints across the Baltic coast, and this drive traces its greatest stops from Hamburg's magnificent harbour warehouse district through Lübeck's twin-spired Holstentor and across the sound to Copenhagen's coloured canal frontage. Malmö's bold contemporary architecture and Gothenburg's industrial-chic waterfront ease the road north to Stockholm's island archipelago capital, where Gamla Stan feels like medieval amber preserved forever.",
       "stops": [
-        { "name": "Hamburg, Germany", "label": "Hamburg" },
-        { "name": "Lübeck, Germany", "label": "Lübeck" },
-        { "name": "Copenhagen, Denmark", "label": "Copenhagen" },
-        { "name": "Malmö, Sweden", "label": "Malmö" },
-        { "name": "Gothenburg, Sweden", "label": "Gothenburg" },
-        { "name": "Stockholm, Sweden", "label": "Stockholm" }
+        {
+          "name": "Hamburg, Germany",
+          "label": "Hamburg"
+        },
+        {
+          "name": "Lübeck, Germany",
+          "label": "Lübeck"
+        },
+        {
+          "name": "Copenhagen, Denmark",
+          "label": "Copenhagen"
+        },
+        {
+          "name": "Malmö, Sweden",
+          "label": "Malmö"
+        },
+        {
+          "name": "Gothenburg, Sweden",
+          "label": "Gothenburg"
+        },
+        {
+          "name": "Stockholm, Sweden",
+          "label": "Stockholm"
+        }
       ],
-      "highlights": ["Hamburg Speicherstadt warehouses", "Lübeck Holstentor gate", "Copenhagen Nyhavn canal", "Stockholm Gamla Stan"],
-      "cover_search_query": "Stockholm Gamla Stan old town island aerial Sweden"
+      "highlights": [
+        "Hamburg Speicherstadt warehouses",
+        "Lübeck Holstentor gate",
+        "Copenhagen Nyhavn canal",
+        "Stockholm Gamla Stan"
+      ],
+      "cover_search_query": "Stockholm Gamla Stan old town island aerial Sweden",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/hanseatic-cities.jpg"
     },
     {
       "id": "hamburg-to-stockholm",
@@ -702,16 +1665,43 @@
       "distance_km": 1050,
       "description": "This northward drive from Hamburg tracks the Jutland peninsula to the Danish-German border at Flensburg before crossing into Denmark and exploring Helsingør's Kronborg Castle — Shakespeare's Elsinore. The Øresund Bridge carries the road into Sweden and Malmö before the E6 motorway follows the coast through Gothenburg to Stockholm's blue-green archipelago. It is a journey through the calm, design-rich culture of Scandinavia at its most accessible.",
       "stops": [
-        { "name": "Hamburg, Germany", "label": "Hamburg" },
-        { "name": "Flensburg, Germany", "label": "Flensburg" },
-        { "name": "Copenhagen, Denmark", "label": "Copenhagen" },
-        { "name": "Helsingør, Denmark", "label": "Helsingør" },
-        { "name": "Malmö, Sweden", "label": "Malmö" },
-        { "name": "Gothenburg, Sweden", "label": "Gothenburg" },
-        { "name": "Stockholm, Sweden", "label": "Stockholm" }
+        {
+          "name": "Hamburg, Germany",
+          "label": "Hamburg"
+        },
+        {
+          "name": "Flensburg, Germany",
+          "label": "Flensburg"
+        },
+        {
+          "name": "Copenhagen, Denmark",
+          "label": "Copenhagen"
+        },
+        {
+          "name": "Helsingør, Denmark",
+          "label": "Helsingør"
+        },
+        {
+          "name": "Malmö, Sweden",
+          "label": "Malmö"
+        },
+        {
+          "name": "Gothenburg, Sweden",
+          "label": "Gothenburg"
+        },
+        {
+          "name": "Stockholm, Sweden",
+          "label": "Stockholm"
+        }
       ],
-      "highlights": ["Kronborg Castle Elsinore", "Øresund Bridge crossing", "Gothenburg canalside", "Stockholm archipelago"],
-      "cover_search_query": "Øresund Bridge Malmö Sweden Denmark aerial dusk"
+      "highlights": [
+        "Kronborg Castle Elsinore",
+        "Øresund Bridge crossing",
+        "Gothenburg canalside",
+        "Stockholm archipelago"
+      ],
+      "cover_search_query": "Øresund Bridge Malmö Sweden Denmark aerial dusk",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/hamburg-to-stockholm.jpg"
     },
     {
       "id": "lapland-arctic",
@@ -721,14 +1711,35 @@
       "distance_km": 1400,
       "description": "Starting in Rovaniemi — the official hometown of Father Christmas — this Arctic odyssey follows the E6 north through endless birch forests and Sami reindeer pastures to Nordkapp, Europe's northernmost point, where the midnight sun hangs above the Barents Sea. Tromsø's Arctic Cathedral and whale-watching fjords are followed by the alien beauty of Abisko's northern lights aurora sky station and Kiruna's extraordinary iron-ore mine landscape. This is Europe at its most elemental.",
       "stops": [
-        { "name": "Rovaniemi, Finland", "label": "Rovaniemi" },
-        { "name": "Nordkapp, Norway", "label": "Nordkapp" },
-        { "name": "Tromsø, Norway", "label": "Tromsø" },
-        { "name": "Abisko, Sweden", "label": "Abisko" },
-        { "name": "Kiruna, Sweden", "label": "Kiruna" }
+        {
+          "name": "Rovaniemi, Finland",
+          "label": "Rovaniemi"
+        },
+        {
+          "name": "Nordkapp, Norway",
+          "label": "Nordkapp"
+        },
+        {
+          "name": "Tromsø, Norway",
+          "label": "Tromsø"
+        },
+        {
+          "name": "Abisko, Sweden",
+          "label": "Abisko"
+        },
+        {
+          "name": "Kiruna, Sweden",
+          "label": "Kiruna"
+        }
       ],
-      "highlights": ["Nordkapp midnight sun", "Tromsø northern lights", "Lapland reindeer herds", "Abisko aurora sky station"],
-      "cover_search_query": "Northern lights aurora borealis Tromsø Norway winter"
+      "highlights": [
+        "Nordkapp midnight sun",
+        "Tromsø northern lights",
+        "Lapland reindeer herds",
+        "Abisko aurora sky station"
+      ],
+      "cover_search_query": "Northern lights aurora borealis Tromsø Norway winter",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/lapland-arctic.jpg"
     },
     {
       "id": "poland-amber-road",
@@ -738,17 +1749,47 @@
       "distance_km": 1600,
       "description": "The ancient amber trade routes that once linked the Baltic to the Mediterranean now make a magnificent modern road trip from Tallinn's cobbled towers through Riga's art nouveau streets and Vilnius' baroque university quarter to the amber-selling stalls of Gdańsk's Long Lane. The Hanseatic wealth of Poznań and Wrocław's multi-island old town ease the route west before Dresden's rebuilt Baroque splendour and Berlin's creative energy provide a resonant finale.",
       "stops": [
-        { "name": "Tallinn, Estonia", "label": "Tallinn" },
-        { "name": "Riga, Latvia", "label": "Riga" },
-        { "name": "Vilnius, Lithuania", "label": "Vilnius" },
-        { "name": "Gdańsk, Poland", "label": "Gdańsk" },
-        { "name": "Poznań, Poland", "label": "Poznań" },
-        { "name": "Wrocław, Poland", "label": "Wrocław" },
-        { "name": "Dresden, Germany", "label": "Dresden" },
-        { "name": "Berlin, Germany", "label": "Berlin" }
+        {
+          "name": "Tallinn, Estonia",
+          "label": "Tallinn"
+        },
+        {
+          "name": "Riga, Latvia",
+          "label": "Riga"
+        },
+        {
+          "name": "Vilnius, Lithuania",
+          "label": "Vilnius"
+        },
+        {
+          "name": "Gdańsk, Poland",
+          "label": "Gdańsk"
+        },
+        {
+          "name": "Poznań, Poland",
+          "label": "Poznań"
+        },
+        {
+          "name": "Wrocław, Poland",
+          "label": "Wrocław"
+        },
+        {
+          "name": "Dresden, Germany",
+          "label": "Dresden"
+        },
+        {
+          "name": "Berlin, Germany",
+          "label": "Berlin"
+        }
       ],
-      "highlights": ["Gdańsk Long Lane amber shops", "Wrocław Market Square", "Riga Art Nouveau district", "Vilnius baroque university"],
-      "cover_search_query": "Gdańsk Long Market colorful historic facades Poland"
+      "highlights": [
+        "Gdańsk Long Lane amber shops",
+        "Wrocław Market Square",
+        "Riga Art Nouveau district",
+        "Vilnius baroque university"
+      ],
+      "cover_search_query": "Gdańsk Long Market colorful historic facades Poland",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/poland-amber-road.jpg"
     },
     {
       "id": "norwegian-fjords-coast",
@@ -758,15 +1799,39 @@
       "distance_km": 1300,
       "description": "Norway's spectacular west coast is one of the world's great drives, beginning in Oslo with its Viking ships and Edvard Munch's Scream before heading north through the Olympic valley of Lillehammer and the cathedral city of Trondheim. The Atlanterhavsveien — the Atlantic Road — bridges tiny islands in the open sea before Ålesund's Art Nouveau townscape and the Geirangerfjord's Seven Sisters waterfall provide the route's most photographed moments, with Bergen's UNESCO wharf closing the journey.",
       "stops": [
-        { "name": "Oslo, Norway", "label": "Oslo" },
-        { "name": "Lillehammer, Norway", "label": "Lillehammer" },
-        { "name": "Trondheim, Norway", "label": "Trondheim" },
-        { "name": "Ålesund, Norway", "label": "Ålesund" },
-        { "name": "Bergen, Norway", "label": "Bergen" },
-        { "name": "Gothenburg, Sweden", "label": "Gothenburg" }
+        {
+          "name": "Oslo, Norway",
+          "label": "Oslo"
+        },
+        {
+          "name": "Lillehammer, Norway",
+          "label": "Lillehammer"
+        },
+        {
+          "name": "Trondheim, Norway",
+          "label": "Trondheim"
+        },
+        {
+          "name": "Ålesund, Norway",
+          "label": "Ålesund"
+        },
+        {
+          "name": "Bergen, Norway",
+          "label": "Bergen"
+        },
+        {
+          "name": "Gothenburg, Sweden",
+          "label": "Gothenburg"
+        }
       ],
-      "highlights": ["Geirangerfjord Seven Sisters", "Atlantic Ocean Road", "Ålesund Art Nouveau", "Oslo Viking Ship Museum"],
-      "cover_search_query": "Geirangerfjord Seven Sisters waterfall cruise ship Norway"
+      "highlights": [
+        "Geirangerfjord Seven Sisters",
+        "Atlantic Ocean Road",
+        "Ålesund Art Nouveau",
+        "Oslo Viking Ship Museum"
+      ],
+      "cover_search_query": "Geirangerfjord Seven Sisters waterfall cruise ship Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/norwegian-fjords-coast.jpg"
     },
     {
       "id": "adriatic-highway",
@@ -776,16 +1841,43 @@
       "distance_km": 1000,
       "description": "From the Habsburg grandeur of Trieste's waterfront, this coast road dips immediately into Slovenia at Piran's Venetian campanile before entering Croatia at Pula's remarkably intact Roman amphitheatre. The Dalmatian coast then unfolds in a succession of miracles — Zadar's sea organ, the islands of Split's Diocletian Palace, and finally Dubrovnik's limestone walls rising above the luminous Adriatic. This is Europe's most beautiful coastal drive.",
       "stops": [
-        { "name": "Trieste, Italy", "label": "Trieste" },
-        { "name": "Ljubljana, Slovenia", "label": "Ljubljana" },
-        { "name": "Piran, Slovenia", "label": "Piran" },
-        { "name": "Pula, Croatia", "label": "Pula" },
-        { "name": "Zadar, Croatia", "label": "Zadar" },
-        { "name": "Split, Croatia", "label": "Split" },
-        { "name": "Dubrovnik, Croatia", "label": "Dubrovnik" }
+        {
+          "name": "Trieste, Italy",
+          "label": "Trieste"
+        },
+        {
+          "name": "Ljubljana, Slovenia",
+          "label": "Ljubljana"
+        },
+        {
+          "name": "Piran, Slovenia",
+          "label": "Piran"
+        },
+        {
+          "name": "Pula, Croatia",
+          "label": "Pula"
+        },
+        {
+          "name": "Zadar, Croatia",
+          "label": "Zadar"
+        },
+        {
+          "name": "Split, Croatia",
+          "label": "Split"
+        },
+        {
+          "name": "Dubrovnik, Croatia",
+          "label": "Dubrovnik"
+        }
       ],
-      "highlights": ["Dubrovnik city walls", "Split Diocletian Palace", "Piran Venetian bell tower", "Pula Roman amphitheatre"],
-      "cover_search_query": "Dubrovnik old town walls Adriatic sea Croatia aerial"
+      "highlights": [
+        "Dubrovnik city walls",
+        "Split Diocletian Palace",
+        "Piran Venetian bell tower",
+        "Pula Roman amphitheatre"
+      ],
+      "cover_search_query": "Dubrovnik old town walls Adriatic sea Croatia aerial",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/adriatic-highway.jpg"
     },
     {
       "id": "dolomites-slovenia",
@@ -795,16 +1887,43 @@
       "distance_km": 560,
       "description": "The drive from Bolzano's wine-cellar-lined streets into the Dolomites delivers some of Europe's most surreal mountain scenery — rose-tinted towers of rock reflected in emerald lakes as the road coils over the Pordoi Pass. Cortina d'Ampezzo's ski-resort glamour gives way to the Austrian town of Lienz before Klagenfurt's market square and Maribor's vine-draped old bridge ease the transition into Slovenia. Lake Bled's church island and Ljubljana's dragon bridges provide a fairy-tale finale.",
       "stops": [
-        { "name": "Bolzano, Italy", "label": "Bolzano" },
-        { "name": "Cortina d'Ampezzo, Italy", "label": "Cortina d'Ampezzo" },
-        { "name": "Lienz, Austria", "label": "Lienz" },
-        { "name": "Klagenfurt, Austria", "label": "Klagenfurt" },
-        { "name": "Maribor, Slovenia", "label": "Maribor" },
-        { "name": "Ljubljana, Slovenia", "label": "Ljubljana" },
-        { "name": "Bled, Slovenia", "label": "Bled" }
+        {
+          "name": "Bolzano, Italy",
+          "label": "Bolzano"
+        },
+        {
+          "name": "Cortina d'Ampezzo, Italy",
+          "label": "Cortina d'Ampezzo"
+        },
+        {
+          "name": "Lienz, Austria",
+          "label": "Lienz"
+        },
+        {
+          "name": "Klagenfurt, Austria",
+          "label": "Klagenfurt"
+        },
+        {
+          "name": "Maribor, Slovenia",
+          "label": "Maribor"
+        },
+        {
+          "name": "Ljubljana, Slovenia",
+          "label": "Ljubljana"
+        },
+        {
+          "name": "Bled, Slovenia",
+          "label": "Bled"
+        }
       ],
-      "highlights": ["Dolomite Tre Cime di Lavaredo", "Cortina ski resort glamour", "Ljubljana dragon bridges", "Maribor oldest vine"],
-      "cover_search_query": "Dolomites Tre Cime di Lavaredo mountain peaks Italy aerial"
+      "highlights": [
+        "Dolomite Tre Cime di Lavaredo",
+        "Cortina ski resort glamour",
+        "Ljubljana dragon bridges",
+        "Maribor oldest vine"
+      ],
+      "cover_search_query": "Dolomites Tre Cime di Lavaredo mountain peaks Italy aerial",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/dolomites-slovenia.jpg"
     },
     {
       "id": "eastern-alps-to-adriatic",
@@ -814,16 +1933,43 @@
       "distance_km": 680,
       "description": "Mozart's Salzburg launches this drive southeast through the Styrian wine hills of Graz — Austria's second city of art and cuisine — before crossing into Slovenia through Maribor and the Savinja valley. Celje's Habsburg castle and Ljubljana's baroque old town build the anticipation before the road descends dramatically to the Slovenian Adriatic at Piran and the Istrian coast at Pula. Three countries, one unbroken scenic thread.",
       "stops": [
-        { "name": "Salzburg, Austria", "label": "Salzburg" },
-        { "name": "Graz, Austria", "label": "Graz" },
-        { "name": "Maribor, Slovenia", "label": "Maribor" },
-        { "name": "Celje, Slovenia", "label": "Celje" },
-        { "name": "Ljubljana, Slovenia", "label": "Ljubljana" },
-        { "name": "Piran, Slovenia", "label": "Piran" },
-        { "name": "Pula, Croatia", "label": "Pula" }
+        {
+          "name": "Salzburg, Austria",
+          "label": "Salzburg"
+        },
+        {
+          "name": "Graz, Austria",
+          "label": "Graz"
+        },
+        {
+          "name": "Maribor, Slovenia",
+          "label": "Maribor"
+        },
+        {
+          "name": "Celje, Slovenia",
+          "label": "Celje"
+        },
+        {
+          "name": "Ljubljana, Slovenia",
+          "label": "Ljubljana"
+        },
+        {
+          "name": "Piran, Slovenia",
+          "label": "Piran"
+        },
+        {
+          "name": "Pula, Croatia",
+          "label": "Pula"
+        }
       ],
-      "highlights": ["Graz Schlossberg clock tower", "Salzburg Hohensalzburg", "Piran Venetian architecture", "Ljubljana funicular castle"],
-      "cover_search_query": "Ljubljana castle dragon bridge old town Slovenia aerial"
+      "highlights": [
+        "Graz Schlossberg clock tower",
+        "Salzburg Hohensalzburg",
+        "Piran Venetian architecture",
+        "Ljubljana funicular castle"
+      ],
+      "cover_search_query": "Ljubljana castle dragon bridge old town Slovenia aerial",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/eastern-alps-to-adriatic.jpg"
     },
     {
       "id": "alpine-grand-tour",
@@ -833,17 +1979,47 @@
       "distance_km": 1350,
       "description": "Beginning at Lake Geneva's arc of French and Swiss sophistication, this grand sweep crosses the entire Alpine chain — Bern, Innsbruck, Salzburg, the fairy-tale lake at Hallstatt — before dropping into Slovenia at Ljubljana and Lake Bled's island perfection. The final act is Venice: arriving by car to the Piazzale Roma and stepping into the most extraordinary city ever built on water is an experience no road trip can surpass. Twelve hundred kilometres of concentrated beauty.",
       "stops": [
-        { "name": "Geneva, Switzerland", "label": "Geneva" },
-        { "name": "Bern, Switzerland", "label": "Bern" },
-        { "name": "Innsbruck, Austria", "label": "Innsbruck" },
-        { "name": "Salzburg, Austria", "label": "Salzburg" },
-        { "name": "Hallstatt, Austria", "label": "Hallstatt" },
-        { "name": "Ljubljana, Slovenia", "label": "Ljubljana" },
-        { "name": "Bled, Slovenia", "label": "Bled" },
-        { "name": "Venice, Italy", "label": "Venice" }
+        {
+          "name": "Geneva, Switzerland",
+          "label": "Geneva"
+        },
+        {
+          "name": "Bern, Switzerland",
+          "label": "Bern"
+        },
+        {
+          "name": "Innsbruck, Austria",
+          "label": "Innsbruck"
+        },
+        {
+          "name": "Salzburg, Austria",
+          "label": "Salzburg"
+        },
+        {
+          "name": "Hallstatt, Austria",
+          "label": "Hallstatt"
+        },
+        {
+          "name": "Ljubljana, Slovenia",
+          "label": "Ljubljana"
+        },
+        {
+          "name": "Bled, Slovenia",
+          "label": "Bled"
+        },
+        {
+          "name": "Venice, Italy",
+          "label": "Venice"
+        }
       ],
-      "highlights": ["Hallstatt lakeside village", "Innsbruck Alpine backdrop", "Bled island church", "Venice Grand Canal"],
-      "cover_search_query": "Venice Grand Canal gondolas Rialto Bridge Italy aerial"
+      "highlights": [
+        "Hallstatt lakeside village",
+        "Innsbruck Alpine backdrop",
+        "Bled island church",
+        "Venice Grand Canal"
+      ],
+      "cover_search_query": "Venice Grand Canal gondolas Rialto Bridge Italy aerial",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/alpine-grand-tour.jpg"
     },
     {
       "id": "istrian-coast",
@@ -853,15 +2029,39 @@
       "distance_km": 700,
       "description": "The Istrian peninsula concentrates the very best of the northern Adriatic into a compact drive through three countries' coastlines. Habsburg-scented Trieste gives way to Piran's Venetian campanile and the truffle-oak forests of the Istrian interior before Rovinj's red-roofed old town on its promontory and Pula's Roman arena announce Croatia proper. The Dalmatian highway then takes over, weaving between islands and karst cliffs all the way to Zadar and Split.",
       "stops": [
-        { "name": "Trieste, Italy", "label": "Trieste" },
-        { "name": "Piran, Slovenia", "label": "Piran" },
-        { "name": "Rovinj, Croatia", "label": "Rovinj" },
-        { "name": "Pula, Croatia", "label": "Pula" },
-        { "name": "Zadar, Croatia", "label": "Zadar" },
-        { "name": "Split, Croatia", "label": "Split" }
+        {
+          "name": "Trieste, Italy",
+          "label": "Trieste"
+        },
+        {
+          "name": "Piran, Slovenia",
+          "label": "Piran"
+        },
+        {
+          "name": "Rovinj, Croatia",
+          "label": "Rovinj"
+        },
+        {
+          "name": "Pula, Croatia",
+          "label": "Pula"
+        },
+        {
+          "name": "Zadar, Croatia",
+          "label": "Zadar"
+        },
+        {
+          "name": "Split, Croatia",
+          "label": "Split"
+        }
       ],
-      "highlights": ["Rovinj old town promontory", "Pula 2000-year-old arena", "Zadar sea organ and sunset", "Istrian truffles"],
-      "cover_search_query": "Rovinj old town red roofs Adriatic Croatia aerial"
+      "highlights": [
+        "Rovinj old town promontory",
+        "Pula 2000-year-old arena",
+        "Zadar sea organ and sunset",
+        "Istrian truffles"
+      ],
+      "cover_search_query": "Rovinj old town red roofs Adriatic Croatia aerial",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/istrian-coast.jpg"
     },
     {
       "id": "paris-to-rome",
@@ -871,17 +2071,47 @@
       "distance_km": 1700,
       "description": "The most iconic road trip in Europe links the two great cultural capitals of the Western world along a route that passes through the Alps and the Italian Renaissance. Lyon's gastronomic prestige, Grenoble's mountain gateway, and the tunnel through to Turin begin the Italian act, followed by Genoa's labyrinthine caruggi, the Cinque Terre's clifftop villages, Florence's golden Renaissance, and finally Rome's inexhaustible eternity. Every kilometre justifies itself.",
       "stops": [
-        { "name": "Paris, France", "label": "Paris" },
-        { "name": "Lyon, France", "label": "Lyon" },
-        { "name": "Grenoble, France", "label": "Grenoble" },
-        { "name": "Turin, Italy", "label": "Turin" },
-        { "name": "Genoa, Italy", "label": "Genoa" },
-        { "name": "Cinque Terre, Italy", "label": "Cinque Terre" },
-        { "name": "Florence, Italy", "label": "Florence" },
-        { "name": "Rome, Italy", "label": "Rome" }
+        {
+          "name": "Paris, France",
+          "label": "Paris"
+        },
+        {
+          "name": "Lyon, France",
+          "label": "Lyon"
+        },
+        {
+          "name": "Grenoble, France",
+          "label": "Grenoble"
+        },
+        {
+          "name": "Turin, Italy",
+          "label": "Turin"
+        },
+        {
+          "name": "Genoa, Italy",
+          "label": "Genoa"
+        },
+        {
+          "name": "Cinque Terre, Italy",
+          "label": "Cinque Terre"
+        },
+        {
+          "name": "Florence, Italy",
+          "label": "Florence"
+        },
+        {
+          "name": "Rome, Italy",
+          "label": "Rome"
+        }
       ],
-      "highlights": ["Cinque Terre coastal villages", "Florence Uffizi Gallery", "Rome Colosseum", "Lyon gastronomy"],
-      "cover_search_query": "Cinque Terre Vernazza village cliffside Ligurian Sea Italy"
+      "highlights": [
+        "Cinque Terre coastal villages",
+        "Florence Uffizi Gallery",
+        "Rome Colosseum",
+        "Lyon gastronomy"
+      ],
+      "cover_search_query": "Cinque Terre Vernazza village cliffside Ligurian Sea Italy",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/paris-to-rome.jpg"
     },
     {
       "id": "north-sea-to-mediterranean",
@@ -891,16 +2121,43 @@
       "distance_km": 1350,
       "description": "The great north-south European diagonal from the North Sea to the Mediterranean passes through the capitals of three nations and the cultural heartlands of western Europe. Amsterdam's canal-grid and Brussels' chocolate cafes launch the journey before Paris absorbs a day or two of unavoidable magic. Lyon's two-river confluence, Avignon's papal palace, and Marseille's calanques cliffs build the Mediterranean crescendo before Nice's promenade brings the journey to a sunlit close.",
       "stops": [
-        { "name": "Amsterdam, Netherlands", "label": "Amsterdam" },
-        { "name": "Brussels, Belgium", "label": "Brussels" },
-        { "name": "Paris, France", "label": "Paris" },
-        { "name": "Lyon, France", "label": "Lyon" },
-        { "name": "Avignon, France", "label": "Avignon" },
-        { "name": "Marseille, France", "label": "Marseille" },
-        { "name": "Nice, France", "label": "Nice" }
+        {
+          "name": "Amsterdam, Netherlands",
+          "label": "Amsterdam"
+        },
+        {
+          "name": "Brussels, Belgium",
+          "label": "Brussels"
+        },
+        {
+          "name": "Paris, France",
+          "label": "Paris"
+        },
+        {
+          "name": "Lyon, France",
+          "label": "Lyon"
+        },
+        {
+          "name": "Avignon, France",
+          "label": "Avignon"
+        },
+        {
+          "name": "Marseille, France",
+          "label": "Marseille"
+        },
+        {
+          "name": "Nice, France",
+          "label": "Nice"
+        }
       ],
-      "highlights": ["Paris Eiffel Tower", "Avignon Palais des Papes", "Marseille Calanques", "Amsterdam canals at dusk"],
-      "cover_search_query": "Marseille Calanques limestone cliffs turquoise sea France aerial"
+      "highlights": [
+        "Paris Eiffel Tower",
+        "Avignon Palais des Papes",
+        "Marseille Calanques",
+        "Amsterdam canals at dusk"
+      ],
+      "cover_search_query": "Marseille Calanques limestone cliffs turquoise sea France aerial",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/north-sea-to-mediterranean.jpg"
     },
     {
       "id": "atlantic-to-adriatic",
@@ -910,16 +2167,43 @@
       "distance_km": 2600,
       "description": "The great transversal of southern Europe travels from the Atlantic surf of Porto through the heart of Spain and across the Pyrenees to the sun-warmed Mediterranean, then follows the coast east through Nice and over the Alps into the Po Plain. Milan's fashion and design give way to Verona's Roman arena and Venice's impossible lagoon city — a fitting end for a drive that has crossed five countries and every landscape that makes Europe unique. This is two weeks well spent.",
       "stops": [
-        { "name": "Porto, Portugal", "label": "Porto" },
-        { "name": "Madrid, Spain", "label": "Madrid" },
-        { "name": "Barcelona, Spain", "label": "Barcelona" },
-        { "name": "Nice, France", "label": "Nice" },
-        { "name": "Turin, Italy", "label": "Turin" },
-        { "name": "Milan, Italy", "label": "Milan" },
-        { "name": "Venice, Italy", "label": "Venice" }
+        {
+          "name": "Porto, Portugal",
+          "label": "Porto"
+        },
+        {
+          "name": "Madrid, Spain",
+          "label": "Madrid"
+        },
+        {
+          "name": "Barcelona, Spain",
+          "label": "Barcelona"
+        },
+        {
+          "name": "Nice, France",
+          "label": "Nice"
+        },
+        {
+          "name": "Turin, Italy",
+          "label": "Turin"
+        },
+        {
+          "name": "Milan, Italy",
+          "label": "Milan"
+        },
+        {
+          "name": "Venice, Italy",
+          "label": "Venice"
+        }
       ],
-      "highlights": ["Madrid Prado Museum", "Barcelona Sagrada Família", "Nice Côte d'Azur", "Venice island city"],
-      "cover_search_query": "Barcelona Sagrada Familia Gaudí cathedral Spain aerial"
+      "highlights": [
+        "Madrid Prado Museum",
+        "Barcelona Sagrada Família",
+        "Nice Côte d'Azur",
+        "Venice island city"
+      ],
+      "cover_search_query": "Barcelona Sagrada Familia Gaudí cathedral Spain aerial",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/eu/atlantic-to-adriatic.jpg"
     },
     {
       "id": "grand-european-loop",
@@ -929,20 +2213,61 @@
       "distance_km": 3600,
       "description": "The ultimate European road trip sweeps through twelve iconic cities in fifteen days, linking the great capitals and cultural landmarks of western and central Europe in one magnificent anticlockwise loop. Paris and Brussels set the cultured tone before Amsterdam's canals, Hamburg's harbour, and Berlin's layered history introduce northern intensity. Prague, Vienna, and Venice provide Central European grandeur before Nice and Barcelona close the Mediterranean arc back to Paris. A life-defining drive.",
       "stops": [
-        { "name": "Paris, France", "label": "Paris" },
-        { "name": "Brussels, Belgium", "label": "Brussels" },
-        { "name": "Amsterdam, Netherlands", "label": "Amsterdam" },
-        { "name": "Hamburg, Germany", "label": "Hamburg" },
-        { "name": "Berlin, Germany", "label": "Berlin" },
-        { "name": "Prague, Czech Republic", "label": "Prague" },
-        { "name": "Vienna, Austria", "label": "Vienna" },
-        { "name": "Venice, Italy", "label": "Venice" },
-        { "name": "Nice, France", "label": "Nice" },
-        { "name": "Barcelona, Spain", "label": "Barcelona" },
-        { "name": "Madrid, Spain", "label": "Madrid" },
-        { "name": "Paris, France", "label": "Paris" }
+        {
+          "name": "Paris, France",
+          "label": "Paris"
+        },
+        {
+          "name": "Brussels, Belgium",
+          "label": "Brussels"
+        },
+        {
+          "name": "Amsterdam, Netherlands",
+          "label": "Amsterdam"
+        },
+        {
+          "name": "Hamburg, Germany",
+          "label": "Hamburg"
+        },
+        {
+          "name": "Berlin, Germany",
+          "label": "Berlin"
+        },
+        {
+          "name": "Prague, Czech Republic",
+          "label": "Prague"
+        },
+        {
+          "name": "Vienna, Austria",
+          "label": "Vienna"
+        },
+        {
+          "name": "Venice, Italy",
+          "label": "Venice"
+        },
+        {
+          "name": "Nice, France",
+          "label": "Nice"
+        },
+        {
+          "name": "Barcelona, Spain",
+          "label": "Barcelona"
+        },
+        {
+          "name": "Madrid, Spain",
+          "label": "Madrid"
+        },
+        {
+          "name": "Paris, France",
+          "label": "Paris"
+        }
       ],
-      "highlights": ["12 iconic cities", "3600 km grand circuit", "Berlin to Prague to Vienna", "Mediterranean finale"],
+      "highlights": [
+        "12 iconic cities",
+        "3600 km grand circuit",
+        "Berlin to Prague to Vienna",
+        "Mediterranean finale"
+      ],
       "cover_search_query": "Europe road trip montage cities collage night lights aerial"
     }
   ]

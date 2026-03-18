@@ -11,14 +11,35 @@
       "distance_km": 120,
       "description": "Oslo rewards slow exploration — Viking ships at Bygdøy, the Holmenkollen ski jump looming over the forest, and the sculpture park at Ekebergparken all within the city's embrace. A short drive south to Drøbak on the Oslofjord delivers the charming wooden waterfront that defines small-town Norway.",
       "stops": [
-        { "name": "Oslo, Norway", "label": "Oslo" },
-        { "name": "Bygdøy, Oslo, Norway", "label": "Bygdøy" },
-        { "name": "Holmenkollen, Oslo, Norway", "label": "Holmenkollen" },
-        { "name": "Ekebergparken, Oslo, Norway", "label": "Ekebergparken" },
-        { "name": "Drøbak, Norway", "label": "Drøbak" }
+        {
+          "name": "Oslo, Norway",
+          "label": "Oslo"
+        },
+        {
+          "name": "Bygdøy, Oslo, Norway",
+          "label": "Bygdøy"
+        },
+        {
+          "name": "Holmenkollen, Oslo, Norway",
+          "label": "Holmenkollen"
+        },
+        {
+          "name": "Ekebergparken, Oslo, Norway",
+          "label": "Ekebergparken"
+        },
+        {
+          "name": "Drøbak, Norway",
+          "label": "Drøbak"
+        }
       ],
-      "highlights": ["Viking Ship Museum", "Holmenkollen ski jump panorama", "Ekebergparken sculpture park", "Drøbak waterfront"],
-      "cover_search_query": "Holmenkollen ski jump Oslo fjord Norway"
+      "highlights": [
+        "Viking Ship Museum",
+        "Holmenkollen ski jump panorama",
+        "Ekebergparken sculpture park",
+        "Drøbak waterfront"
+      ],
+      "cover_search_query": "Holmenkollen ski jump Oslo fjord Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/oslo-city-fjord.jpg"
     },
     {
       "id": "oslo-telemark-canal",
@@ -28,16 +49,43 @@
       "distance_km": 380,
       "description": "The route southwest from Oslo descends through industrial Drammen into Norway's silver-mining heartland before reaching the historic Telemark Canal — a 19th-century engineering marvel that lifts boats through a staircase of locks between the coast and the highlands. The final stretch to the Kragerø archipelago rewards with turquoise islands and fish-smoky harbours.",
       "stops": [
-        { "name": "Oslo, Norway", "label": "Oslo" },
-        { "name": "Drammen, Norway", "label": "Drammen" },
-        { "name": "Kongsberg, Norway", "label": "Kongsberg" },
-        { "name": "Notodden, Norway", "label": "Notodden" },
-        { "name": "Skien, Norway", "label": "Skien" },
-        { "name": "Ulefoss, Norway", "label": "Telemark Canal" },
-        { "name": "Kragerø, Norway", "label": "Kragerø" }
+        {
+          "name": "Oslo, Norway",
+          "label": "Oslo"
+        },
+        {
+          "name": "Drammen, Norway",
+          "label": "Drammen"
+        },
+        {
+          "name": "Kongsberg, Norway",
+          "label": "Kongsberg"
+        },
+        {
+          "name": "Notodden, Norway",
+          "label": "Notodden"
+        },
+        {
+          "name": "Skien, Norway",
+          "label": "Skien"
+        },
+        {
+          "name": "Ulefoss, Norway",
+          "label": "Telemark Canal"
+        },
+        {
+          "name": "Kragerø, Norway",
+          "label": "Kragerø"
+        }
       ],
-      "highlights": ["Kongsberg Silver Mines", "Telemark Canal lock staircase", "Kragerø island archipelago", "Notodden UNESCO industrial heritage"],
-      "cover_search_query": "Telemark Canal lock staircase Norway"
+      "highlights": [
+        "Kongsberg Silver Mines",
+        "Telemark Canal lock staircase",
+        "Kragerø island archipelago",
+        "Notodden UNESCO industrial heritage"
+      ],
+      "cover_search_query": "Telemark Canal lock staircase Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/oslo-telemark-canal.jpg"
     },
     {
       "id": "oslo-hallingdal-loop",
@@ -47,15 +95,39 @@
       "distance_km": 300,
       "description": "Hallingdal is a long green valley that channels you deeper into the Norwegian interior, passing stave-church villages and ski resorts before the landscape opens onto the windswept Hardangervidda plateau above Geilo. Returning via the Numedal valley brings medieval stone churches and a quieter, less-travelled Norway.",
       "stops": [
-        { "name": "Oslo, Norway", "label": "Oslo" },
-        { "name": "Hønefoss, Norway", "label": "Hønefoss" },
-        { "name": "Gol, Norway", "label": "Gol" },
-        { "name": "Geilo, Norway", "label": "Geilo" },
-        { "name": "Numedal, Norway", "label": "Numedal" },
-        { "name": "Kongsberg, Norway", "label": "Kongsberg" }
+        {
+          "name": "Oslo, Norway",
+          "label": "Oslo"
+        },
+        {
+          "name": "Hønefoss, Norway",
+          "label": "Hønefoss"
+        },
+        {
+          "name": "Gol, Norway",
+          "label": "Gol"
+        },
+        {
+          "name": "Geilo, Norway",
+          "label": "Geilo"
+        },
+        {
+          "name": "Numedal, Norway",
+          "label": "Numedal"
+        },
+        {
+          "name": "Kongsberg, Norway",
+          "label": "Kongsberg"
+        }
       ],
-      "highlights": ["Gol Stave Church", "Geilo ski resort plateau", "Numedal medieval stone churches", "Hallingdal valley farmsteads"],
-      "cover_search_query": "Geilo Hardangervidda plateau winter Norway"
+      "highlights": [
+        "Gol Stave Church",
+        "Geilo ski resort plateau",
+        "Numedal medieval stone churches",
+        "Hallingdal valley farmsteads"
+      ],
+      "cover_search_query": "Geilo Hardangervidda plateau winter Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/oslo-hallingdal-loop.jpg"
     },
     {
       "id": "oslo-bergen-mountain",
@@ -65,15 +137,39 @@
       "distance_km": 490,
       "description": "The classic cross-country drive follows the historic Bergen Railway corridor over the Hardangervidda plateau, one of Europe's largest high-altitude plains, where reindeer graze against a treeless horizon. The descent through Voss to Bergen is one of the great reveals in European road tripping — fjord, mountain and sea converging at once.",
       "stops": [
-        { "name": "Oslo, Norway", "label": "Oslo" },
-        { "name": "Hønefoss, Norway", "label": "Hønefoss" },
-        { "name": "Geilo, Norway", "label": "Geilo" },
-        { "name": "Finse, Norway", "label": "Finse" },
-        { "name": "Voss, Norway", "label": "Voss" },
-        { "name": "Bergen, Norway", "label": "Bergen" }
+        {
+          "name": "Oslo, Norway",
+          "label": "Oslo"
+        },
+        {
+          "name": "Hønefoss, Norway",
+          "label": "Hønefoss"
+        },
+        {
+          "name": "Geilo, Norway",
+          "label": "Geilo"
+        },
+        {
+          "name": "Finse, Norway",
+          "label": "Finse"
+        },
+        {
+          "name": "Voss, Norway",
+          "label": "Voss"
+        },
+        {
+          "name": "Bergen, Norway",
+          "label": "Bergen"
+        }
       ],
-      "highlights": ["Hardangervidda plateau crossing", "Finse glacier wilderness", "Voss adventure sports base", "Bergen Bryggen wharf"],
-      "cover_search_query": "Hardangervidda plateau road reindeer Norway"
+      "highlights": [
+        "Hardangervidda plateau crossing",
+        "Finse glacier wilderness",
+        "Voss adventure sports base",
+        "Bergen Bryggen wharf"
+      ],
+      "cover_search_query": "Hardangervidda plateau road reindeer Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/oslo-bergen-mountain.jpg"
     },
     {
       "id": "ostfold-coast",
@@ -83,14 +179,35 @@
       "distance_km": 160,
       "description": "Østfold's coastline is a world apart from the dramatic fjords further west — low granite skerries, wooden boathouses painted in sun-bleached ochre, and the medieval fortress city of Fredrikstad with its perfectly preserved Renaissance star fort and cobblestone old town. The Hvaler archipelago at the end of the drive is Norway's sunniest corner.",
       "stops": [
-        { "name": "Oslo, Norway", "label": "Oslo" },
-        { "name": "Fredrikstad, Norway", "label": "Fredrikstad" },
-        { "name": "Hvaler, Norway", "label": "Hvaler" },
-        { "name": "Halden, Norway", "label": "Halden" },
-        { "name": "Moss, Norway", "label": "Moss" }
+        {
+          "name": "Oslo, Norway",
+          "label": "Oslo"
+        },
+        {
+          "name": "Fredrikstad, Norway",
+          "label": "Fredrikstad"
+        },
+        {
+          "name": "Hvaler, Norway",
+          "label": "Hvaler"
+        },
+        {
+          "name": "Halden, Norway",
+          "label": "Halden"
+        },
+        {
+          "name": "Moss, Norway",
+          "label": "Moss"
+        }
       ],
-      "highlights": ["Fredrikstad Renaissance star fort", "Hvaler island archipelago", "Gamla stan old town", "Oslofjord coastal scenery"],
-      "cover_search_query": "Fredrikstad old town star fortress Norway"
+      "highlights": [
+        "Fredrikstad Renaissance star fort",
+        "Hvaler island archipelago",
+        "Gamla stan old town",
+        "Oslofjord coastal scenery"
+      ],
+      "cover_search_query": "Fredrikstad old town star fortress Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/ostfold-coast.jpg"
     },
     {
       "id": "oslo-roros-heritage",
@@ -100,14 +217,35 @@
       "distance_km": 560,
       "description": "This long diagonal cuts through the heart of inland Norway, passing the Olympic city of Lillehammer and its open-air folk museum before climbing to the Dovre mountains. The destination is Røros, a UNESCO-listed copper-mining town of blackened timber buildings and sub-Arctic atmosphere that feels untouched by the 21st century.",
       "stops": [
-        { "name": "Oslo, Norway", "label": "Oslo" },
-        { "name": "Hamar, Norway", "label": "Hamar" },
-        { "name": "Lillehammer, Norway", "label": "Lillehammer" },
-        { "name": "Oppdal, Norway", "label": "Oppdal" },
-        { "name": "Røros, Norway", "label": "Røros" }
+        {
+          "name": "Oslo, Norway",
+          "label": "Oslo"
+        },
+        {
+          "name": "Hamar, Norway",
+          "label": "Hamar"
+        },
+        {
+          "name": "Lillehammer, Norway",
+          "label": "Lillehammer"
+        },
+        {
+          "name": "Oppdal, Norway",
+          "label": "Oppdal"
+        },
+        {
+          "name": "Røros, Norway",
+          "label": "Røros"
+        }
       ],
-      "highlights": ["Maihaugen open-air museum Lillehammer", "Røros UNESCO copper town", "Dovre mountain plateau", "Oppdal skiing and hiking"],
-      "cover_search_query": "Røros UNESCO copper mining town winter Norway"
+      "highlights": [
+        "Maihaugen open-air museum Lillehammer",
+        "Røros UNESCO copper town",
+        "Dovre mountain plateau",
+        "Oppdal skiing and hiking"
+      ],
+      "cover_search_query": "Røros UNESCO copper mining town winter Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/oslo-roros-heritage.jpg"
     },
     {
       "id": "hardangerfjord-classic",
@@ -117,15 +255,39 @@
       "distance_km": 350,
       "description": "The Hardangerfjord circuit is Norway's fruit-basket drive — in May the orchards of Ulvik and Lofthus explode in white blossom while the snow still caps Folgefonna glacier above. Vøringsfossen, one of Norway's highest free-falling waterfalls, and the haunting valley of Odda round out a route that showcases the fjord in all its moods.",
       "stops": [
-        { "name": "Bergen, Norway", "label": "Bergen" },
-        { "name": "Norheimsund, Norway", "label": "Norheimsund" },
-        { "name": "Ulvik, Norway", "label": "Ulvik" },
-        { "name": "Eidfjord, Norway", "label": "Eidfjord" },
-        { "name": "Odda, Norway", "label": "Odda" },
-        { "name": "Rosendal, Norway", "label": "Rosendal" }
+        {
+          "name": "Bergen, Norway",
+          "label": "Bergen"
+        },
+        {
+          "name": "Norheimsund, Norway",
+          "label": "Norheimsund"
+        },
+        {
+          "name": "Ulvik, Norway",
+          "label": "Ulvik"
+        },
+        {
+          "name": "Eidfjord, Norway",
+          "label": "Eidfjord"
+        },
+        {
+          "name": "Odda, Norway",
+          "label": "Odda"
+        },
+        {
+          "name": "Rosendal, Norway",
+          "label": "Rosendal"
+        }
       ],
-      "highlights": ["Vøringsfossen waterfall", "Ulvik apple blossom season", "Folgefonna glacier", "Rosendal baronial estate"],
-      "cover_search_query": "Vøringsfossen waterfall Hardangerfjord Norway"
+      "highlights": [
+        "Vøringsfossen waterfall",
+        "Ulvik apple blossom season",
+        "Folgefonna glacier",
+        "Rosendal baronial estate"
+      ],
+      "cover_search_query": "Vøringsfossen waterfall Hardangerfjord Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/hardangerfjord-classic.jpg"
     },
     {
       "id": "sognefjord-inner",
@@ -135,15 +297,39 @@
       "distance_km": 280,
       "description": "The Sognefjord is Europe's longest and deepest fjord, and this route digs into its innermost chambers via the legendary Flåm Railway valley and the ancient Stegastein viewpoint hanging 650m above the water. Ferries are woven naturally into the route, transforming the drive into a slow, meditative journey between cliff walls that dwarf every vessel.",
       "stops": [
-        { "name": "Bergen, Norway", "label": "Bergen" },
-        { "name": "Voss, Norway", "label": "Voss" },
-        { "name": "Flåm, Norway", "label": "Flåm" },
-        { "name": "Aurland, Norway", "label": "Aurland" },
-        { "name": "Lærdal, Norway", "label": "Lærdal" },
-        { "name": "Sogndal, Norway", "label": "Sogndal" }
+        {
+          "name": "Bergen, Norway",
+          "label": "Bergen"
+        },
+        {
+          "name": "Voss, Norway",
+          "label": "Voss"
+        },
+        {
+          "name": "Flåm, Norway",
+          "label": "Flåm"
+        },
+        {
+          "name": "Aurland, Norway",
+          "label": "Aurland"
+        },
+        {
+          "name": "Lærdal, Norway",
+          "label": "Lærdal"
+        },
+        {
+          "name": "Sogndal, Norway",
+          "label": "Sogndal"
+        }
       ],
-      "highlights": ["Stegastein viewpoint 650m above fjord", "Flåm Railway scenic train", "Aurland old village", "Lærdal salmon river"],
-      "cover_search_query": "Stegastein viewpoint Aurlandsfjord Norway"
+      "highlights": [
+        "Stegastein viewpoint 650m above fjord",
+        "Flåm Railway scenic train",
+        "Aurland old village",
+        "Lærdal salmon river"
+      ],
+      "cover_search_query": "Stegastein viewpoint Aurlandsfjord Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/sognefjord-inner.jpg"
     },
     {
       "id": "naeroyfjord-loop",
@@ -153,14 +339,35 @@
       "distance_km": 200,
       "description": "The Nærøyfjord is among the narrowest and most dramatic fjord arms in the world, its cliff walls so close together that sunlight only reaches the water at midday. The loop from Voss crosses the famous Stalheim hairpins — 13 curves dropping 320m in under 2km — before descending to Gudvangen at the fjord head where kayakers drift between waterfalls.",
       "stops": [
-        { "name": "Voss, Norway", "label": "Voss" },
-        { "name": "Gudvangen, Norway", "label": "Gudvangen" },
-        { "name": "Stalheim, Norway", "label": "Stalheim" },
-        { "name": "Flåm, Norway", "label": "Flåm" },
-        { "name": "Aurland, Norway", "label": "Aurland" }
+        {
+          "name": "Voss, Norway",
+          "label": "Voss"
+        },
+        {
+          "name": "Gudvangen, Norway",
+          "label": "Gudvangen"
+        },
+        {
+          "name": "Stalheim, Norway",
+          "label": "Stalheim"
+        },
+        {
+          "name": "Flåm, Norway",
+          "label": "Flåm"
+        },
+        {
+          "name": "Aurland, Norway",
+          "label": "Aurland"
+        }
       ],
-      "highlights": ["Nærøyfjord UNESCO World Heritage", "Stalheim hairpin bends", "Gudvangen Viking Village", "Flåm fjordside village"],
-      "cover_search_query": "Nærøyfjord narrow fjord kayak Norway"
+      "highlights": [
+        "Nærøyfjord UNESCO World Heritage",
+        "Stalheim hairpin bends",
+        "Gudvangen Viking Village",
+        "Flåm fjordside village"
+      ],
+      "cover_search_query": "Nærøyfjord narrow fjord kayak Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/naeroyfjord-loop.jpg"
     },
     {
       "id": "lysefjord-stavanger",
@@ -170,14 +377,35 @@
       "distance_km": 240,
       "description": "Stavanger is Norway's oil capital but its real wealth lies 25km east at Preikestolen — the flat-topped cliff rising 604m dead-vertically above the Lysefjord, one of the world's great natural viewpoints. Further into the fjord, the even more demanding Kjerag Boulder wedged impossibly between cliff faces has become a pilgrimage for adventurous hikers.",
       "stops": [
-        { "name": "Stavanger, Norway", "label": "Stavanger" },
-        { "name": "Tau, Norway", "label": "Tau" },
-        { "name": "Preikestolen, Norway", "label": "Preikestolen" },
-        { "name": "Kjerag, Norway", "label": "Kjerag" },
-        { "name": "Forsand, Norway", "label": "Forsand" }
+        {
+          "name": "Stavanger, Norway",
+          "label": "Stavanger"
+        },
+        {
+          "name": "Tau, Norway",
+          "label": "Tau"
+        },
+        {
+          "name": "Preikestolen, Norway",
+          "label": "Preikestolen"
+        },
+        {
+          "name": "Kjerag, Norway",
+          "label": "Kjerag"
+        },
+        {
+          "name": "Forsand, Norway",
+          "label": "Forsand"
+        }
       ],
-      "highlights": ["Preikestolen Pulpit Rock", "Kjerag Boulder hike", "Lysefjord cliff walls 1km high", "Stavanger old wooden city"],
-      "cover_search_query": "Preikestolen Pulpit Rock Lysefjord Norway"
+      "highlights": [
+        "Preikestolen Pulpit Rock",
+        "Kjerag Boulder hike",
+        "Lysefjord cliff walls 1km high",
+        "Stavanger old wooden city"
+      ],
+      "cover_search_query": "Preikestolen Pulpit Rock Lysefjord Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/lysefjord-stavanger.jpg"
     },
     {
       "id": "sognefjord-full",
@@ -187,17 +415,47 @@
       "distance_km": 520,
       "description": "A full circuit of Norway's king of fjords demands time — the drive from Bergen to the innermost arm at Skjolden traverses 200km of cliff, cascade and apple orchard before the road climbs onto the Sognefjellet, Europe's highest mountain pass open to traffic. The return via Jostedalsbreen, mainland Europe's largest glacier, adds an ice-blue coda to the journey.",
       "stops": [
-        { "name": "Bergen, Norway", "label": "Bergen" },
-        { "name": "Voss, Norway", "label": "Voss" },
-        { "name": "Flåm, Norway", "label": "Flåm" },
-        { "name": "Sogndal, Norway", "label": "Sogndal" },
-        { "name": "Luster, Norway", "label": "Luster" },
-        { "name": "Skjolden, Norway", "label": "Skjolden" },
-        { "name": "Jostedalsbreen National Park, Norway", "label": "Jostedalsbreen" },
-        { "name": "Balestrand, Norway", "label": "Balestrand" }
+        {
+          "name": "Bergen, Norway",
+          "label": "Bergen"
+        },
+        {
+          "name": "Voss, Norway",
+          "label": "Voss"
+        },
+        {
+          "name": "Flåm, Norway",
+          "label": "Flåm"
+        },
+        {
+          "name": "Sogndal, Norway",
+          "label": "Sogndal"
+        },
+        {
+          "name": "Luster, Norway",
+          "label": "Luster"
+        },
+        {
+          "name": "Skjolden, Norway",
+          "label": "Skjolden"
+        },
+        {
+          "name": "Jostedalsbreen National Park, Norway",
+          "label": "Jostedalsbreen"
+        },
+        {
+          "name": "Balestrand, Norway",
+          "label": "Balestrand"
+        }
       ],
-      "highlights": ["Jostedalsbreen glacier walk", "Sognefjellet mountain pass", "Urnes Stave Church UNESCO site", "Sognefjord 205km length"],
-      "cover_search_query": "Sognefjord Jostedalsbreen glacier blue ice Norway"
+      "highlights": [
+        "Jostedalsbreen glacier walk",
+        "Sognefjellet mountain pass",
+        "Urnes Stave Church UNESCO site",
+        "Sognefjord 205km length"
+      ],
+      "cover_search_query": "Sognefjord Jostedalsbreen glacier blue ice Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/sognefjord-full.jpg"
     },
     {
       "id": "hardanger-to-ryfylke",
@@ -207,15 +465,39 @@
       "distance_km": 480,
       "description": "A north-to-south traverse of western Norway's fjord country stitches together two distinct personalities: the orchard-lined Hardangerfjord with its cider houses and glacier viewpoints, and the wilder Ryfylke highlands where heather-clad plateaus descend to sheltered inlets. Ferries bridge the gaps, and the route ends at Stavanger's oil-city buzz.",
       "stops": [
-        { "name": "Bergen, Norway", "label": "Bergen" },
-        { "name": "Norheimsund, Norway", "label": "Norheimsund" },
-        { "name": "Odda, Norway", "label": "Odda" },
-        { "name": "Røldal, Norway", "label": "Røldal" },
-        { "name": "Sand, Norway", "label": "Sand" },
-        { "name": "Stavanger, Norway", "label": "Stavanger" }
+        {
+          "name": "Bergen, Norway",
+          "label": "Bergen"
+        },
+        {
+          "name": "Norheimsund, Norway",
+          "label": "Norheimsund"
+        },
+        {
+          "name": "Odda, Norway",
+          "label": "Odda"
+        },
+        {
+          "name": "Røldal, Norway",
+          "label": "Røldal"
+        },
+        {
+          "name": "Sand, Norway",
+          "label": "Sand"
+        },
+        {
+          "name": "Stavanger, Norway",
+          "label": "Stavanger"
+        }
       ],
-      "highlights": ["Trolltunga hike above Odda", "Røldal stave church", "Ryfylke highland scenery", "Sand Ryfylke Museum"],
-      "cover_search_query": "Trolltunga cliff Hardangerfjord Norway"
+      "highlights": [
+        "Trolltunga hike above Odda",
+        "Røldal stave church",
+        "Ryfylke highland scenery",
+        "Sand Ryfylke Museum"
+      ],
+      "cover_search_query": "Trolltunga cliff Hardangerfjord Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/hardanger-to-ryfylke.jpg"
     },
     {
       "id": "fjord-norway-grand",
@@ -225,17 +507,47 @@
       "distance_km": 900,
       "description": "The grand tour of western Norway's fjords is a masterclass in landscape drama — from Bergen's Hanseatic wharves to the cathedral-like walls of Geirangerfjord, with the Sognefjord's inner sanctum and the Sognefjellet pass providing the high-altitude centrepiece. This is Norway's greatest road trip, connecting every iconic image of the country into a single continuous journey.",
       "stops": [
-        { "name": "Bergen, Norway", "label": "Bergen" },
-        { "name": "Voss, Norway", "label": "Voss" },
-        { "name": "Flåm, Norway", "label": "Flåm" },
-        { "name": "Sogndal, Norway", "label": "Sogndal" },
-        { "name": "Skjolden, Norway", "label": "Skjolden" },
-        { "name": "Lom, Norway", "label": "Lom" },
-        { "name": "Geiranger, Norway", "label": "Geiranger" },
-        { "name": "Ålesund, Norway", "label": "Ålesund" }
+        {
+          "name": "Bergen, Norway",
+          "label": "Bergen"
+        },
+        {
+          "name": "Voss, Norway",
+          "label": "Voss"
+        },
+        {
+          "name": "Flåm, Norway",
+          "label": "Flåm"
+        },
+        {
+          "name": "Sogndal, Norway",
+          "label": "Sogndal"
+        },
+        {
+          "name": "Skjolden, Norway",
+          "label": "Skjolden"
+        },
+        {
+          "name": "Lom, Norway",
+          "label": "Lom"
+        },
+        {
+          "name": "Geiranger, Norway",
+          "label": "Geiranger"
+        },
+        {
+          "name": "Ålesund, Norway",
+          "label": "Ålesund"
+        }
       ],
-      "highlights": ["Geirangerfjord Seven Sisters waterfall", "Sognefjellet highest mountain pass", "Ålesund Art Nouveau architecture", "Flåm Railway valley"],
-      "cover_search_query": "Geirangerfjord Seven Sisters waterfall Norway"
+      "highlights": [
+        "Geirangerfjord Seven Sisters waterfall",
+        "Sognefjellet highest mountain pass",
+        "Ålesund Art Nouveau architecture",
+        "Flåm Railway valley"
+      ],
+      "cover_search_query": "Geirangerfjord Seven Sisters waterfall Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/fjord-norway-grand.jpg"
     },
     {
       "id": "sunnhordland-coast",
@@ -245,14 +557,35 @@
       "distance_km": 260,
       "description": "South of Bergen, the coastline fragments into a labyrinth of islands and skerries that few visitors explore — Sunnhordland rewards the detour with the romantically isolated Baroniet Rosendal, Norway's only barony, set against the Folgefonna glacier. Ferries hop between islands and the pace is leisurely, shaped by tides rather than timetables.",
       "stops": [
-        { "name": "Bergen, Norway", "label": "Bergen" },
-        { "name": "Stord, Norway", "label": "Stord" },
-        { "name": "Rosendal, Norway", "label": "Rosendal" },
-        { "name": "Odda, Norway", "label": "Odda" },
-        { "name": "Baroniet Rosendal, Norway", "label": "Baroniet Rosendal" }
+        {
+          "name": "Bergen, Norway",
+          "label": "Bergen"
+        },
+        {
+          "name": "Stord, Norway",
+          "label": "Stord"
+        },
+        {
+          "name": "Rosendal, Norway",
+          "label": "Rosendal"
+        },
+        {
+          "name": "Odda, Norway",
+          "label": "Odda"
+        },
+        {
+          "name": "Baroniet Rosendal, Norway",
+          "label": "Baroniet Rosendal"
+        }
       ],
-      "highlights": ["Baroniet Rosendal Norway's only barony", "Folgefonna glacier views", "Sunnhordland island-hopping", "Hardangerfjord orchard country"],
-      "cover_search_query": "Baroniet Rosendal manor Hardangerfjord Norway"
+      "highlights": [
+        "Baroniet Rosendal Norway's only barony",
+        "Folgefonna glacier views",
+        "Sunnhordland island-hopping",
+        "Hardangerfjord orchard country"
+      ],
+      "cover_search_query": "Baroniet Rosendal manor Hardangerfjord Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/sunnhordland-coast.jpg"
     },
     {
       "id": "bergen-city-day",
@@ -262,14 +595,35 @@
       "distance_km": 40,
       "description": "Bergen is Norway's gateway to the fjords but deserves a day of its own — the UNESCO Bryggen wharf, the Fløyen funicular lifting you above the terracotta rooftops, and the fish market where Atlantic cod and king crab are sold alongside the city's famous Bergen Rain souvenirs. The short drive to Fantoft Stave Church adds a medieval counterpoint.",
       "stops": [
-        { "name": "Bergen, Norway", "label": "Bergen" },
-        { "name": "Fløyen, Bergen, Norway", "label": "Fløyen" },
-        { "name": "Fantoft Stave Church, Bergen, Norway", "label": "Fantoft" },
-        { "name": "Damsgård, Bergen, Norway", "label": "Damsgård" },
-        { "name": "Gamle Bergen Museum, Norway", "label": "Gamle Bergen" }
+        {
+          "name": "Bergen, Norway",
+          "label": "Bergen"
+        },
+        {
+          "name": "Fløyen, Bergen, Norway",
+          "label": "Fløyen"
+        },
+        {
+          "name": "Fantoft Stave Church, Bergen, Norway",
+          "label": "Fantoft"
+        },
+        {
+          "name": "Damsgård, Bergen, Norway",
+          "label": "Damsgård"
+        },
+        {
+          "name": "Gamle Bergen Museum, Norway",
+          "label": "Gamle Bergen"
+        }
       ],
-      "highlights": ["Bryggen UNESCO Hanseatic wharf", "Fløyen funicular panorama", "Fantoft Stave Church", "Bergen Fish Market"],
-      "cover_search_query": "Bryggen Wharf Bergen Norway UNESCO"
+      "highlights": [
+        "Bryggen UNESCO Hanseatic wharf",
+        "Fløyen funicular panorama",
+        "Fantoft Stave Church",
+        "Bergen Fish Market"
+      ],
+      "cover_search_query": "Bryggen Wharf Bergen Norway UNESCO",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/bergen-city-day.jpg"
     },
     {
       "id": "bergen-hardanger-day",
@@ -279,14 +633,35 @@
       "distance_km": 180,
       "description": "The Hardangerfjord sits just 90 minutes east of Bergen, making it an irresistible overnight escape — orchards line the shoreline road through Norheimsund and Øystese, and the ferry crossing from Bruravik to Brimnes adds the quintessential Norwegian experience of watching cliff walls glide past at walking pace. Voss's adventure scene makes a lively overnight stop.",
       "stops": [
-        { "name": "Bergen, Norway", "label": "Bergen" },
-        { "name": "Norheimsund, Norway", "label": "Norheimsund" },
-        { "name": "Øystese, Norway", "label": "Øystese" },
-        { "name": "Granvin, Norway", "label": "Granvin" },
-        { "name": "Voss, Norway", "label": "Voss" }
+        {
+          "name": "Bergen, Norway",
+          "label": "Bergen"
+        },
+        {
+          "name": "Norheimsund, Norway",
+          "label": "Norheimsund"
+        },
+        {
+          "name": "Øystese, Norway",
+          "label": "Øystese"
+        },
+        {
+          "name": "Granvin, Norway",
+          "label": "Granvin"
+        },
+        {
+          "name": "Voss, Norway",
+          "label": "Voss"
+        }
       ],
-      "highlights": ["Hardangerfjord orchard drive", "Bruravik-Brimnes ferry crossing", "Voss adventure sports", "Hardanger cider tasting"],
-      "cover_search_query": "Hardangerfjord orchard blossom ferry Norway"
+      "highlights": [
+        "Hardangerfjord orchard drive",
+        "Bruravik-Brimnes ferry crossing",
+        "Voss adventure sports",
+        "Hardanger cider tasting"
+      ],
+      "cover_search_query": "Hardangerfjord orchard blossom ferry Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/bergen-hardanger-day.jpg"
     },
     {
       "id": "bergen-voss-weekend",
@@ -296,14 +671,35 @@
       "distance_km": 160,
       "description": "This compact loop from Bergen is a masterclass in Norwegian scenery compression — the valley road to Voss passes the Tvindefossen waterfall before crossing to Stalheim and the astonishing zigzag descent into Nærøydalen, one of the narrowest inhabited valleys in Europe. The return ferry from Gudvangen drifts beneath curtains of mist and tumbling falls.",
       "stops": [
-        { "name": "Bergen, Norway", "label": "Bergen" },
-        { "name": "Dale, Norway", "label": "Dale" },
-        { "name": "Voss, Norway", "label": "Voss" },
-        { "name": "Stalheim, Norway", "label": "Stalheim" },
-        { "name": "Gudvangen, Norway", "label": "Gudvangen" }
+        {
+          "name": "Bergen, Norway",
+          "label": "Bergen"
+        },
+        {
+          "name": "Dale, Norway",
+          "label": "Dale"
+        },
+        {
+          "name": "Voss, Norway",
+          "label": "Voss"
+        },
+        {
+          "name": "Stalheim, Norway",
+          "label": "Stalheim"
+        },
+        {
+          "name": "Gudvangen, Norway",
+          "label": "Gudvangen"
+        }
       ],
-      "highlights": ["Stalheim hairpin descent", "Tvindefossen waterfall", "Nærøydalen narrow valley", "Gudvangen fjord head"],
-      "cover_search_query": "Stalheim Hotel hairpin bends valley Norway"
+      "highlights": [
+        "Stalheim hairpin descent",
+        "Tvindefossen waterfall",
+        "Nærøydalen narrow valley",
+        "Gudvangen fjord head"
+      ],
+      "cover_search_query": "Stalheim Hotel hairpin bends valley Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/bergen-voss-weekend.jpg"
     },
     {
       "id": "bergen-nordfjord",
@@ -313,15 +709,39 @@
       "distance_km": 420,
       "description": "Nordfjord is the lesser-visited sibling of the Sognefjord — equally impressive but without the crowds — and the drive north from Bergen via Vangsnes ferry passes some of the most satisfying fjord scenery in western Norway. Stryn at the fjord's head sits beneath the Jostedalsbreen glacier, whose blue tongues reach down to near sea level.",
       "stops": [
-        { "name": "Bergen, Norway", "label": "Bergen" },
-        { "name": "Voss, Norway", "label": "Voss" },
-        { "name": "Vangsnes, Norway", "label": "Vangsnes" },
-        { "name": "Balestrand, Norway", "label": "Balestrand" },
-        { "name": "Nordfjordeid, Norway", "label": "Nordfjordeid" },
-        { "name": "Stryn, Norway", "label": "Stryn" }
+        {
+          "name": "Bergen, Norway",
+          "label": "Bergen"
+        },
+        {
+          "name": "Voss, Norway",
+          "label": "Voss"
+        },
+        {
+          "name": "Vangsnes, Norway",
+          "label": "Vangsnes"
+        },
+        {
+          "name": "Balestrand, Norway",
+          "label": "Balestrand"
+        },
+        {
+          "name": "Nordfjordeid, Norway",
+          "label": "Nordfjordeid"
+        },
+        {
+          "name": "Stryn, Norway",
+          "label": "Stryn"
+        }
       ],
-      "highlights": ["Jostedalsbreen glacier tongue at Stryn", "Balestrand fjord village", "Nordfjord wild swimming", "Vangsnes Viking statue"],
-      "cover_search_query": "Stryn Jostedalsbreen glacier Nordfjord Norway"
+      "highlights": [
+        "Jostedalsbreen glacier tongue at Stryn",
+        "Balestrand fjord village",
+        "Nordfjord wild swimming",
+        "Vangsnes Viking statue"
+      ],
+      "cover_search_query": "Stryn Jostedalsbreen glacier Nordfjord Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/bergen-nordfjord.jpg"
     },
     {
       "id": "bergen-stavanger-coastal",
@@ -331,15 +751,39 @@
       "distance_km": 380,
       "description": "The coastal road south from Bergen to Stavanger is a game of ferry hops and island bridges, threading through the archipelago communities of Sunnhordland before crossing to the Ryfylke highlands. Sauda's dramatic fjord and the wild Sand district offer views untouched by mass tourism before the oil capital's cosmopolitan energy awaits at journey's end.",
       "stops": [
-        { "name": "Bergen, Norway", "label": "Bergen" },
-        { "name": "Stord, Norway", "label": "Stord" },
-        { "name": "Leirvik, Norway", "label": "Leirvik" },
-        { "name": "Sauda, Norway", "label": "Sauda" },
-        { "name": "Sand, Norway", "label": "Sand" },
-        { "name": "Stavanger, Norway", "label": "Stavanger" }
+        {
+          "name": "Bergen, Norway",
+          "label": "Bergen"
+        },
+        {
+          "name": "Stord, Norway",
+          "label": "Stord"
+        },
+        {
+          "name": "Leirvik, Norway",
+          "label": "Leirvik"
+        },
+        {
+          "name": "Sauda, Norway",
+          "label": "Sauda"
+        },
+        {
+          "name": "Sand, Norway",
+          "label": "Sand"
+        },
+        {
+          "name": "Stavanger, Norway",
+          "label": "Stavanger"
+        }
       ],
-      "highlights": ["Sauda fjord industrial heritage", "Ryfylke highland plateau", "Sunnhordland ferry hopping", "Stavanger old wooden city"],
-      "cover_search_query": "Ryfylke fjord coastal drive Stavanger Norway"
+      "highlights": [
+        "Sauda fjord industrial heritage",
+        "Ryfylke highland plateau",
+        "Sunnhordland ferry hopping",
+        "Stavanger old wooden city"
+      ],
+      "cover_search_query": "Ryfylke fjord coastal drive Stavanger Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/bergen-stavanger-coastal.jpg"
     },
     {
       "id": "trollstigen-road",
@@ -349,14 +793,35 @@
       "distance_km": 180,
       "description": "Trollstigen — the Troll's Ladder — is Norway's most theatrical road, 11 hairpin bends climbing a near-vertical mountain face with the Stigfossen waterfall roaring alongside the tarmac. The new National Tourist Route visitor platform cantilevered above the valley makes a cinematic arrival, and the descent into the Geiranger-bound valley adds another hour of jaw-dropping scenery.",
       "stops": [
-        { "name": "Åndalsnes, Norway", "label": "Åndalsnes" },
-        { "name": "Trollstigen, Norway", "label": "Trollstigen" },
-        { "name": "Valldal, Norway", "label": "Valldal" },
-        { "name": "Norddal, Norway", "label": "Norddal" },
-        { "name": "Geiranger, Norway", "label": "Geiranger" }
+        {
+          "name": "Åndalsnes, Norway",
+          "label": "Åndalsnes"
+        },
+        {
+          "name": "Trollstigen, Norway",
+          "label": "Trollstigen"
+        },
+        {
+          "name": "Valldal, Norway",
+          "label": "Valldal"
+        },
+        {
+          "name": "Norddal, Norway",
+          "label": "Norddal"
+        },
+        {
+          "name": "Geiranger, Norway",
+          "label": "Geiranger"
+        }
       ],
-      "highlights": ["Trollstigen 11 hairpin bends", "Stigfossen waterfall roadside", "Trollstigen visitor platform", "Geirangerfjord arrival by road"],
-      "cover_search_query": "Trollstigen mountain road hairpin bends Norway"
+      "highlights": [
+        "Trollstigen 11 hairpin bends",
+        "Stigfossen waterfall roadside",
+        "Trollstigen visitor platform",
+        "Geirangerfjord arrival by road"
+      ],
+      "cover_search_query": "Trollstigen mountain road hairpin bends Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/trollstigen-road.jpg"
     },
     {
       "id": "atlantic-road-drive",
@@ -366,14 +831,35 @@
       "distance_km": 160,
       "description": "The Atlanterhavsvegen is regularly voted the world's most beautiful road — a 8.3km causeway of bridges and islets that leaps across the open Atlantic on a necklace of arching spans. Storm season from October to April turns it into something elemental, with waves crashing completely over the roadway; summer offers calmer waters but no less drama.",
       "stops": [
-        { "name": "Molde, Norway", "label": "Molde" },
-        { "name": "Bud, Norway", "label": "Bud" },
-        { "name": "Atlanterhavsvegen, Norway", "label": "Atlantic Road" },
-        { "name": "Kristiansund, Norway", "label": "Kristiansund" },
-        { "name": "Averøy, Norway", "label": "Averøy" }
+        {
+          "name": "Molde, Norway",
+          "label": "Molde"
+        },
+        {
+          "name": "Bud, Norway",
+          "label": "Bud"
+        },
+        {
+          "name": "Atlanterhavsvegen, Norway",
+          "label": "Atlantic Road"
+        },
+        {
+          "name": "Kristiansund, Norway",
+          "label": "Kristiansund"
+        },
+        {
+          "name": "Averøy, Norway",
+          "label": "Averøy"
+        }
       ],
-      "highlights": ["Storseisundbrua iconic arching bridge", "Storm waves over the causeway", "Kristiansund Klippfisk cod culture", "Molde 'Town of Roses' panorama"],
-      "cover_search_query": "Atlanterhavsvegen Atlantic Ocean Road bridge storm Norway"
+      "highlights": [
+        "Storseisundbrua iconic arching bridge",
+        "Storm waves over the causeway",
+        "Kristiansund Klippfisk cod culture",
+        "Molde 'Town of Roses' panorama"
+      ],
+      "cover_search_query": "Atlanterhavsvegen Atlantic Ocean Road bridge storm Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/atlantic-road-drive.jpg"
     },
     {
       "id": "sognefjellet-national",
@@ -383,14 +869,35 @@
       "distance_km": 200,
       "description": "The Sognefjellet road (Rv55) reaches 1,434m — the highest mountain pass road in northern Europe — crossing a high-altitude wilderness of snowfields and glacial lakes before plunging to the deep-blue Lustrafjord. Open only from May to October, the route passes the trailhead to Galdhøpiggen, Norway's highest peak, at the Jotunheimen mountain lodge.",
       "stops": [
-        { "name": "Lom, Norway", "label": "Lom" },
-        { "name": "Sognefjellshytta, Norway", "label": "Sognefjellshytta" },
-        { "name": "Turtagrø, Norway", "label": "Turtagrø" },
-        { "name": "Skjolden, Norway", "label": "Skjolden" },
-        { "name": "Sogndal, Norway", "label": "Sogndal" }
+        {
+          "name": "Lom, Norway",
+          "label": "Lom"
+        },
+        {
+          "name": "Sognefjellshytta, Norway",
+          "label": "Sognefjellshytta"
+        },
+        {
+          "name": "Turtagrø, Norway",
+          "label": "Turtagrø"
+        },
+        {
+          "name": "Skjolden, Norway",
+          "label": "Skjolden"
+        },
+        {
+          "name": "Sogndal, Norway",
+          "label": "Sogndal"
+        }
       ],
-      "highlights": ["Sognefjellet 1434m highest pass in northern Europe", "Galdhøpiggen trailhead", "Lustrafjord blue waters", "Lom Stave Church"],
-      "cover_search_query": "Sognefjellet mountain pass road snow Norway"
+      "highlights": [
+        "Sognefjellet 1434m highest pass in northern Europe",
+        "Galdhøpiggen trailhead",
+        "Lustrafjord blue waters",
+        "Lom Stave Church"
+      ],
+      "cover_search_query": "Sognefjellet mountain pass road snow Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/sognefjellet-national.jpg"
     },
     {
       "id": "golden-route-norway",
@@ -400,15 +907,39 @@
       "distance_km": 280,
       "description": "The Golden Route chains together Trollstigen and Geirangerfjord, Norway's two most photographed scenic showpieces, into a single unforgettable circuit. The road climbs from Åndalsnes via 11 hairpin bends, descends through strawberry farms in Valldal, and arrives at Geiranger where the Seven Sisters waterfall drops 250m into the emerald fjord below Dalsnibba's viewing platform.",
       "stops": [
-        { "name": "Åndalsnes, Norway", "label": "Åndalsnes" },
-        { "name": "Trollstigen, Norway", "label": "Trollstigen" },
-        { "name": "Valldal, Norway", "label": "Valldal" },
-        { "name": "Geiranger, Norway", "label": "Geiranger" },
-        { "name": "Dalsnibba, Norway", "label": "Dalsnibba" },
-        { "name": "Stryn, Norway", "label": "Stryn" }
+        {
+          "name": "Åndalsnes, Norway",
+          "label": "Åndalsnes"
+        },
+        {
+          "name": "Trollstigen, Norway",
+          "label": "Trollstigen"
+        },
+        {
+          "name": "Valldal, Norway",
+          "label": "Valldal"
+        },
+        {
+          "name": "Geiranger, Norway",
+          "label": "Geiranger"
+        },
+        {
+          "name": "Dalsnibba, Norway",
+          "label": "Dalsnibba"
+        },
+        {
+          "name": "Stryn, Norway",
+          "label": "Stryn"
+        }
       ],
-      "highlights": ["Trollstigen hairpin road", "Geiranger Seven Sisters waterfall", "Dalsnibba 1500m viewpoint", "Valldal strawberry farms"],
-      "cover_search_query": "Geiranger fjord Seven Sisters waterfall Dalsnibba viewpoint Norway"
+      "highlights": [
+        "Trollstigen hairpin road",
+        "Geiranger Seven Sisters waterfall",
+        "Dalsnibba 1500m viewpoint",
+        "Valldal strawberry farms"
+      ],
+      "cover_search_query": "Geiranger fjord Seven Sisters waterfall Dalsnibba viewpoint Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/golden-route-norway.jpg"
     },
     {
       "id": "hardangervidda-plateau",
@@ -418,14 +949,35 @@
       "distance_km": 190,
       "description": "The Hardangervidda plateau is Europe's largest mountain plateau, a vast sub-Arctic tundra where wild reindeer outnumber people and the light never fully fades in midsummer. The Rv7 crosses this lunar landscape between Geilo and Eidfjord before dropping precipitously to the fjord head via the Vøringsfossen, Norway's most visited waterfall.",
       "stops": [
-        { "name": "Geilo, Norway", "label": "Geilo" },
-        { "name": "Dyranut, Norway", "label": "Dyranut" },
-        { "name": "Eidfjord, Norway", "label": "Eidfjord" },
-        { "name": "Vøringsfossen, Norway", "label": "Vøringsfossen" },
-        { "name": "Hardangervidda National Park, Norway", "label": "Hardangervidda" }
+        {
+          "name": "Geilo, Norway",
+          "label": "Geilo"
+        },
+        {
+          "name": "Dyranut, Norway",
+          "label": "Dyranut"
+        },
+        {
+          "name": "Eidfjord, Norway",
+          "label": "Eidfjord"
+        },
+        {
+          "name": "Vøringsfossen, Norway",
+          "label": "Vøringsfossen"
+        },
+        {
+          "name": "Hardangervidda National Park, Norway",
+          "label": "Hardangervidda"
+        }
       ],
-      "highlights": ["Hardangervidda wild reindeer herds", "Vøringsfossen 182m waterfall", "Midnight sun on the plateau", "Eidfjord Hardangervidda Museum"],
-      "cover_search_query": "Hardangervidda plateau reindeer midnight sun Norway"
+      "highlights": [
+        "Hardangervidda wild reindeer herds",
+        "Vøringsfossen 182m waterfall",
+        "Midnight sun on the plateau",
+        "Eidfjord Hardangervidda Museum"
+      ],
+      "cover_search_query": "Hardangervidda plateau reindeer midnight sun Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/hardangervidda-plateau.jpg"
     },
     {
       "id": "rv13-backbone",
@@ -435,16 +987,43 @@
       "distance_km": 430,
       "description": "The Rv13 runs like a spine up Norway's fjord country, linking Stavanger to the Sognefjord through a series of mountain passes, glacier-fed lakes and ferry crossings. This is the road less taken — narrower and more demanding than the E-roads — but it rewards with the Ryfylke highlands, Røldal's medieval stave church, and a final fjord crossing to Sogndal.",
       "stops": [
-        { "name": "Stavanger, Norway", "label": "Stavanger" },
-        { "name": "Sand, Norway", "label": "Sand" },
-        { "name": "Røldal, Norway", "label": "Røldal" },
-        { "name": "Odda, Norway", "label": "Odda" },
-        { "name": "Voss, Norway", "label": "Voss" },
-        { "name": "Vik, Norway", "label": "Vik" },
-        { "name": "Sogndal, Norway", "label": "Sogndal" }
+        {
+          "name": "Stavanger, Norway",
+          "label": "Stavanger"
+        },
+        {
+          "name": "Sand, Norway",
+          "label": "Sand"
+        },
+        {
+          "name": "Røldal, Norway",
+          "label": "Røldal"
+        },
+        {
+          "name": "Odda, Norway",
+          "label": "Odda"
+        },
+        {
+          "name": "Voss, Norway",
+          "label": "Voss"
+        },
+        {
+          "name": "Vik, Norway",
+          "label": "Vik"
+        },
+        {
+          "name": "Sogndal, Norway",
+          "label": "Sogndal"
+        }
       ],
-      "highlights": ["Røldal stave church pilgrimage site", "Ryfylke highland mountain scenery", "Hardanger Trolltunga hike", "Vik Hopperstad stave church"],
-      "cover_search_query": "Røldal stave church reflection Norway"
+      "highlights": [
+        "Røldal stave church pilgrimage site",
+        "Ryfylke highland mountain scenery",
+        "Hardanger Trolltunga hike",
+        "Vik Hopperstad stave church"
+      ],
+      "cover_search_query": "Røldal stave church reflection Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/rv13-backbone.jpg"
     },
     {
       "id": "andoya-scenic",
@@ -454,14 +1033,35 @@
       "distance_km": 300,
       "description": "Andøya is a world apart — a long flat island of peatbogs, white sand beaches and rocketry (the Andøya Space Center launches rockets into the aurora), sitting just north of the Arctic Circle. The drive to Andenes at the island's tip passes the deserted Bleik beach, Norway's finest, while whale safaris offshore encounter sperm whales year-round.",
       "stops": [
-        { "name": "Sortland, Norway", "label": "Sortland" },
-        { "name": "Andenes, Norway", "label": "Andenes" },
-        { "name": "Bleik, Norway", "label": "Bleik" },
-        { "name": "Stave, Andøya, Norway", "label": "Stave" },
-        { "name": "Andøya Space Center, Norway", "label": "Space Center" }
+        {
+          "name": "Sortland, Norway",
+          "label": "Sortland"
+        },
+        {
+          "name": "Andenes, Norway",
+          "label": "Andenes"
+        },
+        {
+          "name": "Bleik, Norway",
+          "label": "Bleik"
+        },
+        {
+          "name": "Stave, Andøya, Norway",
+          "label": "Stave"
+        },
+        {
+          "name": "Andøya Space Center, Norway",
+          "label": "Space Center"
+        }
       ],
-      "highlights": ["Bleik white sand Arctic beach", "Andenes whale safari", "Andøya Space Center rocket launches", "Northern Lights viewing"],
-      "cover_search_query": "Bleik beach Andøya white sand Arctic Norway"
+      "highlights": [
+        "Bleik white sand Arctic beach",
+        "Andenes whale safari",
+        "Andøya Space Center rocket launches",
+        "Northern Lights viewing"
+      ],
+      "cover_search_query": "Bleik beach Andøya white sand Arctic Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/andoya-scenic.jpg"
     },
     {
       "id": "alesund-romsdal",
@@ -471,15 +1071,39 @@
       "distance_km": 250,
       "description": "This circular route from Ålesund visits three of Norway's most iconic landscapes in quick succession — the UNESCO Geirangerfjord, the Trollstigen mountain road, and the Romsdal valley where the near-vertical Trollveggen cliff face rises 1,100m from the valley floor. The return leg via Molde adds the Rose City's panoramic mountain backdrop.",
       "stops": [
-        { "name": "Ålesund, Norway", "label": "Ålesund" },
-        { "name": "Geiranger, Norway", "label": "Geiranger" },
-        { "name": "Trollstigen, Norway", "label": "Trollstigen" },
-        { "name": "Åndalsnes, Norway", "label": "Åndalsnes" },
-        { "name": "Romsdalen, Norway", "label": "Romsdalen" },
-        { "name": "Molde, Norway", "label": "Molde" }
+        {
+          "name": "Ålesund, Norway",
+          "label": "Ålesund"
+        },
+        {
+          "name": "Geiranger, Norway",
+          "label": "Geiranger"
+        },
+        {
+          "name": "Trollstigen, Norway",
+          "label": "Trollstigen"
+        },
+        {
+          "name": "Åndalsnes, Norway",
+          "label": "Åndalsnes"
+        },
+        {
+          "name": "Romsdalen, Norway",
+          "label": "Romsdalen"
+        },
+        {
+          "name": "Molde, Norway",
+          "label": "Molde"
+        }
       ],
-      "highlights": ["Geirangerfjord UNESCO World Heritage", "Trollveggen Europe's tallest vertical cliff", "Trollstigen hairpin road", "Molde Romsdal panorama"],
-      "cover_search_query": "Trollveggen vertical cliff wall Romsdal valley Norway"
+      "highlights": [
+        "Geirangerfjord UNESCO World Heritage",
+        "Trollveggen Europe's tallest vertical cliff",
+        "Trollstigen hairpin road",
+        "Molde Romsdal panorama"
+      ],
+      "cover_search_query": "Trollveggen vertical cliff wall Romsdal valley Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/alesund-romsdal.jpg"
     },
     {
       "id": "geiranger-golden-triangle",
@@ -489,14 +1113,35 @@
       "distance_km": 150,
       "description": "The triangle between Stryn, Geiranger and Hellesylt encapsulates the very best of Norway's fjord-and-mountain scenery within a compact and endlessly photogenic circuit. The Dalsnibba plateau road climbs to 1,476m for a bird's-eye view of the Geirangerfjord, and the eagle-bend viewpoint at Ørnesvingen offers the classic fjord photograph with cruise ships below.",
       "stops": [
-        { "name": "Stryn, Norway", "label": "Stryn" },
-        { "name": "Geiranger, Norway", "label": "Geiranger" },
-        { "name": "Dalsnibba, Norway", "label": "Dalsnibba" },
-        { "name": "Ørnesvingen, Norway", "label": "Ørnesvingen" },
-        { "name": "Hellesylt, Norway", "label": "Hellesylt" }
+        {
+          "name": "Stryn, Norway",
+          "label": "Stryn"
+        },
+        {
+          "name": "Geiranger, Norway",
+          "label": "Geiranger"
+        },
+        {
+          "name": "Dalsnibba, Norway",
+          "label": "Dalsnibba"
+        },
+        {
+          "name": "Ørnesvingen, Norway",
+          "label": "Ørnesvingen"
+        },
+        {
+          "name": "Hellesylt, Norway",
+          "label": "Hellesylt"
+        }
       ],
-      "highlights": ["Dalsnibba 1476m Geiranger panorama", "Ørnesvingen eagle bend viewpoint", "Geirangerfjord UNESCO cruise", "Hellesylt waterfall"],
-      "cover_search_query": "Ørnesvingen eagle road viewpoint Geirangerfjord Norway"
+      "highlights": [
+        "Dalsnibba 1476m Geiranger panorama",
+        "Ørnesvingen eagle bend viewpoint",
+        "Geirangerfjord UNESCO cruise",
+        "Hellesylt waterfall"
+      ],
+      "cover_search_query": "Ørnesvingen eagle road viewpoint Geirangerfjord Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/geiranger-golden-triangle.jpg"
     },
     {
       "id": "romsdal-valley-loop",
@@ -506,14 +1151,35 @@
       "distance_km": 140,
       "description": "The Romsdal valley is one of Norway's most dramatic geological features — a deep glacial trench flanked by walls that include Trollveggen, Europe's highest vertical cliff at 1,100m, a magnet for BASE jumpers and free-solo climbers. The route loops through the historic Rauma Railway valley, following the same curves that inspired Grieg's trolls.",
       "stops": [
-        { "name": "Åndalsnes, Norway", "label": "Åndalsnes" },
-        { "name": "Trollveggen, Norway", "label": "Trollveggen" },
-        { "name": "Verma, Norway", "label": "Verma" },
-        { "name": "Bjorli, Norway", "label": "Bjorli" },
-        { "name": "Lesja, Norway", "label": "Lesja" }
+        {
+          "name": "Åndalsnes, Norway",
+          "label": "Åndalsnes"
+        },
+        {
+          "name": "Trollveggen, Norway",
+          "label": "Trollveggen"
+        },
+        {
+          "name": "Verma, Norway",
+          "label": "Verma"
+        },
+        {
+          "name": "Bjorli, Norway",
+          "label": "Bjorli"
+        },
+        {
+          "name": "Lesja, Norway",
+          "label": "Lesja"
+        }
       ],
-      "highlights": ["Trollveggen BASE jumping cliff", "Rauma Railway mountain scenery", "Romsdalseggen ridge hike", "Åndalsnes fjord town"],
-      "cover_search_query": "Trollveggen troll wall BASE jumping cliff Norway"
+      "highlights": [
+        "Trollveggen BASE jumping cliff",
+        "Rauma Railway mountain scenery",
+        "Romsdalseggen ridge hike",
+        "Åndalsnes fjord town"
+      ],
+      "cover_search_query": "Trollveggen troll wall BASE jumping cliff Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/romsdal-valley-loop.jpg"
     },
     {
       "id": "sunnmore-alps",
@@ -523,14 +1189,35 @@
       "distance_km": 220,
       "description": "The Sunnmøre Alps rise directly from the fjord in a chaotic tangle of 1,500m peaks that look more like Patagonia than Scandinavia — and the winding roads through Hjørundfjord and into the back valleys of Ørsta commune are among Norway's best-kept secrets. Urke, a handful of houses at the fjord head, is a pilgrimage destination for mountain photographers.",
       "stops": [
-        { "name": "Ålesund, Norway", "label": "Ålesund" },
-        { "name": "Ørsta, Norway", "label": "Ørsta" },
-        { "name": "Hjørundfjord, Norway", "label": "Hjørundfjord" },
-        { "name": "Saebo, Norway", "label": "Saebo" },
-        { "name": "Urke, Norway", "label": "Urke" }
+        {
+          "name": "Ålesund, Norway",
+          "label": "Ålesund"
+        },
+        {
+          "name": "Ørsta, Norway",
+          "label": "Ørsta"
+        },
+        {
+          "name": "Hjørundfjord, Norway",
+          "label": "Hjørundfjord"
+        },
+        {
+          "name": "Saebo, Norway",
+          "label": "Saebo"
+        },
+        {
+          "name": "Urke, Norway",
+          "label": "Urke"
+        }
       ],
-      "highlights": ["Hjørundfjord mountain mirror", "Urke fjord photography village", "Sunnmøre Alps jagged peaks", "Ålesund Art Nouveau city"],
-      "cover_search_query": "Hjørundfjord Sunnmøre Alps reflection Norway"
+      "highlights": [
+        "Hjørundfjord mountain mirror",
+        "Urke fjord photography village",
+        "Sunnmøre Alps jagged peaks",
+        "Ålesund Art Nouveau city"
+      ],
+      "cover_search_query": "Hjørundfjord Sunnmøre Alps reflection Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/sunnmore-alps.jpg"
     },
     {
       "id": "alesund-to-bergen-coast",
@@ -540,17 +1227,47 @@
       "distance_km": 580,
       "description": "Heading south from Ålesund along the coast involves a continuous negotiation between mainland and sea — ferries to the bird-island of Runde (home to 100,000 puffins), the dramatic Selje monastery on its offshore skerry, and the Nordfjord's quiet beauty before the final fjord road to Bergen. This is coastal Norway at its most unfiltered.",
       "stops": [
-        { "name": "Ålesund, Norway", "label": "Ålesund" },
-        { "name": "Fosnavåg, Norway", "label": "Fosnavåg" },
-        { "name": "Runde, Norway", "label": "Runde" },
-        { "name": "Selje, Norway", "label": "Selje" },
-        { "name": "Nordfjordeid, Norway", "label": "Nordfjordeid" },
-        { "name": "Stryn, Norway", "label": "Stryn" },
-        { "name": "Voss, Norway", "label": "Voss" },
-        { "name": "Bergen, Norway", "label": "Bergen" }
+        {
+          "name": "Ålesund, Norway",
+          "label": "Ålesund"
+        },
+        {
+          "name": "Fosnavåg, Norway",
+          "label": "Fosnavåg"
+        },
+        {
+          "name": "Runde, Norway",
+          "label": "Runde"
+        },
+        {
+          "name": "Selje, Norway",
+          "label": "Selje"
+        },
+        {
+          "name": "Nordfjordeid, Norway",
+          "label": "Nordfjordeid"
+        },
+        {
+          "name": "Stryn, Norway",
+          "label": "Stryn"
+        },
+        {
+          "name": "Voss, Norway",
+          "label": "Voss"
+        },
+        {
+          "name": "Bergen, Norway",
+          "label": "Bergen"
+        }
       ],
-      "highlights": ["Runde puffin colony 100,000 birds", "Selje monastery offshore skerry", "Nordfjord quiet beauty", "Norwegian coastal ferry life"],
-      "cover_search_query": "Runde island puffin colony Norway"
+      "highlights": [
+        "Runde puffin colony 100,000 birds",
+        "Selje monastery offshore skerry",
+        "Nordfjord quiet beauty",
+        "Norwegian coastal ferry life"
+      ],
+      "cover_search_query": "Runde island puffin colony Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/alesund-to-bergen-coast.jpg"
     },
     {
       "id": "trondheim-city-region",
@@ -560,14 +1277,35 @@
       "distance_km": 130,
       "description": "Trondheim is Norway's medieval capital and still feels like a city with a history worth inhabiting — the Nidaros Cathedral, Scandinavia's largest medieval building, anchors the old town while the brightly-painted stilt warehouses of Nedre Elvehavn mirror in the Nidelva river. The drive north to Stiklestad adds the battlefield where Norway became a Christian nation in 1030.",
       "stops": [
-        { "name": "Trondheim, Norway", "label": "Trondheim" },
-        { "name": "Munkholmen, Trondheim, Norway", "label": "Munkholmen" },
-        { "name": "Stiklestad, Norway", "label": "Stiklestad" },
-        { "name": "Levanger, Norway", "label": "Levanger" },
-        { "name": "Verdal, Norway", "label": "Verdal" }
+        {
+          "name": "Trondheim, Norway",
+          "label": "Trondheim"
+        },
+        {
+          "name": "Munkholmen, Trondheim, Norway",
+          "label": "Munkholmen"
+        },
+        {
+          "name": "Stiklestad, Norway",
+          "label": "Stiklestad"
+        },
+        {
+          "name": "Levanger, Norway",
+          "label": "Levanger"
+        },
+        {
+          "name": "Verdal, Norway",
+          "label": "Verdal"
+        }
       ],
-      "highlights": ["Nidaros Cathedral Gothic masterpiece", "Stiklestad battle 1030 AD", "Bryggen stilt warehouses", "Munkholmen island fortress"],
-      "cover_search_query": "Nidaros Cathedral Trondheim medieval Norway"
+      "highlights": [
+        "Nidaros Cathedral Gothic masterpiece",
+        "Stiklestad battle 1030 AD",
+        "Bryggen stilt warehouses",
+        "Munkholmen island fortress"
+      ],
+      "cover_search_query": "Nidaros Cathedral Trondheim medieval Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/trondheim-city-region.jpg"
     },
     {
       "id": "roros-copper-town",
@@ -577,14 +1315,35 @@
       "distance_km": 180,
       "description": "Røros exists in a category of its own — a UNESCO World Heritage mining town where 17th-century timber houses line cobblestone streets beneath a church that once doubled as a courthouse for the copper company's monopoly state. In winter the whole town freezes under a silence broken only by horse-drawn sleighs; in autumn the birch forests burn gold against blackened slag heaps.",
       "stops": [
-        { "name": "Trondheim, Norway", "label": "Trondheim" },
-        { "name": "Støren, Norway", "label": "Støren" },
-        { "name": "Røros, Norway", "label": "Røros" },
-        { "name": "Os, Norway", "label": "Os" },
-        { "name": "Tolga, Norway", "label": "Tolga" }
+        {
+          "name": "Trondheim, Norway",
+          "label": "Trondheim"
+        },
+        {
+          "name": "Støren, Norway",
+          "label": "Støren"
+        },
+        {
+          "name": "Røros, Norway",
+          "label": "Røros"
+        },
+        {
+          "name": "Os, Norway",
+          "label": "Os"
+        },
+        {
+          "name": "Tolga, Norway",
+          "label": "Tolga"
+        }
       ],
-      "highlights": ["Røros UNESCO World Heritage", "Smelthytta copper smelter museum", "Horse-drawn sleigh winters", "Dokkfloya nature reserve"],
-      "cover_search_query": "Røros UNESCO copper town winter timber houses Norway"
+      "highlights": [
+        "Røros UNESCO World Heritage",
+        "Smelthytta copper smelter museum",
+        "Horse-drawn sleigh winters",
+        "Dokkfloya nature reserve"
+      ],
+      "cover_search_query": "Røros UNESCO copper town winter timber houses Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/roros-copper-town.jpg"
     },
     {
       "id": "oppdal-dovrefjell",
@@ -594,14 +1353,35 @@
       "distance_km": 280,
       "description": "The Dovrefjell plateau is one of Europe's last wildernesses, home to musk oxen reintroduced from Greenland and the last wild reindeer herds in southern Norway. The pilgrim road from Oppdal to Kongsvoll passes the medieval monastery ruins at Dovre and the Fokstumyra bird reserve before the mountains open into a sky-wide horizon of tundra.",
       "stops": [
-        { "name": "Trondheim, Norway", "label": "Trondheim" },
-        { "name": "Oppdal, Norway", "label": "Oppdal" },
-        { "name": "Kongsvoll, Norway", "label": "Kongsvoll" },
-        { "name": "Hjerkinn, Norway", "label": "Hjerkinn" },
-        { "name": "Dombås, Norway", "label": "Dombås" }
+        {
+          "name": "Trondheim, Norway",
+          "label": "Trondheim"
+        },
+        {
+          "name": "Oppdal, Norway",
+          "label": "Oppdal"
+        },
+        {
+          "name": "Kongsvoll, Norway",
+          "label": "Kongsvoll"
+        },
+        {
+          "name": "Hjerkinn, Norway",
+          "label": "Hjerkinn"
+        },
+        {
+          "name": "Dombås, Norway",
+          "label": "Dombås"
+        }
       ],
-      "highlights": ["Dovrefjell musk ox safari", "Fokstumyra bird reserve", "Pilgrim route to Trondheim", "Oppdal ski and hiking centre"],
-      "cover_search_query": "Dovrefjell musk ox Snøhetta Norway"
+      "highlights": [
+        "Dovrefjell musk ox safari",
+        "Fokstumyra bird reserve",
+        "Pilgrim route to Trondheim",
+        "Oppdal ski and hiking centre"
+      ],
+      "cover_search_query": "Dovrefjell musk ox Snøhetta Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/oppdal-dovrefjell.jpg"
     },
     {
       "id": "namdalen-coastal",
@@ -611,15 +1391,39 @@
       "distance_km": 480,
       "description": "North of Trondheim the coast changes character entirely — wide Namdalen fjords replace the alpine drama of the south, and the fishing village culture of the coast road takes over. The Vikna island group contains 6,000 skerries, Rørvik is a coastal steamer hub, and Brønnøysund marks the border with Helgeland where the sea horizon begins to feel Arctic.",
       "stops": [
-        { "name": "Trondheim, Norway", "label": "Trondheim" },
-        { "name": "Steinkjer, Norway", "label": "Steinkjer" },
-        { "name": "Namsos, Norway", "label": "Namsos" },
-        { "name": "Rørvik, Norway", "label": "Rørvik" },
-        { "name": "Brønnøysund, Norway", "label": "Brønnøysund" },
-        { "name": "Sandnessjøen, Norway", "label": "Sandnessjøen" }
+        {
+          "name": "Trondheim, Norway",
+          "label": "Trondheim"
+        },
+        {
+          "name": "Steinkjer, Norway",
+          "label": "Steinkjer"
+        },
+        {
+          "name": "Namsos, Norway",
+          "label": "Namsos"
+        },
+        {
+          "name": "Rørvik, Norway",
+          "label": "Rørvik"
+        },
+        {
+          "name": "Brønnøysund, Norway",
+          "label": "Brønnøysund"
+        },
+        {
+          "name": "Sandnessjøen, Norway",
+          "label": "Sandnessjøen"
+        }
       ],
-      "highlights": ["Vikna island archipelago 6000 skerries", "Coastal steamer culture", "Torghatten mountain hole", "Namdalen wide river valley"],
-      "cover_search_query": "Torghatten mountain hole Brønnøysund Norway"
+      "highlights": [
+        "Vikna island archipelago 6000 skerries",
+        "Coastal steamer culture",
+        "Torghatten mountain hole",
+        "Namdalen wide river valley"
+      ],
+      "cover_search_query": "Torghatten mountain hole Brønnøysund Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/namdalen-coastal.jpg"
     },
     {
       "id": "trondheim-oslo-pilgrim",
@@ -629,15 +1433,39 @@
       "distance_km": 580,
       "description": "The ancient Pilgrim's Way from Trondheim's Nidaros Cathedral to Oslo follows river valleys and mountain passes that medieval travellers trod for 900 years. By car the route takes in Røros's copper-town drama, Hamar's cathedral ruins standing in a glass shelter on the lakeshore, and Lillehammer's Olympic legacy before Oslo's urban heartbeat at journey's end.",
       "stops": [
-        { "name": "Trondheim, Norway", "label": "Trondheim" },
-        { "name": "Røros, Norway", "label": "Røros" },
-        { "name": "Hamar, Norway", "label": "Hamar" },
-        { "name": "Lillehammer, Norway", "label": "Lillehammer" },
-        { "name": "Eidsvoll, Norway", "label": "Eidsvoll" },
-        { "name": "Oslo, Norway", "label": "Oslo" }
+        {
+          "name": "Trondheim, Norway",
+          "label": "Trondheim"
+        },
+        {
+          "name": "Røros, Norway",
+          "label": "Røros"
+        },
+        {
+          "name": "Hamar, Norway",
+          "label": "Hamar"
+        },
+        {
+          "name": "Lillehammer, Norway",
+          "label": "Lillehammer"
+        },
+        {
+          "name": "Eidsvoll, Norway",
+          "label": "Eidsvoll"
+        },
+        {
+          "name": "Oslo, Norway",
+          "label": "Oslo"
+        }
       ],
-      "highlights": ["Nidaros Cathedral medieval pilgrimage", "Røros copper town UNESCO", "Hamar Cathedral ruins", "Lillehammer 1994 Olympic venues"],
-      "cover_search_query": "Hamar Cathedral ruins glass shelter Mjøsa lake Norway"
+      "highlights": [
+        "Nidaros Cathedral medieval pilgrimage",
+        "Røros copper town UNESCO",
+        "Hamar Cathedral ruins",
+        "Lillehammer 1994 Olympic venues"
+      ],
+      "cover_search_query": "Hamar Cathedral ruins glass shelter Mjøsa lake Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/trondheim-oslo-pilgrim.jpg"
     },
     {
       "id": "lofoten-islands-loop",
@@ -647,16 +1475,43 @@
       "distance_km": 400,
       "description": "The Lofoten Islands are among the most dramatic archipelagos on Earth — jagged mountain peaks plunge directly into the Arctic Ocean while red fishing villages (rorbuer) cluster on the skerries below. The E10 road runs the full length from Svolvær to Å, passing fishing stages hung with drying cod, surf beaches surprisingly warm enough to swim in, and a sky that in winter blazes with the Northern Lights.",
       "stops": [
-        { "name": "Svolvær, Norway", "label": "Svolvær" },
-        { "name": "Kabelvåg, Norway", "label": "Kabelvåg" },
-        { "name": "Henningsvær, Norway", "label": "Henningsvær" },
-        { "name": "Ramberg, Norway", "label": "Ramberg" },
-        { "name": "Reine, Norway", "label": "Reine" },
-        { "name": "Å i Lofoten, Norway", "label": "Å" },
-        { "name": "Leknes, Norway", "label": "Leknes" }
+        {
+          "name": "Svolvær, Norway",
+          "label": "Svolvær"
+        },
+        {
+          "name": "Kabelvåg, Norway",
+          "label": "Kabelvåg"
+        },
+        {
+          "name": "Henningsvær, Norway",
+          "label": "Henningsvær"
+        },
+        {
+          "name": "Ramberg, Norway",
+          "label": "Ramberg"
+        },
+        {
+          "name": "Reine, Norway",
+          "label": "Reine"
+        },
+        {
+          "name": "Å i Lofoten, Norway",
+          "label": "Å"
+        },
+        {
+          "name": "Leknes, Norway",
+          "label": "Leknes"
+        }
       ],
-      "highlights": ["Reine fjord village most photographed in Norway", "Henningsvær football pitch on a skerry", "Northern Lights Arctic sky", "Cod drying on Lofoten racks"],
-      "cover_search_query": "Reine Lofoten red fishing village mountain Norway"
+      "highlights": [
+        "Reine fjord village most photographed in Norway",
+        "Henningsvær football pitch on a skerry",
+        "Northern Lights Arctic sky",
+        "Cod drying on Lofoten racks"
+      ],
+      "cover_search_query": "Reine Lofoten red fishing village mountain Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/lofoten-islands-loop.jpg"
     },
     {
       "id": "vesteralen-wildlife",
@@ -666,14 +1521,35 @@
       "distance_km": 280,
       "description": "Vesterålen is Lofoten's quieter, wilder northern neighbour — the islands sit just above the Arctic Circle and offer some of the world's most reliable year-round whale watching, with sperm whales and orcas feeding in the deep trenches offshore from Andenes. The drive from Sortland through Melbu to Andenes traverses a softer, more open landscape than Lofoten, with midnight sun glowing across sea meadows.",
       "stops": [
-        { "name": "Sortland, Norway", "label": "Sortland" },
-        { "name": "Stokmarknes, Norway", "label": "Stokmarknes" },
-        { "name": "Melbu, Norway", "label": "Melbu" },
-        { "name": "Andenes, Norway", "label": "Andenes" },
-        { "name": "Bleik, Norway", "label": "Bleik" }
+        {
+          "name": "Sortland, Norway",
+          "label": "Sortland"
+        },
+        {
+          "name": "Stokmarknes, Norway",
+          "label": "Stokmarknes"
+        },
+        {
+          "name": "Melbu, Norway",
+          "label": "Melbu"
+        },
+        {
+          "name": "Andenes, Norway",
+          "label": "Andenes"
+        },
+        {
+          "name": "Bleik, Norway",
+          "label": "Bleik"
+        }
       ],
-      "highlights": ["Sperm whale watching year-round", "Andenes lighthouse Arctic Point", "Bleik puffin cliffs", "Midnight sun sea meadows"],
-      "cover_search_query": "Andenes whale watching sperm whale Arctic Norway"
+      "highlights": [
+        "Sperm whale watching year-round",
+        "Andenes lighthouse Arctic Point",
+        "Bleik puffin cliffs",
+        "Midnight sun sea meadows"
+      ],
+      "cover_search_query": "Andenes whale watching sperm whale Arctic Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/vesteralen-wildlife.jpg"
     },
     {
       "id": "tromso-lyngen",
@@ -683,14 +1559,35 @@
       "distance_km": 240,
       "description": "Tromsø is the Arctic capital of Norway, a city of 77,000 people sitting on an island above the Arctic Circle with a surprisingly vibrant cultural scene and the world's most accessible Northern Lights. The circuit east to the Lyngen Alps reveals one of Arctic Norway's most stunning landscapes — glacier-draped peaks rising straight from the fjord, unchanged since the last Ice Age.",
       "stops": [
-        { "name": "Tromsø, Norway", "label": "Tromsø" },
-        { "name": "Svensby, Norway", "label": "Svensby" },
-        { "name": "Lyngseidet, Norway", "label": "Lyngseidet" },
-        { "name": "Skibotn, Norway", "label": "Skibotn" },
-        { "name": "Storfjord, Norway", "label": "Storfjord" }
+        {
+          "name": "Tromsø, Norway",
+          "label": "Tromsø"
+        },
+        {
+          "name": "Svensby, Norway",
+          "label": "Svensby"
+        },
+        {
+          "name": "Lyngseidet, Norway",
+          "label": "Lyngseidet"
+        },
+        {
+          "name": "Skibotn, Norway",
+          "label": "Skibotn"
+        },
+        {
+          "name": "Storfjord, Norway",
+          "label": "Storfjord"
+        }
       ],
-      "highlights": ["Tromsø Arctic Cathedral", "Northern Lights from city", "Lyngen Alps glacier fjord", "Skibotn Northern Lights viewing"],
-      "cover_search_query": "Lyngen Alps glacier fjord Northern Lights Norway"
+      "highlights": [
+        "Tromsø Arctic Cathedral",
+        "Northern Lights from city",
+        "Lyngen Alps glacier fjord",
+        "Skibotn Northern Lights viewing"
+      ],
+      "cover_search_query": "Lyngen Alps glacier fjord Northern Lights Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/tromso-lyngen.jpg"
     },
     {
       "id": "lofoten-to-tromso",
@@ -700,15 +1597,39 @@
       "distance_km": 620,
       "description": "The drive north from Lofoten to Tromsø is an Arctic odyssey that crosses the Vestfjord by ferry and enters a succession of island bridges and undersea tunnels that define modern Norwegian infrastructure. Senja — often called Norway in miniature — provides the journey's centrepiece with its south-facing beaches and troll-spiked northern coast.",
       "stops": [
-        { "name": "Svolvær, Norway", "label": "Svolvær" },
-        { "name": "Narvik, Norway", "label": "Narvik" },
-        { "name": "Harstad, Norway", "label": "Harstad" },
-        { "name": "Finnsnes, Norway", "label": "Finnsnes" },
-        { "name": "Senjahopen, Norway", "label": "Senjahopen" },
-        { "name": "Tromsø, Norway", "label": "Tromsø" }
+        {
+          "name": "Svolvær, Norway",
+          "label": "Svolvær"
+        },
+        {
+          "name": "Narvik, Norway",
+          "label": "Narvik"
+        },
+        {
+          "name": "Harstad, Norway",
+          "label": "Harstad"
+        },
+        {
+          "name": "Finnsnes, Norway",
+          "label": "Finnsnes"
+        },
+        {
+          "name": "Senjahopen, Norway",
+          "label": "Senjahopen"
+        },
+        {
+          "name": "Tromsø, Norway",
+          "label": "Tromsø"
+        }
       ],
-      "highlights": ["Senja island Norway in miniature", "Narvik War Museum WWII history", "Harstad Trondenes medieval church", "Tromsø Northern Lights capital"],
-      "cover_search_query": "Senja island coastline troll peaks Norway"
+      "highlights": [
+        "Senja island Norway in miniature",
+        "Narvik War Museum WWII history",
+        "Harstad Trondenes medieval church",
+        "Tromsø Northern Lights capital"
+      ],
+      "cover_search_query": "Senja island coastline troll peaks Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/lofoten-to-tromso.jpg"
     },
     {
       "id": "senja-island",
@@ -718,14 +1639,35 @@
       "distance_km": 190,
       "description": "Senja is Norway's best-kept secret — an island the size of a county where the eastern shore is gentle and agricultural while the western coast erupts into spikes of raw rock above black sand beaches and sea caves. Husøy, a tiny fishing village on a skerry connected by bridge, is the most photogenic spot on the island, with fish racks and boats and an Arctic sky.",
       "stops": [
-        { "name": "Finnsnes, Norway", "label": "Finnsnes" },
-        { "name": "Botnhamn, Norway", "label": "Botnhamn" },
-        { "name": "Husøy, Senja, Norway", "label": "Husøy" },
-        { "name": "Senjahopen, Norway", "label": "Senjahopen" },
-        { "name": "Mefjordvær, Norway", "label": "Mefjordvær" }
+        {
+          "name": "Finnsnes, Norway",
+          "label": "Finnsnes"
+        },
+        {
+          "name": "Botnhamn, Norway",
+          "label": "Botnhamn"
+        },
+        {
+          "name": "Husøy, Senja, Norway",
+          "label": "Husøy"
+        },
+        {
+          "name": "Senjahopen, Norway",
+          "label": "Senjahopen"
+        },
+        {
+          "name": "Mefjordvær, Norway",
+          "label": "Mefjordvær"
+        }
       ],
-      "highlights": ["Husøy fishing village on skerry", "Senja troll peaks western coast", "Tungeneset viewpoint sea spikes", "Bergsbotn hillside viewpoint"],
-      "cover_search_query": "Husøy fishing village Senja island Norway"
+      "highlights": [
+        "Husøy fishing village on skerry",
+        "Senja troll peaks western coast",
+        "Tungeneset viewpoint sea spikes",
+        "Bergsbotn hillside viewpoint"
+      ],
+      "cover_search_query": "Husøy fishing village Senja island Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/senja-island.jpg"
     },
     {
       "id": "helgeland-coast",
@@ -735,15 +1677,39 @@
       "distance_km": 550,
       "description": "The Helgeland coast is one of the Arctic's great undiscovered road trips — the distinctive flat-topped mountains of the Syv Søstre range, the mountain with the hole through it at Torghatten, and a coastline of 3,000 islands linked by ferries and bridges. Mosjøen's beautifully preserved Sjøgata timber quarter and the seabird cliffs of Vega (UNESCO) add cultural depth.",
       "stops": [
-        { "name": "Mosjøen, Norway", "label": "Mosjøen" },
-        { "name": "Sandnessjøen, Norway", "label": "Sandnessjøen" },
-        { "name": "Alstahaug, Norway", "label": "Alstahaug" },
-        { "name": "Brønnøysund, Norway", "label": "Brønnøysund" },
-        { "name": "Torghatten, Norway", "label": "Torghatten" },
-        { "name": "Rørvik, Norway", "label": "Rørvik" }
+        {
+          "name": "Mosjøen, Norway",
+          "label": "Mosjøen"
+        },
+        {
+          "name": "Sandnessjøen, Norway",
+          "label": "Sandnessjøen"
+        },
+        {
+          "name": "Alstahaug, Norway",
+          "label": "Alstahaug"
+        },
+        {
+          "name": "Brønnøysund, Norway",
+          "label": "Brønnøysund"
+        },
+        {
+          "name": "Torghatten, Norway",
+          "label": "Torghatten"
+        },
+        {
+          "name": "Rørvik, Norway",
+          "label": "Rørvik"
+        }
       ],
-      "highlights": ["Torghatten mountain with hole", "Vega UNESCO eider duck culture", "Mosjøen Sjøgata timber quarter", "Syv Søstre seven sisters mountain"],
-      "cover_search_query": "Torghatten mountain hole Helgeland coast Norway"
+      "highlights": [
+        "Torghatten mountain with hole",
+        "Vega UNESCO eider duck culture",
+        "Mosjøen Sjøgata timber quarter",
+        "Syv Søstre seven sisters mountain"
+      ],
+      "cover_search_query": "Torghatten mountain hole Helgeland coast Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/helgeland-coast.jpg"
     },
     {
       "id": "ofoten-narvik",
@@ -753,14 +1719,35 @@
       "distance_km": 200,
       "description": "The Ofoten fjord is one of the most strategically dramatic in Norway — it was here that the 1940 Battle of Narvik raged between Allied and German forces, and the iron-ore railway built through some of the most hostile mountain terrain in Europe to serve Kiruna's mines still runs today. The fjord itself is spectacular, hemmed in by 1,800m mountains that plunge directly to the water.",
       "stops": [
-        { "name": "Narvik, Norway", "label": "Narvik" },
-        { "name": "Bjerkvik, Norway", "label": "Bjerkvik" },
-        { "name": "Bogen i Ofoten, Norway", "label": "Bogen" },
-        { "name": "Rombaksfjord, Norway", "label": "Rombaksfjord" },
-        { "name": "Skjomen, Norway", "label": "Skjomen" }
+        {
+          "name": "Narvik, Norway",
+          "label": "Narvik"
+        },
+        {
+          "name": "Bjerkvik, Norway",
+          "label": "Bjerkvik"
+        },
+        {
+          "name": "Bogen i Ofoten, Norway",
+          "label": "Bogen"
+        },
+        {
+          "name": "Rombaksfjord, Norway",
+          "label": "Rombaksfjord"
+        },
+        {
+          "name": "Skjomen, Norway",
+          "label": "Skjomen"
+        }
       ],
-      "highlights": ["Narvik WWII Battle Museum", "Ofoten Railway iron ore history", "Rombaksfjord mountain walls", "Midnight sun Arctic fjord"],
-      "cover_search_query": "Narvik Ofoten fjord iron ore railway Norway"
+      "highlights": [
+        "Narvik WWII Battle Museum",
+        "Ofoten Railway iron ore history",
+        "Rombaksfjord mountain walls",
+        "Midnight sun Arctic fjord"
+      ],
+      "cover_search_query": "Narvik Ofoten fjord iron ore railway Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/ofoten-narvik.jpg"
     },
     {
       "id": "bodo-saltfjellet",
@@ -770,15 +1757,39 @@
       "distance_km": 320,
       "description": "Bodø sits at the end of the E6 and the beginning of the open Arctic — the city itself hosts the world's strongest tidal current at Saltstraumen, where 400 million cubic metres of water rush through a 150m strait four times a day creating monster whirlpools. The drive south into Saltfjellet, the mountain wilderness straddling the Arctic Circle, passes the austere Arctic Circle Centre.",
       "stops": [
-        { "name": "Bodø, Norway", "label": "Bodø" },
-        { "name": "Saltstraumen, Norway", "label": "Saltstraumen" },
-        { "name": "Fauske, Norway", "label": "Fauske" },
-        { "name": "Rognan, Norway", "label": "Rognan" },
-        { "name": "Saltfjellet, Norway", "label": "Saltfjellet" },
-        { "name": "Mo i Rana, Norway", "label": "Mo i Rana" }
+        {
+          "name": "Bodø, Norway",
+          "label": "Bodø"
+        },
+        {
+          "name": "Saltstraumen, Norway",
+          "label": "Saltstraumen"
+        },
+        {
+          "name": "Fauske, Norway",
+          "label": "Fauske"
+        },
+        {
+          "name": "Rognan, Norway",
+          "label": "Rognan"
+        },
+        {
+          "name": "Saltfjellet, Norway",
+          "label": "Saltfjellet"
+        },
+        {
+          "name": "Mo i Rana, Norway",
+          "label": "Mo i Rana"
+        }
       ],
-      "highlights": ["Saltstraumen world's strongest maelstrom", "Arctic Circle monument", "Saltfjellet glacier plateau", "Bodø Aviation Museum"],
-      "cover_search_query": "Saltstraumen maelstrom whirlpool Bodø Norway"
+      "highlights": [
+        "Saltstraumen world's strongest maelstrom",
+        "Arctic Circle monument",
+        "Saltfjellet glacier plateau",
+        "Bodø Aviation Museum"
+      ],
+      "cover_search_query": "Saltstraumen maelstrom whirlpool Bodø Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/bodo-saltfjellet.jpg"
     },
     {
       "id": "nordkapp-epic",
@@ -788,15 +1799,39 @@
       "distance_km": 700,
       "description": "Driving to Nordkapp is a Nordic rite of passage — the E69 climbs from Alta onto the Finnmark plateau, crosses the Magerøy island via the undersea tunnel, and ends at a bleak cliff edge 71°10'21'' north where the midnight sun never sets from mid-May to late July. Hammerfest, the world's northernmost town, and the surreal isolation of the Barents Sea coastline make the journey as important as the destination.",
       "stops": [
-        { "name": "Tromsø, Norway", "label": "Tromsø" },
-        { "name": "Alta, Norway", "label": "Alta" },
-        { "name": "Hammerfest, Norway", "label": "Hammerfest" },
-        { "name": "Honningsvåg, Norway", "label": "Honningsvåg" },
-        { "name": "Nordkapp, Norway", "label": "Nordkapp" },
-        { "name": "Lakselv, Norway", "label": "Lakselv" }
+        {
+          "name": "Tromsø, Norway",
+          "label": "Tromsø"
+        },
+        {
+          "name": "Alta, Norway",
+          "label": "Alta"
+        },
+        {
+          "name": "Hammerfest, Norway",
+          "label": "Hammerfest"
+        },
+        {
+          "name": "Honningsvåg, Norway",
+          "label": "Honningsvåg"
+        },
+        {
+          "name": "Nordkapp, Norway",
+          "label": "Nordkapp"
+        },
+        {
+          "name": "Lakselv, Norway",
+          "label": "Lakselv"
+        }
       ],
-      "highlights": ["Nordkapp 71° North midnight sun", "Hammerfest world's northernmost town", "Alta Rock Carvings UNESCO", "Finnmark plateau Arctic wilderness"],
-      "cover_search_query": "Nordkapp North Cape midnight sun globe Norway"
+      "highlights": [
+        "Nordkapp 71° North midnight sun",
+        "Hammerfest world's northernmost town",
+        "Alta Rock Carvings UNESCO",
+        "Finnmark plateau Arctic wilderness"
+      ],
+      "cover_search_query": "Nordkapp North Cape midnight sun globe Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/nordkapp-epic.jpg"
     },
     {
       "id": "finnmark-plateau",
@@ -806,13 +1841,33 @@
       "distance_km": 480,
       "description": "The Finnmark plateau is the spiritual heartland of the Sámi people — an immense treeless tundra the size of Denmark where reindeer outnumber humans fifty to one and the only roads run as straight as thoughts across a flat horizon. Kautokeino and Karasjok are the twin capitals of Norwegian Sámi culture, with joik singing, reindeer herding and lavvu tent camps still very much alive.",
       "stops": [
-        { "name": "Alta, Norway", "label": "Alta" },
-        { "name": "Kautokeino, Norway", "label": "Kautokeino" },
-        { "name": "Karasjok, Norway", "label": "Karasjok" },
-        { "name": "Lakselv, Norway", "label": "Lakselv" },
-        { "name": "Hammerfest, Norway", "label": "Hammerfest" }
+        {
+          "name": "Alta, Norway",
+          "label": "Alta"
+        },
+        {
+          "name": "Kautokeino, Norway",
+          "label": "Kautokeino"
+        },
+        {
+          "name": "Karasjok, Norway",
+          "label": "Karasjok"
+        },
+        {
+          "name": "Lakselv, Norway",
+          "label": "Lakselv"
+        },
+        {
+          "name": "Hammerfest, Norway",
+          "label": "Hammerfest"
+        }
       ],
-      "highlights": ["Kautokeino Sámi cultural capital", "Finnmark plateau reindeer herds", "Alta Aurora Borealis Observatory", "Karasjok Sámi Parliament"],
+      "highlights": [
+        "Kautokeino Sámi cultural capital",
+        "Finnmark plateau reindeer herds",
+        "Alta Aurora Borealis Observatory",
+        "Karasjok Sámi Parliament"
+      ],
       "cover_search_query": "Kautokeino Sami reindeer herding Finnmark plateau Norway"
     },
     {
@@ -823,15 +1878,39 @@
       "distance_km": 560,
       "description": "The Varanger Peninsula at Norway's northeastern corner juts into the Barents Sea with an atmosphere unlike anywhere else in Europe — this is where Russia begins, where the tundra meets the sea, and where tens of thousands of seabirds nest on Hornøya's cliffs in summer. Kirkenes feels like a frontier town and Vardø, connected to the mainland by Norway's first undersea road tunnel, is the country's most easterly point.",
       "stops": [
-        { "name": "Alta, Norway", "label": "Alta" },
-        { "name": "Karasjok, Norway", "label": "Karasjok" },
-        { "name": "Kirkenes, Norway", "label": "Kirkenes" },
-        { "name": "Vardø, Norway", "label": "Vardø" },
-        { "name": "Vadsø, Norway", "label": "Vadsø" },
-        { "name": "Hammerfest, Norway", "label": "Hammerfest" }
+        {
+          "name": "Alta, Norway",
+          "label": "Alta"
+        },
+        {
+          "name": "Karasjok, Norway",
+          "label": "Karasjok"
+        },
+        {
+          "name": "Kirkenes, Norway",
+          "label": "Kirkenes"
+        },
+        {
+          "name": "Vardø, Norway",
+          "label": "Vardø"
+        },
+        {
+          "name": "Vadsø, Norway",
+          "label": "Vadsø"
+        },
+        {
+          "name": "Hammerfest, Norway",
+          "label": "Hammerfest"
+        }
       ],
-      "highlights": ["Vardø Norway's most easterly point", "Hornøya seabird cliff", "Kirkenes Russian border culture", "Varanger Arctic bird watching"],
-      "cover_search_query": "Vardø lighthouse Varanger peninsula Arctic Norway"
+      "highlights": [
+        "Vardø Norway's most easterly point",
+        "Hornøya seabird cliff",
+        "Kirkenes Russian border culture",
+        "Varanger Arctic bird watching"
+      ],
+      "cover_search_query": "Vardø lighthouse Varanger peninsula Arctic Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/alta-bird-cliffs.jpg"
     },
     {
       "id": "tromso-to-nordkapp",
@@ -841,15 +1920,39 @@
       "distance_km": 620,
       "description": "The coastal route from Tromsø to Nordkapp avoids the direct E6 inland run and instead tracks every fjord and island-bridge that Norway can muster, including the spectacular Skjervøy island and the quiet splendour of Kvænangen fjord. The final approach to Nordkapp via Magerøya island in the Barents Sea has an otherworldly quality — bare rock, tundra, and the unmistakeable sense of reaching the end of the road.",
       "stops": [
-        { "name": "Tromsø, Norway", "label": "Tromsø" },
-        { "name": "Skjervøy, Norway", "label": "Skjervøy" },
-        { "name": "Alta, Norway", "label": "Alta" },
-        { "name": "Hammerfest, Norway", "label": "Hammerfest" },
-        { "name": "Honningsvåg, Norway", "label": "Honningsvåg" },
-        { "name": "Nordkapp, Norway", "label": "Nordkapp" }
+        {
+          "name": "Tromsø, Norway",
+          "label": "Tromsø"
+        },
+        {
+          "name": "Skjervøy, Norway",
+          "label": "Skjervøy"
+        },
+        {
+          "name": "Alta, Norway",
+          "label": "Alta"
+        },
+        {
+          "name": "Hammerfest, Norway",
+          "label": "Hammerfest"
+        },
+        {
+          "name": "Honningsvåg, Norway",
+          "label": "Honningsvåg"
+        },
+        {
+          "name": "Nordkapp, Norway",
+          "label": "Nordkapp"
+        }
       ],
-      "highlights": ["Skjervøy island coastal bridge", "Kvænangen fjord wilderness", "Alta Rock Carvings 7000 years old", "Nordkapp midnight sun"],
-      "cover_search_query": "Nordkapp cliff midnight sun Barents Sea Norway"
+      "highlights": [
+        "Skjervøy island coastal bridge",
+        "Kvænangen fjord wilderness",
+        "Alta Rock Carvings 7000 years old",
+        "Nordkapp midnight sun"
+      ],
+      "cover_search_query": "Nordkapp cliff midnight sun Barents Sea Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/tromso-to-nordkapp.jpg"
     },
     {
       "id": "jotunheimen-classic",
@@ -859,15 +1962,39 @@
       "distance_km": 290,
       "description": "Jotunheimen — the Home of the Giants — is Norway's mountain heartland, where Galdhøpiggen and Glittertind, the two highest peaks in Scandinavia, watch over a landscape of glaciers and cold, black lakes. The Rv51 over the Valdresflye plateau, one of Norway's official scenic routes, delivers the classic high-mountain experience before dropping to the Fagernes valley.",
       "stops": [
-        { "name": "Lom, Norway", "label": "Lom" },
-        { "name": "Spiterstulen, Norway", "label": "Spiterstulen" },
-        { "name": "Gjendesheim, Norway", "label": "Gjendesheim" },
-        { "name": "Bessheim, Norway", "label": "Bessheim" },
-        { "name": "Fagernes, Norway", "label": "Fagernes" },
-        { "name": "Vågå, Norway", "label": "Vågå" }
+        {
+          "name": "Lom, Norway",
+          "label": "Lom"
+        },
+        {
+          "name": "Spiterstulen, Norway",
+          "label": "Spiterstulen"
+        },
+        {
+          "name": "Gjendesheim, Norway",
+          "label": "Gjendesheim"
+        },
+        {
+          "name": "Bessheim, Norway",
+          "label": "Bessheim"
+        },
+        {
+          "name": "Fagernes, Norway",
+          "label": "Fagernes"
+        },
+        {
+          "name": "Vågå, Norway",
+          "label": "Vågå"
+        }
       ],
-      "highlights": ["Galdhøpiggen highest peak Scandinavia", "Besseggen ridge hike", "Gjende lake turquoise colour", "Lom Stave Church"],
-      "cover_search_query": "Besseggen ridge hike Gjende lake Jotunheimen Norway"
+      "highlights": [
+        "Galdhøpiggen highest peak Scandinavia",
+        "Besseggen ridge hike",
+        "Gjende lake turquoise colour",
+        "Lom Stave Church"
+      ],
+      "cover_search_query": "Besseggen ridge hike Gjende lake Jotunheimen Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/jotunheimen-classic.jpg"
     },
     {
       "id": "rondane-hardangervidda",
@@ -877,17 +2004,47 @@
       "distance_km": 420,
       "description": "This sweeping inland traverse links two of Norway's greatest mountain plateaus — Rondane, Norway's oldest national park with its ten distinctive summits rising above the treeline, and Hardangervidda, Europe's largest high-altitude plain. Crossing between them via Atna and Geilo reveals the full range of Norwegian inland scenery from birch forest and river valley to open tundra and glacier margin.",
       "stops": [
-        { "name": "Oslo, Norway", "label": "Oslo" },
-        { "name": "Lillehammer, Norway", "label": "Lillehammer" },
-        { "name": "Ringebu, Norway", "label": "Ringebu" },
-        { "name": "Atna, Norway", "label": "Atna" },
-        { "name": "Rondane National Park, Norway", "label": "Rondane" },
-        { "name": "Geilo, Norway", "label": "Geilo" },
-        { "name": "Hardangervidda National Park, Norway", "label": "Hardangervidda" },
-        { "name": "Bergen, Norway", "label": "Bergen" }
+        {
+          "name": "Oslo, Norway",
+          "label": "Oslo"
+        },
+        {
+          "name": "Lillehammer, Norway",
+          "label": "Lillehammer"
+        },
+        {
+          "name": "Ringebu, Norway",
+          "label": "Ringebu"
+        },
+        {
+          "name": "Atna, Norway",
+          "label": "Atna"
+        },
+        {
+          "name": "Rondane National Park, Norway",
+          "label": "Rondane"
+        },
+        {
+          "name": "Geilo, Norway",
+          "label": "Geilo"
+        },
+        {
+          "name": "Hardangervidda National Park, Norway",
+          "label": "Hardangervidda"
+        },
+        {
+          "name": "Bergen, Norway",
+          "label": "Bergen"
+        }
       ],
-      "highlights": ["Rondane Norway's first national park", "Hardangervidda wild reindeer plateau", "Atna river valley birch forests", "Geilo ski resort high plateau"],
-      "cover_search_query": "Rondane national park ten summits Norway"
+      "highlights": [
+        "Rondane Norway's first national park",
+        "Hardangervidda wild reindeer plateau",
+        "Atna river valley birch forests",
+        "Geilo ski resort high plateau"
+      ],
+      "cover_search_query": "Rondane national park ten summits Norway",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/no/rondane-hardangervidda.jpg"
     }
   ]
 }

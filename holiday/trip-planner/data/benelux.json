@@ -11,14 +11,35 @@
       "distance_km": 180,
       "description": "The Flemish triangle of Bruges, Ghent, and Antwerp contains more world-class medieval art per square kilometre than almost anywhere on earth. Drive between canal-laced cities to see Van Eyck's Ghent Altarpiece, Bruegel's Flemish landscapes in Brussels, Rubens' cathedral masterpieces in Antwerp, and Bruges' mirror-still waterways lined with medieval guild houses.",
       "stops": [
-        { "name": "Brussels, Belgium", "label": "Brussels" },
-        { "name": "Ghent, Belgium", "label": "Ghent" },
-        { "name": "Bruges, Belgium", "label": "Bruges" },
-        { "name": "Antwerp, Belgium", "label": "Antwerp" },
-        { "name": "Mechelen, Belgium", "label": "Mechelen" }
+        {
+          "name": "Brussels, Belgium",
+          "label": "Brussels"
+        },
+        {
+          "name": "Ghent, Belgium",
+          "label": "Ghent"
+        },
+        {
+          "name": "Bruges, Belgium",
+          "label": "Bruges"
+        },
+        {
+          "name": "Antwerp, Belgium",
+          "label": "Antwerp"
+        },
+        {
+          "name": "Mechelen, Belgium",
+          "label": "Mechelen"
+        }
       ],
-      "highlights": ["Bruges medieval canal city", "Ghent Altarpiece Van Eyck", "Antwerp Rubens & diamond district", "Grand Place Brussels"],
-      "cover_search_query": "Bruges Belgium canals medieval guild houses reflection"
+      "highlights": [
+        "Bruges medieval canal city",
+        "Ghent Altarpiece Van Eyck",
+        "Antwerp Rubens & diamond district",
+        "Grand Place Brussels"
+      ],
+      "cover_search_query": "Bruges Belgium canals medieval guild houses reflection",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/benelux/flemish-art-cities.jpg"
     },
     {
       "id": "belgian-ardennes-loop",
@@ -28,14 +49,35 @@
       "distance_km": 280,
       "description": "The Belgian Ardennes is a dense hardwood plateau of river valleys, limestone caves, and ruined castles that stretches into Luxembourg — Belgium's most dramatic scenery. The Ourthe and Semois rivers carve deep meanders below forested ridgelines; Bouillon's castle rises on a rock above the river, and the caves of Han-sur-Lesse contain one of Europe's finest show cave systems.",
       "stops": [
-        { "name": "Namur, Belgium", "label": "Namur" },
-        { "name": "Dinant, Belgium", "label": "Dinant" },
-        { "name": "Han-sur-Lesse, Belgium", "label": "Han-sur-Lesse" },
-        { "name": "La Roche-en-Ardenne, Belgium", "label": "La Roche-en-Ardenne" },
-        { "name": "Bouillon, Belgium", "label": "Bouillon" }
+        {
+          "name": "Namur, Belgium",
+          "label": "Namur"
+        },
+        {
+          "name": "Dinant, Belgium",
+          "label": "Dinant"
+        },
+        {
+          "name": "Han-sur-Lesse, Belgium",
+          "label": "Han-sur-Lesse"
+        },
+        {
+          "name": "La Roche-en-Ardenne, Belgium",
+          "label": "La Roche-en-Ardenne"
+        },
+        {
+          "name": "Bouillon, Belgium",
+          "label": "Bouillon"
+        }
       ],
-      "highlights": ["Bouillon medieval castle", "Han-sur-Lesse caves", "Dinant citadel & saxophone birthplace", "Semois river meanders"],
-      "cover_search_query": "Belgian Ardennes Bouillon castle river valley forest"
+      "highlights": [
+        "Bouillon medieval castle",
+        "Han-sur-Lesse caves",
+        "Dinant citadel & saxophone birthplace",
+        "Semois river meanders"
+      ],
+      "cover_search_query": "Belgian Ardennes Bouillon castle river valley forest",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/benelux/belgian-ardennes-loop.jpg"
     },
     {
       "id": "dutch-tulip-fields-keukenhof",
@@ -45,14 +87,35 @@
       "distance_km": 170,
       "description": "Each spring the Dutch bulb fields burst into candy-striped carpets of colour visible from the air — tulips, hyacinths, and daffodils stretching to the horizon between Haarlem and Leiden. Keukenhof is the world's largest flower garden; the nearby dune coast road runs through nature reserves where you can cycle between windmills, cheese markets, and fish-smoking villages.",
       "stops": [
-        { "name": "Amsterdam, Netherlands", "label": "Amsterdam" },
-        { "name": "Haarlem, Netherlands", "label": "Haarlem" },
-        { "name": "Keukenhof, Netherlands", "label": "Keukenhof" },
-        { "name": "Leiden, Netherlands", "label": "Leiden" },
-        { "name": "Aalsmeer, Netherlands", "label": "Aalsmeer" }
+        {
+          "name": "Amsterdam, Netherlands",
+          "label": "Amsterdam"
+        },
+        {
+          "name": "Haarlem, Netherlands",
+          "label": "Haarlem"
+        },
+        {
+          "name": "Keukenhof, Netherlands",
+          "label": "Keukenhof"
+        },
+        {
+          "name": "Leiden, Netherlands",
+          "label": "Leiden"
+        },
+        {
+          "name": "Aalsmeer, Netherlands",
+          "label": "Aalsmeer"
+        }
       ],
-      "highlights": ["Keukenhof flower gardens", "Bollenstreek tulip stripes", "Haarlem Frans Hals Museum", "Aalsmeer flower auction"],
-      "cover_search_query": "Dutch tulip fields Netherlands colourful stripes windmill spring"
+      "highlights": [
+        "Keukenhof flower gardens",
+        "Bollenstreek tulip stripes",
+        "Haarlem Frans Hals Museum",
+        "Aalsmeer flower auction"
+      ],
+      "cover_search_query": "Dutch tulip fields Netherlands colourful stripes windmill spring",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/benelux/dutch-tulip-fields-keukenhof.jpg"
     },
     {
       "id": "luxembourg-mullerthal-little-switzerland",
@@ -62,14 +125,35 @@
       "distance_km": 160,
       "description": "The Mullerthal region in eastern Luxembourg earns its nickname 'Little Switzerland' through a labyrinth of mossy sandstone cliffs, narrow gorges, and waterfalls hiding in beech forests. The long-distance Mullerthal Trail threads through this landscape; the fairy-tale village of Vianden and Luxembourg City's UNESCO cliff-top old town bookend a route of striking contrasts.",
       "stops": [
-        { "name": "Luxembourg City, Luxembourg", "label": "Luxembourg City" },
-        { "name": "Echternach, Luxembourg", "label": "Echternach" },
-        { "name": "Berdorf, Luxembourg", "label": "Berdorf" },
-        { "name": "Larochette, Luxembourg", "label": "Larochette" },
-        { "name": "Vianden, Luxembourg", "label": "Vianden" }
+        {
+          "name": "Luxembourg City, Luxembourg",
+          "label": "Luxembourg City"
+        },
+        {
+          "name": "Echternach, Luxembourg",
+          "label": "Echternach"
+        },
+        {
+          "name": "Berdorf, Luxembourg",
+          "label": "Berdorf"
+        },
+        {
+          "name": "Larochette, Luxembourg",
+          "label": "Larochette"
+        },
+        {
+          "name": "Vianden, Luxembourg",
+          "label": "Vianden"
+        }
       ],
-      "highlights": ["Mullerthal sandstone gorges", "Vianden castle on the Our river", "Luxembourg City UNESCO casemates", "Echternach Dancing Procession"],
-      "cover_search_query": "Mullerthal Luxembourg sandstone gorge moss forest Little Switzerland"
+      "highlights": [
+        "Mullerthal sandstone gorges",
+        "Vianden castle on the Our river",
+        "Luxembourg City UNESCO casemates",
+        "Echternach Dancing Procession"
+      ],
+      "cover_search_query": "Mullerthal Luxembourg sandstone gorge moss forest Little Switzerland",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/benelux/luxembourg-mullerthal-little-switzerland.jpg"
     },
     {
       "id": "zeeland-delta-islands",
@@ -79,14 +163,35 @@
       "distance_km": 200,
       "description": "Zeeland — Sea Land — is the Netherlands' island province, its peninsulas and former islands now connected by the Delta Works, the greatest feat of hydraulic engineering in human history. Drive the Deltaweg across vast storm surge barriers above open water, explore Middelburg's restored medieval centre, and watch kitesurfers and oystercatchers share the tidal mudflats of the Oosterschelde.",
       "stops": [
-        { "name": "Middelburg, Netherlands", "label": "Middelburg" },
-        { "name": "Veere, Netherlands", "label": "Veere" },
-        { "name": "Domburg, Netherlands", "label": "Domburg" },
-        { "name": "Neeltje Jans, Netherlands", "label": "Neeltje Jans Delta Works" },
-        { "name": "Zierikzee, Netherlands", "label": "Zierikzee" }
+        {
+          "name": "Middelburg, Netherlands",
+          "label": "Middelburg"
+        },
+        {
+          "name": "Veere, Netherlands",
+          "label": "Veere"
+        },
+        {
+          "name": "Domburg, Netherlands",
+          "label": "Domburg"
+        },
+        {
+          "name": "Neeltje Jans, Netherlands",
+          "label": "Neeltje Jans Delta Works"
+        },
+        {
+          "name": "Zierikzee, Netherlands",
+          "label": "Zierikzee"
+        }
       ],
-      "highlights": ["Delta Works storm barriers", "Middelburg abbey & Gothic town hall", "Oosterschelde oysters & seals", "Veere historic harbour"],
-      "cover_search_query": "Zeeland Delta Works Netherlands storm surge barrier sea"
+      "highlights": [
+        "Delta Works storm barriers",
+        "Middelburg abbey & Gothic town hall",
+        "Oosterschelde oysters & seals",
+        "Veere historic harbour"
+      ],
+      "cover_search_query": "Zeeland Delta Works Netherlands storm surge barrier sea",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/benelux/zeeland-delta-islands.jpg"
     },
     {
       "id": "wallonia-castles-meuse-valley",
@@ -96,14 +201,35 @@
       "distance_km": 250,
       "description": "The Meuse river bisects Wallonia through a valley of dramatic limestone cliffs and riverside fortresses built by prince-bishops of Liège and dukes of Namur over centuries of border warfare. Château de Freyr rises above terraced gardens on the river bank; the citadel of Namur commands the confluence of Meuse and Sambre; Liège is a passionate industrial city of Walloon pride and magnificent churches.",
       "stops": [
-        { "name": "Liège, Belgium", "label": "Liège" },
-        { "name": "Huy, Belgium", "label": "Huy" },
-        { "name": "Namur, Belgium", "label": "Namur" },
-        { "name": "Château de Freyr, Belgium", "label": "Château de Freyr" },
-        { "name": "Dinant, Belgium", "label": "Dinant" }
+        {
+          "name": "Liège, Belgium",
+          "label": "Liège"
+        },
+        {
+          "name": "Huy, Belgium",
+          "label": "Huy"
+        },
+        {
+          "name": "Namur, Belgium",
+          "label": "Namur"
+        },
+        {
+          "name": "Château de Freyr, Belgium",
+          "label": "Château de Freyr"
+        },
+        {
+          "name": "Dinant, Belgium",
+          "label": "Dinant"
+        }
       ],
-      "highlights": ["Namur citadel confluence", "Château de Freyr Meuse gardens", "Liège Guillemins railway station", "Huy collegiate church"],
-      "cover_search_query": "Meuse Valley Belgium castle Namur citadel Wallonia river"
+      "highlights": [
+        "Namur citadel confluence",
+        "Château de Freyr Meuse gardens",
+        "Liège Guillemins railway station",
+        "Huy collegiate church"
+      ],
+      "cover_search_query": "Meuse Valley Belgium castle Namur citadel Wallonia river",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/benelux/wallonia-castles-meuse-valley.jpg"
     },
     {
       "id": "luxembourg-moselle-wine-road",
@@ -113,14 +239,35 @@
       "distance_km": 100,
       "description": "Luxembourg's 40km Moselle valley may be small but it punches far above its weight — a gentle corridor of south-facing vineyards producing outstanding Riesling, Auxerrois, and sparkling Crémant that rivals Champagne at a fraction of the price. Drive the wine route through Roman villages, stop at family estates for tastings, and take an afternoon river boat from Remich.",
       "stops": [
-        { "name": "Schengen, Luxembourg", "label": "Schengen" },
-        { "name": "Remich, Luxembourg", "label": "Remich" },
-        { "name": "Ehnen, Luxembourg", "label": "Ehnen" },
-        { "name": "Wormeldange, Luxembourg", "label": "Wormeldange" },
-        { "name": "Grevenmacher, Luxembourg", "label": "Grevenmacher" }
+        {
+          "name": "Schengen, Luxembourg",
+          "label": "Schengen"
+        },
+        {
+          "name": "Remich, Luxembourg",
+          "label": "Remich"
+        },
+        {
+          "name": "Ehnen, Luxembourg",
+          "label": "Ehnen"
+        },
+        {
+          "name": "Wormeldange, Luxembourg",
+          "label": "Wormeldange"
+        },
+        {
+          "name": "Grevenmacher, Luxembourg",
+          "label": "Grevenmacher"
+        }
       ],
-      "highlights": ["Schengen Treaty village", "Moselle Riesling tastings", "Remich river promenade", "Bernard-Massard Crémant caves"],
-      "cover_search_query": "Luxembourg Moselle valley vineyards wine Remich river"
+      "highlights": [
+        "Schengen Treaty village",
+        "Moselle Riesling tastings",
+        "Remich river promenade",
+        "Bernard-Massard Crémant caves"
+      ],
+      "cover_search_query": "Luxembourg Moselle valley vineyards wine Remich river",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/benelux/luxembourg-moselle-wine-road.jpg"
     },
     {
       "id": "hoge-veluwe-gelderland",
@@ -130,14 +277,35 @@
       "distance_km": 190,
       "description": "The Hoge Veluwe is the Netherlands' largest national park — a surprising inland wilderness of heather moorland, sand drifts, and pine forest, home to wild boar, red deer, and the extraordinary Kröller-Müller Museum with the world's second-largest Van Gogh collection. Arnhem and Nijmegen are nearby — cities shaped by Operation Market Garden whose wartime heritage still marks the landscape.",
       "stops": [
-        { "name": "Arnhem, Netherlands", "label": "Arnhem" },
-        { "name": "Hoge Veluwe National Park, Netherlands", "label": "Hoge Veluwe" },
-        { "name": "Otterlo, Netherlands", "label": "Kröller-Müller Museum" },
-        { "name": "Apeldoorn, Netherlands", "label": "Apeldoorn" },
-        { "name": "Nijmegen, Netherlands", "label": "Nijmegen" }
+        {
+          "name": "Arnhem, Netherlands",
+          "label": "Arnhem"
+        },
+        {
+          "name": "Hoge Veluwe National Park, Netherlands",
+          "label": "Hoge Veluwe"
+        },
+        {
+          "name": "Otterlo, Netherlands",
+          "label": "Kröller-Müller Museum"
+        },
+        {
+          "name": "Apeldoorn, Netherlands",
+          "label": "Apeldoorn"
+        },
+        {
+          "name": "Nijmegen, Netherlands",
+          "label": "Nijmegen"
+        }
       ],
-      "highlights": ["Kröller-Müller Van Gogh collection", "Hoge Veluwe heather moorland", "Arnhem Bridge & Operation Market Garden", "White bicycles in the park"],
-      "cover_search_query": "Hoge Veluwe Netherlands heather moorland national park deer"
+      "highlights": [
+        "Kröller-Müller Van Gogh collection",
+        "Hoge Veluwe heather moorland",
+        "Arnhem Bridge & Operation Market Garden",
+        "White bicycles in the park"
+      ],
+      "cover_search_query": "Hoge Veluwe Netherlands heather moorland national park deer",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/benelux/hoge-veluwe-gelderland.jpg"
     },
     {
       "id": "maastricht-limburg-hills",
@@ -147,14 +315,35 @@
       "distance_km": 170,
       "description": "Dutch Limburg is an anomaly — a narrow tongue of land jutting south between Belgium and Germany where the landscape actually undulates. Maastricht is the Netherlands' most Continental city, its Burgundian café culture, Roman catacombs, and medieval fortifications reflecting centuries at a European crossroads. The Valkenburg caves and Geuldal valley complete a route unlike anything else in the Netherlands.",
       "stops": [
-        { "name": "Maastricht, Netherlands", "label": "Maastricht" },
-        { "name": "Valkenburg aan de Geul, Netherlands", "label": "Valkenburg" },
-        { "name": "Gulpen, Netherlands", "label": "Gulpen" },
-        { "name": "Vaals, Netherlands", "label": "Vaals (Drielandenpunt)" },
-        { "name": "Sittard, Netherlands", "label": "Sittard" }
+        {
+          "name": "Maastricht, Netherlands",
+          "label": "Maastricht"
+        },
+        {
+          "name": "Valkenburg aan de Geul, Netherlands",
+          "label": "Valkenburg"
+        },
+        {
+          "name": "Gulpen, Netherlands",
+          "label": "Gulpen"
+        },
+        {
+          "name": "Vaals, Netherlands",
+          "label": "Vaals (Drielandenpunt)"
+        },
+        {
+          "name": "Sittard, Netherlands",
+          "label": "Sittard"
+        }
       ],
-      "highlights": ["Maastricht Roman catacombs", "Drielandenpunt three-country point", "Valkenburg castle caves", "Geuldal valley orchards"],
-      "cover_search_query": "Maastricht Netherlands medieval city Meuse river Vrijthof square"
+      "highlights": [
+        "Maastricht Roman catacombs",
+        "Drielandenpunt three-country point",
+        "Valkenburg castle caves",
+        "Geuldal valley orchards"
+      ],
+      "cover_search_query": "Maastricht Netherlands medieval city Meuse river Vrijthof square",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/benelux/maastricht-limburg-hills.jpg"
     },
     {
       "id": "north-holland-dunes-texel",
@@ -164,14 +353,35 @@
       "distance_km": 200,
       "description": "North of Amsterdam the coast narrows between the IJsselmeer and the North Sea into a corridor of dune reserves, polders, and traditional fishing villages. Alkmaar's cheese market is a living piece of Dutch folklore; the ferry to Texel leads to the Wadden Sea's largest island, with wide beaches, seals, migrating birds, and organic sheep farms.",
       "stops": [
-        { "name": "Alkmaar, Netherlands", "label": "Alkmaar" },
-        { "name": "Bergen, North Holland, Netherlands", "label": "Bergen" },
-        { "name": "Den Helder, Netherlands", "label": "Den Helder" },
-        { "name": "Texel, Netherlands", "label": "Texel Island" },
-        { "name": "Enkhuizen, Netherlands", "label": "Enkhuizen" }
+        {
+          "name": "Alkmaar, Netherlands",
+          "label": "Alkmaar"
+        },
+        {
+          "name": "Bergen, North Holland, Netherlands",
+          "label": "Bergen"
+        },
+        {
+          "name": "Den Helder, Netherlands",
+          "label": "Den Helder"
+        },
+        {
+          "name": "Texel, Netherlands",
+          "label": "Texel Island"
+        },
+        {
+          "name": "Enkhuizen, Netherlands",
+          "label": "Enkhuizen"
+        }
       ],
-      "highlights": ["Alkmaar cheese market", "Texel seal beaches & Wadden UNESCO site", "Zuiderzeemuseum Enkhuizen", "North Holland dune coast"],
-      "cover_search_query": "Texel island Netherlands Wadden Sea beach lighthouse dunes"
+      "highlights": [
+        "Alkmaar cheese market",
+        "Texel seal beaches & Wadden UNESCO site",
+        "Zuiderzeemuseum Enkhuizen",
+        "North Holland dune coast"
+      ],
+      "cover_search_query": "Texel island Netherlands Wadden Sea beach lighthouse dunes",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/benelux/north-holland-dunes-texel.jpg"
     },
     {
       "id": "vianden-our-valley-luxembourg",
@@ -181,14 +391,35 @@
       "distance_km": 110,
       "description": "The Our river forms Luxembourg's border with Germany through a wild valley of forested ridges and steep meadows that feels far from any capital. Vianden's castle — one of the largest feudal residences in Europe — rises on a rock above the river town where Victor Hugo spent a summer in exile. The Our valley hiking trails lead into the Eifel volcanic plateau across the border.",
       "stops": [
-        { "name": "Diekirch, Luxembourg", "label": "Diekirch" },
-        { "name": "Vianden, Luxembourg", "label": "Vianden" },
-        { "name": "Hosingen, Luxembourg", "label": "Hosingen" },
-        { "name": "Clervaux, Luxembourg", "label": "Clervaux" },
-        { "name": "Wiltz, Luxembourg", "label": "Wiltz" }
+        {
+          "name": "Diekirch, Luxembourg",
+          "label": "Diekirch"
+        },
+        {
+          "name": "Vianden, Luxembourg",
+          "label": "Vianden"
+        },
+        {
+          "name": "Hosingen, Luxembourg",
+          "label": "Hosingen"
+        },
+        {
+          "name": "Clervaux, Luxembourg",
+          "label": "Clervaux"
+        },
+        {
+          "name": "Wiltz, Luxembourg",
+          "label": "Wiltz"
+        }
       ],
-      "highlights": ["Vianden castle largest in Benelux", "Victor Hugo connections", "Our river border valley", "Clervaux Family of Man photography exhibition"],
-      "cover_search_query": "Vianden castle Luxembourg Our river valley medieval"
+      "highlights": [
+        "Vianden castle largest in Benelux",
+        "Victor Hugo connections",
+        "Our river border valley",
+        "Clervaux Family of Man photography exhibition"
+      ],
+      "cover_search_query": "Vianden castle Luxembourg Our river valley medieval",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/benelux/vianden-our-valley-luxembourg.jpg"
     },
     {
       "id": "belgian-coast-de-panne-knokke",
@@ -198,14 +429,35 @@
       "distance_km": 160,
       "description": "Belgium's 67km coast is compact but rich — a string of resorts from the wild dunes of De Panne near France to the sophisticated canal town of Knokke near the Dutch border. The coastal tram (world's longest regular tram route) connects them all; the Westhoek dunes are a rare ecosystem; and Ostend's art nouveau heritage and North Sea fish restaurants make it Belgium's most characterful seaside town.",
       "stops": [
-        { "name": "De Panne, Belgium", "label": "De Panne" },
-        { "name": "Koksijde, Belgium", "label": "Koksijde" },
-        { "name": "Ostend, Belgium", "label": "Ostend" },
-        { "name": "Blankenberge, Belgium", "label": "Blankenberge" },
-        { "name": "Knokke-Heist, Belgium", "label": "Knokke" }
+        {
+          "name": "De Panne, Belgium",
+          "label": "De Panne"
+        },
+        {
+          "name": "Koksijde, Belgium",
+          "label": "Koksijde"
+        },
+        {
+          "name": "Ostend, Belgium",
+          "label": "Ostend"
+        },
+        {
+          "name": "Blankenberge, Belgium",
+          "label": "Blankenberge"
+        },
+        {
+          "name": "Knokke-Heist, Belgium",
+          "label": "Knokke"
+        }
       ],
-      "highlights": ["Westhoek dune reserve", "Ostend art nouveau & fish market", "Belgian coastal tram longest route", "Knokke luxury dune resort"],
-      "cover_search_query": "Belgian coast Ostend North Sea beach tram dunes"
+      "highlights": [
+        "Westhoek dune reserve",
+        "Ostend art nouveau & fish market",
+        "Belgian coastal tram longest route",
+        "Knokke luxury dune resort"
+      ],
+      "cover_search_query": "Belgian coast Ostend North Sea beach tram dunes",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/benelux/belgian-coast-de-panne-knokke.jpg"
     },
     {
       "id": "dutch-waterways-amsterdam",
@@ -215,14 +467,35 @@
       "distance_km": 180,
       "description": "The Netherlands is a country built on water — a precise, centuries-old engineering project of dykes, windmills, and pumping stations that holds back the sea from land below sea level. This loop from Amsterdam takes in Kinderdijk's iconic 19 windmills, the cheese markets of Gouda, the pottery workshops of Delft, and the royal palace gardens of The Hague.",
       "stops": [
-        { "name": "Amsterdam, Netherlands", "label": "Amsterdam" },
-        { "name": "Kinderdijk, Netherlands", "label": "Kinderdijk windmills" },
-        { "name": "Gouda, Netherlands", "label": "Gouda" },
-        { "name": "Delft, Netherlands", "label": "Delft" },
-        { "name": "The Hague, Netherlands", "label": "The Hague" }
+        {
+          "name": "Amsterdam, Netherlands",
+          "label": "Amsterdam"
+        },
+        {
+          "name": "Kinderdijk, Netherlands",
+          "label": "Kinderdijk windmills"
+        },
+        {
+          "name": "Gouda, Netherlands",
+          "label": "Gouda"
+        },
+        {
+          "name": "Delft, Netherlands",
+          "label": "Delft"
+        },
+        {
+          "name": "The Hague, Netherlands",
+          "label": "The Hague"
+        }
       ],
-      "highlights": ["Kinderdijk 19 UNESCO windmills", "Gouda cheese market & syrup waffles", "Delft Vermeer & blue pottery", "The Hague Mauritshuis Vermeer collection"],
-      "cover_search_query": "Kinderdijk windmills Netherlands UNESCO reflection canal"
+      "highlights": [
+        "Kinderdijk 19 UNESCO windmills",
+        "Gouda cheese market & syrup waffles",
+        "Delft Vermeer & blue pottery",
+        "The Hague Mauritshuis Vermeer collection"
+      ],
+      "cover_search_query": "Kinderdijk windmills Netherlands UNESCO reflection canal",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/benelux/dutch-waterways-amsterdam.jpg"
     },
     {
       "id": "east-belgium-eifel-spa",
@@ -232,14 +505,35 @@
       "distance_km": 200,
       "description": "Eastern Belgium's German-speaking cantons are a quiet surprise — a high plateau of peat bogs, signal lakes, and ancient market towns absorbed from Germany after World War I. The Hautes Fagnes moorland is Belgium's highest and wildest terrain; Spa gave its name to the entire concept of health resorts and still draws visitors to its mineral springs; and Liège rewards with a passionate street food scene.",
       "stops": [
-        { "name": "Liège, Belgium", "label": "Liège" },
-        { "name": "Spa, Belgium", "label": "Spa" },
-        { "name": "Hautes Fagnes, Belgium", "label": "Hautes Fagnes" },
-        { "name": "Malmedy, Belgium", "label": "Malmedy" },
-        { "name": "Eupen, Belgium", "label": "Eupen" }
+        {
+          "name": "Liège, Belgium",
+          "label": "Liège"
+        },
+        {
+          "name": "Spa, Belgium",
+          "label": "Spa"
+        },
+        {
+          "name": "Hautes Fagnes, Belgium",
+          "label": "Hautes Fagnes"
+        },
+        {
+          "name": "Malmedy, Belgium",
+          "label": "Malmedy"
+        },
+        {
+          "name": "Eupen, Belgium",
+          "label": "Eupen"
+        }
       ],
-      "highlights": ["Hautes Fagnes peat bogs & Signal de Botrange", "Spa mineral springs & F1 circuit", "Malmedy carnival", "German-speaking East Cantons culture"],
-      "cover_search_query": "Hautes Fagnes Belgium high moor peat bog Signal de Botrange"
+      "highlights": [
+        "Hautes Fagnes peat bogs & Signal de Botrange",
+        "Spa mineral springs & F1 circuit",
+        "Malmedy carnival",
+        "German-speaking East Cantons culture"
+      ],
+      "cover_search_query": "Hautes Fagnes Belgium high moor peat bog Signal de Botrange",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/benelux/east-belgium-eifel-spa.jpg"
     },
     {
       "id": "groningen-frisian-islands",
@@ -249,14 +543,35 @@
       "distance_km": 280,
       "description": "The far north of the Netherlands feels like another country — flat, windswept, and proud. Groningen's vibrant student city and world-class Groninger Museum sit in a province of terp mounds and medieval churches. Ferry out to Vlieland and Terschelling in the Wadden Sea, where car-free islands of sand and forest harbour some of Europe's finest undisturbed birdwatching.",
       "stops": [
-        { "name": "Groningen, Netherlands", "label": "Groningen" },
-        { "name": "Leeuwarden, Netherlands", "label": "Leeuwarden" },
-        { "name": "Harlingen, Netherlands", "label": "Harlingen" },
-        { "name": "Terschelling, Netherlands", "label": "Terschelling" },
-        { "name": "Sneek, Netherlands", "label": "Sneek" }
+        {
+          "name": "Groningen, Netherlands",
+          "label": "Groningen"
+        },
+        {
+          "name": "Leeuwarden, Netherlands",
+          "label": "Leeuwarden"
+        },
+        {
+          "name": "Harlingen, Netherlands",
+          "label": "Harlingen"
+        },
+        {
+          "name": "Terschelling, Netherlands",
+          "label": "Terschelling"
+        },
+        {
+          "name": "Sneek, Netherlands",
+          "label": "Sneek"
+        }
       ],
-      "highlights": ["Groninger Museum & Martinitoren", "Terschelling car-free Wadden island", "Frisian lakes sailing", "Terp mound churches"],
-      "cover_search_query": "Terschelling Netherlands Wadden Sea island beach dunes ferry"
+      "highlights": [
+        "Groninger Museum & Martinitoren",
+        "Terschelling car-free Wadden island",
+        "Frisian lakes sailing",
+        "Terp mound churches"
+      ],
+      "cover_search_query": "Terschelling Netherlands Wadden Sea island beach dunes ferry",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/benelux/groningen-frisian-islands.jpg"
     },
     {
       "id": "belgium-hageland-orchards",
@@ -266,14 +581,35 @@
       "distance_km": 180,
       "description": "The Hageland and Haspengouw are Belgium's hidden countryside — rolling hills of orchards and vineyards east of Brussels that explode into white blossom in early spring. This fertile region produces Belgium's emerging wines, its famous Lambic beer hops, and the country's finest stone fruit. Leuven's world-class Gothic university town anchors a route of beer abbeys, blossom routes, and medieval castles.",
       "stops": [
-        { "name": "Leuven, Belgium", "label": "Leuven" },
-        { "name": "Tienen, Belgium", "label": "Tienen" },
-        { "name": "Sint-Truiden, Belgium", "label": "Sint-Truiden" },
-        { "name": "Tongeren, Belgium", "label": "Tongeren" },
-        { "name": "Hasselt, Belgium", "label": "Hasselt" }
+        {
+          "name": "Leuven, Belgium",
+          "label": "Leuven"
+        },
+        {
+          "name": "Tienen, Belgium",
+          "label": "Tienen"
+        },
+        {
+          "name": "Sint-Truiden, Belgium",
+          "label": "Sint-Truiden"
+        },
+        {
+          "name": "Tongeren, Belgium",
+          "label": "Tongeren"
+        },
+        {
+          "name": "Hasselt, Belgium",
+          "label": "Hasselt"
+        }
       ],
-      "highlights": ["Haspengouw spring blossom route", "Tongeren oldest Belgian city", "Leuven Gothic town hall", "Belgian fruit gin (jenever) distilleries"],
-      "cover_search_query": "Haspengouw Belgium apple blossom orchards spring Limburg"
+      "highlights": [
+        "Haspengouw spring blossom route",
+        "Tongeren oldest Belgian city",
+        "Leuven Gothic town hall",
+        "Belgian fruit gin (jenever) distilleries"
+      ],
+      "cover_search_query": "Haspengouw Belgium apple blossom orchards spring Limburg",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/benelux/belgium-hageland-orchards.jpg"
     },
     {
       "id": "dutch-rivers-gelderland",
@@ -283,14 +619,35 @@
       "distance_km": 200,
       "description": "The great rivers of Europe — Rhine, Waal, and Meuse — fan out across the Netherlands in a braided delta of islands, ferry crossings, and river dyke roads. The Betuwe ('good land') between the rivers is an orchard landscape of cherry and pear blossom; Nijmegen is the oldest city in the Netherlands; and the fort island of Loevestein guards the confluence where Waal meets the Maas.",
       "stops": [
-        { "name": "Nijmegen, Netherlands", "label": "Nijmegen" },
-        { "name": "Tiel, Netherlands", "label": "Tiel" },
-        { "name": "Zaltbommel, Netherlands", "label": "Zaltbommel" },
-        { "name": "Loevestein Castle, Netherlands", "label": "Loevestein Castle" },
-        { "name": "Gorinchem, Netherlands", "label": "Gorinchem" }
+        {
+          "name": "Nijmegen, Netherlands",
+          "label": "Nijmegen"
+        },
+        {
+          "name": "Tiel, Netherlands",
+          "label": "Tiel"
+        },
+        {
+          "name": "Zaltbommel, Netherlands",
+          "label": "Zaltbommel"
+        },
+        {
+          "name": "Loevestein Castle, Netherlands",
+          "label": "Loevestein Castle"
+        },
+        {
+          "name": "Gorinchem, Netherlands",
+          "label": "Gorinchem"
+        }
       ],
-      "highlights": ["Betuwe fruit blossom season", "Loevestein island fortress", "Nijmegen oldest Dutch city", "Rhine-Waal river dyke roads"],
-      "cover_search_query": "Betuwe Netherlands fruit blossom orchards river dyke polder"
+      "highlights": [
+        "Betuwe fruit blossom season",
+        "Loevestein island fortress",
+        "Nijmegen oldest Dutch city",
+        "Rhine-Waal river dyke roads"
+      ],
+      "cover_search_query": "Betuwe Netherlands fruit blossom orchards river dyke polder",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/benelux/dutch-rivers-gelderland.jpg"
     },
     {
       "id": "brussels-brabant-heritage",
@@ -300,14 +657,35 @@
       "distance_km": 160,
       "description": "Beyond Brussels' Grand Place and European quarter, Brabant hides a ring of forest towns, baroque abbeys, and Waterloo's historic battlefield. Drive south to Waterloo where Napoleon's empire ended in the mud; visit the extraordinary pilgrimage chapel of Grimbergen; and loop back through the Sonian Forest — one of Europe's oldest beech forests and a UNESCO World Heritage site — to Brussels' art nouveau heart.",
       "stops": [
-        { "name": "Brussels, Belgium", "label": "Brussels" },
-        { "name": "Waterloo, Belgium", "label": "Waterloo Battlefield" },
-        { "name": "Nivelles, Belgium", "label": "Nivelles" },
-        { "name": "Villers-la-Ville, Belgium", "label": "Villers Abbey Ruins" },
-        { "name": "Forêt de Soignes, Belgium", "label": "Sonian Forest" }
+        {
+          "name": "Brussels, Belgium",
+          "label": "Brussels"
+        },
+        {
+          "name": "Waterloo, Belgium",
+          "label": "Waterloo Battlefield"
+        },
+        {
+          "name": "Nivelles, Belgium",
+          "label": "Nivelles"
+        },
+        {
+          "name": "Villers-la-Ville, Belgium",
+          "label": "Villers Abbey Ruins"
+        },
+        {
+          "name": "Forêt de Soignes, Belgium",
+          "label": "Sonian Forest"
+        }
       ],
-      "highlights": ["Waterloo Battlefield & Lion's Mound", "Villers-la-Ville Cistercian abbey ruins", "Brussels Art Nouveau architecture", "Sonian Forest ancient beech trees"],
-      "cover_search_query": "Villers-la-Ville Belgium Cistercian abbey ruins romantic forest"
+      "highlights": [
+        "Waterloo Battlefield & Lion's Mound",
+        "Villers-la-Ville Cistercian abbey ruins",
+        "Brussels Art Nouveau architecture",
+        "Sonian Forest ancient beech trees"
+      ],
+      "cover_search_query": "Villers-la-Ville Belgium Cistercian abbey ruins romantic forest",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/benelux/brussels-brabant-heritage.jpg"
     },
     {
       "id": "luxembourg-ardennes-south",
@@ -317,14 +695,35 @@
       "distance_km": 160,
       "description": "Southern Luxembourg is less visited than the Mullerthal but equally rewarding — the Sûre river loops around the dramatic rocky spur of Esch-sur-Sûre with its medieval castle ruin, and the Upper Sûre Natural Park contains one of the Grand Duchy's most beautiful lakes. The market town of Wiltz, famous for its open-air theatre festival, makes an ideal base.",
       "stops": [
-        { "name": "Ettelbruck, Luxembourg", "label": "Ettelbruck" },
-        { "name": "Wiltz, Luxembourg", "label": "Wiltz" },
-        { "name": "Esch-sur-Sûre, Luxembourg", "label": "Esch-sur-Sûre" },
-        { "name": "Lac de la Haute-Sûre, Luxembourg", "label": "Upper Sûre Lake" },
-        { "name": "Bastogne, Belgium", "label": "Bastogne" }
+        {
+          "name": "Ettelbruck, Luxembourg",
+          "label": "Ettelbruck"
+        },
+        {
+          "name": "Wiltz, Luxembourg",
+          "label": "Wiltz"
+        },
+        {
+          "name": "Esch-sur-Sûre, Luxembourg",
+          "label": "Esch-sur-Sûre"
+        },
+        {
+          "name": "Lac de la Haute-Sûre, Luxembourg",
+          "label": "Upper Sûre Lake"
+        },
+        {
+          "name": "Bastogne, Belgium",
+          "label": "Bastogne"
+        }
       ],
-      "highlights": ["Esch-sur-Sûre dramatic river loop castle", "Upper Sûre lake kayaking", "Bastogne Battle of the Bulge museum", "Wiltz open-air theatre"],
-      "cover_search_query": "Esch-sur-Sûre Luxembourg castle river loop meander Ardennes"
+      "highlights": [
+        "Esch-sur-Sûre dramatic river loop castle",
+        "Upper Sûre lake kayaking",
+        "Bastogne Battle of the Bulge museum",
+        "Wiltz open-air theatre"
+      ],
+      "cover_search_query": "Esch-sur-Sûre Luxembourg castle river loop meander Ardennes",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/benelux/luxembourg-ardennes-south.jpg"
     },
     {
       "id": "friesland-lakes-windmills",
@@ -334,14 +733,35 @@
       "distance_km": 190,
       "description": "Friesland has its own language, its own culture, and its own epic winter skating race — the Elfstedentocht — linking eleven historic cities across 200km of frozen canals. In summer the same waterways are the playground of the Netherlands' most beloved sailing region, while the terraced-field landscape of the coastal clay marshes hides terp-mound villages with outstanding Romanesque churches.",
       "stops": [
-        { "name": "Leeuwarden, Netherlands", "label": "Leeuwarden" },
-        { "name": "Sneek, Netherlands", "label": "Sneek" },
-        { "name": "Bolsward, Netherlands", "label": "Bolsward" },
-        { "name": "Franeker, Netherlands", "label": "Franeker" },
-        { "name": "Dokkum, Netherlands", "label": "Dokkum" }
+        {
+          "name": "Leeuwarden, Netherlands",
+          "label": "Leeuwarden"
+        },
+        {
+          "name": "Sneek, Netherlands",
+          "label": "Sneek"
+        },
+        {
+          "name": "Bolsward, Netherlands",
+          "label": "Bolsward"
+        },
+        {
+          "name": "Franeker, Netherlands",
+          "label": "Franeker"
+        },
+        {
+          "name": "Dokkum, Netherlands",
+          "label": "Dokkum"
+        }
       ],
-      "highlights": ["Elfstedentocht eleven cities circuit", "Frisian sailing lakes", "Franeker orrery (oldest working planetarium)", "Frisian Romanesque terp churches"],
-      "cover_search_query": "Friesland Netherlands sailing lakes windmill canal Dutch"
+      "highlights": [
+        "Elfstedentocht eleven cities circuit",
+        "Frisian sailing lakes",
+        "Franeker orrery (oldest working planetarium)",
+        "Frisian Romanesque terp churches"
+      ],
+      "cover_search_query": "Friesland Netherlands sailing lakes windmill canal Dutch",
+      "photo_url": "https://ivvujjmtshqlsnyxtibf.supabase.co/storage/v1/object/public/trip-photos/benelux/friesland-lakes-windmills.jpg"
     }
   ]
 }
