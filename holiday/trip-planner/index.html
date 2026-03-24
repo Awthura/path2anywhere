@@ -723,9 +723,10 @@
         const img = document.createElement('img');
         img.className = 'trip-cover';
         img.alt = trip.name;
-        img.src = trip.photo_url;
+        img.loading = 'lazy';
+        img.src = trip.photo_url + '?width=600&quality=75&resize=cover';
         img.onload = () => photoEl.replaceWith(img);
-        img.onerror = () => photoEl.classList.remove('photo-loading');
+        img.onerror = () => { img.src = trip.photo_url; }; // fall back to original if transform fails
       } else {
         photoEl.classList.remove('photo-loading');
       }
