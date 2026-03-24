@@ -574,8 +574,28 @@
   let currentCountry = null;
   let currentData = null;
 
-  // ── Country picker ──
+  // ── Image transform helper ──
+  function thumbUrl(url) {
+    return url + '?width=400&quality=65&resize=cover';
+  }
+
+  // ── Country picker + hover prefetch ──
+  const _prefetched = new Set();
   document.querySelectorAll('.country-tile').forEach(tile => {
+    tile.addEventListener('mouseenter', () => {
+      const country = tile.dataset.country;
+      if (_prefetched.has(country)) return;
+      _prefetched.add(country);
+      fetch(`./data/${country}.json`)
+        .then(r => r.json())
+        .then(data => {
+          (data.trips || []).slice(0, 9).forEach(trip => {
+            if (!trip.photo_url) return;
+            new Image().src = thumbUrl(trip.photo_url);
+          });
+        })
+        .catch(() => {});
+    });
     tile.addEventListener('click', () => {
       const country = tile.dataset.country;
       selectCountry(country, tile);
@@ -724,9 +744,9 @@
         img.className = 'trip-cover';
         img.alt = trip.name;
         img.loading = 'lazy';
-        img.src = trip.photo_url + '?width=600&quality=75&resize=cover';
+        img.src = thumbUrl(trip.photo_url);
         img.onload = () => photoEl.replaceWith(img);
-        img.onerror = () => { img.src = trip.photo_url; }; // fall back to original if transform fails
+        img.onerror = () => { img.src = trip.photo_url; };
       } else {
         photoEl.classList.remove('photo-loading');
       }
