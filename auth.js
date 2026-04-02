@@ -11,6 +11,7 @@
 
   let _session     = null;
   let _plan        = 'free';
+  let _isAdmin     = false;
   let _initialized = false;
 
   // ── Init ────────────────────────────────────────────────────────────────────
@@ -33,6 +34,7 @@
       const wasSignedIn = !!_session;
       _session = session;
       _plan    = 'free';
+      _isAdmin = false;
       if (session) await _loadPlan();
       _updateHeaderUI();
 
@@ -71,7 +73,7 @@
   async function _loadPlan() {
     const { data } = await sb
       .from('user_subscriptions')
-      .select('plan, valid_until')
+      .select('plan, valid_until, is_admin')
       .eq('user_id', _session.user.id)
       .single();
 
@@ -81,6 +83,7 @@
     } else {
       _plan = 'free';
     }
+    _isAdmin = !!(data?.is_admin);
   }
 
   // ── Usage checking ───────────────────────────────────────────────────────────
@@ -385,6 +388,9 @@
     closeAuthModal,
     closePaywall,
     signOut,
+    isAdmin:     () => _isAdmin,
+    getSession:  () => _session,
+    getSupabase: () => sb,
     _switchTab,
     _handleSignIn,
     _handleSignUp,

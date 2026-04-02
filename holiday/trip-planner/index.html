@@ -435,6 +435,66 @@
     #empty-state p { font-size: 14px; margin-top: 8px; }
 
 
+    /* ── Community section ── */
+    .community-section { margin-top: 40px; }
+    .community-heading {
+      font-size: 13px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.1em; color: var(--accent); margin-bottom: 16px;
+      display: flex; align-items: center; gap: 8px;
+    }
+    .community-heading::after { content: ''; flex: 1; height: 1px; background: var(--border); }
+
+    /* Creator badge */
+    .creator-badge {
+      font-size: 11px; color: var(--muted); margin-top: 2px;
+    }
+    .creator-badge span { color: var(--accent); font-weight: 600; }
+
+    /* Upvote button */
+    .upvote-btn {
+      display: inline-flex; align-items: center; gap: 5px;
+      background: none; border: 1px solid var(--border); border-radius: 20px;
+      color: var(--muted); font-size: 12px; font-weight: 600;
+      padding: 4px 12px; cursor: pointer; transition: all 0.15s;
+    }
+    .upvote-btn:hover { border-color: var(--accent); color: var(--accent); }
+    .upvote-btn.voted { background: rgba(167,139,250,0.12); border-color: var(--accent); color: var(--accent); }
+    .plan-btn { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+
+    /* Submit a trip button */
+    .submit-trip-btn {
+      background: none; border: 1px solid var(--accent); border-radius: 6px;
+      color: var(--accent); font-size: 12px; font-weight: 600;
+      padding: 5px 14px; cursor: pointer; white-space: nowrap;
+      transition: background 0.15s;
+    }
+    .submit-trip-btn:hover { background: rgba(167,139,250,0.1); }
+
+    /* Submit modal */
+    #submit-modal { display:none; position:fixed; inset:0; background:rgba(0,0,0,.75); z-index:10000; align-items:flex-start; justify-content:center; overflow-y:auto; padding:40px 16px; }
+    #submit-modal.visible { display:flex; }
+    #submit-box { background:#1a1d27; border:1px solid #2a2d3a; border-radius:14px; padding:28px; max-width:540px; width:100%; }
+    #submit-box h2 { font-size:18px; font-weight:700; color:var(--text); margin:0 0 20px; }
+    .sform-label { font-size:12px; font-weight:600; color:var(--muted); text-transform:uppercase; letter-spacing:.07em; margin-bottom:5px; display:block; }
+    .sform-group { margin-bottom:14px; }
+    .sform-input { width:100%; background:#0f1117; border:1px solid #2a2d3a; border-radius:7px; padding:9px 12px; color:var(--text); font-size:14px; box-sizing:border-box; font-family:inherit; }
+    .sform-input:focus { outline:none; border-color:var(--accent); }
+    .sform-row { display:flex; gap:10px; }
+    .sform-row .sform-group { flex:1; }
+    .stop-row-input { display:flex; gap:6px; margin-bottom:6px; }
+    .stop-row-input input { flex:1; }
+    .stop-row-input button { background:none; border:1px solid #2a2d3a; border-radius:6px; color:var(--muted); padding:0 10px; cursor:pointer; font-size:16px; }
+    .stop-row-input button:hover { border-color:#f87171; color:#f87171; }
+    .add-stop-link { font-size:12px; color:var(--accent); cursor:pointer; background:none; border:none; padding:2px 0; }
+    .add-stop-link:hover { text-decoration:underline; }
+    .sform-submit { width:100%; background:var(--accent); color:#0f1117; border:none; border-radius:8px; padding:11px; font-size:15px; font-weight:700; cursor:pointer; margin-top:6px; }
+    .sform-submit:disabled { opacity:.5; cursor:default; }
+    .sform-close { float:right; background:none; border:none; color:var(--muted); font-size:20px; cursor:pointer; margin-top:-4px; }
+    .sform-close:hover { color:var(--text); }
+    .sform-msg { font-size:13px; margin-top:10px; padding:8px 12px; border-radius:6px; display:none; }
+    .sform-msg.error { background:#3b1c1c; border:1px solid #7f1d1d; color:#fca5a5; display:block; }
+    .sform-msg.success { background:#0f2e1c; border:1px solid #166534; color:#86efac; display:block; }
+
     /* ── Responsive ── */
     @media (max-width: 600px) {
       header { padding: 0 16px; }
@@ -544,6 +604,7 @@
         <option value="">All regions</option>
       </select>
       <input type="text" id="search-input" placeholder="Search trips…" autocomplete="off" />
+      <button class="submit-trip-btn" id="submit-trip-btn" onclick="openSubmitModal()" style="display:none">+ Submit trip</button>
     </div>
 
     <div class="journey-bar">
@@ -558,6 +619,10 @@
     </div>
 
     <div id="cards-grid"></div>
+    <div id="community-section" class="community-section" style="display:none">
+      <div class="community-heading">Community Trips</div>
+      <div id="community-grid"></div>
+    </div>
     <div id="empty-state">
       <div style="font-size:32px">🗺️</div>
       <p>No trips match your filter. Try a different region or clear your search.</p>
@@ -571,8 +636,10 @@
   const MULTI_STOP_URL = '/route-calculator/multi-stop/';
 
   // ── State ──
-  let currentCountry = null;
-  let currentData = null;
+  let currentCountry   = null;
+  let currentData      = null;
+  let communityTrips   = [];   // approved community trips for current country
+  let myVotes          = new Set(); // trip IDs the current user has upvoted
 
   // ── Image transform helper ──
   function thumbUrl(url) {
@@ -650,11 +717,142 @@
     const emoji = currentData.emoji || '🌍';
     title.textContent = `${emoji} ${currentData.country} Road Trips`;
 
-    // Render cards
+    // Render curated cards
     renderCards(currentData.trips);
     prefillJourneyBar();
-
     applyPhotos();
+
+    // Show submit button for signed-in users
+    const submitBtn = document.getElementById('submit-trip-btn');
+    if (submitBtn) submitBtn.style.display = P2AAuth.getSession() ? 'inline-flex' : 'none';
+
+    // Load community trips in parallel
+    loadCommunityTrips(country);
+  }
+
+  // ── Community trips ──
+  async function loadCommunityTrips(country) {
+    const sb = P2AAuth.getSupabase();
+    communityTrips = [];
+    myVotes = new Set();
+
+    const section = document.getElementById('community-section');
+    const grid    = document.getElementById('community-grid');
+    section.style.display = 'none';
+    grid.innerHTML = '';
+
+    // Fetch approved community trips for this country with vote counts
+    const { data: trips, error } = await sb
+      .from('community_trips')
+      .select('*, community_trip_votes(count)')
+      .eq('country', country)
+      .eq('status', 'approved')
+      .order('created_at', { ascending: false });
+
+    if (error || !trips?.length) return;
+
+    // Sort by vote count descending
+    communityTrips = trips
+      .map(t => ({ ...t, vote_count: t.community_trip_votes?.[0]?.count ?? 0 }))
+      .sort((a, b) => b.vote_count - a.vote_count);
+
+    // Fetch current user's votes for these trips
+    const session = P2AAuth.getSession();
+    if (session) {
+      const ids = communityTrips.map(t => t.id);
+      const { data: votes } = await sb
+        .from('community_trip_votes')
+        .select('trip_id')
+        .eq('user_id', session.user.id)
+        .in('trip_id', ids);
+      (votes || []).forEach(v => myVotes.add(v.trip_id));
+    }
+
+    grid.innerHTML = communityTrips.map(communityCardHtml).join('');
+    section.style.display = 'block';
+
+    // Apply photos for community trips
+    communityTrips.forEach(trip => {
+      if (!trip.photo_url) return;
+      const photoEl = document.getElementById(`cphoto-${trip.id}`);
+      if (!photoEl || photoEl.tagName === 'IMG') return;
+      const img = document.createElement('img');
+      img.className = 'trip-cover';
+      img.alt = trip.name;
+      img.loading = 'lazy';
+      img.src = thumbUrl(trip.photo_url);
+      img.onload = () => photoEl.replaceWith(img);
+      img.onerror = () => { img.src = trip.photo_url; };
+    });
+  }
+
+  function communityCardHtml(trip) {
+    const tripJson = escHtml(JSON.stringify({
+      name: trip.name,
+      stops: (trip.stops || []).map(s => s.name),
+      firstLabel: trip.stops?.[0]?.label || '',
+    }));
+
+    const stopsHtml = (trip.stops || []).slice(0, 6).map((s, i, arr) =>
+      `<span class="stop-chip">${escHtml(s.label)}</span>${i < arr.length - 1 ? '<span class="stop-sep">›</span>' : ''}`
+    ).join('') + ((trip.stops?.length > 6) ? `<span class="stop-sep">+${trip.stops.length - 6} more</span>` : '');
+
+    const highlightsHtml = (trip.highlights || []).map(h =>
+      `<span class="highlight-chip">${escHtml(h)}</span>`
+    ).join('');
+
+    const voted   = myVotes.has(trip.id);
+    const photoId = `cphoto-${trip.id}`;
+
+    return `
+      <div class="trip-card" data-trip-id="${trip.id}">
+        <div class="trip-cover-placeholder photo-loading" id="${photoId}">
+          <span>🗺️</span>
+        </div>
+        <div class="trip-body">
+          <div class="trip-header">
+            <h3>${escHtml(trip.name)}</h3>
+          </div>
+          <div class="creator-badge">by <span>${escHtml(trip.creator_name || 'community')}</span></div>
+          <div class="trip-pills">
+            ${trip.region ? `<span class="pill region">${escHtml(trip.region)}</span>` : ''}
+            ${trip.duration_days ? `<span class="pill duration">⏱ ${trip.duration_days}d</span>` : ''}
+          </div>
+          ${trip.description ? `<p class="trip-desc">${escHtml(trip.description)}</p>` : ''}
+          <div class="trip-stops">${stopsHtml}</div>
+          ${highlightsHtml ? `<div class="trip-highlights">${highlightsHtml}</div>` : ''}
+          <div class="plan-btn">
+            <button data-trip="${tripJson}" onclick="openPlanner(this)">Plan this route →</button>
+            <button class="upvote-btn${voted ? ' voted' : ''}" id="upvote-${trip.id}" onclick="toggleUpvote('${trip.id}', this)">
+              ▲ <span class="vote-count">${trip.vote_count}</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+
+  async function toggleUpvote(tripId, btn) {
+    const session = P2AAuth.getSession();
+    if (!session) { P2AAuth.openAuthModal(); return; }
+
+    const sb      = P2AAuth.getSupabase();
+    const voted   = myVotes.has(tripId);
+    const countEl = btn.querySelector('.vote-count');
+    const current = parseInt(countEl.textContent, 10) || 0;
+
+    if (voted) {
+      myVotes.delete(tripId);
+      btn.classList.remove('voted');
+      countEl.textContent = current - 1;
+      await sb.from('community_trip_votes').delete()
+        .eq('trip_id', tripId).eq('user_id', session.user.id);
+    } else {
+      myVotes.add(tripId);
+      btn.classList.add('voted');
+      countEl.textContent = current + 1;
+      await sb.from('community_trip_votes').insert({ trip_id: tripId, user_id: session.user.id });
+    }
   }
 
   // ── Render ──
@@ -700,6 +898,7 @@
             <div class="trip-header">
               <h3>${escHtml(trip.name)}</h3>
             </div>
+            <div class="creator-badge">by <span>admin</span></div>
             <div class="trip-pills">
               <span class="pill region">${escHtml(trip.region)}</span>
               <span class="pill duration">⏱ ${trip.duration_days}d</span>
@@ -802,6 +1001,195 @@
     const e = localStorage.getItem('p2a_end');
     if (s) document.getElementById('journey-start').value = s;
     if (e) document.getElementById('journey-end').value   = e;
+  }
+
+  // ── Submit trip modal ──
+  const COUNTRY_OPTIONS = [
+    { value: 'italy',       label: '🇮🇹 Italy' },
+    { value: 'france',      label: '🇫🇷 France' },
+    { value: 'germany',     label: '🇩🇪 Germany' },
+    { value: 'spain',       label: '🇪🇸 Spain' },
+    { value: 'switzerland', label: '🇨🇭 Switzerland' },
+    { value: 'austria',     label: '🇦🇹 Austria' },
+    { value: 'portugal',    label: '🇵🇹 Portugal' },
+    { value: 'benelux',     label: '🇧🇪 Benelux' },
+    { value: 'norway',      label: '🇳🇴 Norway' },
+    { value: 'poland',      label: '🇵🇱 Poland' },
+    { value: 'iceland',     label: '🇮🇸 Iceland' },
+    { value: 'europe',      label: '🇪🇺 Multi-Country' },
+  ];
+
+  function openSubmitModal() {
+    const session = P2AAuth.getSession();
+    if (!session) { P2AAuth.openAuthModal(); return; }
+
+    if (document.getElementById('submit-modal')) {
+      document.getElementById('submit-modal').classList.add('visible');
+      return;
+    }
+
+    const countryOpts = COUNTRY_OPTIONS.map(o =>
+      `<option value="${o.value}"${currentCountry === o.value ? ' selected' : ''}>${o.label}</option>`
+    ).join('');
+
+    const modal = document.createElement('div');
+    modal.id = 'submit-modal';
+    modal.innerHTML = `
+      <div id="submit-box">
+        <button class="sform-close" onclick="closeSubmitModal()">×</button>
+        <h2>Submit a Road Trip</h2>
+        <div class="sform-group">
+          <label class="sform-label">Trip name *</label>
+          <input id="sf-name" class="sform-input" type="text" placeholder="e.g. Coastal Drive of Alentejo" maxlength="80" />
+        </div>
+        <div class="sform-row">
+          <div class="sform-group">
+            <label class="sform-label">Country *</label>
+            <select id="sf-country" class="sform-input"><option value="">Select…</option>${countryOpts}</select>
+          </div>
+          <div class="sform-group">
+            <label class="sform-label">Region</label>
+            <input id="sf-region" class="sform-input" type="text" placeholder="e.g. Alentejo" maxlength="60" />
+          </div>
+        </div>
+        <div class="sform-row">
+          <div class="sform-group">
+            <label class="sform-label">Duration (days)</label>
+            <input id="sf-days" class="sform-input" type="number" min="1" max="30" placeholder="e.g. 4" />
+          </div>
+          <div class="sform-group">
+            <label class="sform-label">Cover photo (optional)</label>
+            <input id="sf-photo" class="sform-input" type="file" accept="image/*" style="padding:5px" />
+          </div>
+        </div>
+        <div class="sform-group">
+          <label class="sform-label">Description</label>
+          <textarea id="sf-desc" class="sform-input" rows="3" placeholder="Describe the route in 2–3 sentences…" maxlength="500" style="resize:vertical"></textarea>
+        </div>
+        <div class="sform-group">
+          <label class="sform-label">Stops * (min 2 — use full place names, e.g. "Évora, Portugal")</label>
+          <div id="sf-stops-list"></div>
+          <button class="add-stop-link" onclick="addSubmitStop()">+ Add stop</button>
+        </div>
+        <div class="sform-group">
+          <label class="sform-label">Highlights (up to 4)</label>
+          <div id="sf-highlights-list"></div>
+          <button class="add-stop-link" onclick="addSubmitHighlight()">+ Add highlight</button>
+        </div>
+        <div id="sf-msg" class="sform-msg"></div>
+        <button class="sform-submit" id="sf-submit" onclick="submitTrip()">Submit for review</button>
+      </div>`;
+    document.body.appendChild(modal);
+    modal.classList.add('visible');
+    modal.addEventListener('click', e => { if (e.target === modal) closeSubmitModal(); });
+
+    // Seed with 2 stop rows and 1 highlight
+    addSubmitStop(); addSubmitStop();
+    addSubmitHighlight();
+  }
+
+  function closeSubmitModal() {
+    document.getElementById('submit-modal')?.classList.remove('visible');
+  }
+
+  function addSubmitStop() {
+    const list = document.getElementById('sf-stops-list');
+    if (!list || list.children.length >= 10) return;
+    const row = document.createElement('div');
+    row.className = 'stop-row-input';
+    row.innerHTML = `<input class="sform-input sf-stop" type="text" placeholder="e.g. Lisbon, Portugal" /><button onclick="this.parentElement.remove()" title="Remove">✕</button>`;
+    list.appendChild(row);
+  }
+
+  function addSubmitHighlight() {
+    const list = document.getElementById('sf-highlights-list');
+    if (!list || list.children.length >= 4) return;
+    const row = document.createElement('div');
+    row.className = 'stop-row-input';
+    row.innerHTML = `<input class="sform-input" type="text" placeholder="e.g. Évora Roman temple" maxlength="60" /><button onclick="this.parentElement.remove()" title="Remove">✕</button>`;
+    list.appendChild(row);
+  }
+
+  async function submitTrip() {
+    const session = P2AAuth.getSession();
+    if (!session) return;
+
+    const sb     = P2AAuth.getSupabase();
+    const btn    = document.getElementById('sf-submit');
+    const msgEl  = document.getElementById('sf-msg');
+    msgEl.className = 'sform-msg';
+
+    const name    = document.getElementById('sf-name').value.trim();
+    const country = document.getElementById('sf-country').value;
+    const region  = document.getElementById('sf-region').value.trim();
+    const days    = parseInt(document.getElementById('sf-days').value) || null;
+    const desc    = document.getElementById('sf-desc').value.trim();
+    const photoFile = document.getElementById('sf-photo').files?.[0] || null;
+
+    const stopInputs = [...document.querySelectorAll('.sf-stop')].map(i => i.value.trim()).filter(Boolean);
+    const highlights = [...document.querySelectorAll('#sf-highlights-list input')].map(i => i.value.trim()).filter(Boolean);
+
+    if (!name)               { showSfMsg('Trip name is required.'); return; }
+    if (!country)            { showSfMsg('Please select a country.'); return; }
+    if (stopInputs.length < 2) { showSfMsg('Please enter at least 2 stops.'); return; }
+
+    btn.disabled = true; btn.textContent = 'Submitting…';
+
+    const stops = stopInputs.map(s => {
+      const label = s.split(',')[0].trim();
+      return { name: s, label };
+    });
+
+    // Determine creator_name
+    const creatorName = P2AAuth.isAdmin() ? 'admin' : (
+      session.user.user_metadata?.full_name ||
+      session.user.email?.split('@')[0] ||
+      'community'
+    );
+
+    const tripId = crypto.randomUUID();
+    let photo_url = null;
+
+    // Upload photo if provided
+    if (photoFile) {
+      const ext  = photoFile.name.split('.').pop().toLowerCase() || 'jpg';
+      const path = `community/${session.user.id}/${tripId}.${ext}`;
+      const { error: uploadErr } = await sb.storage.from('trip-photos').upload(path, photoFile, { upsert: true });
+      if (!uploadErr) {
+        const { data: urlData } = sb.storage.from('trip-photos').getPublicUrl(path);
+        photo_url = urlData?.publicUrl || null;
+      }
+    }
+
+    const { error } = await sb.from('community_trips').insert({
+      id: tripId,
+      user_id:      session.user.id,
+      creator_name: creatorName,
+      name,
+      country,
+      region:        region || null,
+      duration_days: days,
+      description:   desc || null,
+      stops,
+      highlights:    highlights.length ? highlights : null,
+      photo_url,
+    });
+
+    btn.disabled = false; btn.textContent = 'Submit for review';
+
+    if (error) {
+      showSfMsg('Something went wrong: ' + error.message);
+    } else {
+      msgEl.className = 'sform-msg success';
+      msgEl.textContent = '✓ Submitted! Your trip will appear once approved.';
+      setTimeout(closeSubmitModal, 2500);
+    }
+  }
+
+  function showSfMsg(msg) {
+    const el = document.getElementById('sf-msg');
+    el.className = 'sform-msg error';
+    el.textContent = msg;
   }
 
   // ── Utilities ──
