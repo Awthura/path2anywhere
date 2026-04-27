@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updated": "2026-04-20",
+    "updated": "2026-04-27",
     "sources": {
       "US": "EIA.gov (Weekly Retail Gasoline Prices)",
       "EU": "EU Oil Bulletin (European Commission)",
@@ -16,16 +16,16 @@
   },
   "countries": {
     "AT": {
-      "petrol": 1.718,
-      "diesel": 2.075,
+      "petrol": 1.691,
+      "diesel": 1.948,
       "electric_kwh": 0.22,
       "currency": "EUR",
       "symbol": "€",
       "unit": "litre"
     },
     "BE": {
-      "petrol": 1.8749,
-      "diesel": 2.326,
+      "petrol": 1.8345,
+      "diesel": 2.1931,
       "electric_kwh": 0.33,
       "currency": "EUR",
       "symbol": "€",
@@ -40,8 +40,8 @@
       "unit": "litre"
     },
     "CY": {
-      "petrol": 1.5203,
-      "diesel": 1.8443,
+      "petrol": 1.5309,
+      "diesel": 1.8684,
       "electric_kwh": 0.21,
       "currency": "EUR",
       "symbol": "€",
@@ -56,8 +56,8 @@
       "unit": "litre"
     },
     "DE": {
-      "petrol": 2.141,
-      "diesel": 2.275,
+      "petrol": 2.106,
+      "diesel": 2.133,
       "electric_kwh": 0.31,
       "currency": "EUR",
       "symbol": "€",
@@ -72,48 +72,48 @@
       "unit": "litre"
     },
     "EE": {
-      "petrol": 1.742,
-      "diesel": 2.058,
+      "petrol": 1.717,
+      "diesel": 1.878,
       "electric_kwh": 0.19,
       "currency": "EUR",
       "symbol": "€",
       "unit": "litre"
     },
     "ES": {
-      "petrol": 1.5524,
-      "diesel": 1.8847,
+      "petrol": 1.517,
+      "diesel": 1.8077,
       "electric_kwh": 0.18,
       "currency": "EUR",
       "symbol": "€",
       "unit": "litre"
     },
     "FI": {
-      "petrol": 2.0107,
-      "diesel": 2.3041,
+      "petrol": 1.9607,
+      "diesel": 2.2458,
       "electric_kwh": 0.15,
       "currency": "EUR",
       "symbol": "€",
       "unit": "litre"
     },
     "FR": {
-      "petrol": 2.0361,
-      "diesel": 2.3139,
+      "petrol": 2.0226,
+      "diesel": 2.2441,
       "electric_kwh": 0.24,
       "currency": "EUR",
       "symbol": "€",
       "unit": "litre"
     },
     "GR": {
-      "petrol": 2.062,
-      "diesel": 2.058,
+      "petrol": 2.025,
+      "diesel": 1.946,
       "electric_kwh": 0.18,
       "currency": "EUR",
       "symbol": "€",
       "unit": "litre"
     },
     "HR": {
-      "petrol": 1.72,
-      "diesel": 1.99,
+      "petrol": 1.712,
+      "diesel": 1.964,
       "electric_kwh": 0.14,
       "currency": "EUR",
       "symbol": "€",
@@ -128,24 +128,24 @@
       "unit": "litre"
     },
     "IE": {
-      "petrol": 1.9169,
-      "diesel": 2.1612,
+      "petrol": 1.907,
+      "diesel": 2.1531,
       "electric_kwh": 0.28,
       "currency": "EUR",
       "symbol": "€",
       "unit": "litre"
     },
     "IT": {
-      "petrol": 1.7827,
-      "diesel": 2.1534,
+      "petrol": 1.7628,
+      "diesel": 2.1147,
       "electric_kwh": 0.28,
       "currency": "EUR",
       "symbol": "€",
       "unit": "litre"
     },
     "LT": {
-      "petrol": 1.745,
-      "diesel": 2.1504,
+      "petrol": 1.7053,
+      "diesel": 2.0407,
       "electric_kwh": 0.16,
       "currency": "EUR",
       "symbol": "€",
@@ -153,15 +153,15 @@
     },
     "LU": {
       "petrol": 1.721,
-      "diesel": 2.007,
+      "diesel": 1.872,
       "electric_kwh": 0.25,
       "currency": "EUR",
       "symbol": "€",
       "unit": "litre"
     },
     "LV": {
-      "petrol": 1.8334,
-      "diesel": 2.124,
+      "petrol": 1.7914,
+      "diesel": 2.0062,
       "electric_kwh": 0.19,
       "currency": "EUR",
       "symbol": "€",
@@ -176,8 +176,8 @@
       "unit": "litre"
     },
     "NL": {
-      "petrol": 2.3157,
-      "diesel": 2.4688,
+      "petrol": 2.2794,
+      "diesel": 2.2963,
       "electric_kwh": 0.32,
       "currency": "EUR",
       "symbol": "€",
@@ -192,8 +192,8 @@
       "unit": "litre"
     },
     "PT": {
-      "petrol": 1.911,
-      "diesel": 2.083,
+      "petrol": 1.899,
+      "diesel": 1.98,
       "electric_kwh": 0.22,
       "currency": "EUR",
       "symbol": "€",
@@ -216,16 +216,16 @@
       "unit": "litre"
     },
     "SI": {
-      "petrol": 1.6348,
-      "diesel": 1.8522,
+      "petrol": 1.6465,
+      "diesel": 1.8742,
       "electric_kwh": 0.18,
       "currency": "EUR",
       "symbol": "€",
       "unit": "litre"
     },
     "SK": {
-      "petrol": 1.669,
-      "diesel": 1.75,
+      "petrol": 1.694,
+      "diesel": 1.772,
       "electric_kwh": 0.18,
       "currency": "EUR",
       "symbol": "€",
@@ -280,8 +280,8 @@
       "unit": "litre"
     },
     "US": {
-      "petrol": 1.1238,
-      "diesel": 1.4815,
+      "petrol": 1.1037,
+      "diesel": 1.4273,
       "electric_kwh": 0.16,
       "currency": "USD",
       "symbol": "$",
